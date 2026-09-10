@@ -1,0 +1,1102 @@
+{
+  "ScheduleData": [
+    [
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/omega-european-masters-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": false,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026134,
+        "Status": 3,
+        "Name": "Omega European Masters",
+        "StartDate": "2026-09-03T00:00:00.0000000",
+        "CountryCode": "SUI",
+        "CourseName": "Crans-sur-Sierre GC",
+        "RoundNo": "4",
+        "Location": null,
+        "EndDate": "2026-09-06T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 4
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/amgen-irish-open-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": false,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026135,
+        "Status": 0,
+        "Name": "Amgen Irish Open",
+        "StartDate": "2026-09-10T00:00:00.0000000",
+        "CountryCode": "IRL",
+        "CourseName": "Trump International Golf Links & Hotel Ireland",
+        "RoundNo": "1",
+        "Location": null,
+        "EndDate": "2026-09-13T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 6
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/bmw-pga-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026136,
+        "Status": 6,
+        "Name": "BMW PGA CHAMPIONSHIP",
+        "StartDate": "2026-09-17T00:00:00.0000000",
+        "CountryCode": "ENG",
+        "CourseName": "Wentworth Club",
+        "RoundNo": "1",
+        "Location": null,
+        "EndDate": "2026-09-20T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      }
+    ]
+  ],
+  "RolexSeriesData": {
+    "Schedule": [
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/hero-dubai-desert-classic-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026106,
+        "Status": 3,
+        "Name": "Hero Dubai Desert Classic",
+        "StartDate": "2026-01-22T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Emirates GC",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-01-25T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/genesis-scottish-open-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026126,
+        "Status": 3,
+        "Name": "Genesis Scottish Open",
+        "StartDate": "2026-07-09T00:00:00.0000000",
+        "CountryCode": "SCO",
+        "CourseName": "The Renaissance Club",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-07-12T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/bmw-pga-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026136,
+        "Status": 6,
+        "Name": "BMW PGA CHAMPIONSHIP",
+        "StartDate": "2026-09-17T00:00:00.0000000",
+        "CountryCode": "ENG",
+        "CourseName": "Wentworth Club",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-09-20T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/abu-dhabi-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026142,
+        "Status": 4,
+        "Name": "ABU DHABI CHAMPIONSHIP",
+        "StartDate": "2026-11-05T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Yas Links",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-11-08T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/dp-world-tour-championship-dubai-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026143,
+        "Status": 4,
+        "Name": "DP WORLD TOUR CHAMPIONSHIP, DUBAI",
+        "StartDate": "2026-11-12T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Earth course",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-11-15T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      }
+    ],
+    "SelectedEvent": 1
+  },
+  "RankingPlayers": [
+    [
+      {
+        "PlayerId": 38439,
+        "FirstName": "Patrick",
+        "LastName": "REED",
+        "CountryCode": "USA",
+        "EventsPlayed": 16,
+        "CountingEvents": 0,
+        "CurrentPoints": 2990.12,
+        "CurrentRank": 1,
+        "CurrentRankDesc": "1",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1770280028/prod/cdsmaznfe3lqje9vdihd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/patrick-reed-38439/"
+      },
+      {
+        "PlayerId": 34024,
+        "FirstName": "Rory",
+        "LastName": "MCILROY",
+        "CountryCode": "NIR",
+        "EventsPlayed": 8,
+        "CountingEvents": 0,
+        "CurrentPoints": 2552.86,
+        "CurrentRank": 2,
+        "CurrentRankDesc": "2",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1561217808/PROD/fg1cotbp6zfhnzmfactd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/rory-mcilroy-34024/"
+      },
+      {
+        "PlayerId": 43332,
+        "FirstName": "Eugenio",
+        "LastName": "CHACARRA",
+        "CountryCode": "ESP",
+        "EventsPlayed": 23,
+        "CountingEvents": 0,
+        "CurrentPoints": 2463.42,
+        "CurrentRank": 3,
+        "CurrentRankDesc": "3",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769159085/prod/o5lyzjr4fmwvnzx2yj29",
+        "SelfUrl": null,
+        "PlayerLink": "/players/eugenio-chacarra-43332/"
+      },
+      {
+        "PlayerId": 43957,
+        "FirstName": "Casey",
+        "LastName": "JARVIS",
+        "CountryCode": "RSA",
+        "EventsPlayed": 21,
+        "CountingEvents": 0,
+        "CurrentPoints": 2220.51,
+        "CurrentRank": 4,
+        "CurrentRankDesc": "4",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1758614659/prod/yajhjihmla3mcwyojdno",
+        "SelfUrl": null,
+        "PlayerLink": "/players/casey-jarvis-43957/"
+      },
+      {
+        "PlayerId": 43682,
+        "FirstName": "Jayden",
+        "LastName": "SCHAPER",
+        "CountryCode": "RSA",
+        "EventsPlayed": 20,
+        "CountingEvents": 0,
+        "CurrentPoints": 2094.09,
+        "CurrentRank": 5,
+        "CurrentRankDesc": "5",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1740056148/prod/qrkkx8ldyaicrrapgdik",
+        "SelfUrl": null,
+        "PlayerLink": "/players/jayden-schaper-43682/"
+      },
+      {
+        "PlayerId": 35122,
+        "FirstName": "Ryan",
+        "LastName": "FOX",
+        "CountryCode": "NZL",
+        "EventsPlayed": 9,
+        "CountingEvents": 0,
+        "CurrentPoints": 2042.3,
+        "CurrentRank": 6,
+        "CurrentRankDesc": "6",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 0,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1561241169/PROD/eoy4apvuyralh1cg5bqz",
+        "SelfUrl": null,
+        "PlayerLink": "/players/ryan-fox-35122/"
+      },
+      {
+        "PlayerId": 39583,
+        "FirstName": "Aaron",
+        "LastName": "RAI",
+        "CountryCode": "ENG",
+        "EventsPlayed": 5,
+        "CountingEvents": 0,
+        "CurrentPoints": 1876.5,
+        "CurrentRank": 7,
+        "CurrentRankDesc": "7",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 0,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769088884/prod/xoy0qltrhfo7u8aoofcd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/aaron-rai-39583/"
+      },
+      {
+        "PlayerId": 38119,
+        "FirstName": "Andy",
+        "LastName": "SULLIVAN",
+        "CountryCode": "ENG",
+        "EventsPlayed": 21,
+        "CountingEvents": 0,
+        "CurrentPoints": 1673.23,
+        "CurrentRank": 8,
+        "CurrentRankDesc": "8",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 0,
+        "PlacedSecond": 1,
+        "PlacedThird": 2,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769085684/prod/xfqqiara6lrl8m25vbit",
+        "SelfUrl": null,
+        "PlayerLink": "/players/andy-sullivan-38119/"
+      },
+      {
+        "PlayerId": 33676,
+        "FirstName": "Bernd",
+        "LastName": "WIESBERGER",
+        "CountryCode": "AUT",
+        "EventsPlayed": 22,
+        "CountingEvents": 0,
+        "CurrentPoints": 1536.42,
+        "CurrentRank": 9,
+        "CurrentRankDesc": "9",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 3,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 3,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769160157/prod/r6afmwp6hqf1amjlhrkk",
+        "SelfUrl": null,
+        "PlayerLink": "/players/bernd-wiesberger-33676/"
+      },
+      {
+        "PlayerId": 40874,
+        "FirstName": "Oliver",
+        "LastName": "LINDELL",
+        "CountryCode": "FIN",
+        "EventsPlayed": 21,
+        "CountingEvents": 0,
+        "CurrentPoints": 1527.27,
+        "CurrentRank": 10,
+        "CurrentRankDesc": "10",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": -1,
+        "EventWins": 0,
+        "PlacedSecond": 2,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 4,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1739192717/prod/whyytp0hyhe6wal41fix",
+        "SelfUrl": null,
+        "PlayerLink": "/players/oliver-lindell-40874/"
+      }
+    ]
+  ],
+  "TourNews": [
+    {
+      "Type": "story",
+      "_translationId": "2987d26d-c82e-48aa-bcc1-12e7331d75a4",
+      "_entityId": "fb2dbe93-1660-461a-b027-6212f0aaf1a9",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/joaquin-niemann-leads-after-wild-and-windy-opening-day-in-ireland/",
+      "Slug": "joaquin-niemann-leads-after-wild-and-windy-opening-day-in-ireland",
+      "Title": "Joaquin Niemann leads after wild and windy opening day in Ireland",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "8b907481-151a-4135-ade0-d396bf21868f",
+          "_entityId": "31ac428a-00d3-4c85-b650-7ded4971525a",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-amgen-irish-open-2026135",
+          "Title": "Amgen Irish Open  ",
+          "Slug": "2026-amgen-irish-open-2026135",
+          "NeutralSlug": "2026-amgen-irish-open-2026135",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026135",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026135",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-09-10T00:00:00Z",
+            "endDate": "2026-09-13T00:00:00Z",
+            "location": "[{\"CourseId\":\"4751\",\"Name\":\"Trump International Golf Links & Hotel Ireland\",\"CountryCode\":\"IRL\",\"Location\":\"Trump International Golf Links & Hotel, Doonbeg, Ireland\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "eccf7fb0-0c16-403e-88e1-09a1b1997de7",
+          "_entityId": "4751f556-df8a-4cbe-bc32-e6c679cd8137",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/report",
+          "Title": "Report",
+          "Slug": "report",
+          "NeutralSlug": "report",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-report",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "106"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "fcd434c3-4b9d-4717-9434-f42fdfe34de4",
+          "_entityId": "c8a4ad76-11f4-4c94-86df-8066a1457132",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/notification-et-content",
+          "Title": "Content",
+          "Slug": "notification-et-content",
+          "NeutralSlug": "notification-et-content",
+          "ExternalSourceName": "notification",
+          "ExternalSourceReference": {
+            "SourceId": "notification-et-content",
+            "SourceName": "notification"
+          },
+          "ExtraData": {
+            "UrbanTag": "et-content"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "8d8c6e42-2826-4d32-82c2-15751661d84f",
+          "_entityId": "2860602c-a10c-4584-8cb1-663b3abc5afa",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/joaquin-niemann-41763",
+          "Title": "Joaquin NIEMANN 41763",
+          "Slug": "joaquin-niemann-41763",
+          "NeutralSlug": "joaquin-niemann-41763",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "41763",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "CHI",
+            "playerId": "41763",
+            "firstName": "Joaquin",
+            "lastName": "NIEMANN",
+            "dateOfBirth": "1996-06-12",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "",
+            "qualifyingSchool": ""
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "European Tour"
+      },
+      "CreatedBy": "Matthew Hardisty",
+      "LastUpdatedBy": "Matthew Hardisty",
+      "LastUpdatedDate": "2026-09-10T19:26:11.019Z",
+      "ContentDate": "2026-09-10T19:12:50.84Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "eccf7fb0-0c16-403e-88e1-09a1b1997de7",
+        "_entityId": "4751f556-df8a-4cbe-bc32-e6c679cd8137",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/report",
+        "Title": "Report",
+        "Slug": "report",
+        "NeutralSlug": "report",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-report",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeKindId": "106"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Joaquin Niemann produced a late birdie burst to card a 65 and lead the way after day one of the Amgen Irish Open.",
+      "Summary": "Joaquin Niemann produced a late birdie burst to card a 65 and lead the way after day one of the Amgen Irish Open.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2294471494",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2294471494",
+        "Title": "Joaquin Niemann",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1789064590/prod/uibfylaucdshxfiiok7h",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1789064590/prod/uibfylaucdshxfiiok7h",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "19f9c1c2-1100-4ea1-99ed-a30531948372",
+      "_entityId": "88fd821c-9823-4333-8130-3cd99acc94a7",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/31-and-counting-padraig-harrington-set-for-record-national-open-appearance-at-amgen-irish-open/",
+      "Slug": "31-and-counting-padraig-harrington-set-for-record-national-open-appearance-at-amgen-irish-open",
+      "Title": "31 and counting - P\u00e1draig Harrington set for record national open appearance at Amgen Irish Open ",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "1496dab7-98dc-42a3-a341-d6f11eb7bb42",
+          "_entityId": "61aa13ff-0eba-4545-a346-9632fded970a",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/padraig-harrington-293",
+          "Title": "Padraig HARRINGTON 293",
+          "Slug": "padraig-harrington-293",
+          "NeutralSlug": "padraig-harrington-293",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "293",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "IRL",
+            "playerId": "293",
+            "firstName": "Padraig",
+            "lastName": "HARRINGTON",
+            "dateOfBirth": "1971-08-31",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "185",
+            "qualifyingSchool": "1995*"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "8b907481-151a-4135-ade0-d396bf21868f",
+          "_entityId": "31ac428a-00d3-4c85-b650-7ded4971525a",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-amgen-irish-open-2026135",
+          "Title": "Amgen Irish Open  ",
+          "Slug": "2026-amgen-irish-open-2026135",
+          "NeutralSlug": "2026-amgen-irish-open-2026135",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026135",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026135",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-09-10T00:00:00Z",
+            "endDate": "2026-09-13T00:00:00Z",
+            "location": "[{\"CourseId\":\"4751\",\"Name\":\"Trump International Golf Links & Hotel Ireland\",\"CountryCode\":\"IRL\",\"Location\":\"Trump International Golf Links & Hotel, Doonbeg, Ireland\"}]"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "European Tour"
+      },
+      "CreatedBy": "Mathieu Wood",
+      "LastUpdatedBy": "Mathieu Wood",
+      "LastUpdatedDate": "2026-09-09T16:40:32.422Z",
+      "ContentDate": "2026-09-09T16:16:52.428Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+        "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+        "Title": "News",
+        "Slug": "news",
+        "NeutralSlug": "news",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-news",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeKindId": "100"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "P\u00e1draig Harrington may be 55 years old but the competitor in him is showing no signs of going away as he brings up a record 31st consecutive appearance at the Amgen Irish Open, saying: \"I still think I can win it.\"",
+      "Summary": "P\u00e1draig Harrington may be 55 years old but the competitor in him is showing no signs of going away as he brings up a record 31st consecutive appearance at the Amgen Irish Open, saying: \"I still think I can win it.\"",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "harrington-2294323497",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/harrington-2294323497",
+        "Title": "Harrington-2294323497",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1788964825/prod/m5jr9gjse6eotu0ddj7u",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1788964825/prod/m5jr9gjse6eotu0ddj7u",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "2844cbab-3276-4cd5-bb43-77defc694bea",
+      "_entityId": "b2e3a605-0081-42cc-ba87-266c30e16698",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/links-artist-shane-lowry-looking-to-draw-on-experience-at-amgen-irish-open/",
+      "Slug": "links-artist-shane-lowry-looking-to-draw-on-experience-at-amgen-irish-open",
+      "Title": "Links artist Shane Lowry looking to draw on experience at Amgen Irish Open",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "8b907481-151a-4135-ade0-d396bf21868f",
+          "_entityId": "31ac428a-00d3-4c85-b650-7ded4971525a",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-amgen-irish-open-2026135",
+          "Title": "Amgen Irish Open  ",
+          "Slug": "2026-amgen-irish-open-2026135",
+          "NeutralSlug": "2026-amgen-irish-open-2026135",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026135",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026135",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-09-10T00:00:00Z",
+            "endDate": "2026-09-13T00:00:00Z",
+            "location": "[{\"CourseId\":\"4751\",\"Name\":\"Trump International Golf Links & Hotel Ireland\",\"CountryCode\":\"IRL\",\"Location\":\"Trump International Golf Links & Hotel, Doonbeg, Ireland\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "f602dc89-27ba-4130-88ad-32236b829504",
+          "_entityId": "a1dd841b-6504-4d32-82dc-348f706e7e78",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/shane-lowry-36489",
+          "Title": "Shane LOWRY 36489",
+          "Slug": "shane-lowry-36489",
+          "NeutralSlug": "shane-lowry-36489",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "36489",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "IRL",
+            "playerId": "36489",
+            "firstName": "Shane",
+            "lastName": "LOWRY",
+            "dateOfBirth": "1987-04-02",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "183",
+            "qualifyingSchool": "(2008) (Joined Tour by winning the 3 Irish Open 2009)"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "European Tour"
+      },
+      "CreatedBy": "Matthew Hardisty",
+      "LastUpdatedBy": "Mathieu Wood",
+      "LastUpdatedDate": "2026-09-09T16:08:01.079Z",
+      "ContentDate": "2026-09-09T16:08:01.079Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+        "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+        "Title": "News",
+        "Slug": "news",
+        "NeutralSlug": "news",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-news",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeKindId": "100"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Shane Lowry is hopeful his experience in the \"art\" of links golf can help him claim a first individual win in four years at the Amgen Irish Open.",
+      "Summary": "Shane Lowry is hopeful his experience in the \"art\" of links golf can help him claim a first individual win in four years at the Amgen Irish Open.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2294282473",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2294282473",
+        "Title": "Shane Lowry",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1788969273/prod/mvrendzezzcdycekbshz",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1788969273/prod/mvrendzezzcdycekbshz",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "1c6a7274-79d2-4fd1-8f9e-b956c9a01fe1",
+      "_entityId": "d5c2c75a-6eee-4906-af7f-00e189d0af73",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/luke-donald-inspired-by-gb-i-s-walker-cup-heroics/",
+      "Slug": "luke-donald-inspired-by-gb-i-s-walker-cup-heroics",
+      "Title": "Luke Donald inspired by GB&I's Walker Cup heroics",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "8b907481-151a-4135-ade0-d396bf21868f",
+          "_entityId": "31ac428a-00d3-4c85-b650-7ded4971525a",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-amgen-irish-open-2026135",
+          "Title": "Amgen Irish Open  ",
+          "Slug": "2026-amgen-irish-open-2026135",
+          "NeutralSlug": "2026-amgen-irish-open-2026135",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026135",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026135",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-09-10T00:00:00Z",
+            "endDate": "2026-09-13T00:00:00Z",
+            "location": "[{\"CourseId\":\"4751\",\"Name\":\"Trump International Golf Links & Hotel Ireland\",\"CountryCode\":\"IRL\",\"Location\":\"Trump International Golf Links & Hotel, Doonbeg, Ireland\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "92d3ee56-5202-4569-baab-afae7d0f61de",
+          "_entityId": "e591dcb6-845e-4e6b-a7d8-f608781ac992",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/luke-donald-30357",
+          "Title": "Luke DONALD 30357",
+          "Slug": "luke-donald-30357",
+          "NeutralSlug": "luke-donald-30357",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "30357",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "ENG",
+            "playerId": "30357",
+            "firstName": "Luke",
+            "lastName": "DONALD",
+            "dateOfBirth": "1977-12-07",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "175",
+            "qualifyingSchool": "(Joined Tour as an Affiliate Member 2003)"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "European Tour"
+      },
+      "CreatedBy": "Matthew Hardisty",
+      "LastUpdatedBy": "Camilla Tait",
+      "LastUpdatedDate": "2026-09-09T15:30:05.287Z",
+      "ContentDate": "2026-09-09T15:30:05.287Z",
+      "Context": null,
+      "Featured": 0,
+      "Headline": "It may be 53 weeks until Luke Donald may be 53 weeks away from returning to Ireland in pursuit of a third straight Ryder Cup victory, but ahead of the\u00a0Amgen Irish Open \u00a0the European Captain revealed that last week's Walker Cup has already got the match play juices flowing.",
+      "Summary": "It may be 53 weeks until Luke Donald may be 53 weeks away from returning to Ireland in pursuit of a third straight Ryder Cup victory, but ahead of the\u00a0Amgen Irish Open the European Captain revealed that last week's Walker Cup has already got the match play juices flowing.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2294273486",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2294273486",
+        "Title": "Luke Donald",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1788965247/prod/ionvdtmib2kkhkczm97m",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1788965247/prod/ionvdtmib2kkhkczm97m",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "24c1ec0e-2685-4665-a0dd-d6097f2aaeb5",
+      "_entityId": "37a4c631-b5cc-4ad8-b8e7-bc90e50ef9db",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/rory-mcilroy-excited-to-resume-colin-montgomerie-race-to-dubai-record-chase-as-he-defends-home-title/",
+      "Slug": "rory-mcilroy-excited-to-resume-colin-montgomerie-race-to-dubai-record-chase-as-he-defends-home-title",
+      "Title": "Rory McIlroy excited to resume Colin Montgomerie Race to Dubai record chase as he defends home title",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "e7d04263-dae9-4d41-978b-3fa34cee92f3",
+          "_entityId": "237e0d7a-7dc9-44c6-b76f-d0309abd2617",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rory-mcilroy-34024",
+          "Title": "Rory MCILROY 34024",
+          "Slug": "rory-mcilroy-34024",
+          "NeutralSlug": "rory-mcilroy-34024",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "34024",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "NIR",
+            "playerId": "34024",
+            "firstName": "Rory",
+            "lastName": "MCILROY",
+            "dateOfBirth": "1989-05-04",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "175",
+            "qualifyingSchool": "2007 (Joined Tour as an Affiliate Member 2007)"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "8b907481-151a-4135-ade0-d396bf21868f",
+          "_entityId": "31ac428a-00d3-4c85-b650-7ded4971525a",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-amgen-irish-open-2026135",
+          "Title": "Amgen Irish Open  ",
+          "Slug": "2026-amgen-irish-open-2026135",
+          "NeutralSlug": "2026-amgen-irish-open-2026135",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026135",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026135",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-09-10T00:00:00Z",
+            "endDate": "2026-09-13T00:00:00Z",
+            "location": "[{\"CourseId\":\"4751\",\"Name\":\"Trump International Golf Links & Hotel Ireland\",\"CountryCode\":\"IRL\",\"Location\":\"Trump International Golf Links & Hotel, Doonbeg, Ireland\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "fcd434c3-4b9d-4717-9434-f42fdfe34de4",
+          "_entityId": "c8a4ad76-11f4-4c94-86df-8066a1457132",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/notification-et-content",
+          "Title": "Content",
+          "Slug": "notification-et-content",
+          "NeutralSlug": "notification-et-content",
+          "ExternalSourceName": "notification",
+          "ExternalSourceReference": {
+            "SourceId": "notification-et-content",
+            "SourceName": "notification"
+          },
+          "ExtraData": {
+            "UrbanTag": "et-content"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "European Tour"
+      },
+      "CreatedBy": "Mathieu Wood",
+      "LastUpdatedBy": "Mathieu Wood",
+      "LastUpdatedDate": "2026-09-09T13:43:23.99Z",
+      "ContentDate": "2026-09-09T13:28:33.177Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+        "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+        "Title": "News",
+        "Slug": "news",
+        "NeutralSlug": "news",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-news",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeKindId": "100"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Rory McIlroy is ready to begin what promises to be an exciting run-in to the DP World Tour season on home soil at the Amgen Irish Open as he pursues a record-equalling eighth Race to Dubai title. ",
+      "Summary": "Rory McIlroy is ready to begin what promises to be an exciting run-in to the DP World Tour season on home soil at the Amgen Irish Open as he pursues a record-equalling eighth Race to Dubai title.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "rory-mcilroy-2294272759",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/rory-mcilroy-2294272759",
+        "Title": "Rory McIlroy-2294272759",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1788955616/prod/tfmj0vmk8r5tqiabvszt",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1788955616/prod/tfmj0vmk8r5tqiabvszt",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    }
+  ],
+  "PlayerStats": [
+    [
+      {
+        "Stat": "DrivingAccuracyPct",
+        "PlayerId": 104063,
+        "FirstName": "Kazuma",
+        "LastName": "KOBORI",
+        "CountryCode": "NZL",
+        "PlayerValue": 71.99017199017199,
+        "SeasonAvg": 58.49108413283519,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1758614718/prod/lqusr5x9hqe9pmkcqkrd",
+        "PlayerLink": "/players/kazuma-kobori-104063/"
+      },
+      {
+        "Stat": "DrivingDistanceAvg",
+        "PlayerId": 41208,
+        "FirstName": "Jon",
+        "LastName": "RAHM",
+        "CountryCode": "ESP",
+        "PlayerValue": 332.5,
+        "SeasonAvg": 300.5107146994092,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1759496543/prod/euwwog5qnsszbakfxzey",
+        "PlayerLink": "/players/jon-rahm-41208/"
+      },
+      {
+        "Stat": "GreenInRegulationPct",
+        "PlayerId": 100617,
+        "FirstName": "Keita",
+        "LastName": "NAKAJIMA",
+        "CountryCode": "JPN",
+        "PlayerValue": 76.04166666666667,
+        "SeasonAvg": 66.91184987837369,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1760712269/prod/raedqvosh1euzon7mtng",
+        "PlayerLink": "/players/keita-nakajima-100617/"
+      },
+      {
+        "Stat": "PuttsPerRound",
+        "PlayerId": 42144,
+        "FirstName": "Rasmus",
+        "LastName": "H\u00d8JGAARD",
+        "CountryCode": "DEN",
+        "PlayerValue": 27.785714285714285,
+        "SeasonAvg": 29.335688636626898,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1696585249/PROD/sfrgfvlzhidhuj8tu8sf",
+        "PlayerLink": "/players/rasmus-hojgaard-42144/"
+      },
+      {
+        "Stat": "ScramblesPct",
+        "PlayerId": 100880,
+        "FirstName": "Ryan",
+        "LastName": "GERARD",
+        "CountryCode": "USA",
+        "PlayerValue": 72.63157894736842,
+        "SeasonAvg": 56.48715405410662,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769180467/prod/izrbx8ad1qrevfw4h83l",
+        "PlayerLink": "/players/ryan-gerard-100880/"
+      },
+      {
+        "Stat": "StrokeAvg",
+        "PlayerId": 41521,
+        "FirstName": "Thomas",
+        "LastName": "ROSENMUELLER",
+        "CountryCode": "GER",
+        "PlayerValue": 68.4375,
+        "SeasonAvg": 70.831975,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/PROD/aako61xbu1qm4pdmof8k",
+        "PlayerLink": "/players/thomas-rosenmueller-41521/"
+      }
+    ]
+  ]
+}

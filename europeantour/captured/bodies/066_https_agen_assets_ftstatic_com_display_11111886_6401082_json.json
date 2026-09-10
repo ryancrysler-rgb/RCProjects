@@ -1,0 +1,92 @@
+{
+  "id": 47637025,
+  "timeStamp": "2026-09-08T17:22:56+0000",
+  "altImageUrl": "https://servedby.flashtalking.com/click/8/225407;11111886;6401082;210;[FT_CONFID]/?g=[FT_GUID]&random=8853.767245186664&ft_width=728&ft_height=90&url=https://www.adobe.com/acrobat/generative-ai-pdf.html?ttid=conversational-ai&sdid=QLD1NYSH&mv=display&mv2=display",
+  "encodeClickCount": 0,
+  "loadMethod": "quickload",
+  "baggyFrameLimit": 15,
+  "zIndex": 77000,
+  "pushdownIncrement": 0,
+  "isAttachToBody": false,
+  "isCenterAd": false,
+  "isPoliteLoad": false,
+  "isForceBackup": false,
+  "isIframeBusting": false,
+  "creative": {
+    "id": 6401082,
+    "name": "FY26Q4_DC_AcrobatDC_AcrobatDC_us_en_DTWA_AN_728x90_ConversationalAI_NA_NA_Agency_NA_NA_NA_SendAndSign_NA_NA_NA.zip",
+    "width": 728,
+    "height": 90,
+    "expandedWidth": 0,
+    "expandedHeight": 0,
+    "adType": "HTML_standard",
+    "isInstantAd": false,
+    "apiVersion": "0",
+    "htmlFile": "index.html",
+    "creativeLibrary": {
+      "id": 172799
+    },
+    "blockBrowsers": null,
+    "baseAsset": {
+      "host": "https://cdn.flashtalking.com",
+      "path": "/172799/6401082/",
+      "file": "index.html"
+    }
+  },
+  "placement": {
+    "id": 11111886,
+    "name": "DV360_FY24AcrobatDemandGen_PSP_InMarket-SignAndSend_US_DSK_AN_728x90_DTWA"
+  },
+  "campaignSite": {
+    "id": 480279,
+    "site": {
+      "id": 18330,
+      "name": "DV360",
+      "fallbackFilePath": "flashtalking/ftlocal.html"
+    }
+  },
+  "campaign": {
+    "id": 225407,
+    "name": "FY24_EG_NA_DocumentCloud_Acrobat_Consideration_Discover",
+    "servedByDomain": "https://servedby.flashtalking.com",
+    "cdnDomain": "https://cdn.flashtalking.com",
+    "trackingDomain": "https://ad-events.flashtalking.com",
+    "isAdVisibility": false,
+    "isMobileEnhanced": true,
+    "obaData": {
+      "notification": "Ad Choices",
+      "adChoices": {
+        "url": "https://www.flashtalking.com/consumer-privacy",
+        "method": "Direct Clickthrough",
+        "width": 512,
+        "height": 360,
+        "viewTrackingUrl": null,
+        "clickTrackingUrl": null
+      }
+    },
+    "landingPageSuffix": null,
+    "logsplitBucket": 8,
+    "frequencySignal": null,
+    "advertiser": {
+      "id": 13539,
+      "attributionTrigger": 1
+    }
+  },
+  "jsVPaid": null,
+  "landingPageRedirects": [
+    "https://servedby.flashtalking.com/click/8/225407;11111886;6401082;211;[FT_CONFID]/?g=[FT_GUID]&random=225398.8521469766&ft_width=728&ft_height=90&url=https://www.adobe.com/acrobat/generative-ai-pdf.html?ttid=conversational-ai&sdid=QLD1NYSH&mv=display&mv2=display",
+    "https://servedby.flashtalking.com/click/8/225407;11111886;6401082;212;[FT_CONFID]/?g=[FT_GUID]&random=164789.5961620206&ft_width=728&ft_height=90&url=https://www.adobe.com/"
+  ],
+  "impressions": [
+    "https://track.activemetering.com/pixel/v1/all/pixel.gif?cid=4d0c2a0b-e24b-408c-876b-018557025033&creativeId=6401082&placementId=11111886&siteId=18330&campaignId=225407&adId=[%adID%]"
+  ],
+  "surveys": [
+    "https://js.ad-score.com/score.min.js?pid=1000925&tt=g#tid=13539&l1=225407&l2=DV360&l3=11111886&l4=6401082&l5=[ftqs:[sup_platform]]&l6=[ftqs:[pub_id]]&l7=[%FT_CONFID%]&utid=[%FT_IMPRESSIONID%]&creative_type=display&adid=ftdiv11111886&pub_app=[ftqs:[bundle_id]]&pub_domain=[ftqs:[site_url]]&uid=[ftqs:[ft_id]]&cb=105618.94271943612&pub_ts=1788888192"
+  ],
+  "mutations": [
+    "window.setTimeout(function() {\n    var b = window.ft11111886,\n        c = b.iframe ? window.parent : window,\n        d = c.document.getElementById(b.divholder ? b.divholder : b.divID),\n        g = \"https://www.flashtalking.com/consumer-privacy\",\n        f = \"https://secure.flashtalking.com/oba/icon/consumer-privacy-logo.png\",\n        l = function () {\n            var divElement = document.createElement(\"div\");\n            divElement.setAttribute(\"id\", \"ftAdMarker_\" + b.pID);\n            divElement.style.cssText = \"position:absolute; top:0px; left:0px; z-index: 999999;\";\n            divElement.innerHTML = \"<a href=\\\"\" + g + \"\\\" target=\\\"_blank\\\" title=\\\"Privacy Notification\\\"><img src=\\\"\" + f + \"\\\" id=\\\"button\\\" style=\\\"border:0; margin:2px; width:16px; height:16px; display:block;\\\"/></a>\";\n            d.appendChild(divElement);\n    }; \n    l();\n}, 200);"
+  ],
+  "landingPageEventRedirects": [],
+  "partnerTag": null,
+  "statBaseUrl": "https://ad-events.flashtalking.com/reportV3/ft.stat?0-11111886;6401082;"
+}

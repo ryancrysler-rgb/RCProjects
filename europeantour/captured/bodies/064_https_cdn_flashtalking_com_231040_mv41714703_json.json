@@ -1,0 +1,372 @@
+{
+  "creative": {
+    "type": "Text",
+    "prop": "0",
+    "value": "nooffer"
+  },
+  "Banner_RL": {
+    "type": "Rich Load",
+    "prop": "richload1",
+    "value": "CMI26_1223200_movers_minions_728x90_rl/index.html"
+  },
+  "bg1": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_bg1_728x90.jpg",
+    "value": "CMI26_1223200_movers_minions_bg1_728x90.jpg"
+  },
+  "bg1_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": "width: 728, height: 360"
+  },
+  "bg2": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_bg2_728x90.jpg",
+    "value": "CMI26_1223200_movers_minions_bg2_728x90.jpg"
+  },
+  "bg2_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "bg_ef": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/blank.png",
+    "value": "blank.png"
+  },
+  "bg_ef_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "logo1": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_logo_728x90.png",
+    "value": "CMI26_1223200_movers_minions_logo_728x90.png"
+  },
+  "logo1_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "logo2": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_nooffer_logo2_728x90.png",
+    "value": "CMI26_1223200_movers_minions_nooffer_logo2_728x90.png"
+  },
+  "logo2_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "logo_ef": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_nooffer_eflogo_728x90.png",
+    "value": "CMI26_1223200_movers_minions_nooffer_eflogo_728x90.png"
+  },
+  "logo_ef_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f1_img": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_minion_728x90.png",
+    "value": "CMI26_1223200_movers_minions_minion_728x90.png"
+  },
+  "f1_img_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f1_img_eyesClosed": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/blank.png",
+    "value": "blank.png"
+  },
+  "f1_img_eyesClosed_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f2_img": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_console_728x90.png",
+    "value": "CMI26_1223200_movers_minions_console_728x90.png"
+  },
+  "f2_img_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f3_img": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_box_728x90.png",
+    "value": "CMI26_1223200_movers_minions_box_728x90.png"
+  },
+  "f3_img_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f3_img_leftPanel": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_leftPanel_728x90.png",
+    "value": "CMI26_1223200_movers_minions_leftPanel_728x90.png"
+  },
+  "f3_img_leftPanel_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f3_img_rightPanel": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_rightPanel_728x90.png",
+    "value": "CMI26_1223200_movers_minions_rightPanel_728x90.png"
+  },
+  "f3_img_rightPanel_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f3_img_centerPanel": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/CMI26_1223200_movers_minions_centerPanel_728x90.png",
+    "value": "CMI26_1223200_movers_minions_centerPanel_728x90.png"
+  },
+  "f3_img_centerPanel_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f4_img": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/blank.png",
+    "value": "blank.png"
+  },
+  "f4_img_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f5_img": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/blank.png",
+    "value": "blank.png"
+  },
+  "f5_img_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f1_copy": {
+    "type": "Text",
+    "prop": "0",
+    "value": "Where you move, your WiFi follows"
+  },
+  "f1_copy_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": "posX:26, posY:32"
+  },
+  "f2_copy": {
+    "type": "Text",
+    "prop": "0",
+    "value": "Stream, scroll & scheme instantly"
+  },
+  "f2_copy_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": "posX:26, posY:32"
+  },
+  "f3_copy": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f3_copy_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "f4_copy": {
+    "type": "Text",
+    "prop": "0",
+    "value": "Move your WiFi without setup stress"
+  },
+  "f4_copy_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": "posX:26, posY:32"
+  },
+  "disclaimer1": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "disclaimer1_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "disclaimer2": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "disclaimer2_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "legal": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "legal_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "ctaCopy": {
+    "type": "Text",
+    "prop": "0",
+    "value": "Learn more"
+  },
+  "ctaCopy_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": "posX:467, posY:30, width: 107"
+  },
+  "offer_sideBar": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_sideBar_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_title": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_title_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_dollarSign": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_dollarSign_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_price": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_price_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_cents": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_cents_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_terms": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_terms_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_agree": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_agree_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_boltCopy": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_boltCopy_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offer_boltImage": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/blank.png",
+    "value": "blank.png"
+  },
+  "offer_boltImage_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "offerPrice_reporting": {
+    "type": "Text",
+    "prop": "0",
+    "value": "0"
+  },
+  "cta_reporting": {
+    "type": "Text",
+    "prop": "0",
+    "value": "LEARN"
+  },
+  "offer_reporting": {
+    "type": "Text",
+    "prop": "0",
+    "value": "NOOFF"
+  },
+  "extra_copy": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "extra_copy_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "extra_image": {
+    "type": "Image",
+    "prop": "//cdn.flashtalking.com/231040/instantAssets/blank.png",
+    "value": "blank.png"
+  },
+  "extra_image_style": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  },
+  "extra_vars": {
+    "type": "Text",
+    "prop": "0",
+    "value": ""
+  }
+}

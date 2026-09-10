@@ -1,980 +1,417 @@
 [
   {
-    "url": "https://l10n.frs-prod.imgarena.dev/locales/en_GB/ec-golf.json",
-    "status": 200,
-    "method": "GET",
-    "score": 25,
-    "matched_keys": [
-      "distancetopin",
-      "holenumber",
-      "holes",
-      "par",
-      "round",
-      "roundnumber",
-      "scorecard",
-      "shotnumber",
-      "shots"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\081_025_https_l10n_frs_prod_imgarena_dev_locales_en_GB_ec_golf_json.json"
-  },
-  {
-    "url": "https://l10n.frs-prod.imgarena.dev/locales/en/ec-golf.json",
-    "status": 200,
-    "method": "GET",
-    "score": 25,
-    "matched_keys": [
-      "distancetopin",
-      "holenumber",
-      "holes",
-      "par",
-      "round",
-      "roundnumber",
-      "scorecard",
-      "shotnumber",
-      "shots"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\083_025_https_l10n_frs_prod_imgarena_dev_locales_en_ec_golf_json.json"
-  },
-  {
-    "url": "https://btec-http.services.srarena.io/?hash=1310313207",
-    "status": 200,
-    "method": "GET",
-    "score": 6,
-    "matched_keys": [
-      "holes",
-      "par",
-      "x",
-      "y",
-      "z"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\092_006_https_btec_http_services_srarena_io.json"
-  },
-  {
-    "url": "https://www.europeantour.com/api/sportdata/Scorecard/Strokeplay/Event/2026135/Player/37624",
-    "status": 200,
-    "method": "GET",
-    "score": 5,
-    "matched_keys": [
-      "holes",
-      "playerid",
-      "strokes"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\064_005_https_www_europeantour_com_api_sportdata_Scorecard_Strokeplay_Event_2026135_Player_37624.json"
-  },
-  {
-    "url": "https://static.srarena.io/golf/3d/courses/ET-2229/all_metadata.json?v=36",
-    "status": 200,
-    "method": "GET",
-    "score": 5,
-    "matched_keys": [
-      "elevation",
-      "x",
-      "y",
-      "z"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\096_005_https_static_srarena_io_golf_3d_courses_ET_2229_all_metadata_json.json"
-  },
-  {
-    "url": "https://btec-http.services.srarena.io/?hash=3957215379",
-    "status": 200,
-    "method": "GET",
-    "score": 4,
-    "matched_keys": [
-      "holenumber",
-      "holes"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\091_004_https_btec_http_services_srarena_io.json"
-  },
-  {
-    "url": "https://www.europeantour.com/api/sportdata/Leaderboard/Strokeplay/2026135/type/load",
-    "status": 200,
-    "method": "GET",
-    "score": 3,
-    "matched_keys": [
-      "playerid",
-      "strokes"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\006_003_https_www_europeantour_com_api_sportdata_Leaderboard_Strokeplay_2026135_type_load.json"
-  },
-  {
-    "url": "https://www.europeantour.com/api/sportdata/Leaderboard/Strokeplay/2026135/type/polling",
-    "status": 200,
-    "method": "GET",
-    "score": 3,
-    "matched_keys": [
-      "playerid",
-      "strokes"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\008_003_https_www_europeantour_com_api_sportdata_Leaderboard_Strokeplay_2026135_type_polling.json"
-  },
-  {
-    "url": "https://btec-http.services.srarena.io/?hash=171215627",
-    "status": 200,
-    "method": "GET",
-    "score": 3,
-    "matched_keys": [
-      "holes",
-      "par"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\089_003_https_btec_http_services_srarena_io.json"
-  },
-  {
-    "url": "https://www.europeantour.com/api/v1/header/dpworld-tour/_extradata",
-    "status": 200,
-    "method": "GET",
-    "score": 1,
-    "matched_keys": [
-      "playerid"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\007_001_https_www_europeantour_com_api_v1_header_dpworld_tour_extradata.json"
-  },
-  {
-    "url": "https://www.europeantour.com/library/players/37624/favourite",
-    "status": 200,
-    "method": "GET",
-    "score": 1,
-    "matched_keys": [
-      "playerid"
-    ],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\062_001_https_www_europeantour_com_library_players_37624_favourite.json"
-  },
-  {
-    "url": "https://cdn-ukwest.onetrust.com/consent/5cc8c4d7-1d34-4de5-8239-9d3e19b78b18/5cc8c4d7-1d34-4de5-8239-9d3e19b78b18.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\000_000_com_consent_5cc8c4d7_1d34_4de5_8239_9d3e19b78b18_5cc8c4d7_1d34_4de5_8239_9d3e19b78b18_json.json"
-  },
-  {
-    "url": "https://pub.doubleverify.com/dvtag/signals/bsc/pub.json?ctx=20778663&cmp=DV1387960&url=https%3A%2F%2Feuropeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&bsc=1&token=PZqrSLwoe3D4UdruU35Z87ibSC1%2BY2nE2y1cxX9ZoawzOekEEqzNQV2IHCKj60SJFwAv8s2utaKRd1oa5TPdr3JPhrSx9QOfqweXbqxLTjDWWIBEttQ3trpSz6gkXT6dx1SL4w8ChXRf2EYjXJJZSBQ%3D",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\001_000_https_pub_doubleverify_com_dvtag_signals_bsc_pub_json.json"
-  },
-  {
-    "url": "https://pub.doubleverify.com/dvtag/signals/ids/pub.json?ctx=20778663&cmp=DV1387960&url=https%3A%2F%2Feuropeantour.com&ids=1&token=PZqrSLwoe3D4UdruU35Z87ibSC1%2BY2nE2y1cxX9ZoawzOekEEqzNQV2IHCKj60SJFwAv8s2utaKRd1oa5TPdr3JPhrSx9QOfqweXbqxLTjDWWIBEttQ3trpSz6gkXT6dx1SL4w8ChXRf2EYjXJJZSBQ%3D",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\002_000_https_pub_doubleverify_com_dvtag_signals_ids_pub_json.json"
-  },
-  {
-    "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\003_000_https_geolocation_onetrust_com_cookieconsentpub_v1_geo_location.json"
-  },
-  {
     "url": "https://www.europeantour.com/api/v1/forge/video/2026135/",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\004_000_https_www_europeantour_com_api_v1_forge_video_2026135.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\000_https_www_europeantour_com_api_v1_forge_video_2026135.json"
   },
   {
     "url": "https://www.europeantour.com/api/sportdata/Event/Status/2026135",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\005_000_https_www_europeantour_com_api_sportdata_Event_Status_2026135.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\001_https_www_europeantour_com_api_sportdata_Event_Status_2026135.json"
   },
   {
-    "url": "https://geo-location.prebid.cloud/v1/geo",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\009_000_https_geo_location_prebid_cloud_v1_geo.json"
+    "url": "https://www.europeantour.com/api/sportdata/Leaderboard/Strokeplay/2026135/type/load",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\002_uropeantour_com_api_sportdata_Leaderboard_Strokeplay_2026135_type_load.json"
   },
   {
-    "url": "https://cdns.gigya.com/sdk.config.get?apiKey=4_LtiNVJuKIvw_FXO5qOsf6Q&httpStatusCodes=true&ver=1789054320000",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\010_000_https_cdns_gigya_com_sdk_config_get.json"
+    "url": "https://www.europeantour.com/api/v1/header/dpworld-tour/_extradata",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\003_https_www_europeantour_com_api_v1_header_dpworld_tour_extradata.json"
   },
   {
-    "url": "https://cdns.eu1.gigya.com/sdk.config.get?apiKey=4_LtiNVJuKIvw_FXO5qOsf6Q&httpStatusCodes=true&ver=1789054320000",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\011_000_https_cdns_eu1_gigya_com_sdk_config_get.json"
+    "url": "https://cdns.gigya.com/sdk.config.get?apiKey=4_LtiNVJuKIvw_FXO5qOsf6Q&httpStatusCodes=true&ver=1789069800000",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\004_https_cdns_gigya_com_sdk_config_get.json"
   },
   {
-    "url": "https://geo.aditude.io/raven",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\012_000_https_geo_aditude_io_raven.json"
-  },
-  {
-    "url": "https://cdn-ukwest.onetrust.com/consent/5cc8c4d7-1d34-4de5-8239-9d3e19b78b18/6b451231-7713-45bb-90a9-39846fd36713/en.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\013_000_consent_5cc8c4d7_1d34_4de5_8239_9d3e19b78b18_6b451231_7713_45bb_90a9_39846fd36713_en_json.json"
+    "url": "https://cdns.eu1.gigya.com/sdk.config.get?apiKey=4_LtiNVJuKIvw_FXO5qOsf6Q&httpStatusCodes=true&ver=1789069800000",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\005_https_cdns_eu1_gigya_com_sdk_config_get.json"
   },
   {
     "url": "https://circlelevel.com/hj2jgqk/rm5qn7ffh44utycj8kdyoxqq_l0kfzvdqm6",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\014_000_https_circlelevel_com_hj2jgqk_rm5qn7ffh44utycj8kdyoxqq_l0kfzvdqm6.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\006_https_circlelevel_com_hj2jgqk_rm5qn7ffh44utycj8kdyoxqq_l0kfzvdqm6.json"
   },
   {
-    "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202602.1.0/assets/otCenterRounded.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\015_000_https_cdn_ukwest_onetrust_com_scripttemplates_202602_1_0_assets_otCenterRounded_json.json"
+    "url": "https://circlelevel.com/hj2jgqk/rm5qn7ffh44utycj8kdyoxqq_l0kfzvdqm6",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\007_https_circlelevel_com_hj2jgqk_rm5qn7ffh44utycj8kdyoxqq_l0kfzvdqm6.json"
   },
   {
-    "url": "https://cdn-ukwest.onetrust.com/scripttemplates/202602.1.0/assets/v2/otPcCenter.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\016_000_https_cdn_ukwest_onetrust_com_scripttemplates_202602_1_0_assets_v2_otPcCenter_json.json"
-  },
-  {
-    "url": "https://raven-edge.aditude.io/api/v1/ravenconfig?ppid=europeantour-main-czh4s&geo=US",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\017_000_https_raven_edge_aditude_io_api_v1_ravenconfig.json"
-  },
-  {
-    "url": "https://raven-edge.aditude.io/api/v1/revenuesourcemaps/NjCm5EtyXwfz",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\018_000_https_raven_edge_aditude_io_api_v1_revenuesourcemaps_NjCm5EtyXwfz.json"
+    "url": "https://recommender.scarabresearch.com/merchants/19DA2DBAA6BBD5FD/?pv=135329779&xp=1&cv=1&ca=&cp=1&ta=%7B%22name%22%3A%22page_view%22%2C%22attributes%22%3A%7B%22page%22%3A%22https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1%22%7D%7D",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\008_https_recommender_scarabresearch_com_merchants_19DA2DBAA6BBD5FD.json"
   },
   {
     "url": "https://accounts.eu1.gigya.com/accounts.webSdkBootstrap?apiKey=4_LtiNVJuKIvw_FXO5qOsf6Q&pageURL=https%3A%2F%2Fwww.europeantour.com%2F&sdk=js_latest&sdkBuild=2353&format=json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\019_000_https_accounts_eu1_gigya_com_accounts_webSdkBootstrap.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\009_https_accounts_eu1_gigya_com_accounts_webSdkBootstrap.json"
   },
   {
-    "url": "https://cdns.eu1.gigya.com/sdk.config.get?apiKey=4_S1L2lg9-75aAQWTe5k688Q&httpStatusCodes=true&ver=1789054320000",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\020_000_https_cdns_eu1_gigya_com_sdk_config_get.json"
-  },
-  {
-    "url": "https://connect.facebook.net/app_config/json/274320404810141/",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\021_000_https_connect_facebook_net_app_config_json_274320404810141.json"
-  },
-  {
-    "url": "https://accounts.google.com/o/oauth2/iframerpc?action=checkOrigin&origin=https%3A%2F%2Fwww.europeantour.com&client_id=408100192849-vmp6qea4l13j4q0soq41cp1h8ph4m2pt.apps.googleusercontent.com",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\022_000_https_accounts_google_com_o_oauth2_iframerpc.json"
-  },
-  {
-    "url": "https://lexicon.33across.com/v1/envelope?pid=0015a00002qqhgFAAQ&gdpr=0&src=pbjs&ver=9.30.0&coppa=0&us_privacy=1---",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\023_000_https_lexicon_33across_com_v1_envelope.json"
-  },
-  {
-    "url": "https://privacyportal-uk.onetrust.com/request/v1/consentreceipts/anonymous",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\024_000_https_privacyportal_uk_onetrust_com_request_v1_consentreceipts_anonymous.json"
-  },
-  {
-    "url": "https://s.yimg.com/wi/config/10186985.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\025_000_https_s_yimg_com_wi_config_10186985_json.json"
-  },
-  {
-    "url": "https://s.yimg.com/wi/config/10196403.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\026_000_https_s_yimg_com_wi_config_10196403_json.json"
-  },
-  {
-    "url": "https://s.yimg.com/wi/config/10196399.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\027_000_https_s_yimg_com_wi_config_10196399_json.json"
-  },
-  {
-    "url": "https://ip.veritonicmetrics.com/",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\028_000_https_ip_veritonicmetrics_com.json"
-  },
-  {
-    "url": "https://s.yimg.com/wi/config/10196402.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\029_000_https_s_yimg_com_wi_config_10196402_json.json"
-  },
-  {
-    "url": "https://s.yimg.com/wi/config/10196400.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\030_000_https_s_yimg_com_wi_config_10196400_json.json"
-  },
-  {
-    "url": "https://fid.agkn.com/f?apiKey=2139187760&r=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\031_000_https_fid_agkn_com_f.json"
-  },
-  {
-    "url": "https://gum.criteo.com/sid/json?origin=prebid&topUrl=https%3A%2F%2Fwww.europeantour.com%2F&domain=www.europeantour.com&cw=1&lsw=1&us_privacy=1---",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\032_000_https_gum_criteo_com_sid_json.json"
-  },
-  {
-    "url": "https://id5-sync.com/api/config/prebid",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\033_000_https_id5_sync_com_api_config_prebid.json"
-  },
-  {
-    "url": "https://recommender.scarabresearch.com/merchants/19DA2DBAA6BBD5FD/?pv=965145890&xp=1&cv=1&ca=&cp=1&ta=%7B%22name%22%3A%22page_view%22%2C%22attributes%22%3A%7B%22page%22%3A%22https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1%22%7D%7D",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\034_000_https_recommender_scarabresearch_com_merchants_19DA2DBAA6BBD5FD.json"
+    "url": "https://cdns.eu1.gigya.com/sdk.config.get?apiKey=4_S1L2lg9-75aAQWTe5k688Q&httpStatusCodes=true&ver=1789069800000",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\010_https_cdns_eu1_gigya_com_sdk_config_get.json"
   },
   {
     "url": "https://pixel.quantserve.com/cs?a=p-nLFCYSjJR6VQn&gdpr=0&sf2=1&__qcmcs=1",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\035_000_https_pixel_quantserve_com_cs.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\011_https_pixel_quantserve_com_cs.json"
   },
   {
-    "url": "https://ib.adnxs.com/ut/v3/prebid",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\036_000_https_ib_adnxs_com_ut_v3_prebid.json"
+    "url": "https://ip.veritonicmetrics.com/",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\012_https_ip_veritonicmetrics_com.json"
   },
   {
-    "url": "https://mp.4dex.io/prebid",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\037_000_https_mp_4dex_io_prebid.json"
+    "url": "https://s.yimg.com/wi/config/10186985.json",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\013_https_s_yimg_com_wi_config_10186985_json.json"
   },
   {
-    "url": "https://bcp.crwdcntrl.net/6/map?xcid=16589",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\038_000_https_bcp_crwdcntrl_net_6_map.json"
-  },
-  {
-    "url": "https://rtb.openx.net/esp?url=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&rid=esp&cc=1",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\039_000_https_rtb_openx_net_esp.json"
-  },
-  {
-    "url": "https://atr-eu.veritonicmetrics.com/",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\040_000_https_atr_eu_veritonicmetrics_com.json"
-  },
-  {
-    "url": "https://tlx.3lift.com/header/auction?lib=prebid&v=9.30.0&referrer=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&tmax=2000&us_privacy=1---",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\041_000_https_tlx_3lift_com_header_auction.json"
-  },
-  {
-    "url": "https://fastlane.rubiconproject.com/a/api/fastlane.json?account_id=24586&site_id=457186&zone_id=2678216&size_id=2&alt_size_ids=55%2C57&us_privacy=1---&rp_schain=1.0,1!aditude.io,135,1,5c87a4565945d18,,&eid_33across.com=v1.0015a00002qqhgFAAQ.1057.lnznG4qhwr%2Bj19gewUEB2hIFeF5V3Vd9Mcb0s%2BgEGAN6oTC%2F7e3QiHvn%2BxR9TVaUArSsQJedO6pVaML8%2Bsp87GA2vZ4JIwlBhWtBuJn12NlINLEuDDoBkzaL7AF3xAv6Gb%2B96sivv%2FOCOtK3g4I3ojRQPD1%2FhcBSp8WKa8hYtOV6gRDiNLYCz%2BsIhf2QSnPj8jo973CQVp3Z0nJJSycc4GYrDqJyx2aSSSNw30DvE2Os0BWvgVKjZwRZPRDn1GBvVCSvLxl5%2FDn2UNoSJ%2FUy2FEeOQjJMfHiQpdOiorxAYk1E4cy1NzwXexv8O1xI5Ap3OFXJEgkSFo1HcdksbfrRfdCUxh8OuxXVRpeuw5iBqI4if4XgoJ8n4If%2FLNrX9fpVoc8I5ghUjo02wSuwCm2%2BkbcqYqITPbG7YI5nIWy3eiF87OXp37mzDe1yaJlQ3IFDfNmg%2FBr6c%2Fatk9iQlsodUF5dUAtgvhct2ULDfpn%2Fr1svvH5TaluhI9DdWRM%2F4wgm8t8XlzxmnG7Te4dteigBTrS7fuqev%2FkQHGkwPCOTuNGX7UmTHZhHWBg6aSxp1gxBr0BABR3bM1Bvtpr66xJwGBqVfucvhovvw7T09irpBOB5rhVrGn051bsT4gu9v7xC1BRzV0NldxibowX8XYz8RusgU9lSkasU9xbvahdP%2BkORcpX74BLbiUF0S7d%2FQg0nyiM2BZUz1q0d%2BRK%2FwNmM1q4PUKcif%2BLKeKs5VV1J709lJypkBns%2FcEQq8ypNsMnpINnPTgVLDkR8%2Bxep7g%2Bt29VXC6XZs24eEul7iHtHQdjGLRkxjhL%2By9VhDQf%2FC7YlC%2Fon1wmkMQ6se6b5I2TnA7NVYgw2arZVIEUNNxE%2Fs1DrVWNxH10HFYp1QSFhIH%2Fd18GPPUmTw3zSMpSdFaxSWsOgALvCFcbapCri6%2BJfhTLju%2BQJWqVIDQc6l0%2BhFEIo2m%2BCEY1JUx9uQSD%2FVL1xJ0bNRwA2cTd66PcMTJmQiNUFEmHkf4SUEtm9Hob65EDFv7Yo0VBkv%2B82Y3J%2BNgm6BAyM0q7FXyoP9Kkik7hZJTbvSvMFkJTgCGC51daIZRN%2B4NoZ757AxQvrp%2BP15xlZX%2FgtKgKQLfafQ81b4L7tmhydopblLaLo04YF9jOLWTUnuu7SEnCLb82zwbTFwdknYuj4OtBmqJyj5poeED9fA45Vdv1IeVO8f8u7%2FTDoJ8%2BjLBS%2Fz8kqCQCo7ust0btLoYFe7k0B0JFeUhh%2ByfzeWwXfjT4E2b9ois2gA2yjte%2Fwro0YZ6wGdoTph1Gty7gCW8ZdLZ2757Es2sQxrr%2Bs5yaiqm7o5g9k%2FfKPeYP%2BzfLTUJfFQURKd7bd8SJV3FkqZmj7Na5diTWEwd76OpqasRmmT5Uqzgn2x5leNorpb0W%5E1%5E%5E%5E%5E%5E&eid_pubcid.org=6dc6025f-9374-4ddf-a021-3bebe64ce101%5E1%5E%5E%5E%5E%5E&rf=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&kw=dpworld-tour%2CDPWorldTour%2Ccourse%2Cleaderboard%2Cfeed%2Cstats%2Cspectatorinformation%2Ceventhub&tg_i.domain=europeantour.com&tg_i.page=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&tg_i.divId=pb-slot-content-1&tg_i.placement=ban_1&tg_i.pbadslot=%2F9517547%2Feuropeantour-web%2Feuropeantour%2Ftournaments%2Famgen-irish-open-2026%2Fleaderboard%23pb-slot-content-1&tk_flint=pbjs_lite_v9.30.0&x_source.tid=d891c50e-3ac1-483e-99dc-4daa5c49d0e0&l_pb_bid_id=20ad0a9a6e3a523&p_screen_res=1280x720&rp_secure=1&x_imp.ext.tid=d7d303cc-f4bd-4d13-abfc-2686ebce4802&rp_maxbids=1&p_gpid=%2F9517547%2Feuropeantour-web%2Feuropeantour%2Ftournaments%2Famgen-irish-open-2026%2Fleaderboard%23pb-slot-content-1&m_ch_ua=%22Chromium%22%7Cv%3D%22151%22%2C%22Not%3DA%3FBrand%22%7Cv%3D%2299%22&m_ch_full_ver=%22Chromium%22%7Cv%3D%22151%22%2C%22Not%3DA%3FBrand%22%7Cv%3D%2299%22&m_ch_mobile=%3F0&m_ch_platform=Windows&slots=1&rand=0.06099605856915702",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\042_000_https_fastlane_rubiconproject_com_a_api_fastlane_json.json"
-  },
-  {
-    "url": "https://prebid.media.net/rtb/prebid?cid=8CUENMD10",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\043_000_https_prebid_media_net_rtb_prebid.json"
-  },
-  {
-    "url": "https://gum.criteo.com/sid/json?origin=publishertagids&domain=europeantour.com&sn=ChromeSyncframe&so=3&topUrl=www.europeantour.com&bundle=Hiao4V90VFAlMkJaVm1OcWREeSUyRm44V0RMcU00a3JEbDhTYW9PdmpyJTJGbm9VMUl2Zm5wY2VKUGZuTHY1R25TcWJkd05zd2E0OHklMkYlMkJZeWJDc1hmbDhwUng2ZVpnUkVFMnI3b2gxJTJCeCUyQnlCbCUyRm1neGtCcUNaN1V3OFRTRE5acnNZaHFwMWJ2VGU",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\044_000_https_gum_criteo_com_sid_json.json"
-  },
-  {
-    "url": "https://onetag-sys.com/prebid-request",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\045_000_https_onetag_sys_com_prebid_request.json"
-  },
-  {
-    "url": "https://api.id5-sync.com/analytics/1016/id5-api-js",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\046_000_https_api_id5_sync_com_analytics_1016_id5_api_js.json"
+    "url": "https://s.yimg.com/wi/config/10196399.json",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\014_https_s_yimg_com_wi_config_10196399_json.json"
   },
   {
     "url": "https://webchannel-content.eservice.emarsys.net/customer/885528449/campaigns?url=https:%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&prev_url=&lang=en&ca=&uli=false",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\047_000_https_webchannel_content_eservice_emarsys_net_customer_885528449_campaigns.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\015_s_webchannel_content_eservice_emarsys_net_customer_885528449_campaigns.json"
   },
   {
-    "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202609040101&st=env&sjk=8893064408144837",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\048_000_https_ep1_adtrafficquality_google_getconfig_sodar.json"
+    "url": "https://atr-eu.veritonicmetrics.com/",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\016_https_atr_eu_veritonicmetrics_com.json"
   },
   {
-    "url": "https://lbs.eu-1-id5-sync.com/lbs/v1",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\049_000_https_lbs_eu_1_id5_sync_com_lbs_v1.json"
+    "url": "https://connect.facebook.net/app_config/json/274320404810141/",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\017_https_connect_facebook_net_app_config_json_274320404810141.json"
   },
   {
-    "url": "https://lb.eu-1-id5-sync.com/lb/v1",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\050_000_https_lb_eu_1_id5_sync_com_lb_v1.json"
+    "url": "https://lexicon.33across.com/v1/envelope?pid=0015a00002qqhgFAAQ&gdpr=0&src=pbjs&ver=9.30.0&coppa=0&us_privacy=1---",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\018_https_lexicon_33across_com_v1_envelope.json"
   },
   {
-    "url": "https://id5-sync.com/gm/v3",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\051_000_https_id5_sync_com_gm_v3.json"
+    "url": "https://fid.agkn.com/f?apiKey=2139187760&r=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\019_https_fid_agkn_com_f.json"
+  },
+  {
+    "url": "https://rtb.openx.net/esp?url=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&rid=esp&cc=1",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\020_https_rtb_openx_net_esp.json"
+  },
+  {
+    "url": "https://bcp.crwdcntrl.net/6/map?xcid=16589",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\021_https_bcp_crwdcntrl_net_6_map.json"
+  },
+  {
+    "url": "https://api.id5-sync.com/analytics/1016/id5-api-js",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\022_https_api_id5_sync_com_analytics_1016_id5_api_js.json"
+  },
+  {
+    "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202609040101&st=env&sjk=1243802989309243",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\023_https_ep1_adtrafficquality_google_getconfig_sodar.json"
+  },
+  {
+    "url": "https://id5-sync.com/bounce",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\024_https_id5_sync_com_bounce.json"
   },
   {
     "url": "https://token.rubiconproject.com/khaos.json?",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\052_000_https_token_rubiconproject_com_khaos_json.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\025_https_token_rubiconproject_com_khaos_json.json"
   },
   {
-    "url": "https://token.rubiconproject.com/khaos.json?khaos=MTVOSP5U-8-J9E6",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\053_000_https_token_rubiconproject_com_khaos_json.json"
+    "url": "https://lb.eu-1-id5-sync.com/lb/v1",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\026_https_lb_eu_1_id5_sync_com_lb_v1.json"
   },
   {
-    "url": "https://id.a-mx.com/sync?tao=1&&uid=66ee82fa-4ec4-425d-9a2c-cc6e3b62281c",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\054_000_https_id_a_mx_com_sync.json"
+    "url": "https://lbs.eu-1-id5-sync.com/lbs/v1",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\027_https_lbs_eu_1_id5_sync_com_lbs_v1.json"
   },
   {
-    "url": "https://cs.media.net/cst?gdpr=0&cs=8&usp_status=0&gdprconsent=1&usp_consent=1&us_privacy=1---&cid=8CUENMD10&itype=PREBID&ref=https%3A%2F%2Fwww.europeantour.com%2F",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\055_000_https_cs_media_net_cst.json"
+    "url": "https://id5-sync.com/gm/v3",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\028_https_id5_sync_com_gm_v3.json"
+  },
+  {
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\029_https_hb_yellowblue_io_hb_multi.json"
+  },
+  {
+    "url": "https://id.a-mx.com/sync?tao=1&&uid=18cf3942-bb6b-4322-a529-1de11c7c1594",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\030_https_id_a_mx_com_sync.json"
   },
   {
     "url": "https://ut.pubmatic.com/geo?pubid=160912",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\056_000_https_ut_pubmatic_com_geo.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\031_https_ut_pubmatic_com_geo.json"
   },
   {
-    "url": "https://ut.pubmatic.com/geo?pubid=156578",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\057_000_https_ut_pubmatic_com_geo.json"
+    "url": "https://accounts.google.com/o/oauth2/iframerpc?action=checkOrigin&origin=https%3A%2F%2Fwww.europeantour.com&client_id=408100192849-vmp6qea4l13j4q0soq41cp1h8ph4m2pt.apps.googleusercontent.com",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\032_https_accounts_google_com_o_oauth2_iframerpc.json"
   },
   {
-    "url": "https://ut.pubmatic.com/geo?pubid=160912",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\058_000_https_ut_pubmatic_com_geo.json"
+    "url": "https://u-ams.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1593&domain=https%3A%2F%2Fsync.adkernel.com%2F&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\033_https_u_ams_4dex_io_usync_json.json"
   },
   {
-    "url": "https://ut.pubmatic.com/geo?pubid=156578",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\059_000_https_ut_pubmatic_com_geo.json"
+    "url": "https://sync.sparteo.com/sync?gdpr=0&gdpr_consent=&us_privacy=1---&cb=0.6875068649305109&if=1&origin=https%3A%2F%2Fsync.sparteo.com%2F&src=meetscale&type=f&la[]=https://dsp-service.admatic.de&la[]=https://sync.adkernel.com&la[]=https://ce.lijit.com&la[]=https://www.europeantour.com",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\034_https_sync_sparteo_com_sync.json"
   },
   {
-    "url": "https://ut.pubmatic.com/geo?pubid=163238",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\060_000_https_ut_pubmatic_com_geo.json"
+    "url": "https://sync.sparteo.com/sync?gdpr=0&gdpr_consent=&us_privacy=1---&cb=0.9389528973936249&if=1&origin=https%3A%2F%2Fsync.sparteo.com%2F&src=meetscale&type=f&la[]=https://sync.adkernel.com&la[]=https://cookies.nextmillmedia.com&la[]=https://sync.adkernel.com&la[]=https://ce.lijit.com&la[]=https://www.europeantour.com",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\035_https_sync_sparteo_com_sync.json"
   },
   {
-    "url": "https://ut.pubmatic.com/geo?pubid=163238",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\061_000_https_ut_pubmatic_com_geo.json"
+    "url": "https://u-ams.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1593&domain=https%3A%2F%2Fsync.adkernel.com%2F&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\036_https_u_ams_4dex_io_usync_json.json"
+  },
+  {
+    "url": "https://u-ams.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1593&domain=https%3A%2F%2Fsync.adkernel.com%2F&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\037_https_u_ams_4dex_io_usync_json.json"
+  },
+  {
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\038_https_hb_yellowblue_io_hb_multi.json"
+  },
+  {
+    "url": "https://cs.media.net/cst?gdpr=0&cs=87&us_privacy=1---&cid=8CUEHS6F9&ref=https%3A%2F%2Fsync.sparteo.com%2F",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\039_https_cs_media_net_cst.json"
   },
   {
     "url": "https://www.europeantour.com/api/v1/forge/video/2026135/37624/",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\063_000_https_www_europeantour_com_api_v1_forge_video_2026135_37624.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\040_https_www_europeantour_com_api_v1_forge_video_2026135_37624.json"
   },
   {
-    "url": "https://fastlane.rubiconproject.com/a/api/fastlane.json?account_id=24586&site_id=457186&zone_id=2678216&size_id=2&alt_size_ids=55%2C57&us_privacy=1---&rp_schain=1.0,1!aditude.io,135,1,5c87a4565945d18,,&eid_33across.com=v1.0015a00002qqhgFAAQ.1057.lnznG4qhwr%2Bj19gewUEB2hIFeF5V3Vd9Mcb0s%2BgEGAN6oTC%2F7e3QiHvn%2BxR9TVaUArSsQJedO6pVaML8%2Bsp87GA2vZ4JIwlBhWtBuJn12NlINLEuDDoBkzaL7AF3xAv6Gb%2B96sivv%2FOCOtK3g4I3ojRQPD1%2FhcBSp8WKa8hYtOV6gRDiNLYCz%2BsIhf2QSnPj8jo973CQVp3Z0nJJSycc4GYrDqJyx2aSSSNw30DvE2Os0BWvgVKjZwRZPRDn1GBvVCSvLxl5%2FDn2UNoSJ%2FUy2FEeOQjJMfHiQpdOiorxAYk1E4cy1NzwXexv8O1xI5Ap3OFXJEgkSFo1HcdksbfrRfdCUxh8OuxXVRpeuw5iBqI4if4XgoJ8n4If%2FLNrX9fpVoc8I5ghUjo02wSuwCm2%2BkbcqYqITPbG7YI5nIWy3eiF87OXp37mzDe1yaJlQ3IFDfNmg%2FBr6c%2Fatk9iQlsodUF5dUAtgvhct2ULDfpn%2Fr1svvH5TaluhI9DdWRM%2F4wgm8t8XlzxmnG7Te4dteigBTrS7fuqev%2FkQHGkwPCOTuNGX7UmTHZhHWBg6aSxp1gxBr0BABR3bM1Bvtpr66xJwGBqVfucvhovvw7T09irpBOB5rhVrGn051bsT4gu9v7xC1BRzV0NldxibowX8XYz8RusgU9lSkasU9xbvahdP%2BkORcpX74BLbiUF0S7d%2FQg0nyiM2BZUz1q0d%2BRK%2FwNmM1q4PUKcif%2BLKeKs5VV1J709lJypkBns%2FcEQq8ypNsMnpINnPTgVLDkR8%2Bxep7g%2Bt29VXC6XZs24eEul7iHtHQdjGLRkxjhL%2By9VhDQf%2FC7YlC%2Fon1wmkMQ6se6b5I2TnA7NVYgw2arZVIEUNNxE%2Fs1DrVWNxH10HFYp1QSFhIH%2Fd18GPPUmTw3zSMpSdFaxSWsOgALvCFcbapCri6%2BJfhTLju%2BQJWqVIDQc6l0%2BhFEIo2m%2BCEY1JUx9uQSD%2FVL1xJ0bNRwA2cTd66PcMTJmQiNUFEmHkf4SUEtm9Hob65EDFv7Yo0VBkv%2B82Y3J%2BNgm6BAyM0q7FXyoP9Kkik7hZJTbvSvMFkJTgCGC51daIZRN%2B4NoZ757AxQvrp%2BP15xlZX%2FgtKgKQLfafQ81b4L7tmhydopblLaLo04YF9jOLWTUnuu7SEnCLb82zwbTFwdknYuj4OtBmqJyj5poeED9fA45Vdv1IeVO8f8u7%2FTDoJ8%2BjLBS%2Fz8kqCQCo7ust0btLoYFe7k0B0JFeUhh%2ByfzeWwXfjT4E2b9ois2gA2yjte%2Fwro0YZ6wGdoTph1Gty7gCW8ZdLZ2757Es2sQxrr%2Bs5yaiqm7o5g9k%2FfKPeYP%2BzfLTUJfFQURKd7bd8SJV3FkqZmj7Na5diTWEwd76OpqasRmmT5Uqzgn2x5leNorpb0W%5E1%5E%5E%5E%5E%5E&eid_criteo.com=7B8hRF91SmprNkdLcDBGT0JOV2IlMkJQdDBmV3Vza2xQRXBSaGNrQ2psVFJYcTUwJTJGSmZXakpSaE1IajNXWW94aVlLRkI1WXFmUVowOGNDOWlZNFlpVzUxbFIzS0ElM0QlM0Q%5E1%5E%5E%5E%5E%5E&eid_neustar.biz=E1%3AQmciB0aH48M3znpRL8QiQ255mB738y94iE1nlZg0kPTywd8j9HPcspWKIKWnc5j5mGGnwiPPnSVC_NzfJaNIF_tqtDkXkF3aOd6R0cMJp4s%5E1%5E%5E%5E%5E%5E&eid_id5-sync.com=ID5*PqXChgf1kj-yqEHZWmWESOBg0-8FcMPetd59TPhB4in__2qizcJaAAEBCmqizcEA3n-2Q89DwDIPlOFRjNzl4g%5E1%5E%5E%5E%5E%5E&eid_pubcid.org=6dc6025f-9374-4ddf-a021-3bebe64ce101%5E1%5E%5E%5E%5E%5E&rf=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&kw=dpworld-tour%2CDPWorldTour%2Ccourse%2Cleaderboard%2Cfeed%2Cstats%2Cspectatorinformation%2Ceventhub&tg_i.domain=europeantour.com&tg_i.page=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&tg_i.divId=pb-slot-content-1-index-2&tg_i.placement=ban_1&tg_i.pbadslot=%2F9517547%2Feuropeantour-web%2Feuropeantour%2Ftournaments%2Famgen-irish-open-2026%2Fleaderboard%23pb-slot-content-1-index-2&tk_flint=pbjs_lite_v9.30.0&x_source.tid=fcf3a120-402a-4add-8dd1-bb43624ab486&l_pb_bid_id=442d64fb30cd34e8&p_screen_res=1280x720&rp_secure=1&x_imp.ext.tid=a2ad71c7-1061-4556-8198-8430d85a5b4f&rp_maxbids=1&p_gpid=%2F9517547%2Feuropeantour-web%2Feuropeantour%2Ftournaments%2Famgen-irish-open-2026%2Fleaderboard%23pb-slot-content-1-index-2&m_ch_ua=%22Chromium%22%7Cv%3D%22151%22%2C%22Not%3DA%3FBrand%22%7Cv%3D%2299%22&m_ch_full_ver=%22Chromium%22%7Cv%3D%22151%22%2C%22Not%3DA%3FBrand%22%7Cv%3D%2299%22&m_ch_mobile=%3F0&m_ch_platform=Windows&slots=1&rand=0.4914378121110481",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\065_000_https_fastlane_rubiconproject_com_a_api_fastlane_json.json"
+    "url": "https://www.europeantour.com/api/sportdata/Scorecard/Strokeplay/Event/2026135/Player/37624",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\041_tour_com_api_sportdata_Scorecard_Strokeplay_Event_2026135_Player_37624.json"
   },
   {
-    "url": "https://hbopenbid.pubmatic.com/translator?source=prebid-client",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\066_000_https_hbopenbid_pubmatic_com_translator.json"
+    "url": "https://www.europeantour.com/library/players/37624/favourite",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\042_https_www_europeantour_com_library_players_37624_favourite.json"
   },
   {
-    "url": "https://fastlane.rubiconproject.com/a/api/fastlane.json?account_id=24586&site_id=457186&zone_id=2678216&size_id=2&alt_size_ids=55&us_privacy=1---&rp_schain=1.0,1!aditude.io,135,1,8631331ddc5d7768,,&eid_33across.com=v1.0015a00002qqhgFAAQ.1057.lnznG4qhwr%2Bj19gewUEB2hIFeF5V3Vd9Mcb0s%2BgEGAN6oTC%2F7e3QiHvn%2BxR9TVaUArSsQJedO6pVaML8%2Bsp87GA2vZ4JIwlBhWtBuJn12NlINLEuDDoBkzaL7AF3xAv6Gb%2B96sivv%2FOCOtK3g4I3ojRQPD1%2FhcBSp8WKa8hYtOV6gRDiNLYCz%2BsIhf2QSnPj8jo973CQVp3Z0nJJSycc4GYrDqJyx2aSSSNw30DvE2Os0BWvgVKjZwRZPRDn1GBvVCSvLxl5%2FDn2UNoSJ%2FUy2FEeOQjJMfHiQpdOiorxAYk1E4cy1NzwXexv8O1xI5Ap3OFXJEgkSFo1HcdksbfrRfdCUxh8OuxXVRpeuw5iBqI4if4XgoJ8n4If%2FLNrX9fpVoc8I5ghUjo02wSuwCm2%2BkbcqYqITPbG7YI5nIWy3eiF87OXp37mzDe1yaJlQ3IFDfNmg%2FBr6c%2Fatk9iQlsodUF5dUAtgvhct2ULDfpn%2Fr1svvH5TaluhI9DdWRM%2F4wgm8t8XlzxmnG7Te4dteigBTrS7fuqev%2FkQHGkwPCOTuNGX7UmTHZhHWBg6aSxp1gxBr0BABR3bM1Bvtpr66xJwGBqVfucvhovvw7T09irpBOB5rhVrGn051bsT4gu9v7xC1BRzV0NldxibowX8XYz8RusgU9lSkasU9xbvahdP%2BkORcpX74BLbiUF0S7d%2FQg0nyiM2BZUz1q0d%2BRK%2FwNmM1q4PUKcif%2BLKeKs5VV1J709lJypkBns%2FcEQq8ypNsMnpINnPTgVLDkR8%2Bxep7g%2Bt29VXC6XZs24eEul7iHtHQdjGLRkxjhL%2By9VhDQf%2FC7YlC%2Fon1wmkMQ6se6b5I2TnA7NVYgw2arZVIEUNNxE%2Fs1DrVWNxH10HFYp1QSFhIH%2Fd18GPPUmTw3zSMpSdFaxSWsOgALvCFcbapCri6%2BJfhTLju%2BQJWqVIDQc6l0%2BhFEIo2m%2BCEY1JUx9uQSD%2FVL1xJ0bNRwA2cTd66PcMTJmQiNUFEmHkf4SUEtm9Hob65EDFv7Yo0VBkv%2B82Y3J%2BNgm6BAyM0q7FXyoP9Kkik7hZJTbvSvMFkJTgCGC51daIZRN%2B4NoZ757AxQvrp%2BP15xlZX%2FgtKgKQLfafQ81b4L7tmhydopblLaLo04YF9jOLWTUnuu7SEnCLb82zwbTFwdknYuj4OtBmqJyj5poeED9fA45Vdv1IeVO8f8u7%2FTDoJ8%2BjLBS%2Fz8kqCQCo7ust0btLoYFe7k0B0JFeUhh%2ByfzeWwXfjT4E2b9ois2gA2yjte%2Fwro0YZ6wGdoTph1Gty7gCW8ZdLZ2757Es2sQxrr%2Bs5yaiqm7o5g9k%2FfKPeYP%2BzfLTUJfFQURKd7bd8SJV3FkqZmj7Na5diTWEwd76OpqasRmmT5Uqzgn2x5leNorpb0W%5E1%5E%5E%5E%5E%5E&eid_criteo.com=7B8hRF91SmprNkdLcDBGT0JOV2IlMkJQdDBmV3Vza2xQRXBSaGNrQ2psVFJYcTUwJTJGSmZXakpSaE1IajNXWW94aVlLRkI1WXFmUVowOGNDOWlZNFlpVzUxbFIzS0ElM0QlM0Q%5E1%5E%5E%5E%5E%5E&eid_neustar.biz=E1%3AQmciB0aH48M3znpRL8QiQ255mB738y94iE1nlZg0kPTywd8j9HPcspWKIKWnc5j5mGGnwiPPnSVC_NzfJaNIF_tqtDkXkF3aOd6R0cMJp4s%5E1%5E%5E%5E%5E%5E&eid_id5-sync.com=ID5*PqXChgf1kj-yqEHZWmWESOBg0-8FcMPetd59TPhB4in__2qizcJaAAEBCmqizcEA3n-2Q89DwDIPlOFRjNzl4g%5E1%5E%5E%5E%5E%5E&eid_pubcid.org=6dc6025f-9374-4ddf-a021-3bebe64ce101%5E1%5E%5E%5E%5E%5E&rf=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&kw=dpworld-tour%2CDPWorldTour%2Ccourse%2Cleaderboard%2Cfeed%2Cstats%2Cspectatorinformation%2Ceventhub&tg_i.domain=europeantour.com&tg_i.page=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Famgen-irish-open-2026%2Fleaderboard%3Fround%3D1&tg_i.divId=pb-slot-content-2-index-2&tg_i.placement=ban_2&tg_i.pbadslot=%2F9517547%2Feuropeantour-web%2Feuropeantour%2Ftournaments%2Famgen-irish-open-2026%2Fleaderboard%23pb-slot-content-2-index-2&tk_flint=pbjs_lite_v9.30.0&x_source.tid=5195b27a-d5e7-48d9-a7b3-e390657fdab4&l_pb_bid_id=9147e4c489b72b9&p_screen_res=1280x720&rp_secure=1&x_imp.ext.tid=c0f111e6-b23b-4011-9c19-984dc05ad528&rp_maxbids=1&p_gpid=%2F9517547%2Feuropeantour-web%2Feuropeantour%2Ftournaments%2Famgen-irish-open-2026%2Fleaderboard%23pb-slot-content-2-index-2&m_ch_ua=%22Chromium%22%7Cv%3D%22151%22%2C%22Not%3DA%3FBrand%22%7Cv%3D%2299%22&m_ch_full_ver=%22Chromium%22%7Cv%3D%22151%22%2C%22Not%3DA%3FBrand%22%7Cv%3D%2299%22&m_ch_mobile=%3F0&m_ch_platform=Windows&slots=1&rand=0.4339049982106017",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\067_000_https_fastlane_rubiconproject_com_a_api_fastlane_json.json"
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\043_https_hb_yellowblue_io_hb_multi.json"
   },
   {
-    "url": "https://hb.minutemedia-prebid.com/hb-mm-multi",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\068_000_https_hb_minutemedia_prebid_com_hb_mm_multi.json"
+    "url": "https://cs.ingage.tech/v1/sync/equative/559729b2-7a6a-49a8-95af-642c3979ecec?uid=",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\044_s_cs_ingage_tech_v1_sync_equative_559729b2_7a6a_49a8_95af_642c3979ecec.json"
   },
   {
-    "url": "https://ex.ingage.tech/v1/openrtb",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\069_000_https_ex_ingage_tech_v1_openrtb.json"
+    "url": "https://u-ams.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1593&domain=https%3A%2F%2Fsync.adkernel.com%2F&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\045_https_u_ams_4dex_io_usync_json.json"
+  },
+  {
+    "url": "https://u-ams.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1593&domain=https%3A%2F%2Fsync.adkernel.com%2F&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\046_https_u_ams_4dex_io_usync_json.json"
   },
   {
     "url": "https://static.srarena.io/event-centre-configs/europeantour.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\070_000_https_static_srarena_io_event_centre_configs_europeantour_json.json"
-  },
-  {
-    "url": "https://static.srarena.io/event-centre-configs/europeantour.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\071_000_https_static_srarena_io_event_centre_configs_europeantour_json.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\047_https_static_srarena_io_event_centre_configs_europeantour_json.json"
   },
   {
     "url": "https://static.srarena.io/event-centre-configs/master.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\072_000_https_static_srarena_io_event_centre_configs_master_json.json"
-  },
-  {
-    "url": "https://o532823.ingest.sentry.io/api/5661643/envelope/?sentry_key=eb7f6ec62da645ed8e796482f824a0d7&sentry_version=7",
-    "status": 200,
-    "method": "POST",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\073_000_https_o532823_ingest_sentry_io_api_5661643_envelope.json"
-  },
-  {
-    "url": "https://l10n.frs-prod.imgarena.dev/locales/en_GB/golf-player-names.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\074_000_https_l10n_frs_prod_imgarena_dev_locales_en_GB_golf_player_names_json.json"
-  },
-  {
-    "url": "https://l10n.frs-prod.imgarena.dev/locales/en_GB/golf-tournaments.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\075_000_https_l10n_frs_prod_imgarena_dev_locales_en_GB_golf_tournaments_json.json"
-  },
-  {
-    "url": "https://l10n.frs-prod.imgarena.dev/locales/en/units.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\076_000_https_l10n_frs_prod_imgarena_dev_locales_en_units_json.json"
-  },
-  {
-    "url": "https://l10n.frs-prod.imgarena.dev/locales/en/ec-shared.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\077_000_https_l10n_frs_prod_imgarena_dev_locales_en_ec_shared_json.json"
-  },
-  {
-    "url": "https://l10n.frs-prod.imgarena.dev/locales/en/golf-player-names.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\078_000_https_l10n_frs_prod_imgarena_dev_locales_en_golf_player_names_json.json"
-  },
-  {
-    "url": "https://l10n.frs-prod.imgarena.dev/locales/en_GB/units.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\079_000_https_l10n_frs_prod_imgarena_dev_locales_en_GB_units_json.json"
-  },
-  {
-    "url": "https://l10n.frs-prod.imgarena.dev/locales/en_GB/ec-shared.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\080_000_https_l10n_frs_prod_imgarena_dev_locales_en_GB_ec_shared_json.json"
-  },
-  {
-    "url": "https://l10n.frs-prod.imgarena.dev/locales/en/golf-tournaments.json",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\082_000_https_l10n_frs_prod_imgarena_dev_locales_en_golf_tournaments_json.json"
-  },
-  {
-    "url": "https://ut.pubmatic.com/geo?pubid=137711",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\084_000_https_ut_pubmatic_com_geo.json"
-  },
-  {
-    "url": "https://ut.pubmatic.com/geo?pubid=156212",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\085_000_https_ut_pubmatic_com_geo.json"
-  },
-  {
-    "url": "https://ut.pubmatic.com/geo?pubid=137711",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\086_000_https_ut_pubmatic_com_geo.json"
-  },
-  {
-    "url": "https://ut.pubmatic.com/geo?pubid=156212",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\087_000_https_ut_pubmatic_com_geo.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\048_https_static_srarena_io_event_centre_configs_master_json.json"
   },
   {
     "url": "https://btec-http.services.srarena.io/?hash=1919073655",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\088_000_https_btec_http_services_srarena_io.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\049_https_btec_http_services_srarena_io.json"
   },
   {
     "url": "https://btec-http.services.srarena.io/?hash=2965968415",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\090_000_https_btec_http_services_srarena_io.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\050_https_btec_http_services_srarena_io.json"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=171215627",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\051_https_btec_http_services_srarena_io.json"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1310313207",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\052_https_btec_http_services_srarena_io.json"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=3957215379",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\053_https_btec_http_services_srarena_io.json"
   },
   {
     "url": "https://btec-http.services.srarena.io/?hash=3427893755",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\093_000_https_btec_http_services_srarena_io.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\054_https_btec_http_services_srarena_io.json"
   },
   {
-    "url": "https://btec-http.services.srarena.io/?hash=3427893755",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\094_000_https_btec_http_services_srarena_io.json"
+    "url": "https://btec-http.services.srarena.io/?hash=4019670659",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\055_https_btec_http_services_srarena_io.json"
+  },
+  {
+    "url": "https://static.srarena.io/golf/3d/courses/ET-2229/all_metadata.json?v=36",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\056_https_static_srarena_io_golf_3d_courses_ET_2229_all_metadata_json.json"
+  },
+  {
+    "url": "https://mweb-hb.presage.io/api/header-bidding-request",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\057_https_mweb_hb_presage_io_api_header_bidding_request.json"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1126722043",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\058_https_btec_http_services_srarena_io.json"
+  },
+  {
+    "url": "https://u-las.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1543&domain=programmaticx.ai&r=https%3A%2F%2Fsync.programmaticx.ai%2Fapi%2Fcookie%3FpartnerId%3Dprogx-adagio%26userId%3D%7BUID%7D%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\059_https_u_las_4dex_io_usync_json.json"
+  },
+  {
+    "url": "https://sonic.impactify.media/cookie_sync",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\060_https_sonic_impactify_media_cookie_sync.json"
+  },
+  {
+    "url": "https://sonic.impactify.media/cookie_sync",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\061_https_sonic_impactify_media_cookie_sync.json"
+  },
+  {
+    "url": "https://sonic.impactify.media/cookie_sync",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\062_https_sonic_impactify_media_cookie_sync.json"
+  },
+  {
+    "url": "https://agen-assets.ftstatic.com/display/10098434/6208307.json",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\063_https_agen_assets_ftstatic_com_display_10098434_6208307_json.json"
+  },
+  {
+    "url": "https://cdn.flashtalking.com/231040/mv41714703.json?cb=556901110",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\064_https_cdn_flashtalking_com_231040_mv41714703_json.json"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\065_https_btec_http_services_srarena_io.json"
+  },
+  {
+    "url": "https://agen-assets.ftstatic.com/display/11111886/6401082.json",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\066_https_agen_assets_ftstatic_com_display_11111886_6401082_json.json"
+  },
+  {
+    "url": "https://d9.flashtalking.com/lgc",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\067_https_d9_flashtalking_com_lgc.json"
+  },
+  {
+    "url": "https://data.ad-score.com/data/cors?pm_st=jECQDrXxDiIwWRJHmdYaIlHPgopOcWoh-FE7fPshldVTqKDwY0XLPEUPGNA==-E03JNc1hblLjPg==&pm_ct=7032420cb0de2ca55c10a920&pm_pl=1789070005688&pm_td=3149&pid=1000925&en=1.1&callback=__pm_glbl_7ThBnH0CybOxXhMS8RNazMFv._gc2&tt=g&v=7cf6c29",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\068_https_data_ad_score_com_data_cors.json"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1808518329",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\069_https_btec_http_services_srarena_io.json"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=4236236510",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\070_https_btec_http_services_srarena_io.json"
+  },
+  {
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\071_https_hb_yellowblue_io_hb_multi.json"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=598994815",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\072_https_btec_http_services_srarena_io.json"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\073_https_btec_http_services_srarena_io.json"
+  },
+  {
+    "url": "https://mweb-hb.presage.io/api/header-bidding-request",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\074_https_mweb_hb_presage_io_api_header_bidding_request.json"
+  },
+  {
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\075_https_hb_yellowblue_io_hb_multi.json"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1280791101",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\076_https_btec_http_services_srarena_io.json"
   },
   {
     "url": "https://btec-http.services.srarena.io/?hash=1879202898",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\095_000_https_btec_http_services_srarena_io.json"
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\077_https_btec_http_services_srarena_io.json"
   },
   {
-    "url": "https://ut.pubmatic.com/geo?pubid=160295",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\097_000_https_ut_pubmatic_com_geo.json"
+    "url": "https://btec-http.services.srarena.io/?hash=2536928499",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\078_https_btec_http_services_srarena_io.json"
   },
   {
-    "url": "https://ut.pubmatic.com/geo?pubid=160295",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\098_000_https_ut_pubmatic_com_geo.json"
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\079_https_hb_yellowblue_io_hb_multi.json"
   },
   {
-    "url": "https://ut.pubmatic.com/geo?pubid=157743",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\099_000_https_ut_pubmatic_com_geo.json"
+    "url": "https://btec-http.services.srarena.io/?hash=2015748747",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\080_https_btec_http_services_srarena_io.json"
   },
   {
-    "url": "https://ut.pubmatic.com/geo?pubid=157743",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\100_000_https_ut_pubmatic_com_geo.json"
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\081_https_hb_yellowblue_io_hb_multi.json"
   },
   {
-    "url": "https://ut.pubmatic.com/geo?pubid=0",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\101_000_https_ut_pubmatic_com_geo.json"
-  },
-  {
-    "url": "https://ut.pubmatic.com/geo?pubid=0",
-    "status": 200,
-    "method": "GET",
-    "score": 0,
-    "matched_keys": [],
-    "record_arrays": [],
-    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\102_000_https_ut_pubmatic_com_geo.json"
+    "url": "https://btec-http.services.srarena.io/?hash=3393867018",
+    "kind": "http",
+    "body_file": "C:\\Users\\RyanCrysler\\OneDrive - SEHQ Management, LLC\\Documents\\GitHub\\RCProjects\\europeantour\\captured\\bodies\\082_https_btec_http_services_srarena_io.json"
   }
 ]
