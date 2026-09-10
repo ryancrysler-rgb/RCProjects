@@ -1,24 +1,26 @@
 #!/usr/bin/env python3
-"""Open the Shot Tracker and capture the shot feed behind it.
+"""Record the shot data behind the AI Shot Commentary panel.
 
-The leaderboard page never loads shot data -- it only appears once the IMG
-Arena "Event Centre" opens a player's Shots view. That widget lives in an
-iframe and talks GraphQL to btec-http.services.srarena.io using persisted
-queries addressed by a numeric hash, so the URL for shots simply does not
-exist until something asks for it.
+You drive, this records. Guessing at button labels from the outside kept
+missing the view; you can reach it in seconds. So this opens a browser,
+captures every data response and websocket message while you click through
+to the commentary, and works out what's in them once you close the window.
 
-This drives the page to that view and records what comes back.
+The commentary lines are rendered from structured records -- the site's own
+translation bundle formats them as "Shot {{shotNumber}}" and
+"{{distance,metresToYards}}" -- so the feed behind them carries the shot
+number, distance and surface as fields, not just prose.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import re
-import sys
+import time
 from pathlib import Path
 from typing import Any
 
-from playwright.sync_api import Page, Response, sync_playwright
+from playwright.sync_api import Response, sync_playwright
 
 import find_shots
 import shotjson
@@ -28,61 +30,22 @@ DEFAULT_URL = (
     "https://www.europeantour.com/dpworld-tour/amgen-irish-open-2026/leaderboard?round=1"
 )
 
-# Labels the Event Centre uses for the views that load shot data, taken from
-# its own translation bundle.
-SHOT_VIEWS = ["Shots", "Shot Tracker", "Play by play", "Play By Play", "Tracker", "3D", "Hole"]
+NOISE = re.compile(
+    r"onetrust|doubleverify|doubleclick|googlesyndication|googletagmanager|"
+    r"google-analytics|adservice|safeframe|criteo|teads|prebid|aditude|"
+    r"amazon-adsystem|/locales?/|l10n|sentry|chartbeat|permutive",
+    re.I,
+)
 
 
 def slugify(url: str) -> str:
     return re.sub(r"[^A-Za-z0-9]+", "_", url.split("?")[0])[-70:].strip("_")
 
 
-# Ad and consent iframes, of which these pages carry many. Probing each one
-# costs a full timeout and none of them will ever hold a Shots button.
-AD_FRAME = re.compile(
-    r"doubleclick|googlesyndication|googletagmanager|adservice|safeframe|"
-    r"onetrust|doubleverify|aditude|prebid|amazon-adsystem|criteo|teads",
-    re.I,
-)
-
-
-def candidate_frames(page: Page) -> list:
-    """Frames worth clicking in, most likely first.
-
-    The Event Centre iframe is the target, so it goes first; the main page
-    next; ad frames not at all.
-    """
-    event_centre, others = [], []
-    for frame in page.frames:
-        url = frame.url or ""
-        if frame is not page.main_frame and AD_FRAME.search(url):
-            continue
-        (event_centre if re.search(r"srarena|imgarena", url, re.I) else others).append(frame)
-    return event_centre + others
-
-
-def try_click(page: Page, text: str, timeout: int = 1_500) -> bool:
-    """Click matching text in a plausible frame, cheaply.
-
-    The timeout is per frame and there can be dozens, so it stays small --
-    the element is either rendered by now or it isn't.
-    """
-    for frame in candidate_frames(page):
-        try:
-            frame.get_by_text(text, exact=False).first.click(timeout=timeout)
-            where = "" if frame is page.main_frame else f" (in {frame.url.split('/')[2][:40]})"
-            print(f"    clicked {text!r}{where}")
-            return True
-        except Exception:
-            continue
-    return False
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--url", default=DEFAULT_URL)
-    parser.add_argument("--surname", default="Canter")
-    parser.add_argument("--headless", action="store_true", help="Hide the browser window.")
+    parser.add_argument("--minutes", type=float, default=5.0, help="Give up after this long.")
     args = parser.parse_args()
 
     out = HERE / "captured"
@@ -90,101 +53,135 @@ def main() -> int:
     bodies.mkdir(parents=True, exist_ok=True)
 
     captured: list[dict[str, Any]] = []
+    ws_frames: list[dict[str, Any]] = []
     seen: set[str] = set()
+
+    def record(url: str, payload: Any, kind: str) -> None:
+        name = f"{len(captured):03d}_{slugify(url)}.json"
+        (bodies / name).write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        captured.append({"url": url, "kind": kind, "body_file": str(bodies / name)})
+        if isinstance(payload, dict) and isinstance(payload.get("data"), dict):
+            print(f"   <- {', '.join(payload['data'].keys())}")
 
     def on_response(response: Response) -> None:
         url = response.url
-        if url in seen or not re.search(r"srarena|imgarena|sportdata|graphql", url, re.I):
-            return
-        if re.search(r"/locales?/|l10n", url, re.I):
+        if url in seen or NOISE.search(url):
             return
         try:
             payload = response.json()
         except Exception:
             return
         seen.add(url)
-        name = f"{len(captured):03d}_{slugify(url)}.json"
-        (bodies / name).write_text(json.dumps(payload, indent=2), encoding="utf-8")
-        captured.append({
-            "url": url,
-            "method": response.request.method,
-            "status": response.status,
-            "body_file": str(bodies / name),
-        })
-        operations = list(payload.get("data", {}).keys()) if isinstance(payload, dict) else []
-        if operations:
-            print(f"    <- {', '.join(operations)}")
+        record(url, payload, "http")
+
+    def on_websocket(ws) -> None:
+        print(f"   websocket opened: {ws.url[:90]}")
+
+        def on_frame(payload) -> None:
+            if isinstance(payload, bytes):
+                return
+            try:
+                parsed = json.loads(payload)
+            except Exception:
+                return
+            ws_frames.append({"url": ws.url, "payload": parsed})
+
+        ws.on("framereceived", on_frame)
 
     with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=args.headless)
+        browser = playwright.chromium.launch(headless=False)
         context = browser.new_context(
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                 "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-            )
+            ),
+            viewport={"width": 1500, "height": 950},
         )
         page = context.new_page()
         page.on("response", on_response)
+        page.on("websocket", on_websocket)
 
-        print("Opening the leaderboard...")
         page.goto(args.url, wait_until="domcontentloaded", timeout=60_000)
         for selector in ("#onetrust-accept-btn-handler", "button:has-text('Accept All')"):
             try:
                 page.click(selector, timeout=5_000)
-                print("  accepted cookies")
                 break
             except Exception:
                 pass
-        page.wait_for_timeout(6_000)
 
-        print(f"\nOpening {args.surname}'s player view...")
-        if not try_click(page, args.surname, timeout=6_000):
-            print(f"  couldn't find a row for {args.surname} -- is that player in this event?")
-        page.wait_for_timeout(5_000)
+        print("\n" + "=" * 64)
+        print("  YOUR TURN -- in the browser window that just opened:")
+        print()
+        print("   1. Click on Laurie Canter")
+        print("   2. Open the Scorecard, and click a hole")
+        print("   3. Open the AI SHOT COMMENTARY panel")
+        print("   4. Click through a few holes so it loads more shots")
+        print()
+        print("  Then CLOSE THE BROWSER WINDOW. Everything gets saved.")
+        print("=" * 64 + "\n")
 
-        print(f"\nLooking for the shot views ({len(page.frames)} frames on the page)...")
-        for label in SHOT_VIEWS:
-            print(f"  trying {label!r}...")
-            if try_click(page, label):
-                page.wait_for_timeout(4_000)
+        deadline = time.time() + args.minutes * 60
+        last_report = 0
+        while time.time() < deadline:
+            if page.is_closed():
+                break
+            try:
+                page.wait_for_timeout(1_000)
+            except Exception:
+                break  # window closed mid-wait
+            if len(captured) != last_report:
+                last_report = len(captured)
+        print(f"\nFinished. {len(captured)} data responses, {len(ws_frames)} websocket messages.")
 
-        print("\nSettling...")
-        page.wait_for_timeout(4_000)
-        context.close()
-        browser.close()
+        try:
+            context.close()
+            browser.close()
+        except Exception:
+            pass
 
+    if ws_frames:
+        (out / "websocket_frames.json").write_text(json.dumps(ws_frames, indent=2), encoding="utf-8")
     (out / "manifest.json").write_text(json.dumps(captured, indent=2), encoding="utf-8")
-    print(f"\nCaptured {len(captured)} data responses.")
+
+    payloads = [(item["url"], json.loads(Path(item["body_file"]).read_text(encoding="utf-8")))
+                for item in captured]
+    payloads += [(frame["url"], frame["payload"]) for frame in ws_frames]
 
     shotjson.MIN_ARRAY_SCORE = 2
-    findings = []
-    for item in captured:
-        payload = json.loads(Path(item["body_file"]).read_text(encoding="utf-8"))
+    shots, commentary = [], []
+    for url, payload in payloads:
         for path, records, context_fields in shotjson.find_record_arrays(payload):
             score, fields = find_shots.assess(records)
+            if score and len(set(fields) - {"x", "y", "z"}) >= 2:
+                shots.append((score, url, records, context_fields, fields))
+            score, fields = find_shots.assess_commentary(records)
             if score:
-                findings.append((score, item["url"], path, records, context_fields, fields))
-    findings.sort(key=lambda f: f[0], reverse=True)
+                commentary.append((score, url, records, context_fields, fields))
 
-    real = [f for f in findings if len(set(f[5]) - {"x", "y", "z"}) >= 2]
-    if not real:
-        print("\nStill no per-shot records. The Shots view may not have opened,")
-        print("or this event doesn't publish shot tracking for that player.")
-        print("Run SEND DATA TO CLAUDE and push, and Claude can look at what arrived.")
-        input("\nPress Enter to close... ")
-        return 1
+    wrote = False
+    for label, findings, filename in (
+        ("shot records", shots, "SHOT_BY_SHOT.csv"),
+        ("AI commentary", commentary, "AI_COMMENTARY.csv"),
+    ):
+        if not findings:
+            continue
+        findings.sort(key=lambda f: f[0], reverse=True)
+        score, url, records, context_fields, fields = findings[0]
+        rows = [
+            {**shotjson.flatten(context_fields), **shotjson.flatten(record)}
+            for record in records
+        ]
+        find_shots.write_csv(rows, HERE / filename)
+        print(f"\n{label}: {len(rows)} rows -> {filename}")
+        print(f"  from   : {url[:110]}")
+        print(f"  fields : {fields}")
+        wrote = True
 
-    score, url, path, records, context_fields, fields = real[0]
-    rows = [
-        {**shotjson.flatten(context_fields), **shotjson.flatten(record)}
-        for record in records
-    ]
-    find_shots.write_csv(rows, HERE / "SHOT_BY_SHOT.csv")
-    print(f"\nSHOT BY SHOT FOUND: {len(rows)} rows -> SHOT_BY_SHOT.csv")
-    print(f"  from   : {url}")
-    print(f"  fields : {fields}")
+    if not wrote:
+        print("\nNothing shot-shaped arrived. Run SEND DATA TO CLAUDE and push --")
+        print("Claude can then read exactly what the commentary panel requested.")
     input("\nPress Enter to close... ")
-    return 0
+    return 0 if wrote else 1
 
 
 if __name__ == "__main__":

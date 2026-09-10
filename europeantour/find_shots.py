@@ -57,6 +57,39 @@ def assess(rows: list[dict]) -> tuple[int, list[str]]:
     return score, shot_keys + coord_keys
 
 
+# Commentary / play-by-play events. The site renders these into sentences,
+# but each event is a structured record underneath -- which is where the
+# shot-by-shot detail actually lives.
+TEXT_KEYS = {
+    "text", "commentary", "description", "narrative", "headline", "summary",
+    "message", "body", "content", "title", "displaytext",
+}
+EVENT_KEYS = {
+    "shotnumber", "strokenumber", "holenumber", "holeno", "shotno",
+    "eventtype", "shottype", "surfacetype", "surface", "distance",
+}
+
+
+def assess_commentary(rows: list[dict]) -> tuple[int, list[str]]:
+    """Score a table as a play-by-play feed: prose plus shot identifiers."""
+    keys = {shotjson.norm_key(k): k for row in rows for k in row}
+    text_keys = sorted(set(keys) & TEXT_KEYS)
+    event_keys = sorted(set(keys) & EVENT_KEYS)
+    if not text_keys or not event_keys:
+        return 0, []
+
+    # The text has to read like commentary, not be a UI label.
+    has_prose = any(
+        isinstance(row.get(keys[k]), str) and len(row[keys[k]]) > 25
+        for k in text_keys
+        for row in rows
+        if keys[k] in row
+    )
+    if not has_prose:
+        return 0, []
+    return len(event_keys) * 3 + len(text_keys) * 2, text_keys + event_keys
+
+
 def write_csv(rows: list[dict], path: Path) -> None:
     columns: list[str] = []
     for row in rows:
