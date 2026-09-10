@@ -1,0 +1,704 @@
+{
+  "id": "1654014765",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfCommentary": {
+        "roundNo": 1,
+        "holes": [
+          {
+            "holeNo": 1,
+            "holeOrder": 1,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T100) finds a fairway bunker with his opening drive, leaving 175 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-1-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from 175 yards finds the fairway but leaves 74 yards to the hole, losing 0.44 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-1-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from 74 yards settles on the green, leaving a 13-footer for par on his opening hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-1-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 13-footer for par on his opening hole, leaving eight inches for bogey."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-1-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from eight inches to complete a bogey on his opening hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-1-5",
+                "shotNo": 5
+              }
+            ]
+          },
+          {
+            "holeNo": 2,
+            "holeOrder": 2,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T65) finds the fairway with a 277-yard drive, leaving 166 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-2-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter finds the green from 167 yards, leaving a 17-foot putt for birdie on the second."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-2-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 17-footer for birdie, leaving six inches for par."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-2-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from six inches to save par on the second."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-2-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 3,
+            "holeOrder": 3,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T66) finds the fairway with a 252-yard drive, leaving 75 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-3-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from 76 yards settles 17 feet from the hole on the third."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-3-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 17-footer for birdie, leaving two feet for par."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-3-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter holes a two-footer for par on the third."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-3-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 4,
+            "holeOrder": 4,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T71) finds the rough with a 341-yard drive, leaving 245 yards to the hole on the par-five fourth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-4-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the rough finds the fringe, leaving 21 yards to the hole on the par-five fourth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-4-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter chips from the fringe to five feet, leaving a putt for birdie on the par five."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-4-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter rolls in a five-footer for birdie on the par-five fourth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-4-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 5,
+            "holeOrder": 5,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T46) finds the fairway with a 245-yard drive, leaving 144 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-5-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway misses the green, settling in the fringe 71 feet from the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-5-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter chips from the fringe to six feet, leaving a putt for par."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-5-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter rolls in a six-footer to save par on the fifth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-5-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 6,
+            "holeOrder": 6,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T42) finds the native area with a 312-yard drive, leaving 80 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-6-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 39-footer for par, leaving a two-foot putt for bogey."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-6-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from two feet to complete a bogey on the sixth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-6-5",
+                "shotNo": 5
+              }
+            ]
+          },
+          {
+            "holeNo": 7,
+            "holeOrder": 7,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T72) misses the green from 227 yards, finding the rough with 15 yards remaining to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-7-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter chips from the rough to four feet, leaving a putt for par."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-7-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holes a four-footer to save par on the seventh."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-7-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 8,
+            "holeOrder": 8,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T59) finds the intermediate rough with a 297-yard drive, leaving 278 yards to the hole on the par-five eighth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-8-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the intermediate rough finds a fairway bunker, leaving 40 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-8-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from 39 yards misses the green, settling in the fairway with 33 feet remaining."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-8-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter chips from the fairway to five feet, leaving a putt for par on the eighth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-8-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a five-footer for par, leaving ten inches for bogey and losing 0.71 strokes *putting*."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-8-5",
+                "shotNo": 5
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from ten inches to complete a bogey on the par-five eighth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-8-6",
+                "shotNo": 6
+              }
+            ]
+          },
+          {
+            "holeNo": 9,
+            "holeOrder": 9,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T82) sticks his approach from 161 yards to four feet, gaining 1.19 strokes *approach* and leaving a birdie look."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-9-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a four-footer for birdie, leaving 17 inches for par and losing 0.86 strokes *putting*."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-9-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from 17 inches to save par on the ninth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-9-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 10,
+            "holeOrder": 10,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T76) finds the native area with a 330-yard drive, leaving 226 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-10-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the native area advances the ball but leaves 58 yards to the hole on the par-five tenth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-10-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway misses the green, leaving 37 feet to the hole and losing 0.52 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-10-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter chips from the fairway to five feet, leaving a putt for par on the tenth."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-10-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Canter sinks a five-footer to save par on the tenth, wrapping up a steady finish to his opening nine."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-10-5",
+                "shotNo": 5
+              }
+            ]
+          },
+          {
+            "holeNo": 11,
+            "holeOrder": 11,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T71) finds the green from 178 yards, leaving a 31-foot putt on the par-three 11th."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-11-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 31-footer for birdie, leaving a two-foot putt for par."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-11-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from two feet to save par on the 11th."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-11-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 12,
+            "holeOrder": 12,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T73) finds the intermediate rough with a 264-yard drive, leaving 160 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-12-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter finds the green from the intermediate rough but leaves a lengthy 74-foot putt remaining."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-12-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 74-footer for birdie, leaving three inches for par."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-12-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from three inches to complete the par on the 12th."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-12-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 13,
+            "holeOrder": 13,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T73) finds the rough with a 257-yard drive, leaving 182 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-13-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the rough leaves 31 yards to the hole on the 13th."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-13-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter sticks his approach from 32 yards to three feet, leaving a makeable putt for par and gaining 0.72 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-13-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter sinks a three-footer to save par on the 13th, the hardest hole on the course today."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-13-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 14,
+            "holeOrder": 14,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T73) misses the green from 129 yards, finding intermediate rough with 21 yards remaining to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-14-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter chips from the intermediate rough to 25 feet, losing 0.47 strokes *around the green* and leaving a putt for par."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-14-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 25-footer for par, leaving four inches for bogey."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-14-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from four inches to complete a bogey on the 14th."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-14-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 15,
+            "holeOrder": 15,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T83) finds the rough with a 258-yard drive, leaving 100 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-15-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter finds the green from 100 yards out in the rough, leaving an 11-foot birdie opportunity and gaining 0.53 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-15-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed an 11-footer for birdie, leaving 14 inches for par."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-15-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from 14 inches to save par on the 15th."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-15-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 16,
+            "holeOrder": 16,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T97) finds a greenside bunker from the tee, leaving 15 yards to the hole on the par three."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-16-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's bunker shot from 15 yards leaves a 16-foot putt for par, losing 0.42 strokes *around the green*."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-16-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 16-footer for par, leaving six inches for bogey."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-16-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from six inches to complete a bogey on the 16th."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-16-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 17,
+            "holeOrder": 17,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T96) finds the intermediate rough with a 257-yard drive, leaving 131 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-17-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter finds the green from the intermediate rough, leaving a 12-foot putt for birdie."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-17-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 12-footer for birdie, leaving two inches for par."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-17-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from two inches to save par on the 17th."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-17-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 18,
+            "holeOrder": 18,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T94) finds the fairway with a 261-yard drive, leaving 152 yards to the hole on his closing hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-18-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter finds the green from 153 yards, leaving a 25-foot putt remaining on the closing hole."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-18-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 25-footer for birdie on his closing hole, leaving two inches for par."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-18-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter taps in from two inches to close his opening round with a par on the 18th."
+                },
+                "playerId": 840,
+                "shotId": "1434-45-1-18-4",
+                "shotNo": 4
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1434",
+    "operationName": "GOLF_COMMENTARY___",
+    "subscriptionHash": "1654014765"
+  },
+  "_operation": "ShotTrackerSubscribeToGolfCommentary"
+}

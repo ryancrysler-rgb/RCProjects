@@ -1,0 +1,76 @@
+{
+  "id": "2140210754",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfTournamentStatus": {
+        "tournamentStatus": "PlaySuspended",
+        "activeRounds": [],
+        "currentRound": 1,
+        "scheduledRounds": [
+          1,
+          2
+        ],
+        "l1Event": true,
+        "hasPlayoff": false,
+        "teeTimesAvailable": true,
+        "rounds": [
+          {
+            "format": "Regular",
+            "isPlayoff": false,
+            "roundNo": 1,
+            "roundType": "StrokePlay",
+            "scoring": "AggregatedStrokes"
+          },
+          {
+            "format": "Regular",
+            "isPlayoff": false,
+            "roundNo": 2,
+            "roundType": "StrokePlay",
+            "scoring": "AggregatedStrokes"
+          },
+          {
+            "format": "Regular",
+            "isPlayoff": false,
+            "roundNo": 3,
+            "roundType": "StrokePlay",
+            "scoring": "AggregatedStrokes"
+          },
+          {
+            "format": "Regular",
+            "isPlayoff": false,
+            "roundNo": 4,
+            "roundType": "StrokePlay",
+            "scoring": "AggregatedStrokes"
+          }
+        ],
+        "lpgaStreaming": false,
+        "roundStatuses": [
+          {
+            "number": 1,
+            "status": "Suspended"
+          },
+          {
+            "number": 2,
+            "status": "GroupingsOfficial"
+          },
+          {
+            "number": 3,
+            "status": "NotStarted"
+          },
+          {
+            "number": 4,
+            "status": "NotStarted"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1434",
+    "operationName": "GOLF_TOURNAMENT_STATUS_",
+    "subscriptionHash": "2140210754"
+  },
+  "_operation": "SubscribeToGolfTournamentStatus"
+}
