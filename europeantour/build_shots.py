@@ -25,18 +25,16 @@ HERE = Path(__file__).parent
 
 METRES_TO_YARDS = 1.0936132983377078
 
-# The site's own surfaceTypes table names Fairway, Green, Rough, Tee and
-# Native Area, and those map cleanly onto these codes. The rest of its list
-# (Fringe, Semi Rough, three kinds of bunker, Cart Path, Rock Outline...)
-# cannot be told apart from two letters with any confidence -- ORO could be
-# Rough or Rock Outline -- so unmapped codes are left raw in lieCode rather
-# than guessed at.
+# Confirmed against what the site displays for these shots. The codes are not
+# simple abbreviations of the display names -- OST reads as Rough, not
+# anything starting "ST" -- so the rest stay raw in the lieCode columns until
+# each is checked on the site. Guessing here would quietly corrupt the lie,
+# which is the column most worth trusting.
 SURFACES = {
     "OTB": "Tee",
     "OFW": "Fairway",
     "OGR": "Green",
-    "ORO": "Rough",
-    "ONA": "Native Area",
+    "OST": "Rough",       # confirmed: hole 1 tee shot
 }
 
 
