@@ -37,12 +37,41 @@ def slugify(url: str) -> str:
     return re.sub(r"[^A-Za-z0-9]+", "_", url.split("?")[0])[-70:].strip("_")
 
 
-def try_click(page: Page, text: str, timeout: int = 5_000) -> bool:
-    """Click matching text anywhere on the page, including inside iframes."""
+# Ad and consent iframes, of which these pages carry many. Probing each one
+# costs a full timeout and none of them will ever hold a Shots button.
+AD_FRAME = re.compile(
+    r"doubleclick|googlesyndication|googletagmanager|adservice|safeframe|"
+    r"onetrust|doubleverify|aditude|prebid|amazon-adsystem|criteo|teads",
+    re.I,
+)
+
+
+def candidate_frames(page: Page) -> list:
+    """Frames worth clicking in, most likely first.
+
+    The Event Centre iframe is the target, so it goes first; the main page
+    next; ad frames not at all.
+    """
+    event_centre, others = [], []
     for frame in page.frames:
+        url = frame.url or ""
+        if frame is not page.main_frame and AD_FRAME.search(url):
+            continue
+        (event_centre if re.search(r"srarena|imgarena", url, re.I) else others).append(frame)
+    return event_centre + others
+
+
+def try_click(page: Page, text: str, timeout: int = 1_500) -> bool:
+    """Click matching text in a plausible frame, cheaply.
+
+    The timeout is per frame and there can be dozens, so it stays small --
+    the element is either rendered by now or it isn't.
+    """
+    for frame in candidate_frames(page):
         try:
             frame.get_by_text(text, exact=False).first.click(timeout=timeout)
-            print(f"    clicked {text!r}" + ("" if frame is page.main_frame else " (in iframe)"))
+            where = "" if frame is page.main_frame else f" (in {frame.url.split('/')[2][:40]})"
+            print(f"    clicked {text!r}{where}")
             return True
         except Exception:
             continue
@@ -109,17 +138,18 @@ def main() -> int:
         page.wait_for_timeout(6_000)
 
         print(f"\nOpening {args.surname}'s player view...")
-        if not try_click(page, args.surname, timeout=15_000):
+        if not try_click(page, args.surname, timeout=6_000):
             print(f"  couldn't find a row for {args.surname} -- is that player in this event?")
-        page.wait_for_timeout(8_000)
+        page.wait_for_timeout(5_000)
 
-        print("\nLooking for the shot views...")
+        print(f"\nLooking for the shot views ({len(page.frames)} frames on the page)...")
         for label in SHOT_VIEWS:
+            print(f"  trying {label!r}...")
             if try_click(page, label):
-                page.wait_for_timeout(7_000)
+                page.wait_for_timeout(4_000)
 
         print("\nSettling...")
-        page.wait_for_timeout(6_000)
+        page.wait_for_timeout(4_000)
         context.close()
         browser.close()
 
