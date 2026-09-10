@@ -4,7 +4,11 @@
 You drive, this records. Guessing at button labels from the outside kept
 missing the view; you can reach it in seconds. So this opens a browser,
 captures every data response and websocket message while you click through
-to the commentary, and works out what's in them once you close the window.
+the commentary, and works out what's in them once you close the window.
+
+Runs accumulate. Each run saves into its own folder and the analysis reads
+every folder, so covering holes 1-10 now and 11-18 later still produces one
+complete spreadsheet.
 
 The commentary lines are rendered from structured records -- the site's own
 translation bundle formats them as "Shot {{shotNumber}}" and
@@ -43,18 +47,37 @@ def slugify(url: str) -> str:
     return re.sub(r"[^A-Za-z0-9]+", "_", url.split("?")[0])[-70:].strip("_")
 
 
+def collect_payloads(captured_dir: Path) -> list[tuple[str, Any]]:
+    """Load every payload from every run, this one and any before it."""
+    files = sorted(captured_dir.glob("run_*/*.json"))
+    files += sorted((captured_dir / "bodies").glob("*.json"))  # older layout
+    payloads = []
+    for path in files:
+        if path.name.startswith("_"):
+            continue
+        try:
+            payloads.append((path.name, json.loads(path.read_text(encoding="utf-8"))))
+        except Exception:
+            continue
+    return payloads
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--url", default=DEFAULT_URL)
-    parser.add_argument("--minutes", type=float, default=5.0, help="Give up after this long.")
+    parser.add_argument("--minutes", type=float, default=45.0,
+                        help="Safety limit if the window is left open (default 45).")
     args = parser.parse_args()
 
     out = HERE / "captured"
-    bodies = out / "bodies"
-    bodies.mkdir(parents=True, exist_ok=True)
+    run_dir = out / f"run_{time.strftime('%Y%m%d_%H%M%S')}"
+    run_dir.mkdir(parents=True, exist_ok=True)
+
+    previous = len(collect_payloads(out))
+    if previous:
+        print(f"Found {previous} payloads from earlier runs -- this run adds to them.\n")
 
     captured: list[dict[str, Any]] = []
-    ws_frames: list[dict[str, Any]] = []
     seen: set[str] = set()
 
     def record(url: str, payload: Any, kind: str) -> None:
@@ -67,21 +90,19 @@ def main() -> int:
             return
         seen.add(fingerprint)
 
-        name = f"{len(captured):03d}_{slugify(url)}.json"
-        (bodies / name).write_text(body, encoding="utf-8")
-        captured.append({"url": url, "kind": kind, "body_file": str(bodies / name)})
+        (run_dir / f"{len(captured):03d}_{slugify(url)}.json").write_text(body, encoding="utf-8")
+        captured.append({"url": url, "kind": kind})
         if isinstance(payload, dict) and isinstance(payload.get("data"), dict):
             print(f"   <- {', '.join(payload['data'].keys())}")
 
     def on_response(response: Response) -> None:
-        url = response.url
-        if NOISE.search(url):
+        if NOISE.search(response.url):
             return
         try:
             payload = response.json()
         except Exception:
             return
-        record(url, payload, "http")
+        record(response.url, payload, "http")
 
     def on_websocket(ws) -> None:
         print(f"   websocket opened: {ws.url[:90]}")
@@ -90,10 +111,9 @@ def main() -> int:
             if isinstance(payload, bytes):
                 return
             try:
-                parsed = json.loads(payload)
+                record(ws.url, json.loads(payload), "ws")
             except Exception:
                 return
-            ws_frames.append({"url": ws.url, "payload": parsed})
 
         ws.on("framereceived", on_frame)
 
@@ -124,27 +144,21 @@ def main() -> int:
         print("   1. Click on Laurie Canter")
         print("   2. Open the Scorecard, and click hole 1")
         print("   3. Open the AI SHOT COMMENTARY panel")
-        print("   4. Step through ALL 18 holes with the > arrow, pausing a")
+        print("   4. Step through the holes with the > arrow, pausing a")
         print("      moment on each so its shots load")
         print()
-        print("  Each hole is fetched separately, so a hole you don't open")
-        print("  is a hole that won't be in the spreadsheet.")
-        print()
-        print("  Then CLOSE THE BROWSER WINDOW. Everything gets saved.")
+        print("  TAKE AS LONG AS YOU LIKE. Nothing is timing you.")
+        print("  When you're done -- or want a break -- just CLOSE THE")
+        print("  BROWSER WINDOW. Run this again later to add more holes.")
         print("=" * 64 + "\n")
 
         deadline = time.time() + args.minutes * 60
-        last_report = 0
-        while time.time() < deadline:
-            if page.is_closed():
-                break
+        while time.time() < deadline and not page.is_closed():
             try:
                 page.wait_for_timeout(1_000)
             except Exception:
                 break  # window closed mid-wait
-            if len(captured) != last_report:
-                last_report = len(captured)
-        print(f"\nFinished. {len(captured)} data responses, {len(ws_frames)} websocket messages.")
+        print(f"\nFinished. {len(captured)} new payloads this run.")
 
         try:
             context.close()
@@ -152,27 +166,29 @@ def main() -> int:
         except Exception:
             pass
 
-    if ws_frames:
-        (out / "websocket_frames.json").write_text(json.dumps(ws_frames, indent=2), encoding="utf-8")
-    (out / "manifest.json").write_text(json.dumps(captured, indent=2), encoding="utf-8")
+    (run_dir / "_manifest.json").write_text(json.dumps(captured, indent=2), encoding="utf-8")
 
-    payloads = [(item["url"], json.loads(Path(item["body_file"]).read_text(encoding="utf-8")))
-                for item in captured]
-    payloads += [(frame["url"], frame["payload"]) for frame in ws_frames]
+    payloads = collect_payloads(out)
+    print(f"Analysing {len(payloads)} payloads from all runs...")
 
     shotjson.MIN_ARRAY_SCORE = 2
     shots, commentary = [], []
-    for url, payload in payloads:
+    for source, payload in payloads:
         for path, records, context_fields in shotjson.find_record_arrays(payload):
             score, fields = find_shots.assess(records)
             if score and len(set(fields) - {"x", "y", "z"}) >= 2:
-                shots.append((score, url, records, context_fields, fields))
+                shots.append((score, source, records, context_fields, fields))
             score, fields = find_shots.assess_commentary(records)
             if score:
-                commentary.append((score, url, records, context_fields, fields))
+                commentary.append((score, source, records, context_fields, fields))
 
-    def hole_and_shot(row: dict) -> tuple:
-        """Sort key: put the round back in playing order where we can."""
+    def hole_of(row: dict) -> Any:
+        for key, value in row.items():
+            if shotjson.norm_key(key) in {"holenumber", "holeno", "hole"} and isinstance(value, (int, float)):
+                return value
+        return None
+
+    def sort_key(row: dict) -> tuple:
         def number(*names):
             for key, value in row.items():
                 if shotjson.norm_key(key) in names and isinstance(value, (int, float)):
@@ -189,22 +205,27 @@ def main() -> int:
             continue
         # Each hole arrives as its own table, so merge them all rather than
         # keeping only the best-scoring one -- otherwise this is one hole.
-        rows, seen_rows, sources = [], set(), set()
-        for score, url, records, context_fields, fields in findings:
-            sources.add(url)
-            for record in records:
-                row = {**shotjson.flatten(context_fields), **shotjson.flatten(record)}
+        rows, seen_rows = [], set()
+        for score, source, records, context_fields, fields in findings:
+            for record_ in records:
+                row = {**shotjson.flatten(context_fields), **shotjson.flatten(record_)}
                 fingerprint = json.dumps(row, sort_keys=True, default=str)
                 if fingerprint in seen_rows:
                     continue
                 seen_rows.add(fingerprint)
                 rows.append(row)
 
-        rows.sort(key=hole_and_shot)
+        rows.sort(key=sort_key)
         find_shots.write_csv(rows, HERE / filename)
-        print(f"\n{label}: {len(rows)} rows from {len(findings)} table(s) -> {filename}")
-        print(f"  sources: {len(sources)} endpoint(s)")
-        print(f"  fields : {findings[0][4]}")
+        holes = sorted({h for h in (hole_of(r) for r in rows) if h is not None})
+        print(f"\n{label}: {len(rows)} rows -> {filename}")
+        print(f"  fields: {findings[0][4]}")
+        if holes:
+            print(f"  holes : {', '.join(str(int(h)) for h in holes)}")
+            missing = [h for h in range(1, 19) if h not in holes]
+            if missing:
+                print(f"  MISSING holes {', '.join(str(h) for h in missing)}"
+                      f" -- run this again and step through just those.")
         wrote = True
 
     if not wrote:
