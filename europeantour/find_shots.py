@@ -20,7 +20,8 @@ HERE = Path(__file__).parent
 # Fields that only exist once you are describing an individual shot. Hole
 # scores never carry these.
 SHOT_ONLY = {
-    "shotnumber", "strokenumber", "club", "clubused", "distancetopin",
+    "shotno", "strokeno", "shotdistance", "surfacetypecode", "prevsurfacetypecode",
+    "ballholed", "shotnumber", "strokenumber", "club", "clubused", "distancetopin",
     "distancetohole", "carry", "lie", "surface", "trajectory", "ballposition",
     "ballspeed", "launchangle", "spin", "apex", "fromlocation", "tolocation",
 }

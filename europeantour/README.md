@@ -30,6 +30,50 @@ choose **Open**, then **Open** again.
 
 ---
 
+## Where the shot-by-shot data actually is (solved)
+
+Not in the DP World Tour's API. Their `/api/sportdata/` endpoints serve hole
+scores only. The AI Shot Commentary panel is IMG Arena's Event Centre, and it
+streams over a **websocket**:
+
+```
+wss://btec-websocket.services.srarena.io/
+```
+
+Frames are **Snappy-compressed UTF-16LE JSON** -- not gzip or deflate, which is
+why ordinary decoding turns up nothing. `snappy_lite.py` decompresses them in
+pure Python, so nothing has to be built or installed.
+
+Two subscriptions carry the round, one hole per frame:
+
+| Subscription | Gives |
+|---|---|
+| `MapVisualisationSubscribeToMedia3DShots` | `holeNo`, `strokeNo`, `x`/`z`, `surfaceTypeCode`, `distanceToPin`, `shotDistance`, `ballHoled` |
+| `ShotFeedSubscribeToGolfTournamentTeamsShotFeed` | `shotNo`, `timestamp`, `eventType`, `holeScore`, `prevSurfaceTypeCode` |
+
+`teamId` is the id the site shows for a player -- Laurie Canter is **45**, which
+is a team id, not the `playerId` (840) or the tour's own id (37624). Three
+different numbering systems for one golfer.
+
+The event feed carries no hole number, so events are placed on holes by
+matching one shot's distances to a position record from the same frame.
+
+**Verified**: 74 shots over 18 holes for Canter, round 1. Holes 1-9 match the
+official scorecard stroke for stroke, and hole 1 reproduces the on-screen
+commentary exactly -- a 13-footer missed for par leaving eight inches, tapped
+in for bogey.
+
+## Getting a round
+
+1. `GET SHOT BY SHOT (Windows).bat` -- a browser opens; click the player, open
+   AI SHOT COMMENTARY, step through all 18 holes, then close the window.
+2. `BUILD SPREADSHEET (Windows).bat` -- writes `SHOT_BY_SHOT.csv`.
+
+Runs accumulate, so a partial round can be finished later. `decode_ws.py`
+re-decodes saved frames without touching the browser.
+
+---
+
 ## What the tour site actually serves (confirmed live, Sept 2026)
 
 Captured from the Amgen Irish Open 2026 leaderboard. These are observed, not guessed:
