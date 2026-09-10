@@ -14,6 +14,7 @@ number, distance and surface as fields, not just prose.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import time
@@ -57,21 +58,29 @@ def main() -> int:
     seen: set[str] = set()
 
     def record(url: str, payload: Any, kind: str) -> None:
+        # These are GraphQL persisted queries: the hole is in the POST body,
+        # not the URL, so every hole comes back from the same address. De-
+        # duplicate on content, or holes 2-18 look like repeats and vanish.
+        body = json.dumps(payload, indent=2)
+        fingerprint = hashlib.sha1(body.encode("utf-8")).hexdigest()
+        if fingerprint in seen:
+            return
+        seen.add(fingerprint)
+
         name = f"{len(captured):03d}_{slugify(url)}.json"
-        (bodies / name).write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        (bodies / name).write_text(body, encoding="utf-8")
         captured.append({"url": url, "kind": kind, "body_file": str(bodies / name)})
         if isinstance(payload, dict) and isinstance(payload.get("data"), dict):
             print(f"   <- {', '.join(payload['data'].keys())}")
 
     def on_response(response: Response) -> None:
         url = response.url
-        if url in seen or NOISE.search(url):
+        if NOISE.search(url):
             return
         try:
             payload = response.json()
         except Exception:
             return
-        seen.add(url)
         record(url, payload, "http")
 
     def on_websocket(ws) -> None:
@@ -113,9 +122,13 @@ def main() -> int:
         print("  YOUR TURN -- in the browser window that just opened:")
         print()
         print("   1. Click on Laurie Canter")
-        print("   2. Open the Scorecard, and click a hole")
+        print("   2. Open the Scorecard, and click hole 1")
         print("   3. Open the AI SHOT COMMENTARY panel")
-        print("   4. Click through a few holes so it loads more shots")
+        print("   4. Step through ALL 18 holes with the > arrow, pausing a")
+        print("      moment on each so its shots load")
+        print()
+        print("  Each hole is fetched separately, so a hole you don't open")
+        print("  is a hole that won't be in the spreadsheet.")
         print()
         print("  Then CLOSE THE BROWSER WINDOW. Everything gets saved.")
         print("=" * 64 + "\n")
@@ -158,6 +171,15 @@ def main() -> int:
             if score:
                 commentary.append((score, url, records, context_fields, fields))
 
+    def hole_and_shot(row: dict) -> tuple:
+        """Sort key: put the round back in playing order where we can."""
+        def number(*names):
+            for key, value in row.items():
+                if shotjson.norm_key(key) in names and isinstance(value, (int, float)):
+                    return value
+            return 0
+        return (number("holenumber", "holeno", "hole"), number("shotnumber", "shotno"))
+
     wrote = False
     for label, findings, filename in (
         ("shot records", shots, "SHOT_BY_SHOT.csv"),
@@ -165,16 +187,24 @@ def main() -> int:
     ):
         if not findings:
             continue
-        findings.sort(key=lambda f: f[0], reverse=True)
-        score, url, records, context_fields, fields = findings[0]
-        rows = [
-            {**shotjson.flatten(context_fields), **shotjson.flatten(record)}
-            for record in records
-        ]
+        # Each hole arrives as its own table, so merge them all rather than
+        # keeping only the best-scoring one -- otherwise this is one hole.
+        rows, seen_rows, sources = [], set(), set()
+        for score, url, records, context_fields, fields in findings:
+            sources.add(url)
+            for record in records:
+                row = {**shotjson.flatten(context_fields), **shotjson.flatten(record)}
+                fingerprint = json.dumps(row, sort_keys=True, default=str)
+                if fingerprint in seen_rows:
+                    continue
+                seen_rows.add(fingerprint)
+                rows.append(row)
+
+        rows.sort(key=hole_and_shot)
         find_shots.write_csv(rows, HERE / filename)
-        print(f"\n{label}: {len(rows)} rows -> {filename}")
-        print(f"  from   : {url[:110]}")
-        print(f"  fields : {fields}")
+        print(f"\n{label}: {len(rows)} rows from {len(findings)} table(s) -> {filename}")
+        print(f"  sources: {len(sources)} endpoint(s)")
+        print(f"  fields : {findings[0][4]}")
         wrote = True
 
     if not wrote:
