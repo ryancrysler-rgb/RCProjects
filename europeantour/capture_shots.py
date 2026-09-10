@@ -18,6 +18,7 @@ number, distance and surface as fields, not just prose.
 from __future__ import annotations
 
 import argparse
+import base64
 import gzip
 import hashlib
 import json
@@ -31,6 +32,7 @@ from playwright.sync_api import Response, sync_playwright
 
 import find_shots
 import shotjson
+import snappy_lite
 
 HERE = Path(__file__).parent
 DEFAULT_URL = (
@@ -108,21 +110,31 @@ def main() -> int:
 
     ws_log = run_dir / "_ws_frames.jsonl"
     ws_count = [0]
+    subscriptions: dict[str, str] = {}
 
     def decode_frame(payload: Any) -> str | None:
-        """Get text out of a frame, compressed or binary though it may be."""
+        """Get text out of a frame, compressed or binary though it may be.
+
+        This feed sends Snappy-compressed UTF-16LE JSON, which is what the
+        binary frames are; the other codecs are kept as cheap fallbacks.
+        """
         if isinstance(payload, str):
             return payload
         if not isinstance(payload, (bytes, bytearray)):
             return None
+        raw = bytes(payload)
+        text = snappy_lite.decode_text(raw, partial=True)
+        if text and text.lstrip().startswith(("{", "[")):
+            return text
         for attempt in (
             lambda b: b.decode("utf-8"),
+            lambda b: b.decode("utf-16-le"),
             lambda b: zlib.decompress(b).decode("utf-8"),
             lambda b: zlib.decompress(b, -zlib.MAX_WBITS).decode("utf-8"),
             lambda b: gzip.decompress(b).decode("utf-8"),
         ):
             try:
-                return attempt(bytes(payload))
+                return attempt(raw)
             except Exception:
                 continue
         return None
@@ -132,22 +144,39 @@ def main() -> int:
 
         def handle(payload: Any, direction: str) -> None:
             # Never drop a frame silently: the shot feed streams through here,
-            # and an unreadable frame still needs to be visible as evidence.
+            # and an unreadable frame still needs to be kept whole as evidence.
             ws_count[0] += 1
             text = decode_frame(payload)
             entry: dict[str, Any] = {"direction": direction, "url": ws.url}
+
+            if isinstance(payload, (bytes, bytearray)):
+                raw = bytes(payload)
+                # Store the entire frame, not a preview: a truncated frame
+                # can be identified but never fully decoded afterwards.
+                entry.update({"bytes": len(raw), "base64": base64.b64encode(raw).decode()})
+
             if text is None:
-                raw = bytes(payload) if isinstance(payload, (bytes, bytearray)) else b""
-                entry.update({"undecodable": True, "bytes": len(raw),
-                              "head_hex": raw[:64].hex()})
+                entry["undecodable"] = True
             else:
-                entry["text"] = text[:200_000]
+                entry["text"] = text[:400_000]
                 try:
                     parsed = json.loads(text)
                 except Exception:
                     parsed = None
                 if parsed is not None:
+                    # A sent "start" names the operation; received frames only
+                    # carry its id, so keep the mapping to label them.
+                    if direction == "sent" and parsed.get("type") == "start":
+                        operation = parsed.get("operationName", "?")
+                        subscriptions[str(parsed.get("id"))] = operation
+                        print(f"   subscribed: {operation}")
+                    elif direction == "received":
+                        operation = subscriptions.get(str(parsed.get("id")))
+                        if operation:
+                            entry["operation"] = operation
+                            parsed["_operation"] = operation
                     record(ws.url, parsed, f"ws-{direction}")
+
             with open(ws_log, "a", encoding="utf-8") as handle_:
                 handle_.write(json.dumps(entry) + "\n")
             if ws_count[0] % 25 == 0:
