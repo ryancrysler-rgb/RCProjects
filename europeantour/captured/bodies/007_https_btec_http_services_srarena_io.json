@@ -1,0 +1,9 @@
+{
+  "data": {
+    "getGolfTournament": {
+      "format": "StrokePlay",
+      "status": "InProgress",
+      "name": "Amgen Irish Open"
+    }
+  }
+}
