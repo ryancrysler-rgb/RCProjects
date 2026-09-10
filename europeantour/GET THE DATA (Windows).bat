@@ -18,7 +18,8 @@ if %errorlevel%==0 if not defined PY set PY=python
 if not defined PY goto nopython
 %PY% -m venv .venv
 ".venv\Scripts\python.exe" -m pip install --upgrade pip --quiet
-".venv\Scripts\python.exe" -m pip install requests --quiet
+".venv\Scripts\python.exe" -m pip install -r requirements.txt --quiet
+".venv\Scripts\python.exe" -m playwright install chromium
 
 :run
 ".venv\Scripts\python.exe" fetch_event.py
