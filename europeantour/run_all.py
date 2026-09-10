@@ -124,6 +124,11 @@ def main() -> int:
             sys.executable, str(HERE / "capture_api.py"),
             "--url", url,
             "--click-text", name,
+            # The 3D tracer is where shot coordinates live, and it only loads
+            # its feed once opened -- so try the buttons that reveal it.
+            "--click-text", "Scorecard",
+            "--click-text", "Shot",
+            "--click-text", "3D",
             "--headed", "--har",
             "--wait", "12000",
             "--out", str(out),

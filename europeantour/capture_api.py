@@ -22,7 +22,23 @@ from playwright.sync_api import Response, sync_playwright
 
 import shotjson
 
-INTERESTING_URL = re.compile(r"(api|feed|fdapi|sportdata|graphql|\.json)", re.I)
+INTERESTING_URL = re.compile(r"(api|feed|fdapi|sportdata|srarena|imgarena|graphql|\.json)", re.I)
+
+# Consent banners, ad tech and analytics. None of it is golf.
+NOISE_HOSTS = (
+    "onetrust.com", "doubleverify.com", "gigya.com", "prebid.cloud", "aditude.io",
+    "circlelevel.com", "googletagmanager.com", "google-analytics.com", "permutive",
+    "chartbeat", "segment.io", "sentry.io", "adservice", "geolocation", "geo-location",
+)
+
+# Localisation bundles list every UI label the app can render -- including
+# "shotNumber" and "distanceToPin" -- so they score high while containing no
+# data whatsoever. Exclude them or they drown out the real feed.
+NOISE_PATH = re.compile(r"/locales?/|l10n|/consent/|scripttemplates|translation", re.I)
+
+
+def is_noise(url: str) -> bool:
+    return any(host in url for host in NOISE_HOSTS) or bool(NOISE_PATH.search(url))
 
 
 def slugify(url: str) -> str:
@@ -58,6 +74,8 @@ def main() -> int:
     def on_response(response: Response) -> None:
         url = response.url
         if url in seen:
+            return
+        if is_noise(url):
             return
         content_type = (response.headers or {}).get("content-type", "")
         if "json" not in content_type.lower() and not INTERESTING_URL.search(url):

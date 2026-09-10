@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 *.har
 captured/bodies/
+.venv/

@@ -30,6 +30,31 @@ choose **Open**, then **Open** again.
 
 ---
 
+## What the tour site actually serves (confirmed live, Sept 2026)
+
+Captured from the Amgen Irish Open 2026 leaderboard. These are observed, not guessed:
+
+| What | URL |
+|---|---|
+| Leaderboard | `www.europeantour.com/api/sportdata/Leaderboard/Strokeplay/{event}/type/load` |
+| Live polling | `.../Leaderboard/Strokeplay/{event}/type/polling` |
+| Scorecard | `www.europeantour.com/api/sportdata/Scorecard/Strokeplay/Event/{event}/Player/{player}` |
+| Event status | `www.europeantour.com/api/sportdata/Event/Status/{event}` |
+
+- Irish Open 2026 event id: **2026135**
+- Player ids in this API are **not** the ids shown on the site. Laurie Canter is
+  `37624` there, not `45`. `fetch_event.py` resolves a surname to the right id.
+- Their own API appears to carry **hole-by-hole scores**, not shot-by-shot.
+- The **3D shot tracer is a third party**: IMG Arena / SR Arena, on
+  `btec-http.services.srarena.io/?hash=...` with course geometry at
+  `static.srarena.io/golf/3d/courses/{course}/all_metadata.json`. Shot coordinates
+  live there, behind hash-addressed URLs, not in the tour's public API.
+- Beware `l10n.frs-prod.imgarena.dev/locales/*/ec-golf.json`. It scores high for
+  shot vocabulary because it is the **translation file** listing every UI label
+  the app can display. It contains no data. The capture step now filters it out.
+
+---
+
 ## The idea
 
 **Don't parse the HTML.** That page is a client-side app — the served HTML
