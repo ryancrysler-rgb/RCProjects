@@ -1,0 +1,22 @@
+{
+  "geo": {
+    "address": "50.248.40.186",
+    "asn": "7922",
+    "city": "Palm City",
+    "country": "US",
+    "country-name": "",
+    "country-region": "FL",
+    "country-region-name": "Florida",
+    "postal-code": "34990",
+    "time-zone": "America/New_York"
+  },
+  "reg": {
+    "gdpr": false,
+    "gpp": [],
+    "usp": false
+  },
+  "meta": {
+    "bscr": null,
+    "vb": false
+  }
+}

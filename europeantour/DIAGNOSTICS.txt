@@ -1,0 +1,57 @@
+DP World Tour scraper - diagnostics
+when   : 2026-09-10 11:33:47
+python : 3.12.10 on win32
+--------------------------------------------------------------
+url    : https://www.europeantour.com/dpworld-tour/amgen-irish-open-2026/leaderboard?round=1
+player : Canter / id 45
+capture exit code: 0
+
+Captured 103 JSON responses. Top 25 by shot-likelihood:
+  [ 25] https://l10n.frs-prod.imgarena.dev/locales/en_GB/ec-golf.json
+        keys  : ['distancetopin', 'holenumber', 'holes', 'par', 'round', 'roundnumber', 'scorecard', 'shotnumber', 'shots']
+  [ 25] https://l10n.frs-prod.imgarena.dev/locales/en/ec-golf.json
+        keys  : ['distancetopin', 'holenumber', 'holes', 'par', 'round', 'roundnumber', 'scorecard', 'shotnumber', 'shots']
+  [  6] https://btec-http.services.srarena.io/?hash=1310313207
+        keys  : ['holes', 'par', 'x', 'y', 'z']
+  [  5] https://www.europeantour.com/api/sportdata/Scorecard/Strokeplay/Event/2026135/Player/37624
+        keys  : ['holes', 'playerid', 'strokes']
+  [  5] https://static.srarena.io/golf/3d/courses/ET-2229/all_metadata.json?v=36
+        keys  : ['elevation', 'x', 'y', 'z']
+  [  4] https://btec-http.services.srarena.io/?hash=3957215379
+        keys  : ['holenumber', 'holes']
+  [  3] https://www.europeantour.com/api/sportdata/Leaderboard/Strokeplay/2026135/type/load
+        keys  : ['playerid', 'strokes']
+  [  3] https://www.europeantour.com/api/sportdata/Leaderboard/Strokeplay/2026135/type/polling
+        keys  : ['playerid', 'strokes']
+  [  3] https://btec-http.services.srarena.io/?hash=171215627
+        keys  : ['holes', 'par']
+  [  1] https://www.europeantour.com/api/v1/header/dpworld-tour/_extradata
+        keys  : ['playerid']
+  [  1] https://www.europeantour.com/library/players/37624/favourite
+        keys  : ['playerid']
+  [  0] https://cdn-ukwest.onetrust.com/consent/5cc8c4d7-1d34-4de5-8239-9d3e19b78b18/5cc8c4d7-1d34-4de5-8239-9d3e19b78b18.json
+  [  0] https://pub.doubleverify.com/dvtag/signals/bsc/pub.json?ctx=20778663&cmp=DV1387960&url=https%3A%2F%2Feuropeantour.com%2Fdpworld-tour%2Famgen-irish-ope
+  [  0] https://pub.doubleverify.com/dvtag/signals/ids/pub.json?ctx=20778663&cmp=DV1387960&url=https%3A%2F%2Feuropeantour.com&ids=1&token=PZqrSLwoe3D4UdruU35Z
+  [  0] https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location
+  [  0] https://www.europeantour.com/api/v1/forge/video/2026135/
+  [  0] https://www.europeantour.com/api/sportdata/Event/Status/2026135
+  [  0] https://geo-location.prebid.cloud/v1/geo
+  [  0] https://cdns.gigya.com/sdk.config.get?apiKey=4_LtiNVJuKIvw_FXO5qOsf6Q&httpStatusCodes=true&ver=1789054320000
+  [  0] https://cdns.eu1.gigya.com/sdk.config.get?apiKey=4_LtiNVJuKIvw_FXO5qOsf6Q&httpStatusCodes=true&ver=1789054320000
+  [  0] https://geo.aditude.io/raven
+  [  0] https://cdn-ukwest.onetrust.com/consent/5cc8c4d7-1d34-4de5-8239-9d3e19b78b18/6b451231-7713-45bb-90a9-39846fd36713/en.json
+  [  0] https://circlelevel.com/hj2jgqk/rm5qn7ffh44utycj8kdyoxqq_l0kfzvdqm6
+  [  0] https://cdn-ukwest.onetrust.com/scripttemplates/202602.1.0/assets/otCenterRounded.json
+  [  0] https://cdn-ukwest.onetrust.com/scripttemplates/202602.1.0/assets/v2/otPcCenter.json
+(nothing matched strictly; found this at a relaxed threshold of 2)
+
+==============================================================
+Best endpoint (score 6):
+  https://btec-http.services.srarena.io/?hash=1310313207
+
+All players :     4 rows -> all_shots.csv
+Player 45: no row carried that id -- use all_shots.csv and filter by name.
+
+Saved in: C:\Users\RyanCrysler\OneDrive - SEHQ Management, LLC\Documents\GitHub\RCProjects\europeantour
+Open the CSV in Excel. Done.
+==============================================================

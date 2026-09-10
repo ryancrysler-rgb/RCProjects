@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "account_id": 24586,
+  "site_id": 457186,
+  "zone_id": 2678216,
+  "size_id": 2,
+  "alt_size_ids": [
+    55
+  ],
+  "tracking": "",
+  "inventory": {
+    "placement": "ban_2",
+    "page": "https://www.europeantour.com/dpworld-tour/amgen-irish-open-2026/leaderboard?round=1",
+    "domain": "europeantour.com",
+    "pbadslot": "%2F9517547%2Feuropeantour-web%2Feuropeantour%2Ftournaments%2Famgen-irish-open-2026%2Fleaderboard%23pb-slot-content-2-index-2",
+    "divId": "pb-slot-content-2-index-2"
+  },
+  "ads": [
+    {
+      "status": "no-ads",
+      "reason": "no-compatible-ads",
+      "error_code": "10",
+      "impression_id": "55bf2020-eb81-4eb6-bb61-bd60bd28a0d2"
+    }
+  ]
+}

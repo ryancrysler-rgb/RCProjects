@@ -1,0 +1,8 @@
+{
+  "_comment": "UPDATE THIS CONFIG WITH CAUTION. THESE FLAGS OVERRIDE ALL OPERATOR SETTINGS! USED TO TURN FEATURES OFF ONLY!",
+  "golf": {
+    "featureFlags": {
+      "prod": {}
+    }
+  }
+}

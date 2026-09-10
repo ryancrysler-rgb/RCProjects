@@ -1,0 +1,152 @@
+{
+  "EventId": 2026135,
+  "PlayerId": 37624,
+  "LastUpdated": "2026-09-10T15:19:03+00:00",
+  "TotalPenalty": 0,
+  "TotalTimeExtensionsRemaining": 2,
+  "Rounds": [
+    {
+      "RoundNo": 1,
+      "CourseNo": 1,
+      "StrokesIn": null,
+      "StrokesOut": null,
+      "Strokes": null,
+      "ScoreToPar": 2,
+      "Holes": [
+        {
+          "HoleNo": 1,
+          "Strokes": 5,
+          "ScoreClass": "bo",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 2,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 3,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 4,
+          "Strokes": 4,
+          "ScoreClass": "bi",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 5,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 6,
+          "Strokes": 5,
+          "ScoreClass": "bo",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 7,
+          "Strokes": 3,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 8,
+          "Strokes": 6,
+          "ScoreClass": "bo",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 9,
+          "Strokes": 0,
+          "ScoreClass": "",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 10,
+          "Strokes": 0,
+          "ScoreClass": "",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 11,
+          "Strokes": 0,
+          "ScoreClass": "",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 12,
+          "Strokes": 0,
+          "ScoreClass": "",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 13,
+          "Strokes": 0,
+          "ScoreClass": "",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 14,
+          "Strokes": 0,
+          "ScoreClass": "",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 15,
+          "Strokes": 0,
+          "ScoreClass": "",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 16,
+          "Strokes": 0,
+          "ScoreClass": "",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 17,
+          "Strokes": 0,
+          "ScoreClass": "",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 18,
+          "Strokes": 0,
+          "ScoreClass": "",
+          "IsAmScore": false,
+          "Penalty": 0
+        }
+      ]
+    }
+  ],
+  "id": "scorecard-strokeplay-2026135-37624",
+  "type": "scorecard-strokeplay-{eventId}-{playerId}",
+  "_rid": "eCoYAPoJ3EbZQjwAAAAAAA==",
+  "_self": "dbs/eCoYAA==/colls/eCoYAPoJ3EY=/docs/eCoYAPoJ3EbZQjwAAAAAAA==/",
+  "_etag": "\"pzYLob4hIQO8l-rmL-cjbjCdIiejc5Jj6ZzZ9rfq3e3eBvqROGVpvpR7hPRUp2qm7mJ1rvVBBayjS4hK8gx1XA\"",
+  "_attachments": "attachments/",
+  "_ts": 1789053562
+}
