@@ -1,0 +1,89 @@
+{
+  "id": 46862487,
+  "timeStamp": "2026-06-24T21:39:53+0000",
+  "altImageUrl": "https://servedby.flashtalking.com/click/8/295311;10098434;6208307;210;[FT_CONFID]/?g=[FT_GUID]&random=642484.7056953058&ft_width=728&ft_height=90&url=https://www.xfinity.com/learn/moving?CMP=BAC-[ebuy]-[esid]-[epid]-[ecid]-6208307&aid=12345&cvid=[%FT_CONFID%]&cd1=[esid]&cd2=[epid]&col=295311,6060,10098434,0,6208307,[%FT_IMPRESSION_ID%],[ftqs:[ft_id]]",
+  "encodeClickCount": 0,
+  "loadMethod": "quickload",
+  "baggyFrameLimit": 15,
+  "zIndex": 77000,
+  "pushdownIncrement": 0,
+  "isAttachToBody": false,
+  "isCenterAd": false,
+  "isPoliteLoad": false,
+  "isForceBackup": false,
+  "isIframeBusting": false,
+  "creative": {
+    "id": 6208307,
+    "name": "NOIS_NOSN_XFICRT_GM_INTE_OFFACQ_ENG_XXX_CMI26_1223200_IMT_2918_SUB_V0_XXX_XXX_ALL_HTML_DM_CATCHALL_728x90.zip",
+    "width": 728,
+    "height": 90,
+    "expandedWidth": 0,
+    "expandedHeight": 0,
+    "adType": "HTML_onpage",
+    "isInstantAd": true,
+    "apiVersion": "2.10",
+    "htmlFile": "index.html",
+    "creativeLibrary": {
+      "id": 231040
+    },
+    "blockBrowsers": [
+      "ie8"
+    ],
+    "baseAsset": {
+      "host": "https://cdn.flashtalking.com",
+      "path": "/231040/6208307/",
+      "file": "index.html"
+    }
+  },
+  "placement": {
+    "id": 10098434,
+    "name": "2026_MOVERS_ALL_GMHM_SUB_FT_DM_728x90_10098434"
+  },
+  "campaignSite": {
+    "id": 607646,
+    "site": {
+      "id": 6060,
+      "name": "Xfinity US",
+      "fallbackFilePath": "flashtalking/ftlocal.html"
+    }
+  },
+  "campaign": {
+    "id": 295311,
+    "name": "2026_Comcast_MOVERS",
+    "servedByDomain": "https://servedby.flashtalking.com",
+    "cdnDomain": "https://cdn.flashtalking.com",
+    "trackingDomain": "https://ad-events.flashtalking.com",
+    "isAdVisibility": true,
+    "isMobileEnhanced": false,
+    "obaData": {
+      "notification": "No Notification",
+      "adChoices": {
+        "url": "http://www.youronlinechoices.com",
+        "method": "Direct Clickthrough",
+        "width": 512,
+        "height": 360,
+        "viewTrackingUrl": null,
+        "clickTrackingUrl": null
+      }
+    },
+    "landingPageSuffix": null,
+    "logsplitBucket": 8,
+    "frequencySignal": null,
+    "advertiser": {
+      "id": 12345,
+      "attributionTrigger": 1
+    }
+  },
+  "jsVPaid": null,
+  "landingPageRedirects": [
+    "https://servedby.flashtalking.com/click/8/295311;10098434;6208307;211;[FT_CONFID]/?g=[FT_GUID]&random=268697.74788550753&ft_width=728&ft_height=90&url=https://www.xfinity.com/learn/moving?CMP=BAC-[ebuy]-[esid]-[epid]-[ecid]-6208307&aid=12345&cvid=[%FT_CONFID%]&cd1=[esid]&cd2=[epid]&col=295311,6060,10098434,0,6208307,[%FT_IMPRESSION_ID%],[ftqs:[ft_id]]"
+  ],
+  "impressions": [],
+  "surveys": [],
+  "mutations": [
+    "(function(ajs) {\n  //segment parser start - commented out\n  // ft10098434.addEventListener(\"start\",function(){\n  //   var usrSegs = (window.ftSegment_10098434 !== \"\") ? window.ftSegment_10098434.split(\",\"): [],\n  //    matched = [],\n  //    getCCSegs = getCCSegs();\n\n  // function getCCSegs(){\n  //   var xhr = new XMLHttpRequest();\n  //   xhr.open('GET', \"https://cdn.flashtalking.com/feeds/comcast/FBI-3250/segs.js\", true);\n  //     xhr.onload = function() {\n  //      try {matchSegs(this.response.replace(/\\[|\\]|\"/g,\"\").split(','));}catch(e){matchSegs([]);};\n  //     };\n  //   xhr.onerror = function(){matchSegs([]);};\n  //   xhr.send();\n  // }\n\n  //  function matchSegs(CC){\n  //    usrSegs.map(function(usr){\n  //      CC.map(function(c){(usr == c) && matched.push(usr);});\n  //    });\n  //    if(matched.length < 1) return;\n  //    matched = matched.sort().join(\"_\")+\"|\";\n\n  //    //fire 402 stateCall\n  //    var img = new Image();\n  //    img.src = \"https://servedby.flashtalking.com/state/\"+ajs.pID+\";\"+ajs.creativeID+\";\"+ajs.confID+\";402;\"+ajs.ftImpId+\"/?ft_product=\"+matched+\"&cachebuster=\"+ajs.random();\n  //   };\n  // });\n  //segment parser end\n\n  // custom macros\n  var googleString = ajs.decode(ajs.qs(\"site_lineitem\"));\n  function parseGoogleString(googleString) {\n    const pairs = googleString.split(';');\n    const result = {};\n    \n    pairs.forEach(pair => {\n      if (pair) {\n        const colonIndex = pair.indexOf(':');\n        if (colonIndex !== -1) {\n          const key = pair.substring(0, colonIndex);\n          const value = pair.substring(colonIndex + 1);\n          result[key] = value;\n        }\n      }\n    });\n    \n    return result;\n  }\n\n  const googleParams = parseGoogleString(googleString);\n\n  ajs.replaceMacrosMap = {\n      CONTENT: googleString,\n      SECTION: window['ftSection_' + ajs.pID],\n      CUSTOM: window['ftCustom_' + ajs.pID],\n      EBUY: googleParams.ebuy,\n      ESID: googleParams.esid,\n      EPID: googleParams.epid,\n      ECID: googleParams.ecid,\n      EADV: googleParams.eadv,\n      EAID: googleParams.eaid,\n      ERID: googleParams.erid,\n      EEXCID: googleParams.eexcid,\n      EEXPID: googleParams.eexpid,\n      ERV: googleParams.erv,\n      EIID: googleParams.eiid\n    }\n\n\n    // grab ftClick and fire it onclick\n    var parallelClick = window.ftClick_10098434,\n        dummyURL = \"https://www.xfinity.com/\";\n\n    if(parallelClick && parallelClick.indexOf(\"eb2.3lift.com\") == -1){\n      parallelClick = ajs.decode(parallelClick);\n    }\n\n    //onpage\n    ajs.addEventListener(\"clickthrough\",function() {\n      new Image().src = parallelClick + dummyURL;\n    });\n\n    //altimage\n    ajs.addEventListener(\"backup\",function() {\n      var fireOnClick = function(){\n        new Image().src = parallelClick + dummyURL;\n      }\n      try{\n        document.getElementById(\"ftdiv\"+ajs.pID).onclick = fireOnClick; \n      } catch(err){\n\n      }\n    });\n\n    ajs.addVClick = function(ct) {\n        var pubClick = ajs.decode(ajs.qs('click', ''));\n        var encodeCount = ajs.encodeClickCount;\n        var escapeMod = \"\";\n\n        if (ajs.flashVar && escapeMod) {\n            ajs.flashVar(\"ftEscapeMod\", escapeMod);\n        }\n\n        if (encodeCount && pubClick) {\n            while (encodeCount--) {\n                ct = encodeURIComponent(ct);\n            }\n        } else if (pubClick && ajs.inApp) {\n            if (/^mopubnativebrowser:\\/\\//.test(pubClick)) {\n                ct = encodeURIComponent(encodeURIComponent(ct));\n            } else {\n                ct = encodeURIComponent(ct);\n            }\n        }\n        return ct;\n    }\n}(ft10098434));"
+  ],
+  "landingPageEventRedirects": [],
+  "partnerTag": null,
+  "statBaseUrl": "https://ad-events.flashtalking.com/reportV3/ft.stat?0-10098434;6208307;"
+}
