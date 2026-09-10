@@ -7,6 +7,29 @@ pages like:
 https://www.europeantour.com/dpworld-tour/amgen-irish-open-2026/leaderboard?round=1
 ```
 
+## Just want the data? (no command line)
+
+1. In **GitHub Desktop**, clone this repo. Use the **Current Branch** dropdown at the
+   top and pick `claude/europeantour-shot-data-scrape-3itov4` -- the code lives on
+   that branch, so the folder looks empty until you switch to it.
+2. Click **Repository -> Show in Explorer** (or **Finder** on a Mac).
+3. Open the `europeantour` folder.
+4. Double-click **START HERE (Windows).bat** or **START HERE (Mac).command**.
+
+It installs what it needs the first time (a few minutes), asks you three questions
+-- just press Enter for the Laurie Canter defaults -- then opens a browser, watches
+what the leaderboard downloads, and drops `player_45_shots.csv` next to the script.
+Open that in Excel.
+
+You need Python installed once, from <https://www.python.org/downloads/>. On Windows,
+tick **"Add python.exe to PATH"** on the installer's first screen. The launcher tells
+you if it's missing.
+
+On a Mac the first double-click may say the file is unidentified: right-click it,
+choose **Open**, then **Open** again.
+
+---
+
 ## The idea
 
 **Don't parse the HTML.** That page is a client-side app — the served HTML
