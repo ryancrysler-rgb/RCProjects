@@ -1,0 +1,19 @@
+{
+  "newSession": true,
+  "sessionID": "5-df8a79aa405194005f568fea9dbe7ced-6763652d75732d6561737431-0",
+  "now": 1789053860,
+  "ids": [
+    {
+      "id": "0ub19c2bcbad2b11f18d80315b299e5b73",
+      "type": "pageview"
+    }
+  ],
+  "localData": "",
+  "visitorStatus": {
+    "known": false,
+    "registered": false,
+    "subscribed": false,
+    "visitorID": "",
+    "offers": []
+  }
+}

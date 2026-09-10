@@ -1,0 +1,31 @@
+{
+  "id": "d891c50e-3ac1-483e-99dc-4daa5c49d0e0",
+  "ext": {
+    "csUrl": [
+      {
+        "type": "image",
+        "url": "https://cs.media.net/cksync.php?cs=8"
+      },
+      {
+        "type": "image",
+        "url": "https://x.bidswitch.net/sync?ssp=medianet&gdpr=0&gdpr_consent=&gdpr_pd=1"
+      },
+      {
+        "type": "image",
+        "url": "https://us-u.openx.net/w/1.0/cm?id=78e2dffc-bb89-4bb2-ae92-f592d006518b&ph=6a16560a-f6c6-4851-b7b5-0b2c0190166a&r=https%3A%2F%2Fcs.media.net%2Fcksync.html%3Fcs%3D8%26type%3Dopx"
+      },
+      {
+        "type": "image",
+        "url": "https://match.sharethrough.com/universal/v1?supply_id=zKJmsEAd"
+      },
+      {
+        "type": "image",
+        "url": "https://medianet-match.dotomi.com/match/bounce/current?version=1&networkId=57734&gdpr=0&gdpr_consent=&redir=https%3A%2F%2Fcs.media.net%2Fcksync.html%3Fcs%3D8%26type%3Dcon%26ovsid%3D%24UID"
+      },
+      {
+        "type": "iframe",
+        "url": "https://hbx.media.net/checksync.php?vsSync=1&cs=8&cv=31&https=1&cid=8CUENMD10&prvid=2190%2C2034%2C2199%2C2030%2C590%2C273%2C233%2C2028%2C2027%2C2026%2C236%2C313%2C237%2C117%2C755%2C636%2C319%2C55%2C99%2C2045%2C3011%2C3010%2C122%2C201%2C3007%2C126%2C203%2C402%2C721%2C722%2C2011%2C2055%2C251%2C2009%2C3018%2C214%2C2124%2C3014%2C77%2C20000%2C2022%2C182%2C460%2C462%2C222%2C225%2C3104%2C226%2C468%2C80&itype=PREBID&purpose1=1&gdprconsent=1&gdpr=0&usp_status=0&usp_consent=1&uspstring=1---&dn=europeantour.com"
+      }
+    ]
+  }
+}

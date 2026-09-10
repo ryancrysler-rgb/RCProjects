@@ -1,0 +1,29 @@
+{
+  "distance": {
+    "mile": "mi",
+    "millimetre": "mm",
+    "centimetre": "cm",
+    "metre": "m",
+    "kilometer": "km",
+    "inch": "in",
+    "inch_plural": "in.",
+    "foot": "ft",
+    "foot_plural": "ft.",
+    "yard": "yd",
+    "yard_plural": "yds",
+    "feetInches": "{{feet}}$t(distance.foot, {\"count\": {{feet}} }) {{inches}}$t(distance.inch, {\"count\": {{inches}} })"
+  },
+  "time": {
+    "seconds": "second",
+    "seconds_plural": "seconds"
+  },
+  "weight": {
+    "lb": "lb",
+    "lb_plural": "lbs"
+  },
+  "speed": {
+    "kmph": "km/h",
+    "mph": "mph",
+    "mps": "m/s"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "endpoints": [
+    {
+      "strategyId": "bhJReBkSj20S",
+      "batchSize": 20,
+      "pagingInterval": 1000,
+      "ingressUrl": "https://event-ingestor.judy.pnap.aditude.cloud/v1/",
+      "ingressName": "judy-main01",
+      "ingressMethod": "POST",
+      "failoverUrl": "https://event-ingestor.judy.pnap.aditude.cloud/v1/",
+      "failoverName": "judy-main01",
+      "failoverMethod": "POST"
+    }
+  ],
+  "modelConfigs": {
+    "bid": {
+      "models": [
+        {
+          "bval": {
+            "bmax": 1.71022,
+            "bmin": 1.5302,
+            "bmult": 1,
+            "mt": "COND_1568"
+          },
+          "cid": "adx-europeantour-v1",
+          "cpk": 126,
+          "gflr": true,
+          "mid": "adx-ranger-v1",
+          "mt": null,
+          "pct": 100,
+          "pid": "NjCm5EtyXwfz",
+          "ppid": "europeantour-main-czh4s"
+        }
+      ]
+    }
+  },
+  "property": {
+    "id": "europeantour-main-czh4s",
+    "publisherId": "NjCm5EtyXwfz",
+    "eventPublisherValue": "europeantour",
+    "identityProvidersSampleRate": 0,
+    "matchEnabled": false,
+    "name": "europeantour main property",
+    "prebidAuctionSampleRate": 0.005,
+    "ravenVersion": "stable",
+    "sampleRate": 1,
+    "trackConnatix": false,
+    "trackGoogletag": true,
+    "trackInstream": false,
+    "trackPrebid": true,
+    "trackPrimis": false,
+    "trackSession": true,
+    "trackTudeserve": true,
+    "tudeMetaSampleRate": 1
+  },
+  "customModifiers": []
+}

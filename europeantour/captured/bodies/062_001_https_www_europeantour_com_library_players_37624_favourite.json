@@ -1,0 +1,51 @@
+{
+  "playerId": 37624,
+  "firstName": "Laurie",
+  "lastName": "CANTER",
+  "countryCode": "ENG",
+  "imageUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769155742/prod/wdj8rwngdfadl52tswjt",
+  "storySlug": "laurie-canter-37624",
+  "worldRanking": 150,
+  "tourStats": [
+    {
+      "tourId": 1,
+      "currentPoints": 163.27,
+      "currentRank": 158,
+      "currentRankLabel": "R2DR",
+      "eventsPlayed": 181,
+      "eventWins": 2,
+      "careerWins": 2,
+      "eventWinsLabel": "DP Wins"
+    },
+    {
+      "tourId": 2,
+      "currentPoints": 0.0,
+      "currentRank": 0,
+      "currentRankLabel": "OM",
+      "eventsPlayed": 0,
+      "eventWins": 0,
+      "careerWins": 0,
+      "eventWinsLabel": "LT Wins"
+    },
+    {
+      "tourId": 3,
+      "currentPoints": 0.0,
+      "currentRank": 0,
+      "currentRankLabel": "R2M",
+      "eventsPlayed": 49,
+      "eventWins": 0,
+      "careerWins": 0,
+      "eventWinsLabel": "HPT Wins"
+    },
+    {
+      "tourId": 10,
+      "currentPoints": 0.0,
+      "currentRank": 0,
+      "currentRankLabel": "OOM",
+      "eventsPlayed": 0,
+      "eventWins": 0,
+      "careerWins": 0,
+      "eventWinsLabel": "GD Wins"
+    }
+  ]
+}

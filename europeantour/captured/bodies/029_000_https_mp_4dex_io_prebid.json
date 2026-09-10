@@ -1,0 +1,23 @@
+{
+  "data": {
+    "user_syncs": [
+      {
+        "html": "<img id='adg-0-sync' style='position:absolute; display:none; height:0; width:0;' src='https://creativecdn.com/cm-notify?pi=fradagio-pbs&gdpr=0&gdpr_consent=&us_privacy=1---' />"
+      },
+      {
+        "html": "<iframe id='adg-1-sync' height='0' width='0' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' src='https://onetag-sys.com/usync/?pubId=6b859b96c564fbe&gdpr=0&gdpr_consent=&us_privacy=1---' style='border: 0px; display: none;'></iframe>"
+      },
+      {
+        "html": "<iframe id='adg-2-sync' height='0' width='0' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' src='https://secure-assets.rubiconproject.com/utils/xapi/multi-sync.html?p=onfocus&endpoint=us-west' style='border: 0px; display: none;'></iframe>"
+      },
+      {
+        "html": "<iframe id='adg-3-sync' height='0' width='0' marginwidth='0' marginheight='0' scrolling='no' frameborder='0' src='https://ssbsync.smartadserver.com/api/sync?callerId=43&gdpr=0&gdpr_consent=' style='border: 0px; display: none;'></iframe>"
+      }
+    ],
+    "adagiojs": {
+      "sampling": {
+        "avw": 0.05
+      }
+    }
+  }
+}
