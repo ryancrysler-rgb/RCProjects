@@ -18,10 +18,12 @@ number, distance and surface as fields, not just prose.
 from __future__ import annotations
 
 import argparse
+import gzip
 import hashlib
 import json
 import re
 import time
+import zlib
 from pathlib import Path
 from typing import Any
 
@@ -104,18 +106,56 @@ def main() -> int:
             return
         record(response.url, payload, "http")
 
+    ws_log = run_dir / "_ws_frames.jsonl"
+    ws_count = [0]
+
+    def decode_frame(payload: Any) -> str | None:
+        """Get text out of a frame, compressed or binary though it may be."""
+        if isinstance(payload, str):
+            return payload
+        if not isinstance(payload, (bytes, bytearray)):
+            return None
+        for attempt in (
+            lambda b: b.decode("utf-8"),
+            lambda b: zlib.decompress(b).decode("utf-8"),
+            lambda b: zlib.decompress(b, -zlib.MAX_WBITS).decode("utf-8"),
+            lambda b: gzip.decompress(b).decode("utf-8"),
+        ):
+            try:
+                return attempt(bytes(payload))
+            except Exception:
+                continue
+        return None
+
     def on_websocket(ws) -> None:
         print(f"   websocket opened: {ws.url[:90]}")
 
-        def on_frame(payload) -> None:
-            if isinstance(payload, bytes):
-                return
-            try:
-                record(ws.url, json.loads(payload), "ws")
-            except Exception:
-                return
+        def handle(payload: Any, direction: str) -> None:
+            # Never drop a frame silently: the shot feed streams through here,
+            # and an unreadable frame still needs to be visible as evidence.
+            ws_count[0] += 1
+            text = decode_frame(payload)
+            entry: dict[str, Any] = {"direction": direction, "url": ws.url}
+            if text is None:
+                raw = bytes(payload) if isinstance(payload, (bytes, bytearray)) else b""
+                entry.update({"undecodable": True, "bytes": len(raw),
+                              "head_hex": raw[:64].hex()})
+            else:
+                entry["text"] = text[:200_000]
+                try:
+                    parsed = json.loads(text)
+                except Exception:
+                    parsed = None
+                if parsed is not None:
+                    record(ws.url, parsed, f"ws-{direction}")
+            with open(ws_log, "a", encoding="utf-8") as handle_:
+                handle_.write(json.dumps(entry) + "\n")
+            if ws_count[0] % 25 == 0:
+                print(f"   ...{ws_count[0]} websocket frames")
 
-        ws.on("framereceived", on_frame)
+        # framesent carries the subscription, which says what to ask for.
+        ws.on("framereceived", lambda payload: handle(payload, "received"))
+        ws.on("framesent", lambda payload: handle(payload, "sent"))
 
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=False)
@@ -143,7 +183,9 @@ def main() -> int:
         print()
         print("   1. Click on Laurie Canter")
         print("   2. Open the Scorecard, and click hole 1")
-        print("   3. Open the AI SHOT COMMENTARY panel")
+        print("   3. Open the AI SHOT COMMENTARY panel -- THIS IS THE ONE")
+        print("      THAT MATTERS. Expand it so the lines are visible, and")
+        print("      scroll it to the bottom so every shot loads.")
         print("   4. Step through the holes with the > arrow, pausing a")
         print("      moment on each so its shots load")
         print()
