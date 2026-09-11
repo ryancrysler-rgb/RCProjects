@@ -1,0 +1,12 @@
+{
+  "type": "connection_init",
+  "payload": {
+    "accept-language": "en",
+    "ec-version": "6.0.128",
+    "sport": "GOLF",
+    "referrer": "https://www.europeantour.com/",
+    "operator": "europeantour",
+    "reconnect": false,
+    "reconnectCount": 0
+  }
+}
