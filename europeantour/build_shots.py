@@ -46,27 +46,44 @@ def yards(metres: float | None) -> float | None:
     return round(metres * METRES_TO_YARDS, 1) if isinstance(metres, (int, float)) else None
 
 
-def load_feeds(captured: Path) -> tuple[list[dict], list[list[dict]]]:
-    """Return ball positions, and event frames kept as frames.
+def run_round(run_dir: Path) -> str:
+    """Which round a capture folder holds, recorded when it was captured."""
+    info = run_dir / "_run_info.json"
+    if info.exists():
+        try:
+            return str(json.loads(info.read_text(encoding="utf-8")).get("round") or "?")
+        except Exception:
+            pass
+    return "?"
 
-    Grouping matters: an event carries no hole number, but every event in one
-    frame belongs to the same hole, so one identifiable event dates the rest.
+
+def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]]:
+    """Return ball positions and event frames, each tagged with its round.
+
+    Grouping matters twice over: an event carries no hole number, but every
+    event in one frame shares a hole; and no record carries a round at all,
+    so the round comes from the folder it was captured into.
     """
     positions, event_frames = [], []
-    for path in sorted(captured.glob("run_*/*.json")):
-        if path.name.startswith("_"):
+    for run_dir in sorted(captured.glob("run_*")):
+        if not run_dir.is_dir():
             continue
-        try:
-            payload = json.loads(path.read_text(encoding="utf-8"))
-        except Exception:
-            continue
-        if not isinstance(payload, dict):
-            continue
-        data = (payload.get("payload") or {}).get("data") or {}
-        positions += data.get("subscribeToGolfMedia3DShots") or []
-        frame = data.get("subscribeToGolfTournamentTeamsShotFeed") or []
-        if frame:
-            event_frames.append(frame)
+        round_no = run_round(run_dir)
+        for path in sorted(run_dir.glob("*.json")):
+            if path.name.startswith("_"):
+                continue
+            try:
+                payload = json.loads(path.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            if not isinstance(payload, dict):
+                continue
+            data = (payload.get("payload") or {}).get("data") or {}
+            for record in data.get("subscribeToGolfMedia3DShots") or []:
+                positions.append({**record, "_round": round_no})
+            frame = data.get("subscribeToGolfTournamentTeamsShotFeed") or []
+            if frame:
+                event_frames.append((round_no, frame))
     return positions, event_frames
 
 
@@ -90,16 +107,16 @@ def main() -> int:
     # Work out each event frame's hole by matching one of its shots to a
     # position record, then key every event in that frame by (hole, shot).
     positions_by_key = {
-        event_key(p.get("strokeNo"), p.get("shotDistance"), p.get("distanceToPin")): p
+        (p["_round"], *event_key(p.get("strokeNo"), p.get("shotDistance"), p.get("distanceToPin"))): p
         for p in positions
     }
     by_hole_shot: dict[tuple, dict] = {}
     unplaced = 0
-    for frame in event_frames:
+    for round_no, frame in event_frames:
         hole = None
         for event in frame:
             match = positions_by_key.get(
-                event_key(event.get("shotNo"), event.get("shotDistance"), event.get("distanceToPin"))
+                (round_no, *event_key(event.get("shotNo"), event.get("shotDistance"), event.get("distanceToPin")))
             )
             if match and match.get("holeNo"):
                 hole = match["holeNo"]
@@ -108,7 +125,7 @@ def main() -> int:
             unplaced += 1
             continue
         for event in frame:
-            by_hole_shot.setdefault((hole, event.get("shotNo")), {}).update(event)
+            by_hole_shot.setdefault((round_no, hole, event.get("shotNo")), {}).update(event)
 
     rows, seen = [], set()
     for record in positions:
@@ -117,9 +134,10 @@ def main() -> int:
         if stroke in (None, 0):
             continue
         player = record.get("player") or {}
-        event = by_hole_shot.get((record.get("holeNo"), stroke), {})
+        event = by_hole_shot.get((record["_round"], record.get("holeNo"), stroke), {})
 
         row = {
+            "round": record["_round"],
             "player": player.get("displayName"),
             "playerId": player.get("id"),
             "teamId": record.get("teamId"),
@@ -143,27 +161,29 @@ def main() -> int:
             "z": record.get("z"),
             "seqNum": record.get("seqNum"),
         }
-        fingerprint = (row["hole"], row["shot"], row["seqNum"])
+        fingerprint = (row["round"], row["hole"], row["shot"], row["seqNum"])
         if fingerprint in seen:
             continue
         seen.add(fingerprint)
         rows.append(row)
 
-    rows.sort(key=lambda r: (r["hole"] or 0, r["shot"] or 0))
+    rows.sort(key=lambda r: (r["round"], r["hole"] or 0, r["shot"] or 0))
     out = HERE / "SHOT_BY_SHOT.csv"
     find_shots.write_csv(rows, out)
 
-    holes = sorted({r["hole"] for r in rows if r["hole"]})
     matched = sum(1 for r in rows if r["eventType"])
     print(f"{len(rows)} shots -> {out.name}")
     print(f"  player : {rows[0]['player']} (team {rows[0]['teamId']})")
-    print(f"  holes  : {len(holes)} ({min(holes)}-{max(holes)})")
     print(f"  events : {matched}/{len(rows)} shots matched to the event feed")
     if unplaced:
         print(f"  note   : {unplaced} event frame(s) could not be placed on a hole")
-    missing = [h for h in range(1, 19) if h not in holes]
-    if missing:
-        print(f"  MISSING holes: {missing}")
+
+    for round_no in sorted({r["round"] for r in rows}):
+        in_round = [r for r in rows if r["round"] == round_no]
+        holes = sorted({r["hole"] for r in in_round if r["hole"]})
+        missing = [h for h in range(1, 19) if h not in holes]
+        line = f"  round {round_no}: {len(in_round):3d} shots, {len(holes)} holes"
+        print(line + (f"  MISSING {missing}" if missing else ""))
     try:
         input("\nPress Enter to close... ")
     except EOFError:
