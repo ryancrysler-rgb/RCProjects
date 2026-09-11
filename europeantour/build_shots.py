@@ -46,15 +46,39 @@ def yards(metres: float | None) -> float | None:
     return round(metres * METRES_TO_YARDS, 1) if isinstance(metres, (int, float)) else None
 
 
-def run_round(run_dir: Path) -> str:
-    """Which round a capture folder holds, recorded when it was captured."""
+def declared_round(run_dir: Path) -> str | None:
+    """The round recorded at capture time, if the capture recorded one."""
     info = run_dir / "_run_info.json"
     if info.exists():
         try:
-            return str(json.loads(info.read_text(encoding="utf-8")).get("round") or "?")
+            value = json.loads(info.read_text(encoding="utf-8")).get("round")
+            return str(value) if value else None
         except Exception:
             pass
-    return "?"
+    return None
+
+
+def assign_rounds(runs: list[dict]) -> None:
+    """Give every capture a round, by date when it was not told one.
+
+    A capture made before rounds were recorded has no label, but its shots are
+    timestamped and a round is played on its own day -- so captures sharing a
+    date share a round, and undated ones fall in date order after the rest.
+    """
+    by_date = {r["date"]: r["round"] for r in runs if r["round"] and r["date"]}
+    known = {int(r["round"]) for r in runs if r["round"] and r["round"].isdigit()}
+
+    for run in sorted((r for r in runs if not r["round"]), key=lambda r: r["date"] or ""):
+        if run["date"] and run["date"] in by_date:
+            run["round"] = by_date[run["date"]]      # same day as a known round
+            continue
+        number = 1
+        while number in known:
+            number += 1
+        run["round"] = str(number)
+        known.add(number)
+        if run["date"]:
+            by_date[run["date"]] = run["round"]
 
 
 def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]]:
@@ -64,11 +88,12 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
     event in one frame shares a hole; and no record carries a round at all,
     so the round comes from the folder it was captured into.
     """
-    positions, event_frames = [], []
+    runs = []
     for run_dir in sorted(captured.glob("run_*")):
         if not run_dir.is_dir():
             continue
-        round_no = run_round(run_dir)
+        run = {"round": declared_round(run_dir), "date": None,
+               "positions": [], "frames": [], "name": run_dir.name}
         for path in sorted(run_dir.glob("*.json")):
             if path.name.startswith("_"):
                 continue
@@ -79,11 +104,24 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
             if not isinstance(payload, dict):
                 continue
             data = (payload.get("payload") or {}).get("data") or {}
-            for record in data.get("subscribeToGolfMedia3DShots") or []:
-                positions.append({**record, "_round": round_no})
+            run["positions"] += data.get("subscribeToGolfMedia3DShots") or []
             frame = data.get("subscribeToGolfTournamentTeamsShotFeed") or []
             if frame:
-                event_frames.append((round_no, frame))
+                run["frames"].append(frame)
+                for event in frame:
+                    stamp = event.get("timestamp")
+                    if stamp and (run["date"] is None or stamp[:10] < run["date"]):
+                        run["date"] = stamp[:10]
+        runs.append(run)
+
+    assign_rounds(runs)
+
+    positions, event_frames = [], []
+    for run in runs:
+        for record in run["positions"]:
+            positions.append({**record, "_round": run["round"]})
+        for frame in run["frames"]:
+            event_frames.append((run["round"], frame))
     return positions, event_frames
 
 
