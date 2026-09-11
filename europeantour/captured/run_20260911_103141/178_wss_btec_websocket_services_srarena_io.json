@@ -1,0 +1,135 @@
+{
+  "id": "66319467",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfMedia3DShots": [
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 14,
+          "strokeNo": 0,
+          "teamId": 45,
+          "seqNum": 225,
+          "courseId": 1303,
+          "x": 466811.082858774,
+          "y": null,
+          "z": 5845296.959473872,
+          "surfaceTypeCode": "OTB",
+          "provisionalIndex": null,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 126.19,
+          "score": null,
+          "player": {
+            "country": "ENG",
+            "displayName": "Laurie Canter",
+            "firstName": "Laurie",
+            "gender": "male",
+            "id": 840,
+            "isAmateur": false,
+            "lastName": "Canter"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 14,
+          "strokeNo": 1,
+          "teamId": 45,
+          "seqNum": 229,
+          "courseId": 1303,
+          "x": 466739.67496954685,
+          "y": null,
+          "z": 5845208.505051709,
+          "surfaceTypeCode": "OGR",
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 14.2623562460307,
+          "shotDistance": 113.625415049057,
+          "score": null,
+          "player": {
+            "country": "ENG",
+            "displayName": "Laurie Canter",
+            "firstName": "Laurie",
+            "gender": "male",
+            "id": 840,
+            "isAmateur": false,
+            "lastName": "Canter"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 14,
+          "strokeNo": 2,
+          "teamId": 45,
+          "seqNum": 233,
+          "courseId": 1303,
+          "x": 466734.76951864915,
+          "y": null,
+          "z": 5845195.997681932,
+          "surfaceTypeCode": "OGR",
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 0.869843922014142,
+          "shotDistance": 13.4370013196576,
+          "score": null,
+          "player": {
+            "country": "ENG",
+            "displayName": "Laurie Canter",
+            "firstName": "Laurie",
+            "gender": "male",
+            "id": 840,
+            "isAmateur": false,
+            "lastName": "Canter"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": true,
+          "holeNo": 14,
+          "strokeNo": 3,
+          "teamId": 45,
+          "seqNum": 236,
+          "courseId": 1303,
+          "x": 466734.2052330818,
+          "y": null,
+          "z": 5845195.3350802725,
+          "surfaceTypeCode": null,
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "shotDistance": 0.869843922014142,
+          "score": "Par",
+          "player": {
+            "country": "ENG",
+            "displayName": "Laurie Canter",
+            "firstName": "Laurie",
+            "gender": "male",
+            "id": 840,
+            "isAmateur": false,
+            "lastName": "Canter"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1434",
+    "operationName": "GOLF_TOURNAMENT_TEAM_SHOT_BY_SHOT__ROUNDNO__TEAMID__HOLENO__HOLEORDER__MEDIA",
+    "subscriptionHash": "66319467"
+  },
+  "_operation": "MapVisualisationSubscribeToMedia3DShots"
+}

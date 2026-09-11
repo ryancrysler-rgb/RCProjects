@@ -1,0 +1,11 @@
+{
+  "data": {
+    "getGolfHoleStats": {
+      "roundNo": 2,
+      "holeNo": 18,
+      "holePar": 4,
+      "averageHoleScore": 0.11300000000000043,
+      "difficulty": 4
+    }
+  }
+}

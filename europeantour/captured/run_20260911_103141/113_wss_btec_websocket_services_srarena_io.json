@@ -1,0 +1,69 @@
+{
+  "id": "461903652",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfTournamentTeamsShotFeed": [
+        {
+          "id": 1789120069147,
+          "timestamp": "2026-09-11T09:47:49.000Z",
+          "shotNo": 4,
+          "holeScore": "Par",
+          "eventType": "BallHoled",
+          "teamId": 45,
+          "playerId": 840,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1789120055144,
+          "timestamp": "2026-09-11T09:47:35.000Z",
+          "shotNo": 3,
+          "eventType": "DetailedLie",
+          "teamId": 45,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OGR",
+          "shotDistance": 2.93692320661694,
+          "distanceToPin": 0.24189697781855,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1789119745140,
+          "timestamp": "2026-09-11T09:42:25.000Z",
+          "shotNo": 2,
+          "eventType": "DetailedLie",
+          "teamId": 45,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OFW",
+          "shotDistance": 101.810699273148,
+          "distanceToPin": 2.73463394249308,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1789119376136,
+          "timestamp": "2026-09-11T09:36:16.000Z",
+          "shotNo": 1,
+          "eventType": "DetailedLie",
+          "teamId": 45,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "OFW",
+          "prevSurfaceTypeCode": null,
+          "shotDistance": 239.421284785339,
+          "distanceToPin": 99.5216189566041,
+          "provisionalIndex": 0
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1434",
+    "operationName": "GOLF_TOURNAMENT_TEAMS_SHOT_FEED_____MEDIA",
+    "subscriptionHash": "461903652"
+  },
+  "_operation": "ShotFeedSubscribeToGolfTournamentTeamsShotFeed"
+}
