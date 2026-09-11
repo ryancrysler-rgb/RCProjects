@@ -73,9 +73,20 @@ def main() -> int:
                         help="Safety limit if the window is left open (default 45).")
     args = parser.parse_args()
 
+    # Shot records carry holeNo and strokeNo but no round, so without this
+    # every round's hole 1 shot 1 would pile up indistinguishably.
+    default_round = (re.search(r"round=(\d+)", args.url) or [None, "1"])[1]
+    answer = input(f"Which round are you capturing? [Enter for {default_round}] > ").strip()
+    round_no = answer or default_round
+    url = re.sub(r"round=\d+", f"round={round_no}", args.url)
+
     out = HERE / "captured"
-    run_dir = out / f"run_{time.strftime('%Y%m%d_%H%M%S')}"
+    run_dir = out / f"run_{time.strftime('%Y%m%d_%H%M%S')}_r{round_no}"
     run_dir.mkdir(parents=True, exist_ok=True)
+    (run_dir / "_run_info.json").write_text(
+        json.dumps({"round": round_no, "url": url, "captured": time.strftime("%Y-%m-%d %H:%M:%S")}, indent=2),
+        encoding="utf-8",
+    )
 
     previous = len(collect_payloads(out))
     if previous:
@@ -199,7 +210,7 @@ def main() -> int:
         page.on("response", on_response)
         page.on("websocket", on_websocket)
 
-        page.goto(args.url, wait_until="domcontentloaded", timeout=60_000)
+        page.goto(url, wait_until="domcontentloaded", timeout=60_000)
         for selector in ("#onetrust-accept-btn-handler", "button:has-text('Accept All')"):
             try:
                 page.click(selector, timeout=5_000)
