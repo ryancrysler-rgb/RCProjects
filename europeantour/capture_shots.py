@@ -51,6 +51,29 @@ def slugify(url: str) -> str:
     return re.sub(r"[^A-Za-z0-9]+", "_", url.split("?")[0])[-70:].strip("_")
 
 
+def event_slug(url: str) -> str:
+    """The event's name from its leaderboard URL.
+
+    .../dpworld-tour/bmw-pga-championship-2026/leaderboard -> bmw-pga-championship-2026
+    """
+    parts = [p for p in url.split("?")[0].split("/") if p]
+    for index, part in enumerate(parts):
+        if part in ("leaderboard", "scores", "results") and index:
+            return parts[index - 1]
+    return parts[-1] if parts else "unknown-event"
+
+
+def last_url(captured: Path) -> str | None:
+    """The URL used by the most recent capture, as the obvious default."""
+    runs = sorted(captured.glob("run_*/_run_info.json"))
+    if not runs:
+        return None
+    try:
+        return json.loads(runs[-1].read_text(encoding="utf-8")).get("url")
+    except Exception:
+        return None
+
+
 def collect_payloads(captured_dir: Path) -> list[tuple[str, Any]]:
     """Load every payload from every run, this one and any before it."""
     files = sorted(captured_dir.glob("run_*/*.json"))
@@ -73,18 +96,31 @@ def main() -> int:
                         help="Safety limit if the window is left open (default 45).")
     args = parser.parse_args()
 
-    # Shot records carry holeNo and strokeNo but no round, so without this
-    # every round's hole 1 shot 1 would pile up indistinguishably.
-    default_round = (re.search(r"round=(\d+)", args.url) or [None, "1"])[1]
-    answer = input(f"Which round are you capturing? [Enter for {default_round}] > ").strip()
-    round_no = answer or default_round
-    url = re.sub(r"round=\d+", f"round={round_no}", args.url)
-
     out = HERE / "captured"
-    run_dir = out / f"run_{time.strftime('%Y%m%d_%H%M%S')}_r{round_no}"
+
+    # Shot records carry holeNo and strokeNo but neither an event nor a round,
+    # so both are recorded here. Without them every event's hole 1 shot 1
+    # would pile up indistinguishably.
+    print("Paste the leaderboard page for the event you want.")
+    print(f"  [Enter for: {last_url(out) or args.url}]")
+    url = input("> ").strip() or last_url(out) or args.url
+
+    event = event_slug(url)
+    print(f"\nEvent: {event}")
+
+    default_round = (re.search(r"round=(\d+)", url) or [None, "1"])[1]
+    round_no = input(f"Which round? [Enter for {default_round}] > ").strip() or default_round
+    url = re.sub(r"round=\d+", f"round={round_no}", url)
+    if "round=" not in url:
+        url += ("&" if "?" in url else "?") + f"round={round_no}"
+
+    player = input("Player surname to look for? [Enter for Canter] > ").strip() or "Canter"
+
+    run_dir = out / f"run_{time.strftime('%Y%m%d_%H%M%S')}_{event}_r{round_no}"
     run_dir.mkdir(parents=True, exist_ok=True)
     (run_dir / "_run_info.json").write_text(
-        json.dumps({"round": round_no, "url": url, "captured": time.strftime("%Y-%m-%d %H:%M:%S")}, indent=2),
+        json.dumps({"event": event, "round": round_no, "url": url, "player": player,
+                    "captured": time.strftime("%Y-%m-%d %H:%M:%S")}, indent=2),
         encoding="utf-8",
     )
 
