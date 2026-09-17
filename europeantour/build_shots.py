@@ -94,7 +94,7 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
         if not run_dir.is_dir():
             continue
         info = declared(run_dir)
-        run = {"event": info.get("event") or "unknown-event",
+        run = {"event": info.get("event"), "course": None,
                "round": str(info["round"]) if info.get("round") else None,
                "date": None, "positions": [], "frames": [], "name": run_dir.name}
         for path in sorted(run_dir.glob("*.json")):
@@ -107,7 +107,10 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
             if not isinstance(payload, dict):
                 continue
             data = (payload.get("payload") or {}).get("data") or {}
-            run["positions"] += data.get("subscribeToGolfMedia3DShots") or []
+            for record in data.get("subscribeToGolfMedia3DShots") or []:
+                run["positions"].append(record)
+                if run["course"] is None and record.get("courseId") is not None:
+                    run["course"] = record["courseId"]
             frame = data.get("subscribeToGolfTournamentTeamsShotFeed") or []
             if frame:
                 run["frames"].append(frame)
@@ -115,6 +118,11 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
                     stamp = event.get("timestamp")
                     if stamp and (run["date"] is None or stamp[:10] < run["date"]):
                         run["date"] = stamp[:10]
+        # An unlabelled capture still names its course in every shot record,
+        # and a course belongs to one event -- far better than lumping every
+        # unlabelled capture under one name and merging two tournaments.
+        if not run["event"]:
+            run["event"] = f"course-{run['course']}" if run["course"] is not None else "unknown-event"
         runs.append(run)
 
     assign_rounds(runs)

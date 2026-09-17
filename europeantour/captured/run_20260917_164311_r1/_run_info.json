@@ -1,5 +1,7 @@
 {
   "round": "1",
-  "url": "https://www.europeantour.com/dpworld-tour/amgen-irish-open-2026/leaderboard?round=1",
-  "captured": "2026-09-17 16:43:11"
+  "url": "https://www.europeantour.com/dpworld-tour/bmw-pga-championship-2026/leaderboard?round=1",
+  "captured": "2026-09-17 16:43:11",
+  "event": "bmw-pga-championship-2026",
+  "note": "captured before the event prompt existed; identified by courseId 1 (Wentworth) and date"
 }
