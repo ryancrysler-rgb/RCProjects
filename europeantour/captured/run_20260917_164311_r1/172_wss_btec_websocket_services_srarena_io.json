@@ -1,0 +1,69 @@
+{
+  "id": "50311418",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfTournamentTeamsShotFeed": [
+        {
+          "id": 1789634055282,
+          "timestamp": "2026-09-17T08:34:15.000Z",
+          "shotNo": 4,
+          "holeScore": "Birdie",
+          "eventType": "BallHoled",
+          "teamId": 49,
+          "playerId": 840,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1789633936279,
+          "timestamp": "2026-09-17T08:32:16.000Z",
+          "shotNo": 3,
+          "eventType": "DetailedLie",
+          "teamId": 49,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OGR",
+          "shotDistance": 11.8983209726684,
+          "distanceToPin": 2.21643675586631,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1789633746275,
+          "timestamp": "2026-09-17T08:29:06.000Z",
+          "shotNo": 2,
+          "eventType": "DetailedLie",
+          "teamId": 49,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "ORO",
+          "shotDistance": 245.565267717774,
+          "distanceToPin": 9.7789509197732,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1789633244268,
+          "timestamp": "2026-09-17T08:20:44.000Z",
+          "shotNo": 1,
+          "eventType": "DetailedLie",
+          "teamId": 49,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "ORO",
+          "prevSurfaceTypeCode": null,
+          "shotDistance": 331.80098701676,
+          "distanceToPin": 254.83286633472,
+          "provisionalIndex": 0
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1435",
+    "operationName": "GOLF_TOURNAMENT_TEAMS_SHOT_FEED_____MEDIA",
+    "subscriptionHash": "50311418"
+  },
+  "_operation": "ShotFeedSubscribeToGolfTournamentTeamsShotFeed"
+}

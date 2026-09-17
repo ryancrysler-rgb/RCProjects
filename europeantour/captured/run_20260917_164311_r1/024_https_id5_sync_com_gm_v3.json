@@ -1,0 +1,74 @@
+{
+  "generic": {
+    "signature": "ID5_AmQymGq8ktb3E_5DpcXQ8HW6E7pM7e-4Hmd-AaRwPpY-NDErt5wBfK0zzdkGgy0kZy5t6EHRx7ng1OahOfFFh9fRZ6qW-NAXOLGQn2_-2RreOeC2jCmneCCjK5uq4xzrKptEeO6oMd0O4n5q7Kbou8uceGo0LOFrIjkfF68YXGyVrVsNmrI",
+    "created_at": "2026-09-17T20:43:37.047Z",
+    "id5_consent": true,
+    "original_uid": "ID5*WNnU8oNHW-OQTwe-RWbuGQUZxhDecChA2y4b4IJ-LK3__2qsUPtaAAEBCmqsUPkA4Y0x_jeK6a0M-a9P8y_nRQ",
+    "universal_uid": "ID5*LRm4MNDySbSlTzxIKUf-fTrhpPKKNsDQIbOF3K7vOJT__2qsUPtaAAEBCmqsUPkA4Y2L9ug5Z7FExeiTqWhy0A",
+    "link_type": 2,
+    "cascade_needed": true,
+    "privacy": {
+      "jurisdiction": "other",
+      "id5_consent": true
+    },
+    "ext": {
+      "linkType": 2,
+      "pba": "BSKTxfusHTb0OQkoR7L1eQr5LYgEVqMJOvmxt3ZU4WT8aQBaIYPFrZfDFQShpV/YCuL8lQ7Ccd8PV1fPwDWl2g=="
+    },
+    "cache_control": {
+      "max_age_sec": 7200
+    },
+    "ids": {
+      "id5id": {
+        "eid": {
+          "source": "id5-sync.com",
+          "uids": [
+            {
+              "id": "ID5*LRm4MNDySbSlTzxIKUf-fTrhpPKKNsDQIbOF3K7vOJT__2qsUPtaAAEBCmqsUPkA4Y2L9ug5Z7FExeiTqWhy0A",
+              "atype": 1,
+              "ext": {
+                "linkType": 2,
+                "pba": "BSKTxfusHTb0OQkoR7L1eQr5LYgEVqMJOvmxt3ZU4WT8aQBaIYPFrZfDFQShpV/YCuL8lQ7Ccd8PV1fPwDWl2g=="
+              }
+            }
+          ]
+        }
+      }
+    },
+    "tags": {
+      "id": "y"
+    }
+  },
+  "responses": {
+    "e94fbc46-13f2-4a24-9944-a1cc96239456": {
+      "original_uid": "ID5*5FGE2D_PC8ksx1eU-e6-M7mRljpi-HhqZ6ZLyj72fIf__2qsUPtaAAEBCmqsUPkA4Y1gsRePDO9bFFG2bhCoRQ",
+      "universal_uid": "ID5*2BYPWiX9_t5QQIsi3EhJF8_uE5h_OXe61Lwytlvgj_7__2qsUPtaAAEBCmqsUPkA4Y0GmXhDoXyJ6LjbC-SUtw",
+      "link_type": 2,
+      "cascade_needed": true,
+      "ext": {
+        "linkType": 2,
+        "pba": "BSKTxfusHTb0OQkoR7L1eQr5LYgEVqMJOvmxt3ZU4WT8aQBaIYPFrZfDFQShpV/Y7mwJCqPADcUjUgMbiVJvFA=="
+      },
+      "ids": {
+        "id5id": {
+          "eid": {
+            "source": "id5-sync.com",
+            "uids": [
+              {
+                "id": "ID5*2BYPWiX9_t5QQIsi3EhJF8_uE5h_OXe61Lwytlvgj_7__2qsUPtaAAEBCmqsUPkA4Y0GmXhDoXyJ6LjbC-SUtw",
+                "atype": 1,
+                "ext": {
+                  "linkType": 2,
+                  "pba": "BSKTxfusHTb0OQkoR7L1eQr5LYgEVqMJOvmxt3ZU4WT8aQBaIYPFrZfDFQShpV/Y7mwJCqPADcUjUgMbiVJvFA=="
+                }
+              }
+            ]
+          }
+        }
+      },
+      "tags": {
+        "id": "y"
+      }
+    }
+  }
+}
