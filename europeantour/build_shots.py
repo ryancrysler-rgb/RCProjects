@@ -46,39 +46,40 @@ def yards(metres: float | None) -> float | None:
     return round(metres * METRES_TO_YARDS, 1) if isinstance(metres, (int, float)) else None
 
 
-def declared_round(run_dir: Path) -> str | None:
-    """The round recorded at capture time, if the capture recorded one."""
+def declared(run_dir: Path) -> dict:
+    """What the capture recorded about itself: its event and round."""
     info = run_dir / "_run_info.json"
     if info.exists():
         try:
-            value = json.loads(info.read_text(encoding="utf-8")).get("round")
-            return str(value) if value else None
+            return json.loads(info.read_text(encoding="utf-8"))
         except Exception:
             pass
-    return None
+    return {}
 
 
 def assign_rounds(runs: list[dict]) -> None:
     """Give every capture a round, by date when it was not told one.
 
-    A capture made before rounds were recorded has no label, but its shots are
-    timestamped and a round is played on its own day -- so captures sharing a
-    date share a round, and undated ones fall in date order after the rest.
+    Numbering runs within an event, never across them: a new event's first
+    round is round 1 even though its date is later than every round of the
+    last one.
     """
-    by_date = {r["date"]: r["round"] for r in runs if r["round"] and r["date"]}
-    known = {int(r["round"]) for r in runs if r["round"] and r["round"].isdigit()}
+    for event in {r["event"] for r in runs}:
+        in_event = [r for r in runs if r["event"] == event]
+        by_date = {r["date"]: r["round"] for r in in_event if r["round"] and r["date"]}
+        known = {int(r["round"]) for r in in_event if r["round"] and r["round"].isdigit()}
 
-    for run in sorted((r for r in runs if not r["round"]), key=lambda r: r["date"] or ""):
-        if run["date"] and run["date"] in by_date:
-            run["round"] = by_date[run["date"]]      # same day as a known round
-            continue
-        number = 1
-        while number in known:
-            number += 1
-        run["round"] = str(number)
-        known.add(number)
-        if run["date"]:
-            by_date[run["date"]] = run["round"]
+        for run in sorted((r for r in in_event if not r["round"]), key=lambda r: r["date"] or ""):
+            if run["date"] and run["date"] in by_date:
+                run["round"] = by_date[run["date"]]      # same day as a known round
+                continue
+            number = 1
+            while number in known:
+                number += 1
+            run["round"] = str(number)
+            known.add(number)
+            if run["date"]:
+                by_date[run["date"]] = run["round"]
 
 
 def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]]:
@@ -92,8 +93,10 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
     for run_dir in sorted(captured.glob("run_*")):
         if not run_dir.is_dir():
             continue
-        run = {"round": declared_round(run_dir), "date": None,
-               "positions": [], "frames": [], "name": run_dir.name}
+        info = declared(run_dir)
+        run = {"event": info.get("event") or "unknown-event",
+               "round": str(info["round"]) if info.get("round") else None,
+               "date": None, "positions": [], "frames": [], "name": run_dir.name}
         for path in sorted(run_dir.glob("*.json")):
             if path.name.startswith("_"):
                 continue
@@ -118,10 +121,11 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
 
     positions, event_frames = [], []
     for run in runs:
+        key = (run["event"], run["round"])
         for record in run["positions"]:
-            positions.append({**record, "_round": run["round"]})
+            positions.append({**record, "_event": run["event"], "_round": run["round"]})
         for frame in run["frames"]:
-            event_frames.append((run["round"], frame))
+            event_frames.append((key, frame))
     return positions, event_frames
 
 
@@ -145,16 +149,16 @@ def main() -> int:
     # Work out each event frame's hole by matching one of its shots to a
     # position record, then key every event in that frame by (hole, shot).
     positions_by_key = {
-        (p["_round"], *event_key(p.get("strokeNo"), p.get("shotDistance"), p.get("distanceToPin"))): p
+        ((p["_event"], p["_round"]), *event_key(p.get("strokeNo"), p.get("shotDistance"), p.get("distanceToPin"))): p
         for p in positions
     }
     by_hole_shot: dict[tuple, dict] = {}
     unplaced = 0
-    for round_no, frame in event_frames:
+    for key, frame in event_frames:
         hole = None
         for event in frame:
             match = positions_by_key.get(
-                (round_no, *event_key(event.get("shotNo"), event.get("shotDistance"), event.get("distanceToPin")))
+                (key, *event_key(event.get("shotNo"), event.get("shotDistance"), event.get("distanceToPin")))
             )
             if match and match.get("holeNo"):
                 hole = match["holeNo"]
@@ -163,7 +167,7 @@ def main() -> int:
             unplaced += 1
             continue
         for event in frame:
-            by_hole_shot.setdefault((round_no, hole, event.get("shotNo")), {}).update(event)
+            by_hole_shot.setdefault((key, hole, event.get("shotNo")), {}).update(event)
 
     rows, seen = [], set()
     for record in positions:
@@ -172,9 +176,10 @@ def main() -> int:
         if stroke in (None, 0):
             continue
         player = record.get("player") or {}
-        event = by_hole_shot.get((record["_round"], record.get("holeNo"), stroke), {})
+        event = by_hole_shot.get(((record["_event"], record["_round"]), record.get("holeNo"), stroke), {})
 
         row = {
+            "event": record["_event"],
             "round": record["_round"],
             "player": player.get("displayName"),
             "playerId": player.get("id"),
@@ -199,15 +204,21 @@ def main() -> int:
             "z": record.get("z"),
             "seqNum": record.get("seqNum"),
         }
-        fingerprint = (row["round"], row["hole"], row["shot"], row["seqNum"])
+        fingerprint = (row["event"], row["round"], row["hole"], row["shot"], row["seqNum"])
         if fingerprint in seen:
             continue
         seen.add(fingerprint)
         rows.append(row)
 
-    rows.sort(key=lambda r: (r["round"], r["hole"] or 0, r["shot"] or 0))
+    rows.sort(key=lambda r: (r["event"], r["round"], r["hole"] or 0, r["shot"] or 0))
     out = HERE / "SHOT_BY_SHOT.csv"
     find_shots.write_csv(rows, out)
+
+    # A file per event as well, so one tournament can be opened on its own
+    # without filtering a combined sheet.
+    for event in sorted({r["event"] for r in rows}):
+        in_event = [r for r in rows if r["event"] == event]
+        find_shots.write_csv(in_event, HERE / f"SHOT_BY_SHOT_{event}.csv")
 
     matched = sum(1 for r in rows if r["eventType"])
     print(f"{len(rows)} shots -> {out.name}")
@@ -216,12 +227,15 @@ def main() -> int:
     if unplaced:
         print(f"  note   : {unplaced} event frame(s) could not be placed on a hole")
 
-    for round_no in sorted({r["round"] for r in rows}):
-        in_round = [r for r in rows if r["round"] == round_no]
-        holes = sorted({r["hole"] for r in in_round if r["hole"]})
-        missing = [h for h in range(1, 19) if h not in holes]
-        line = f"  round {round_no}: {len(in_round):3d} shots, {len(holes)} holes"
-        print(line + (f"  MISSING {missing}" if missing else ""))
+    for event in sorted({r["event"] for r in rows}):
+        in_event = [r for r in rows if r["event"] == event]
+        print(f"\n  {event}  ->  SHOT_BY_SHOT_{event}.csv")
+        for round_no in sorted({r["round"] for r in in_event}):
+            in_round = [r for r in in_event if r["round"] == round_no]
+            holes = sorted({r["hole"] for r in in_round if r["hole"]})
+            missing = [h for h in range(1, 19) if h not in holes]
+            line = f"    round {round_no}: {len(in_round):3d} shots, {len(holes)} holes"
+            print(line + (f"  MISSING {missing}" if missing else ""))
     try:
         input("\nPress Enter to close... ")
     except EOFError:
