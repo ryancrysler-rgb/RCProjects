@@ -137,6 +137,35 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
     return positions, event_frames
 
 
+YARDS_TO_METRES = 1 / METRES_TO_YARDS
+
+
+def load_manual(path: Path) -> list[dict]:
+    """Shots transcribed from the on-screen commentary, for missed holes.
+
+    Kept apart from the feed and marked as such: the commentary rounds its
+    numbers ("a twelve-footer", "an inch") and never gives coordinates, so
+    these rows are not interchangeable with captured ones.
+    """
+    if not path.exists():
+        return []
+    try:
+        entries = json.loads(path.read_text(encoding="utf-8")).get("shots", [])
+    except Exception:
+        return []
+
+    rows = []
+    for entry in entries:
+        row = {"source": "commentary"}
+        row.update({k: v for k, v in entry.items() if not k.startswith("_")})
+        for field in ("shotDistance", "distanceToPin"):
+            value = row.get(f"{field}_yds")
+            if isinstance(value, (int, float)):
+                row[f"{field}_m"] = round(value * YARDS_TO_METRES, 2)
+        rows.append(row)
+    return rows
+
+
 def event_key(shot_no, shot_distance, distance_to_pin) -> tuple:
     """Join key shared by both feeds: stroke number plus its two distances."""
     def near(value):
@@ -218,6 +247,17 @@ def main() -> int:
         seen.add(fingerprint)
         rows.append(row)
 
+    # Commentary rows only fill holes the feed never delivered. If a hole is
+    # later captured properly, its transcribed version drops out by itself.
+    captured_holes = {(r["event"], r["round"], r["hole"]) for r in rows}
+    manual = [
+        m for m in load_manual(HERE / "manual_shots.json")
+        if (m.get("event"), m.get("round"), m.get("hole")) not in captured_holes
+    ]
+    for row in rows:
+        row.setdefault("source", "feed")
+    rows += manual
+
     rows.sort(key=lambda r: (r["event"], r["round"], r["hole"] or 0, r["shot"] or 0))
     out = HERE / "SHOT_BY_SHOT.csv"
     find_shots.write_csv(rows, out)
@@ -228,7 +268,11 @@ def main() -> int:
         in_event = [r for r in rows if r["event"] == event]
         find_shots.write_csv(in_event, HERE / f"SHOT_BY_SHOT_{event}.csv")
 
-    matched = sum(1 for r in rows if r["eventType"])
+    matched = sum(1 for r in rows if r.get("eventType"))
+    if manual:
+        holes = sorted({m["hole"] for m in manual})
+        print(f"  note   : {len(manual)} shots on hole(s) {holes} come from the commentary,")
+        print(f"           not the feed -- marked source=commentary")
     print(f"{len(rows)} shots -> {out.name}")
     print(f"  player : {rows[0]['player']} (team {rows[0]['teamId']})")
     print(f"  events : {matched}/{len(rows)} shots matched to the event feed")

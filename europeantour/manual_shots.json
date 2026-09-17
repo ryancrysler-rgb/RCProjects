@@ -1,0 +1,55 @@
+{
+  "_comment": "Shots transcribed from the site's AI commentary, for holes the feed capture missed. Values stated in the commentary are exact; anything it did not state is left blank rather than estimated. Rows here are dropped automatically if the same event/round/hole later arrives in a real capture.",
+  "shots": [
+    {
+      "event": "bmw-pga-championship-2026",
+      "round": "1",
+      "player": "Laurie Canter",
+      "teamId": 45,
+      "hole": 1,
+      "shot": 1,
+      "shotDistance_yds": 306,
+      "distanceToPin_yds": 162,
+      "lieAfterShot": "Intermediate Rough",
+      "commentary": "Canter (T58) finds the intermediate rough with a 306-yard drive, leaving 162 yards to the hole."
+    },
+    {
+      "event": "bmw-pga-championship-2026",
+      "round": "1",
+      "player": "Laurie Canter",
+      "teamId": 45,
+      "hole": 1,
+      "shot": 2,
+      "distanceToPin_yds": 4.0,
+      "lieBeforeShot": "Intermediate Rough",
+      "lieAfterShot": "Green",
+      "commentary": "Canter finds the green from the intermediate rough, leaving a 12-foot putt for birdie."
+    },
+    {
+      "event": "bmw-pga-championship-2026",
+      "round": "1",
+      "player": "Laurie Canter",
+      "teamId": 45,
+      "hole": 1,
+      "shot": 3,
+      "shotDistance_yds": 4.0,
+      "distanceToPin_yds": 0.03,
+      "lieBeforeShot": "Green",
+      "lieAfterShot": "Green",
+      "commentary": "Canter missed a twelve-footer for birdie, leaving an inch for par."
+    },
+    {
+      "event": "bmw-pga-championship-2026",
+      "round": "1",
+      "player": "Laurie Canter",
+      "teamId": 45,
+      "hole": 1,
+      "shot": 4,
+      "shotDistance_yds": 0.03,
+      "ballHoled": true,
+      "holeScore": "Par",
+      "lieBeforeShot": "Green",
+      "commentary": "Canter taps in from an inch to save par on the first."
+    }
+  ]
+}
