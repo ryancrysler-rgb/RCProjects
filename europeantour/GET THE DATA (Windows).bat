@@ -2,7 +2,7 @@
 cd /d "%~dp0"
 title DP World Tour - fetch player data
 echo ============================================================
-echo   Fetching Laurie Canter's data from the tour's own API
+echo   Fetching a player's data from the tour's own API
 echo   (no browser needed - this is the quick one)
 echo ============================================================
 echo.

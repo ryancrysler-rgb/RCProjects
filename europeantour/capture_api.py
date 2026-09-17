@@ -6,7 +6,7 @@ everything over XHR. So instead of parsing HTML, drive a real browser, record
 every JSON response, and rank them by how much shot-level data they hold.
 
     python capture_api.py \
-        --url "https://www.europeantour.com/dpworld-tour/amgen-irish-open-2026/leaderboard?round=1" \
+        --url "https://www.europeantour.com/dpworld-tour/bmw-pga-championship-2026/leaderboard?round=1" \
         --click-text Canter --out captured
 """
 from __future__ import annotations

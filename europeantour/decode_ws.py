@@ -41,7 +41,9 @@ def decode_entry(entry: dict) -> Any:
 
 
 def main() -> int:
+    # Both layouts: captured/<tournament>/run_*/ and the older flat captured/run_*/.
     logs = sorted((HERE / "captured").glob("run_*/_ws_frames.jsonl"))
+    logs += sorted((HERE / "captured").glob("*/run_*/_ws_frames.jsonl"))
     if not logs:
         print("No websocket captures found. Run GET SHOT BY SHOT first.")
         input("\nPress Enter to close... ")

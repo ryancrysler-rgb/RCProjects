@@ -18,9 +18,9 @@ from pathlib import Path
 from typing import Any
 
 import shotjson
+import tournament
 
 HERE = Path(__file__).parent
-DEFAULT_URL = "https://www.europeantour.com/dpworld-tour/amgen-irish-open-2026/leaderboard?round=1"
 DEFAULT_PLAYER = "45"
 DEFAULT_NAME = "Canter"
 
@@ -105,7 +105,7 @@ def main() -> int:
     print("=" * 62)
     print()
 
-    url = ask("Which leaderboard page?", DEFAULT_URL)
+    url = ask("Which leaderboard page?", tournament.default_url())
     name = ask("Player surname (used to click their row)?", DEFAULT_NAME)
     player = ask("Player id (for filtering)?", DEFAULT_PLAYER)
     log(f"url    : {url}", quiet=True)

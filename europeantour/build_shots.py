@@ -15,11 +15,12 @@ distances, which both feeds report identically.
 """
 from __future__ import annotations
 
-import glob
+import argparse
 import json
 from pathlib import Path
 
 import find_shots
+import tournament
 
 HERE = Path(__file__).parent
 
@@ -81,17 +82,18 @@ def assign_rounds(runs: list[dict]) -> None:
             by_date[run["date"]] = run["round"]
 
 
-def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]]:
-    """Return ball positions and event frames, each tagged with its round.
+def load_feeds(event: tournament.Tournament) -> tuple[list[dict], list[tuple[str, list[dict]]]]:
+    """Return one tournament's ball positions and event frames, tagged by round.
 
     Grouping matters twice over: an event carries no hole number, but every
     event in one frame shares a hole; and no record carries a round at all,
-    so the round comes from the folder it was captured into.
+    so the round comes from the folder it was captured into. The tournament
+    comes from the folder too -- and only its own runs are read, because two
+    tournaments both have a round 1 and the records themselves cannot tell
+    them apart.
     """
     runs = []
-    for run_dir in sorted(captured.glob("run_*")):
-        if not run_dir.is_dir():
-            continue
+    for run_dir in tournament.run_dirs(event):
         run = {"round": declared_round(run_dir), "date": None,
                "positions": [], "frames": [], "name": run_dir.name}
         for path in sorted(run_dir.glob("*.json")):
@@ -132,10 +134,47 @@ def event_key(shot_no, shot_distance, distance_to_pin) -> tuple:
     return (shot_no, near(shot_distance), near(distance_to_pin))
 
 
+def choose_tournament(requested: str | None) -> tournament.Tournament:
+    """Which tournament to build. Never silently falls back to another one.
+
+    Last week's captures are still on disk, and a spreadsheet of the wrong
+    tournament looks exactly like a right one, so if this week has nothing
+    captured yet it says so rather than quietly building the old event.
+    """
+    if requested:
+        return tournament.from_url(requested) if "/" in requested else \
+            tournament.Tournament(slug=requested, name=tournament.titleise(requested))
+
+    captured = tournament.captured_tournaments()
+    current = next((t for t in captured if t.slug == tournament.CURRENT.slug), None)
+    if current:
+        others = [t.name for t in captured if t.slug != current.slug]
+        if others:
+            print(f"Also captured: {', '.join(others)}")
+            print("  (for one of those: python build_shots.py --event <slug>)\n")
+        return current
+    if not captured:
+        return tournament.CURRENT
+
+    print(f"Nothing captured yet for {tournament.CURRENT.name}.")
+    for index, item in enumerate(captured, 1):
+        print(f"  {index}. {item.name}")
+    answer = input(f"Build one of these instead? [Enter for {captured[0].name}] > ").strip()
+    if answer.isdigit() and 1 <= int(answer) <= len(captured):
+        return captured[int(answer) - 1]
+    return captured[0]
+
+
 def main() -> int:
-    positions, event_frames = load_feeds(HERE / "captured")
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--event", help="Tournament slug or leaderboard URL (default: this week's).")
+    args = parser.parse_args()
+
+    tourney = choose_tournament(args.event)
+    print(f"Tournament: {tourney.name}")
+    positions, event_frames = load_feeds(tourney)
     if not positions:
-        print("No 3D shot records found. Run GET SHOT BY SHOT first.")
+        print(f"No 3D shot records captured for {tourney.name}. Run GET SHOT BY SHOT first.")
         try:
             input("\nPress Enter to close... ")
         except EOFError:
@@ -206,7 +245,8 @@ def main() -> int:
         rows.append(row)
 
     rows.sort(key=lambda r: (r["round"], r["hole"] or 0, r["shot"] or 0))
-    out = HERE / "SHOT_BY_SHOT.csv"
+    # Named after the tournament: last week's spreadsheet stays readable.
+    out = HERE / f"SHOT_BY_SHOT_{tourney.slug}.csv"
     find_shots.write_csv(rows, out)
 
     matched = sum(1 for r in rows if r["eventType"])

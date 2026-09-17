@@ -10,8 +10,8 @@ https://www.europeantour.com/dpworld-tour/amgen-irish-open-2026/leaderboard?roun
 ## Just want the data? (no command line)
 
 1. In **GitHub Desktop**, clone this repo. Use the **Current Branch** dropdown at the
-   top and pick `claude/europeantour-shot-data-scrape-3itov4` -- the code lives on
-   that branch, so the folder looks empty until you switch to it.
+   top and pick `claude/eager-euler-gb5o77` -- the code lives on that branch,
+   so the folder looks empty until you switch to it.
 2. Click **Repository -> Show in Explorer** (or **Finder** on a Mac).
 3. Open the `europeantour` folder.
 4. Double-click **START HERE (Windows).bat** or **START HERE (Mac).command**.
@@ -58,19 +58,45 @@ different numbering systems for one golfer.
 The event feed carries no hole number, so events are placed on holes by
 matching one shot's distances to a position record from the same frame.
 
-**Verified**: 74 shots over 18 holes for Canter, round 1. Holes 1-9 match the
+**Verified**: 74 shots over 18 holes for Canter, round 1 (142 over rounds 1-2). Holes 1-9 match the
 official scorecard stroke for stroke, and hole 1 reproduces the on-screen
 commentary exactly -- a 13-footer missed for par leaving eight inches, tapped
 in for bogey.
 
 ## Getting a round
 
-1. `GET SHOT BY SHOT (Windows).bat` -- a browser opens; click the player, open
+1. `GET SHOT BY SHOT (Windows).bat` -- it asks which tournament and round
+   (Enter takes this week's), then a browser opens; click the player, open
    AI SHOT COMMENTARY, step through all 18 holes, then close the window.
-2. `BUILD SPREADSHEET (Windows).bat` -- writes `SHOT_BY_SHOT.csv`.
+2. `BUILD SPREADSHEET (Windows).bat` -- writes
+   `SHOT_BY_SHOT_<tournament>.csv`.
 
 Runs accumulate, so a partial round can be finished later. `decode_ws.py`
 re-decodes saved frames without touching the browser.
+
+## A new tournament each week
+
+`tournament.py` holds this week's event -- currently the **BMW PGA
+Championship 2026**. Change `CURRENT` there when the tour moves on, or just
+paste a different leaderboard URL at the capture prompt; whatever you use is
+remembered as the next run's default.
+
+Captures are filed per tournament, under
+`captured/<tournament-slug>/run_<timestamp>_r<round>/`, and each build reads
+only its own tournament's folders. That separation is not housekeeping: a
+shot record carries a hole and a stroke but nothing saying which tournament
+it came from, and every event has a round 1, so one shared folder would
+interleave two events into one spreadsheet without complaining. Captures made
+before this change sit directly under `captured/` and are treated as the
+Irish Open, which is the only tournament they can be.
+
+If this week has nothing captured yet, the build says so and offers the older
+tournaments rather than quietly handing back last week's spreadsheet.
+
+**The event id is looked up, not guessed.** The tour's API id (Irish Open =
+`2026135`) has no relationship to the URL slug, so `fetch_event.py` opens the
+leaderboard and reads the id off the page's own API calls, then caches it in
+`captured/<slug>/_event.json`. `--event <id>` still overrides it.
 
 ---
 
@@ -85,7 +111,8 @@ Captured from the Amgen Irish Open 2026 leaderboard. These are observed, not gue
 | Scorecard | `www.europeantour.com/api/sportdata/Scorecard/Strokeplay/Event/{event}/Player/{player}` |
 | Event status | `www.europeantour.com/api/sportdata/Event/Status/{event}` |
 
-- Irish Open 2026 event id: **2026135**
+- Irish Open 2026 event id: **2026135**. Ids are per event; the current
+  event's is discovered at run time (see above).
 - Player ids in this API are **not** the ids shown on the site. Laurie Canter is
   `37624` there, not `45`. `fetch_event.py` resolves a surname to the right id.
 - Their own API appears to carry **hole-by-hole scores**, not shot-by-shot.
@@ -151,6 +178,7 @@ One row per shot, carrying inherited player/round/hole context:
 
 | File | Purpose |
 |---|---|
+| `tournament.py` | Which tournament is current, and where its captures live |
 | `shotjson.py` | Schema-agnostic scoring, shot-array detection, flattening |
 | `capture_api.py` | Playwright capture → `manifest.json` ranked by shot-likelihood |
 | `fetch_shots.py` | Direct endpoint (or local file) → tidy CSV |

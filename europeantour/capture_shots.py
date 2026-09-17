@@ -33,11 +33,9 @@ from playwright.sync_api import Response, sync_playwright
 import find_shots
 import shotjson
 import snappy_lite
+import tournament
 
 HERE = Path(__file__).parent
-DEFAULT_URL = (
-    "https://www.europeantour.com/dpworld-tour/amgen-irish-open-2026/leaderboard?round=1"
-)
 
 NOISE = re.compile(
     r"onetrust|doubleverify|doubleclick|googlesyndication|googletagmanager|"
@@ -51,10 +49,11 @@ def slugify(url: str) -> str:
     return re.sub(r"[^A-Za-z0-9]+", "_", url.split("?")[0])[-70:].strip("_")
 
 
-def collect_payloads(captured_dir: Path) -> list[tuple[str, Any]]:
-    """Load every payload from every run, this one and any before it."""
-    files = sorted(captured_dir.glob("run_*/*.json"))
-    files += sorted((captured_dir / "bodies").glob("*.json"))  # older layout
+def collect_payloads(event: tournament.Tournament) -> list[tuple[str, Any]]:
+    """Load every payload from every run of THIS tournament, including earlier ones."""
+    files = [f for run in tournament.run_dirs(event) for f in sorted(run.glob("*.json"))]
+    if event.slug == tournament.LEGACY.slug:
+        files += sorted((tournament.CAPTURED / "bodies").glob("*.json"))  # older layout
     payloads = []
     for path in files:
         if path.name.startswith("_"):
@@ -68,29 +67,47 @@ def collect_payloads(captured_dir: Path) -> list[tuple[str, Any]]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--url", default=DEFAULT_URL)
+    parser.add_argument("--url", help="Leaderboard URL (default: this week's tournament).")
     parser.add_argument("--minutes", type=float, default=45.0,
                         help="Safety limit if the window is left open (default 45).")
     args = parser.parse_args()
+
+    # The tournament changes every week, so it is asked rather than assumed --
+    # and whatever is used is remembered as the next run's default.
+    suggested = args.url or tournament.default_url()
+    if not args.url:
+        print(f"Tournament: {tournament.from_url(suggested).name}")
+        typed = input("Leaderboard URL? [Enter for the above]\n> ").strip()
+        suggested = typed or suggested
+    args.url = suggested
+    event = tournament.from_url(args.url)
 
     # Shot records carry holeNo and strokeNo but no round, so without this
     # every round's hole 1 shot 1 would pile up indistinguishably.
     default_round = (re.search(r"round=(\d+)", args.url) or [None, "1"])[1]
     answer = input(f"Which round are you capturing? [Enter for {default_round}] > ").strip()
     round_no = answer or default_round
-    url = re.sub(r"round=\d+", f"round={round_no}", args.url)
+    if "round=" in args.url:
+        url = re.sub(r"round=\d+", f"round={round_no}", args.url)
+    else:  # a URL pasted from the address bar may not carry the round
+        url = args.url + ("&" if "?" in args.url else "?") + f"round={round_no}"
 
-    out = HERE / "captured"
-    run_dir = out / f"run_{time.strftime('%Y%m%d_%H%M%S')}_r{round_no}"
+    # Filed under the tournament: hole and stroke identify a shot, but nothing
+    # in the feed says which tournament it was played in.
+    run_dir = event.captured_dir / f"run_{time.strftime('%Y%m%d_%H%M%S')}_r{round_no}"
     run_dir.mkdir(parents=True, exist_ok=True)
     (run_dir / "_run_info.json").write_text(
-        json.dumps({"round": round_no, "url": url, "captured": time.strftime("%Y-%m-%d %H:%M:%S")}, indent=2),
+        json.dumps({"event": event.slug, "eventName": event.name, "round": round_no,
+                    "url": url, "captured": time.strftime("%Y-%m-%d %H:%M:%S")}, indent=2),
         encoding="utf-8",
     )
+    tournament.remember(args.url)
 
-    previous = len(collect_payloads(out))
+    previous = len(collect_payloads(event))
     if previous:
-        print(f"Found {previous} payloads from earlier runs -- this run adds to them.\n")
+        print(f"Found {previous} payloads from earlier {event.name} runs -- this run adds to them.\n")
+    else:
+        print(f"First capture of {event.name}.\n")
 
     captured: list[dict[str, Any]] = []
     seen: set[str] = set()
@@ -111,6 +128,12 @@ def main() -> int:
             print(f"   <- {', '.join(payload['data'].keys())}")
 
     def on_response(response: Response) -> None:
+        # The leaderboard's own calls carry the tour's event id, which is not
+        # shown anywhere on the page and differs from the URL slug.
+        found = tournament.event_id_from_api_url(response.url)
+        if found and tournament.known_event_id(event) != found:
+            tournament.store_event_id(event, found)
+            print(f"   event id: {found}")
         if NOISE.search(response.url):
             return
         try:
@@ -221,7 +244,7 @@ def main() -> int:
         print("\n" + "=" * 64)
         print("  YOUR TURN -- in the browser window that just opened:")
         print()
-        print("   1. Click on Laurie Canter")
+        print("   1. Click on the player you want")
         print("   2. Open the Scorecard, and click hole 1")
         print("   3. Open the AI SHOT COMMENTARY panel -- THIS IS THE ONE")
         print("      THAT MATTERS. Expand it so the lines are visible, and")
@@ -250,7 +273,7 @@ def main() -> int:
 
     (run_dir / "_manifest.json").write_text(json.dumps(captured, indent=2), encoding="utf-8")
 
-    payloads = collect_payloads(out)
+    payloads = collect_payloads(event)
     print(f"Analysing {len(payloads)} payloads from all runs...")
 
     shotjson.MIN_ARRAY_SCORE = 2

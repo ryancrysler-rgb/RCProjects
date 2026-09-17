@@ -3,3 +3,4 @@ __pycache__/
 *.har
 captured/bodies/
 .venv/
+current_tournament.json

@@ -22,10 +22,10 @@ from typing import Any, Iterator
 import requests
 
 import shotjson
+import tournament
 
 HERE = Path(__file__).parent
 BASE = "https://www.europeantour.com/api/sportdata"
-DEFAULT_EVENT = "2026135"   # Amgen Irish Open 2026
 DEFAULT_SURNAME = "Canter"
 
 HEADERS = {
@@ -40,9 +40,6 @@ HEADERS = {
 ID_KEYS = {"playerid", "id", "playercode", "playernumber"}
 
 
-LEADERBOARD_PAGE = (
-    "https://www.europeantour.com/dpworld-tour/amgen-irish-open-2026/leaderboard?round=1"
-)
 
 
 class Fetcher:
@@ -54,8 +51,9 @@ class Fetcher:
     carrying the same cookies and origin.
     """
 
-    def __init__(self, page_url: str = LEADERBOARD_PAGE) -> None:
-        self.page_url = page_url
+    def __init__(self, page_url: str | None = None) -> None:
+        self.page_url = page_url or tournament.CURRENT.url
+        self.seen_event_ids: list[str] = []
         self._playwright = None
         self._browser = None
         self._page = None
@@ -93,6 +91,9 @@ class Fetcher:
         self._browser = self._playwright.chromium.launch(headless=self._headless)
         context = self._browser.new_context(user_agent=HEADERS["User-Agent"])
         self._page = context.new_page()
+        # The leaderboard's own calls name the event id, which appears nowhere
+        # on the page and changes every week.
+        self._page.on("request", self._note_event_id)
         self._page.goto(self.page_url, wait_until="domcontentloaded", timeout=60_000)
         # Dismiss the cookie wall if it appears; harmless when it does not.
         for selector in ("#onetrust-accept-btn-handler", "button:has-text('Accept All')"):
@@ -102,6 +103,20 @@ class Fetcher:
             except Exception:
                 pass
         self._page.wait_for_timeout(2_500)
+
+    def _note_event_id(self, request: Any) -> None:
+        found = tournament.event_id_from_api_url(request.url)
+        if found and found not in self.seen_event_ids:
+            self.seen_event_ids.append(found)
+
+    def resolve_event_id(self) -> str | None:
+        """Open the leaderboard and read the event id off its own API calls."""
+        self._ensure_browser()
+        for _ in range(10):
+            if self.seen_event_ids:
+                return self.seen_event_ids[0]
+            self._page.wait_for_timeout(1_000)
+        return None
 
     def _browser_get(self, url: str) -> tuple[int, str]:
         status, body = self._page.evaluate(
@@ -178,27 +193,44 @@ def write_csv(rows: list[dict], path: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--event", default=DEFAULT_EVENT, help="Event id (Irish Open 2026 = 2026135).")
+    parser.add_argument("--event", help="Event id. Found from the leaderboard when omitted.")
+    parser.add_argument("--url", help="Leaderboard URL (default: this week's tournament).")
     parser.add_argument("--surname", default=DEFAULT_SURNAME, help="Player surname to look up.")
     parser.add_argument("--player-id", help="Skip the lookup and use this id directly.")
     args = parser.parse_args()
 
-    fetcher = Fetcher()
-    print(f"Event {args.event}: fetching the leaderboard...")
-    leaderboard = fetcher.get_json(f"{BASE}/Leaderboard/Strokeplay/{args.event}/type/load")
+    url = args.url or tournament.default_url()
+    event = tournament.from_url(url)
+    fetcher = Fetcher(url)
+
+    event_id = args.event or tournament.known_event_id(event)
+    if not event_id:
+        # A slug is not an id, and the tour publishes no mapping between them,
+        # so the id is read from the calls the leaderboard page makes.
+        print(f"{event.name}: looking up the event id from the leaderboard...")
+        event_id = fetcher.resolve_event_id()
+        if not event_id:
+            print("Could not find the event id. Open the leaderboard, then run again")
+            print("with --event <id> (it is the number in the Leaderboard API URL).")
+            return 1
+        tournament.store_event_id(event, event_id)
+        print(f"  event id: {event_id}")
+
+    print(f"{event.name} (event {event_id}): fetching the leaderboard...")
+    leaderboard = fetcher.get_json(f"{BASE}/Leaderboard/Strokeplay/{event_id}/type/load")
     (HERE / "leaderboard_raw.json").write_text(json.dumps(leaderboard, indent=2), encoding="utf-8")
 
     players = find_players(leaderboard)
     print(f"  found {len(players)} players in the field")
     if players:
-        write_csv(players, HERE / "players.csv")
-        print("  full list -> players.csv")
+        write_csv(players, HERE / f"players_{event.slug}.csv")
+        print(f"  full list -> players_{event.slug}.csv")
 
     player_id = args.player_id
     if not player_id:
         matches = [p for p in players if args.surname.lower() in p["name"].lower()]
         if not matches:
-            print(f"\nNo player matching '{args.surname}'. Open players.csv and find the right id,")
+            print(f"\nNo player matching '{args.surname}'. Open players_{event.slug}.csv for the right id,")
             print("then run again with --player-id <id>.")
             return 1
         for match in matches:
@@ -206,7 +238,7 @@ def main() -> int:
         player_id = matches[0]["id"]
 
     print(f"\nFetching scorecard for player {player_id}...")
-    scorecard = fetcher.get_json(f"{BASE}/Scorecard/Strokeplay/Event/{args.event}/Player/{player_id}")
+    scorecard = fetcher.get_json(f"{BASE}/Scorecard/Strokeplay/Event/{event_id}/Player/{player_id}")
     raw_path = HERE / f"player_{player_id}_scorecard_raw.json"
     raw_path.write_text(json.dumps(scorecard, indent=2), encoding="utf-8")
     print(f"  raw JSON -> {raw_path.name}")
