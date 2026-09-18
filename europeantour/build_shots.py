@@ -25,17 +25,22 @@ HERE = Path(__file__).parent
 
 METRES_TO_YARDS = 1.0936132983377078
 
-# Confirmed against what the site displays for these shots. The codes are not
-# simple abbreviations of the display names -- OST reads as Rough, not
-# anything starting "ST" -- so the rest stay raw in the lieCode columns until
-# each is checked on the site. Guessing here would quietly corrupt the lie,
-# which is the column most worth trusting.
+# Read off the site's own commentary: every shot whose text says "finds the
+# rough" carries ORO, and so on, across hundreds of shots. Codes are not
+# abbreviations of the names -- OST reads as Rough too -- so each is mapped
+# only where the commentary agreed, with the sample size noted.
 SURFACES = {
     "OTB": "Tee",
-    "OFW": "Fairway",
-    "OGR": "Green",
-    "OST": "Rough",       # confirmed: hole 1 tee shot
+    "OFW": "Fairway",              # 34/34 "fairway"
+    "OGR": "Green",                # 41/42 "green"
+    "ORO": "Rough",                # 18/18 "rough"
+    "OIR": "Intermediate Rough",   # 6/6  "intermediate rough"
+    "OCO": "Fringe",               # 3/3  "fringe"
+    "ONA": "Native Area",          # 2/2  "native area"
+    "OST": "Rough",                # confirmed by eye on the hole 1 tee shot
 }
+# Still unmapped, on one ambiguous sighting each: OGS (read "native area",
+# which ONA already covers), ODO, OBU. They stay raw in the lieCode columns.
 
 
 def surface(code: str | None) -> str:
@@ -140,6 +145,38 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
 YARDS_TO_METRES = 1 / METRES_TO_YARDS
 
 
+def load_commentary(captured: Path) -> dict[tuple, str]:
+    """The site's AI commentary line for each shot, keyed by event/round/hole/shot.
+
+    Keyed by event as well as round: hole 1 shot 1 of round 2 exists at every
+    tournament, so a key without the event silently mixes them.
+    """
+    lines: dict[tuple, str] = {}
+    for run_dir in sorted(captured.glob("run_*")):
+        if not run_dir.is_dir():
+            continue
+        event = declared(run_dir).get("event") or "unknown-event"
+        for path in sorted(run_dir.glob("*.json")):
+            if path.name.startswith("_"):
+                continue
+            try:
+                payload = json.loads(path.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            if not isinstance(payload, dict):
+                continue
+            feed = ((payload.get("payload") or {}).get("data") or {}).get("subscribeToGolfCommentary")
+            if not feed:
+                continue
+            round_no = str(feed.get("roundNo"))
+            for hole in feed.get("holes") or []:
+                for shot in hole.get("shots") or []:
+                    text = (shot.get("comments") or {}).get("en")
+                    if text:
+                        lines[(event, round_no, hole.get("holeNo"), shot.get("shotNo"))] = text
+    return lines
+
+
 def load_manual(path: Path) -> list[dict]:
     """Shots transcribed from the on-screen commentary, for missed holes.
 
@@ -206,6 +243,7 @@ def main() -> int:
         for event in frame:
             by_hole_shot.setdefault((key, hole, event.get("shotNo")), {}).update(event)
 
+    commentary = load_commentary(HERE / "captured")
     rows, seen = [], set()
     for record in positions:
         stroke = record.get("strokeNo")
@@ -240,6 +278,9 @@ def main() -> int:
             "x": record.get("x"),
             "z": record.get("z"),
             "seqNum": record.get("seqNum"),
+            "commentary": commentary.get(
+                (record["_event"], record["_round"], record.get("holeNo"), stroke), ""
+            ),
         }
         fingerprint = (row["event"], row["round"], row["hole"], row["shot"], row["seqNum"])
         if fingerprint in seen:
@@ -269,6 +310,8 @@ def main() -> int:
         find_shots.write_csv(in_event, HERE / f"SHOT_BY_SHOT_{event}.csv")
 
     matched = sum(1 for r in rows if r.get("eventType"))
+    with_text = sum(1 for r in rows if r.get("commentary"))
+    print(f"  text   : {with_text}/{len(rows)} shots have their commentary line")
     if manual:
         holes = sorted({m["hole"] for m in manual})
         print(f"  note   : {len(manual)} shots on hole(s) {holes} come from the commentary,")
