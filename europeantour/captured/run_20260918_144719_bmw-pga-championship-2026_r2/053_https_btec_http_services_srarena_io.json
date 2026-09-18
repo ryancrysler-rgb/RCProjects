@@ -1,0 +1,810 @@
+{
+  "data": {
+    "getGolfTournamentGroupScores": [
+      {
+        "groupId": 1984986,
+        "l1Course": true,
+        "teamId": 49,
+        "players": [
+          {
+            "id": 840,
+            "lastName": "Canter",
+            "firstName": "Laurie"
+          }
+        ],
+        "roundScores": [
+          {
+            "courseId": 1,
+            "roundNo": 1,
+            "toParToday": {
+              "value": 2
+            },
+            "holesThrough": {
+              "value": 18
+            },
+            "startHole": 9,
+            "holes": [
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 1,
+                "holeNumber": 1
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 2,
+                "holeNumber": 2
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 3,
+                "holeNumber": 3
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 5,
+                "holeOrder": 4,
+                "holeNumber": 4
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 5,
+                "holeNumber": 5
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 6,
+                "holeNumber": 6
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 7,
+                "holeNumber": 7
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 8,
+                "holeNumber": 8
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 9,
+                "holeNumber": 9
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 2,
+                "holeOrder": 10,
+                "holeNumber": 10
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 11,
+                "holeNumber": 11
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 12,
+                "holeNumber": 12
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 13,
+                "holeNumber": 13
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 14,
+                "holeNumber": 14
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 15,
+                "holeNumber": 15
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 6,
+                "holeOrder": 16,
+                "holeNumber": 16
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 17,
+                "holeNumber": 17
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 7,
+                "holeOrder": 18,
+                "holeNumber": 18
+              }
+            ],
+            "isPlayoff": false
+          },
+          {
+            "courseId": 1,
+            "roundNo": 2,
+            "toParToday": {
+              "value": 3
+            },
+            "holesThrough": {
+              "value": 18
+            },
+            "startHole": 1,
+            "holes": [
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 1,
+                "holeNumber": 1
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 4,
+                "holeOrder": 2,
+                "holeNumber": 2
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 3,
+                "holeNumber": 3
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 4,
+                "holeNumber": 4
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 5,
+                "holeNumber": 5
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 6,
+                "holeNumber": 6
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 6,
+                "holeOrder": 7,
+                "holeNumber": 7
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 8,
+                "holeNumber": 8
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 9,
+                "holeNumber": 9
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 4,
+                "holeOrder": 10,
+                "holeNumber": 10
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 11,
+                "holeNumber": 11
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 12,
+                "holeNumber": 12
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 13,
+                "holeNumber": 13
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 14,
+                "holeNumber": 14
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 15,
+                "holeNumber": 15
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 16,
+                "holeNumber": 16
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 17,
+                "holeNumber": 17
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 5,
+                "holeOrder": 18,
+                "holeNumber": 18
+              }
+            ],
+            "isPlayoff": false
+          }
+        ],
+        "toPar": {
+          "value": 5
+        },
+        "currentHole": 8,
+        "tournamentPosition": {
+          "format": "tied",
+          "value": 124,
+          "displayValue": "T124"
+        },
+        "status": "Cut"
+      },
+      {
+        "groupId": 1984986,
+        "l1Course": true,
+        "teamId": 18,
+        "players": [
+          {
+            "id": 47,
+            "lastName": "Waring",
+            "firstName": "Paul"
+          }
+        ],
+        "roundScores": [
+          {
+            "courseId": 1,
+            "roundNo": 1,
+            "toParToday": {
+              "value": -1
+            },
+            "holesThrough": {
+              "value": 18
+            },
+            "startHole": 9,
+            "holes": [
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 1,
+                "holeNumber": 1
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 2,
+                "holeOrder": 2,
+                "holeNumber": 2
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 3,
+                "holeNumber": 3
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 5,
+                "holeOrder": 4,
+                "holeNumber": 4
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 5,
+                "holeNumber": 5
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 6,
+                "holeNumber": 6
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 7,
+                "holeNumber": 7
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 8,
+                "holeNumber": 8
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 9,
+                "holeNumber": 9
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 4,
+                "holeOrder": 10,
+                "holeNumber": 10
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 3,
+                "holeOrder": 11,
+                "holeNumber": 11
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 5,
+                "holeOrder": 12,
+                "holeNumber": 12
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 13,
+                "holeNumber": 13
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 2,
+                "holeOrder": 14,
+                "holeNumber": 14
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 15,
+                "holeNumber": 15
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 16,
+                "holeNumber": 16
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 5,
+                "holeOrder": 17,
+                "holeNumber": 17
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 18,
+                "holeNumber": 18
+              }
+            ],
+            "isPlayoff": false
+          },
+          {
+            "courseId": 1,
+            "roundNo": 2,
+            "toParToday": {
+              "value": -3
+            },
+            "holesThrough": {
+              "value": 18
+            },
+            "startHole": 1,
+            "holes": [
+              {
+                "holePar": 4,
+                "holeStrokes": 3,
+                "holeOrder": 1,
+                "holeNumber": 1
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 2,
+                "holeOrder": 2,
+                "holeNumber": 2
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 3,
+                "holeNumber": 3
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 4,
+                "holeNumber": 4
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 4,
+                "holeOrder": 5,
+                "holeNumber": 5
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 3,
+                "holeOrder": 6,
+                "holeNumber": 6
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 7,
+                "holeNumber": 7
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 8,
+                "holeNumber": 8
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 9,
+                "holeNumber": 9
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 2,
+                "holeOrder": 10,
+                "holeNumber": 10
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 11,
+                "holeNumber": 11
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 5,
+                "holeOrder": 12,
+                "holeNumber": 12
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 13,
+                "holeNumber": 13
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 14,
+                "holeNumber": 14
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 15,
+                "holeNumber": 15
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 16,
+                "holeNumber": 16
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 17,
+                "holeNumber": 17
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 5,
+                "holeOrder": 18,
+                "holeNumber": 18
+              }
+            ],
+            "isPlayoff": false
+          }
+        ],
+        "toPar": {
+          "value": -4
+        },
+        "currentHole": 8,
+        "tournamentPosition": {
+          "format": "tied",
+          "value": 31,
+          "displayValue": "T31"
+        },
+        "status": "Uncut"
+      },
+      {
+        "groupId": 1984986,
+        "l1Course": true,
+        "teamId": 66,
+        "players": [
+          {
+            "id": 7186,
+            "lastName": "Hoshino",
+            "firstName": "Rikuya"
+          }
+        ],
+        "roundScores": [
+          {
+            "courseId": 1,
+            "roundNo": 1,
+            "toParToday": {
+              "value": 4
+            },
+            "holesThrough": {
+              "value": 18
+            },
+            "startHole": 9,
+            "holes": [
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 1,
+                "holeNumber": 1
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 2,
+                "holeNumber": 2
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 3,
+                "holeNumber": 3
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 4,
+                "holeNumber": 4
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 5,
+                "holeNumber": 5
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 6,
+                "holeNumber": 6
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 7,
+                "holeNumber": 7
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 8,
+                "holeNumber": 8
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 9,
+                "holeNumber": 9
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 10,
+                "holeNumber": 10
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 11,
+                "holeNumber": 11
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 6,
+                "holeOrder": 12,
+                "holeNumber": 12
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 13,
+                "holeNumber": 13
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 14,
+                "holeNumber": 14
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 3,
+                "holeOrder": 15,
+                "holeNumber": 15
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 16,
+                "holeNumber": 16
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 6,
+                "holeOrder": 17,
+                "holeNumber": 17
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 5,
+                "holeOrder": 18,
+                "holeNumber": 18
+              }
+            ],
+            "isPlayoff": false
+          },
+          {
+            "courseId": 1,
+            "roundNo": 2,
+            "toParToday": {
+              "value": -4
+            },
+            "holesThrough": {
+              "value": 18
+            },
+            "startHole": 1,
+            "holes": [
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 1,
+                "holeNumber": 1
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 2,
+                "holeNumber": 2
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 3,
+                "holeNumber": 3
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 4,
+                "holeNumber": 4
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 5,
+                "holeNumber": 5
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 6,
+                "holeNumber": 6
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 7,
+                "holeNumber": 7
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 8,
+                "holeNumber": 8
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 9,
+                "holeNumber": 9
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 10,
+                "holeNumber": 10
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 4,
+                "holeOrder": 11,
+                "holeNumber": 11
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 12,
+                "holeNumber": 12
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 3,
+                "holeOrder": 13,
+                "holeNumber": 13
+              },
+              {
+                "holePar": 3,
+                "holeStrokes": 3,
+                "holeOrder": 14,
+                "holeNumber": 14
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 3,
+                "holeOrder": 15,
+                "holeNumber": 15
+              },
+              {
+                "holePar": 4,
+                "holeStrokes": 5,
+                "holeOrder": 16,
+                "holeNumber": 16
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 5,
+                "holeOrder": 17,
+                "holeNumber": 17
+              },
+              {
+                "holePar": 5,
+                "holeStrokes": 4,
+                "holeOrder": 18,
+                "holeNumber": 18
+              }
+            ],
+            "isPlayoff": false
+          }
+        ],
+        "toPar": {
+          "value": 0
+        },
+        "currentHole": 8,
+        "tournamentPosition": {
+          "format": "tied",
+          "value": 80,
+          "displayValue": "T80"
+        },
+        "status": "Cut"
+      }
+    ]
+  }
+}

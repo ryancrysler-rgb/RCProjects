@@ -1,0 +1,1165 @@
+{
+  "ScheduleData": [
+    [
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/amgen-irish-open-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": false,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026135,
+        "Status": 3,
+        "Name": "Amgen Irish Open",
+        "StartDate": "2026-09-10T00:00:00.0000000",
+        "CountryCode": "IRL",
+        "CourseName": "Trump International Golf Links & Hotel Ireland",
+        "RoundNo": "4",
+        "Location": null,
+        "EndDate": "2026-09-13T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 4
+      },
+      {
+        "CurrentRound": 3,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/bmw-pga-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026136,
+        "Status": 0,
+        "Name": "BMW PGA CHAMPIONSHIP",
+        "StartDate": "2026-09-17T00:00:00.0000000",
+        "CountryCode": "ENG",
+        "CourseName": "Wentworth Club",
+        "RoundNo": "3",
+        "Location": null,
+        "EndDate": "2026-09-20T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 1
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/fedex-open-de-france-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": false,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026137,
+        "Status": 6,
+        "Name": "FedEx Open de France",
+        "StartDate": "2026-09-24T00:00:00.0000000",
+        "CountryCode": "FRA",
+        "CourseName": "Le Golf National",
+        "RoundNo": "1",
+        "Location": null,
+        "EndDate": "2026-09-27T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      }
+    ]
+  ],
+  "RolexSeriesData": {
+    "Schedule": [
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/hero-dubai-desert-classic-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026106,
+        "Status": 3,
+        "Name": "Hero Dubai Desert Classic",
+        "StartDate": "2026-01-22T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Emirates GC",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-01-25T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/genesis-scottish-open-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026126,
+        "Status": 3,
+        "Name": "Genesis Scottish Open",
+        "StartDate": "2026-07-09T00:00:00.0000000",
+        "CountryCode": "SCO",
+        "CourseName": "The Renaissance Club",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-07-12T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 3,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/bmw-pga-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026136,
+        "Status": 0,
+        "Name": "BMW PGA CHAMPIONSHIP",
+        "StartDate": "2026-09-17T00:00:00.0000000",
+        "CountryCode": "ENG",
+        "CourseName": "Wentworth Club",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-09-20T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/abu-dhabi-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026142,
+        "Status": 4,
+        "Name": "ABU DHABI CHAMPIONSHIP",
+        "StartDate": "2026-11-05T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Yas Links",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-11-08T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/dp-world-tour-championship-dubai-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026143,
+        "Status": 4,
+        "Name": "DP WORLD TOUR CHAMPIONSHIP, DUBAI",
+        "StartDate": "2026-11-12T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Earth course",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-11-15T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      }
+    ],
+    "SelectedEvent": 1
+  },
+  "RankingPlayers": [
+    [
+      {
+        "PlayerId": 38439,
+        "FirstName": "Patrick",
+        "LastName": "REED",
+        "CountryCode": "USA",
+        "EventsPlayed": 17,
+        "CountingEvents": 0,
+        "CurrentPoints": 3423.62,
+        "CurrentRank": 1,
+        "CurrentRankDesc": "1",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 2,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1770280028/prod/cdsmaznfe3lqje9vdihd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/patrick-reed-38439/"
+      },
+      {
+        "PlayerId": 34024,
+        "FirstName": "Rory",
+        "LastName": "MCILROY",
+        "CountryCode": "NIR",
+        "EventsPlayed": 9,
+        "CountingEvents": 0,
+        "CurrentPoints": 2583.86,
+        "CurrentRank": 2,
+        "CurrentRankDesc": "2",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1561217808/PROD/fg1cotbp6zfhnzmfactd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/rory-mcilroy-34024/"
+      },
+      {
+        "PlayerId": 43332,
+        "FirstName": "Eugenio",
+        "LastName": "CHACARRA",
+        "CountryCode": "ESP",
+        "EventsPlayed": 24,
+        "CountingEvents": 0,
+        "CurrentPoints": 2499.42,
+        "CurrentRank": 3,
+        "CurrentRankDesc": "3",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769159085/prod/o5lyzjr4fmwvnzx2yj29",
+        "SelfUrl": null,
+        "PlayerLink": "/players/eugenio-chacarra-43332/"
+      },
+      {
+        "PlayerId": 43957,
+        "FirstName": "Casey",
+        "LastName": "JARVIS",
+        "CountryCode": "RSA",
+        "EventsPlayed": 22,
+        "CountingEvents": 0,
+        "CurrentPoints": 2220.51,
+        "CurrentRank": 4,
+        "CurrentRankDesc": "4",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1758614659/prod/yajhjihmla3mcwyojdno",
+        "SelfUrl": null,
+        "PlayerLink": "/players/casey-jarvis-43957/"
+      },
+      {
+        "PlayerId": 43682,
+        "FirstName": "Jayden",
+        "LastName": "SCHAPER",
+        "CountryCode": "RSA",
+        "EventsPlayed": 21,
+        "CountingEvents": 0,
+        "CurrentPoints": 2094.09,
+        "CurrentRank": 5,
+        "CurrentRankDesc": "5",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1740056148/prod/qrkkx8ldyaicrrapgdik",
+        "SelfUrl": null,
+        "PlayerLink": "/players/jayden-schaper-43682/"
+      },
+      {
+        "PlayerId": 35122,
+        "FirstName": "Ryan",
+        "LastName": "FOX",
+        "CountryCode": "NZL",
+        "EventsPlayed": 9,
+        "CountingEvents": 0,
+        "CurrentPoints": 2042.3,
+        "CurrentRank": 6,
+        "CurrentRankDesc": "6",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 0,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1561241169/PROD/eoy4apvuyralh1cg5bqz",
+        "SelfUrl": null,
+        "PlayerLink": "/players/ryan-fox-35122/"
+      },
+      {
+        "PlayerId": 39583,
+        "FirstName": "Aaron",
+        "LastName": "RAI",
+        "CountryCode": "ENG",
+        "EventsPlayed": 5,
+        "CountingEvents": 0,
+        "CurrentPoints": 1876.5,
+        "CurrentRank": 7,
+        "CurrentRankDesc": "7",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 0,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769088884/prod/xoy0qltrhfo7u8aoofcd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/aaron-rai-39583/"
+      },
+      {
+        "PlayerId": 38119,
+        "FirstName": "Andy",
+        "LastName": "SULLIVAN",
+        "CountryCode": "ENG",
+        "EventsPlayed": 22,
+        "CountingEvents": 0,
+        "CurrentPoints": 1709.23,
+        "CurrentRank": 8,
+        "CurrentRankDesc": "8",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 0,
+        "PlacedSecond": 1,
+        "PlacedThird": 2,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769085684/prod/xfqqiara6lrl8m25vbit",
+        "SelfUrl": null,
+        "PlayerLink": "/players/andy-sullivan-38119/"
+      },
+      {
+        "PlayerId": 105456,
+        "FirstName": "Jacob Skov",
+        "LastName": "OLESEN",
+        "CountryCode": "DEN",
+        "EventsPlayed": 24,
+        "CountingEvents": 0,
+        "CurrentPoints": 1624.59,
+        "CurrentRank": 9,
+        "CurrentRankDesc": "9",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 2,
+        "EventWins": 0,
+        "PlacedSecond": 2,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 5,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1734726842/prod/djhvlr8mhigfidtaxgod",
+        "SelfUrl": null,
+        "PlayerLink": "/players/jacob-skov-olesen-105456/"
+      },
+      {
+        "PlayerId": 33676,
+        "FirstName": "Bernd",
+        "LastName": "WIESBERGER",
+        "CountryCode": "AUT",
+        "EventsPlayed": 23,
+        "CountingEvents": 0,
+        "CurrentPoints": 1593.42,
+        "CurrentRank": 10,
+        "CurrentRankDesc": "10",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": -1,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 3,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769160157/prod/r6afmwp6hqf1amjlhrkk",
+        "SelfUrl": null,
+        "PlayerLink": "/players/bernd-wiesberger-33676/"
+      }
+    ]
+  ],
+  "TourNews": [
+    {
+      "Type": "story",
+      "_translationId": "24275dc1-d9d9-4d74-811a-a4d48dac5516",
+      "_entityId": "351a8bb6-d55b-4168-a582-5ff23918c0d6",
+      "SelfUrl": "/dpworld-tour/rolex/news/articles/detail/rory-mcilroy-ready-for-tilt-at-history-ahead-of-wentworth-weekend/",
+      "Slug": "rory-mcilroy-ready-for-tilt-at-history-ahead-of-wentworth-weekend",
+      "Title": "Rory McIlroy ready for tilt at history ahead of Wentworth weekend",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "ca609a8d-bf61-4cbb-9482-a97a50a8ad7e",
+          "_entityId": "6251840a-5e43-47ef-94cd-fdd37a8b55c7",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-bmw-pga-championship-2026136",
+          "Title": "BMW PGA CHAMPIONSHIP",
+          "Slug": "2026-bmw-pga-championship-2026136",
+          "NeutralSlug": "2026-bmw-pga-championship-2026136",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026136",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026136",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-09-17T00:00:00Z",
+            "endDate": "2026-09-20T00:00:00Z",
+            "location": "[{\"CourseId\":\"4753\",\"Name\":\"Wentworth Club\",\"CountryCode\":\"ENG\",\"Location\":\"Wentworth Club, Virginia Water, Surrey, England\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "2a2e122b-77f3-41ff-a3cf-b56ad87c4d09",
+          "_entityId": "c0ec9d08-815e-4dd3-a4a9-03177f69fc81",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rolex-series",
+          "Title": "Rolex Series",
+          "Slug": "rolex-series",
+          "NeutralSlug": "rolex-series",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-rolex-series",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeSectionId": "13000006"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "e7d04263-dae9-4d41-978b-3fa34cee92f3",
+          "_entityId": "237e0d7a-7dc9-44c6-b76f-d0309abd2617",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rory-mcilroy-34024",
+          "Title": "Rory MCILROY 34024",
+          "Slug": "rory-mcilroy-34024",
+          "NeutralSlug": "rory-mcilroy-34024",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "34024",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "NIR",
+            "playerId": "34024",
+            "firstName": "Rory",
+            "lastName": "MCILROY",
+            "dateOfBirth": "1989-05-04",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "175",
+            "qualifyingSchool": "2007 (Joined Tour as an Affiliate Member 2007)"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "European Tour"
+      },
+      "CreatedBy": "Matthew Hardisty",
+      "LastUpdatedBy": "Mathieu Wood",
+      "LastUpdatedDate": "2026-09-18T18:01:38.229Z",
+      "ContentDate": "2026-09-18T18:01:38.229Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "2a2e122b-77f3-41ff-a3cf-b56ad87c4d09",
+        "_entityId": "c0ec9d08-815e-4dd3-a4a9-03177f69fc81",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rolex-series",
+        "Title": "Rolex Series",
+        "Slug": "rolex-series",
+        "NeutralSlug": "rolex-series",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-rolex-series",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeSectionId": "13000006"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Rory McIlroy felt he was in a \"good spot\" to challenge for a second BMW PGA Championship title, a record-equalling fifth Rolex Series crown and make a big move in the Race to Dubai after a second-round 67 at Wentworth Club.",
+      "Summary": "Rory McIlroy felt he was in a \"good spot\" to challenge for a second BMW PGA Championship\u00a0title, a record-equalling fifth Rolex Series crown and make a big move in the Race to Dubai after a second-round 67 at Wentworth Club.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2295933415",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2295933415",
+        "Title": "Rory McIlroy",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1789752839/prod/ewhs57cilc30jtbg2hyv",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1789752839/prod/ewhs57cilc30jtbg2hyv",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "f8721f71-f861-403f-89bd-e1e0efbd8715",
+      "_entityId": "a2f02484-8ab9-4f0c-8767-bf9a2ad16da6",
+      "SelfUrl": "/dpworld-tour/rolex/news/articles/detail/big-finish-sends-ryan-gerard-flying-into-halfway-lead-at-wentworth/",
+      "Slug": "big-finish-sends-ryan-gerard-flying-into-halfway-lead-at-wentworth",
+      "Title": "Big finish sends Ryan Gerard flying into halfway lead at Wentworth",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "eccf7fb0-0c16-403e-88e1-09a1b1997de7",
+          "_entityId": "4751f556-df8a-4cbe-bc32-e6c679cd8137",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/report",
+          "Title": "Report",
+          "Slug": "report",
+          "NeutralSlug": "report",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-report",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "106"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "2a2e122b-77f3-41ff-a3cf-b56ad87c4d09",
+          "_entityId": "c0ec9d08-815e-4dd3-a4a9-03177f69fc81",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rolex-series",
+          "Title": "Rolex Series",
+          "Slug": "rolex-series",
+          "NeutralSlug": "rolex-series",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-rolex-series",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeSectionId": "13000006"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "ca609a8d-bf61-4cbb-9482-a97a50a8ad7e",
+          "_entityId": "6251840a-5e43-47ef-94cd-fdd37a8b55c7",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-bmw-pga-championship-2026136",
+          "Title": "BMW PGA CHAMPIONSHIP",
+          "Slug": "2026-bmw-pga-championship-2026136",
+          "NeutralSlug": "2026-bmw-pga-championship-2026136",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026136",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026136",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-09-17T00:00:00Z",
+            "endDate": "2026-09-20T00:00:00Z",
+            "location": "[{\"CourseId\":\"4753\",\"Name\":\"Wentworth Club\",\"CountryCode\":\"ENG\",\"Location\":\"Wentworth Club, Virginia Water, Surrey, England\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "fcd434c3-4b9d-4717-9434-f42fdfe34de4",
+          "_entityId": "c8a4ad76-11f4-4c94-86df-8066a1457132",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/notification-et-content",
+          "Title": "Content",
+          "Slug": "notification-et-content",
+          "NeutralSlug": "notification-et-content",
+          "ExternalSourceName": "notification",
+          "ExternalSourceReference": {
+            "SourceId": "notification-et-content",
+            "SourceName": "notification"
+          },
+          "ExtraData": {
+            "UrbanTag": "et-content"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "6ca45ecb-65ac-40a0-8aa8-3c2dd7c9032e",
+          "_entityId": "1927a615-52e8-4aaa-bd4a-5dc08d7659a9",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/ryan-gerard-100880",
+          "Title": "Ryan GERARD 100880",
+          "Slug": "ryan-gerard-100880",
+          "NeutralSlug": "ryan-gerard-100880",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "100880",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "playerId": "100880",
+            "firstName": "Ryan",
+            "lastName": "GERARD",
+            "dateOfBirth": "1999-08-02",
+            "countryCode": "USA",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "",
+            "qualifyingSchool": ""
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "European Tour"
+      },
+      "CreatedBy": "Matthew Hardisty",
+      "LastUpdatedBy": "Mathieu Wood",
+      "LastUpdatedDate": "2026-09-18T17:48:53.821Z",
+      "ContentDate": "2026-09-18T16:47:34.085Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "eccf7fb0-0c16-403e-88e1-09a1b1997de7",
+        "_entityId": "4751f556-df8a-4cbe-bc32-e6c679cd8137",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/report",
+        "Title": "Report",
+        "Slug": "report",
+        "NeutralSlug": "report",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-report",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeKindId": "106"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Ryan Gerard carded a brilliant bogey-free round of 65 to take a two-shot lead into the weekend at the BMW PGA Championship.",
+      "Summary": "Ryan Gerard carded a brilliant bogey-free round of 65 to take a two-shot lead into the weekend at the BMW PGA Championship.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2295912791",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2295912791",
+        "Title": "Ryan Gerard",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1789747621/prod/qimt4uycwqlgj9sig1wu",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1789747621/prod/qimt4uycwqlgj9sig1wu",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "c42abefb-8b50-4229-89d6-73ebd0e3a8f7",
+      "_entityId": "db190c3c-de5b-405b-8c5d-6d5d032dddc4",
+      "SelfUrl": "/dpworld-tour/qschool/news/articles/detail/flanagan-leads-20-players-through-to-second-stage-in-england/",
+      "Slug": "flanagan-leads-20-players-through-to-second-stage-in-england",
+      "Title": "Flanagan leads 20 players through to second stage in England",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "f83ed35b-79ad-4691-ad38-b02335141288",
+          "_entityId": "68098b6d-328d-4e9f-9d12-d9ef492f340f",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/q-school",
+          "Title": "Q School",
+          "Slug": "q-school",
+          "NeutralSlug": "q-school",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-q-school",
+            "SourceName": "editorial"
+          },
+          "ExtraData": null,
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "additionalTour": "European Tour Qualifying School"
+      },
+      "CreatedBy": "Jack Craske",
+      "LastUpdatedBy": "Jack Craske",
+      "LastUpdatedDate": "2026-09-18T16:20:54.028Z",
+      "ContentDate": "2026-09-18T16:20:54.028Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+        "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+        "Title": "News",
+        "Slug": "news",
+        "NeutralSlug": "news",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-news",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeKindId": "100"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "DP World Tour First Stage Qualifying School took place this week at Dunham Forest Golf and Country Club, with 20 players securing safe passage through to Second Stage.",
+      "Summary": "DP World Tour First Stage Qualifying School took place this week at Dunham Forest Golf and Country Club, with 20 players securing safe passage through to Second Stage.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "image-1-x3516",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/image-1-x3516",
+        "Title": "Image (1)",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/prod/rfzrr7a2eizpfbxkutvh",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/prod/rfzrr7a2eizpfbxkutvh",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "82a1b74f-465e-47b9-abd9-d84c9411f52c",
+      "_entityId": "daa5e8db-4543-47e1-bcd1-4ef1b9e02d7b",
+      "SelfUrl": "/dpworld-tour/rolex/news/articles/detail/nacho-elvira-backs-brother-manuel-for-success-as-sibling-duo-in-the-mix-at-bmw-pga-championship/",
+      "Slug": "nacho-elvira-backs-brother-manuel-for-success-as-sibling-duo-in-the-mix-at-bmw-pga-championship",
+      "Title": "Nacho Elvira backs brother Manuel for success as sibling duo in the mix at BMW PGA Championship",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "954a9b1c-d8af-4204-9697-c271789e33a5",
+          "_entityId": "e079c255-681f-41f3-872c-4ef32098268b",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/manuel-elvira-43327",
+          "Title": "Manuel ELVIRA 43327",
+          "Slug": "manuel-elvira-43327",
+          "NeutralSlug": "manuel-elvira-43327",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "43327",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "ESP",
+            "playerId": "43327",
+            "firstName": "Manuel",
+            "lastName": "ELVIRA",
+            "dateOfBirth": "1996-08-14",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "",
+            "qualifyingSchool": ""
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "a65e2d2f-74ec-49bf-a3a8-a922a0726b9b",
+          "_entityId": "263a34f2-f271-446f-8745-2d8d6ca0ce82",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/nacho-elvira-36078",
+          "Title": "Nacho ELVIRA 36078",
+          "Slug": "nacho-elvira-36078",
+          "NeutralSlug": "nacho-elvira-36078",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "36078",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "ESP",
+            "playerId": "36078",
+            "firstName": "Nacho",
+            "lastName": "ELVIRA",
+            "dateOfBirth": "1987-02-17",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "185",
+            "qualifyingSchool": "(2012), 14"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "ca609a8d-bf61-4cbb-9482-a97a50a8ad7e",
+          "_entityId": "6251840a-5e43-47ef-94cd-fdd37a8b55c7",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-bmw-pga-championship-2026136",
+          "Title": "BMW PGA CHAMPIONSHIP",
+          "Slug": "2026-bmw-pga-championship-2026136",
+          "NeutralSlug": "2026-bmw-pga-championship-2026136",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026136",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026136",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-09-17T00:00:00Z",
+            "endDate": "2026-09-20T00:00:00Z",
+            "location": "[{\"CourseId\":\"4753\",\"Name\":\"Wentworth Club\",\"CountryCode\":\"ENG\",\"Location\":\"Wentworth Club, Virginia Water, Surrey, England\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "2a2e122b-77f3-41ff-a3cf-b56ad87c4d09",
+          "_entityId": "c0ec9d08-815e-4dd3-a4a9-03177f69fc81",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rolex-series",
+          "Title": "Rolex Series",
+          "Slug": "rolex-series",
+          "NeutralSlug": "rolex-series",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-rolex-series",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeSectionId": "13000006"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "European Tour"
+      },
+      "CreatedBy": "Mathieu Wood",
+      "LastUpdatedBy": "Matthew Hardisty",
+      "LastUpdatedDate": "2026-09-18T15:47:42.361Z",
+      "ContentDate": "2026-09-18T15:47:42.361Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "2a2e122b-77f3-41ff-a3cf-b56ad87c4d09",
+        "_entityId": "c0ec9d08-815e-4dd3-a4a9-03177f69fc81",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rolex-series",
+        "Title": "Rolex Series",
+        "Slug": "rolex-series",
+        "NeutralSlug": "rolex-series",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-rolex-series",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeSectionId": "13000006"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Nacho Elvira was backing his brother Manuel to join him in the DP World Tour winner's circle as the pair head into the weekend at the BMW PGA Championship in title contention.\u00a0",
+      "Summary": "Nacho Elvira is backing his brother Manuel to join him in the DP World Tour winner's circle as the pair head into the weekend at the BMW PGA Championship in title contention.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "elviras-2052552590",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/elviras-2052552590",
+        "Title": "Elviras-2052552590",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1789741946/prod/pf32yguuxkiubuidtvkv",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1789741946/prod/pf32yguuxkiubuidtvkv",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "89a5f019-a379-422f-b392-2acf2a1380f5",
+      "_entityId": "a3b582b6-f118-4ae8-9abb-ca87ddd9b3a4",
+      "SelfUrl": "/dpworld-tour/rolex/news/articles/detail/robert-macintyre-fizzing-after-wild-ride-at-wentworth/",
+      "Slug": "robert-macintyre-fizzing-after-wild-ride-at-wentworth",
+      "Title": "Robert MacIntyre 'fizzing' after wild ride at Wentworth",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "ca609a8d-bf61-4cbb-9482-a97a50a8ad7e",
+          "_entityId": "6251840a-5e43-47ef-94cd-fdd37a8b55c7",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-bmw-pga-championship-2026136",
+          "Title": "BMW PGA CHAMPIONSHIP",
+          "Slug": "2026-bmw-pga-championship-2026136",
+          "NeutralSlug": "2026-bmw-pga-championship-2026136",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026136",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026136",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-09-17T00:00:00Z",
+            "endDate": "2026-09-20T00:00:00Z",
+            "location": "[{\"CourseId\":\"4753\",\"Name\":\"Wentworth Club\",\"CountryCode\":\"ENG\",\"Location\":\"Wentworth Club, Virginia Water, Surrey, England\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "2a2e122b-77f3-41ff-a3cf-b56ad87c4d09",
+          "_entityId": "c0ec9d08-815e-4dd3-a4a9-03177f69fc81",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rolex-series",
+          "Title": "Rolex Series",
+          "Slug": "rolex-series",
+          "NeutralSlug": "rolex-series",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-rolex-series",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeSectionId": "13000006"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "a4ccd34b-ee1d-49a2-818f-08775b4bd572",
+          "_entityId": "2ecd0eb6-85fe-4bee-8988-f52c5d839ce2",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/robert-macintyre-41227",
+          "Title": "Robert MACINTYRE 41227",
+          "Slug": "robert-macintyre-41227",
+          "NeutralSlug": "robert-macintyre-41227",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "41227",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "SCO",
+            "playerId": "41227",
+            "firstName": "Robert",
+            "lastName": "MACINTYRE",
+            "dateOfBirth": "1996-08-03",
+            "placeOfBirth": "",
+            "attachment": "Glencruitten GC",
+            "height": "180",
+            "qualifyingSchool": "2017"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "European Tour"
+      },
+      "CreatedBy": "Matthew Hardisty",
+      "LastUpdatedBy": "Matthew Hardisty",
+      "LastUpdatedDate": "2026-09-18T14:54:35.727Z",
+      "ContentDate": "2026-09-18T13:35:59.371Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "2a2e122b-77f3-41ff-a3cf-b56ad87c4d09",
+        "_entityId": "c0ec9d08-815e-4dd3-a4a9-03177f69fc81",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rolex-series",
+        "Title": "Rolex Series",
+        "Slug": "rolex-series",
+        "NeutralSlug": "rolex-series",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-rolex-series",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeSectionId": "13000006"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Golf can be a perplexing game - even for the professionals.",
+      "Summary": "Golf can be a perplexing game - even for the professionals.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2295878548",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2295878548",
+        "Title": "Robert MacIntyre",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1789737497/prod/tvzfaztztsutscipspcl",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1789737497/prod/tvzfaztztsutscipspcl",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    }
+  ],
+  "PlayerStats": [
+    [
+      {
+        "Stat": "DrivingAccuracyPct",
+        "PlayerId": 104063,
+        "FirstName": "Kazuma",
+        "LastName": "KOBORI",
+        "CountryCode": "NZL",
+        "PlayerValue": 72.2863741339492,
+        "SeasonAvg": 58.330422356303586,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1758614718/prod/lqusr5x9hqe9pmkcqkrd",
+        "PlayerLink": "/players/kazuma-kobori-104063/"
+      },
+      {
+        "Stat": "DrivingDistanceAvg",
+        "PlayerId": 42054,
+        "FirstName": "Marco",
+        "LastName": "PENGE",
+        "CountryCode": "ENG",
+        "PlayerValue": 329.6923076923077,
+        "SeasonAvg": 300.02056002645793,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1771233169/prod/prjc20kdu3z7v13a0v7t",
+        "PlayerLink": "/players/marco-penge-42054/"
+      },
+      {
+        "Stat": "GreenInRegulationPct",
+        "PlayerId": 100617,
+        "FirstName": "Keita",
+        "LastName": "NAKAJIMA",
+        "CountryCode": "JPN",
+        "PlayerValue": 76.04166666666667,
+        "SeasonAvg": 66.77200847634097,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1760712269/prod/raedqvosh1euzon7mtng",
+        "PlayerLink": "/players/keita-nakajima-100617/"
+      },
+      {
+        "Stat": "PuttsPerRound",
+        "PlayerId": 42144,
+        "FirstName": "Rasmus",
+        "LastName": "H\u00d8JGAARD",
+        "CountryCode": "DEN",
+        "PlayerValue": 27.833333333333332,
+        "SeasonAvg": 29.339433359056333,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1696585249/PROD/sfrgfvlzhidhuj8tu8sf",
+        "PlayerLink": "/players/rasmus-hojgaard-42144/"
+      },
+      {
+        "Stat": "ScramblesPct",
+        "PlayerId": 100880,
+        "FirstName": "Ryan",
+        "LastName": "GERARD",
+        "CountryCode": "USA",
+        "PlayerValue": 72.63157894736842,
+        "SeasonAvg": 56.41243041987688,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769180467/prod/izrbx8ad1qrevfw4h83l",
+        "PlayerLink": "/players/ryan-gerard-100880/"
+      },
+      {
+        "Stat": "StrokeAvg",
+        "PlayerId": 39617,
+        "FirstName": "Matt",
+        "LastName": "WALLACE",
+        "CountryCode": "ENG",
+        "PlayerValue": 68.970588,
+        "SeasonAvg": 70.812937,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1770451381/prod/x2lku6l08exr69o7pgse",
+        "PlayerLink": "/players/matt-wallace-39617/"
+      }
+    ]
+  ]
+}
