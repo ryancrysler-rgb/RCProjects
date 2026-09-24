@@ -317,7 +317,8 @@ def main() -> int:
         print(f"  note   : {len(manual)} shots on hole(s) {holes} come from the commentary,")
         print(f"           not the feed -- marked source=commentary")
     print(f"{len(rows)} shots -> {out.name}")
-    print(f"  player : {rows[0]['player']} (team {rows[0]['teamId']})")
+    people = sorted({(r.get("player"), r.get("teamId")) for r in rows if r.get("player")})
+    print("  player : " + "; ".join(f"{name} (team {team})" for name, team in people))
     print(f"  events : {matched}/{len(rows)} shots matched to the event feed")
     if unplaced:
         print(f"  note   : {unplaced} event frame(s) could not be placed on a hole")
@@ -329,7 +330,9 @@ def main() -> int:
             in_round = [r for r in in_event if r["round"] == round_no]
             holes = sorted({r["hole"] for r in in_round if r["hole"]})
             missing = [h for h in range(1, 19) if h not in holes]
-            line = f"    round {round_no}: {len(in_round):3d} shots, {len(holes)} holes"
+            who = sorted({r.get("player") for r in in_round if r.get("player")})
+            names = "" if len(who) <= 1 else "  [" + ", ".join(who) + "]"
+            line = f"    round {round_no}: {len(in_round):3d} shots, {len(holes)} holes{names}"
             print(line + (f"  MISSING {missing}" if missing else ""))
     try:
         input("\nPress Enter to close... ")
