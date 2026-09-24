@@ -37,7 +37,9 @@ SURFACES = {
     "OIR": "Intermediate Rough",   # 6/6  "intermediate rough"
     "OCO": "Fringe",               # 3/3  "fringe"
     "ONA": "Native Area",          # 2/2  "native area"
-    "OST": "Rough",                # confirmed by eye on the hole 1 tee shot
+    "OST": "Fairway Bunker",       # 3/3 "fairway bunker" -- overrides an
+                                   # earlier by-eye reading of "rough"
+    "OWA": "Water",                # followed at once by a penalty drop
 }
 # Still unmapped, on one ambiguous sighting each: OGS (read "native area",
 # which ONA already covers), ODO, OBU. They stay raw in the lieCode columns.
@@ -203,6 +205,40 @@ def load_manual(path: Path) -> list[dict]:
     return rows
 
 
+def merge_corrections(rows: list[dict]) -> list[dict]:
+    """Fold a relocated ball into the shot it belongs to.
+
+    The feed sometimes re-records where a ball lies after the fact -- a
+    corrected lie, or relief with no penalty -- as a second record with the
+    same stroke number and isBallDrop set. It is not a stroke, so counting it
+    as one inflates the hole's score. Keep one row: the shot as played, ending
+    at the corrected position. Penalty drops are real strokes and untouched.
+    """
+    groups: dict[tuple, list[dict]] = {}
+    for row in rows:
+        key = (row.get("event"), row.get("round"), row.get("teamId"), row.get("hole"), row.get("shot"))
+        groups.setdefault(key, []).append(row)
+
+    merged = []
+    for group in groups.values():
+        if len(group) == 1:
+            merged.append(group[0])
+            continue
+        group.sort(key=lambda r: r.get("seqNum") or 0)
+        played = dict(group[0])
+        for later in group[1:]:
+            if later.get("isBallDrop") and later.get("eventType") != "Penalty":
+                for field in ("x", "z", "lieAfterShot", "lieAfterShotCode",
+                              "distanceToPin_yds", "distanceToPin_m"):
+                    if later.get(field) not in (None, ""):
+                        played[field] = later[field]
+                played["note"] = "ball position corrected after the shot (no penalty)"
+            else:
+                merged.append(later)      # not a correction -- keep as its own row
+        merged.append(played)
+    return merged
+
+
 def event_key(shot_no, shot_distance, distance_to_pin) -> tuple:
     """Join key shared by both feeds: stroke number plus its two distances."""
     def near(value):
@@ -241,7 +277,7 @@ def main() -> int:
             unplaced += 1
             continue
         for event in frame:
-            by_hole_shot.setdefault((key, hole, event.get("shotNo")), {}).update(event)
+            by_hole_shot.setdefault((key, event.get("teamId"), hole, event.get("shotNo")), {}).update(event)
 
     commentary = load_commentary(HERE / "captured")
     rows, seen = [], set()
@@ -251,7 +287,9 @@ def main() -> int:
         if stroke in (None, 0):
             continue
         player = record.get("player") or {}
-        event = by_hole_shot.get(((record["_event"], record["_round"]), record.get("holeNo"), stroke), {})
+        event = by_hole_shot.get(
+            ((record["_event"], record["_round"]), record.get("teamId"), record.get("holeNo"), stroke), {}
+        )
 
         row = {
             "event": record["_event"],
@@ -299,6 +337,7 @@ def main() -> int:
         row.setdefault("source", "feed")
     rows += manual
 
+    rows = merge_corrections(rows)
     rows.sort(key=lambda r: (r["event"], r["round"], r["hole"] or 0, r["shot"] or 0))
     out = HERE / "SHOT_BY_SHOT.csv"
     find_shots.write_csv(rows, out)
