@@ -63,6 +63,31 @@ def event_slug(url: str) -> str:
     return parts[-1] if parts else "unknown-event"
 
 
+def clean_url(text: str) -> str | None:
+    """The first web address in whatever was pasted."""
+    match = re.search(r"https?://\S+", text)
+    return match.group(0).rstrip(".,)") if match else None
+
+
+def clean_round(text: str, default: str) -> str:
+    """The round number typed, ignoring any prompt text pasted with it.
+
+    Takes the last number on the line, since pasted prompt text such as
+    "[Enter for 1]" comes before the actual answer.
+    """
+    answer = text.split(">")[-1]
+    numbers = re.findall(r"\d+", answer)
+    return numbers[-1] if numbers else default
+
+
+def clean_name(text: str) -> str | None:
+    """The surname typed, ignoring any prompt text pasted with it."""
+    answer = text.split(">")[-1]
+    words = re.findall(r"[A-Za-z][A-Za-z'\-]*", answer)
+    words = [w for w in words if w.lower() not in {"enter", "press", "for", "or", "type", "it"}]
+    return words[-1] if words else None
+
+
 def last_url(captured: Path) -> str | None:
     """The URL used by the most recent capture, as the obvious default."""
     runs = sorted(captured.glob("run_*/_run_info.json"))
@@ -101,22 +126,28 @@ def main() -> int:
     # Shot records carry holeNo and strokeNo but neither an event nor a round,
     # so both are recorded here. Without them every event's hole 1 shot 1
     # would pile up indistinguishably.
+    # Answers get pasted with surrounding text -- a whole line of instructions,
+    # prompt and all -- so pull out just the part wanted rather than taking the
+    # input verbatim. Anything else would end up in a folder name.
     print("Paste the leaderboard page for the event you want.")
     print(f"  [Enter for: {last_url(out) or args.url}]")
-    url = input("> ").strip() or last_url(out) or args.url
+    url = clean_url(input("> ")) or last_url(out) or args.url
 
     event = event_slug(url)
     print(f"\nEvent: {event}")
 
     default_round = (re.search(r"round=(\d+)", url) or [None, "1"])[1]
-    round_no = input(f"Which round? [Enter for {default_round}] > ").strip() or default_round
+    round_no = clean_round(input(f"Which round? Type a number, or press Enter for {default_round} > "),
+                           default_round)
     url = re.sub(r"round=\d+", f"round={round_no}", url)
     if "round=" not in url:
         url += ("&" if "?" in url else "?") + f"round={round_no}"
 
-    player = input("Player surname to look for? [Enter for Canter] > ").strip() or "Canter"
+    player = clean_name(input("Player surname? Type it, or press Enter for Canter > ")) or "Canter"
+    print(f"\nCapturing {event}, round {round_no}, looking for {player}.\n")
 
-    run_dir = out / f"run_{time.strftime('%Y%m%d_%H%M%S')}_{event}_r{round_no}"
+    safe = re.sub(r"[^A-Za-z0-9_-]+", "-", f"{event}_r{round_no}").strip("-")
+    run_dir = out / f"run_{time.strftime('%Y%m%d_%H%M%S')}_{safe}"
     run_dir.mkdir(parents=True, exist_ok=True)
     (run_dir / "_run_info.json").write_text(
         json.dumps({"event": event, "round": round_no, "url": url, "player": player,
