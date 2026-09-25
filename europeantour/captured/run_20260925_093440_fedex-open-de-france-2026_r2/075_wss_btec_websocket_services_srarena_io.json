@@ -1,0 +1,135 @@
+{
+  "id": "4210742078",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfMedia3DShots": [
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 1,
+          "strokeNo": 0,
+          "teamId": 46,
+          "seqNum": 170,
+          "courseId": 85,
+          "x": 432202.53636991733,
+          "y": null,
+          "z": 5400441.661735268,
+          "surfaceTypeCode": "OTB",
+          "provisionalIndex": null,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 378.56,
+          "score": null,
+          "player": {
+            "country": "AUS",
+            "displayName": "Cam Smith",
+            "firstName": "Cam",
+            "gender": "male",
+            "id": 3968,
+            "isAmateur": false,
+            "lastName": "Smith"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 1,
+          "strokeNo": 1,
+          "teamId": 46,
+          "seqNum": 174,
+          "courseId": 85,
+          "x": 432179.4935174292,
+          "y": null,
+          "z": 5400209.787230602,
+          "surfaceTypeCode": "OFW",
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 146.448162396437,
+          "shotDistance": 233.271822330348,
+          "score": null,
+          "player": {
+            "country": "AUS",
+            "displayName": "Cam Smith",
+            "firstName": "Cam",
+            "gender": "male",
+            "id": 3968,
+            "isAmateur": false,
+            "lastName": "Smith"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 1,
+          "strokeNo": 2,
+          "teamId": 46,
+          "seqNum": 199,
+          "courseId": 85,
+          "x": 432075.3139269479,
+          "y": null,
+          "z": 5400103.718333743,
+          "surfaceTypeCode": "OGR",
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 3.83751683274281,
+          "shotDistance": 148.632172212181,
+          "score": null,
+          "player": {
+            "country": "AUS",
+            "displayName": "Cam Smith",
+            "firstName": "Cam",
+            "gender": "male",
+            "id": 3968,
+            "isAmateur": false,
+            "lastName": "Smith"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": true,
+          "holeNo": 1,
+          "strokeNo": 3,
+          "teamId": 46,
+          "seqNum": 202,
+          "courseId": 85,
+          "x": 432079.1100030139,
+          "y": null,
+          "z": 5400103.111807197,
+          "surfaceTypeCode": null,
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "shotDistance": 3.83751683274281,
+          "score": "Birdie",
+          "player": {
+            "country": "AUS",
+            "displayName": "Cam Smith",
+            "firstName": "Cam",
+            "gender": "male",
+            "id": 3968,
+            "isAmateur": false,
+            "lastName": "Smith"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1436",
+    "operationName": "GOLF_TOURNAMENT_TEAM_SHOT_BY_SHOT__ROUNDNO__TEAMID__HOLENO__HOLEORDER__MEDIA",
+    "subscriptionHash": "4210742078"
+  },
+  "_operation": "MapVisualisationSubscribeToMedia3DShots"
+}

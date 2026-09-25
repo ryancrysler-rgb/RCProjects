@@ -1,0 +1,51 @@
+{
+  "playerId": 40070,
+  "firstName": "Cameron",
+  "lastName": "SMITH",
+  "countryCode": "AUS",
+  "imageUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1561110418/PROD/uhcn77utc4xr5zssn6pq",
+  "storySlug": "cameron-smith-40070",
+  "worldRanking": 142,
+  "tourStats": [
+    {
+      "tourId": 1,
+      "currentPoints": 0.0,
+      "currentRank": 0,
+      "currentRankLabel": "R2DR",
+      "eventsPlayed": 71,
+      "eventWins": 4,
+      "careerWins": 4,
+      "eventWinsLabel": "DP Wins"
+    },
+    {
+      "tourId": 2,
+      "currentPoints": 0.0,
+      "currentRank": 0,
+      "currentRankLabel": "OM",
+      "eventsPlayed": 0,
+      "eventWins": 0,
+      "careerWins": 0,
+      "eventWinsLabel": "LT Wins"
+    },
+    {
+      "tourId": 3,
+      "currentPoints": 0.0,
+      "currentRank": 0,
+      "currentRankLabel": "R2M",
+      "eventsPlayed": 0,
+      "eventWins": 0,
+      "careerWins": 0,
+      "eventWinsLabel": "HPT Wins"
+    },
+    {
+      "tourId": 10,
+      "currentPoints": 0.0,
+      "currentRank": 0,
+      "currentRankLabel": "OOM",
+      "eventsPlayed": 0,
+      "eventWins": 0,
+      "careerWins": 0,
+      "eventWinsLabel": "GD Wins"
+    }
+  ]
+}

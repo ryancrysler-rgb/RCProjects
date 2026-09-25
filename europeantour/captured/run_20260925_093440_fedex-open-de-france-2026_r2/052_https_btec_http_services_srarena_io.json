@@ -1,0 +1,55 @@
+{
+  "data": {
+    "getGolfTournamentStatus": {
+      "tournamentStatus": "InProgress",
+      "currentRound": 2,
+      "scheduledRounds": [
+        1,
+        2
+      ],
+      "hasPlayoff": false,
+      "l1Event": true,
+      "teeTimesAvailable": true,
+      "rounds": [
+        {
+          "isPlayoff": false,
+          "roundNo": 1
+        },
+        {
+          "isPlayoff": false,
+          "roundNo": 2
+        },
+        {
+          "isPlayoff": false,
+          "roundNo": 3
+        },
+        {
+          "isPlayoff": false,
+          "roundNo": 4
+        }
+      ],
+      "lpgaStreaming": false,
+      "activeRounds": [
+        2
+      ],
+      "roundStatuses": [
+        {
+          "number": 1,
+          "status": "Official"
+        },
+        {
+          "number": 2,
+          "status": "InProgress"
+        },
+        {
+          "number": 3,
+          "status": "NotStarted"
+        },
+        {
+          "number": 4,
+          "status": "NotStarted"
+        }
+      ]
+    }
+  }
+}

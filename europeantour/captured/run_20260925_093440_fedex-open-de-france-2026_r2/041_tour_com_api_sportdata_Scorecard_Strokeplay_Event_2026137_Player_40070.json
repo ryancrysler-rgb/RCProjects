@@ -1,0 +1,290 @@
+{
+  "EventId": 2026137,
+  "PlayerId": 40070,
+  "LastUpdated": "2026-09-25T12:20:01+00:00",
+  "TotalPenalty": 0,
+  "TotalTimeExtensionsRemaining": 2,
+  "PlayingRound": 2,
+  "PlayingHole": 9,
+  "Rounds": [
+    {
+      "RoundNo": 1,
+      "CourseNo": 1,
+      "StrokesIn": 37,
+      "StrokesOut": 35,
+      "Strokes": 72,
+      "ScoreToPar": 1,
+      "Holes": [
+        {
+          "HoleNo": 1,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 2,
+          "Strokes": 3,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 3,
+          "Strokes": 4,
+          "ScoreClass": "bi",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 4,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 5,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 6,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 7,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 8,
+          "Strokes": 3,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 9,
+          "Strokes": 5,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 10,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 11,
+          "Strokes": 3,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 12,
+          "Strokes": 5,
+          "ScoreClass": "bo",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 13,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 14,
+          "Strokes": 4,
+          "ScoreClass": "bi",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 15,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 16,
+          "Strokes": 3,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 17,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 18,
+          "Strokes": 6,
+          "ScoreClass": "db",
+          "IsAmScore": false,
+          "Penalty": 0
+        }
+      ]
+    },
+    {
+      "RoundNo": 2,
+      "CourseNo": 1,
+      "StrokesIn": 39,
+      "StrokesOut": 33,
+      "Strokes": 72,
+      "ScoreToPar": 1,
+      "Holes": [
+        {
+          "HoleNo": 1,
+          "Strokes": 3,
+          "ScoreClass": "bi",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 2,
+          "Strokes": 3,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 3,
+          "Strokes": 4,
+          "ScoreClass": "bi",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 4,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 5,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 6,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 7,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 8,
+          "Strokes": 3,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 9,
+          "Strokes": 4,
+          "ScoreClass": "bi",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 10,
+          "Strokes": 5,
+          "ScoreClass": "bo",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 11,
+          "Strokes": 3,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 12,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 13,
+          "Strokes": 3,
+          "ScoreClass": "bi",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 14,
+          "Strokes": 5,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 15,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 16,
+          "Strokes": 5,
+          "ScoreClass": "db",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 17,
+          "Strokes": 4,
+          "ScoreClass": "pa",
+          "IsAmScore": false,
+          "Penalty": 0
+        },
+        {
+          "HoleNo": 18,
+          "Strokes": 6,
+          "ScoreClass": "db",
+          "IsAmScore": false,
+          "Penalty": 0
+        }
+      ]
+    }
+  ],
+  "id": "scorecard-strokeplay-2026137-40070",
+  "type": "scorecard-strokeplay-{eventId}-{playerId}",
+  "_rid": "eCoYAPoJ3Eb9WzwAAAAAAA==",
+  "_self": "dbs/eCoYAA==/colls/eCoYAPoJ3EY=/docs/eCoYAPoJ3Eb9WzwAAAAAAA==/",
+  "_etag": "\"tZ3xLYMlHrmdCgxiOxfbQa-reCWJFw4V7S0CeUXdyca_N6iCZtp9qiWxw7CjmQdw7mJ1rvVBBayjS4hK8gx1XA\"",
+  "_attachments": "attachments/",
+  "_ts": 1790338822
+}
