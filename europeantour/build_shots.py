@@ -40,9 +40,11 @@ SURFACES = {
     "OST": "Fairway Bunker",       # 3/3 "fairway bunker" -- overrides an
                                    # earlier by-eye reading of "rough"
     "OWA": "Water",                # followed at once by a penalty drop
+    "OGS": "Greenside Bunker",     # 4 say "greenside bunker"; the next shot
+                                   # is a bunker shot in 5/5
 }
-# Still unmapped, on one ambiguous sighting each: OGS (read "native area",
-# which ONA already covers), ODO, OBU. They stay raw in the lieCode columns.
+# Still unmapped, on one ambiguous sighting each: ODO, OBU. They stay raw in
+# the lieCode columns.
 
 
 def surface(code: str | None) -> str:
@@ -225,6 +227,24 @@ def merge_corrections(rows: list[dict]) -> list[dict]:
             merged.append(group[0])
             continue
         group.sort(key=lambda r: r.get("seqNum") or 0)
+
+        # A provisional ball: two balls off the same stroke, one abandoned.
+        # The feed marks the one carried on with isProvisionalSelected; the
+        # other was never played and is not a stroke.
+        balls = [r for r in group if r.get("isProvisional")]
+        if len(balls) > 1:
+            chosen = [r for r in balls if r.get("isProvisionalSelected")] or \
+                     sorted(balls, key=lambda r: r.get("provisionalIndex") or 0)[:1]
+            dropped = [r for r in balls if r not in chosen]
+            group = [r for r in group if r not in dropped]
+            for ball in dropped:
+                where = ball.get("lieAfterShot") or ball.get("lieAfterShotCode") or "?"
+                chosen[0]["note"] = (f"provisional ball also hit ({ball.get('shotDistance_yds')} yds, "
+                                     f"{where}); original found and played")
+            if len(group) == 1:
+                merged.append(group[0])
+                continue
+
         played = dict(group[0])
         for later in group[1:]:
             if later.get("isBallDrop") and later.get("eventType") != "Penalty":
@@ -237,6 +257,41 @@ def merge_corrections(rows: list[dict]) -> list[dict]:
                 merged.append(later)      # not a correction -- keep as its own row
         merged.append(played)
     return merged
+
+
+def fill_stroke_gaps(rows: list[dict], events: dict[tuple, dict]) -> list[dict]:
+    """Add a row for every stroke the feed counted but never positioned.
+
+    Strokes are numbered, and the holed ball carries the hole's final number,
+    but a penalty -- an unplayable lie, say -- can take a number without ever
+    producing a ball position. Without a row for it the hole reads a stroke
+    short. The event feed sometimes has an entry for the missing stroke, and
+    that is used where it exists.
+    """
+    holes: dict[tuple, list[dict]] = {}
+    for row in rows:
+        if row.get("source") == "commentary":
+            continue
+        holes.setdefault((row.get("event"), row.get("round"), row.get("teamId"), row.get("hole")), []).append(row)
+
+    added = []
+    for (event, round_no, team, hole), in_hole in holes.items():
+        numbers = {r.get("shot") for r in in_hole}
+        last = max(n for n in numbers if isinstance(n, int))
+        template = in_hole[0]
+        for missing in range(1, last):
+            if missing in numbers:
+                continue
+            info = events.get(((event, round_no), team, hole, missing), {})
+            added.append({
+                "event": event, "round": round_no,
+                "player": template.get("player"), "playerId": template.get("playerId"),
+                "teamId": team, "hole": hole, "shot": missing,
+                "eventType": info.get("eventType"), "timestamp": info.get("timestamp"),
+                "source": "feed",
+                "note": "stroke counted by the feed with no ball position (e.g. a penalty)",
+            })
+    return rows + added
 
 
 def event_key(shot_no, shot_distance, distance_to_pin) -> tuple:
@@ -312,6 +367,8 @@ def main() -> int:
             "holeScore": event.get("holeScore"),
             "timestamp": event.get("timestamp"),
             "isProvisional": record.get("isProvisional"),
+            "provisionalIndex": record.get("provisionalIndex"),
+            "isProvisionalSelected": record.get("isProvisionalSelected"),
             "isBallDrop": record.get("isBallDrop"),
             "x": record.get("x"),
             "z": record.get("z"),
@@ -338,6 +395,7 @@ def main() -> int:
     rows += manual
 
     rows = merge_corrections(rows)
+    rows = fill_stroke_gaps(rows, by_hole_shot)
     rows.sort(key=lambda r: (r["event"], r["round"], r["hole"] or 0, r["shot"] or 0))
     out = HERE / "SHOT_BY_SHOT.csv"
     find_shots.write_csv(rows, out)
