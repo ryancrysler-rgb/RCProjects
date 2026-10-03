@@ -149,6 +149,29 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
 YARDS_TO_METRES = 1 / METRES_TO_YARDS
 
 
+def load_course_names(captured: Path) -> dict:
+    """courseId -> course name, from the getGolfTournament responses captured.
+
+    Matters at multi-course events like the Dunhill Links, where a player's
+    rounds are on St Andrews, Carnoustie and Kingsbarns in turn.
+    """
+    names: dict = {}
+    for path in sorted(captured.glob("run_*/*.json")):
+        if path.name.startswith("_"):
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if not isinstance(payload, dict):
+            continue
+        tournament = (payload.get("data") or {}).get("getGolfTournament") or {}
+        for course in tournament.get("golfCourses") or []:
+            if course.get("id") is not None and course.get("name"):
+                names[course["id"]] = course["name"]
+    return names
+
+
 def load_commentary(captured: Path) -> dict[tuple, str]:
     """The site's AI commentary line for each shot, keyed by event/round/hole/shot.
 
@@ -207,6 +230,16 @@ def load_manual(path: Path) -> list[dict]:
     return rows
 
 
+def who(row: dict):
+    """The golfer a row belongs to.
+
+    Keyed on the individual rather than the team: at a pro-am such as the
+    Dunhill Links a team is a pro and an amateur partner, and keying on it
+    would let the partner's shots and hole scores land on the pro's card.
+    """
+    return row.get("playerId") or row.get("teamId")
+
+
 def merge_corrections(rows: list[dict]) -> list[dict]:
     """Fold a relocated ball into the shot it belongs to.
 
@@ -218,7 +251,7 @@ def merge_corrections(rows: list[dict]) -> list[dict]:
     """
     groups: dict[tuple, list[dict]] = {}
     for row in rows:
-        key = (row.get("event"), row.get("round"), row.get("teamId"), row.get("hole"), row.get("shot"))
+        key = (row.get("event"), row.get("round"), who(row), row.get("hole"), row.get("shot"))
         groups.setdefault(key, []).append(row)
 
     merged = []
@@ -272,21 +305,22 @@ def fill_stroke_gaps(rows: list[dict], events: dict[tuple, dict]) -> list[dict]:
     for row in rows:
         if row.get("source") == "commentary":
             continue
-        holes.setdefault((row.get("event"), row.get("round"), row.get("teamId"), row.get("hole")), []).append(row)
+        holes.setdefault((row.get("event"), row.get("round"), who(row), row.get("hole")), []).append(row)
 
     added = []
-    for (event, round_no, team, hole), in_hole in holes.items():
+    for (event, round_no, golfer, hole), in_hole in holes.items():
         numbers = {r.get("shot") for r in in_hole}
         last = max(n for n in numbers if isinstance(n, int))
         template = in_hole[0]
         for missing in range(1, last):
             if missing in numbers:
                 continue
-            info = events.get(((event, round_no), team, hole, missing), {})
+            info = events.get(((event, round_no), golfer, hole, missing), {})
             added.append({
                 "event": event, "round": round_no,
                 "player": template.get("player"), "playerId": template.get("playerId"),
-                "teamId": team, "hole": hole, "shot": missing,
+                "teamId": template.get("teamId"), "course": template.get("course"),
+                "hole": hole, "shot": missing,
                 "eventType": info.get("eventType"), "timestamp": info.get("timestamp"),
                 "source": "feed",
                 "note": "stroke counted by the feed with no ball position (e.g. a penalty)",
@@ -332,9 +366,10 @@ def main() -> int:
             unplaced += 1
             continue
         for event in frame:
-            by_hole_shot.setdefault((key, event.get("teamId"), hole, event.get("shotNo")), {}).update(event)
+            by_hole_shot.setdefault((key, event.get("playerId") or event.get("teamId"), hole, event.get("shotNo")), {}).update(event)
 
     commentary = load_commentary(HERE / "captured")
+    course_names = load_course_names(HERE / "captured")
     rows, seen = [], set()
     for record in positions:
         stroke = record.get("strokeNo")
@@ -343,7 +378,8 @@ def main() -> int:
             continue
         player = record.get("player") or {}
         event = by_hole_shot.get(
-            ((record["_event"], record["_round"]), record.get("teamId"), record.get("holeNo"), stroke), {}
+            ((record["_event"], record["_round"]), (record.get("player") or {}).get("id") or record.get("teamId"),
+             record.get("holeNo"), stroke), {}
         )
 
         row = {
@@ -352,6 +388,7 @@ def main() -> int:
             "player": player.get("displayName"),
             "playerId": player.get("id"),
             "teamId": record.get("teamId"),
+            "course": course_names.get(record.get("courseId"), record.get("courseId")),
             "hole": record.get("holeNo"),
             "shot": stroke,
             "shotDistance_yds": yards(record.get("shotDistance")),
@@ -393,6 +430,18 @@ def main() -> int:
     for row in rows:
         row.setdefault("source", "feed")
     rows += manual
+
+    # Hand-typed rows carry no course; take it from the round's captured shots
+    # when the round was played on just one.
+    courses: dict[tuple, set] = {}
+    for row in rows:
+        if row.get("course") not in (None, ""):
+            courses.setdefault((row.get("event"), row.get("round")), set()).add(row["course"])
+    for row in rows:
+        if row.get("course") in (None, ""):
+            known = courses.get((row.get("event"), row.get("round")), set())
+            if len(known) == 1:
+                row["course"] = next(iter(known))
 
     rows = merge_corrections(rows)
     rows = fill_stroke_gaps(rows, by_hole_shot)
