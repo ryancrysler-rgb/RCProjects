@@ -1,0 +1,69 @@
+{
+  "id": "1486394285",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfTournamentTeamsShotFeed": [
+        {
+          "id": 1791022955186,
+          "timestamp": "2026-10-03T10:22:35.000Z",
+          "shotNo": 4,
+          "holeScore": "Par",
+          "eventType": "BallHoled",
+          "teamId": 82,
+          "playerId": 3968,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1791022815183,
+          "timestamp": "2026-10-03T10:20:15.000Z",
+          "shotNo": 3,
+          "eventType": "DetailedLie",
+          "teamId": 82,
+          "playerId": 3968,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OFW",
+          "shotDistance": 14.2251168390366,
+          "distanceToPin": 0.886705541510223,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1791022519179,
+          "timestamp": "2026-10-03T10:15:19.000Z",
+          "shotNo": 2,
+          "eventType": "DetailedLie",
+          "teamId": 82,
+          "playerId": 3968,
+          "isProvisional": false,
+          "surfaceTypeCode": "OFW",
+          "prevSurfaceTypeCode": null,
+          "shotDistance": 111.786408897833,
+          "distanceToPin": 13.3435826509982,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1791022175175,
+          "timestamp": "2026-10-03T10:09:35.000Z",
+          "shotNo": 1,
+          "eventType": "DetailedLie",
+          "teamId": 82,
+          "playerId": 3968,
+          "isProvisional": false,
+          "surfaceTypeCode": "OFW",
+          "prevSurfaceTypeCode": null,
+          "shotDistance": 257.582135992189,
+          "distanceToPin": 125.104585329573,
+          "provisionalIndex": 0
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1437",
+    "operationName": "GOLF_TOURNAMENT_TEAMS_SHOT_FEED_____MEDIA",
+    "subscriptionHash": "1486394285"
+  },
+  "_operation": "ShotFeedSubscribeToGolfTournamentTeamsShotFeed"
+}

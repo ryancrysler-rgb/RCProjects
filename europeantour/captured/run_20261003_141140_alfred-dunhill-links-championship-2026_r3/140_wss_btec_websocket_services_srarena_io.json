@@ -1,0 +1,55 @@
+{
+  "id": "125533627",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfTournamentTeamsShotFeed": [
+        {
+          "id": 1791027819270,
+          "timestamp": "2026-10-03T11:43:39.000Z",
+          "shotNo": 3,
+          "holeScore": "Par",
+          "eventType": "BallHoled",
+          "teamId": 82,
+          "playerId": 3968,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1791027813267,
+          "timestamp": "2026-10-03T11:43:33.000Z",
+          "shotNo": 2,
+          "eventType": "DetailedLie",
+          "teamId": 82,
+          "playerId": 3968,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OGR",
+          "shotDistance": 1.9601370043318,
+          "distanceToPin": 0.180242846157557,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1791027393263,
+          "timestamp": "2026-10-03T11:36:33.000Z",
+          "shotNo": 1,
+          "eventType": "DetailedLie",
+          "teamId": 82,
+          "playerId": 3968,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OBU",
+          "shotDistance": 164.704234700311,
+          "distanceToPin": 1.79127719369338,
+          "provisionalIndex": 0
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1437",
+    "operationName": "GOLF_TOURNAMENT_TEAMS_SHOT_FEED_____MEDIA",
+    "subscriptionHash": "125533627"
+  },
+  "_operation": "ShotFeedSubscribeToGolfTournamentTeamsShotFeed"
+}

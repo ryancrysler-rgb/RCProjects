@@ -1,0 +1,105 @@
+{
+  "id": "3483150830",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfMedia3DShots": [
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 18,
+          "strokeNo": 0,
+          "teamId": 82,
+          "seqNum": 304,
+          "courseId": 77,
+          "x": 511856.05023138726,
+          "y": null,
+          "z": 6244278.557278023,
+          "surfaceTypeCode": "OTB",
+          "provisionalIndex": null,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 320.95,
+          "score": null,
+          "player": {
+            "country": "AUS",
+            "displayName": "Cam Smith",
+            "firstName": "Cam",
+            "gender": "male",
+            "id": 3968,
+            "isAmateur": false,
+            "lastName": "Smith"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 18,
+          "strokeNo": 1,
+          "teamId": 82,
+          "seqNum": 308,
+          "courseId": 77,
+          "x": 512165.8360166989,
+          "y": null,
+          "z": 6244289.582193079,
+          "surfaceTypeCode": "OGR",
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 15.0291194509886,
+          "shotDistance": 309.306686553247,
+          "score": null,
+          "player": {
+            "country": "AUS",
+            "displayName": "Cam Smith",
+            "firstName": "Cam",
+            "gender": "male",
+            "id": 3968,
+            "isAmateur": false,
+            "lastName": "Smith"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": true,
+          "holeNo": 18,
+          "strokeNo": 2,
+          "teamId": 82,
+          "seqNum": 311,
+          "courseId": 77,
+          "x": 512176.3156685405,
+          "y": null,
+          "z": 6244300.3784525,
+          "surfaceTypeCode": null,
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "shotDistance": 15.0291194509886,
+          "score": "EagleOrBetter",
+          "player": {
+            "country": "AUS",
+            "displayName": "Cam Smith",
+            "firstName": "Cam",
+            "gender": "male",
+            "id": 3968,
+            "isAmateur": false,
+            "lastName": "Smith"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1437",
+    "operationName": "GOLF_TOURNAMENT_TEAM_SHOT_BY_SHOT__ROUNDNO__TEAMID__HOLENO__HOLEORDER__MEDIA",
+    "subscriptionHash": "3483150830"
+  },
+  "_operation": "MapVisualisationSubscribeToMedia3DShots"
+}

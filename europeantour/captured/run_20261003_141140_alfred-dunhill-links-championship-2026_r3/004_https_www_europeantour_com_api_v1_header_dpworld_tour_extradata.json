@@ -1,0 +1,885 @@
+{
+  "ScheduleData": [
+    [
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/fedex-open-de-france-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": false,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026137,
+        "Status": 3,
+        "Name": "FedEx Open de France",
+        "StartDate": "2026-09-24T00:00:00.0000000",
+        "CountryCode": "FRA",
+        "CourseName": "Le Golf National",
+        "RoundNo": "4",
+        "Location": null,
+        "EndDate": "2026-09-27T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 4
+      },
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/alfred-dunhill-links-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": false,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026144,
+        "Status": 0,
+        "Name": "Alfred Dunhill Links Championship",
+        "StartDate": "2026-10-01T00:00:00.0000000",
+        "CountryCode": "SCO",
+        "CourseName": "Old Course",
+        "RoundNo": "4",
+        "Location": null,
+        "EndDate": "2026-10-04T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 1
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/open-de-espana-presented-by-madrid-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": false,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026139,
+        "Status": 6,
+        "Name": "Open de Espa\u00f1a presented by Madrid",
+        "StartDate": "2026-10-08T00:00:00.0000000",
+        "CountryCode": "ESP",
+        "CourseName": "Club de Campo Villa de Madrid",
+        "RoundNo": "1",
+        "Location": null,
+        "EndDate": "2026-10-11T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      }
+    ]
+  ],
+  "RolexSeriesData": {
+    "Schedule": [
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/hero-dubai-desert-classic-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026106,
+        "Status": 3,
+        "Name": "Hero Dubai Desert Classic",
+        "StartDate": "2026-01-22T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Emirates GC",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-01-25T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/genesis-scottish-open-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026126,
+        "Status": 3,
+        "Name": "Genesis Scottish Open",
+        "StartDate": "2026-07-09T00:00:00.0000000",
+        "CountryCode": "SCO",
+        "CourseName": "The Renaissance Club",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-07-12T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/bmw-pga-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026136,
+        "Status": 3,
+        "Name": "BMW PGA CHAMPIONSHIP",
+        "StartDate": "2026-09-17T00:00:00.0000000",
+        "CountryCode": "ENG",
+        "CourseName": "Wentworth Club",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-09-20T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/abu-dhabi-aldar-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026142,
+        "Status": 4,
+        "Name": "Abu Dhabi Aldar Championship",
+        "StartDate": "2026-11-05T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Yas Links",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-11-08T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/dp-world-tour-championship-dubai-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026143,
+        "Status": 4,
+        "Name": "DP WORLD TOUR CHAMPIONSHIP, DUBAI",
+        "StartDate": "2026-11-12T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Earth course",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-11-15T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      }
+    ],
+    "SelectedEvent": 2
+  },
+  "RankingPlayers": [
+    [
+      {
+        "PlayerId": 38439,
+        "FirstName": "Patrick",
+        "LastName": "REED",
+        "CountryCode": "USA",
+        "EventsPlayed": 18,
+        "CountingEvents": 0,
+        "CurrentPoints": 3423.62,
+        "CurrentRank": 1,
+        "CurrentRankDesc": "1",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 2,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1770280028/prod/cdsmaznfe3lqje9vdihd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/patrick-reed-38439/"
+      },
+      {
+        "PlayerId": 34024,
+        "FirstName": "Rory",
+        "LastName": "MCILROY",
+        "CountryCode": "NIR",
+        "EventsPlayed": 10,
+        "CountingEvents": 0,
+        "CurrentPoints": 3115.86,
+        "CurrentRank": 2,
+        "CurrentRankDesc": "2",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 1,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1561217808/PROD/fg1cotbp6zfhnzmfactd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/rory-mcilroy-34024/"
+      },
+      {
+        "PlayerId": 43332,
+        "FirstName": "Eugenio",
+        "LastName": "CHACARRA",
+        "CountryCode": "ESP",
+        "EventsPlayed": 26,
+        "CountingEvents": 0,
+        "CurrentPoints": 2824.39,
+        "CurrentRank": 3,
+        "CurrentRankDesc": "3",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 2,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769159085/prod/o5lyzjr4fmwvnzx2yj29",
+        "SelfUrl": null,
+        "PlayerLink": "/players/eugenio-chacarra-43332/"
+      },
+      {
+        "PlayerId": 39583,
+        "FirstName": "Aaron",
+        "LastName": "RAI",
+        "CountryCode": "ENG",
+        "EventsPlayed": 6,
+        "CountingEvents": 0,
+        "CurrentPoints": 2408.5,
+        "CurrentRank": 4,
+        "CurrentRankDesc": "4",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 1,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 0,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769088884/prod/xoy0qltrhfo7u8aoofcd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/aaron-rai-39583/"
+      },
+      {
+        "PlayerId": 35122,
+        "FirstName": "Ryan",
+        "LastName": "FOX",
+        "CountryCode": "NZL",
+        "EventsPlayed": 10,
+        "CountingEvents": 0,
+        "CurrentPoints": 2266.95,
+        "CurrentRank": 5,
+        "CurrentRankDesc": "5",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 1,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1561241169/PROD/eoy4apvuyralh1cg5bqz",
+        "SelfUrl": null,
+        "PlayerLink": "/players/ryan-fox-35122/"
+      },
+      {
+        "PlayerId": 43957,
+        "FirstName": "Casey",
+        "LastName": "JARVIS",
+        "CountryCode": "RSA",
+        "EventsPlayed": 23,
+        "CountingEvents": 0,
+        "CurrentPoints": 2220.51,
+        "CurrentRank": 6,
+        "CurrentRankDesc": "6",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1758614659/prod/yajhjihmla3mcwyojdno",
+        "SelfUrl": null,
+        "PlayerLink": "/players/casey-jarvis-43957/"
+      },
+      {
+        "PlayerId": 43682,
+        "FirstName": "Jayden",
+        "LastName": "SCHAPER",
+        "CountryCode": "RSA",
+        "EventsPlayed": 22,
+        "CountingEvents": 0,
+        "CurrentPoints": 2153.29,
+        "CurrentRank": 7,
+        "CurrentRankDesc": "7",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1740056148/prod/qrkkx8ldyaicrrapgdik",
+        "SelfUrl": null,
+        "PlayerLink": "/players/jayden-schaper-43682/"
+      },
+      {
+        "PlayerId": 38119,
+        "FirstName": "Andy",
+        "LastName": "SULLIVAN",
+        "CountryCode": "ENG",
+        "EventsPlayed": 24,
+        "CountingEvents": 0,
+        "CurrentPoints": 1848.27,
+        "CurrentRank": 8,
+        "CurrentRankDesc": "8",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 0,
+        "PlacedSecond": 1,
+        "PlacedThird": 2,
+        "PlacedFourToTen": 3,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769085684/prod/xfqqiara6lrl8m25vbit",
+        "SelfUrl": null,
+        "PlayerLink": "/players/andy-sullivan-38119/"
+      },
+      {
+        "PlayerId": 39474,
+        "FirstName": "Matt",
+        "LastName": "FITZPATRICK",
+        "CountryCode": "ENG",
+        "EventsPlayed": 7,
+        "CountingEvents": 0,
+        "CurrentPoints": 1821.45,
+        "CurrentRank": 9,
+        "CurrentRankDesc": "9",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 30,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 1,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1710167776/PROD/muhkg86ouieaudjommp4",
+        "SelfUrl": null,
+        "PlayerLink": "/players/matt-fitzpatrick-39474/"
+      },
+      {
+        "PlayerId": 105456,
+        "FirstName": "Jacob Skov",
+        "LastName": "OLESEN",
+        "CountryCode": "DEN",
+        "EventsPlayed": 25,
+        "CountingEvents": 0,
+        "CurrentPoints": 1624.59,
+        "CurrentRank": 10,
+        "CurrentRankDesc": "10",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": -1,
+        "EventWins": 0,
+        "PlacedSecond": 2,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 5,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1734726842/prod/djhvlr8mhigfidtaxgod",
+        "SelfUrl": null,
+        "PlayerLink": "/players/jacob-skov-olesen-105456/"
+      }
+    ]
+  ],
+  "TourNews": [
+    {
+      "Type": "story",
+      "_translationId": "6dcb7e97-25b4-4830-8720-734c2fb062c5",
+      "_entityId": "9ca17042-fe05-4ed1-9846-99429bed60ea",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/alfred-dunhill-links-championship-day-three-digest-x2094/",
+      "Slug": "alfred-dunhill-links-championship-day-three-digest-x2094",
+      "Title": "Alfred Dunhill Links Championship: Day Three Digest",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "bb278a2a-2d30-4993-b6fe-b91d80350c98",
+          "_entityId": "98be5b50-5d39-415f-aefa-8372c7d58f0c",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-alfred-dunhill-links-championship-2026144",
+          "Title": "Alfred Dunhill Links Championship",
+          "Slug": "2026-alfred-dunhill-links-championship-2026144",
+          "NeutralSlug": "2026-alfred-dunhill-links-championship-2026144",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026144",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026144",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-10-01T00:00:00Z",
+            "endDate": "2026-10-04T00:00:00Z",
+            "location": "[{\"CourseId\":\"4763\",\"Name\":\"Old Course St. Andrews\",\"CountryCode\":\"SCO\",\"Location\":\"St. Andrews, St Andrews, Scotland\"},{\"CourseId\":\"4764\",\"Name\":\"Carnoustie\",\"CountryCode\":\"SCO\",\"Location\":\"Carnoustie, Angus, Scotland\"},{\"CourseId\":\"4765\",\"Name\":\"Kingsbarns Golf Links\",\"CountryCode\":\"SCO\",\"Location\":\"Kingsbarns Golf Links, Kingsbarns, Scotland\"}]"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour"
+      },
+      "CreatedBy": "Camilla Tait",
+      "LastUpdatedBy": "Camilla Tait",
+      "LastUpdatedDate": "2026-10-03T17:00:29.208Z",
+      "ContentDate": "2026-10-03T17:00:29.208Z",
+      "Context": null,
+      "Featured": 0,
+      "Headline": "Jarvis holds 'dream' lead, Jordan seeking full circle moment and an incredible amount of great golf shots. \n\nHere's what happened on day three of the Alfred Dunhill Links Championship",
+      "Summary": "Jarvis holds 'dream' lead, Jordan seeking full circle moment and an incredible amount of great golf shots.\nHere's what happened on day three of the Alfred Dunhill Links Championship.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2298376125",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2298376125",
+        "Title": "GettyImages-2298376125",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/prod/dkxdmh4pennowj8dxh4a",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/prod/dkxdmh4pennowj8dxh4a",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "0c09cb42-de3a-453b-8971-bc608a74ce68",
+      "_entityId": "bbec1e3a-a176-4ee5-88a1-cf175f0372a5",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/casey-jarvis-takes-dream-lead-into-final-round-of-alfred-dunhill-links-championship/",
+      "Slug": "casey-jarvis-takes-dream-lead-into-final-round-of-alfred-dunhill-links-championship",
+      "Title": "Casey Jarvis takes 'dream' lead into final round of Alfred Dunhill Links Championship",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "bb278a2a-2d30-4993-b6fe-b91d80350c98",
+          "_entityId": "98be5b50-5d39-415f-aefa-8372c7d58f0c",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-alfred-dunhill-links-championship-2026144",
+          "Title": "Alfred Dunhill Links Championship",
+          "Slug": "2026-alfred-dunhill-links-championship-2026144",
+          "NeutralSlug": "2026-alfred-dunhill-links-championship-2026144",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026144",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026144",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-10-01T00:00:00Z",
+            "endDate": "2026-10-04T00:00:00Z",
+            "location": "[{\"CourseId\":\"4763\",\"Name\":\"Old Course St. Andrews\",\"CountryCode\":\"SCO\",\"Location\":\"St. Andrews, St Andrews, Scotland\"},{\"CourseId\":\"4764\",\"Name\":\"Carnoustie\",\"CountryCode\":\"SCO\",\"Location\":\"Carnoustie, Angus, Scotland\"},{\"CourseId\":\"4765\",\"Name\":\"Kingsbarns Golf Links\",\"CountryCode\":\"SCO\",\"Location\":\"Kingsbarns Golf Links, Kingsbarns, Scotland\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "fcd434c3-4b9d-4717-9434-f42fdfe34de4",
+          "_entityId": "c8a4ad76-11f4-4c94-86df-8066a1457132",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/notification-et-content",
+          "Title": "Content",
+          "Slug": "notification-et-content",
+          "NeutralSlug": "notification-et-content",
+          "ExternalSourceName": "notification",
+          "ExternalSourceReference": {
+            "SourceId": "notification-et-content",
+            "SourceName": "notification"
+          },
+          "ExtraData": {
+            "UrbanTag": "et-content"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour"
+      },
+      "CreatedBy": "Camilla Tait",
+      "LastUpdatedBy": "Camilla Tait",
+      "LastUpdatedDate": "2026-10-03T17:14:52.156Z",
+      "ContentDate": "2026-10-03T16:07:01.233Z",
+      "Context": null,
+      "Featured": 0,
+      "Headline": "Casey Jarvis said he realising every golfer's dream of taking a two-shot lead at St Andrews into the final round of the Alfred Dunhill Links Championship as he goes in search of his third win of the season on the DP World Tour. ",
+      "Summary": "Casey Jarvis said he is realising every golfer's dream by taking a two-shot lead at St Andrews into the final round of the Alfred Dunhill Links Championship as he goes in search of his third win of the season on the DP World Tour.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "casey-jarvis-dunhill-r3-2298374216",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/casey-jarvis-dunhill-r3-2298374216",
+        "Title": "Casey Jarvis Dunhill R3-2298374216",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1791042816/prod/tewpqxtn9zdok9nb4vfi",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1791042816/prod/tewpqxtn9zdok9nb4vfi",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "e0512908-c447-4c40-a69e-7075815cba03",
+      "_entityId": "e3020356-22ad-4802-892f-235af740978d",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/matthew-jordan-targeting-full-circle-moment-at-st-andrews-at-alfred-dunhill-links-championship/",
+      "Slug": "matthew-jordan-targeting-full-circle-moment-at-st-andrews-at-alfred-dunhill-links-championship",
+      "Title": "Matthew Jordan targeting full circle moment at St Andrews at Alfred Dunhill Links Championship",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "6caa81ed-d5b0-43cb-9dc9-33de720fa65b",
+          "_entityId": "ff92c682-cca6-4885-a470-6d1a3d4f33d9",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/matthew-jordan-42599",
+          "Title": "Matthew JORDAN 42599",
+          "Slug": "matthew-jordan-42599",
+          "NeutralSlug": "matthew-jordan-42599",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "42599",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "ENG",
+            "playerId": "42599",
+            "firstName": "Matthew",
+            "lastName": "JORDAN",
+            "dateOfBirth": "1996-01-18",
+            "placeOfBirth": "",
+            "attachment": "Royal Liverpool GC",
+            "height": "",
+            "qualifyingSchool": ""
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour"
+      },
+      "CreatedBy": "Camilla Tait",
+      "LastUpdatedBy": "Camilla Tait",
+      "LastUpdatedDate": "2026-10-03T15:41:31.679Z",
+      "ContentDate": "2026-10-03T15:38:46.445Z",
+      "Context": null,
+      "Featured": 0,
+      "Headline": "Matthew Jordan is hoping for a full circle moment as he looks to realise his dream of a first DP World Tour title at the site of his 2008 Links Trophy victory as an amateur.",
+      "Summary": "Matthew Jordan is hoping for a full circle moment at the 2026 Alfred Dunhill Links Championship as he looks to realise his dream of a first DP World Tour title at the site of his 2017 St Andrews Links Trophy victory as an amateur.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2298370842",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2298370842",
+        "Title": "GettyImages-2298370842",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/prod/pyty3gynbzpfek8sdxgr",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/prod/pyty3gynbzpfek8sdxgr",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "94dd79bc-b3cd-423b-95d4-690666132b79",
+      "_entityId": "3018897d-4b5b-4c50-8c2e-a2e20f01e762",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/alfred-dunhill-links-championship-day-two-digest-x8238/",
+      "Slug": "alfred-dunhill-links-championship-day-two-digest-x8238",
+      "Title": "Alfred Dunhill Links Championship: Day Two Digest",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "bb278a2a-2d30-4993-b6fe-b91d80350c98",
+          "_entityId": "98be5b50-5d39-415f-aefa-8372c7d58f0c",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-alfred-dunhill-links-championship-2026144",
+          "Title": "Alfred Dunhill Links Championship",
+          "Slug": "2026-alfred-dunhill-links-championship-2026144",
+          "NeutralSlug": "2026-alfred-dunhill-links-championship-2026144",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026144",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026144",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-10-01T00:00:00Z",
+            "endDate": "2026-10-04T00:00:00Z",
+            "location": "[{\"CourseId\":\"4763\",\"Name\":\"Old Course St. Andrews\",\"CountryCode\":\"SCO\",\"Location\":\"St. Andrews, St Andrews, Scotland\"},{\"CourseId\":\"4764\",\"Name\":\"Carnoustie\",\"CountryCode\":\"SCO\",\"Location\":\"Carnoustie, Angus, Scotland\"},{\"CourseId\":\"4765\",\"Name\":\"Kingsbarns Golf Links\",\"CountryCode\":\"SCO\",\"Location\":\"Kingsbarns Golf Links, Kingsbarns, Scotland\"}]"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour"
+      },
+      "CreatedBy": "Camilla Tait",
+      "LastUpdatedBy": "Camilla Tait",
+      "LastUpdatedDate": "2026-10-02T17:12:14.503Z",
+      "ContentDate": "2026-10-02T17:11:31.193Z",
+      "Context": null,
+      "Featured": 0,
+      "Headline": "Jarvis leads the way, Jordan gets the best of Carnoustie, Sharma holes out on 18 and Sue Fitzpatrick gets the best of both her boys. \n\nHere's what happened on day two of the Alfred Dunhill Links Championship.",
+      "Summary": "Jarvis leads the way, Jordan gets the best of Carnoustie, Sharma holes out on 18 and Sue Fitzpatrick has plenty of highlights.\nHere's what happened on day two of the Alfred Dunhill Links Championship.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2298221837",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2298221837",
+        "Title": "GettyImages-2298221837",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/prod/autpvtovrafmlrobonum",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/prod/autpvtovrafmlrobonum",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "62d553d8-adab-436a-9b57-bae39d6e02d0",
+      "_entityId": "28414ef9-bf44-40fd-97b9-c1094ffa35e7",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/casey-jarvis-leads-after-36-holes-at-the-alfred-dunhill-links-championship-seeking-third-win-of-the-season/",
+      "Slug": "casey-jarvis-leads-after-36-holes-at-the-alfred-dunhill-links-championship-seeking-third-win-of-the-season",
+      "Title": "Casey Jarvis leads after 36-holes at the Alfred Dunhill Links Championship; seeking third win of the season",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "148868f5-523a-4747-bbd3-08287293c044",
+          "_entityId": "b200f9ac-cf9a-4fae-91cf-c77e9f32cbdd",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/casey-jarvis-43957",
+          "Title": "Casey JARVIS 43957",
+          "Slug": "casey-jarvis-43957",
+          "NeutralSlug": "casey-jarvis-43957",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "43957",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "RSA",
+            "playerId": "43957",
+            "firstName": "Casey",
+            "lastName": "JARVIS",
+            "dateOfBirth": "2003-07-28",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "",
+            "qualifyingSchool": ""
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "fcd434c3-4b9d-4717-9434-f42fdfe34de4",
+          "_entityId": "c8a4ad76-11f4-4c94-86df-8066a1457132",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/notification-et-content",
+          "Title": "Content",
+          "Slug": "notification-et-content",
+          "NeutralSlug": "notification-et-content",
+          "ExternalSourceName": "notification",
+          "ExternalSourceReference": {
+            "SourceId": "notification-et-content",
+            "SourceName": "notification"
+          },
+          "ExtraData": {
+            "UrbanTag": "et-content"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour"
+      },
+      "CreatedBy": "Camilla Tait",
+      "LastUpdatedBy": "Camilla Tait",
+      "LastUpdatedDate": "2026-10-02T16:57:59.533Z",
+      "ContentDate": "2026-10-02T16:26:40.639Z",
+      "Context": null,
+      "Featured": 0,
+      "Headline": "Casey Jarvis birdied the final hole of his round to earn a one shot lead after the second round of the Alfred Dunhill Links Championship as he seeks his third victory of the season on the DP World Tour. ",
+      "Summary": "Casey Jarvis birdied the final hole of his round to earn a one-shot lead after the second round of the Alfred Dunhill Links Championship as he seeks his third victory of the season on the DP World Tour.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2298228894",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2298228894",
+        "Title": "GettyImages-2298228894",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/prod/rmdwzqmingtdbrhsjhss",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/prod/rmdwzqmingtdbrhsjhss",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    }
+  ],
+  "PlayerStats": [
+    [
+      {
+        "Stat": "DrivingAccuracyPct",
+        "PlayerId": 104063,
+        "FirstName": "Kazuma",
+        "LastName": "KOBORI",
+        "CountryCode": "NZL",
+        "PlayerValue": 72.3157894736842,
+        "SeasonAvg": 58.38525707751177,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1758614718/prod/lqusr5x9hqe9pmkcqkrd",
+        "PlayerLink": "/players/kazuma-kobori-104063/"
+      },
+      {
+        "Stat": "DrivingDistanceAvg",
+        "PlayerId": 42054,
+        "FirstName": "Marco",
+        "LastName": "PENGE",
+        "CountryCode": "ENG",
+        "PlayerValue": 329.6923076923077,
+        "SeasonAvg": 299.2932070475608,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1771233169/prod/prjc20kdu3z7v13a0v7t",
+        "PlayerLink": "/players/marco-penge-42054/"
+      },
+      {
+        "Stat": "GreenInRegulationPct",
+        "PlayerId": 100617,
+        "FirstName": "Keita",
+        "LastName": "NAKAJIMA",
+        "CountryCode": "JPN",
+        "PlayerValue": 76.04166666666667,
+        "SeasonAvg": 66.61744237362936,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1760712269/prod/raedqvosh1euzon7mtng",
+        "PlayerLink": "/players/keita-nakajima-100617/"
+      },
+      {
+        "Stat": "PuttsPerRound",
+        "PlayerId": 42144,
+        "FirstName": "Rasmus",
+        "LastName": "H\u00d8JGAARD",
+        "CountryCode": "DEN",
+        "PlayerValue": 27.833333333333332,
+        "SeasonAvg": 29.248905183827272,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1696585249/PROD/sfrgfvlzhidhuj8tu8sf",
+        "PlayerLink": "/players/rasmus-hojgaard-42144/"
+      },
+      {
+        "Stat": "ScramblesPct",
+        "PlayerId": 39474,
+        "FirstName": "Matt",
+        "LastName": "FITZPATRICK",
+        "CountryCode": "ENG",
+        "PlayerValue": 71.64179104477611,
+        "SeasonAvg": 56.800732190979815,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1710167776/PROD/muhkg86ouieaudjommp4",
+        "PlayerLink": "/players/matt-fitzpatrick-39474/"
+      },
+      {
+        "Stat": "StrokeAvg",
+        "PlayerId": 39617,
+        "FirstName": "Matt",
+        "LastName": "WALLACE",
+        "CountryCode": "ENG",
+        "PlayerValue": 68.947368,
+        "SeasonAvg": 70.789843,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1770451381/prod/x2lku6l08exr69o7pgse",
+        "PlayerLink": "/players/matt-wallace-39617/"
+      }
+    ]
+  ]
+}

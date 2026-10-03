@@ -1,0 +1,696 @@
+{
+  "id": "3988360743",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfCommentary": {
+        "roundNo": 3,
+        "holes": [
+          {
+            "holeNo": 1,
+            "holeOrder": 1,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T64) finds the fairway with a 239-yard drive, leaving 127 yards to the hole on first."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-1-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the fairway leaves him 23 feet from the hole on the first."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-1-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith missed a 23-foot putt for birdie, leaving two feet for par on the first hole."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-1-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a short putt from about two feet for par on the first."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-1-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 2,
+            "holeOrder": 2,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T66) finds the fairway with a 280-yard drive, leaving 158 yards to the hole on the second."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-2-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the fairway finds the green, leaving 37 feet for his birdie putt."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-2-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith missed a 37-foot putt for birdie, leaving a four-foot putt for par on the second hole."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-2-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith missed a four-foot putt for par, leaving about ten inches, losing 0.82 strokes *putting*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-2-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Smith holes the putt for bogey on the second."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-2-5",
+                "shotNo": 5
+              }
+            ]
+          },
+          {
+            "holeNo": 3,
+            "holeOrder": 3,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T82) finds the fairway bunker with a 294-yard drive, leaving 117 yards to the hole on the third."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-3-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the fairway bunker leaves him 77 yards to the hole, losing 0.55 strokes *approach*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-3-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith hits an approach from the fairway to four feet, gaining 0.56 strokes *approach* on the third hole."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-3-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a four-foot putt for par on the third."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-3-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 4,
+            "holeOrder": 4,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T88) finds the fairway with a 309-yard drive, leaving 168 yards to the hole on the fourth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-4-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the fairway finds the green, leaving 25 feet for birdie."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-4-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a 25-foot putt for birdie, gaining 0.94 strokes *putting* \u2014 best putting on the hole this week."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-4-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 5,
+            "holeOrder": 5,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T68) finds the fairway with a 298-yard drive, leaving 234 yards to the hole on the fifth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-5-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the fairway finds the green, leaving fifty feet for eagle."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-5-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith missed a 50-foot putt for eagle, leaving about two feet for birdie."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-5-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a two-foot putt for birdie on the fifth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-5-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 6,
+            "holeOrder": 6,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T59) finds the fairway with a 281-yard drive, leaving 136 yards to the hole on the sixth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-6-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the fairway finds the fairway, leaving 14 yards to the hole."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-6-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith chipped from the fairway to inside three feet for par on the sixth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-6-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a three-foot putt for par on the sixth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-6-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 7,
+            "holeOrder": 7,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T60) finds the fairway with a 307-yard drive, leaving 110 yards to the hole on the seventh."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-7-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the fairway finds the green, leaving a ten-foot putt for birdie."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-7-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith missed a ten-footer for birdie, leaving two inches for par on the seventh."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-7-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed the putt for par on the seventh."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-7-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 8,
+            "holeOrder": 8,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T59) misses the green with an approach shot, leaving 28 yards in the fairway, losing 0.51 strokes *approach*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-8-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith chips to five feet for par on the eighth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-8-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith missed a five-footer for par, leaving an eighteen-inch putt for bogey, losing 0.75 strokes *putting*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-8-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a short putt from 18 inches for bogey on the eighth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-8-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 9,
+            "holeOrder": 9,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T83) finds the native area with a 281-yard drive, leaving 79 yards to the hole on the ninth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-9-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the native area finds the greenside bunker, leaving 26 yards to the hole, losing 0.43 strokes *approach*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-9-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith plays a bunker shot from 25 yards to inside two feet, gaining 0.52 strokes *around the green*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-9-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a two-foot putt for par on the ninth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-9-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 10,
+            "holeOrder": 10,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T86) finds the fairway with a 268-yard drive, leaving 123 yards to the hole."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-10-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the fairway finds the green, leaving a ten-foot putt for birdie."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-10-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith missed a ten-footer for birdie, leaving about ten inches for par."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-10-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a short putt for par on the tenth."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-10-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 11,
+            "holeOrder": 11,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T85) leaves a six-foot putt for birdie on the 11th, gaining 0.67 strokes *approach*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-11-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith missed a six-footer for birdie, leaving seven inches, losing 0.63 strokes *putting*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-11-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a short putt to make par on the 11th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-11-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 12,
+            "holeOrder": 12,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T86) finds the intermediate rough with a 275-yard drive, leaving 76 yards to the hole on twelve."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-12-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the intermediate rough finds the green, leaving 38 feet for birdie."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-12-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith missed a 38-foot putt for birdie, leaving a four-foot putt for par on the 12th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-12-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a four-foot putt for par on the 12th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-12-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 13,
+            "holeOrder": 13,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T86) finds the intermediate rough with a 319-yard drive, leaving 118 yards to the hole."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-13-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the rough finds the native area, leaving 17 yards to the hole, losing 1.00 strokes *approach*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-13-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith chips to four feet for par, gaining 0.45 strokes *around the green*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-13-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a four-foot putt for par on the 13th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-13-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 14,
+            "holeOrder": 14,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T83) finds the intermediate rough with a 329-yard drive, leaving 230 yards to the hole."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-14-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the intermediate rough finds the fairway, leaving 26 yards to the hole on fourteen."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-14-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith chips from the fairway, leaving 16 feet to the hole, losing 0.97 strokes *around the green*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-14-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith chips from the fairway to eighteen feet, leaving an eighteen-foot putt for par, losing 0.66 strokes *around the green*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-14-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Smith missed an 18-foot putt for par, leaving about two feet for bogey on the 14th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-14-5",
+                "shotNo": 5
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a two-foot putt for bogey on the 14th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-14-6",
+                "shotNo": 6
+              }
+            ]
+          },
+          {
+            "holeNo": 15,
+            "holeOrder": 15,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T98) finds the fairway with a 307-yard drive, leaving 142 yards to the hole on 15th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-15-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach finds the green, leaving a 24-foot putt for birdie on the 15th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-15-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a 24-foot putt for birdie, gaining 0.91 strokes *putting* and posting the best putting on the hole this week."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-15-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 16,
+            "holeOrder": 16,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T89) finds the fairway with a 289-yard drive, leaving 156 yards to the hole on 16."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-16-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the fairway finds the green, leaving a thirty-foot putt for birdie."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-16-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith missed a 30-foot putt for birdie, leaving four feet for par on the 16th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-16-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a four-foot putt for par on the 16th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-16-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 17,
+            "holeOrder": 17,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Cam Smith (T88) finds the fairway with a 315-yard drive, leaving 180 yards to the hole on 17."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-17-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith's approach from the fairway finds the native area, leaving 14 feet to the hole, losing 0.82 strokes *approach*."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-17-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Smith chipped from the native area to the fairway, leaving 12 yards to the hole."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-17-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Smith chipped from the fairway to three feet, leaving a bogey putt on the 17th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-17-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a three-footer for bogey on the 17th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-17-5",
+                "shotNo": 5
+              }
+            ]
+          },
+          {
+            "holeNo": 18,
+            "holeOrder": 18,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Smith (T104) finds the green with a 338-yard drive, leaving 49 feet for eagle on the 18th."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-18-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Smith holed a 49-foot putt for eagle, gaining 1.17 strokes *putting* \u2014 best putt on the hole this week."
+                },
+                "playerId": 3968,
+                "shotId": "1437-82-3-18-2",
+                "shotNo": 2
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1437",
+    "operationName": "GOLF_COMMENTARY___",
+    "subscriptionHash": "3988360743"
+  },
+  "_operation": "ShotTrackerSubscribeToGolfCommentary"
+}

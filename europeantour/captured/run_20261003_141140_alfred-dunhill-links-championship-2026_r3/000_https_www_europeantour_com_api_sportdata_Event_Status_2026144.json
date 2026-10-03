@@ -1,0 +1,16 @@
+{
+  "EventId": 2026144,
+  "LastUpdated": "2026-10-03T17:26:43+00:00",
+  "Status": 0,
+  "RoundNo": 4,
+  "RoundStatus": 1,
+  "CurrentStage": "",
+  "PlayoffStatus": 0,
+  "id": "eventstatus-2026144",
+  "type": "eventstatus-{eventId}",
+  "_rid": "eCoYAPoJ3EYL-jMAAAAAAA==",
+  "_self": "dbs/eCoYAA==/colls/eCoYAPoJ3EY=/docs/eCoYAPoJ3EYL-jMAAAAAAA==/",
+  "_etag": "\"9GtmMNqQznDgIXzdTyYgkGrc_R2Jwd9bF2KgJx6MRwrjPYHGSE-3hmyMYhqH3AfW7mJ1rvVBBayjS4hK8gx1XA\"",
+  "_attachments": "attachments/",
+  "_ts": 1791048413
+}
