@@ -129,7 +129,7 @@ var RULES_KEY="ch3_rules_agreed_v1";
 /* Where "Send your golf data to RC Greenlight" goes (opens in a new tab). Empty = shown as a label with no link. */
 var GREENLIGHT_URL="";
 /* Parent-only members: in the Parents space, not in the Junior Basecamp or any academy */
-var PARENTS_ID="2904212",PARENTS_PATH="/c/junior-parents";
+var PARENTS_ID="2904212";
 function parentOnly(){var s=document.querySelector('[data-circle="app-sidebar"]');if(!s||!s.querySelector('a[data-id="'+PARENTS_ID+'"]'))return false;return !["2904211","2904213","2904214","2904215"].some(function(id){return s.querySelector('a[data-id="'+id+'"]');});}
 /* ...land in the Parents space instead of the Global Basecamp lock page (once per page load) */
 function parentLanding(){if(window.__ch3ParentSent||!parentOnly())return;var p=location.pathname;if(p!=="/"&&p!=="/feed"&&!onPath("/c/global"))return;var a=document.querySelector('[data-circle="app-sidebar"] a[data-id="'+PARENTS_ID+'"]');if(a){window.__ch3ParentSent=1;a.click();}}
