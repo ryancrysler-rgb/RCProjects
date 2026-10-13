@@ -1,10 +1,11 @@
-<!-- TeamCH3 · Circle head code snippet · v3 · Oct 12 2026
+<!-- TeamCH3 · Circle head code snippet · v3.1 · Oct 13 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
 basecamp header eyebrow + subline, FEATURED bar on pinned posts, event posts styled as cards, quote card, 18px body,
 a row under "Start a post": Send your golf data to RC Greenlight · Ask a coach,
-and parent-only members land in the Parents space with no basecamp pills.
+parent-only members land in the Parents space with no basecamp pills,
+and (v3.1) Global Basecamp open to every paid member, plus the Elite Basecamp pill and header.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +47,7 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 [data-circle="app-sidebar"] a[data-id="2904215"]>div::before{content:"P3"}
 [data-circle="app-sidebar"] a[data-id="2904208"]>div::before{content:"P4"}
 [data-circle="app-sidebar"] a[data-id="2904216"]>div::before{content:"PS"}
-[data-circle="app-sidebar"] a[data-id="2904217"]>div::before{content:"ER"}
+[data-circle="app-sidebar"] a[data-id="2904217"]>div::before{content:"EB"}
 /* 4. Page header as the navy basecamp card (eyebrow, code badge and subline injected by the script below) */
 [data-circle="page-header"]{--color-background-primary:#253746;--color-border-primary:#253746;--color-text-primary:#FFFFFF;--color-icon-primary:#FFFFFF;background:#253746 repeating-linear-gradient(115deg,rgba(224,78,57,0) 0 16px,rgba(224,78,57,.35) 16px 24px) right top/200px 100% no-repeat!important;border-bottom:3px solid #E04E39!important}
 [data-circle="page-header"] h1{font-size:34px!important;line-height:1!important}
@@ -118,12 +119,13 @@ a:focus-visible,button:focus-visible,[role="button"]:focus-visible{outline:2px s
 if(window.__ch3Theme)return;window.__ch3Theme=1;
 /* [space id, path, pill label, code, header eyebrow, header subline] */
 var BASECAMPS=[
-["2904207","/c/global","GLOBAL BASECAMP","GP","EVERY ACADEMY · JUNIORS, PLAYERS + ELITE","Every academy and the CH3 coaches. One feed, with featured posts from each home basecamp."],
+["2904207","/c/global","GLOBAL BASECAMP","GP","OPEN TO EVERY MEMBER · EVERY ACADEMY","Every academy, the Son of a Butch community and the CH3 coaches. One feed, with featured posts from each home basecamp."],
 ["2904211","/c/junior","GLOBAL JUNIOR BASECAMP","JP","JUNIORS ONLY · EVERY ACADEMY","Juniors from every academy team in one feed, with the CH3 coaches, junior drills and Premier sessions."],
 ["2904213","/c/ch3-dubai","CH3 DUBAI","P1","HOME BASECAMP · UAE + EUROPE","Your local feed: Dubai coaches, squad and range."],
 ["2904214","/c/ch3-thailand","CH3 THAILAND","P2","HOME BASECAMP · THAILAND + ASIA","Your local feed: Thailand coaches, squad and range."],
 ["2904215","/c/teamflo","TEAMFLO","P3","HOME BASECAMP · FLORIDA + NORTH AMERICA","Your local feed with Ryan Crysler and the TeamFLO squad."],
-["2904208","/c/son-of-a-butch","SON OF A BUTCH","P4","OPEN TO EVERY MEMBER · THE PODCAST","Every episode lands here first, and After the Pod replays go up the day after we record."]
+["2904208","/c/son-of-a-butch","SON OF A BUTCH","P4","OPEN TO EVERY MEMBER · THE PODCAST","Every episode lands here first, and After the Pod replays go up the day after we record."],
+["2904217","/c/elite-room","ELITE BASECAMP","EB","ELITE · APPLICATION ONLY · 8 SPOTS","Direct access to Ryan Crysler and Claude Harmon III."]
 ];
 var RULES_KEY="ch3_rules_agreed_v1";
 /* Where "Send your golf data to RC Greenlight" goes (opens in a new tab). Empty = shown as a label with no link. */
