@@ -13,4 +13,5 @@ row under "Start a post" and the community-rules pop-up before a member's first 
   an address is set.
 
 The running list of things to paste or click in Circle admin is in Google Drive:
-"TeamCH3 Circle - copy-paste list.txt".
+"TeamCH3 Circle - copy-paste list v2.txt". Membership is one access group per basecamp and tier
+(chosen at checkout), so no Circle automations handle access.
