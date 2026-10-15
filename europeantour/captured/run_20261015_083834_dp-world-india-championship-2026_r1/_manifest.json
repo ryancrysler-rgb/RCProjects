@@ -1,0 +1,802 @@
+[
+  {
+    "url": "https://www.europeantour.com/api/v1/forge/video/2026140/",
+    "kind": "http"
+  },
+  {
+    "url": "https://www.europeantour.com/api/sportdata/Leaderboard/Strokeplay/2026140/type/load",
+    "kind": "http"
+  },
+  {
+    "url": "https://www.europeantour.com/api/sportdata/Event/Status/2026140",
+    "kind": "http"
+  },
+  {
+    "url": "https://www.europeantour.com/api/v1/header/dpworld-tour/_extradata",
+    "kind": "http"
+  },
+  {
+    "url": "https://cdns.gigya.com/sdk.config.get?apiKey=4_LtiNVJuKIvw_FXO5qOsf6Q&httpStatusCodes=true&ver=1792067880000",
+    "kind": "http"
+  },
+  {
+    "url": "https://circlelevel.com/i23lujds/m225uvnmas86zurigefmvn7den0of859kc",
+    "kind": "http"
+  },
+  {
+    "url": "https://circlelevel.com/i23lujds/m225uvnmas86zurigefmvn7den0of859kc",
+    "kind": "http"
+  },
+  {
+    "url": "https://accounts.eu1.gigya.com/accounts.webSdkBootstrap?apiKey=4_LtiNVJuKIvw_FXO5qOsf6Q&pageURL=https%3A%2F%2Fwww.europeantour.com%2F&sdk=js_latest&sdkBuild=2400&format=json",
+    "kind": "http"
+  },
+  {
+    "url": "https://cdns.eu1.gigya.com/sdk.config.get?apiKey=4_S1L2lg9-75aAQWTe5k688Q&httpStatusCodes=true&ver=1792067880000",
+    "kind": "http"
+  },
+  {
+    "url": "https://s.yimg.com/wi/config/10186985.json",
+    "kind": "http"
+  },
+  {
+    "url": "https://s.yimg.com/wi/config/10196399.json",
+    "kind": "http"
+  },
+  {
+    "url": "https://recommender.scarabresearch.com/merchants/19DA2DBAA6BBD5FD/?pv=1627201752&xp=1&cv=1&ca=&cp=1&ta=%7B%22name%22%3A%22page_view%22%2C%22attributes%22%3A%7B%22page%22%3A%22https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Fdp-world-india-championship-2026%2Fleaderboard%3Fround%3D1%22%7D%7D",
+    "kind": "http"
+  },
+  {
+    "url": "https://recommender.scarabresearch.com/merchants/19DA2DBAA6BBD5FD/?pv=1627201752&cv=1&ca=&cp=1&ta=%7B%22name%22%3A%22page_view%22%2C%22attributes%22%3A%7B%22page%22%3A%22https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Fdp-world-india-championship-2026%2Fleaderboard%3Fround%3D1%22%7D%7D&error=%5B%7B%22t%22%3A%22MULTIPLE_CALL%22%2C%22c%22%3A%22go%22%2C%22m%22%3A%22Multiple%20calls%20of%20go%20command%22%7D%5D",
+    "kind": "http"
+  },
+  {
+    "url": "https://ip.veritonicmetrics.com/",
+    "kind": "http"
+  },
+  {
+    "url": "https://pixel.quantserve.com/cs?a=p-nLFCYSjJR6VQn&gdpr=0&sf2=1&__qcmcs=1",
+    "kind": "http"
+  },
+  {
+    "url": "https://webchannel-content.eservice.emarsys.net/customer/885528449/campaigns?url=https:%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Fdp-world-india-championship-2026%2Fleaderboard%3Fround%3D1&prev_url=&lang=en&ca=&uli=false",
+    "kind": "http"
+  },
+  {
+    "url": "https://connect.facebook.net/app_config/json/274320404810141/",
+    "kind": "http"
+  },
+  {
+    "url": "https://atr-eu.veritonicmetrics.com/",
+    "kind": "http"
+  },
+  {
+    "url": "https://lexicon.33across.com/v1/envelope?pid=0015a00002qqhgFAAQ&gdpr=0&src=pbjs&ver=9.30.0&coppa=0&us_privacy=1---",
+    "kind": "http"
+  },
+  {
+    "url": "https://fid.agkn.com/f?apiKey=2139187760&r=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Fdp-world-india-championship-2026%2Fleaderboard%3Fround%3D1",
+    "kind": "http"
+  },
+  {
+    "url": "https://bcp.crwdcntrl.net/6/map?xcid=16589",
+    "kind": "http"
+  },
+  {
+    "url": "https://rtb.openx.net/esp?url=https%3A%2F%2Fwww.europeantour.com%2Fdpworld-tour%2Fdp-world-india-championship-2026%2Fleaderboard%3Fround%3D1&rid=esp&cc=1",
+    "kind": "http"
+  },
+  {
+    "url": "https://api.id5-sync.com/analytics/1016/id5-api-js",
+    "kind": "http"
+  },
+  {
+    "url": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gpt&tv=m202610090101&st=env&sjk=3557263246695945",
+    "kind": "http"
+  },
+  {
+    "url": "https://id5-sync.com/bounce",
+    "kind": "http"
+  },
+  {
+    "url": "https://lbs.eu-1-id5-sync.com/lbs/v1",
+    "kind": "http"
+  },
+  {
+    "url": "https://lb.eu-1-id5-sync.com/lb/v1",
+    "kind": "http"
+  },
+  {
+    "url": "https://id5-sync.com/gm/v3",
+    "kind": "http"
+  },
+  {
+    "url": "https://ut.pubmatic.com/geo?pubid=159110",
+    "kind": "http"
+  },
+  {
+    "url": "https://mweb-hb.presage.io/api/header-bidding-request",
+    "kind": "http"
+  },
+  {
+    "url": "https://id.a-mx.com/sync?tao=1&&uid=ac227fdb-097f-4271-9911-7ecd50a46410",
+    "kind": "http"
+  },
+  {
+    "url": "https://token.rubiconproject.com/khaos.json?us_privacy=1---",
+    "kind": "http"
+  },
+  {
+    "url": "https://accounts.google.com/o/oauth2/iframerpc?action=checkOrigin&origin=https%3A%2F%2Fwww.europeantour.com&client_id=408100192849-vmp6qea4l13j4q0soq41cp1h8ph4m2pt.apps.googleusercontent.com",
+    "kind": "http"
+  },
+  {
+    "url": "https://mweb-hb.presage.io/api/header-bidding-request",
+    "kind": "http"
+  },
+  {
+    "url": "https://www.europeantour.com/api/v1/forge/video/2026140/37624/",
+    "kind": "http"
+  },
+  {
+    "url": "https://www.europeantour.com/api/sportdata/Scorecard/Strokeplay/Event/2026140/Player/37624",
+    "kind": "http"
+  },
+  {
+    "url": "https://www.europeantour.com/library/players/37624/favourite",
+    "kind": "http"
+  },
+  {
+    "url": "https://u-ams.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1593&domain=https%3A%2F%2Fads.pubmatic.com%2F&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+    "kind": "http"
+  },
+  {
+    "url": "https://u-ams.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1593&domain=https%3A%2F%2Fsync.adkernel.com%2F&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+    "kind": "http"
+  },
+  {
+    "url": "https://www.europeantour.com/api/sportdata/Leaderboard/Strokeplay/2026140/type/polling",
+    "kind": "http"
+  },
+  {
+    "url": "https://sync.sparteo.com/sync?gdpr=0&gdpr_consent=&us_privacy=1---&cb=0.29255135880351657&if=1&origin=https%3A%2F%2Fsync.sparteo.com%2F&src=meetscale&type=f&la[]=https://dsp-service.monetixads.com&la[]=https://ads.pubmatic.com&la[]=https://ms-cookie-sync.presage.io&la[]=https://www.europeantour.com",
+    "kind": "http"
+  },
+  {
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http"
+  },
+  {
+    "url": "https://u-ams.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1593&domain=https%3A%2F%2Fsync.adkernel.com%2F&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+    "kind": "http"
+  },
+  {
+    "url": "https://cs.media.net/cst?gdpr=0&cs=87&us_privacy=1---&cid=8CUEHS6F9&ref=https%3A%2F%2Fsync.sparteo.com%2F",
+    "kind": "http"
+  },
+  {
+    "url": "https://static.srarena.io/event-centre-configs/europeantour.json",
+    "kind": "http"
+  },
+  {
+    "url": "https://static.srarena.io/event-centre-configs/master.json",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1337033914",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://u-ams.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1593&domain=https%3A%2F%2Fsync.adkernel.com%2F&r=https%3A%2F%2Fstatic.cdn.admatic.de%2Fcookie.html%3Fbidder%3Dadagio_ortb%26gdpr%3D%26gdpr_consent%3D%26f%3Db%26uid%3D%7BUID%7D",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://cs.ingage.tech/v1/sync/equative/37ea357c-33dc-44d7-bd9e-cb377f391d37?uid=",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=541628646",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=974732466",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=4027150266",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2459886586",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2674109366",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2855788408",
+    "kind": "http"
+  },
+  {
+    "url": "https://static.srarena.io/golf/3d/courses/ET-1473/all_metadata.json?v=41",
+    "kind": "http"
+  },
+  {
+    "url": "https://www.europeantour.com/api/sportdata/Leaderboard/Strokeplay/2026140/type/polling",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http"
+  },
+  {
+    "url": "https://mweb-hb.presage.io/api/header-bidding-request",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=4265994864",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1314681491",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=222164914",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=3935866581",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=3981824244",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1030510871",
+    "kind": "http"
+  },
+  {
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=4232961590",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2809830745",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=3416595104",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1743710177",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2029105442",
+    "kind": "http"
+  },
+  {
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=424237923",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=3429282212",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1756397285",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2041792550",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=436925031",
+    "kind": "http"
+  },
+  {
+    "url": "https://hb.yellowblue.io/hb-multi",
+    "kind": "http"
+  },
+  {
+    "url": "https://sonic.impactify.media/cookie_sync",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "https://u-las.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1543&domain=programmaticx.ai&r=https%3A%2F%2Fsync.programmaticx.ai%2Fapi%2Fcookie%3FpartnerId%3Dprogx-adagio%26userId%3D%7BUID%7D%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D",
+    "kind": "http"
+  },
+  {
+    "url": "https://u-las.4dex.io/usync.json?it=ortb&gdpr=&gdpr_consent=&us_privacy=&publisher_id=1543&domain=programmaticx.ai&r=https%3A%2F%2Fsync.programmaticx.ai%2Fapi%2Fcookie%3FpartnerId%3Dprogx-adagio%26userId%3D%7BUID%7D%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1412673192",
+    "kind": "http"
+  }
+]
