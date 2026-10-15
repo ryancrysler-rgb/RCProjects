@@ -19,6 +19,9 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 #ch3-site .ch3-pulse{animation:ch3pulse 1.2s ease-in-out infinite}
 #ch3-site .ch3-label-a{animation:ch3labela 5.4s infinite}
 #ch3-site .ch3-label-b{animation:ch3labelb 5.4s infinite;opacity:0}
+#ch3-site .ch3-bars-mark{height:0}
+#ch3-site .ch3-bars{position:sticky;top:0;z-index:40}
+#ch3-site .ch3-bars.is-js{position:relative;will-change:transform}
 #ch3-site .ch3-lamp{--ch3-off:#1E2D3A;--ch3-glow:18px}
 #ch3-site .ch3-lamp-light{--ch3-off:#E8ECEF;--ch3-glow:14px}
 @keyframes ch3lamp0{0%,8.32%{background:var(--ch3-off);box-shadow:none}8.33%,74.99%{background:#E04E39;box-shadow:0 0 var(--ch3-glow) #E04E39}75.00%,100%{background:var(--ch3-off);box-shadow:none}}
@@ -87,7 +90,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 #ch3-site .ch3-hv7:hover{background:#111A22 !important}
 #ch3-site .ch3-hv8:hover{transform:translateY(-4px) !important;box-shadow:0 18px 40px rgba(17,26,34,.28) !important}</style>
 <div id="ch3-site" style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;color:#253746;background:#fff;min-width:0">
-<header class="ch3-nav" style="position:sticky;top:0;z-index:30;background:#253746;display:flex;align-items:center;gap:28px;padding:0 40px;height:72px;border-bottom:3px solid #E04E39">
+<div class="ch3-bars-mark"></div><div class="ch3-bars"><header class="ch3-nav" style="position:relative;background:#253746;display:flex;align-items:center;gap:28px;padding:0 40px;height:72px;border-bottom:3px solid #E04E39">
 <a href="#" style="flex:none;display:block"><img alt="CH3 Performance Golf Academy" src="https://assets-v2.circle.so/q3djygkluodp3zpkivwgwd12gku4" style="display:block;height:52px;width:auto"/></a>
 <nav class="ch3-navlinks" style="display:flex;gap:26px;flex:1;min-width:0;overflow:hidden;white-space:nowrap">
 <a href="#grid" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">WHAT'S INSIDE</a>
@@ -98,13 +101,13 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 </nav>
 <a href="https://ch3.circle.so/sign_in" style="flex:none;font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">LOG IN</a>
 <a class="ch3-hv1" href="#tiers" style="flex:none;font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff;background:#C9432F;padding:15px 18px;border-radius:2px">START 4 WEEKS FREE</a>
-</header>
-<div class="ch3-strip" style="position:sticky;top:72px;z-index:29;background:#111A22;color:#fff;display:flex;align-items:center;gap:24px;padding:10px 40px;border-bottom:1px solid #253746">
+</header><div class="ch3-strip" style="position:relative;background:#111A22;color:#fff;display:flex;align-items:center;gap:24px;padding:10px 40px;border-bottom:1px solid #253746">
 <div style="display:flex;flex-direction:column;gap:4px"><span style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA">EP 24 <span style="color:#536676">|</span> AFTER THE POD</span><span style="font:400 18px/1 Anton,sans-serif;display:flex;align-items:center;gap:8px"><span style="width:10px;height:10px;border-radius:5px;background:#E04E39;display:inline-block"></span>LIVE Q&amp;A WITH CLAUDE <span style="color:#F47C67">›</span></span></div>
 <div style="flex:1"></div>
 <div class="ch3-clocks" style="display:grid;grid-template-rows:auto auto;grid-auto-flow:column;gap:5px 18px;font:600 12px/1 'Barlow Condensed';letter-spacing:.12em;align-items:center"><span style="display:flex;align-items:center;gap:6px"><span style="width:6px;height:6px;border-radius:3px;background:#E04E39"></span>MY TIME</span><span style="font:400 16px/1 Anton,sans-serif;font-variant-numeric:tabular-nums"><span data-ch3="tz" data-tz="local">--:--</span></span><span style="color:#A6B1BA">DUBAI</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums"><span data-ch3="tz" data-tz="Asia/Dubai">--:--</span></span><span style="color:#A6B1BA">THAILAND</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums"><span data-ch3="tz" data-tz="Asia/Bangkok">--:--</span></span><span style="color:#A6B1BA">FLORIDA</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums"><span data-ch3="tz" data-tz="America/New_York">--:--</span></span></div>
 <div style="font:400 26px/1 Anton,sans-serif;color:#E04E39;font-variant-numeric:tabular-nums;padding-left:20px;border-left:1px solid #384B5B"><span data-ch3="cd-short">--:--:--</span></div>
-</div>
+</div></div>
+
 <section style="position:relative;min-height:760px;background:#111A22;overflow:hidden;color:#fff">
 <div style="position:absolute;inset:0"><div class="ch3-slot" data-slot="hero-claude" style="box-sizing:border-box;width:100%;height:100%;min-height:inherit;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;border:1px dashed currentColor;opacity:.5;font:400 15px/1.3 'Barlow Condensed',sans-serif">Photo: Full-bleed: Claude Harmon III range-side at a tour event</div></div>
 <div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(17,26,34,.96) 0%,rgba(17,26,34,.75) 42%,rgba(17,26,34,.1) 78%)"></div>
@@ -673,4 +676,20 @@ q('.ch3-shot').forEach(function(b){b.addEventListener('click',function(){show(Nu
 var pb=root.querySelector('[data-ch3="play"]');if(pb)pb.addEventListener('click',function(){playing=!playing;set('play-label',playing?'PAUSE':'PLAY')});
 var still=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(still){playing=false;set('play-label','PLAY')}
 setInterval(function(){if(!playing)return;sub++;if(sub>=6){show((cur+1)%S.length)}else bar()},500);
+var bars=root.querySelector('.ch3-bars'),mark=root.querySelector('.ch3-bars-mark');
+if(bars&&mark){
+ var frame=null,pdoc=null;
+ try{if(window.self!==window.top&&window.frameElement){frame=window.frameElement;pdoc=frame.ownerDocument}}catch(e){frame=null;pdoc=null}
+ function findScroller(el,doc){var w=doc.defaultView||window;for(var n=el&&el.parentElement;n&&n!==doc.body&&n!==doc.documentElement;n=n.parentElement){if(/(auto|scroll|overlay)/.test(w.getComputedStyle(n).overflowY)&&n.scrollHeight>n.clientHeight+1)return n}return null}
+ var mode=frame?'js':'auto',sc;
+ function edge(){if(sc===undefined)sc=frame?findScroller(frame,pdoc):findScroller(root,document);var vt=sc?sc.getBoundingClientRect().top:0;
+  if(frame){var fr=frame.getBoundingClientRect(),k=(fr.height/(frame.offsetHeight||fr.height))||1;return Math.max(0,(vt-fr.top)/k)}return vt}
+ function place(){if(mode==='sticky')return;var nat=mark.getBoundingClientRect().top,e=edge(),y=e-nat;
+  if(mode==='auto'){if(y<=20)return;if(Math.abs(bars.getBoundingClientRect().top-e)<2){mode='sticky';return}mode='js';bars.classList.add('is-js')}
+  var max=root.getBoundingClientRect().bottom-nat-bars.offsetHeight;y=Math.max(0,Math.min(y,max));bars.style.transform=y?'translateY('+y+'px)':''}
+ if(frame)bars.classList.add('is-js');
+ var o={passive:true,capture:true};document.addEventListener('scroll',place,o);window.addEventListener('resize',function(){sc=undefined;place()});
+ if(pdoc){pdoc.addEventListener('scroll',place,o);try{pdoc.defaultView.addEventListener('resize',function(){sc=undefined;place()})}catch(e){}}
+ place();
+}
 })();</script>

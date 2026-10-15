@@ -303,6 +303,16 @@ for a in page.find_all('a'):
 hook('div', 'position:relative;min-height:300px;margin:22px 22px 22px 0', 'ch3-junior-photo')
 hook('footer', 'padding:56px 40px 40px', 'ch3-foot')
 
+# ---- pinned bars: nav + live strip in one wrapper, CSS sticky with a script fallback for builder hosts ----
+nav_el = page.find('header', class_='ch3-nav'); strip_el = page.find('div', class_='ch3-strip')
+assert 'position:sticky;top:0;z-index:30;' in nav_el['style'] and 'position:sticky;top:72px;z-index:29;' in strip_el['style']
+nav_el['style'] = nav_el['style'].replace('position:sticky;top:0;z-index:30;', 'position:relative;')
+strip_el['style'] = strip_el['style'].replace('position:sticky;top:72px;z-index:29;', 'position:relative;')
+mark = out.new_tag('div'); mark['class'] = ['ch3-bars-mark']
+bars_el = out.new_tag('div'); bars_el['class'] = ['ch3-bars']
+nav_el.insert_before(mark); mark.insert_after(bars_el)
+bars_el.append(nav_el.extract()); bars_el.append(strip_el.extract())
+
 # ---- CSS ----
 lamp_css = []
 for i in range(5):
@@ -328,6 +338,9 @@ CSS = r'''
 #ch3-site .ch3-pulse{animation:ch3pulse 1.2s ease-in-out infinite}
 #ch3-site .ch3-label-a{animation:ch3labela 5.4s infinite}
 #ch3-site .ch3-label-b{animation:ch3labelb 5.4s infinite;opacity:0}
+#ch3-site .ch3-bars-mark{height:0}
+#ch3-site .ch3-bars{position:sticky;top:0;z-index:40}
+#ch3-site .ch3-bars.is-js{position:relative;will-change:transform}
 #ch3-site .ch3-lamp{--ch3-off:#1E2D3A;--ch3-glow:18px}
 #ch3-site .ch3-lamp-light{--ch3-off:#E8ECEF;--ch3-glow:14px}
 ''' + '\n'.join(lamp_css) + r'''
@@ -406,6 +419,22 @@ q('.ch3-shot').forEach(function(b){b.addEventListener('click',function(){show(Nu
 var pb=root.querySelector('[data-ch3="play"]');if(pb)pb.addEventListener('click',function(){playing=!playing;set('play-label',playing?'PAUSE':'PLAY')});
 var still=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(still){playing=false;set('play-label','PLAY')}
 setInterval(function(){if(!playing)return;sub++;if(sub>=6){show((cur+1)%S.length)}else bar()},500);
+var bars=root.querySelector('.ch3-bars'),mark=root.querySelector('.ch3-bars-mark');
+if(bars&&mark){
+ var frame=null,pdoc=null;
+ try{if(window.self!==window.top&&window.frameElement){frame=window.frameElement;pdoc=frame.ownerDocument}}catch(e){frame=null;pdoc=null}
+ function findScroller(el,doc){var w=doc.defaultView||window;for(var n=el&&el.parentElement;n&&n!==doc.body&&n!==doc.documentElement;n=n.parentElement){if(/(auto|scroll|overlay)/.test(w.getComputedStyle(n).overflowY)&&n.scrollHeight>n.clientHeight+1)return n}return null}
+ var mode=frame?'js':'auto',sc;
+ function edge(){if(sc===undefined)sc=frame?findScroller(frame,pdoc):findScroller(root,document);var vt=sc?sc.getBoundingClientRect().top:0;
+  if(frame){var fr=frame.getBoundingClientRect(),k=(fr.height/(frame.offsetHeight||fr.height))||1;return Math.max(0,(vt-fr.top)/k)}return vt}
+ function place(){if(mode==='sticky')return;var nat=mark.getBoundingClientRect().top,e=edge(),y=e-nat;
+  if(mode==='auto'){if(y<=20)return;if(Math.abs(bars.getBoundingClientRect().top-e)<2){mode='sticky';return}mode='js';bars.classList.add('is-js')}
+  var max=root.getBoundingClientRect().bottom-nat-bars.offsetHeight;y=Math.max(0,Math.min(y,max));bars.style.transform=y?'translateY('+y+'px)':''}
+ if(frame)bars.classList.add('is-js');
+ var o={passive:true,capture:true};document.addEventListener('scroll',place,o);window.addEventListener('resize',function(){sc=undefined;place()});
+ if(pdoc){pdoc.addEventListener('scroll',place,o);try{pdoc.defaultView.addEventListener('resize',function(){sc=undefined;place()})}catch(e){}}
+ place();
+}
 })();
 '''.replace('SHOTS_JSON', json.dumps([list(s) for s in SHOTS])).replace('CUR_JSON', str(CUR))
 
