@@ -29,3 +29,17 @@ optional script for the clocks, the countdowns and the range-session player; eve
 - Images are hosted on Circle (assets-v2.circle.so) and attached to the Global Basecamp draft post
   "Membership page images (keep as a draft)" so Circle keeps them.
 - Buttons marked `data-checkout="pod|junior|premier|elite"` point to `#tiers` until the paywalls exist.
+
+## Ask CH3 (Circle AI agent)
+
+`ask-ch3/` turns Circle's "Ask a Coach" AI agent into Ask CH3, a member-facing AI coach trained on the
+Son of a Butch transcripts and Claude Harmon III's coaching PDFs. Circle has no API for AI agents, so the setup
+is done by hand in Circle admin.
+
+- `Ask CH3 - Circle AI agent setup.txt`: name, instructions (under Circle's ~1,500-character box), knowledge
+  sources, audience, touchpoints, Pause AI keywords and a test list.
+- `Ask CH3 - voice and coaching guide.txt`: uploaded to the agent's knowledge. It carries the coaching style and
+  rules that don't fit in the instructions box. Built from the CH3 Lesson Playbook.
+- `Ask CH3 avatar.png`: the agent's avatar.
+- The transcripts come from the Colab notebook "Sonofabutchtranscriptharness.ipynb" (Whisper `base.en`), one
+  .txt per episode in the Drive folder "Son of a Butch Podcast Transcripts". Episodes with Ryan Crysler are skipped.
