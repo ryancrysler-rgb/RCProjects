@@ -277,6 +277,36 @@ def load_course_names(captured: Path) -> dict:
     return names
 
 
+def load_player_names(captured: Path) -> dict:
+    """playerId -> name, from anywhere a capture names a player.
+
+    The HTTP form of the shot feed carries only the player's id, so rows built
+    from it need the name found elsewhere: the websocket form's displayName,
+    or the group scorecards, which name every player in the group.
+    """
+    names: dict = {}
+    for path in sorted(captured.glob("run_*/*.json")):
+        if path.name.startswith("_"):
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if not isinstance(payload, dict):
+            continue
+        for record in feed(payload, "GolfMedia3DShots") or []:
+            player = record.get("player") or {}
+            if player.get("id") is not None and player.get("displayName"):
+                names[player["id"]] = player["displayName"]
+        groups = feed(payload, "GolfTournamentGroupScores") or []
+        for group in groups if isinstance(groups, list) else [groups]:
+            for player in (group.get("players") or []) if isinstance(group, dict) else []:
+                full = " ".join(x for x in (player.get("firstName"), player.get("lastName")) if x)
+                if player.get("id") is not None and full:
+                    names.setdefault(player["id"], full)
+    return names
+
+
 def load_commentary(captured: Path) -> dict[tuple, str]:
     """The site's AI commentary line for each shot, keyed by event/round/hole/shot.
 
@@ -479,6 +509,7 @@ def main() -> int:
 
     commentary = load_commentary(HERE / "captured")
     course_names = load_course_names(HERE / "captured")
+    player_names = load_player_names(HERE / "captured")
     rows, seen = [], set()
     for record in positions:
         stroke = record.get("strokeNo")
@@ -494,7 +525,7 @@ def main() -> int:
         row = {
             "event": record["_event"],
             "round": record["_round"],
-            "player": player.get("displayName"),
+            "player": player.get("displayName") or player_names.get(player.get("id")),
             "playerId": player.get("id"),
             "teamId": record.get("teamId"),
             "course": course_names.get(record.get("courseId"), record.get("courseId")),
