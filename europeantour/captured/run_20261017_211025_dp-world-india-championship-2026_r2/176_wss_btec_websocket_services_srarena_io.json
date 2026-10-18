@@ -1,0 +1,17 @@
+{
+  "id": "1434527300",
+  "type": "full-subscription",
+  "payload": {
+    "variables": {
+      "input": {
+        "tournamentId": 1439,
+        "teamId": 36,
+        "holeNo": 12,
+        "roundNo": 2
+      }
+    },
+    "query": "\n  subscription MapVisualisationSubscribeToMedia3DShots(\n    $input: SubscribeToGolfTeamMedia3DShotsInput!\n  ) {\n    subscribeToGolfMedia3DShots(input: $input) {\n      __typename\n      x\n      y\n      z\n      addressing\n      provisionalIndex\n      ballHoled\n      isApproximate\n      strokeNo\n      holeNo\n      surfaceTypeCode\n      teamId\n      courseId\n      seqNum\n      isBallDrop\n      isProvisional\n      isProvisionalSelected\n      shotDistance\n      score\n      distanceToPin\n      player {\n        id\n      }\n    }\n  }\n",
+    "operationName": "MapVisualisationSubscribeToMedia3DShots",
+    "subscriptionName": "subscribeToGolfMedia3DShots"
+  }
+}

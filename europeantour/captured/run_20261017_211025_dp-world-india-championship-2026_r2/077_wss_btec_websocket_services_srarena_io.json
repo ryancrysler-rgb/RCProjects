@@ -1,0 +1,632 @@
+{
+  "id": "2201037639",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfCommentary": {
+        "roundNo": 2,
+        "holes": [
+          {
+            "holeNo": 1,
+            "holeOrder": 1,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T104) finds the fairway with a 260-yard drive, leaving 265 yards to the hole on the first."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-1-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway finds the rough, leaving twelve yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-1-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter chipped from the rough to six feet, leaving a birdie opportunity on the first hole."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-1-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a six-footer for birdie, gaining 0.43 strokes *putting* on the par five first."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-1-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 2,
+            "holeOrder": 2,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T81) finds the fairway with a 236-yard drive, leaving 141 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-2-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway finds the green, leaving a four-foot putt for birdie and gaining 0.81 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-2-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a four-foot putt for birdie on the second."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-2-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 3,
+            "holeOrder": 3,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T83) finds the fairway with a 301-yard drive, leaving 157 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-3-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway finds the green, leaving 38 feet for his birdie attempt on the third hole."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-3-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a 38-foot putt for birdie, gaining 1.03 strokes *putting* \u2014 best putt on the hole this week."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-3-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 4,
+            "holeOrder": 4,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T82) finds the fairway with a 250-yard drive, leaving 155 yards to the hole on the fourth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-4-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway finds the green, leaving a 24-foot putt for birdie."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-4-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 25-foot putt for birdie, leaving about ten inches for par."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-4-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a short putt to make par on the fourth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-4-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Canter holed the putt for bogey on the fourth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-4-5",
+                "shotNo": 5
+              }
+            ]
+          },
+          {
+            "holeNo": 5,
+            "holeOrder": 5,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T83) misses the green with an approach shot, leaving 14 yards in the fairway, losing 0.43 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-5-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter chips from the fairway to nine feet left for par on the fifth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-5-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a nine-footer for par, leaving 16 inches, losing 0.44 strokes *putting*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-5-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a short putt from about one foot for bogey on the par three fifth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-5-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 6,
+            "holeOrder": 6,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T94) finds the fairway bunker with a 258-yard drive, leaving 132 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-6-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway bunker finds the green, leaving 37 feet for his birdie putt on the sixth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-6-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 36-foot putt for birdie, leaving nine inches for par."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-6-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter holes the short putt for par on the sixth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-6-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 7,
+            "holeOrder": 7,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T95) finds the green with an approach shot, leaving 27 feet for birdie on the seventh."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-7-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 27-foot putt for birdie, leaving about ten inches for par."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-7-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a short putt on the seventh for par."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-7-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 8,
+            "holeOrder": 8,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T83) finds the fairway with a 277-yard drive, leaving 249 yards to the hole on the eighth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-8-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway finds the green, leaving 36 feet for eagle, gaining 0.47 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-8-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holes a 36-foot putt for eagle, gaining 1.02 strokes *putting* and posting the best putting on the hole today."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-8-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 9,
+            "holeOrder": 9,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T61) finds the fairway with a 269-yard drive, leaving 164 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-9-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach finds the green, leaving a 26-foot putt for birdie on the ninth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-9-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a 26-foot putt for birdie, gaining 0.96 strokes *putting* on the ninth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-9-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 10,
+            "holeOrder": 10,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T47) finds the fairway with a 275-yard drive, leaving 134 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-10-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway finds the green, leaving 33 feet for birdie on the tenth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-10-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 33-foot putt for birdie, leaving 11 feet, losing 0.67 strokes *putting*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-10-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter holed an 11-foot putt for par, gaining 0.66 strokes *putting* on the tenth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-10-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 11,
+            "holeOrder": 11,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T64) finds the trees with a 264-yard drive, leaving 171 yards to the hole, losing 1.42 strokes *off the tee*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-11-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the trees finds the green, leaving a 23-foot putt for par, gaining 0.68 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-11-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a 24-foot putt for par, leaving 16 inches for bogey on the 11th."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-11-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a short putt from about one foot for bogey on the 11th."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-11-5",
+                "shotNo": 5
+              }
+            ]
+          },
+          {
+            "holeNo": 12,
+            "holeOrder": 12,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T64) leaves a ten-foot birdie look with his approach, gaining 0.49 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-12-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a nine-footer for birdie, leaving six inches for par on the 12th."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-12-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a short putt on the 12th for par."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-12-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 13,
+            "holeOrder": 13,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T64) finds the fairway with a 277-yard drive, leaving 102 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-13-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway leaves a twelve-foot birdie opportunity on the thirteenth."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-13-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter missed a twelve-footer for birdie, leaving about two feet for par."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-13-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a short putt from about two feet for par on the 13th."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-13-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 14,
+            "holeOrder": 14,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T65) finds the fairway with a 253-yard drive, leaving 260 yards to the hole on the 14th."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-14-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway finds the green, leaving 24 feet for eagle, gaining 0.67 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-14-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a 24-foot putt for eagle on the 14th, gaining 0.96 strokes *putting* \u2014 best putting on the hole this week."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-14-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 15,
+            "holeOrder": 15,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Canter (T43) finds the fairway with a 215-yard drive, leaving 118 yards to the hole on fifteen."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-15-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway finds the green, leaving a five-foot birdie putt, gaining 0.59 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-15-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a five-foot putt for birdie on the 15th."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-15-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 16,
+            "holeOrder": 16,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T33) finds the fairway with a 260-yard drive, leaving 142 yards to the hole."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-16-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway leaves a three-foot birdie putt, gaining 0.94 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-16-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a three-foot putt for birdie on the 16th."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-16-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 17,
+            "holeOrder": 17,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T28) misses the green with an approach shot into the rough, leaving 12 yards to the hole, losing 0.48 strokes *approach*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-17-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter chips from the rough to inside three feet, gaining 0.47 strokes *around the green*."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-17-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter holes the putt for par on the 17th."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-17-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 18,
+            "holeOrder": 18,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Laurie Canter (T28) finds the fairway with a 281-yard drive, leaving 248 yards to the hole on eighteen."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-18-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Canter's approach from the fairway finds the fairway, leaving ten yards to the hole on eighteen."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-18-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Canter chips from the fairway to inside three feet for a birdie opportunity on the 18th."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-18-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Canter holed a short putt for birdie on the 18th to finish round two at eight under par."
+                },
+                "playerId": 840,
+                "shotId": "1439-36-2-18-4",
+                "shotNo": 4
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1439",
+    "operationName": "GOLF_COMMENTARY___",
+    "subscriptionHash": "2201037639"
+  },
+  "_operation": "ShotTrackerSubscribeToGolfCommentary"
+}

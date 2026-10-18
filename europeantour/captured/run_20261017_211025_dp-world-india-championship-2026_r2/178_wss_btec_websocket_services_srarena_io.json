@@ -1,0 +1,20 @@
+{
+  "id": "1627468408",
+  "type": "full-subscription",
+  "payload": {
+    "variables": {
+      "input": {
+        "tournamentId": 1439,
+        "teamIds": [
+          36
+        ],
+        "roundNo": 2,
+        "holeNo": 12,
+        "media": true
+      }
+    },
+    "query": "\n  subscription ShotFeedSubscribeToGolfTournamentTeamsShotFeed(\n    $input: SubscribeToGolfTournamentTeamsShotFeedInput!\n  ) {\n    subscribeToGolfTournamentTeamsShotFeed(input: $input) {\n      ...ShotFeedGolfTournamentTeamsShotFeedFields\n    }\n  }\n\n  fragment ShotFeedGolfTournamentTeamsShotFeedFields on GolfTournamentShotFeedEvent {\n    id\n    teamId\n    shotNo\n    eventType\n    isProvisional\n    provisionalIndex\n    holeScore\n    surfaceTypeCode\n    prevSurfaceTypeCode\n    shotDistance\n    distanceToPin\n  }\n",
+    "operationName": "ShotFeedSubscribeToGolfTournamentTeamsShotFeed",
+    "subscriptionName": "subscribeToGolfTournamentTeamsShotFeed"
+  }
+}
