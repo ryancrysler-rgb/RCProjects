@@ -91,7 +91,79 @@ def assign_rounds(runs: list[dict]) -> None:
                 by_date[run["date"]] = run["round"]
 
 
-def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]]:
+def official_scorecards(payload: dict) -> list[tuple]:
+    """The site's own per-round scorecards in a group-scores response.
+
+    Returns (playerId, roundNo, holesThrough, {hole: strokes}) for each player
+    and round. These come from the same Event Centre and name players by the
+    same ids as the shot feed, so they can check -- and arbitrate -- the shots.
+    """
+    found = []
+    for data in (payload.get("data") or {}, (payload.get("payload") or {}).get("data") or {}):
+        if not isinstance(data, dict):
+            continue
+        for key in ("getGolfTournamentGroupScores", "subscribeToGolfTournamentGroupScores"):
+            groups = data.get(key)
+            if groups is None:
+                continue
+            for group in groups if isinstance(groups, list) else [groups]:
+                if not isinstance(group, dict):
+                    continue
+                for score in group.get("roundScores") or []:
+                    holes = {h.get("holeNumber"): h.get("holeStrokes")
+                             for h in score.get("holes") or [] if h.get("holeStrokes")}
+                    thru = (score.get("holesThrough") or {}).get("value") or len(holes)
+                    for player in group.get("players") or []:
+                        found.append((player.get("id"), str(score.get("roundNo")), thru, holes))
+    return found
+
+
+def pick_hole_versions(run: dict, scorecards: dict) -> tuple[list[dict], list[str]]:
+    """Keep one version of each hole when a capture holds two.
+
+    The Event Centre opens on a player's latest round and only switches when
+    the round is changed, so a capture labelled round 2 can also hold a hole
+    from round 3 -- with nothing in the records to say so. A hole's versions
+    are told apart by the seqNum of its tee position, and the one kept is the
+    version whose stroke count matches the site's scorecard for the labelled
+    round (failing that, the version viewed last).
+    """
+    versions: dict[tuple, dict] = {}
+    for index, records in enumerate(run["frames3d"]):
+        by_hole: dict[tuple, list] = {}
+        for record in records:
+            golfer = (record.get("player") or {}).get("id") or record.get("teamId")
+            by_hole.setdefault((golfer, record.get("holeNo")), []).append(record)
+        for key, recs in by_hole.items():
+            tee = next((r.get("seqNum") for r in recs if r.get("strokeNo") == 0), None)
+            versions.setdefault(key, {}).setdefault(tee, []).append((index, recs))
+
+    def strokes(entries) -> int:
+        return max((r.get("strokeNo") or 0) for _, recs in entries for r in recs)
+
+    kept, lost = [], []
+    for (golfer, hole), by_tee in versions.items():
+        teed = {tee: entries for tee, entries in by_tee.items() if tee is not None}
+        if len(teed) <= 1:
+            kept += [r for entries in by_tee.values() for _, recs in entries for r in recs]
+            continue
+        card = scorecards.get((run["event"], golfer, run["round"]), {}).get(hole)
+        matching = [tee for tee, entries in teed.items() if card is not None and strokes(entries) == card]
+        if len(matching) == 1:
+            chosen, reason = matching[0], f"the site's round {run['round']} card has {card}"
+        else:
+            chosen = max(teed, key=lambda tee: max(i for i, _ in teed[tee]))
+            reason = "no scorecard to decide, so kept the version viewed last"
+        for tee, entries in by_tee.items():
+            if tee == chosen or tee is None:
+                kept += [r for _, recs in entries for r in recs]
+            else:
+                lost.append(f"{run['event']} round {run['round']} hole {hole}: ignored a second "
+                            f"version ({strokes(entries)} strokes) -- {reason}")
+    return kept, lost
+
+
+def load_feeds(captured: Path):
     """Return ball positions and event frames, each tagged with its round.
 
     Grouping matters twice over: an event carries no hole number, but every
@@ -105,7 +177,8 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
         info = declared(run_dir)
         run = {"event": info.get("event"), "course": None,
                "round": str(info["round"]) if info.get("round") else None,
-               "date": None, "positions": [], "frames": [], "name": run_dir.name}
+               "date": None, "positions": [], "frames": [], "frames3d": [], "scores": [],
+               "name": run_dir.name}
         for path in sorted(run_dir.glob("*.json")):
             if path.name.startswith("_"):
                 continue
@@ -115,9 +188,12 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
                 continue
             if not isinstance(payload, dict):
                 continue
+            run["scores"] += official_scorecards(payload)
             data = (payload.get("payload") or {}).get("data") or {}
-            for record in data.get("subscribeToGolfMedia3DShots") or []:
-                run["positions"].append(record)
+            records = data.get("subscribeToGolfMedia3DShots") or []
+            if records:
+                run["frames3d"].append(records)
+            for record in records:
                 if run["course"] is None and record.get("courseId") is not None:
                     run["course"] = record["courseId"]
             frame = data.get("subscribeToGolfTournamentTeamsShotFeed") or []
@@ -136,6 +212,20 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
 
     assign_rounds(runs)
 
+    # The most complete scorecard seen for each player and round.
+    best: dict[tuple, tuple] = {}
+    for run in runs:
+        for player, round_no, thru, holes in run["scores"]:
+            key = (run["event"], player, round_no)
+            if key not in best or thru >= best[key][0]:
+                best[key] = (thru, holes)
+    scorecards = {key: holes for key, (thru, holes) in best.items()}
+
+    dropped: list[str] = []
+    for run in runs:
+        run["positions"], lost = pick_hole_versions(run, scorecards)
+        dropped += lost
+
     positions, event_frames = [], []
     for run in runs:
         key = (run["event"], run["round"])
@@ -143,7 +233,7 @@ def load_feeds(captured: Path) -> tuple[list[dict], list[tuple[str, list[dict]]]
             positions.append({**record, "_event": run["event"], "_round": run["round"]})
         for frame in run["frames"]:
             event_frames.append((key, frame))
-    return positions, event_frames
+    return positions, event_frames, scorecards, dropped
 
 
 YARDS_TO_METRES = 1 / METRES_TO_YARDS
@@ -336,7 +426,7 @@ def event_key(shot_no, shot_distance, distance_to_pin) -> tuple:
 
 
 def main() -> int:
-    positions, event_frames = load_feeds(HERE / "captured")
+    positions, event_frames, scorecards, dropped = load_feeds(HERE / "captured")
     if not positions:
         print("No 3D shot records found. Run GET SHOT BY SHOT first.")
         try:
@@ -468,6 +558,14 @@ def main() -> int:
     print(f"  events : {matched}/{len(rows)} shots matched to the event feed")
     if unplaced:
         print(f"  note   : {unplaced} event frame(s) could not be placed on a hole")
+    for line in dropped:
+        print(f"  note   : {line}")
+
+    # Hand-typed rows carry a name but no id; borrow it from the feed rows.
+    ids = {(r.get("event"), r.get("player")): r.get("playerId") for r in rows if r.get("playerId")}
+    for row in rows:
+        if not row.get("playerId"):
+            row["playerId"] = ids.get((row.get("event"), row.get("player")))
 
     for event in sorted({r["event"] for r in rows}):
         in_event = [r for r in rows if r["event"] == event]
@@ -480,6 +578,20 @@ def main() -> int:
             names = "" if len(who) <= 1 else "  [" + ", ".join(who) + "]"
             line = f"    round {round_no}: {len(in_round):3d} shots, {len(holes)} holes{names}"
             print(line + (f"  MISSING {missing}" if missing else ""))
+            for player_id in sorted({r.get("playerId") for r in in_round if r.get("playerId")}):
+                card = scorecards.get((event, player_id, round_no))
+                if not card:
+                    continue
+                counts = {}
+                for r in in_round:
+                    if r.get("playerId") == player_id:
+                        counts[r["hole"]] = counts.get(r["hole"], 0) + 1
+                wrong = [f"{h} (site {card[h]}, sheet {counts.get(h, 0)})"
+                         for h in sorted(card) if counts.get(h, 0) != card[h]]
+                if wrong:
+                    print(f"      DIFFERS from the site's scorecard on hole {', '.join(wrong)}")
+                else:
+                    print(f"      matches the site's scorecard on all {len(card)} holes ({sum(card.values())})")
     try:
         input("\nPress Enter to close... ")
     except EOFError:
