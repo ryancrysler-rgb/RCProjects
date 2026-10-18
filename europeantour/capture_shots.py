@@ -47,6 +47,31 @@ NOISE = re.compile(
 )
 
 
+# Ad networks: blocked outright in the capture window. They carry no golf
+# data, and on a busy live day they are much of what the page spends its time
+# loading.
+ADS = re.compile(
+    r"doubleclick|googlesyndication|adservice|safeframe|criteo|teads|prebid|"
+    r"aditude|amazon-adsystem|doubleverify|presage|yellowblue",
+    re.I,
+)
+
+
+def wanted(response) -> bool:
+    """Whether a response could hold data worth keeping.
+
+    Reading a body is a round trip to the browser. Doing it for every image,
+    script, font and video segment the page loads is what made the capture
+    crawl on a final-round Sunday, so only the page's own data calls are read.
+    """
+    if NOISE.search(response.url):
+        return False
+    if response.request.resource_type not in ("xhr", "fetch"):
+        return False
+    content_type = ((response.headers or {}).get("content-type") or "").lower()
+    return not content_type.startswith(("image/", "video/", "audio/", "font/", "text/html", "text/css"))
+
+
 def slugify(url: str) -> str:
     return re.sub(r"[^A-Za-z0-9]+", "_", url.split("?")[0])[-70:].strip("_")
 
@@ -178,7 +203,7 @@ def main() -> int:
             print(f"   <- {', '.join(payload['data'].keys())}")
 
     def on_response(response: Response) -> None:
-        if NOISE.search(response.url):
+        if not wanted(response):
             return
         try:
             payload = response.json()
@@ -273,6 +298,7 @@ def main() -> int:
             ),
             viewport={"width": 1500, "height": 950},
         )
+        context.route(ADS, lambda route: route.abort())
         page = context.new_page()
         page.on("response", on_response)
         page.on("websocket", on_websocket)
