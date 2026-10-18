@@ -23,6 +23,8 @@ import gzip
 import hashlib
 import json
 import re
+import subprocess
+import sys
 import time
 import zlib
 from pathlib import Path
@@ -30,8 +32,6 @@ from typing import Any
 
 from playwright.sync_api import Response, sync_playwright
 
-import find_shots
-import shotjson
 import snappy_lite
 
 HERE = Path(__file__).parent
@@ -317,71 +317,26 @@ def main() -> int:
 
     (run_dir / "_manifest.json").write_text(json.dumps(captured, indent=2), encoding="utf-8")
 
-    payloads = collect_payloads(out)
-    print(f"Analysing {len(payloads)} payloads from all runs...")
-
-    shotjson.MIN_ARRAY_SCORE = 2
-    shots, commentary = [], []
-    for source, payload in payloads:
-        for path, records, context_fields in shotjson.find_record_arrays(payload):
-            score, fields = find_shots.assess(records)
-            if score and len(set(fields) - {"x", "y", "z"}) >= 2:
-                shots.append((score, source, records, context_fields, fields))
-            score, fields = find_shots.assess_commentary(records)
-            if score:
-                commentary.append((score, source, records, context_fields, fields))
-
-    def hole_of(row: dict) -> Any:
-        for key, value in row.items():
-            if shotjson.norm_key(key) in {"holenumber", "holeno", "hole"} and isinstance(value, (int, float)):
-                return value
-        return None
-
-    def sort_key(row: dict) -> tuple:
-        def number(*names):
-            for key, value in row.items():
-                if shotjson.norm_key(key) in names and isinstance(value, (int, float)):
-                    return value
-            return 0
-        return (number("holenumber", "holeno", "hole"), number("shotnumber", "shotno"))
-
-    wrote = False
-    for label, findings, filename in (
-        ("shot records", shots, "SHOT_BY_SHOT.csv"),
-        ("AI commentary", commentary, "AI_COMMENTARY.csv"),
-    ):
-        if not findings:
-            continue
-        # Each hole arrives as its own table, so merge them all rather than
-        # keeping only the best-scoring one -- otherwise this is one hole.
-        rows, seen_rows = [], set()
-        for score, source, records, context_fields, fields in findings:
-            for record_ in records:
-                row = {**shotjson.flatten(context_fields), **shotjson.flatten(record_)}
-                fingerprint = json.dumps(row, sort_keys=True, default=str)
-                if fingerprint in seen_rows:
-                    continue
-                seen_rows.add(fingerprint)
-                rows.append(row)
-
-        rows.sort(key=sort_key)
-        find_shots.write_csv(rows, HERE / filename)
-        holes = sorted({h for h in (hole_of(r) for r in rows) if h is not None})
-        print(f"\n{label}: {len(rows)} rows -> {filename}")
-        print(f"  fields: {findings[0][4]}")
-        if holes:
-            print(f"  holes : {', '.join(str(int(h)) for h in holes)}")
-            missing = [h for h in range(1, 19) if h not in holes]
-            if missing:
-                print(f"  MISSING holes {', '.join(str(h) for h in missing)}"
-                      f" -- run this again and step through just those.")
-        wrote = True
-
-    if not wrote:
-        print("\nNothing shot-shaped arrived. Run SEND DATA TO CLAUDE and push --")
-        print("Claude can then read exactly what the commentary panel requested.")
+    # Finish by running the real build, so a capture always leaves the proper
+    # spreadsheet behind. This used to run its own rough analysis and write it
+    # to SHOT_BY_SHOT.csv -- the deliverable's name -- in a different format,
+    # so committing straight after a capture pushed the raw dump instead.
+    print("\nBuilding the spreadsheet...\n")
+    result = subprocess.run(
+        [sys.executable, str(HERE / "build_shots.py")],
+        stdin=subprocess.DEVNULL, capture_output=True, text=True, cwd=str(HERE),
+    )
+    report = (result.stdout or "").replace("Press Enter to close...", "").rstrip()
+    print(report or result.stderr)
+    built = result.returncode == 0 and "shots -> SHOT_BY_SHOT.csv" in report
+    if not built:
+        print("\nThe build did not finish. Run SEND DATA TO CLAUDE and push --")
+        print("Claude can then read exactly what was captured.")
+    else:
+        print("\nDone. Check the line for this round says it matches the site's")
+        print("scorecard, then commit and push.")
     input("\nPress Enter to close... ")
-    return 0 if wrote else 1
+    return 0 if built else 1
 
 
 if __name__ == "__main__":

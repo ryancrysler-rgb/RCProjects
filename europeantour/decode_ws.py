@@ -97,8 +97,8 @@ def main() -> int:
         input("\nPress Enter to close... ")
         return 1
 
-    find_shots.write_csv(rows, HERE / "SHOT_BY_SHOT.csv")
-    print(f"\n{len(rows)} rows -> SHOT_BY_SHOT.csv")
+    find_shots.write_csv(rows, HERE / "DECODED_FRAMES.csv")
+    print(f"\n{len(rows)} rows -> DECODED_FRAMES.csv")
     input("\nPress Enter to close... ")
     return 0
 
