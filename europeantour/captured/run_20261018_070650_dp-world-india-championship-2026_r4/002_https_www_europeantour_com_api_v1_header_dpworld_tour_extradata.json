@@ -1,0 +1,1255 @@
+{
+  "ScheduleData": [
+    [
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/open-de-espana-presented-by-madrid-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": false,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026139,
+        "Status": 3,
+        "Name": "Open de Espa\u00f1a presented by Madrid",
+        "StartDate": "2026-10-08T00:00:00.0000000",
+        "CountryCode": "ESP",
+        "CourseName": "Real Club de Campo Villa de Madrid",
+        "RoundNo": "4",
+        "Location": null,
+        "EndDate": "2026-10-11T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 4
+      },
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/dp-world-india-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": false,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026140,
+        "Status": 0,
+        "Name": "DP World India Championship",
+        "StartDate": "2026-10-15T00:00:00.0000000",
+        "CountryCode": "IND",
+        "CourseName": "Delhi GC",
+        "RoundNo": "4",
+        "Location": null,
+        "EndDate": "2026-10-18T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 2
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/genesis-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": false,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026141,
+        "Status": 6,
+        "Name": "Genesis Championship",
+        "StartDate": "2026-10-22T00:00:00.0000000",
+        "CountryCode": "KOR",
+        "CourseName": "Woo Jeong Hills CC",
+        "RoundNo": "1",
+        "Location": null,
+        "EndDate": "2026-10-25T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      }
+    ]
+  ],
+  "RolexSeriesData": {
+    "Schedule": [
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/hero-dubai-desert-classic-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026106,
+        "Status": 3,
+        "Name": "Hero Dubai Desert Classic",
+        "StartDate": "2026-01-22T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Emirates GC",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-01-25T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/genesis-scottish-open-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026126,
+        "Status": 3,
+        "Name": "Genesis Scottish Open",
+        "StartDate": "2026-07-09T00:00:00.0000000",
+        "CountryCode": "SCO",
+        "CourseName": "The Renaissance Club",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-07-12T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 4,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/bmw-pga-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026136,
+        "Status": 3,
+        "Name": "BMW PGA CHAMPIONSHIP",
+        "StartDate": "2026-09-17T00:00:00.0000000",
+        "CountryCode": "ENG",
+        "CourseName": "Wentworth Club",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-09-20T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/abu-dhabi-aldar-championship-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026142,
+        "Status": 4,
+        "Name": "Abu Dhabi Aldar Championship",
+        "StartDate": "2026-11-05T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Yas Links",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-11-08T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      },
+      {
+        "CurrentRound": 1,
+        "EventSlug": null,
+        "EventUrl": "/dpworld-tour/dp-world-tour-championship-dubai-2026/",
+        "ExternalUrl": null,
+        "IsRolexEvent": true,
+        "UseNonBrandedClock": false,
+        "DefaultTab": null,
+        "EventId": 2026143,
+        "Status": 4,
+        "Name": "DP WORLD TOUR CHAMPIONSHIP, DUBAI",
+        "StartDate": "2026-11-12T00:00:00.0000000",
+        "CountryCode": "UAE",
+        "CourseName": "Earth course",
+        "RoundNo": null,
+        "Location": null,
+        "EndDate": "2026-11-15T00:00:00.0000000",
+        "TourId": 0,
+        "CompetitionId": null,
+        "RoundStatus": 0
+      }
+    ],
+    "SelectedEvent": 2
+  },
+  "RankingPlayers": [
+    [
+      {
+        "PlayerId": 38439,
+        "FirstName": "Patrick",
+        "LastName": "REED",
+        "CountryCode": "USA",
+        "EventsPlayed": 19,
+        "CountingEvents": 0,
+        "CurrentPoints": 3423.62,
+        "CurrentRank": 1,
+        "CurrentRankDesc": "1",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 2,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1770280028/prod/cdsmaznfe3lqje9vdihd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/patrick-reed-38439/"
+      },
+      {
+        "PlayerId": 43332,
+        "FirstName": "Eugenio",
+        "LastName": "CHACARRA",
+        "CountryCode": "ESP",
+        "EventsPlayed": 27,
+        "CountingEvents": 0,
+        "CurrentPoints": 3257.89,
+        "CurrentRank": 2,
+        "CurrentRankDesc": "2",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 1,
+        "EventWins": 2,
+        "PlacedSecond": 2,
+        "PlacedThird": 2,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769159085/prod/o5lyzjr4fmwvnzx2yj29",
+        "SelfUrl": null,
+        "PlayerLink": "/players/eugenio-chacarra-43332/"
+      },
+      {
+        "PlayerId": 34024,
+        "FirstName": "Rory",
+        "LastName": "MCILROY",
+        "CountryCode": "NIR",
+        "EventsPlayed": 10,
+        "CountingEvents": 0,
+        "CurrentPoints": 3115.86,
+        "CurrentRank": 3,
+        "CurrentRankDesc": "3",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": -1,
+        "EventWins": 1,
+        "PlacedSecond": 1,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1561217808/PROD/fg1cotbp6zfhnzmfactd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/rory-mcilroy-34024/"
+      },
+      {
+        "PlayerId": 43957,
+        "FirstName": "Casey",
+        "LastName": "JARVIS",
+        "CountryCode": "RSA",
+        "EventsPlayed": 24,
+        "CountingEvents": 0,
+        "CurrentPoints": 2654.01,
+        "CurrentRank": 4,
+        "CurrentRankDesc": "4",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 2,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1758614659/prod/yajhjihmla3mcwyojdno",
+        "SelfUrl": null,
+        "PlayerLink": "/players/casey-jarvis-43957/"
+      },
+      {
+        "PlayerId": 39583,
+        "FirstName": "Aaron",
+        "LastName": "RAI",
+        "CountryCode": "ENG",
+        "EventsPlayed": 6,
+        "CountingEvents": 0,
+        "CurrentPoints": 2408.5,
+        "CurrentRank": 5,
+        "CurrentRankDesc": "5",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 1,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 0,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769088884/prod/xoy0qltrhfo7u8aoofcd",
+        "SelfUrl": null,
+        "PlayerLink": "/players/aaron-rai-39583/"
+      },
+      {
+        "PlayerId": 35122,
+        "FirstName": "Ryan",
+        "LastName": "FOX",
+        "CountryCode": "NZL",
+        "EventsPlayed": 10,
+        "CountingEvents": 0,
+        "CurrentPoints": 2266.95,
+        "CurrentRank": 6,
+        "CurrentRankDesc": "6",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 1,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1561241169/PROD/eoy4apvuyralh1cg5bqz",
+        "SelfUrl": null,
+        "PlayerLink": "/players/ryan-fox-35122/"
+      },
+      {
+        "PlayerId": 43682,
+        "FirstName": "Jayden",
+        "LastName": "SCHAPER",
+        "CountryCode": "RSA",
+        "EventsPlayed": 24,
+        "CountingEvents": 0,
+        "CurrentPoints": 2153.29,
+        "CurrentRank": 7,
+        "CurrentRankDesc": "7",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": null,
+        "RankMoved": 0,
+        "EventWins": 2,
+        "PlacedSecond": 1,
+        "PlacedThird": 0,
+        "PlacedFourToTen": 2,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1740056148/prod/qrkkx8ldyaicrrapgdik",
+        "SelfUrl": null,
+        "PlayerLink": "/players/jayden-schaper-43682/"
+      },
+      {
+        "PlayerId": 105456,
+        "FirstName": "Jacob Skov",
+        "LastName": "OLESEN",
+        "CountryCode": "DEN",
+        "EventsPlayed": 27,
+        "CountingEvents": 0,
+        "CurrentPoints": 1954.34,
+        "CurrentRank": 8,
+        "CurrentRankDesc": "8",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": 2,
+        "EventWins": 0,
+        "PlacedSecond": 2,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 6,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1734726842/prod/djhvlr8mhigfidtaxgod",
+        "SelfUrl": null,
+        "PlayerLink": "/players/jacob-skov-olesen-105456/"
+      },
+      {
+        "PlayerId": 39474,
+        "FirstName": "Matt",
+        "LastName": "FITZPATRICK",
+        "CountryCode": "ENG",
+        "EventsPlayed": 8,
+        "CountingEvents": 0,
+        "CurrentPoints": 1882.95,
+        "CurrentRank": 9,
+        "CurrentRankDesc": "9",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": -1,
+        "EventWins": 1,
+        "PlacedSecond": 0,
+        "PlacedThird": 1,
+        "PlacedFourToTen": 1,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1710167776/PROD/muhkg86ouieaudjommp4",
+        "SelfUrl": null,
+        "PlayerLink": "/players/matt-fitzpatrick-39474/"
+      },
+      {
+        "PlayerId": 38119,
+        "FirstName": "Andy",
+        "LastName": "SULLIVAN",
+        "CountryCode": "ENG",
+        "EventsPlayed": 25,
+        "CountingEvents": 0,
+        "CurrentPoints": 1848.27,
+        "CurrentRank": 10,
+        "CurrentRankDesc": "10",
+        "SeasonAttribute": null,
+        "EquipmentSponsor": "Titleist",
+        "RankMoved": -1,
+        "EventWins": 0,
+        "PlacedSecond": 1,
+        "PlacedThird": 2,
+        "PlacedFourToTen": 3,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1769085684/prod/xfqqiara6lrl8m25vbit",
+        "SelfUrl": null,
+        "PlayerLink": "/players/andy-sullivan-38119/"
+      }
+    ]
+  ],
+  "TourNews": [
+    {
+      "Type": "story",
+      "_translationId": "cdad7c1f-7f5a-4773-896c-0c4ee293f628",
+      "_entityId": "1c2f1ef8-3231-46c2-bdf3-0c33fc86ca32",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/eugenio-chacarra-wins-in-india-to-top-race-to-dubai-rankings/",
+      "Slug": "eugenio-chacarra-wins-in-india-to-top-race-to-dubai-rankings",
+      "Title": "Eugenio Chacarra wins in India to top Race to Dubai Rankings",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "eccf7fb0-0c16-403e-88e1-09a1b1997de7",
+          "_entityId": "4751f556-df8a-4cbe-bc32-e6c679cd8137",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/report",
+          "Title": "Report",
+          "Slug": "report",
+          "NeutralSlug": "report",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-report",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "106"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "6d3ca43f-4f3f-44e5-bc0e-9591454cc5a8",
+          "_entityId": "315dce86-79bf-4406-bf99-e397fab0cab9",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rankings",
+          "Title": "Rankings",
+          "Slug": "rankings",
+          "NeutralSlug": "rankings",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-rankings",
+            "SourceName": "editorial"
+          },
+          "ExtraData": null,
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "9e0d1a3c-fb2c-4bf8-9f27-fb346d3b2dbd",
+          "_entityId": "852a4893-3b8b-4a9d-a721-90ffc6d2b003",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-dp-world-india-championship-2026140",
+          "Title": "DP World India Championship",
+          "Slug": "2026-dp-world-india-championship-2026140",
+          "NeutralSlug": "2026-dp-world-india-championship-2026140",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026140",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026140",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-10-15T00:00:00Z",
+            "endDate": "2026-10-18T00:00:00Z",
+            "location": "[{\"CourseId\":\"4756\",\"Name\":\"Delhi GC\",\"CountryCode\":\"IND\",\"Location\":\"Delhi GC, New Delhi, India\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "f294d7fc-30e5-4021-9513-9b80bdad911c",
+          "_entityId": "9be183b0-6a05-45d8-a086-d04af835ca88",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/eugenio-lopez-chacarra-43332",
+          "Title": "Eugenio CHACARRA 43332",
+          "Slug": "eugenio-lopez-chacarra-43332",
+          "NeutralSlug": "eugenio-lopez-chacarra-43332",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "43332",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "playerId": "43332",
+            "firstName": "Eugenio",
+            "lastName": "CHACARRA",
+            "dateOfBirth": "2000-03-22",
+            "countryCode": "ESP",
+            "placeOfBirth": "",
+            "attachment": "Souther Hills G&CC",
+            "height": "",
+            "qualifyingSchool": ""
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "fcd434c3-4b9d-4717-9434-f42fdfe34de4",
+          "_entityId": "c8a4ad76-11f4-4c94-86df-8066a1457132",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/notification-et-content",
+          "Title": "Content",
+          "Slug": "notification-et-content",
+          "NeutralSlug": "notification-et-content",
+          "ExternalSourceName": "notification",
+          "ExternalSourceReference": {
+            "SourceId": "notification-et-content",
+            "SourceName": "notification"
+          },
+          "ExtraData": {
+            "UrbanTag": "et-content"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "PA"
+      },
+      "CreatedBy": "Matt Hardisty",
+      "LastUpdatedBy": "Matt Hardisty",
+      "LastUpdatedDate": "2026-10-18T10:58:18.428Z",
+      "ContentDate": "2026-10-18T10:54:53.78Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "eccf7fb0-0c16-403e-88e1-09a1b1997de7",
+        "_entityId": "4751f556-df8a-4cbe-bc32-e6c679cd8137",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/report",
+        "Title": "Report",
+        "Slug": "report",
+        "NeutralSlug": "report",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-report",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeKindId": "106"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Eugenio Chacarra secured his third victory of a remarkable 2026 season at the DP World India Championship to rise to the top of the Race to Dubai Rankings Delivered by DP World.",
+      "Summary": "Eugenio Chacarra secured his third victory of a remarkable 2026 season at the DP World India Championship to rise to the top of the Race to Dubai Rankings Delivered by DP World.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2300785925",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2300785925",
+        "Title": "Eugenio Chacarra",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1792320162/prod/af13matj0xqt92homtr0",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1792320162/prod/af13matj0xqt92homtr0",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "8426c139-af6b-470b-8e19-3b5a67cba9c7",
+      "_entityId": "b703a9e9-03fa-4a3b-b7cf-4a6eaef031c0",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/delhi-golf-club-why-strategy-off-the-tee-is-the-big-talking-point/",
+      "Slug": "delhi-golf-club-why-strategy-off-the-tee-is-the-big-talking-point",
+      "Title": "Delhi Golf Club: Why strategy off the tee is the big talking point",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour"
+      },
+      "CreatedBy": "Camilla Tait",
+      "LastUpdatedBy": "Camilla Tait",
+      "LastUpdatedDate": "2026-10-16T23:01:50.529Z",
+      "ContentDate": "2026-10-17T17:12:00Z",
+      "Context": null,
+      "Featured": 0,
+      "Headline": "For the second successive year players at the DP World India Championship have overwhelmingly opted to favour\u00a0 accuracy and course management over raw distance.\u00a0",
+      "Summary": "For the second successive year players at the DP World India Championship have overwhelmingly opted to favour\u00a0accuracy and course management over raw distance.\nThere's a good reason why.\nDelhi Golf Club is among the shortest on the DP World Tour\u2019s 2025 Race to Dubai schedule at 6,912 yards, and",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "gettyimages-2300493089",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/gettyimages-2300493089",
+        "Title": "GettyImages-2300493089",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1792191651/prod/txodkm2n9dxay5i6y086",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1792191651/prod/txodkm2n9dxay5i6y086",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "b8fea709-46ef-4f4e-917a-d7c786bc9ea5",
+      "_entityId": "116d9928-fea0-4bc9-81cc-e6866bfc0c6b",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/dp-world-india-championship-day-three-digest/",
+      "Slug": "dp-world-india-championship-day-three-digest",
+      "Title": "DP World India Championship - Day three digest",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "9e0d1a3c-fb2c-4bf8-9f27-fb346d3b2dbd",
+          "_entityId": "852a4893-3b8b-4a9d-a721-90ffc6d2b003",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-dp-world-india-championship-2026140",
+          "Title": "DP World India Championship",
+          "Slug": "2026-dp-world-india-championship-2026140",
+          "NeutralSlug": "2026-dp-world-india-championship-2026140",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026140",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026140",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-10-15T00:00:00Z",
+            "endDate": "2026-10-18T00:00:00Z",
+            "location": "[{\"CourseId\":\"4756\",\"Name\":\"Delhi GC\",\"CountryCode\":\"IND\",\"Location\":\"Delhi GC, New Delhi, India\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "3002f653-5c8f-41f4-93a1-81dec298154f",
+          "_entityId": "14b57337-b883-4d73-a1c1-084d5f386b24",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/back-9",
+          "Title": "Back 9",
+          "Slug": "back-9",
+          "NeutralSlug": "back-9",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-back-9",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {},
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "PA"
+      },
+      "CreatedBy": "Matt Hardisty",
+      "LastUpdatedBy": "Matt Hardisty",
+      "LastUpdatedDate": "2026-10-17T15:12:48.129Z",
+      "ContentDate": "2026-10-17T14:53:34.348Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+        "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+        "Title": "News",
+        "Slug": "news",
+        "NeutralSlug": "news",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-news",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeKindId": "100"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Everything you need to know from an elongated Moving Day in New Delhi.",
+      "Summary": "Darius van Driel got his running shoes on, Laurie Canter doubled up and cricketing great Sachin Tendulkar offered up an interesting comparison on day three of the 2026 DP World India Championship.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "darius-van-driel-2295734231",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/darius-van-driel-2295734231",
+        "Title": "Darius van Driel 2295734231",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1792247428/prod/iaaho4v06zbzko2q8sjn",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1792247428/prod/iaaho4v06zbzko2q8sjn",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "6a3e2fd7-bc19-41fa-97b9-1cd4cea39db1",
+      "_entityId": "14ecbe15-422a-4c68-8b8b-ebaab1789672",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/laurie-canter-enjoys-rare-double-in-overtime-shift-in-india/",
+      "Slug": "laurie-canter-enjoys-rare-double-in-overtime-shift-in-india",
+      "Title": "Laurie Canter enjoys rare double in overtime shift in India",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "9e0d1a3c-fb2c-4bf8-9f27-fb346d3b2dbd",
+          "_entityId": "852a4893-3b8b-4a9d-a721-90ffc6d2b003",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-dp-world-india-championship-2026140",
+          "Title": "DP World India Championship",
+          "Slug": "2026-dp-world-india-championship-2026140",
+          "NeutralSlug": "2026-dp-world-india-championship-2026140",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026140",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026140",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-10-15T00:00:00Z",
+            "endDate": "2026-10-18T00:00:00Z",
+            "location": "[{\"CourseId\":\"4756\",\"Name\":\"Delhi GC\",\"CountryCode\":\"IND\",\"Location\":\"Delhi GC, New Delhi, India\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "4337eec3-ccc6-4dcf-9fad-d5dca2a1c10a",
+          "_entityId": "052564b2-a217-4ae8-8391-bed7e071dbf7",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/laurie-canter-37624",
+          "Title": "Laurie CANTER 37624",
+          "Slug": "laurie-canter-37624",
+          "NeutralSlug": "laurie-canter-37624",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "37624",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "ENG",
+            "playerId": "37624",
+            "firstName": "Laurie",
+            "lastName": "CANTER",
+            "dateOfBirth": "1989-11-03",
+            "placeOfBirth": "",
+            "attachment": "Cumberwell Park GC",
+            "height": "185",
+            "qualifyingSchool": "(2010), (11), (12), (13), (14), 15*, 16*, 17*"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "f602dc89-27ba-4130-88ad-32236b829504",
+          "_entityId": "a1dd841b-6504-4d32-82dc-348f706e7e78",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/shane-lowry-36489",
+          "Title": "Shane LOWRY 36489",
+          "Slug": "shane-lowry-36489",
+          "NeutralSlug": "shane-lowry-36489",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "36489",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "IRL",
+            "playerId": "36489",
+            "firstName": "Shane",
+            "lastName": "LOWRY",
+            "dateOfBirth": "1987-04-02",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "183",
+            "qualifyingSchool": "(2008) (Joined Tour by winning the 3 Irish Open 2009)"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "3002f653-5c8f-41f4-93a1-81dec298154f",
+          "_entityId": "14b57337-b883-4d73-a1c1-084d5f386b24",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/back-9",
+          "Title": "Back 9",
+          "Slug": "back-9",
+          "NeutralSlug": "back-9",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-back-9",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {},
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "PA"
+      },
+      "CreatedBy": "Matt Hardisty",
+      "LastUpdatedBy": "Matt Hardisty",
+      "LastUpdatedDate": "2026-10-17T15:12:15.922Z",
+      "ContentDate": "2026-10-17T13:50:25.714Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+        "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+        "Title": "News",
+        "Slug": "news",
+        "NeutralSlug": "news",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-news",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeKindId": "100"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Laurie Canter enjoyed the unusual feat of making two eagles in a day at the same hole on a successful Saturday at the 2026 DP World India Championship.",
+      "Summary": "Laurie Canter enjoyed the unusual feat of making two eagles in a day at the same hole on a successful Saturday at the 2026 DP World India Championship.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "laurie-canter-2300584767",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/laurie-canter-2300584767",
+        "Title": "Laurie Canter 2300584767",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1792244761/prod/weus1ez8hviehafdgqt7",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1792244761/prod/weus1ez8hviehafdgqt7",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    },
+    {
+      "Type": "story",
+      "_translationId": "2edb7176-a949-4dca-ad25-14b1f1baddbf",
+      "_entityId": "ceb476db-3ca5-41cd-abff-dcc6ec9e92a2",
+      "SelfUrl": "/dpworld-tour/news/articles/detail/eugenio-chacarra-hits-the-front-ahead-of-long-final-day-in-india/",
+      "Slug": "eugenio-chacarra-hits-the-front-ahead-of-long-final-day-in-india",
+      "Title": "Eugenio Chacarra takes five-shot lead into final round in India",
+      "Tags": [
+        {
+          "Type": "tag",
+          "_translationId": "9e0d1a3c-fb2c-4bf8-9f27-fb346d3b2dbd",
+          "_entityId": "852a4893-3b8b-4a9d-a721-90ffc6d2b003",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/2026-dp-world-india-championship-2026140",
+          "Title": "DP World India Championship",
+          "Slug": "2026-dp-world-india-championship-2026140",
+          "NeutralSlug": "2026-dp-world-india-championship-2026140",
+          "ExternalSourceName": "events",
+          "ExternalSourceReference": {
+            "SourceId": "2026140",
+            "SourceName": "events"
+          },
+          "ExtraData": {
+            "type": "event",
+            "id": "2026140",
+            "season": "2026",
+            "tour": "dpworld-tour",
+            "startDate": "2026-10-15T00:00:00Z",
+            "endDate": "2026-10-18T00:00:00Z",
+            "location": "[{\"CourseId\":\"4756\",\"Name\":\"Delhi GC\",\"CountryCode\":\"IND\",\"Location\":\"Delhi GC, New Delhi, India\"}]"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "833a81eb-6c63-4b5a-89d9-b9fa80fc5280",
+          "_entityId": "2be92835-e8cd-4c45-a7bc-ebbd916c9ac5",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/round-3",
+          "Title": "Round 3",
+          "Slug": "round-3",
+          "NeutralSlug": "round-3",
+          "ExternalSourceName": "round",
+          "ExternalSourceReference": {
+            "SourceId": "round-3",
+            "SourceName": "round"
+          },
+          "ExtraData": {
+            "RoundNumber": "3"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "f294d7fc-30e5-4021-9513-9b80bdad911c",
+          "_entityId": "9be183b0-6a05-45d8-a086-d04af835ca88",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/eugenio-lopez-chacarra-43332",
+          "Title": "Eugenio CHACARRA 43332",
+          "Slug": "eugenio-lopez-chacarra-43332",
+          "NeutralSlug": "eugenio-lopez-chacarra-43332",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "43332",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "playerId": "43332",
+            "firstName": "Eugenio",
+            "lastName": "CHACARRA",
+            "dateOfBirth": "2000-03-22",
+            "countryCode": "ESP",
+            "placeOfBirth": "",
+            "attachment": "Souther Hills G&CC",
+            "height": "",
+            "qualifyingSchool": ""
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "27b2a1c6-0ac7-423b-8e51-c7d0382ee7d5",
+          "_entityId": "dcef4617-9c51-4258-b413-a711fd9e7552",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/angel-hidalgo-42508",
+          "Title": "Angel HIDALGO 42508",
+          "Slug": "angel-hidalgo-42508",
+          "NeutralSlug": "angel-hidalgo-42508",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "42508",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "ESP",
+            "playerId": "42508",
+            "firstName": "Angel",
+            "lastName": "HIDALGO",
+            "dateOfBirth": "1998-04-28",
+            "placeOfBirth": "",
+            "attachment": "R.C.G. Guadalmina",
+            "height": "",
+            "qualifyingSchool": ""
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "e7d04263-dae9-4d41-978b-3fa34cee92f3",
+          "_entityId": "237e0d7a-7dc9-44c6-b76f-d0309abd2617",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/rory-mcilroy-34024",
+          "Title": "Rory MCILROY 34024",
+          "Slug": "rory-mcilroy-34024",
+          "NeutralSlug": "rory-mcilroy-34024",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "34024",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "NIR",
+            "playerId": "34024",
+            "firstName": "Rory",
+            "lastName": "MCILROY",
+            "dateOfBirth": "1989-05-04",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "175",
+            "qualifyingSchool": "2007 (Joined Tour as an Affiliate Member 2007)"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "17b39514-3224-41aa-a5b4-ddfe38284825",
+          "_entityId": "58084878-2426-45f5-8eb8-6fabbfae1109",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/joost-luiten-34085",
+          "Title": "Joost LUITEN 34085",
+          "Slug": "joost-luiten-34085",
+          "NeutralSlug": "joost-luiten-34085",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "34085",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "NED",
+            "playerId": "34085",
+            "firstName": "Joost",
+            "lastName": "LUITEN",
+            "dateOfBirth": "1986-01-07",
+            "placeOfBirth": "",
+            "attachment": "Winston GC",
+            "height": "178",
+            "qualifyingSchool": "2006, 09"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "b008a901-626f-43f9-929c-65de828905d6",
+          "_entityId": "e1aa1f3f-8241-438e-b3e5-73c691230565",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/patrick-reed-38439",
+          "Title": "Patrick REED 38439",
+          "Slug": "patrick-reed-38439",
+          "NeutralSlug": "patrick-reed-38439",
+          "ExternalSourceName": "players",
+          "ExternalSourceReference": {
+            "SourceId": "38439",
+            "SourceName": "players"
+          },
+          "ExtraData": {
+            "countryCode": "USA",
+            "playerId": "38439",
+            "firstName": "Patrick",
+            "lastName": "REED",
+            "dateOfBirth": "1990-08-05",
+            "placeOfBirth": "",
+            "attachment": "",
+            "height": "185",
+            "qualifyingSchool": "2011"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "86d16031-c2e5-4669-9bff-cbf1ddfb1408",
+          "_entityId": "4e87340c-fbed-405b-aa37-19a46f757056",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/news",
+          "Title": "News",
+          "Slug": "news",
+          "NeutralSlug": "news",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-news",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "100"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "eccf7fb0-0c16-403e-88e1-09a1b1997de7",
+          "_entityId": "4751f556-df8a-4cbe-bc32-e6c679cd8137",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/report",
+          "Title": "Report",
+          "Slug": "report",
+          "NeutralSlug": "report",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-report",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {
+            "forgeKindId": "106"
+          },
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "3002f653-5c8f-41f4-93a1-81dec298154f",
+          "_entityId": "14b57337-b883-4d73-a1c1-084d5f386b24",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/back-9",
+          "Title": "Back 9",
+          "Slug": "back-9",
+          "NeutralSlug": "back-9",
+          "ExternalSourceName": "editorial",
+          "ExternalSourceReference": {
+            "SourceId": "tags-back-9",
+            "SourceName": "editorial"
+          },
+          "ExtraData": {},
+          "Fields": {}
+        },
+        {
+          "Type": "tag",
+          "_translationId": "fcd434c3-4b9d-4717-9434-f42fdfe34de4",
+          "_entityId": "c8a4ad76-11f4-4c94-86df-8066a1457132",
+          "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/notification-et-content",
+          "Title": "Content",
+          "Slug": "notification-et-content",
+          "NeutralSlug": "notification-et-content",
+          "ExternalSourceName": "notification",
+          "ExternalSourceReference": {
+            "SourceId": "notification-et-content",
+            "SourceName": "notification"
+          },
+          "ExtraData": {
+            "UrbanTag": "et-content"
+          },
+          "Fields": {}
+        }
+      ],
+      "Relations": null,
+      "References": null,
+      "Fields": {
+        "tour": "DP World Tour",
+        "provider": "PA"
+      },
+      "CreatedBy": "Matt Hardisty",
+      "LastUpdatedBy": "Matt Hardisty",
+      "LastUpdatedDate": "2026-10-18T06:56:37.465Z",
+      "ContentDate": "2026-10-17T12:32:42.759Z",
+      "Context": {
+        "Type": "tag",
+        "_translationId": "eccf7fb0-0c16-403e-88e1-09a1b1997de7",
+        "_entityId": "4751f556-df8a-4cbe-bc32-e6c679cd8137",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/tags/report",
+        "Title": "Report",
+        "Slug": "report",
+        "NeutralSlug": "report",
+        "ExternalSourceName": "editorial",
+        "ExternalSourceReference": {
+          "SourceId": "tags-report",
+          "SourceName": "editorial"
+        },
+        "ExtraData": {
+          "forgeKindId": "106"
+        },
+        "Fields": {}
+      },
+      "Featured": 0,
+      "Headline": "Eugenio Chacarra stretched his lead to five shots ahead of the final round of the 2026 DP World India Championship after signing for a 63 on Sunday morning.",
+      "Summary": "Eugenio Chacarra\u00a0stretched his lead to five shots ahead of the final round of the 2026 DP World India Championship after signing for a 63 on Sunday morning.",
+      "Parts": null,
+      "Thumbnail": {
+        "Slug": "eugenio-chacarra-2300624588",
+        "SelfUrl": "https://fdapi.europeantour.com/v2/content/en-us/photos/eugenio-chacarra-2300624588",
+        "Title": "Eugenio Chacarra 2300624588",
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1792240026/prod/dtlq5odqresynv0tpmww",
+        "ThumbnailUrl": "https://www.europeantour.com/api/images/image/upload/w_250,h_250,c_thumb,g_auto,q_auto,f_jpg/v1792240026/prod/dtlq5odqresynv0tpmww",
+        "Format": "jpg",
+        "OverriddenFormats": {}
+      },
+      "_listAvailability": 0
+    }
+  ],
+  "PlayerStats": [
+    [
+      {
+        "Stat": "DrivingAccuracyPct",
+        "PlayerId": 104063,
+        "FirstName": "Kazuma",
+        "LastName": "KOBORI",
+        "CountryCode": "NZL",
+        "PlayerValue": 71.88139059304703,
+        "SeasonAvg": 58.015643908408094,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1758614718/prod/lqusr5x9hqe9pmkcqkrd",
+        "PlayerLink": "/players/kazuma-kobori-104063/"
+      },
+      {
+        "Stat": "DrivingDistanceAvg",
+        "PlayerId": 42054,
+        "FirstName": "Marco",
+        "LastName": "PENGE",
+        "CountryCode": "ENG",
+        "PlayerValue": 328.6,
+        "SeasonAvg": 299.2215834118756,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1771233169/prod/prjc20kdu3z7v13a0v7t",
+        "PlayerLink": "/players/marco-penge-42054/"
+      },
+      {
+        "Stat": "GreenInRegulationPct",
+        "PlayerId": 100617,
+        "FirstName": "Keita",
+        "LastName": "NAKAJIMA",
+        "CountryCode": "JPN",
+        "PlayerValue": 76.04166666666667,
+        "SeasonAvg": 66.83369986386009,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1760712269/prod/raedqvosh1euzon7mtng",
+        "PlayerLink": "/players/keita-nakajima-100617/"
+      },
+      {
+        "Stat": "PuttsPerRound",
+        "PlayerId": 32013,
+        "FirstName": "Shaun",
+        "LastName": "NORRIS",
+        "CountryCode": "RSA",
+        "PlayerValue": 28.135593220338983,
+        "SeasonAvg": 29.308482563619226,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1760713191/prod/s3now0gpkxdjffp37dvk",
+        "PlayerLink": "/players/shaun-norris-32013/"
+      },
+      {
+        "Stat": "ScramblesPct",
+        "PlayerId": 39474,
+        "FirstName": "Matt",
+        "LastName": "FITZPATRICK",
+        "CountryCode": "ENG",
+        "PlayerValue": 69.51219512195122,
+        "SeasonAvg": 56.67103455897444,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/private/{formatInstructions}/v1710167776/PROD/muhkg86ouieaudjommp4",
+        "PlayerLink": "/players/matt-fitzpatrick-39474/"
+      },
+      {
+        "Stat": "StrokeAvg",
+        "PlayerId": 39617,
+        "FirstName": "Matt",
+        "LastName": "WALLACE",
+        "CountryCode": "ENG",
+        "PlayerValue": 68.947368,
+        "SeasonAvg": 70.794039,
+        "TemplateUrl": "https://www.europeantour.com/api/images/image/upload/{formatInstructions}/v1770451381/prod/x2lku6l08exr69o7pgse",
+        "PlayerLink": "/players/matt-wallace-39617/"
+      }
+    ]
+  ]
+}
