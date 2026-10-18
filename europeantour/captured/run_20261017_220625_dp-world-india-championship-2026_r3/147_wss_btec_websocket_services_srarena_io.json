@@ -1,0 +1,69 @@
+{
+  "id": "2191123226",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfTournamentTeamsShotFeed": [
+        {
+          "id": 1792233576222,
+          "timestamp": "2026-10-17T10:39:36.000Z",
+          "shotNo": 4,
+          "holeScore": "Par",
+          "eventType": "BallHoled",
+          "teamId": 36,
+          "playerId": 840,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1792233574219,
+          "timestamp": "2026-10-17T10:39:34.000Z",
+          "shotNo": 3,
+          "eventType": "DetailedLie",
+          "teamId": 36,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OGR",
+          "shotDistance": 3.93072251894095,
+          "distanceToPin": 0.278069493904234,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1792233354215,
+          "timestamp": "2026-10-17T10:35:54.000Z",
+          "shotNo": 2,
+          "eventType": "DetailedLie",
+          "teamId": 36,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OFW",
+          "shotDistance": 141.72204868617,
+          "distanceToPin": 4.19534228848926,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1792232973211,
+          "timestamp": "2026-10-17T10:29:33.000Z",
+          "shotNo": 1,
+          "eventType": "DetailedLie",
+          "teamId": 36,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "OFW",
+          "prevSurfaceTypeCode": null,
+          "shotDistance": 244.224708883263,
+          "distanceToPin": 143.235197160077,
+          "provisionalIndex": 0
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1439",
+    "operationName": "GOLF_TOURNAMENT_TEAMS_SHOT_FEED_____MEDIA",
+    "subscriptionHash": "2191123226"
+  },
+  "_operation": "ShotFeedSubscribeToGolfTournamentTeamsShotFeed"
+}

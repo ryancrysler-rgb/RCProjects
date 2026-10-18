@@ -1,0 +1,83 @@
+{
+  "id": "556200808",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfTournamentTeamsShotFeed": [
+        {
+          "id": 1792225426078,
+          "timestamp": "2026-10-17T08:23:46.000Z",
+          "shotNo": 5,
+          "holeScore": "Bogey",
+          "eventType": "BallHoled",
+          "teamId": 36,
+          "playerId": 840,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1792225269075,
+          "timestamp": "2026-10-17T08:21:09.000Z",
+          "shotNo": 4,
+          "eventType": "DetailedLie",
+          "teamId": 36,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OGS",
+          "shotDistance": 10.5590312231544,
+          "distanceToPin": 2.43981689304396,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1792225222071,
+          "timestamp": "2026-10-17T08:20:22.000Z",
+          "shotNo": 3,
+          "eventType": "DetailedLie",
+          "teamId": 36,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGS",
+          "prevSurfaceTypeCode": null,
+          "shotDistance": 13.5204071449325,
+          "distanceToPin": 12.9268415414379,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1792225115067,
+          "timestamp": "2026-10-17T08:18:35.000Z",
+          "shotNo": 2,
+          "eventType": "DetailedLie",
+          "teamId": 36,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "ORO",
+          "prevSurfaceTypeCode": null,
+          "shotDistance": 98.0298064296517,
+          "distanceToPin": 26.4361157956622,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1792224796063,
+          "timestamp": "2026-10-17T08:13:16.000Z",
+          "shotNo": 1,
+          "eventType": "DetailedLie",
+          "teamId": 36,
+          "playerId": 840,
+          "isProvisional": false,
+          "surfaceTypeCode": "ORO",
+          "prevSurfaceTypeCode": null,
+          "shotDistance": 228.191651847697,
+          "distanceToPin": 124.45128835672,
+          "provisionalIndex": 0
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1439",
+    "operationName": "GOLF_TOURNAMENT_TEAMS_SHOT_FEED_____MEDIA",
+    "subscriptionHash": "556200808"
+  },
+  "_operation": "ShotFeedSubscribeToGolfTournamentTeamsShotFeed"
+}

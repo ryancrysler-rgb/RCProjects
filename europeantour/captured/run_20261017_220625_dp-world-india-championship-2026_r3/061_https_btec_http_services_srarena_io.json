@@ -1,0 +1,828 @@
+{
+  "data": {
+    "getGolfTournament": {
+      "golfCourses": [
+        {
+          "id": 1134,
+          "externalId": "ET-1473",
+          "name": "Delhi GC",
+          "main": true,
+          "rounds": [
+            {
+              "roundNo": 1,
+              "holes": [
+                {
+                  "par": 5,
+                  "officialYardage": 515,
+                  "actualYardage": 512,
+                  "pinPlacement": {
+                    "x": 718376.2730247041,
+                    "y": null,
+                    "z": 3166013.9016618426
+                  },
+                  "holeNo": 1
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 374,
+                  "actualYardage": 371,
+                  "pinPlacement": {
+                    "x": 718557.8949522842,
+                    "y": null,
+                    "z": 3165761.8960545952
+                  },
+                  "holeNo": 2
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 464,
+                  "actualYardage": 460,
+                  "pinPlacement": {
+                    "x": 718322.8379702203,
+                    "y": null,
+                    "z": 3165439.548123284
+                  },
+                  "holeNo": 3
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 416,
+                  "actualYardage": 412,
+                  "pinPlacement": {
+                    "x": 718639.5544051941,
+                    "y": null,
+                    "z": 3165596.5757844592
+                  },
+                  "holeNo": 4
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 172,
+                  "actualYardage": 174,
+                  "pinPlacement": {
+                    "x": 718743.7559782426,
+                    "y": null,
+                    "z": 3165700.5009524217
+                  },
+                  "holeNo": 5
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 398,
+                  "actualYardage": 394,
+                  "pinPlacement": {
+                    "x": 718585.1422178849,
+                    "y": null,
+                    "z": 3166172.928484413
+                  },
+                  "holeNo": 6
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 195,
+                  "actualYardage": 185,
+                  "pinPlacement": {
+                    "x": 718443.321709471,
+                    "y": null,
+                    "z": 3166046.4443256618
+                  },
+                  "holeNo": 7
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 522,
+                  "actualYardage": 519,
+                  "pinPlacement": {
+                    "x": 718342.6708793831,
+                    "y": null,
+                    "z": 3165562.147149616
+                  },
+                  "holeNo": 8
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 444,
+                  "actualYardage": 440,
+                  "pinPlacement": {
+                    "x": 718692.2180542196,
+                    "y": null,
+                    "z": 3165723.854077959
+                  },
+                  "holeNo": 9
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 428,
+                  "actualYardage": 424,
+                  "pinPlacement": {
+                    "x": 718773.8013668885,
+                    "y": null,
+                    "z": 3165277.0648969943
+                  },
+                  "holeNo": 10
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 427,
+                  "actualYardage": 422,
+                  "pinPlacement": {
+                    "x": 718735.6388621471,
+                    "y": null,
+                    "z": 3164966.177081439
+                  },
+                  "holeNo": 11
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 194,
+                  "actualYardage": 189,
+                  "pinPlacement": {
+                    "x": 718610.1284308559,
+                    "y": null,
+                    "z": 3164923.577001542
+                  },
+                  "holeNo": 12
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 384,
+                  "actualYardage": 380,
+                  "pinPlacement": {
+                    "x": 718351.384834046,
+                    "y": null,
+                    "z": 3165149.9197874498
+                  },
+                  "holeNo": 13
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 507,
+                  "actualYardage": 502,
+                  "pinPlacement": {
+                    "x": 718619.6936103688,
+                    "y": null,
+                    "z": 3165502.0388837685
+                  },
+                  "holeNo": 14
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 338,
+                  "actualYardage": 348,
+                  "pinPlacement": {
+                    "x": 718333.0932751899,
+                    "y": null,
+                    "z": 3165231.3376814034
+                  },
+                  "holeNo": 15
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 412,
+                  "actualYardage": 407,
+                  "pinPlacement": {
+                    "x": 718674.9001952223,
+                    "y": null,
+                    "z": 3165113.1557825906
+                  },
+                  "holeNo": 16
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 166,
+                  "actualYardage": 154,
+                  "pinPlacement": {
+                    "x": 718577.015379632,
+                    "y": null,
+                    "z": 3165260.853069232
+                  },
+                  "holeNo": 17
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 556,
+                  "actualYardage": 550,
+                  "pinPlacement": {
+                    "x": 718782.2087825732,
+                    "y": null,
+                    "z": 3165680.965358245
+                  },
+                  "holeNo": 18
+                }
+              ]
+            },
+            {
+              "roundNo": 2,
+              "holes": [
+                {
+                  "par": 5,
+                  "officialYardage": 515,
+                  "actualYardage": 511,
+                  "pinPlacement": {
+                    "x": 718358.3504844959,
+                    "y": null,
+                    "z": 3166015.4348869603
+                  },
+                  "holeNo": 1
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 374,
+                  "actualYardage": 370,
+                  "pinPlacement": {
+                    "x": 718538.6934104098,
+                    "y": null,
+                    "z": 3165757.615755333
+                  },
+                  "holeNo": 2
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 464,
+                  "actualYardage": 459,
+                  "pinPlacement": {
+                    "x": 718325.6527576476,
+                    "y": null,
+                    "z": 3165428.5707050283
+                  },
+                  "holeNo": 3
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 416,
+                  "actualYardage": 410,
+                  "pinPlacement": {
+                    "x": 718640.4826188252,
+                    "y": null,
+                    "z": 3165582.7839920023
+                  },
+                  "holeNo": 4
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 172,
+                  "actualYardage": 158,
+                  "pinPlacement": {
+                    "x": 718730.311787332,
+                    "y": null,
+                    "z": 3165697.1381237376
+                  },
+                  "holeNo": 5
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 398,
+                  "actualYardage": 393,
+                  "pinPlacement": {
+                    "x": 718581.4675879928,
+                    "y": null,
+                    "z": 3166156.358972605
+                  },
+                  "holeNo": 6
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 195,
+                  "actualYardage": 198,
+                  "pinPlacement": {
+                    "x": 718428.1767686864,
+                    "y": null,
+                    "z": 3166049.4832568644
+                  },
+                  "holeNo": 7
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 522,
+                  "actualYardage": 517,
+                  "pinPlacement": {
+                    "x": 718350.9110599934,
+                    "y": null,
+                    "z": 3165543.316893799
+                  },
+                  "holeNo": 8
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 444,
+                  "actualYardage": 438,
+                  "pinPlacement": {
+                    "x": 718673.8860315599,
+                    "y": null,
+                    "z": 3165729.5303855627
+                  },
+                  "holeNo": 9
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 428,
+                  "actualYardage": 422,
+                  "pinPlacement": {
+                    "x": 718780.9255307763,
+                    "y": null,
+                    "z": 3165292.1505446145
+                  },
+                  "holeNo": 10
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 427,
+                  "actualYardage": 421,
+                  "pinPlacement": {
+                    "x": 718731.3522671768,
+                    "y": null,
+                    "z": 3164986.9866631865
+                  },
+                  "holeNo": 11
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 194,
+                  "actualYardage": 201,
+                  "pinPlacement": {
+                    "x": 718594.608444352,
+                    "y": null,
+                    "z": 3164938.598582881
+                  },
+                  "holeNo": 12
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 384,
+                  "actualYardage": 378,
+                  "pinPlacement": {
+                    "x": 718353.2594721641,
+                    "y": null,
+                    "z": 3165137.4458318166
+                  },
+                  "holeNo": 13
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 507,
+                  "actualYardage": 501,
+                  "pinPlacement": {
+                    "x": 718633.3324853457,
+                    "y": null,
+                    "z": 3165517.7789114458
+                  },
+                  "holeNo": 14
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 338,
+                  "actualYardage": 328,
+                  "pinPlacement": {
+                    "x": 718324.913029191,
+                    "y": null,
+                    "z": 3165244.683151711
+                  },
+                  "holeNo": 15
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 412,
+                  "actualYardage": 401,
+                  "pinPlacement": {
+                    "x": 718656.8753276481,
+                    "y": null,
+                    "z": 3165107.446750919
+                  },
+                  "holeNo": 16
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 166,
+                  "actualYardage": 171,
+                  "pinPlacement": {
+                    "x": 718565.0696033891,
+                    "y": null,
+                    "z": 3165273.3629379785
+                  },
+                  "holeNo": 17
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 556,
+                  "actualYardage": 548,
+                  "pinPlacement": {
+                    "x": 718785.316390769,
+                    "y": null,
+                    "z": 3165670.23662965
+                  },
+                  "holeNo": 18
+                }
+              ]
+            },
+            {
+              "roundNo": 3,
+              "holes": [
+                {
+                  "par": 5,
+                  "officialYardage": 515,
+                  "actualYardage": 515,
+                  "pinPlacement": {
+                    "x": 718377.6151971702,
+                    "y": null,
+                    "z": 3166025.1202108855
+                  },
+                  "holeNo": 1
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 374,
+                  "actualYardage": 374,
+                  "pinPlacement": {
+                    "x": 718562.708746222,
+                    "y": null,
+                    "z": 3165760.601343344
+                  },
+                  "holeNo": 2
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 464,
+                  "actualYardage": 453,
+                  "pinPlacement": {
+                    "x": 718327.1060951024,
+                    "y": null,
+                    "z": 3165420.685636975
+                  },
+                  "holeNo": 3
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 416,
+                  "actualYardage": 410,
+                  "pinPlacement": {
+                    "x": 718652.4315467416,
+                    "y": null,
+                    "z": 3165591.1881590327
+                  },
+                  "holeNo": 4
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 172,
+                  "actualYardage": 185,
+                  "pinPlacement": {
+                    "x": 718766.5551736758,
+                    "y": null,
+                    "z": 3165697.5428829063
+                  },
+                  "holeNo": 5
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 398,
+                  "actualYardage": 392,
+                  "pinPlacement": {
+                    "x": 718573.389367235,
+                    "y": null,
+                    "z": 3166155.6186258993
+                  },
+                  "holeNo": 6
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 195,
+                  "actualYardage": 185,
+                  "pinPlacement": {
+                    "x": 718432.1072064997,
+                    "y": null,
+                    "z": 3166058.4829810145
+                  },
+                  "holeNo": 7
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 522,
+                  "actualYardage": 522,
+                  "pinPlacement": {
+                    "x": 718352.9244984256,
+                    "y": null,
+                    "z": 3165555.3270335966
+                  },
+                  "holeNo": 8
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 444,
+                  "actualYardage": 444,
+                  "pinPlacement": {
+                    "x": 718695.12046151,
+                    "y": null,
+                    "z": 3165725.808310714
+                  },
+                  "holeNo": 9
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 428,
+                  "actualYardage": 420,
+                  "pinPlacement": {
+                    "x": 718793.2533596829,
+                    "y": null,
+                    "z": 3165272.707249413
+                  },
+                  "holeNo": 10
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 427,
+                  "actualYardage": 419,
+                  "pinPlacement": {
+                    "x": 718741.8102490677,
+                    "y": null,
+                    "z": 3164979.438914321
+                  },
+                  "holeNo": 11
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 194,
+                  "actualYardage": 180,
+                  "pinPlacement": {
+                    "x": 718611.3112996795,
+                    "y": null,
+                    "z": 3164934.240683263
+                  },
+                  "holeNo": 12
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 384,
+                  "actualYardage": 376,
+                  "pinPlacement": {
+                    "x": 718345.4243530339,
+                    "y": null,
+                    "z": 3165146.235351644
+                  },
+                  "holeNo": 13
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 507,
+                  "actualYardage": 500,
+                  "pinPlacement": {
+                    "x": 718624.8157993546,
+                    "y": null,
+                    "z": 3165520.224745552
+                  },
+                  "holeNo": 14
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 338,
+                  "actualYardage": 334,
+                  "pinPlacement": {
+                    "x": 718329.786182442,
+                    "y": null,
+                    "z": 3165237.2957292497
+                  },
+                  "holeNo": 15
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 412,
+                  "actualYardage": 403,
+                  "pinPlacement": {
+                    "x": 718658.4984578304,
+                    "y": null,
+                    "z": 3165116.62315349
+                  },
+                  "holeNo": 16
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 166,
+                  "actualYardage": 158,
+                  "pinPlacement": {
+                    "x": 718574.4677364395,
+                    "y": null,
+                    "z": 3165266.562041286
+                  },
+                  "holeNo": 17
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 556,
+                  "actualYardage": 546,
+                  "pinPlacement": {
+                    "x": 718789.3666956689,
+                    "y": null,
+                    "z": 3165666.0149584645
+                  },
+                  "holeNo": 18
+                }
+              ]
+            },
+            {
+              "roundNo": 4,
+              "holes": [
+                {
+                  "par": 5,
+                  "officialYardage": 515,
+                  "actualYardage": 515,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 1
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 374,
+                  "actualYardage": 374,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 2
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 464,
+                  "actualYardage": 464,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 3
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 416,
+                  "actualYardage": 416,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 4
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 172,
+                  "actualYardage": 172,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 5
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 398,
+                  "actualYardage": 398,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 6
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 195,
+                  "actualYardage": 195,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 7
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 522,
+                  "actualYardage": 522,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 8
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 444,
+                  "actualYardage": 444,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 9
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 428,
+                  "actualYardage": 428,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 10
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 427,
+                  "actualYardage": 427,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 11
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 194,
+                  "actualYardage": 194,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 12
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 384,
+                  "actualYardage": 384,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 13
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 507,
+                  "actualYardage": 507,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 14
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 338,
+                  "actualYardage": 338,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 15
+                },
+                {
+                  "par": 4,
+                  "officialYardage": 412,
+                  "actualYardage": 412,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 16
+                },
+                {
+                  "par": 3,
+                  "officialYardage": 166,
+                  "actualYardage": 166,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 17
+                },
+                {
+                  "par": 5,
+                  "officialYardage": 556,
+                  "actualYardage": 556,
+                  "pinPlacement": {
+                    "x": 166021.44317933038,
+                    "y": null,
+                    "z": 0
+                  },
+                  "holeNo": 18
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
