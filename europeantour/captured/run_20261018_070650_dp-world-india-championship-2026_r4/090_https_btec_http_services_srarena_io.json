@@ -1,0 +1,156 @@
+{
+  "data": {
+    "getGolfMedia3DShots": [
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 718319.6899134958,
+        "y": null,
+        "z": 3166004.1763156364,
+        "addressing": false,
+        "provisionalIndex": null,
+        "ballHoled": false,
+        "isApproximate": false,
+        "strokeNo": 0,
+        "holeNo": 8,
+        "surfaceTypeCode": "OTB",
+        "teamId": 36,
+        "courseId": 1134,
+        "seqNum": 108,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": null,
+        "score": null,
+        "distanceToPin": 471.83,
+        "player": {
+          "id": 840
+        }
+      },
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 718423.6054634468,
+        "y": null,
+        "z": 3165825.553897936,
+        "addressing": false,
+        "provisionalIndex": 0,
+        "ballHoled": false,
+        "isApproximate": false,
+        "strokeNo": 1,
+        "holeNo": 8,
+        "surfaceTypeCode": "ORO",
+        "teamId": 36,
+        "courseId": 1134,
+        "seqNum": 112,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": 207.218784709141,
+        "score": null,
+        "distanceToPin": 281.414633204866,
+        "player": {
+          "id": 840
+        }
+      },
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 718372.829629559,
+        "y": null,
+        "z": 3165670.965291931,
+        "addressing": false,
+        "provisionalIndex": 0,
+        "ballHoled": false,
+        "isApproximate": false,
+        "strokeNo": 2,
+        "holeNo": 8,
+        "surfaceTypeCode": "OFW",
+        "teamId": 36,
+        "courseId": 1134,
+        "seqNum": 117,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": 163.269393881969,
+        "score": null,
+        "distanceToPin": 118.182679483236,
+        "player": {
+          "id": 840
+        }
+      },
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 718347.0447441131,
+        "y": null,
+        "z": 3165556.2456029593,
+        "addressing": false,
+        "provisionalIndex": 0,
+        "ballHoled": false,
+        "isApproximate": false,
+        "strokeNo": 3,
+        "holeNo": 8,
+        "surfaceTypeCode": "OGR",
+        "teamId": 36,
+        "courseId": 1134,
+        "seqNum": 121,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": 118.015050070252,
+        "score": null,
+        "distanceToPin": 7.41732447730815,
+        "player": {
+          "id": 840
+        }
+      },
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 718339.8456168866,
+        "y": null,
+        "z": 3165557.9047831884,
+        "addressing": false,
+        "provisionalIndex": 0,
+        "ballHoled": false,
+        "isApproximate": false,
+        "strokeNo": 4,
+        "holeNo": 8,
+        "surfaceTypeCode": "OGR",
+        "teamId": 36,
+        "courseId": 1134,
+        "seqNum": 125,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": 7.38116014632156,
+        "score": null,
+        "distanceToPin": 0.03686987615077,
+        "player": {
+          "id": 840
+        }
+      },
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 718339.8119751357,
+        "y": null,
+        "z": 3165557.91989416,
+        "addressing": false,
+        "provisionalIndex": 0,
+        "ballHoled": true,
+        "isApproximate": false,
+        "strokeNo": 5,
+        "holeNo": 8,
+        "surfaceTypeCode": null,
+        "teamId": 36,
+        "courseId": 1134,
+        "seqNum": 128,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": 0.03686987615077,
+        "score": "Par",
+        "distanceToPin": null,
+        "player": {
+          "id": 840
+        }
+      }
+    ]
+  }
+}

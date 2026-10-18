@@ -1,0 +1,81 @@
+{
+  "data": {
+    "getGolfMedia3DShots": [
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 718558.4223216125,
+        "y": null,
+        "z": 3166172.6000096323,
+        "addressing": false,
+        "provisionalIndex": null,
+        "ballHoled": false,
+        "isApproximate": false,
+        "strokeNo": 0,
+        "holeNo": 7,
+        "surfaceTypeCode": "OTB",
+        "teamId": 36,
+        "courseId": 1134,
+        "seqNum": 99,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": null,
+        "score": null,
+        "distanceToPin": 181.05,
+        "player": {
+          "id": 840
+        }
+      },
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 718437.0572213393,
+        "y": null,
+        "z": 3166036.7183990185,
+        "addressing": false,
+        "provisionalIndex": 0,
+        "ballHoled": false,
+        "isApproximate": false,
+        "strokeNo": 1,
+        "holeNo": 7,
+        "surfaceTypeCode": "OCO",
+        "teamId": 36,
+        "courseId": 1134,
+        "seqNum": 103,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": 182.478157130004,
+        "score": null,
+        "distanceToPin": 3.29803592038481,
+        "player": {
+          "id": 840
+        }
+      },
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 718436.5291008027,
+        "y": null,
+        "z": 3166039.9609907446,
+        "addressing": false,
+        "provisionalIndex": 0,
+        "ballHoled": true,
+        "isApproximate": false,
+        "strokeNo": 2,
+        "holeNo": 7,
+        "surfaceTypeCode": null,
+        "teamId": 36,
+        "courseId": 1134,
+        "seqNum": 106,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": 3.29803592038481,
+        "score": "Birdie",
+        "distanceToPin": null,
+        "player": {
+          "id": 840
+        }
+      }
+    ]
+  }
+}
