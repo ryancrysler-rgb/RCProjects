@@ -91,6 +91,22 @@ def assign_rounds(runs: list[dict]) -> None:
                 by_date[run["date"]] = run["round"]
 
 
+def feed(payload: dict, name: str):
+    """One of the Event Centre's data sets from a captured payload.
+
+    The same data arrives two ways. Over the websocket it is a subscription,
+    "subscribeTo<Name>" under payload.data; over plain HTTP -- which the
+    Event Centre switched to for finished rounds in version 6.0.130 -- it is
+    a query, "get<Name>" under data. Both carry the same records.
+    """
+    for data in ((payload.get("payload") or {}).get("data") or {}, payload.get("data") or {}):
+        if isinstance(data, dict):
+            for key in (f"subscribeTo{name}", f"get{name}"):
+                if data.get(key) is not None:
+                    return data[key]
+    return None
+
+
 def official_scorecards(payload: dict) -> list[tuple]:
     """The site's own per-round scorecards in a group-scores response.
 
@@ -189,14 +205,13 @@ def load_feeds(captured: Path):
             if not isinstance(payload, dict):
                 continue
             run["scores"] += official_scorecards(payload)
-            data = (payload.get("payload") or {}).get("data") or {}
-            records = data.get("subscribeToGolfMedia3DShots") or []
+            records = feed(payload, "GolfMedia3DShots") or []
             if records:
                 run["frames3d"].append(records)
             for record in records:
                 if run["course"] is None and record.get("courseId") is not None:
                     run["course"] = record["courseId"]
-            frame = data.get("subscribeToGolfTournamentTeamsShotFeed") or []
+            frame = feed(payload, "GolfTournamentTeamsShotFeed") or []
             if frame:
                 run["frames"].append(frame)
                 for event in frame:
@@ -282,11 +297,11 @@ def load_commentary(captured: Path) -> dict[tuple, str]:
                 continue
             if not isinstance(payload, dict):
                 continue
-            feed = ((payload.get("payload") or {}).get("data") or {}).get("subscribeToGolfCommentary")
-            if not feed:
+            commentary = feed(payload, "GolfCommentary")
+            if not isinstance(commentary, dict):
                 continue
-            round_no = str(feed.get("roundNo"))
-            for hole in feed.get("holes") or []:
+            round_no = str(commentary.get("roundNo"))
+            for hole in commentary.get("holes") or []:
                 for shot in hole.get("shots") or []:
                     text = (shot.get("comments") or {}).get("en")
                     if text:
@@ -444,19 +459,23 @@ def main() -> int:
     by_hole_shot: dict[tuple, dict] = {}
     unplaced = 0
     for key, frame in event_frames:
-        hole = None
+        hole = golfer = None
         for event in frame:
             match = positions_by_key.get(
                 (key, *event_key(event.get("shotNo"), event.get("shotDistance"), event.get("distanceToPin")))
             )
             if match and match.get("holeNo"):
                 hole = match["holeNo"]
+                # The HTTP form of this feed carries no playerId, so the
+                # golfer comes from the position record the frame matched.
+                golfer = (match.get("player") or {}).get("id") or match.get("teamId")
                 break
         if hole is None:
             unplaced += 1
             continue
         for event in frame:
-            by_hole_shot.setdefault((key, event.get("playerId") or event.get("teamId"), hole, event.get("shotNo")), {}).update(event)
+            who_ = event.get("playerId") or golfer or event.get("teamId")
+            by_hole_shot.setdefault((key, who_, hole, event.get("shotNo")), {}).update(event)
 
     commentary = load_commentary(HERE / "captured")
     course_names = load_course_names(HERE / "captured")
@@ -586,12 +605,17 @@ def main() -> int:
                 for r in in_round:
                     if r.get("playerId") == player_id:
                         counts[r["hole"]] = counts.get(r["hole"], 0) + 1
-                wrong = [f"{h} (site {card[h]}, sheet {counts.get(h, 0)})"
-                         for h in sorted(card) if counts.get(h, 0) != card[h]]
+                # Holes not captured yet are already listed as MISSING; only a
+                # hole that is present but disagrees is a problem worth naming.
+                wrong = [f"{h} (site {card[h]}, sheet {counts[h]})"
+                         for h in sorted(card) if h in counts and counts[h] != card[h]]
+                checked = [h for h in card if h in counts]
                 if wrong:
                     print(f"      DIFFERS from the site's scorecard on hole {', '.join(wrong)}")
-                else:
+                elif len(checked) == len(card):
                     print(f"      matches the site's scorecard on all {len(card)} holes ({sum(card.values())})")
+                else:
+                    print(f"      matches the site's scorecard on the {len(checked)} holes captured so far")
     try:
         input("\nPress Enter to close... ")
     except EOFError:
