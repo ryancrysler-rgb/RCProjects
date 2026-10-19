@@ -38,6 +38,18 @@ EDITS = [
     ('Prices in USD, billed monthly. Not at a CH3 academy? You’re welcomed into the closest home basecamp: North America → TeamFLO, Europe → CH3 Dubai, Asia → CH3 Thailand. Elite is limited and by application.',
      'Prices in USD, billed monthly, or pay for the year and get 12 months for the price of 10. Your home basecamp is the academy closest to where you live: the Americas → TeamFLO, Europe, the Middle East and Africa → CH3 Dubai, Asia and the Pacific → CH3 Thailand. Elite is limited, by application, with no free trial.'),
     ('alt="TeamCH3 Global Basecamp feed"', 'alt="The TeamCH3 Global Basecamp in Circle"'),
+    # After the Pod is now exclusive access to live podcast recordings with CH3 and special guests
+    ('|</span> AFTER THE POD', '|</span> LIVE RECORDING'),
+    ('LIVE Q&amp;A WITH CLAUDE <span', 'CH3 + SPECIAL GUEST <span'),
+    ('<span>AFTER THE POD</span>', '<span>LIVE RECORDING</span>'),
+    ('Live Q&amp;A with Claude</div>', 'In the studio with CH3</div>'),
+    ('Straight after the next Son of a Butch drop. Bring a question. Get it answered on air.',
+     'Exclusive access to the next Son of a Butch recording, live, with CH3 and a special guest.'),
+    ('The episode ends. The mic stays on. Every drop is followed by a live behind-the-scenes Q&amp;A with Claude, open to the whole podcast community.',
+     'Pull up a chair in the studio. Every member gets exclusive access to live Son of a Butch recordings with CH3 and special guests.'),
+    ('AFTER THE POD IN', 'LIVE RECORDING IN'),
+    ('>After the Pod<', '>Live recordings<'),
+    ('A live Q&amp;A after every Son of a Butch episode.', 'Exclusive access to live Son of a Butch recordings with special guests.'),
 ]
 for a, b in EDITS:
     a2 = a.replace('’', "'") if a.replace('’', "'") in t else a
@@ -80,14 +92,14 @@ def bars():
         bg = '#E04E39' if i == 0 else 'rgba(224,78,57,%s)' % round(0.75 - i * 0.2, 2)
         out.append('<span class="ch3-bar" style="display:block;height:7px;width:%dpx;background:%s;transform-origin:left;animation-delay:%ss"></span>' % (w, bg, round(i * 0.12, 2)))
     return raw(''.join(out))
-TICKER_ITEMS = ['AFTER THE POD · LIVE Q&A EVERY EPISODE', 'NEW: CAM SMITH RANGE SESSION ON FORESIGHT', 'WEEKLY LIVE WEBINARS WITH THE CH3 COACHES',
+TICKER_ITEMS = ['LIVE PODCAST RECORDINGS · CH3 + SPECIAL GUESTS', 'NEW: CAM SMITH RANGE SESSION ON FORESIGHT', 'WEEKLY LIVE WEBINARS WITH THE CH3 COACHES',
                 'ON TOUR WITH CLAUDE · BEHIND THE ROPES', 'CH3 DUBAI · CH3 THAILAND · TEAMFLO', 'START 4 WEEKS FREE']
 def ticker():
     items = ''.join('<span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 \'Barlow Condensed\';letter-spacing:.14em;white-space:nowrap">%s<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span>' % H.escape(s) for s in TICKER_ITEMS * 2)
     return raw('<div class="ch3-marquee" style="display:flex;width:max-content">%s</div>' % items)
 
 ELITE_LEFT = 8  # no Elite members yet
-FEATS = ['Son of a Butch community', 'After the Pod live Q&As', 'Global feed', 'Live webinars + course archive', 'Academy home basecamp',
+FEATS = ['Son of a Butch community', 'Live podcast recordings', 'Global feed', 'Live webinars + course archive', 'Academy home basecamp',
          'On tour with Claude + Coaches’ Room', 'Global Junior Basecamp', 'Direct access to Claude + Ryan']
 def tier(pos, flag, name, pitch, price, note, cta, yes, primary, key):
     return {'pos': pos, 'flag': flag, 'name': name, 'pitch': pitch, 'price': price, 'note': note, 'cta': cta,
@@ -107,7 +119,7 @@ ctx = {
     'offerings': [
         {'n': '01', 'tier': 'PREMIER +', 'title': 'Live webinars', 'hook': 'On the calendar. On the clock.', 'body': 'Scheduled sessions with Claude and the CH3 coaches every week. Ask live, get answered on air.', 'cta': 'SEE THE SCHEDULE'},
         {'n': '02', 'tier': 'PREMIER +', 'title': 'Course archive', 'hook': 'The whole playbook, on demand.', 'body': 'Every course, drill and breakdown we have filmed. Start anywhere. Pick up where you left off.', 'cta': 'BROWSE COURSES'},
-        {'n': '03', 'tier': 'ALL TIERS', 'title': 'After the Pod', 'hook': 'The episode ends. The mic stays on.', 'body': 'A live behind-the-scenes Q&A after every Son of a Butch drop. The stories that did not make the edit.', 'cta': raw('NEXT ONE IN <span data-ch3="cd-hm">--:--</span>')},
+        {'n': '03', 'tier': 'ALL TIERS', 'title': 'Live recordings', 'hook': 'Pull up a chair in the studio.', 'body': 'Exclusive access to live Son of a Butch recordings with CH3 and special guests. Watch it happen before it drops.', 'cta': raw('NEXT ONE IN <span data-ch3="cd-hm">--:--</span>')},
         {'n': '04', 'tier': 'PREMIER +', 'title': 'On tour with Claude', 'hook': 'Range-side. Week in, week out.', 'body': 'Behind-the-scenes coaching from tour events and from home. The sessions, the data and the thinking.', 'cta': 'GO INSIDE THE ROPES'},
         {'n': '05', 'tier': 'PREMIER +', 'title': "The Coaches' Room", 'hook': 'Every CH3 coach. One room.', 'body': 'Behind the scenes with the coaches from Dubai, Thailand and TeamFLO: how they diagnose, plan and run a lesson.', 'cta': 'MEET THE COACHES'},
     ],
@@ -126,7 +138,7 @@ ctx = {
     'shots': [{'n': str(i + 1), 'club': s[0], 'carry': '%dY' % s[6], 'off': ('R' if s[7] > 0 else 'L' if s[7] < 0 else '') + str(abs(s[7])),
                'active': False, 'inactive': True} for i, s in enumerate(SHOTS)],
     'podPerks': [
-        {'n': '1', 't': 'After the Pod, live.', 'd': 'Behind-the-scenes Q&A with Claude after every episode.'},
+        {'n': '1', 't': 'Live recordings.', 'd': 'Watch CH3 and the guest record the episode, before it drops.'},
         {'n': '2', 't': 'Episode threads.', 'd': 'Talk it through with the rest of the community.'},
         {'n': '3', 't': 'The global feed.', 'd': 'What Claude, the coaches and the academies are posting, in one place.'},
         {'n': '4', 't': 'Ask the next guest.', 'd': 'Submit questions before we record.'},
