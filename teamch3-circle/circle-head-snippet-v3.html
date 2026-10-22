@@ -1,4 +1,4 @@
-<!-- TeamCH3 · Circle head code snippet · v3.5 · Oct 22 2026
+<!-- TeamCH3 · Circle head code snippet · v3.6 · Oct 22 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
@@ -12,6 +12,7 @@ prefixes (New session: / Live recording: / On tour: / New episode: / Standings:)
 navy right-column panels and the Basecamp standings post.
 (v3.4) Sidebar links to pages in this community open in the same window; links to other sites still open a new tab.
 (v3.5) Shorter basecamp button labels so all seven fit; a fade on the right edge when more buttons are off-screen.
+(v3.6) Header cards on Parents, Events, Premier Sessions and Community Rules; parents don't see the RC Greenlight label.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -166,6 +167,13 @@ var BASECAMPS=[
 ["2904208","/c/son-of-a-butch","SON OF A BUTCH","P4","OPEN TO EVERY MEMBER · THE PODCAST","Every episode lands here first, plus exclusive access to live recordings with CH3 and special guests.","https://assets-v2.circle.so/evwoeph4h28s48vd358enrghytvi","square"],
 ["2904217","/c/elite-room","ELITE","EB","ELITE · APPLICATION ONLY · 8 SPOTS","Direct access to Ryan Crysler and Claude Harmon III.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"]
 ];
+/* Same header card, but no basecamp button: [space id, path, label, code, header eyebrow, header subline, header logo, logo shape] */
+var HEADERS=[
+["2904212","/c/junior-parents","PARENTS","PA","PARENTS + GUARDIANS · FREE WITH YOUR JUNIOR'S MEMBERSHIP","Schedules, tournament information and updates from the coaches about your junior's training.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
+["2904209","/c/events","EVENTS","EV","LIVE · JUNIOR, PREMIER + ELITE","Live podcast recordings, webinars and basecamp spotlights with Claude and the CH3 coaches.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
+["2904216","/c/premier-sessions","PREMIER SESSIONS","PS","ON DEMAND · JUNIOR, PREMIER + ELITE","Every Premier session from Claude and the CH3 coaches, ready when you are.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
+["2904210","/c/community-rules","COMMUNITY RULES","CR","EVERY MEMBER · READ BEFORE YOU POST","How we look after every member, coach and junior in TeamCH3.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"]
+];
 var RULES_KEY="ch3_rules_agreed_v1";
 /* Where "Send your golf data to RC Greenlight" goes (opens in a new tab). Empty = shown as a label with no link. */
 var GREENLIGHT_URL="";
@@ -178,7 +186,7 @@ function parentOnly(){var s=document.querySelector('[data-circle="app-sidebar"]'
 function parentLanding(){if(window.__ch3ParentSent||!parentOnly())return;var p=location.pathname;if(p!=="/"&&p!=="/feed"&&!onPath("/c/global"))return;var a=document.querySelector('[data-circle="app-sidebar"] a[data-id="'+PARENTS_ID+'"]');if(a){window.__ch3ParentSent=1;a.click();}}
 /* "/c/junior" must not match "/c/junior-parents" */
 function onPath(base){var p=location.pathname;return p===base||p.indexOf(base+"/")===0;}
-function current(){for(var i=0;i<BASECAMPS.length;i++){if(onPath(BASECAMPS[i][1]))return BASECAMPS[i];}return null;}
+function current(){var all=BASECAMPS.concat(HEADERS);for(var i=0;i<all.length;i++){if(onPath(all[i][1]))return all[i];}return null;}
 /* Basecamp pills: only shows basecamps this member can see in the sidebar */
 /* Fade the right edge of the basecamp buttons while more of them are off-screen */
 function more(el){var m=el.scrollWidth-el.clientWidth-el.scrollLeft>4;if(m!==el.hasAttribute("data-more")){if(m)el.setAttribute("data-more","");else el.removeAttribute("data-more");}}
@@ -217,15 +225,16 @@ var sb=document.querySelector('[data-circle="app-content"] button[aria-label="St
 var card=sb&&sb.closest('[role="button"]');
 var el=document.getElementById("ch3-compose");
 if(!card){if(el)el.remove();return;}
-if(el&&el.previousElementSibling===card)return;
+var po=parentOnly()?"1":"0";
+if(el&&el.previousElementSibling===card&&el.getAttribute("data-p")===po)return;
 if(el)el.remove();
-el=document.createElement("div");el.id="ch3-compose";
+el=document.createElement("div");el.id="ch3-compose";el.setAttribute("data-p",po);
 var a=document.createElement(GREENLIGHT_URL?"a":"div");if(GREENLIGHT_URL){a.href=GREENLIGHT_URL;a.target="_blank";a.rel="noopener";}a.innerHTML='<i aria-hidden="true">▲</i>Send your golf data to RC Greenlight';
 var b;
 if(ASK_CH3_URL){b=document.createElement("a");b.href=ASK_CH3_URL;b.innerHTML='<i aria-hidden="true">?</i>Ask CH3';}
 else{b=document.createElement("button");b.type="button";b.innerHTML='<i aria-hidden="true">?</i>Ask a coach';
 b.addEventListener("click",function(){var c=document.querySelector('[data-circle="app-content"] button[aria-label="Start a post"]');c=c&&c.closest('[role="button"]');if(c)c.click();});}
-el.appendChild(a);el.appendChild(b);
+if(po!=="1")el.appendChild(a);el.appendChild(b);
 card.parentNode.insertBefore(el,card.nextSibling);
 }
 document.addEventListener("click",function(e){
