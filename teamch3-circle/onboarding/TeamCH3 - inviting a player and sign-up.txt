@@ -246,8 +246,12 @@ Done October 22
  - The open Parents link is switched off. Parents are invited by email, and the Junior Basecamp welcome post says
    so. Juniors can add the parent's email in Edit profile.
  - The square TeamCH3 icon is uploaded.
+ - Profiles no longer show or ask for Location, Website, Instagram, Facebook, X or LinkedIn, so juniors can't post
+   social handles there.
+ - Circle's "connect with" member suggestions are off.
+ - The attendee list on Junior night is hidden.
 Still open
  - Community logo: upload "CH3 mark white.png" (the CH3 mark without the small text) in Circle's appearance
    settings, Light and Dark tabs. The old white logo looks empty in the Light preview because it's white on white.
- - Hide the attendee list on Junior Events, so the names of juniors attending aren't shown. Claude can do this.
+ - New Junior Events: tick "Hide attendees" when creating each one.
  - Beta testers: see "TeamCH3 - beta tester invite.txt".
