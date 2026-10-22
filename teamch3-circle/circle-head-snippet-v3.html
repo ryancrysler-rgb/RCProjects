@@ -1,4 +1,4 @@
-<!-- TeamCH3 · Circle head code snippet · v3.6 · Oct 22 2026
+<!-- TeamCH3 · Circle head code snippet · v3.7 · Oct 22 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
@@ -13,6 +13,7 @@ navy right-column panels and the Basecamp standings post.
 (v3.4) Sidebar links to pages in this community open in the same window; links to other sites still open a new tab.
 (v3.5) Shorter basecamp button labels so all seven fit; a fade on the right edge when more buttons are off-screen.
 (v3.6) Header cards on Feed, Parents, Events, Premier Sessions and Community Rules; event titles always in capitals; parents don't see the RC Greenlight label.
+(v3.7) Junior Events space (juniors and parents only): JE sidebar code and header card.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +41,7 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 [data-testid="circle-ai-shell-dock"]{background:#18242F!important;--color-background-primary:#18242F;--color-background-secondary:#18242F;--color-background-hover:#253746;--color-text-primary:#FFFFFF;--color-icon-primary:#CDD4DA;--color-border-primary:#384B5B;border-color:#384B5B!important}
 [data-circle="app-sidebar"] a[aria-current="page"]{background:#C9432F!important;color:#fff!important}
 [data-circle="app-sidebar"] .text-heading-sm{font:600 12px/1 'Barlow Condensed',sans-serif!important;letter-spacing:.14em;text-transform:uppercase;color:#A6B1BA!important}
-[data-circle="app-sidebar"] a[data-id="2904207"]>div>img,[data-circle="app-sidebar"] a[data-id="2904209"]>div>img,[data-circle="app-sidebar"] a[data-id="2904210"]>div>img,[data-circle="app-sidebar"] a[data-id="2904211"]>div>img,[data-circle="app-sidebar"] a[data-id="2904212"]>div>img,[data-circle="app-sidebar"] a[data-id="2904213"]>div>img,[data-circle="app-sidebar"] a[data-id="2904214"]>div>img,[data-circle="app-sidebar"] a[data-id="2904215"]>div>img,[data-circle="app-sidebar"] a[data-id="2904208"]>div>img,[data-circle="app-sidebar"] a[data-id="2904216"]>div>img,[data-circle="app-sidebar"] a[data-id="2904217"]>div>img,[data-circle="app-sidebar"] a[href$="/feed"]>div>svg{display:none!important}
+[data-circle="app-sidebar"] a[data-id="2904207"]>div>img,[data-circle="app-sidebar"] a[data-id="2904209"]>div>img,[data-circle="app-sidebar"] a[data-id="2904210"]>div>img,[data-circle="app-sidebar"] a[data-id="2904211"]>div>img,[data-circle="app-sidebar"] a[data-id="2904212"]>div>img,[data-circle="app-sidebar"] a[data-id="2904213"]>div>img,[data-circle="app-sidebar"] a[data-id="2904214"]>div>img,[data-circle="app-sidebar"] a[data-id="2904215"]>div>img,[data-circle="app-sidebar"] a[data-id="2904208"]>div>img,[data-circle="app-sidebar"] a[data-id="2904216"]>div>img,[data-circle="app-sidebar"] a[data-id="2904217"]>div>img,[data-circle="app-sidebar"] a[data-id="2920700"]>div>img,[data-circle="app-sidebar"] a[href$="/feed"]>div>svg{display:none!important}
 [data-circle="app-sidebar"] a[data-id]>div::before,[data-circle="app-sidebar"] a[href$="/feed"]>div::before{flex:none;width:22px;font:400 15px/1 Anton,Impact,sans-serif;color:#F47C67}
 [data-circle="app-sidebar"] a[aria-current="page"]>div::before{color:#fff}
 [data-circle="app-sidebar"] a[href$="/feed"]>div::before{content:"FD"}
@@ -55,6 +56,7 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 [data-circle="app-sidebar"] a[data-id="2904208"]>div::before{content:"P4"}
 [data-circle="app-sidebar"] a[data-id="2904216"]>div::before{content:"PS"}
 [data-circle="app-sidebar"] a[data-id="2904217"]>div::before{content:"EB"}
+[data-circle="app-sidebar"] a[data-id="2920700"]>div::before{content:"JE"}
 /* Sidebar links (added in Circle under Links), matched by their exact title */
 [data-circle="app-sidebar"] :is(a[title="Ask CH3"],a[title="Live recordings"],a[title="Course archive"],a[title="Leaderboard"],a[title="Messages"],a[title="RC Greenlight"],a[title="On tour with Claude"])>div>svg{display:none!important}
 [data-circle="app-sidebar"] :is(a[title="Ask CH3"],a[title="Live recordings"],a[title="Course archive"],a[title="Leaderboard"],a[title="Messages"],a[title="RC Greenlight"],a[title="On tour with Claude"])>div::before{flex:none;width:22px;font:400 15px/1 Anton,Impact,sans-serif;color:#F47C67}
@@ -171,6 +173,7 @@ var BASECAMPS=[
 var HEADERS=[
 ["feed","/feed","FEED","FD","YOUR FEED · EVERY BASECAMP YOU'RE IN","Everything new from the basecamps you belong to, in one place.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
 ["2904212","/c/junior-parents","PARENTS","PA","PARENTS + GUARDIANS · FREE WITH YOUR JUNIOR'S MEMBERSHIP","Schedules, tournament information and updates from the coaches about your junior's training.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
+["2920700","/c/junior-events","JUNIOR EVENTS","JE","JUNIORS + PARENTS ONLY · EVERY ACADEMY","Live junior nights with Claude and the CH3 coaches, for juniors and their parents.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
 ["2904209","/c/events","EVENTS","EV","LIVE · JUNIOR, PREMIER + ELITE","Live podcast recordings, webinars and basecamp spotlights with Claude and the CH3 coaches.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
 ["2904216","/c/premier-sessions","PREMIER SESSIONS","PS","ON DEMAND · JUNIOR, PREMIER + ELITE","Every Premier session from Claude and the CH3 coaches, ready when you are.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
 ["2904210","/c/community-rules","COMMUNITY RULES","CR","EVERY MEMBER · READ BEFORE YOU POST","How we look after every member, coach and junior in TeamCH3.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"]
