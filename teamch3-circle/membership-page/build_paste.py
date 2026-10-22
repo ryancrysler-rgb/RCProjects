@@ -7,6 +7,8 @@ SRC, OUT = sys.argv[1], sys.argv[2]
 CDN = 'https://assets-v2.circle.so/'
 SLOT_IMG = {  # empty photo slot in the design -> Circle-hosted photo, alt text
     'junior-paddock': (CDN + '9g9ln04ugcei0s8xtoifxqjongil', 'Junior players watching a drive at a CH3 academy'),
+    'acad-dubai': (CDN + 't98g54q9wn7fv6pwnojxz8yxklv3', 'The CH3 Dubai coaching team with their CH3 bags',
+                   'display:block;width:100%;height:100%;object-fit:cover;object-position:50% 72%', ''),
     # Claude stands on the left of this photo, so it fills the right half of the hero, clear of the headline
     'hero-claude': (CDN + 'l3mre63766j0kdqifdxoftjpkw12', 'Claude Harmon III range-side at a tour event',
                     'position:absolute;top:0;right:0;width:min(908px,64%);height:auto;'
