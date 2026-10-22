@@ -58,3 +58,7 @@ is done by hand in Circle admin.
 `onboarding/TeamCH3 - inviting a player and sign-up.txt` covers how a new player is invited, the emails they get
 (including Circle's real invitation email), the sign-up questions, checkout links once payments are on, the welcome
 workflows to build in Circle with their email copy, and open decisions.
+
+`onboarding/TeamCH3 - Circle AI build brief.txt` is the same setup as one paste for Circle AI (the admin assistant):
+the 9 welcome workflows with their emails, then a Part 2 for the 8 paywalls once Stripe is connected. Keep its
+emails in step with the sign-up doc.

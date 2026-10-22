@@ -142,8 +142,9 @@ What's there now
  archive them.
 
 Welcome workflows to build (one per membership)
- Circle has no connector for creating workflows, so these are built in Circle > Workflows > New automation.
- Build one, then duplicate it and change the trigger and the email.
+ Quickest: paste "TeamCH3 - Circle AI build brief.txt" into Circle AI and it builds all 9 with these emails.
+ Or by hand in Circle > Workflows > New automation: build one, then duplicate it and change the trigger and the
+ email.
   Trigger: Member added to access group > [the membership's access group]
   Action:  Send email (if your plan doesn't show Send email, use Send DM from Claude's account)
  Junior and Premier have three access groups each (one per academy), so 9 workflows in all, using 5 emails:
@@ -156,7 +157,7 @@ Subject: Welcome to TeamCH3
 Welcome to TeamCH3. Your Pod Community membership includes:
 - The Global Basecamp: Claude, the CH3 coaches and every academy in one feed.
 - The Son Of A Butch Podcast basecamp: every episode first.
-- Live Recordings: exclusive access to live podcast recordings with CH3 and special guests.
+- Live Recordings: live podcast recordings with CH3 and special guests.
 
 Start here:
 1. Introduce yourself in the Global Basecamp: where you play, your handicap and the one thing you want to fix
@@ -175,7 +176,7 @@ Welcome to TeamCH3. As a Junior Basecamp member you train with juniors from CH3 
 You have:
 - The Junior Basecamp, for juniors and coaches only.
 - Your home basecamp: your academy's coaches and squad.
-- Junior Events, Events and Premier Sessions with Claude and the CH3 coaches.
+- Junior Events and Events with Claude and the CH3 coaches, and Premier Sessions when it opens.
 - The Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
 
 Start here:
@@ -195,7 +196,7 @@ Subject: Welcome to TeamCH3 Premier
 Welcome to TeamCH3. Your Premier membership includes:
 - Your home basecamp: your academy's coaches, squad and range.
 - Events: webinars and basecamp spotlights with Claude and the CH3 coaches.
-- Premier Sessions: sessions from Claude and the coaches, on demand.
+- Premier Sessions: on-demand sessions from Claude and the coaches (opening soon).
 - The Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
 
 Start here:

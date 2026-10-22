@@ -1,0 +1,94 @@
+You're setting up TeamCH3's welcome flow. Build only what's under BUILD. Don't rename, delete or change anything else. Reply with a one-line-per-item plan, build after I approve, then list what you created.
+
+FACTS (all exist already. Use these exact names)
+Access groups. Each member has exactly one, and it is their membership:
+- Pod Community (no home basecamp)
+- Junior Basecamp · CH3 Dubai / Junior Basecamp · CH3 Thailand / Junior Basecamp · TeamFLO (ages 13 to 19)
+- Premier · CH3 Dubai / Premier · CH3 Thailand / Premier · TeamFLO
+- Elite (home basecamp added by hand)
+- Parents (free, only for a junior member's parent or guardian)
+Each access group already grants its spaces. Never add spaces or space groups to a member directly.
+Home basecamps: CH3 Dubai (Europe, Middle East, Africa), CH3 Thailand (Asia, Pacific), TeamFLO (the Americas).
+How a player picks their basecamp: the link they join through. Beta testers click their academy's "Beta testers · …" invitation link, or an admin invites them into the matching access group. At launch they pick their academy's checkout on the membership page.
+Set already. Don't change:
+- Sign-up questions: Date of birth (required), Age group (required: "13 to 19 · Junior" or "20 or over · Adult"), Parent or guardian's email (juniors), Home city (required, private). Headline and Bio are off.
+- The 6 "Beta testers · …" invitation links. Each adds its access group and the private "Beta tester" tag.
+- The Parents invitation link stays off. Parents are invited by email only.
+- The 16 inactive workflows ("Academy · …", "Cleanup · …", "Elite Basecamp"). Leave them off and untouched.
+
+BUILD: 9 welcome workflows
+For each one:
+- Name: "Welcome · [access group]".
+- Trigger: Member added to access group > [access group].
+- Action: Send email. If Send email isn't available on our plan, use Send DM from Claude Harmon III instead.
+- No filter and no delay. Switch it on.
+- Start each email with "Hi" and the member's first name (Circle's first-name merge tag).
+- Copy each email exactly. Never mention a phone app.
+The workflows and their emails:
+- Pod Community → Email A
+- Junior Basecamp · CH3 Dubai, Junior Basecamp · CH3 Thailand, Junior Basecamp · TeamFLO → Email B (3 workflows, same email)
+- Premier · CH3 Dubai, Premier · CH3 Thailand, Premier · TeamFLO → Email C (3 workflows, same email)
+- Elite → Email D
+- Parents → Email E
+
+EMAIL A
+Subject: Welcome to TeamCH3
+Welcome to TeamCH3. Your Pod Community membership includes:
+- The Global Basecamp: Claude, the CH3 coaches and every academy in one feed.
+- The Son Of A Butch Podcast basecamp: every episode first.
+- Live Recordings: live podcast recordings with CH3 and special guests.
+Start here:
+1. Introduce yourself in the Global Basecamp: where you play, your handicap and the one thing you want to fix this season.
+2. Open Live Recordings and RSVP to the next recording. You'll get a reminder before it starts.
+3. To get an email when there's a new post, click ⋯ at the top of a space and turn on notifications.
+Claude
+
+EMAIL B
+Subject: Welcome to the Junior Basecamp
+Welcome to TeamCH3. As a Junior Basecamp member you train with juniors from CH3 Dubai, CH3 Thailand and TeamFLO. You have:
+- The Junior Basecamp, for juniors and coaches only.
+- Your home basecamp: your academy's coaches and squad.
+- Junior Events and Events with Claude and the CH3 coaches, and Premier Sessions when it opens.
+- The Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
+Start here:
+1. Read the welcome post in the Junior Basecamp and introduce yourself: your home basecamp, your age group and your next tournament.
+2. Add your parent or guardian's email in Edit profile if you didn't at sign-up. We'll invite them to the Parents space, free.
+3. Only post video of yourself, and never share phone numbers, addresses or social handles.
+Claude
+
+EMAIL C
+Subject: Welcome to TeamCH3 Premier
+Welcome to TeamCH3. Your Premier membership includes:
+- Your home basecamp: your academy's coaches, squad and range.
+- Events: webinars and basecamp spotlights with Claude and the CH3 coaches.
+- Premier Sessions: on-demand sessions from Claude and the coaches (opening soon).
+- The Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
+Start here:
+1. Introduce yourself in your home basecamp: your handicap and the one thing you want to fix this season.
+2. Post a swing or your last round and the coaches will reply.
+3. RSVP to the next event. To get an email when there's a new post, click ⋯ at the top of a space and turn on notifications.
+Claude
+
+EMAIL D
+Subject: Welcome to TeamCH3 Elite
+Welcome to TeamCH3 Elite. You're one of eight.
+The Elite Basecamp is a private chat with Ryan and me. Use it for anything: your swing, your schedule, a round you want to talk through. You also have everything in Premier: your home basecamp, Events, Premier Sessions, the Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
+Start by saying hello in the Elite Basecamp and telling us what you're working towards this season.
+Claude
+
+EMAIL E
+Subject: Welcome to the TeamCH3 Parents space
+Welcome to TeamCH3. As the parent or guardian of a Junior Basecamp member you have free access to:
+- Parents: schedules, tournament information and updates from the coaches about your junior's training.
+- Junior Events: live junior nights with Claude and the CH3 coaches, for juniors and their parents.
+Parents don't have access to the Junior Basecamp, which is for juniors and coaches only. Questions about your junior's membership? Reply to this email and a TeamCH3 admin will help.
+Claude
+
+
+=== PART 2: paste only after Stripe is connected ===
+Build 8 paywalls in USD. Each one grants one access group. Every paywall has monthly and annual billing, and annual is 12 months for the price of 10. Every paywall has a 28-day free trial except Elite.
+- Pod Community: $49 a month, $490 a year
+- Junior Basecamp · CH3 Dubai, Junior Basecamp · CH3 Thailand, Junior Basecamp · TeamFLO: $69 a month, $690 a year (each)
+- Premier · CH3 Dubai, Premier · CH3 Thailand, Premier · TeamFLO: $99 a month, $990 a year (each)
+- Elite: $999 a month, $9,990 a year. No trial and not public (application only).
+When a member cancels, remove the access group. Then send me the 8 checkout links.
