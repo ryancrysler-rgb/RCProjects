@@ -2,6 +2,9 @@ TEAMCH3 · BETA TESTER INVITE
 How to bulk-invite player testers so each one picks their own academy and signs up in a couple of minutes.
 Created October 22, 2026. Everything to paste is between the ----- lines.
 
+ON HOLD: don't send these links yet. Circle's default onboarding access is adding every new member to all 9
+memberships. Fix and re-test first (see STATUS.md).
+
 
 HOW IT WORKS
  1. Each tester gets one email with a button for each academy. They click the one nearest where they live.

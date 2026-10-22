@@ -53,6 +53,11 @@ is done by hand in Circle admin.
 - The transcripts come from the Colab notebook "Sonofabutchtranscriptharness.ipynb" (Whisper `base.en`), one
   .txt per episode in the Drive folder "Son of a Butch Podcast Transcripts". Episodes with Ryan Crysler are skipped.
 
+## Where we left off
+
+`STATUS.md` has the current blocker, the next steps in order, the welcome workflow ids and the open questions. Read it
+first when picking this back up.
+
 ## Inviting a player
 
 `onboarding/TeamCH3 - inviting a player and sign-up.txt` covers how a new player is invited, the emails they get
