@@ -11,6 +11,9 @@ SLOT_IMG = {  # empty photo slot in the design -> Circle-hosted photo, alt text
                    'display:block;width:100%;height:100%;object-fit:cover;object-position:50% 72%', ''),
     'acad-thailand': (CDN + 'hs1g84s02j12eyoqpd9pria5k4yl', 'The CH3 Thailand coaching team outside the CH3 Thailand studio',
                       'display:block;width:100%;height:100%;object-fit:cover;object-position:50% 45%', ''),
+    # tall photo: crop to the tree line and the group walking up the fairway
+    'acad-teamflo': (CDN + 'v1yjaub5tpp51xgs9socyx90h3wg', 'TeamFLO players walking up a Florida fairway with their bags',
+                     'display:block;width:100%;height:100%;object-fit:cover;object-position:50% 44%', ''),
     # Claude stands on the left of this photo, so it fills the right half of the hero, clear of the headline
     'hero-claude': (CDN + 'l3mre63766j0kdqifdxoftjpkw12', 'Claude Harmon III range-side at a tour event',
                     'position:absolute;top:0;right:0;width:min(908px,64%);height:auto;'
@@ -75,6 +78,14 @@ EDITS = [
     ('>JR</span>GLOBAL JUNIOR BASECAMP · ALL ACADEMIES', '>JB</span>GLOBAL JUNIOR BASECAMP · ALL ACADEMIES'),
     ('height:96px;width:auto;margin-left:-14px', 'height:96px;width:auto;margin-left:-2px'),  # the new mark has no padding to offset
 ]
+# Dubai and Thailand cards: swap the "Head Coach · Academy Coach" placeholders for the head coach, laid out like TeamFLO's
+COACH = ('<span style="display:flex;align-items:center;gap:8px;font:400 17px/1 \'Barlow Condensed\'">'
+         '<span style="width:22px;height:22px;border-radius:11px;background:%s;flex:none"></span>%s <b style="font-weight:700;text-transform:uppercase">%s</b></span>')
+COACH_LABEL = '<span style="font:600 13px/1 \'Barlow Condensed\';letter-spacing:.1em;color:%s;align-self:center">%s</span>'
+for dot, first, last, label, color in [('#253746', 'Mike', 'Bolt', 'HEAD COACH · CH3 DUBAI', '#fff'),
+                                       ('#E04E39', 'Joe', 'Marshall', 'HEAD COACH · CH3 THAILAND', '#A6B1BA')]:
+    EDITS.append((COACH % (dot, 'Head', 'Coach') + COACH % (dot, 'Academy', 'Coach'),
+                  COACH % (dot, first, last) + COACH_LABEL % (color, label)))
 for a, b in EDITS:
     a2 = a.replace('’', "'") if a.replace('’', "'") in t else a
     n = t.count(a2)
