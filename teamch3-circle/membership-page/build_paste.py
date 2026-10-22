@@ -158,13 +158,13 @@ ctx = {
     'eliteLeft': str(ELITE_LEFT),
     'seatBar': raw(''.join('<span style="flex:1;height:10px;background:%s"></span>' % ('rgba(255,255,255,.3)' if i < 8 - ELITE_LEFT else '#fff') for i in range(8))),
     'tiers': [
-        tier('P4', '4 WEEKS FREE', 'Pod Community', 'For Son of a Butch listeners who want the room behind the mic.', '$49',
+        tier('SB', '4 WEEKS FREE', 'Pod Community', 'For Son of a Butch listeners who want the room behind the mic.', '$49',
              'Free for 4 weeks, then $49/month.', 'START FREE', [1, 1, 1, 0, 0, 0, 0, 0], False, 'pod'),
-        tier('P3', 'JUNIORS', 'Junior Basecamp', 'Everything in Premier, plus the Global Junior Basecamp: juniors from every CH3 academy in one place.', '$69',
+        tier('JB', 'JUNIORS', 'Junior Basecamp', 'Everything in Premier, plus the Global Junior Basecamp: juniors from every CH3 academy in one place.', '$69',
              'Ages 13–19. Premier access at a junior price.', 'JOIN THE JUNIOR BASECAMP', [1, 1, 1, 1, 1, 1, 1, 0], False, 'junior'),
-        tier('P2', 'MOST POPULAR', 'Premier', 'The full basecamp. Your home basecamp, or the one closest to you, plus everything global.', '$99',
+        tier('PS', 'MOST POPULAR', 'Premier', 'The full basecamp. Your home basecamp, or the one closest to you, plus everything global.', '$99',
              'Includes your academy’s home basecamp.', 'GO PREMIER', [1, 1, 1, 1, 1, 1, 0, 0], True, 'premier'),
-        tier('P1', 'LIMITED · BY APPLICATION', 'Elite', 'A direct line to Claude Harmon III and Ryan Crysler, Head Coach of TeamFLO and RC Greenlight.', '$999',
+        tier('EB', 'LIMITED · BY APPLICATION', 'Elite', 'A direct line to Claude Harmon III and Ryan Crysler, Head Coach of TeamFLO and RC Greenlight.', '$999',
              'Limited spots. %d of 8 remaining.' % ELITE_LEFT, 'APPLY FOR ELITE', [1, 1, 1, 1, 1, 1, 0, 1], False, 'elite'),
     ],
 }
