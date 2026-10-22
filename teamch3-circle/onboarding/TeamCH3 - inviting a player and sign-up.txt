@@ -8,9 +8,9 @@ Now (beta, no payments yet):
  1. You (or Claude) send the player a personal heads-up email. Copy in section 3.
  2. The player is invited into Circle with the right membership. Tell Claude in this chat, or do it in Circle.
  3. Circle sends its invitation email. The player clicks Accept invitation.
- 4. They sign up: password, a few questions (date of birth, age group, home city).
+ 4. They sign up: password, a few questions (date of birth, age group, home city, and a parent's email for juniors).
  5. They land in the Global Basecamp, introduce themselves and see the community rules before their first post.
- 6. Juniors send the free Parents link to a parent or guardian.
+ 6. For a junior, the parent or guardian is invited to the free Parents space by email (section 4).
 At launch (payments on):
  The same, except the invite is a checkout link from the membership page: card details and a 28-day free trial
  (no trial for Elite) come first, then steps 4 to 6.
@@ -51,7 +51,7 @@ Subject: Your TeamCH3 invite
 Hi [first name],
 
 You're in. In the next few minutes you'll get an email from Circle, the app TeamCH3 runs on. The subject is
-"Ryan has added you to the CH3 community". If you can't find it, check your Promotions or Updates folder.
+"Ryan has added you to the TeamCH3 community". If you can't find it, check your Promotions or Updates folder.
 
 1. Click Accept invitation.
 2. Choose a password and answer a few quick questions: your date of birth, your age group and your home city.
@@ -66,19 +66,18 @@ See you in there,
 -----
 For a junior, add before "See you in there":
 -----
-Your parent or guardian joins free. Once you're in, open the Junior Basecamp and send them the Parents link in
-the welcome post.
+Your parent or guardian joins free. When you sign up, add their email under "Parent or guardian's email" and
+we'll send them an invite to the Parents space.
 -----
 
 b) Circle's invitation email (Circle writes this one)
  From: no-reply@notification.circle.so
- Subject: Ryan has added you to the CH3 community
- Body: "You've been invited to join the CH3 community. Ryan Crysler (rcrysler@floridian.cc) has invited you to
- join the CH3 community. To get started, accept the invite below: [Accept invitation]. If you think you've
+ Subject: Ryan has added you to the TeamCH3 community
+ Body: "You've been invited to join the TeamCH3 community. Ryan Crysler (rcrysler@floridian.cc) has invited you
+ to join the TeamCH3 community. To get started, accept the invite below: [Accept invitation]. If you think you've
  received this email in error, please ignore this email."
- This is the real email Ryan Tester received on October 15. Claude can't change its wording. Three things make it
- look better (see section 7):
-  - It says "CH3", the community's name in Circle. Renaming the community to TeamCH3 changes it everywhere.
+ This is the email Ryan Tester received on October 15, with "CH3" changed to "TeamCH3": the community was
+ renamed on October 22, so new invites should say TeamCH3. Claude can't change the wording. Two things left:
   - The logo at the top is a plain "C". Adding a square icon in Circle's branding settings replaces it.
   - It shows the inviter's email address.
 
@@ -96,18 +95,25 @@ d) After that
  1. They click Accept invitation and land on ch3.circle.so.
  2. They choose a password. Circle may also email them a code to confirm the address (sign-up codes are on).
  3. Sign-up questions, in this order:
-    - Headline (optional)
-    - Bio (optional)
     - Date of birth (required, e.g. 14 March 2010)
     - Age group (required): 13 to 19 · Junior, or 20 or over · Adult
-    - Parent or guardian's email (optional, juniors only)
+    - Parent or guardian's email (juniors). Juniors can also add it later in Edit profile. Other members never
+      see it.
     - Home city (required, kept private)
  4. They land in the Global Basecamp, on Claude's pinned welcome post.
  5. The first time they post, the community rules pop up and they agree to them first (web and desktop).
  6. Their sidebar shows only their membership's spaces. On the web, the buttons along the top of the feed jump
     between their basecamps.
- Juniors: the Junior Basecamp welcome post has the free Parents link. A parent who uses it signs up the same way
- and lands in the Parents space. Parents get Parents, Junior Events and Community Rules only.
+ Headline and Bio are no longer on the sign-up form. Members can add them later in Edit profile.
+
+ Parents of juniors
+ There is no open Parents link any more: each parent is invited by email, so only a junior's own parent gets in.
+  1. The junior adds a parent or guardian's email at sign-up or in Edit profile.
+  2. Tell Claude "invite the parents". Claude reads the new juniors' parent emails, invites each parent into the
+     Parents membership and fills in "Parent of" with the junior's name. Or in Circle: Audience > add a member >
+     the parent's email > the Parents access group.
+  3. The parent gets the same Circle invitation email, signs up the same way and lands in the Parents space.
+ Parents get Parents, Junior Events and Community Rules only.
 
 
 5. AT LAUNCH (PAYMENTS ON)
@@ -170,7 +176,8 @@ You have:
 Start here:
 1. Read the welcome post in the Junior Basecamp and introduce yourself: your home basecamp, your age group and
    your next tournament.
-2. Send your parent or guardian the Parents link in that welcome post. They join free.
+2. Add your parent or guardian's email in Edit profile if you didn't at sign-up. We'll invite them to the
+   Parents space, free.
 3. Only post video of yourself, and never share phone numbers, addresses or social handles.
 
 Claude
@@ -225,16 +232,15 @@ Claude
 -----
 
 
-7. DECISIONS FOR YOU (Claude can do 1, 3, 4, 5 and 6 as soon as you say yes)
- 1. Rename the community from "CH3" to "TeamCH3". The invite then says "join the TeamCH3 community".
- 2. Upload a square TeamCH3 icon in Circle's branding settings so emails don't show a plain "C". (Done in Circle;
-    Claude can't upload the icon.)
- 3. Take Headline and Bio off the sign-up form. Fewer questions, and juniors don't get a free-text box to share
-    personal details in at sign-up. Members can still add them to their profile later.
- 4. Hide member email addresses on profiles. The setting is off, so profiles can show email addresses and an adult
-    could see a junior's. That goes against the community rules.
- 5. Parents link: the link in the Junior Basecamp works for anyone it's forwarded to, and it opens Junior Events.
-    The safer option is for Claude to invite each parent by email, using the address the junior gives at sign-up,
-    and switch off the open link.
- 6. Hide the attendee list on Junior Events, so names of juniors attending aren't shown.
- 7. Archive the 16 old workflows (in Circle; Claude can't archive them).
+7. CHANGES AND DECISIONS
+Done October 22
+ - The community is renamed from "CH3" to "TeamCH3" (the address is still ch3.circle.so).
+ - Headline and Bio are off the sign-up form.
+ - Member email addresses are hidden on profiles.
+ - The open Parents link is switched off. Parents are invited by email, and the Junior Basecamp welcome post says
+   so. Juniors can add the parent's email in Edit profile.
+Still open
+ - Upload a square TeamCH3 icon in Circle's branding settings so emails don't show a plain "C" (in Circle; Claude
+   can't upload the icon).
+ - Hide the attendee list on Junior Events, so the names of juniors attending aren't shown. Claude can do this.
+ - Archive the 16 old workflows (in Circle; Claude can't archive them).
