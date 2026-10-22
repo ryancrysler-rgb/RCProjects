@@ -82,7 +82,7 @@ repeat paid or private posts to members who can't see them.
   Then set the agent's audience to that segment.
   If segments have no access-group filter, use: profile field "Age group" is "20 or over · Adult",
   and not a member of the Parents space.
- Leave out for now: the three Junior Paddock groups and Parents. Juniors are 13 to 19 and their direct
+ Leave out for now: the three Junior Basecamp groups and Parents. Juniors are 13 to 19 and their direct
  messages are off. Revisit after a few weeks of reading the AI inbox, and with parents' agreement.
 
 

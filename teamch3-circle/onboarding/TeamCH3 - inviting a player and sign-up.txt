@@ -20,7 +20,7 @@ At launch (payments on):
 Every player goes into exactly one membership (a Circle access group). Their home basecamp is the academy nearest
 where they live.
  - Pod Community
- - Junior Paddock · CH3 Dubai / Junior Paddock · CH3 Thailand / Junior Paddock · TeamFLO   (juniors 13 to 19)
+ - Junior Basecamp · CH3 Dubai / Junior Basecamp · CH3 Thailand / Junior Basecamp · TeamFLO   (juniors 13 to 19)
  - Premier · CH3 Dubai / Premier · CH3 Thailand / Premier · TeamFLO
  - Elite   (application only. The academy is added by hand)
  - Parents (free, only for the parent or guardian of a junior member)
@@ -137,9 +137,10 @@ What's there now
  Academies · Premier"): the player picked a region at sign-up, and the workflows added their academy and removed
  it when they left. Since October 14 each academy has its own membership, which adds and removes the right spaces
  by itself, so the same job is done without them. 13 start from the archived "OLD Junior Paddock" and "OLD
- Premier" memberships and can't run. The 3 Elite academy ones depended on the retired region question (Elite
- academies are added by hand), and "Elite Basecamp" repeats what the Elite membership already does. All are off
- and none has ever run. Leave them off. There's no need to archive them.
+ Premier" memberships and can't run (the junior membership is now called Junior Basecamp). The 3 Elite academy
+ ones depended on the retired region question (Elite academies are added by hand), and "Elite Basecamp" repeats
+ what the Elite membership already does. All are off and none has ever run. Leave them off. There's no need to
+ archive them.
 
 Welcome workflows to build (one per membership)
  Circle has no connector for creating workflows, so these are built in Circle > Workflows > New automation.
@@ -147,7 +148,7 @@ Welcome workflows to build (one per membership)
   Trigger: Member added to access group > [the membership's access group]
   Action:  Send email (if your plan doesn't show Send email, use Send DM from Claude's account)
  Junior and Premier have three access groups each (one per academy), so 9 workflows in all, using 5 emails:
-  Pod Community (1) · Junior Paddock (3, same email) · Premier (3, same email) · Elite (1) · Parents (1)
+  Pod Community (1) · Junior Basecamp (3, same email) · Premier (3, same email) · Elite (1) · Parents (1)
 
 Pod Community welcome
 -----
@@ -167,11 +168,11 @@ Start here:
 Claude
 -----
 
-Junior Paddock welcome
+Junior Basecamp welcome
 -----
-Subject: Welcome to the Junior Paddock
+Subject: Welcome to the Junior Basecamp
 
-Welcome to TeamCH3. As a Junior Paddock member you train with juniors from CH3 Dubai, CH3 Thailand and TeamFLO.
+Welcome to TeamCH3. As a Junior Basecamp member you train with juniors from CH3 Dubai, CH3 Thailand and TeamFLO.
 You have:
 - The Junior Basecamp, for juniors and coaches only.
 - Your home basecamp: your academy's coaches and squad.
@@ -226,7 +227,7 @@ Parents welcome
 -----
 Subject: Welcome to the TeamCH3 Parents space
 
-Welcome to TeamCH3. As the parent or guardian of a Junior Paddock member you have free access to:
+Welcome to TeamCH3. As the parent or guardian of a Junior Basecamp member you have free access to:
 - Parents: schedules, tournament information and updates from the coaches about your junior's training.
 - Junior Events: live junior nights with Claude and the CH3 coaches, for juniors and their parents.
 
