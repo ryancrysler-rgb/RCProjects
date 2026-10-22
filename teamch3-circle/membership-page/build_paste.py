@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup, NavigableString, Comment, Tag
 
 SRC, OUT = sys.argv[1], sys.argv[2]
 CDN = 'https://assets-v2.circle.so/'
+SLOT_IMG = {  # empty photo slot in the design -> Circle-hosted photo, alt text
+    'junior-paddock': (CDN + '9g9ln04ugcei0s8xtoifxqjongil', 'Junior players watching a drive at a CH3 academy'),
+}
 IMG = {  # design asset uuid -> Circle-hosted copy
     '724528f7-5b9d-45d3-b948-7dd4cceefc0c': CDN + 'h51u9b15jxu0kv0zg3a0pmizefyp',  # CH3 mark, white (no tagline)
     '530230c8-ce0d-4e54-9948-c5e0ce21f727': CDN + 'rrxvgyqulo15uln4o8y0t7bqi3f5',  # CH3 mark, dark (no tagline)
@@ -213,6 +216,9 @@ def render(node, c):
             return [r for ch in node.children for r in render(ch, c)]
         return []
     if name == 'image-slot':
+        if node.get('id') in SLOT_IMG:
+            src, alt = SLOT_IMG[node['id']]
+            return frag('<img src="%s" alt="%s" style="display:block;width:100%%;height:100%%;object-fit:cover">' % (src, H.escape(alt)))
         if node.get('src'):
             return frag('<img src="%s" alt="" style="display:block;width:100%%;height:100%%;object-fit:cover">' % IMG[node['src']])
         return frag('<div class="ch3-slot" data-slot="%s" style="box-sizing:border-box;width:100%%;height:100%%;min-height:inherit;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;border:1px dashed currentColor;opacity:.5;font:400 15px/1.3 \'Barlow Condensed\',sans-serif">Photo: %s</div>'
