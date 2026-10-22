@@ -12,7 +12,7 @@ prefixes (New session: / Live recording: / On tour: / New episode: / Standings:)
 navy right-column panels and the Basecamp standings post.
 (v3.4) Sidebar links to pages in this community open in the same window; links to other sites still open a new tab.
 (v3.5) Shorter basecamp button labels so all seven fit; a fade on the right edge when more buttons are off-screen.
-(v3.6) Header cards on Parents, Events, Premier Sessions and Community Rules; parents don't see the RC Greenlight label.
+(v3.6) Header cards on Feed, Parents, Events, Premier Sessions and Community Rules; event titles always in capitals; parents don't see the RC Greenlight label.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +29,7 @@ body{font-family:'Barlow Condensed','Arial Narrow',system-ui,sans-serif!importan
 /* Condensed type reads small: lift Circle's type scale one step */
 .text-label-xs{font-size:13px!important}.text-label-sm{font-size:16px!important}.text-caption{font-size:14px!important}.text-body-sm{font-size:15px!important}.text-body-md{font-size:17px!important}
 /* 1. Anton headings */
-[data-circle="app-content"] h1,[data-circle="app-content"] h2,.text-heading-xl{font-family:Anton,Impact,'Arial Narrow',sans-serif!important;font-weight:400!important;text-transform:uppercase;letter-spacing:.005em}
+[data-circle="app-content"] h1,[data-circle="app-content"] h2,.text-heading-xl,[data-circle="event-card"] [class*="text-heading"]{font-family:Anton,Impact,'Arial Narrow',sans-serif!important;font-weight:400!important;text-transform:uppercase!important;letter-spacing:.005em}
 /* 2. Navy top bar with orange stripe; nav links as pills */
 nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-text-primary:#FFFFFF;--color-text-secondary:#CDD4DA;--color-icon-primary:#FFFFFF;--color-border-primary:#253746}
 [data-circle="app-topbar-logo"]{font-family:Anton,sans-serif!important;text-transform:uppercase}
@@ -129,7 +129,7 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 /* 8. Event cards in the feed */
 [data-circle="event-card"]{border-radius:12px!important;border-color:#CDD4DA!important}
 [data-circle="event-date"],[data-circle="event-date"] span{color:#C9432F!important;font:600 13px/1.2 'Barlow Condensed',sans-serif!important;letter-spacing:.1em;text-transform:uppercase}
-[data-circle="event-title"]{font-family:Anton,sans-serif!important;font-weight:400!important;font-size:22px!important;line-height:1.05!important;text-transform:uppercase}
+[data-circle="event-title"]{font-family:Anton,sans-serif!important;font-weight:400!important;font-size:22px!important;line-height:1.05!important;text-transform:uppercase!important}
 /* 9. "Up next" events panel */
 [data-circle="feed-upcoming-events"]{background:#253746!important;border:0!important;border-radius:12px!important;overflow:hidden;padding:0 0 4px!important;gap:0!important;--color-text-primary:#FFFFFF;--color-text-tertiary:#F47C67;--color-background-primary:transparent;--color-border-primary:#384B5B}
 [data-circle="feed-upcoming-events"]>h2{margin:0;background:#C9432F;color:#fff!important;padding:12px 16px;font:600 13px/1 'Barlow Condensed',sans-serif!important;letter-spacing:.14em;text-transform:uppercase}
@@ -169,6 +169,7 @@ var BASECAMPS=[
 ];
 /* Same header card, but no basecamp button: [space id, path, label, code, header eyebrow, header subline, header logo, logo shape] */
 var HEADERS=[
+["feed","/feed","FEED","FD","YOUR FEED · EVERY BASECAMP YOU'RE IN","Everything new from the basecamps you belong to, in one place.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
 ["2904212","/c/junior-parents","PARENTS","PA","PARENTS + GUARDIANS · FREE WITH YOUR JUNIOR'S MEMBERSHIP","Schedules, tournament information and updates from the coaches about your junior's training.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
 ["2904209","/c/events","EVENTS","EV","LIVE · JUNIOR, PREMIER + ELITE","Live podcast recordings, webinars and basecamp spotlights with Claude and the CH3 coaches.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
 ["2904216","/c/premier-sessions","PREMIER SESSIONS","PS","ON DEMAND · JUNIOR, PREMIER + ELITE","Every Premier session from Claude and the CH3 coaches, ready when you are.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
