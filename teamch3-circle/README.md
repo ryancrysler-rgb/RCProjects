@@ -46,6 +46,8 @@ is done by hand in Circle admin.
   sources, audience, touchpoints, Pause AI keywords and a test list.
 - `Ask CH3 - voice and coaching guide.txt`: uploaded to the agent's knowledge. It carries the coaching style and
   rules that don't fit in the instructions box. Built from the CH3 Lesson Playbook.
+- `Ask CH3 - TeamCH3 community guide.txt`: uploaded to the agent's knowledge. Where everything is in TeamCH3 and what
+  each membership includes. Update it when spaces or memberships change.
 - `Ask CH3 avatar.png`: the agent's avatar.
 - The transcripts come from the Colab notebook "Sonofabutchtranscriptharness.ipynb" (Whisper `base.en`), one
   .txt per episode in the Drive folder "Son of a Butch Podcast Transcripts". Episodes with Ryan Crysler are skipped.

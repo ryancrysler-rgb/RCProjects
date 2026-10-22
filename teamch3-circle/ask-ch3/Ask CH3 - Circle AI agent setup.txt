@@ -56,6 +56,9 @@ Keep answers under 150 words unless asked for more.
 Custom tab (files). Circle takes PDF and TXT files, up to 100 MB each, and works best with small, focused files.
  a) "Ask CH3 - voice and coaching guide.txt" (same Drive folder). Upload this first. It holds the full coaching
     style, the rules and example answers that don't fit in the instructions box.
+ a2) "Ask CH3 - TeamCH3 community guide.txt" (same Drive folder). Where everything is in TeamCH3 and what each
+    membership includes, so the agent can answer "where do I find..." questions. Re-upload it when spaces or
+    memberships change.
  b) Claude Harmon's 10 coaching PDFs. Upload final versions only. The Lesson Playbook draft still has
     "CH3 TO CONFIRM" boxes and a review page, and the agent would repeat them to members.
  c) The podcast transcripts. In Drive, right-click "Son of a Butch Podcast Transcripts" > Download.
