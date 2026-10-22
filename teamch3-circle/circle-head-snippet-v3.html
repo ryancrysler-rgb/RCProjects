@@ -1,4 +1,4 @@
-<!-- TeamCH3 · Circle head code snippet · v3.8 · Oct 22 2026
+<!-- TeamCH3 · Circle head code snippet · v3.9 · Oct 22 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
@@ -15,6 +15,7 @@ navy right-column panels and the Basecamp standings post.
 (v3.6) Header cards on Feed, Parents, Events, Premier Sessions and Community Rules; event titles always in capitals; parents don't see the RC Greenlight label.
 (v3.7) Junior Events space (juniors and parents only): JE sidebar code and header card.
 (v3.8) Live Recordings space (every paid membership): LR sidebar code and header card.
+(v3.9) A space with unread posts no longer shows its code a second time next to the unread count.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,32 +44,32 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 [data-circle="app-sidebar"] a[aria-current="page"]{background:#C9432F!important;color:#fff!important}
 [data-circle="app-sidebar"] .text-heading-sm{font:600 12px/1 'Barlow Condensed',sans-serif!important;letter-spacing:.14em;text-transform:uppercase;color:#A6B1BA!important}
 [data-circle="app-sidebar"] a[data-id="2904207"]>div>img,[data-circle="app-sidebar"] a[data-id="2904209"]>div>img,[data-circle="app-sidebar"] a[data-id="2904210"]>div>img,[data-circle="app-sidebar"] a[data-id="2904211"]>div>img,[data-circle="app-sidebar"] a[data-id="2904212"]>div>img,[data-circle="app-sidebar"] a[data-id="2904213"]>div>img,[data-circle="app-sidebar"] a[data-id="2904214"]>div>img,[data-circle="app-sidebar"] a[data-id="2904215"]>div>img,[data-circle="app-sidebar"] a[data-id="2904208"]>div>img,[data-circle="app-sidebar"] a[data-id="2904216"]>div>img,[data-circle="app-sidebar"] a[data-id="2904217"]>div>img,[data-circle="app-sidebar"] a[data-id="2920700"]>div>img,[data-circle="app-sidebar"] a[data-id="2920720"]>div>img,[data-circle="app-sidebar"] a[href$="/feed"]>div>svg{display:none!important}
-[data-circle="app-sidebar"] a[data-id]>div::before,[data-circle="app-sidebar"] a[href$="/feed"]>div::before{flex:none;width:22px;font:400 15px/1 Anton,Impact,sans-serif;color:#F47C67}
-[data-circle="app-sidebar"] a[aria-current="page"]>div::before{color:#fff}
-[data-circle="app-sidebar"] a[href$="/feed"]>div::before{content:"FD"}
-[data-circle="app-sidebar"] a[data-id="2904207"]>div::before{content:"GP"}
-[data-circle="app-sidebar"] a[data-id="2904209"]>div::before{content:"EV"}
-[data-circle="app-sidebar"] a[data-id="2904210"]>div::before{content:"CR"}
-[data-circle="app-sidebar"] a[data-id="2904211"]>div::before{content:"JP"}
-[data-circle="app-sidebar"] a[data-id="2904212"]>div::before{content:"PA"}
-[data-circle="app-sidebar"] a[data-id="2904213"]>div::before{content:"P1"}
-[data-circle="app-sidebar"] a[data-id="2904214"]>div::before{content:"P2"}
-[data-circle="app-sidebar"] a[data-id="2904215"]>div::before{content:"P3"}
-[data-circle="app-sidebar"] a[data-id="2904208"]>div::before{content:"P4"}
-[data-circle="app-sidebar"] a[data-id="2904216"]>div::before{content:"PS"}
-[data-circle="app-sidebar"] a[data-id="2904217"]>div::before{content:"EB"}
-[data-circle="app-sidebar"] a[data-id="2920700"]>div::before{content:"JE"}
-[data-circle="app-sidebar"] a[data-id="2920720"]>div::before{content:"LR"}
+[data-circle="app-sidebar"] a[data-id]>div:first-child::before,[data-circle="app-sidebar"] a[href$="/feed"]>div:first-child::before{flex:none;width:22px;font:400 15px/1 Anton,Impact,sans-serif;color:#F47C67}
+[data-circle="app-sidebar"] a[aria-current="page"]>div:first-child::before{color:#fff}
+[data-circle="app-sidebar"] a[href$="/feed"]>div:first-child::before{content:"FD"}
+[data-circle="app-sidebar"] a[data-id="2904207"]>div:first-child::before{content:"GP"}
+[data-circle="app-sidebar"] a[data-id="2904209"]>div:first-child::before{content:"EV"}
+[data-circle="app-sidebar"] a[data-id="2904210"]>div:first-child::before{content:"CR"}
+[data-circle="app-sidebar"] a[data-id="2904211"]>div:first-child::before{content:"JP"}
+[data-circle="app-sidebar"] a[data-id="2904212"]>div:first-child::before{content:"PA"}
+[data-circle="app-sidebar"] a[data-id="2904213"]>div:first-child::before{content:"P1"}
+[data-circle="app-sidebar"] a[data-id="2904214"]>div:first-child::before{content:"P2"}
+[data-circle="app-sidebar"] a[data-id="2904215"]>div:first-child::before{content:"P3"}
+[data-circle="app-sidebar"] a[data-id="2904208"]>div:first-child::before{content:"P4"}
+[data-circle="app-sidebar"] a[data-id="2904216"]>div:first-child::before{content:"PS"}
+[data-circle="app-sidebar"] a[data-id="2904217"]>div:first-child::before{content:"EB"}
+[data-circle="app-sidebar"] a[data-id="2920700"]>div:first-child::before{content:"JE"}
+[data-circle="app-sidebar"] a[data-id="2920720"]>div:first-child::before{content:"LR"}
 /* Sidebar links (added in Circle under Links), matched by their exact title */
 [data-circle="app-sidebar"] :is(a[title="Ask CH3"],a[title="Live recordings"],a[title="Course archive"],a[title="Leaderboard"],a[title="Messages"],a[title="RC Greenlight"],a[title="On tour with Claude"])>div>svg{display:none!important}
-[data-circle="app-sidebar"] :is(a[title="Ask CH3"],a[title="Live recordings"],a[title="Course archive"],a[title="Leaderboard"],a[title="Messages"],a[title="RC Greenlight"],a[title="On tour with Claude"])>div::before{flex:none;width:22px;font:400 15px/1 Anton,Impact,sans-serif;color:#F47C67}
-[data-circle="app-sidebar"] a[title="Ask CH3"]>div::before{content:"AC"}
-[data-circle="app-sidebar"] a[title="Live recordings"]>div::before{content:"LR"}
-[data-circle="app-sidebar"] a[title="Course archive"]>div::before{content:"CA"}
-[data-circle="app-sidebar"] a[title="Leaderboard"]>div::before{content:"LB"}
-[data-circle="app-sidebar"] a[title="Messages"]>div::before{content:"MS"}
-[data-circle="app-sidebar"] a[title="RC Greenlight"]>div::before{content:"RG"}
-[data-circle="app-sidebar"] a[title="On tour with Claude"]>div::before{content:"OT"}
+[data-circle="app-sidebar"] :is(a[title="Ask CH3"],a[title="Live recordings"],a[title="Course archive"],a[title="Leaderboard"],a[title="Messages"],a[title="RC Greenlight"],a[title="On tour with Claude"])>div:first-child::before{flex:none;width:22px;font:400 15px/1 Anton,Impact,sans-serif;color:#F47C67}
+[data-circle="app-sidebar"] a[title="Ask CH3"]>div:first-child::before{content:"AC"}
+[data-circle="app-sidebar"] a[title="Live recordings"]>div:first-child::before{content:"LR"}
+[data-circle="app-sidebar"] a[title="Course archive"]>div:first-child::before{content:"CA"}
+[data-circle="app-sidebar"] a[title="Leaderboard"]>div:first-child::before{content:"LB"}
+[data-circle="app-sidebar"] a[title="Messages"]>div:first-child::before{content:"MS"}
+[data-circle="app-sidebar"] a[title="RC Greenlight"]>div:first-child::before{content:"RG"}
+[data-circle="app-sidebar"] a[title="On tour with Claude"]>div:first-child::before{content:"OT"}
 [data-circle="app-sidebar"] li:has(>a[href*="play.google.com/store/apps/details?id=so.circle"]),[data-circle="app-sidebar"] li:has(>a[href*="apps.apple.com"][title*="iOS app"]){display:none!important}
 /* 4. Page header as the navy basecamp card (eyebrow, code badge and subline injected by the script below) */
 [data-circle="page-header"]{--color-background-primary:#253746;--color-border-primary:#253746;--color-text-primary:#FFFFFF;--color-icon-primary:#FFFFFF;background:#253746 repeating-linear-gradient(115deg,rgba(224,78,57,0) 0 16px,rgba(224,78,57,.35) 16px 24px) right top/200px 100% no-repeat!important;border-bottom:3px solid #E04E39!important}
