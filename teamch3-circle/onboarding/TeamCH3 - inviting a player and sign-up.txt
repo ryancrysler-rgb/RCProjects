@@ -80,7 +80,7 @@ b) Circle's invitation email (Circle writes this one)
  received this email in error, please ignore this email."
  This is the email Ryan Tester received on October 15, with "CH3" changed to "TeamCH3": the community was
  renamed on October 22, so new invites should say TeamCH3. Claude can't change the wording.
-  - The logo at the top was a plain "C". The square TeamCH3 icon was uploaded on October 22 and should replace it.
+  - The logo at the top was a plain "C". The square TeamCH3 icon uploaded on October 22 should now show instead.
   - It shows the inviter's email address.
 
 c) Welcome email after they join (to build, section 6)
@@ -245,13 +245,11 @@ Done October 22
  - Member email addresses are hidden on profiles.
  - The open Parents link is switched off. Parents are invited by email, and the Junior Basecamp welcome post says
    so. Juniors can add the parent's email in Edit profile.
- - The square TeamCH3 icon is uploaded.
+ - The square TeamCH3 icon and the community logo (the CH3 mark without the small text) are uploaded.
  - Profiles no longer show or ask for Location, Website, Instagram, Facebook, X or LinkedIn, so juniors can't post
    social handles there.
  - Circle's "connect with" member suggestions are off.
  - The attendee list on Junior night is hidden.
 Still open
- - Community logo: upload "CH3 mark white.png" (the CH3 mark without the small text) in Circle's appearance
-   settings, Light and Dark tabs. The old white logo looks empty in the Light preview because it's white on white.
  - New Junior Events: tick "Hide attendees" when creating each one.
  - Beta testers: see "TeamCH3 - beta tester invite.txt".
