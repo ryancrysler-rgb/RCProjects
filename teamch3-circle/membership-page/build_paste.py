@@ -21,8 +21,8 @@ t = t[:t.find('<script type="text/x-dc"')]
 
 # ---- copy updates: the decisions made after the design (pricing, tiers, basecamps, feed) ----
 EDITS = [
-    ('Full access for 4 weeks, then from $50/month.', '4 weeks free, then from $49/month.'),
-    ('Then $50/month. Cancel any time.', 'Then $49/month. Cancel any time.'),
+    ('Full access for 4 weeks, then from $50/month.', '4 weeks free, then from $59/month.'),
+    ('Then $50/month. Cancel any time.', 'Then $59/month. Cancel any time.'),
     ('Every player from every CH3 academy is on board, alongside the Son of a Butch community. Everyone shares the Global Basecamp. Each academy also has its own home basecamp: your coaches, your squad, your range. Pick the one that feels like home.',
      'Every player from every CH3 academy is on board, alongside the Son of a Butch community. Everyone shares the Global Basecamp. Each academy also has its own home basecamp: your coaches, your squad, your range. You join the one closest to where you live, and it’s where you train with us in person.'),
     ('PREMIER + ELITE MEMBERS', 'JUNIOR, PREMIER + ELITE'),
@@ -158,8 +158,8 @@ ctx = {
     'eliteLeft': str(ELITE_LEFT),
     'seatBar': raw(''.join('<span style="flex:1;height:10px;background:%s"></span>' % ('rgba(255,255,255,.3)' if i < 8 - ELITE_LEFT else '#fff') for i in range(8))),
     'tiers': [
-        tier('SB', '4 WEEKS FREE', 'Pod Community', 'For Son of a Butch listeners who want the room behind the mic.', '$49',
-             'Free for 4 weeks, then $49/month.', 'START FREE', [1, 1, 1, 0, 0, 0, 0, 0], False, 'pod'),
+        tier('SB', '4 WEEKS FREE', 'Pod Community', 'For Son of a Butch listeners who want the room behind the mic.', '$59',
+             'Free for 4 weeks, then $59/month.', 'START FREE', [1, 1, 1, 0, 0, 0, 0, 0], False, 'pod'),
         tier('JB', 'JUNIORS', 'Junior Basecamp', 'Everything in Premier, plus the Global Junior Basecamp: juniors from every CH3 academy in one place.', '$69',
              'Ages 13–19. Premier access at a junior price.', 'JOIN THE JUNIOR BASECAMP', [1, 1, 1, 1, 1, 1, 1, 0], False, 'junior'),
         tier('PS', 'MOST POPULAR', 'Premier', 'The full basecamp. Your home basecamp, or the one closest to you, plus everything global.', '$99',
