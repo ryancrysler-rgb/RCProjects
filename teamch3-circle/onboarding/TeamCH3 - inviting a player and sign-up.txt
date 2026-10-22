@@ -52,7 +52,7 @@ Subject: Your TeamCH3 invite
 
 Hi [first name],
 
-You're in. In the next few minutes you'll get an email from Circle, the app TeamCH3 runs on. The subject is
+You're in. In the next few minutes you'll get an email from Circle, the platform TeamCH3 runs on. The subject is
 "Ryan has added you to the TeamCH3 community". If you can't find it, check your Promotions or Updates folder.
 
 1. Click Accept invitation.
@@ -60,8 +60,7 @@ You're in. In the next few minutes you'll get an email from Circle, the app Team
 3. You'll land in the Global Basecamp. Introduce yourself: where you play, your handicap and the one thing you
    want to fix this season.
 
-You can also use TeamCH3 on your phone: get the Circle app from the App Store or Google Play and log in with this
-email.
+On your phone, open ch3.circle.so in your browser and log in with this email.
 
 See you in there,
 [Ryan / Claude]

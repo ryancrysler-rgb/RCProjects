@@ -70,7 +70,7 @@ Then:
 You'll also find the Global Basecamp, Events, the Son Of A Butch Podcast and Live Recordings.
 Post anything that's confusing or broken in the Global Basecamp, or reply to this email.
 
-On your phone, get the Circle app from the App Store or Google Play and log in with the same email.
+On your phone, open ch3.circle.so in your browser and log in with the same email.
 
 Thanks for helping us build it,
 Claude

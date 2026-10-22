@@ -27,7 +27,7 @@ EDITS = [
      'Every player from every CH3 academy is on board, alongside the Son of a Butch community. Everyone shares the Global Basecamp. Each academy also has its own home basecamp: your coaches, your squad, your range. You join the one closest to where you live, and it’s where you train with us in person.'),
     ('PREMIER + ELITE MEMBERS', 'JUNIOR, PREMIER + ELITE'),
     ('Stories from the coaches, swing videos with the Foresight numbers on screen, and the conversation. Switch between the Global Basecamp and your home basecamp in one tap.',
-     'Featured posts from Claude and the coaches, the live calendar and the conversation. Switch between the Global Basecamp and your home basecamp in one tap.'),
+     'Featured posts from Claude and the coaches, the live calendar and the conversation. Switch between the Global Basecamp and your home basecamp in one click.'),
     ('teamch3.com/basecamp', 'ch3.circle.so/c/global'),
     ('Coach stories', 'Featured from the coaches'),
     ('Claude, Ryan and your academy coaches. Live sessions ring orange.', 'The best posts from Claude, Ryan and every academy, at the top of the Global Basecamp.'),
@@ -50,6 +50,10 @@ EDITS = [
     ('AFTER THE POD IN', 'LIVE RECORDING IN'),
     ('>After the Pod<', '>Live recordings<'),
     ('A live Q&amp;A after every Son of a Butch episode.', 'Exclusive access to live Son of a Butch recordings with special guests.'),
+    # No TeamCH3 phone app: TeamCH3 is on the web
+    ("Now it's on your phone.", "Now it's yours."),
+    ('INSIDE THE APP', 'INSIDE TEAMCH3'),
+    ('One tap, two feeds', 'One click, two feeds'),
 ]
 for a, b in EDITS:
     a2 = a.replace('’', "'") if a.replace('’', "'") in t else a
