@@ -1,4 +1,4 @@
-<!-- TeamCH3 · Circle head code snippet · v3.3 · Oct 22 2026
+<!-- TeamCH3 · Circle head code snippet · v3.4 · Oct 22 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
@@ -10,6 +10,7 @@ and (v3.1) Global Basecamp open to every paid member, plus the Elite Basecamp pi
 (v3.3) Basecamp logos in the header cards, Ask CH3, orange codes on sidebar links, post badges from title
 prefixes (New session: / Live recording: / On tour: / New episode: / Standings:), COACH + TEAMCH3 tags,
 navy right-column panels and the Basecamp standings post.
+(v3.4) Sidebar links to pages in this community open in the same window; links to other sites still open a new tab.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -224,6 +225,16 @@ var a=e.target.closest&&e.target.closest("#ch3-basecamps a");if(!a)return;
 var s=document.querySelector('[data-circle="app-sidebar"] a[data-id="'+a.getAttribute("data-id")+'"]');
 if(s){e.preventDefault();s.click();}
 });
+/* Sidebar links (Circle opens them in a new tab): pages in this community open in the same window instead */
+document.addEventListener("click",function(e){
+if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+var a=e.target.closest&&e.target.closest('[data-circle="app-sidebar"] a[target="_blank"]');if(!a)return;
+var u;try{u=new URL(a.getAttribute("href"),location.href);}catch(x){return;}
+if(u.host!==location.host)return;
+e.preventDefault();e.stopPropagation();
+var same=[].slice.call(document.querySelectorAll('[data-circle="app-sidebar"] a:not([target="_blank"]),[data-circle="app-topbar"] a:not([target="_blank"])')).filter(function(x){try{return new URL(x.getAttribute("href"),location.href).pathname===u.pathname;}catch(y){return false;}})[0];
+if(same&&!u.search&&!u.hash)same.click();else location.assign(u.href);
+},true);
 /* Community rules before a member's first post */
 function rules(done){
 if(document.getElementById("ch3-rules"))return;
