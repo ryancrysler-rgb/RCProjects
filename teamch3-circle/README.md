@@ -52,3 +52,9 @@ is done by hand in Circle admin.
 - `Ask CH3 avatar.png`: the agent's avatar.
 - The transcripts come from the Colab notebook "Sonofabutchtranscriptharness.ipynb" (Whisper `base.en`), one
   .txt per episode in the Drive folder "Son of a Butch Podcast Transcripts". Episodes with Ryan Crysler are skipped.
+
+## Inviting a player
+
+`onboarding/TeamCH3 - inviting a player and sign-up.txt` covers how a new player is invited, the emails they get
+(including Circle's real invitation email), the sign-up questions, checkout links once payments are on, the welcome
+workflows to build in Circle with their email copy, and open decisions.

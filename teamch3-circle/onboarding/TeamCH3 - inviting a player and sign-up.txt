@@ -1,0 +1,240 @@
+TEAMCH3 · INVITING A PLAYER AND SIGN-UP
+How a new player gets into TeamCH3 (ch3.circle.so), the emails they get, and what they see when they sign up.
+Updated October 22, 2026. Everything to paste is between the ----- lines.
+
+
+THE SHORT VERSION
+Now (beta, no payments yet):
+ 1. You (or Claude) send the player a personal heads-up email. Copy in section 3.
+ 2. The player is invited into Circle with the right membership. Tell Claude in this chat, or do it in Circle.
+ 3. Circle sends its invitation email. The player clicks Accept invitation.
+ 4. They sign up: password, a few questions (date of birth, age group, home city).
+ 5. They land in the Global Basecamp, introduce themselves and see the community rules before their first post.
+ 6. Juniors send the free Parents link to a parent or guardian.
+At launch (payments on):
+ The same, except the invite is a checkout link from the membership page: card details and a 28-day free trial
+ (no trial for Elite) come first, then steps 4 to 6.
+
+
+1. CHOOSING THE MEMBERSHIP
+Every player goes into exactly one membership (a Circle access group). Their home basecamp is the academy nearest
+where they live.
+ - Pod Community
+ - Junior Paddock · CH3 Dubai / Junior Paddock · CH3 Thailand / Junior Paddock · TeamFLO   (juniors 13 to 19)
+ - Premier · CH3 Dubai / Premier · CH3 Thailand / Premier · TeamFLO
+ - Elite   (application only. The academy is added by hand)
+ - Parents (free, only for the parent or guardian of a junior member)
+ CH3 Dubai: UAE and Europe. CH3 Thailand: Thailand and Asia. TeamFLO: Florida and North America.
+
+
+2. INVITING A PLAYER NOW (BETA)
+Easiest: tell Claude in this chat
+ "Invite [name], [email], [membership]". Claude adds them to Circle and the right access group, and Circle sends
+ the invitation email straight away. Claude checks that their spaces are right.
+
+Or in Circle yourself
+ Audience > add a member > enter the name and email > choose the access group (the membership) > send the invite.
+ Choose only the access group. Don't add spaces or space groups by hand: a space group adds the player to every
+ space in it, including ones their membership shouldn't have.
+
+Whoever sends the invite, their name and email appear in Circle's email. Ryan's invites show
+rcrysler@floridian.cc. If Claude Harmon invites, the player sees claudeharmon3@gmail.com.
+
+
+3. THE EMAILS A NEW PLAYER GETS
+a) Heads-up email from you (optional, recommended)
+Circle's invitation is plain and often lands in Gmail's Updates or Promotions tab. A personal note first makes sure
+the player looks for it. Send it from your own email just before the invite.
+-----
+Subject: Your TeamCH3 invite
+
+Hi [first name],
+
+You're in. In the next few minutes you'll get an email from Circle, the app TeamCH3 runs on. The subject is
+"Ryan has added you to the CH3 community". If you can't find it, check your Promotions or Updates folder.
+
+1. Click Accept invitation.
+2. Choose a password and answer a few quick questions: your date of birth, your age group and your home city.
+3. You'll land in the Global Basecamp. Introduce yourself: where you play, your handicap and the one thing you
+   want to fix this season.
+
+You can also use TeamCH3 on your phone: get the Circle app from the App Store or Google Play and log in with this
+email.
+
+See you in there,
+[Ryan / Claude]
+-----
+For a junior, add before "See you in there":
+-----
+Your parent or guardian joins free. Once you're in, open the Junior Basecamp and send them the Parents link in
+the welcome post.
+-----
+
+b) Circle's invitation email (Circle writes this one)
+ From: no-reply@notification.circle.so
+ Subject: Ryan has added you to the CH3 community
+ Body: "You've been invited to join the CH3 community. Ryan Crysler (rcrysler@floridian.cc) has invited you to
+ join the CH3 community. To get started, accept the invite below: [Accept invitation]. If you think you've
+ received this email in error, please ignore this email."
+ This is the real email Ryan Tester received on October 15. Claude can't change its wording. Three things make it
+ look better (see section 7):
+  - It says "CH3", the community's name in Circle. Renaming the community to TeamCH3 changes it everywhere.
+  - The logo at the top is a plain "C". Adding a square icon in Circle's branding settings replaces it.
+  - It shows the inviter's email address.
+
+c) Welcome email after they join (to build, section 6)
+ Nothing goes out after sign-up today. Section 6 has a welcome email for each membership, sent by a Circle workflow.
+
+d) After that
+ - Circle's weekly digest (on).
+ - Event confirmations and reminders when they RSVP to an event.
+ - New-post emails are off by default in every space. Members turn them on per space. The welcome emails tell
+   them how.
+
+
+4. WHAT THE PLAYER SEES WHEN THEY SIGN UP
+ 1. They click Accept invitation and land on ch3.circle.so.
+ 2. They choose a password. Circle may also email them a code to confirm the address (sign-up codes are on).
+ 3. Sign-up questions, in this order:
+    - Headline (optional)
+    - Bio (optional)
+    - Date of birth (required, e.g. 14 March 2010)
+    - Age group (required): 13 to 19 · Junior, or 20 or over · Adult
+    - Parent or guardian's email (optional, juniors only)
+    - Home city (required, kept private)
+ 4. They land in the Global Basecamp, on Claude's pinned welcome post.
+ 5. The first time they post, the community rules pop up and they agree to them first (web and desktop).
+ 6. Their sidebar shows only their membership's spaces. On the web, the buttons along the top of the feed jump
+    between their basecamps.
+ Juniors: the Junior Basecamp welcome post has the free Parents link. A parent who uses it signs up the same way
+ and lands in the Parents space. Parents get Parents, Junior Events and Community Rules only.
+
+
+5. AT LAUNCH (PAYMENTS ON)
+ Once Stripe is connected and the 8 paywalls exist, Claude makes a checkout link for each membership: a Circle
+ invitation link with the paywall, the price and the 28-day trial (none for Elite).
+ 1. The player chooses a membership on the membership page (the buttons already point to these).
+ 2. Circle checkout: email and card. Nothing is charged until the trial ends.
+ 3. Circle creates the account and puts them in that membership's access group.
+ 4. Then sign-up as in section 4, landing in the space the link chooses.
+ Juniors: the parent completes checkout with the junior's email and the parent's card, so the account is the
+ junior's. Check this with the attorney.
+ Elite: no public link. After an application is accepted, Claude makes a one-off Elite checkout link for that
+ player.
+
+
+6. CIRCLE WORKFLOWS
+What's there now
+ 16 automations from the old region-picker setup (e.g. "Academy · CH3 Dubai · Junior Paddock", "Cleanup ·
+ Academies · Premier"). All are off and none has ever run. They point at an access group and segments that no
+ longer exist, because memberships now set the spaces directly. Archive them in Circle > Workflows so nobody
+ switches one on by mistake.
+
+Welcome workflows to build (one per membership)
+ Circle has no connector for creating workflows, so these are built in Circle > Workflows > New automation.
+ Build one, then duplicate it and change the trigger and the email.
+  Trigger: Member added to access group > [the membership's access group]
+  Action:  Send email (if your plan doesn't show Send email, use Send DM from Claude's account)
+ Junior and Premier have three access groups each (one per academy), so 9 workflows in all, using 5 emails:
+  Pod Community (1) · Junior Paddock (3, same email) · Premier (3, same email) · Elite (1) · Parents (1)
+
+Pod Community welcome
+-----
+Subject: Welcome to TeamCH3
+
+Welcome to TeamCH3. Your Pod Community membership includes:
+- The Global Basecamp: Claude, the CH3 coaches and every academy in one feed.
+- The Son Of A Butch Podcast basecamp: every episode first.
+- Live Recordings: exclusive access to live podcast recordings with CH3 and special guests.
+
+Start here:
+1. Introduce yourself in the Global Basecamp: where you play, your handicap and the one thing you want to fix
+   this season.
+2. Open Live Recordings and RSVP to the next recording. You'll get a reminder before it starts.
+3. To get an email when there's a new post, click ⋯ at the top of a space and turn on notifications.
+
+Claude
+-----
+
+Junior Paddock welcome
+-----
+Subject: Welcome to the Junior Paddock
+
+Welcome to TeamCH3. As a Junior Paddock member you train with juniors from CH3 Dubai, CH3 Thailand and TeamFLO.
+You have:
+- The Junior Basecamp, for juniors and coaches only.
+- Your home basecamp: your academy's coaches and squad.
+- Junior Events, Events and Premier Sessions with Claude and the CH3 coaches.
+- The Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
+
+Start here:
+1. Read the welcome post in the Junior Basecamp and introduce yourself: your home basecamp, your age group and
+   your next tournament.
+2. Send your parent or guardian the Parents link in that welcome post. They join free.
+3. Only post video of yourself, and never share phone numbers, addresses or social handles.
+
+Claude
+-----
+
+Premier welcome
+-----
+Subject: Welcome to TeamCH3 Premier
+
+Welcome to TeamCH3. Your Premier membership includes:
+- Your home basecamp: your academy's coaches, squad and range.
+- Events: webinars and basecamp spotlights with Claude and the CH3 coaches.
+- Premier Sessions: sessions from Claude and the coaches, on demand.
+- The Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
+
+Start here:
+1. Introduce yourself in your home basecamp: your handicap and the one thing you want to fix this season.
+2. Post a swing or your last round and the coaches will reply.
+3. RSVP to the next event. To get an email when there's a new post, click ⋯ at the top of a space and turn on
+   notifications.
+
+Claude
+-----
+
+Elite welcome
+-----
+Subject: Welcome to TeamCH3 Elite
+
+Welcome to TeamCH3 Elite. You're one of eight.
+
+The Elite Basecamp is a private chat with Ryan and me. Use it for anything: your swing, your schedule, a round you
+want to talk through. You also have everything in Premier: your home basecamp, Events, Premier Sessions, the
+Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
+
+Start by saying hello in the Elite Basecamp and telling us what you're working towards this season.
+
+Claude
+-----
+
+Parents welcome
+-----
+Subject: Welcome to the TeamCH3 Parents space
+
+Welcome to TeamCH3. As the parent or guardian of a Junior Paddock member you have free access to:
+- Parents: schedules, tournament information and updates from the coaches about your junior's training.
+- Junior Events: live junior nights with Claude and the CH3 coaches, for juniors and their parents.
+
+Parents don't have access to the Junior Basecamp, which is for juniors and coaches only. Questions about your
+junior's membership? Reply to this email and a TeamCH3 admin will help.
+
+Claude
+-----
+
+
+7. DECISIONS FOR YOU (Claude can do 1, 3, 4, 5 and 6 as soon as you say yes)
+ 1. Rename the community from "CH3" to "TeamCH3". The invite then says "join the TeamCH3 community".
+ 2. Upload a square TeamCH3 icon in Circle's branding settings so emails don't show a plain "C". (Done in Circle;
+    Claude can't upload the icon.)
+ 3. Take Headline and Bio off the sign-up form. Fewer questions, and juniors don't get a free-text box to share
+    personal details in at sign-up. Members can still add them to their profile later.
+ 4. Hide member email addresses on profiles. The setting is off, so profiles can show email addresses and an adult
+    could see a junior's. That goes against the community rules.
+ 5. Parents link: the link in the Junior Basecamp works for anyone it's forwarded to, and it opens Junior Events.
+    The safer option is for Claude to invite each parent by email, using the address the junior gives at sign-up,
+    and switch off the open link.
+ 6. Hide the attendee list on Junior Events, so names of juniors attending aren't shown.
+ 7. Archive the 16 old workflows (in Circle; Claude can't archive them).
