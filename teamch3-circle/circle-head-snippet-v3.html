@@ -1,4 +1,4 @@
-<!-- TeamCH3 · Circle head code snippet · v3.10 · Oct 22 2026
+<!-- TeamCH3 · Circle head code snippet · v3.11 · Oct 22 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
@@ -17,6 +17,7 @@ navy right-column panels and the Basecamp standings post.
 (v3.8) Live Recordings space (every paid membership): LR sidebar code and header card.
 (v3.9) A space with unread posts no longer shows its code a second time next to the unread count.
 (v3.10) Header cards use the CH3 mark without the small "Performance Golf Academy" line.
+(v3.11) Basecamp codes follow Basecamp naming: GB, JB, DU (CH3 Dubai), TH (CH3 Thailand), FL (TeamFLO), SB (Son Of A Butch).
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,15 +49,15 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 [data-circle="app-sidebar"] a[data-id]>div:first-child::before,[data-circle="app-sidebar"] a[href$="/feed"]>div:first-child::before{flex:none;width:22px;font:400 15px/1 Anton,Impact,sans-serif;color:#F47C67}
 [data-circle="app-sidebar"] a[aria-current="page"]>div:first-child::before{color:#fff}
 [data-circle="app-sidebar"] a[href$="/feed"]>div:first-child::before{content:"FD"}
-[data-circle="app-sidebar"] a[data-id="2904207"]>div:first-child::before{content:"GP"}
+[data-circle="app-sidebar"] a[data-id="2904207"]>div:first-child::before{content:"GB"}
 [data-circle="app-sidebar"] a[data-id="2904209"]>div:first-child::before{content:"EV"}
 [data-circle="app-sidebar"] a[data-id="2904210"]>div:first-child::before{content:"CR"}
-[data-circle="app-sidebar"] a[data-id="2904211"]>div:first-child::before{content:"JP"}
+[data-circle="app-sidebar"] a[data-id="2904211"]>div:first-child::before{content:"JB"}
 [data-circle="app-sidebar"] a[data-id="2904212"]>div:first-child::before{content:"PA"}
-[data-circle="app-sidebar"] a[data-id="2904213"]>div:first-child::before{content:"P1"}
-[data-circle="app-sidebar"] a[data-id="2904214"]>div:first-child::before{content:"P2"}
-[data-circle="app-sidebar"] a[data-id="2904215"]>div:first-child::before{content:"P3"}
-[data-circle="app-sidebar"] a[data-id="2904208"]>div:first-child::before{content:"P4"}
+[data-circle="app-sidebar"] a[data-id="2904213"]>div:first-child::before{content:"DU"}
+[data-circle="app-sidebar"] a[data-id="2904214"]>div:first-child::before{content:"TH"}
+[data-circle="app-sidebar"] a[data-id="2904215"]>div:first-child::before{content:"FL"}
+[data-circle="app-sidebar"] a[data-id="2904208"]>div:first-child::before{content:"SB"}
 [data-circle="app-sidebar"] a[data-id="2904216"]>div:first-child::before{content:"PS"}
 [data-circle="app-sidebar"] a[data-id="2904217"]>div:first-child::before{content:"EB"}
 [data-circle="app-sidebar"] a[data-id="2920700"]>div:first-child::before{content:"JE"}
@@ -166,12 +167,12 @@ a:focus-visible,button:focus-visible,[role="button"]:focus-visible{outline:2px s
 if(window.__ch3Theme)return;window.__ch3Theme=1;
 /* [space id, path, pill label, code, header eyebrow, header subline, header logo, logo shape: wide | square | mark] */
 var BASECAMPS=[
-["2904207","/c/global","GLOBAL","GP","OPEN TO EVERY MEMBER · EVERY ACADEMY","Every academy, the Son of a Butch community and the CH3 coaches. One feed, with featured posts from each home basecamp.","https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5","mark"],
-["2904211","/c/junior","JUNIOR","JP","JUNIORS ONLY · EVERY ACADEMY","Juniors from every academy team in one feed, with the CH3 coaches, junior drills and Premier sessions.","https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5","mark"],
-["2904213","/c/ch3-dubai","CH3 DUBAI","P1","HOME BASECAMP · UAE + EUROPE","Your local feed: Dubai coaches, squad and range.","https://assets-v2.circle.so/0ystuo9hiylgxum4vl9qbfyy0t07","wide"],
-["2904214","/c/ch3-thailand","CH3 THAILAND","P2","HOME BASECAMP · THAILAND + ASIA","Your local feed: Thailand coaches, squad and range.","https://assets-v2.circle.so/ivgpm0bzd85mu5xrqougzj7v5s67","wide"],
-["2904215","/c/teamflo","TEAMFLO","P3","HOME BASECAMP · FLORIDA + NORTH AMERICA","Your local feed with Ryan Crysler and the TeamFLO squad.","https://assets-v2.circle.so/vyw1wxcti53ypjnr5pcyiofi7nn2","wide"],
-["2904208","/c/son-of-a-butch","SON OF A BUTCH","P4","OPEN TO EVERY MEMBER · THE PODCAST","Every episode lands here first, plus exclusive access to live recordings with CH3 and special guests.","https://assets-v2.circle.so/evwoeph4h28s48vd358enrghytvi","square"],
+["2904207","/c/global","GLOBAL","GB","OPEN TO EVERY MEMBER · EVERY ACADEMY","Every academy, the Son of a Butch community and the CH3 coaches. One feed, with featured posts from each home basecamp.","https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5","mark"],
+["2904211","/c/junior","JUNIOR","JB","JUNIORS ONLY · EVERY ACADEMY","Juniors from every academy team in one feed, with the CH3 coaches, junior drills and Premier sessions.","https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5","mark"],
+["2904213","/c/ch3-dubai","CH3 DUBAI","DU","HOME BASECAMP · UAE + EUROPE","Your local feed: Dubai coaches, squad and range.","https://assets-v2.circle.so/0ystuo9hiylgxum4vl9qbfyy0t07","wide"],
+["2904214","/c/ch3-thailand","CH3 THAILAND","TH","HOME BASECAMP · THAILAND + ASIA","Your local feed: Thailand coaches, squad and range.","https://assets-v2.circle.so/ivgpm0bzd85mu5xrqougzj7v5s67","wide"],
+["2904215","/c/teamflo","TEAMFLO","FL","HOME BASECAMP · FLORIDA + NORTH AMERICA","Your local feed with Ryan Crysler and the TeamFLO squad.","https://assets-v2.circle.so/vyw1wxcti53ypjnr5pcyiofi7nn2","wide"],
+["2904208","/c/son-of-a-butch","SON OF A BUTCH","SB","OPEN TO EVERY MEMBER · THE PODCAST","Every episode lands here first, plus exclusive access to live recordings with CH3 and special guests.","https://assets-v2.circle.so/evwoeph4h28s48vd358enrghytvi","square"],
 ["2904217","/c/elite-room","ELITE","EB","ELITE · APPLICATION ONLY · 8 SPOTS","Direct access to Ryan Crysler and Claude Harmon III.","https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5","mark"]
 ];
 /* Same header card, but no basecamp button: [space id, path, label, code, header eyebrow, header subline, header logo, logo shape] */
