@@ -49,6 +49,9 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 #ch3-reg-am:checked~.ch3-regions .ch3-reg-am .ch3-reg-on,#ch3-reg-eu:checked~.ch3-regions .ch3-reg-eu .ch3-reg-on,#ch3-reg-as:checked~.ch3-regions .ch3-reg-as .ch3-reg-on{display:block}
 #ch3-reg-am:checked~.ch3-regions .ch3-reg-am .ch3-reg-off,#ch3-reg-eu:checked~.ch3-regions .ch3-reg-eu .ch3-reg-off,#ch3-reg-as:checked~.ch3-regions .ch3-reg-as .ch3-reg-off{display:none}
 #ch3-site .ch3-radio:focus-visible~.ch3-regions{outline:2px solid #F47C67;outline-offset:2px}
+/* photo slots still waiting for a photo: no placeholder caption on the live page */
+#ch3-site .ch3-slot{font-size:0!important;border:0!important;opacity:1!important;background:rgba(128,128,128,.12)}
+#ch3-site .ch3-slot[data-slot="hero-claude"],#ch3-site .ch3-slot[data-slot="session-cam"]{display:none!important}
 @media (max-width:1100px){
 #ch3-site .ch3-navlinks{display:none!important}
 #ch3-site .ch3-clocks{display:none!important}
@@ -91,7 +94,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 #ch3-site .ch3-hv8:hover{transform:translateY(-4px) !important;box-shadow:0 18px 40px rgba(17,26,34,.28) !important}</style>
 <div id="ch3-site" style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;color:#253746;background:#fff;min-width:0">
 <div class="ch3-bars-mark"></div><div class="ch3-bars"><header class="ch3-nav" style="position:relative;background:#253746;display:flex;align-items:center;gap:28px;padding:0 40px;height:72px;border-bottom:3px solid #E04E39">
-<a href="#" style="flex:none;display:block"><img alt="CH3 Performance Golf Academy" src="https://assets-v2.circle.so/q3djygkluodp3zpkivwgwd12gku4" style="display:block;height:52px;width:auto"/></a>
+<a href="#" style="flex:none;display:block"><img alt="CH3 Performance Golf Academy" src="https://assets-v2.circle.so/h51u9b15jxu0kv0zg3a0pmizefyp" style="display:block;height:52px;width:auto"/></a>
 <nav class="ch3-navlinks" style="display:flex;gap:26px;flex:1;min-width:0;overflow:hidden;white-space:nowrap">
 <a href="#grid" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">WHAT'S INSIDE</a>
 <a href="#session" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">ON THE RANGE</a>
@@ -350,7 +353,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="position:absolute;left:0;right:0;top:120px;bottom:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(255,255,255,.14) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%);mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%)"></div>
 <div style="position:relative;padding:26px 28px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
 <div style="min-width:0">
-<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff"><span style="font:400 18px/1 Anton,sans-serif;color:#fff">P1</span>HOME BASECAMP · UAE + EUROPE</div>
+<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff"><span style="font:400 18px/1 Anton,sans-serif;color:#fff">DU</span>HOME BASECAMP · UAE + EUROPE</div>
 <div style="font:400 44px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">CH3 Dubai</div>
 <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px"><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#253746;flex:none"></span>Head <b style="font-weight:700;text-transform:uppercase">Coach</b></span><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#253746;flex:none"></span>Academy <b style="font-weight:700;text-transform:uppercase">Coach</b></span></div>
 </div>
@@ -363,7 +366,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="position:absolute;left:0;right:0;top:120px;bottom:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(255,255,255,.08) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%);mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%)"></div>
 <div style="position:relative;padding:26px 28px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
 <div style="min-width:0">
-<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA"><span style="font:400 18px/1 Anton,sans-serif;color:#F47C67">P2</span>HOME BASECAMP · THAILAND + ASIA</div>
+<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA"><span style="font:400 18px/1 Anton,sans-serif;color:#F47C67">TH</span>HOME BASECAMP · THAILAND + ASIA</div>
 <div style="font:400 44px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">CH3 Thailand</div>
 <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px"><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#E04E39;flex:none"></span>Head <b style="font-weight:700;text-transform:uppercase">Coach</b></span><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#E04E39;flex:none"></span>Academy <b style="font-weight:700;text-transform:uppercase">Coach</b></span></div>
 </div>
@@ -376,7 +379,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="position:absolute;left:0;right:0;top:120px;bottom:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(37,55,70,.09) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%);mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%)"></div>
 <div style="position:relative;padding:26px 28px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
 <div style="min-width:0">
-<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#536676"><span style="font:400 18px/1 Anton,sans-serif;color:#C9432F">P3</span>HOME BASECAMP · FLORIDA + NORTH AMERICA</div>
+<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#536676"><span style="font:400 18px/1 Anton,sans-serif;color:#C9432F">FL</span>HOME BASECAMP · FLORIDA + NORTH AMERICA</div>
 <div style="font:400 44px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">TeamFLO</div>
 <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px"><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#253746;flex:none"></span>Ryan <b style="font-weight:700;text-transform:uppercase">Crysler</b></span><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.1em;color:#536676;align-self:center">HEAD COACH · TEAMFLO + RC GREENLIGHT</span></div>
 </div>
@@ -389,11 +392,11 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="position:absolute;left:0;right:0;top:120px;bottom:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(224,78,57,.18) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%);mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%)"></div>
 <div style="position:relative;padding:26px 28px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
 <div style="min-width:0">
-<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#CDD4DA"><span style="font:400 18px/1 Anton,sans-serif;color:#F47C67">POD</span>OPEN COMMUNITY · GLOBAL</div>
+<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#CDD4DA"><span style="font:400 18px/1 Anton,sans-serif;color:#F47C67">SB</span>OPEN COMMUNITY · GLOBAL</div>
 <div style="font:400 44px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">Son of a Butch</div>
 <div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px"><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#E04E39;flex:none"></span>Claude <b style="font-weight:700;text-transform:uppercase">Harmon III</b></span><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#E04E39;flex:none"></span>+ Guests <b style="font-weight:700;text-transform:uppercase"></b></span></div>
 </div>
-<div style="flex:none;width:72px;height:72px;border-radius:36px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 0 0 4px rgba(224,78,57,.6)"><img alt="" src="https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9" style="width:62px;height:auto;display:block;object-fit:contain;"/></div>
+<div style="flex:none;width:72px;height:72px;border-radius:36px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 0 0 4px rgba(224,78,57,.6)"><img alt="" src="https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5" style="width:62px;height:auto;display:block;object-fit:contain;"/></div>
 </div>
 <div style="position:relative;height:220px;margin:22px 28px 0"><img alt="" src="https://assets-v2.circle.so/l8a3ec8pkhpblfiksomztbdim55k" style="display:block;width:100%;height:100%;object-fit:cover"/></div>
 <div style="position:relative;display:flex;justify-content:space-between;align-items:center;padding:16px 28px;border-top:1px solid rgba(255,255,255,.15);font:600 14px/1 'Barlow Condensed';letter-spacing:.12em"><span>ALL TIERS · 4 WEEKS FREE</span><span style="color:#F47C67">JOIN THE POD →</span></div>
@@ -401,7 +404,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <a class="ch3-hv8" href="#tiers" style="grid-column:1/-1;position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));overflow:hidden;border-radius:8px;color:#fff;background:linear-gradient(120deg,#A3321F 0%,#C9432F 100%)">
 <div style="position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(255,255,255,.12) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,transparent 30%,#000 100%);mask-image:linear-gradient(90deg,transparent 30%,#000 100%)"></div>
 <div style="position:relative;padding:30px 28px;display:flex;flex-direction:column;gap:14px">
-<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff"><span style="font:400 18px/1 Anton,sans-serif;color:#fff">JR</span>GLOBAL JUNIOR BASECAMP · ALL ACADEMIES</div>
+<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff"><span style="font:400 18px/1 Anton,sans-serif;color:#fff">JB</span>GLOBAL JUNIOR BASECAMP · ALL ACADEMIES</div>
 <div style="font:400 clamp(36px,4vw,52px)/.95 Anton,sans-serif;text-transform:uppercase">Juniors from every academy.<br/>One basecamp.</div>
 <p style="margin:0;font:400 19px/1.35 'Barlow Condensed';max-width:520px">Junior players from CH3 Dubai, CH3 Thailand and TeamFLO train, post and compete together, with everything in Premier included.</p>
 <div style="display:flex;gap:8px;flex-wrap:wrap"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em;background:#fff;color:#253746;padding:8px 12px;border-radius:2px">CH3 DUBAI</span><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em;background:#fff;color:#253746;padding:8px 12px;border-radius:2px">CH3 THAILAND</span><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em;background:#fff;color:#253746;padding:8px 12px;border-radius:2px">TEAMFLO</span></div>
@@ -643,7 +646,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 </section>
 <footer class="ch3-foot" style="background:#111A22;color:#A6B1BA;padding:56px 40px 40px">
 <div class="ch3-footer-grid" style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:minmax(0,2fr) repeat(3,minmax(0,1fr));gap:32px">
-<div><img alt="CH3 Performance Golf Academy" src="https://assets-v2.circle.so/q3djygkluodp3zpkivwgwd12gku4" style="display:block;height:96px;width:auto;margin-left:-14px"/><p style="margin:12px 0 0;font:400 17px/1.4 'Barlow Condensed';max-width:320px">The digital Basecamp for Claude Harmon III, the CH3 academies and the Son of a Butch community.</p></div>
+<div><img alt="CH3 Performance Golf Academy" src="https://assets-v2.circle.so/h51u9b15jxu0kv0zg3a0pmizefyp" style="display:block;height:96px;width:auto;margin-left:-2px"/><p style="margin:12px 0 0;font:400 17px/1.4 'Barlow Condensed';max-width:320px">The digital Basecamp for Claude Harmon III, the CH3 academies and the Son of a Butch community.</p></div>
 <div style="display:flex;flex-direction:column;gap:10px;font:400 17px/1 'Barlow Condensed'"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff">INSIDE</span><a href="#grid" style="color:#A6B1BA">Live webinars</a><a href="#grid" style="color:#A6B1BA">Course archive</a><a href="#pod" style="color:#A6B1BA">Live recordings</a><a href="#grid" style="color:#A6B1BA">On tour with Claude</a></div>
 <div style="display:flex;flex-direction:column;gap:10px;font:400 17px/1 'Barlow Condensed'"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff">ACADEMIES</span><a href="#basecamp" style="color:#A6B1BA">CH3 Dubai</a><a href="#basecamp" style="color:#A6B1BA">CH3 Thailand</a><a href="#basecamp" style="color:#A6B1BA">TeamFLO</a></div>
 <div style="display:flex;flex-direction:column;gap:10px;font:400 17px/1 'Barlow Condensed'"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff">MEMBERSHIP</span><a href="#tiers" style="color:#A6B1BA">Pod Community</a><a href="#tiers" style="color:#A6B1BA">Premier</a><a href="#tiers" style="color:#A6B1BA">Elite</a><a href="https://ch3.circle.so/sign_in" style="color:#A6B1BA">Log in</a></div>

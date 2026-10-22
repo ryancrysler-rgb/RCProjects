@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup, NavigableString, Comment, Tag
 SRC, OUT = sys.argv[1], sys.argv[2]
 CDN = 'https://assets-v2.circle.so/'
 IMG = {  # design asset uuid -> Circle-hosted copy
-    '724528f7-5b9d-45d3-b948-7dd4cceefc0c': CDN + 'q3djygkluodp3zpkivwgwd12gku4',  # CH3 logo, white
-    '530230c8-ce0d-4e54-9948-c5e0ce21f727': CDN + 'c6fo3ef32c6sjwtwux6lkw4vjjo9',  # CH3 logo, dark
+    '724528f7-5b9d-45d3-b948-7dd4cceefc0c': CDN + 'h51u9b15jxu0kv0zg3a0pmizefyp',  # CH3 mark, white (no tagline)
+    '530230c8-ce0d-4e54-9948-c5e0ce21f727': CDN + 'rrxvgyqulo15uln4o8y0t7bqi3f5',  # CH3 mark, dark (no tagline)
     'fa1e6f77-8a0a-4443-887e-3b9e06bba26d': CDN + 'vyw1wxcti53ypjnr5pcyiofi7nn2',  # TeamFLO logo
     'fa46084f-77e4-47ae-a937-5dc68a3f796b': CDN + '0ystuo9hiylgxum4vl9qbfyy0t07',  # CH3 Dubai logo
     '00cae2d0-8c2a-4858-93aa-a3c112368ba0': CDN + 'ivgpm0bzd85mu5xrqougzj7v5s67',  # CH3 Thailand logo
@@ -54,6 +54,13 @@ EDITS = [
     ("Now it's on your phone.", "Now it's yours."),
     ('INSIDE THE APP', 'INSIDE TEAMCH3'),
     ('One tap, two feeds', 'One click, two feeds'),
+    # Basecamp codes, as in the community sidebar (the Paddock codes are gone)
+    ('>P1</span>HOME BASECAMP · UAE + EUROPE', '>DU</span>HOME BASECAMP · UAE + EUROPE'),
+    ('>P2</span>HOME BASECAMP · THAILAND + ASIA', '>TH</span>HOME BASECAMP · THAILAND + ASIA'),
+    ('>P3</span>HOME BASECAMP · FLORIDA + NORTH AMERICA', '>FL</span>HOME BASECAMP · FLORIDA + NORTH AMERICA'),
+    ('>POD</span>OPEN COMMUNITY · GLOBAL', '>SB</span>OPEN COMMUNITY · GLOBAL'),
+    ('>JR</span>GLOBAL JUNIOR BASECAMP · ALL ACADEMIES', '>JB</span>GLOBAL JUNIOR BASECAMP · ALL ACADEMIES'),
+    ('height:96px;width:auto;margin-left:-14px', 'height:96px;width:auto;margin-left:-2px'),  # the new mark has no padding to offset
 ]
 for a, b in EDITS:
     a2 = a.replace('’', "'") if a.replace('’', "'") in t else a
@@ -375,6 +382,9 @@ CSS = r'''
 #ch3-reg-am:checked~.ch3-regions .ch3-reg-am .ch3-reg-on,#ch3-reg-eu:checked~.ch3-regions .ch3-reg-eu .ch3-reg-on,#ch3-reg-as:checked~.ch3-regions .ch3-reg-as .ch3-reg-on{display:block}
 #ch3-reg-am:checked~.ch3-regions .ch3-reg-am .ch3-reg-off,#ch3-reg-eu:checked~.ch3-regions .ch3-reg-eu .ch3-reg-off,#ch3-reg-as:checked~.ch3-regions .ch3-reg-as .ch3-reg-off{display:none}
 #ch3-site .ch3-radio:focus-visible~.ch3-regions{outline:2px solid #F47C67;outline-offset:2px}
+/* photo slots still waiting for a photo: no placeholder caption on the live page */
+#ch3-site .ch3-slot{font-size:0!important;border:0!important;opacity:1!important;background:rgba(128,128,128,.12)}
+#ch3-site .ch3-slot[data-slot="hero-claude"],#ch3-site .ch3-slot[data-slot="session-cam"]{display:none!important}
 @media (max-width:1100px){
 #ch3-site .ch3-navlinks{display:none!important}
 #ch3-site .ch3-clocks{display:none!important}
