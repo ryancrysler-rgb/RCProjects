@@ -7,6 +7,12 @@ SRC, OUT = sys.argv[1], sys.argv[2]
 CDN = 'https://assets-v2.circle.so/'
 SLOT_IMG = {  # empty photo slot in the design -> Circle-hosted photo, alt text
     'junior-paddock': (CDN + '9g9ln04ugcei0s8xtoifxqjongil', 'Junior players watching a drive at a CH3 academy'),
+    # Claude stands on the left of this photo, so it fills the right half of the hero, clear of the headline
+    'hero-claude': (CDN + 'l3mre63766j0kdqifdxoftjpkw12', 'Claude Harmon III range-side at a tour event',
+                    'position:absolute;top:0;right:0;width:min(908px,64%);height:auto;'
+                    '-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 32%),linear-gradient(to bottom,#000 55%,transparent 100%);'
+                    '-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent 0%,#000 32%),linear-gradient(to bottom,#000 55%,transparent 100%);'
+                    'mask-composite:intersect', 'ch3-hero-photo'),
 }
 IMG = {  # design asset uuid -> Circle-hosted copy
     '724528f7-5b9d-45d3-b948-7dd4cceefc0c': CDN + 'h51u9b15jxu0kv0zg3a0pmizefyp',  # CH3 mark, white (no tagline)
@@ -217,8 +223,9 @@ def render(node, c):
         return []
     if name == 'image-slot':
         if node.get('id') in SLOT_IMG:
-            src, alt = SLOT_IMG[node['id']]
-            return frag('<img src="%s" alt="%s" style="display:block;width:100%%;height:100%%;object-fit:cover">' % (src, H.escape(alt)))
+            src, alt, *extra = SLOT_IMG[node['id']]
+            style, cls = extra if extra else ('display:block;width:100%;height:100%;object-fit:cover', '')
+            return frag('<img%s src="%s" alt="%s" style="%s">' % (' class="%s"' % cls if cls else '', src, H.escape(alt), style))
         if node.get('src'):
             return frag('<img src="%s" alt="" style="display:block;width:100%%;height:100%%;object-fit:cover">' % IMG[node['src']])
         return frag('<div class="ch3-slot" data-slot="%s" style="box-sizing:border-box;width:100%%;height:100%%;min-height:inherit;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;border:1px dashed currentColor;opacity:.5;font:400 15px/1.3 \'Barlow Condensed\',sans-serif">Photo: %s</div>'
@@ -417,6 +424,7 @@ CSS = r'''
 #ch3-site .ch3-foot{padding:48px 16px 32px!important}
 #ch3-site h1,#ch3-site h2{overflow-wrap:anywhere}
 #ch3-site .ch3-slot[data-slot="hero-claude"],#ch3-site .ch3-slot[data-slot="session-cam"]{display:none!important}
+#ch3-site .ch3-hero-photo{width:100%!important;opacity:.35}
 }
 @media (max-width:520px){
 #ch3-site .ch3-nav a[href="#tiers"]{padding:12px 12px!important;font-size:14px!important}
