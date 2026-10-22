@@ -40,6 +40,8 @@ Or in Circle yourself
 Whoever sends the invite, their name and email appear in Circle's email. Ryan's invites show
 rcrysler@floridian.cc. If Claude Harmon invites, the player sees claudeharmon3@gmail.com.
 
+Many players at once (beta testers): see "TeamCH3 - beta tester invite.txt".
+
 
 3. THE EMAILS A NEW PLAYER GETS
 a) Heads-up email from you (optional, recommended)
@@ -77,8 +79,8 @@ b) Circle's invitation email (Circle writes this one)
  to join the TeamCH3 community. To get started, accept the invite below: [Accept invitation]. If you think you've
  received this email in error, please ignore this email."
  This is the email Ryan Tester received on October 15, with "CH3" changed to "TeamCH3": the community was
- renamed on October 22, so new invites should say TeamCH3. Claude can't change the wording. Two things left:
-  - The logo at the top is a plain "C". Adding a square icon in Circle's branding settings replaces it.
+ renamed on October 22, so new invites should say TeamCH3. Claude can't change the wording.
+  - The logo at the top was a plain "C". The square TeamCH3 icon was uploaded on October 22 and should replace it.
   - It shows the inviter's email address.
 
 c) Welcome email after they join (to build, section 6)
@@ -131,10 +133,13 @@ d) After that
 
 6. CIRCLE WORKFLOWS
 What's there now
- 16 automations from the old region-picker setup (e.g. "Academy · CH3 Dubai · Junior Paddock", "Cleanup ·
- Academies · Premier"). All are off and none has ever run. They point at an access group and segments that no
- longer exist, because memberships now set the spaces directly. Archive them in Circle > Workflows so nobody
- switches one on by mistake.
+ 16 automations from the first membership design (e.g. "Academy · CH3 Dubai · Junior Paddock", "Cleanup ·
+ Academies · Premier"): the player picked a region at sign-up, and the workflows added their academy and removed
+ it when they left. Since October 14 each academy has its own membership, which adds and removes the right spaces
+ by itself, so the same job is done without them. 13 start from the archived "OLD Junior Paddock" and "OLD
+ Premier" memberships and can't run. The 3 Elite academy ones depended on the retired region question (Elite
+ academies are added by hand), and "Elite Basecamp" repeats what the Elite membership already does. All are off
+ and none has ever run. Leave them off. There's no need to archive them.
 
 Welcome workflows to build (one per membership)
  Circle has no connector for creating workflows, so these are built in Circle > Workflows > New automation.
@@ -239,8 +244,9 @@ Done October 22
  - Member email addresses are hidden on profiles.
  - The open Parents link is switched off. Parents are invited by email, and the Junior Basecamp welcome post says
    so. Juniors can add the parent's email in Edit profile.
+ - The square TeamCH3 icon is uploaded.
 Still open
- - Upload a square TeamCH3 icon in Circle's branding settings so emails don't show a plain "C" (in Circle; Claude
-   can't upload the icon).
+ - Community logo: upload "CH3 mark white.png" (the CH3 mark without the small text) in Circle's appearance
+   settings, Light and Dark tabs. The old white logo looks empty in the Light preview because it's white on white.
  - Hide the attendee list on Junior Events, so the names of juniors attending aren't shown. Claude can do this.
- - Archive the 16 old workflows (in Circle; Claude can't archive them).
+ - Beta testers: see "TeamCH3 - beta tester invite.txt".
