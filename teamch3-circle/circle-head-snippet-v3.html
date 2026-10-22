@@ -1,4 +1,4 @@
-<!-- TeamCH3 · Circle head code snippet · v3.4 · Oct 22 2026
+<!-- TeamCH3 · Circle head code snippet · v3.5 · Oct 22 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
@@ -11,6 +11,7 @@ and (v3.1) Global Basecamp open to every paid member, plus the Elite Basecamp pi
 prefixes (New session: / Live recording: / On tour: / New episode: / Standings:), COACH + TEAMCH3 tags,
 navy right-column panels and the Basecamp standings post.
 (v3.4) Sidebar links to pages in this community open in the same window; links to other sites still open a new tab.
+(v3.5) Shorter basecamp button labels so all seven fit; a fade on the right edge when more buttons are off-screen.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -78,6 +79,7 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 #ch3-hdr-sub{grid-column:2;margin:0;max-width:52ch;font:400 17px/1.35 'Barlow Condensed',sans-serif;color:#CDD4DA;white-space:normal}
 /* 5. Basecamp pills: white bar above the page (injected by the script below) */
 #ch3-basecamps{flex:none;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:14px 36px;background:#fff;border-bottom:1px solid #CDD4DA}
+#ch3-basecamps[data-more]{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 64px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 64px),transparent)}
 #ch3-basecamps::-webkit-scrollbar{display:none}
 #ch3-basecamps a{flex:none;display:flex;align-items:center;gap:8px;height:36px;padding:0 16px;border-radius:18px;background:#fff;border:1px solid #CDD4DA;color:#253746;text-decoration:none;font:600 14px/1 'Barlow Condensed',sans-serif;letter-spacing:.1em;text-transform:uppercase}
 #ch3-basecamps a b{font:400 14px/1 Anton,Impact,sans-serif;letter-spacing:.02em;color:#C9432F}
@@ -156,13 +158,13 @@ a:focus-visible,button:focus-visible,[role="button"]:focus-visible{outline:2px s
 if(window.__ch3Theme)return;window.__ch3Theme=1;
 /* [space id, path, pill label, code, header eyebrow, header subline, header logo, logo shape] */
 var BASECAMPS=[
-["2904207","/c/global","GLOBAL BASECAMP","GP","OPEN TO EVERY MEMBER · EVERY ACADEMY","Every academy, the Son of a Butch community and the CH3 coaches. One feed, with featured posts from each home basecamp.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
-["2904211","/c/junior","GLOBAL JUNIOR BASECAMP","JP","JUNIORS ONLY · EVERY ACADEMY","Juniors from every academy team in one feed, with the CH3 coaches, junior drills and Premier sessions.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
+["2904207","/c/global","GLOBAL","GP","OPEN TO EVERY MEMBER · EVERY ACADEMY","Every academy, the Son of a Butch community and the CH3 coaches. One feed, with featured posts from each home basecamp.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
+["2904211","/c/junior","JUNIOR","JP","JUNIORS ONLY · EVERY ACADEMY","Juniors from every academy team in one feed, with the CH3 coaches, junior drills and Premier sessions.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
 ["2904213","/c/ch3-dubai","CH3 DUBAI","P1","HOME BASECAMP · UAE + EUROPE","Your local feed: Dubai coaches, squad and range.","https://assets-v2.circle.so/0ystuo9hiylgxum4vl9qbfyy0t07","wide"],
 ["2904214","/c/ch3-thailand","CH3 THAILAND","P2","HOME BASECAMP · THAILAND + ASIA","Your local feed: Thailand coaches, squad and range.","https://assets-v2.circle.so/ivgpm0bzd85mu5xrqougzj7v5s67","wide"],
 ["2904215","/c/teamflo","TEAMFLO","P3","HOME BASECAMP · FLORIDA + NORTH AMERICA","Your local feed with Ryan Crysler and the TeamFLO squad.","https://assets-v2.circle.so/vyw1wxcti53ypjnr5pcyiofi7nn2","wide"],
 ["2904208","/c/son-of-a-butch","SON OF A BUTCH","P4","OPEN TO EVERY MEMBER · THE PODCAST","Every episode lands here first, plus exclusive access to live recordings with CH3 and special guests.","https://assets-v2.circle.so/evwoeph4h28s48vd358enrghytvi","square"],
-["2904217","/c/elite-room","ELITE BASECAMP","EB","ELITE · APPLICATION ONLY · 8 SPOTS","Direct access to Ryan Crysler and Claude Harmon III.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"]
+["2904217","/c/elite-room","ELITE","EB","ELITE · APPLICATION ONLY · 8 SPOTS","Direct access to Ryan Crysler and Claude Harmon III.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"]
 ];
 var RULES_KEY="ch3_rules_agreed_v1";
 /* Where "Send your golf data to RC Greenlight" goes (opens in a new tab). Empty = shown as a label with no link. */
@@ -178,6 +180,8 @@ function parentLanding(){if(window.__ch3ParentSent||!parentOnly())return;var p=l
 function onPath(base){var p=location.pathname;return p===base||p.indexOf(base+"/")===0;}
 function current(){for(var i=0;i<BASECAMPS.length;i++){if(onPath(BASECAMPS[i][1]))return BASECAMPS[i];}return null;}
 /* Basecamp pills: only shows basecamps this member can see in the sidebar */
+/* Fade the right edge of the basecamp buttons while more of them are off-screen */
+function more(el){var m=el.scrollWidth-el.clientWidth-el.scrollLeft>4;if(m!==el.hasAttribute("data-more")){if(m)el.setAttribute("data-more","");else el.removeAttribute("data-more");}}
 function pills(){
 var host=document.querySelector('[data-circle="app-content"]');if(!host)return;
 var side=document.querySelector('[data-circle="app-sidebar"]');
@@ -187,6 +191,10 @@ if(!list.length){if(el)el.remove();return;}
 if(!el||el.parentNode!==host){if(el)el.remove();el=document.createElement("nav");el.id="ch3-basecamps";el.setAttribute("aria-label","Basecamps");host.insertBefore(el,host.firstChild);}
 var h=list.map(function(b){return '<a href="'+b[1]+'" data-id="'+b[0]+'"'+(onPath(b[1])?' aria-current="page"':'')+'><b>'+b[3]+'</b>'+b[2]+'</a>'}).join("");
 if(el.getAttribute("data-h")!==h){el.innerHTML=h;el.setAttribute("data-h",h);}
+if(!el.__ch3Scroll){el.__ch3Scroll=1;el.addEventListener("scroll",function(){more(el);},{passive:true});}
+var cur=el.querySelector("a[aria-current]");
+if(cur&&el.getAttribute("data-cur")!==cur.getAttribute("data-id")){el.setAttribute("data-cur",cur.getAttribute("data-id"));if(cur.offsetLeft+cur.offsetWidth>el.scrollLeft+el.clientWidth||cur.offsetLeft<el.scrollLeft)el.scrollLeft=cur.offsetLeft-el.clientWidth/2+cur.offsetWidth/2;}
+more(el);
 /* line the pills up with the page header below them */
 var ph=host.querySelector('[data-circle="page-header"]');
 if(ph){var pad=Math.max(16,Math.round(ph.getBoundingClientRect().left-host.getBoundingClientRect().left))+"px";if(el.style.paddingLeft!==pad){el.style.paddingLeft=pad;el.style.paddingRight=pad;}}
