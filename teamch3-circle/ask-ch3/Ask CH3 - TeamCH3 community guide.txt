@@ -30,8 +30,13 @@ Global Basecamp
 Son Of A Butch Podcast
 - Claude's podcast. Every episode lands here first, plus exclusive access to live podcast recordings with CH3
   and special guests.
-- Watch this basecamp for the date of the next live recording and how to send in a question.
+- Send questions for the next live recording here.
 - Every paid membership includes it.
+
+Live Recordings
+- Live Son Of A Butch recordings with CH3 and special guests. Members watch live and can have their questions
+  answered.
+- Every paid membership includes it. RSVP on the recording to get a reminder.
 
 Home basecamps (the academies)
 - Junior, Premier and Elite members have a home basecamp: the academy nearest where they live.
@@ -42,8 +47,8 @@ Home basecamps (the academies)
 - Members see their own academy only. To change home basecamp, an admin can help.
 
 Events
-- Live sessions on Circle: live podcast recordings, webinars with Claude, and basecamp spotlights where Claude and
-  an academy head coach take live questions from every basecamp.
+- Live sessions on Circle: webinars with Claude, and basecamp spotlights where Claude and an academy head coach
+  take live questions from every basecamp. Live podcast recordings are in Live Recordings.
 - For Junior, Premier and Elite members. RSVP on the event to get a reminder. The Events button at the top of the
   page shows every event a member can join, as a calendar.
 
@@ -72,11 +77,12 @@ Elite Basecamp
 
 
 WHAT EACH MEMBERSHIP INCLUDES
-- Pod Community: Global Basecamp, Son Of A Butch Podcast (with live podcast recordings), Community Rules.
-  No academy.
+- Pod Community: Global Basecamp, Son Of A Butch Podcast, Live Recordings, Community Rules. No academy.
 - Junior Paddock (juniors 13 to 19): Global Basecamp, Junior Basecamp, Junior Events, home basecamp, Son Of A
-  Butch Podcast, Events, Premier Sessions, Community Rules. A parent or guardian joins the Parents space free.
-- Premier: Global Basecamp, home basecamp, Son Of A Butch Podcast, Events, Premier Sessions, Community Rules.
+  Butch Podcast, Live Recordings, Events, Premier Sessions, Community Rules. A parent or guardian joins the
+  Parents space free.
+- Premier: Global Basecamp, home basecamp, Son Of A Butch Podcast, Live Recordings, Events, Premier Sessions,
+  Community Rules.
 - Elite: everything in Premier, plus the Elite Basecamp. Application only, eight spots.
 - Every membership except Elite starts with a free trial. Annual memberships cost less than paying monthly.
   For prices, see the TeamCH3 membership page or ask an admin.

@@ -1,6 +1,6 @@
 # TeamCH3 · Circle head snippet
 
-`circle-head-snippet-v3.html` (v3.7) is the code pasted into Circle at **Site › Code snippets › head** for
+`circle-head-snippet-v3.html` (v3.8) is the code pasted into Circle at **Site › Code snippets › head** for
 ch3.circle.so. It applies the TeamCH3 brand kit (navy + orange, Anton + Barlow Condensed) to Circle's web
 app and adds the basecamp pills, basecamp header cards, sidebar codes, FEATURED bars, quote cards, the
 row under "Start a post" and the community-rules pop-up before a member's first post.
@@ -17,6 +17,7 @@ row under "Start a post" and the community-rules pop-up before a member's first 
   A `Standings:` post's numbered list (basecamp name, then the number in bold) renders as the standings table.
 - Sidebar links added in Circle get orange codes when their title is exactly one of: Ask CH3, Live recordings,
   Course archive, Leaderboard, Messages, RC Greenlight, On tour with Claude.
+- Spaces get their sidebar code by space id. Junior Events (2920700) is JE and Live Recordings (2920720) is LR.
 
 The running list of things to paste or click in Circle admin is in Google Drive:
 "TeamCH3 Circle - copy-paste list v2.txt". Membership is one access group per basecamp and tier
