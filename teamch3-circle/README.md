@@ -1,6 +1,6 @@
 # TeamCH3 · Circle head snippet
 
-`circle-head-snippet-v3.html` (v3.2) is the code pasted into Circle at **Site › Code snippets › head** for
+`circle-head-snippet-v3.html` (v3.3) is the code pasted into Circle at **Site › Code snippets › head** for
 ch3.circle.so. It applies the TeamCH3 brand kit (navy + orange, Anton + Barlow Condensed) to Circle's web
 app and adds the basecamp pills, basecamp header cards, sidebar codes, FEATURED bars, quote cards, the
 row under "Start a post" and the community-rules pop-up before a member's first post.
@@ -11,6 +11,12 @@ row under "Start a post" and the community-rules pop-up before a member's first 
 - Basecamp ids, pill labels and header copy live in the `BASECAMPS` array at the top of the script.
 - `GREENLIGHT_URL` is empty on purpose: "Send your golf data to RC Greenlight" shows as a label until
   an address is set.
+- `ASK_CH3_URL` is empty until the Ask CH3 agent's message link is known; until then "Ask a coach" opens the post box.
+- Header logos are the `BASECAMPS` logo URLs (Circle CDN files kept on the draft post "Membership page images").
+- Post badges come from title prefixes: `New session:`, `Live recording:`, `On tour:`, `New episode:`, `Standings:`.
+  A `Standings:` post's numbered list (basecamp name, then the number in bold) renders as the standings table.
+- Sidebar links added in Circle get orange codes when their title is exactly one of: Ask CH3, Live recordings,
+  Course archive, Leaderboard, Messages, RC Greenlight, On tour with Claude.
 
 The running list of things to paste or click in Circle admin is in Google Drive:
 "TeamCH3 Circle - copy-paste list v2.txt". Membership is one access group per basecamp and tier

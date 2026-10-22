@@ -1,4 +1,4 @@
-<!-- TeamCH3 · Circle head code snippet · v3.2 · Oct 19 2026
+<!-- TeamCH3 · Circle head code snippet · v3.3 · Oct 22 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
@@ -7,6 +7,9 @@ a row under "Start a post": Send your golf data to RC Greenlight · Ask a coach,
 parent-only members land in the Parents space with no basecamp pills,
 and (v3.1) Global Basecamp open to every paid member, plus the Elite Basecamp pill and header.
 (v3.2) The podcast header line now promotes live podcast recordings instead of After the Pod.
+(v3.3) Basecamp logos in the header cards, Ask CH3, orange codes on sidebar links, post badges from title
+prefixes (New session: / Live recording: / On tour: / New episode: / Standings:), COACH + TEAMCH3 tags,
+navy right-column panels and the Basecamp standings post.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,12 +52,26 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 [data-circle="app-sidebar"] a[data-id="2904208"]>div::before{content:"P4"}
 [data-circle="app-sidebar"] a[data-id="2904216"]>div::before{content:"PS"}
 [data-circle="app-sidebar"] a[data-id="2904217"]>div::before{content:"EB"}
+/* Sidebar links (added in Circle under Links), matched by their exact title */
+[data-circle="app-sidebar"] :is(a[title="Ask CH3"],a[title="Live recordings"],a[title="Course archive"],a[title="Leaderboard"],a[title="Messages"],a[title="RC Greenlight"],a[title="On tour with Claude"])>div>svg{display:none!important}
+[data-circle="app-sidebar"] :is(a[title="Ask CH3"],a[title="Live recordings"],a[title="Course archive"],a[title="Leaderboard"],a[title="Messages"],a[title="RC Greenlight"],a[title="On tour with Claude"])>div::before{flex:none;width:22px;font:400 15px/1 Anton,Impact,sans-serif;color:#F47C67}
+[data-circle="app-sidebar"] a[title="Ask CH3"]>div::before{content:"AC"}
+[data-circle="app-sidebar"] a[title="Live recordings"]>div::before{content:"LR"}
+[data-circle="app-sidebar"] a[title="Course archive"]>div::before{content:"CA"}
+[data-circle="app-sidebar"] a[title="Leaderboard"]>div::before{content:"LB"}
+[data-circle="app-sidebar"] a[title="Messages"]>div::before{content:"MS"}
+[data-circle="app-sidebar"] a[title="RC Greenlight"]>div::before{content:"RG"}
+[data-circle="app-sidebar"] a[title="On tour with Claude"]>div::before{content:"OT"}
+[data-circle="app-sidebar"] li:has(>a[href*="play.google.com/store/apps/details?id=so.circle"]),[data-circle="app-sidebar"] li:has(>a[href*="apps.apple.com"][title*="iOS app"]){display:none!important}
 /* 4. Page header as the navy basecamp card (eyebrow, code badge and subline injected by the script below) */
 [data-circle="page-header"]{--color-background-primary:#253746;--color-border-primary:#253746;--color-text-primary:#FFFFFF;--color-icon-primary:#FFFFFF;background:#253746 repeating-linear-gradient(115deg,rgba(224,78,57,0) 0 16px,rgba(224,78,57,.35) 16px 24px) right top/200px 100% no-repeat!important;border-bottom:3px solid #E04E39!important}
 [data-circle="page-header"] h1{font-size:34px!important;line-height:1!important}
 [data-circle="page-header"]:has(#ch3-hdr-badge){position:relative!important;margin-top:24px!important;border-bottom:0!important;border-radius:12px!important}
-[data-circle="page-header"] div:has(>#ch3-hdr-badge){display:grid!important;grid-template-columns:64px minmax(0,1fr);column-gap:18px;row-gap:6px;align-items:center;padding:6px 0}
+[data-circle="page-header"] div:has(>#ch3-hdr-badge){display:grid!important;grid-template-columns:auto minmax(0,1fr);column-gap:18px;row-gap:6px;align-items:center;padding:6px 0}
 #ch3-hdr-badge{grid-column:1;grid-row:1/span 3;display:flex;align-items:center;justify-content:center;width:64px;height:64px;border-radius:32px;background:#fff;color:#253746;font:400 22px/1 Anton,Impact,sans-serif}
+#ch3-hdr-badge[data-logo]{width:120px;border-radius:10px;font-size:0;background:#fff center/86% auto no-repeat;box-shadow:0 0 0 3px rgba(255,255,255,.14)}
+#ch3-hdr-badge[data-logo="square"]{width:64px;background-size:cover}
+@media (max-width:640px){#ch3-hdr-badge{width:48px;height:48px;font-size:17px}#ch3-hdr-badge[data-logo]{width:84px}#ch3-hdr-badge[data-logo="square"]{width:48px}}
 #ch3-hdr-eyebrow{grid-column:2;font:600 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#F47C67}
 [data-circle="page-header"] div:has(>#ch3-hdr-badge)>h1{grid-column:2}
 #ch3-hdr-sub{grid-column:2;margin:0;max-width:52ch;font:400 17px/1.35 'Barlow Condensed',sans-serif;color:#CDD4DA;white-space:normal}
@@ -81,6 +98,16 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 [data-circle="rich-text-content"] blockquote{position:relative;margin:16px 0!important;padding:30px 28px 46px!important;border:0!important;border-radius:12px;background:#E04E39 repeating-linear-gradient(115deg,rgba(255,255,255,0) 0 16px,rgba(255,255,255,.08) 16px 24px)!important;color:#fff!important}
 [data-circle="rich-text-content"] blockquote p{margin:0!important;font:400 44px/1.02 Anton,Impact,sans-serif!important;text-transform:uppercase;color:#fff!important}
 [data-circle="rich-text-content"] blockquote::after{content:"";position:absolute;left:28px;bottom:24px;width:48px;height:5px;background:#253746}
+/* Post badges: a title starting "New session:", "Live recording:", "On tour:", "New episode:" or "Standings:" (set by the script below) */
+[data-circle="post-title"][data-ch3-badge]::before{content:attr(data-ch3-badge);display:block;width:max-content;margin:0 0 10px;padding:6px 8px 5px;border-radius:3px;background:#C9432F;color:#fff;font:600 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.14em;text-transform:uppercase}
+[data-circle="post-title"][data-ch3-kind="tour"]::before,[data-circle="post-title"][data-ch3-kind="standings"]::before{background:#253746}
+[data-circle="post-title"][data-ch3-kind="live"]::before{content:"\25CF  " attr(data-ch3-badge)}
+/* Basecamp standings post: its numbered list becomes the standings table, bold numbers sit on the right */
+[data-circle="post"]:has([data-ch3-kind="standings"]) [data-circle="rich-text-content"] ol{list-style:none!important;counter-reset:ch3rank;margin:14px 0!important;padding:0!important;display:flex;flex-direction:column;gap:6px}
+[data-circle="post"]:has([data-ch3-kind="standings"]) [data-circle="rich-text-content"] ol>li{counter-increment:ch3rank;display:flex;align-items:center;gap:14px;margin:0!important;padding:10px 14px;background:#E8ECEF;border-left:4px solid #E04E39;border-radius:4px}
+[data-circle="post"]:has([data-ch3-kind="standings"]) [data-circle="rich-text-content"] ol>li::before{content:"P" counter(ch3rank);min-width:26px;font:400 20px/1 Anton,Impact,sans-serif;color:#C9432F}
+[data-circle="post"]:has([data-ch3-kind="standings"]) [data-circle="rich-text-content"] ol>li>p{flex:1;display:flex;align-items:baseline;gap:12px;margin:0!important;font:600 19px/1.2 'Barlow Condensed',sans-serif!important;color:#253746}
+[data-circle="post"]:has([data-ch3-kind="standings"]) [data-circle="rich-text-content"] ol>li strong{margin-left:auto;font:400 22px/1 Anton,Impact,sans-serif;color:#253746}
 /* Composer actions under "Start a post" (row injected by the script below) */
 [data-circle="app-content"] div[role="button"]:has(+#ch3-compose){border-bottom:0!important;border-radius:12px 12px 0 0!important;box-shadow:none!important}
 #ch3-compose{display:flex;flex-wrap:wrap;justify-content:space-around;gap:4px 16px;margin:0 0 0;padding:4px 16px 8px;background:#fff;border-radius:0 0 12px 12px}
@@ -90,9 +117,10 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 #ch3-compose div{cursor:default}
 #ch3-compose i{font-style:normal;color:#C9432F;font:700 14px/1 'Barlow Condensed',sans-serif}
 /* 7. Coach tag and avatar ring (Circle admins and moderators post as coaches) */
-[data-circle="post-author-admin-tag"]{background:#C9432F!important;border-color:#C9432F!important;color:#fff!important;border-radius:3px!important;height:auto!important;padding:4px 6px!important}
-[data-circle="post-author-admin-tag"] span{font-size:0!important}
-[data-circle="post-author-admin-tag"]::after{content:"COACH";font:600 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.12em}
+[data-circle="post-author-admin-tag"]{display:inline-flex!important;gap:4px;background:transparent!important;border:0!important;padding:0!important;height:auto!important;max-width:none!important}
+[data-circle="post-author-admin-tag"] span{display:none!important}
+[data-circle="post-author-admin-tag"]::before{content:"COACH";padding:4px 6px;border-radius:3px;background:#C9432F;color:#fff;font:600 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.12em}
+[data-circle="post-author-admin-tag"]::after{content:"TEAMCH3";padding:3px 6px;border:1px solid #CDD4DA;border-radius:3px;color:#536676;font:600 12px/1 'Barlow Condensed',sans-serif;letter-spacing:.12em}
 [data-circle="post"]:has([data-circle="post-author-admin-tag"]) [data-circle="post-avatar"],div:has(>[data-circle="event-card"]):has([data-circle="post-author-admin-tag"]) [data-circle="post-avatar"]{border-radius:50%;box-shadow:0 0 0 2px #fff,0 0 0 4px #E04E39}
 /* 8. Event cards in the feed */
 [data-circle="event-card"]{border-radius:12px!important;border-color:#CDD4DA!important}
@@ -109,6 +137,13 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 [data-circle="feed-upcoming-events"] li>div>div:first-child>span:last-child{font:600 12px/1 'Barlow Condensed',sans-serif!important;letter-spacing:.12em;text-transform:uppercase;color:#A6B1BA!important}
 [data-circle="feed-upcoming-events"] a>span:first-child{font:400 17px/1.05 Anton,sans-serif!important;text-transform:uppercase;color:#fff!important}
 [data-circle="feed-upcoming-events"] a>span:last-child{font:600 13px/1.2 'Barlow Condensed',sans-serif!important;letter-spacing:.08em;text-transform:uppercase;color:#F47C67!important;margin-top:5px}
+/* Other right-column panels (pinned posts such as "Featured" or "Latest episode") in the same navy style */
+:is([data-circle="feed-sidebar"],aside[data-testid="sidebar-right"]) div:has(>h2):has(>ul):not([data-circle="feed-upcoming-events"]){background:#253746!important;border:0!important;border-radius:12px!important;overflow:hidden;padding:0 0 4px!important;gap:0!important;--color-text-primary:#FFFFFF;--color-text-secondary:#CDD4DA;--color-text-tertiary:#A6B1BA;--color-background-primary:transparent;--color-border-primary:#384B5B}
+:is([data-circle="feed-sidebar"],aside[data-testid="sidebar-right"]) div:has(>h2):has(>ul):not([data-circle="feed-upcoming-events"])>h2{margin:0;background:#C9432F;color:#fff!important;padding:12px 16px;font:600 13px/1 'Barlow Condensed',sans-serif!important;letter-spacing:.14em;text-transform:uppercase}
+:is([data-circle="feed-sidebar"],aside[data-testid="sidebar-right"]) div:has(>h2):has(>ul):not([data-circle="feed-upcoming-events"])>ul{margin:0!important;padding:0!important;gap:0!important}
+:is([data-circle="feed-sidebar"],aside[data-testid="sidebar-right"]) div:has(>h2):has(>ul):not([data-circle="feed-upcoming-events"])>ul>li{padding:14px 16px;border-bottom:1px solid #384B5B}
+:is([data-circle="feed-sidebar"],aside[data-testid="sidebar-right"]) div:has(>h2):has(>ul):not([data-circle="feed-upcoming-events"])>ul>li:last-child{border-bottom:0}
+:is([data-circle="feed-sidebar"],aside[data-testid="sidebar-right"]) div:has(>h2):has(>ul):not([data-circle="feed-upcoming-events"])>ul>li a{color:#fff!important;font-weight:600}
 /* 10. Hide Circle features we don't use */
 button[aria-label="Summarize"],[data-testid="circle-ai-shell-community-switcher-ai-toggle"],[data-testid="circle-ai-shell-canvas-header-ai-toggle"]{display:none!important}
 /* 11. Focus and selection */
@@ -118,19 +153,21 @@ a:focus-visible,button:focus-visible,[role="button"]:focus-visible{outline:2px s
 <script id="ch3-theme-js">
 (function(){
 if(window.__ch3Theme)return;window.__ch3Theme=1;
-/* [space id, path, pill label, code, header eyebrow, header subline] */
+/* [space id, path, pill label, code, header eyebrow, header subline, header logo, logo shape] */
 var BASECAMPS=[
-["2904207","/c/global","GLOBAL BASECAMP","GP","OPEN TO EVERY MEMBER · EVERY ACADEMY","Every academy, the Son of a Butch community and the CH3 coaches. One feed, with featured posts from each home basecamp."],
-["2904211","/c/junior","GLOBAL JUNIOR BASECAMP","JP","JUNIORS ONLY · EVERY ACADEMY","Juniors from every academy team in one feed, with the CH3 coaches, junior drills and Premier sessions."],
-["2904213","/c/ch3-dubai","CH3 DUBAI","P1","HOME BASECAMP · UAE + EUROPE","Your local feed: Dubai coaches, squad and range."],
-["2904214","/c/ch3-thailand","CH3 THAILAND","P2","HOME BASECAMP · THAILAND + ASIA","Your local feed: Thailand coaches, squad and range."],
-["2904215","/c/teamflo","TEAMFLO","P3","HOME BASECAMP · FLORIDA + NORTH AMERICA","Your local feed with Ryan Crysler and the TeamFLO squad."],
-["2904208","/c/son-of-a-butch","SON OF A BUTCH","P4","OPEN TO EVERY MEMBER · THE PODCAST","Every episode lands here first, plus exclusive access to live recordings with CH3 and special guests."],
-["2904217","/c/elite-room","ELITE BASECAMP","EB","ELITE · APPLICATION ONLY · 8 SPOTS","Direct access to Ryan Crysler and Claude Harmon III."]
+["2904207","/c/global","GLOBAL BASECAMP","GP","OPEN TO EVERY MEMBER · EVERY ACADEMY","Every academy, the Son of a Butch community and the CH3 coaches. One feed, with featured posts from each home basecamp.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
+["2904211","/c/junior","GLOBAL JUNIOR BASECAMP","JP","JUNIORS ONLY · EVERY ACADEMY","Juniors from every academy team in one feed, with the CH3 coaches, junior drills and Premier sessions.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"],
+["2904213","/c/ch3-dubai","CH3 DUBAI","P1","HOME BASECAMP · UAE + EUROPE","Your local feed: Dubai coaches, squad and range.","https://assets-v2.circle.so/0ystuo9hiylgxum4vl9qbfyy0t07","wide"],
+["2904214","/c/ch3-thailand","CH3 THAILAND","P2","HOME BASECAMP · THAILAND + ASIA","Your local feed: Thailand coaches, squad and range.","https://assets-v2.circle.so/ivgpm0bzd85mu5xrqougzj7v5s67","wide"],
+["2904215","/c/teamflo","TEAMFLO","P3","HOME BASECAMP · FLORIDA + NORTH AMERICA","Your local feed with Ryan Crysler and the TeamFLO squad.","https://assets-v2.circle.so/vyw1wxcti53ypjnr5pcyiofi7nn2","wide"],
+["2904208","/c/son-of-a-butch","SON OF A BUTCH","P4","OPEN TO EVERY MEMBER · THE PODCAST","Every episode lands here first, plus exclusive access to live recordings with CH3 and special guests.","https://assets-v2.circle.so/evwoeph4h28s48vd358enrghytvi","square"],
+["2904217","/c/elite-room","ELITE BASECAMP","EB","ELITE · APPLICATION ONLY · 8 SPOTS","Direct access to Ryan Crysler and Claude Harmon III.","https://assets-v2.circle.so/c6fo3ef32c6sjwtwux6lkw4vjjo9","wide"]
 ];
 var RULES_KEY="ch3_rules_agreed_v1";
 /* Where "Send your golf data to RC Greenlight" goes (opens in a new tab). Empty = shown as a label with no link. */
 var GREENLIGHT_URL="";
+/* The link that opens a direct message with the Ask CH3 agent. Empty = "Ask a coach" opens Circle's post box. */
+var ASK_CH3_URL="";
 /* Parent-only members: in the Parents space, not in the Junior Basecamp or any academy */
 var PARENTS_ID="2904212";
 function parentOnly(){var s=document.querySelector('[data-circle="app-sidebar"]');if(!s||!s.querySelector('a[data-id="'+PARENTS_ID+'"]'))return false;return !["2904211","2904213","2904214","2904215"].some(function(id){return s.querySelector('a[data-id="'+id+'"]');});}
@@ -160,6 +197,7 @@ var b=current(),row=h1.parentNode,old=document.getElementById("ch3-hdr-badge");
 if(old&&(!b||old.getAttribute("data-key")!==b[0]||old.parentNode!==row)){["ch3-hdr-badge","ch3-hdr-eyebrow","ch3-hdr-sub"].forEach(function(id){var n=document.getElementById(id);if(n)n.remove();});old=null;}
 if(!b||old)return;
 var badge=document.createElement("div");badge.id="ch3-hdr-badge";badge.setAttribute("data-key",b[0]);badge.setAttribute("aria-hidden","true");badge.textContent=b[3];
+if(b[6]){badge.setAttribute("data-logo",b[7]||"wide");badge.style.backgroundImage='url("'+b[6]+'")';}
 var eyebrow=document.createElement("div");eyebrow.id="ch3-hdr-eyebrow";eyebrow.textContent=b[4];
 var sub=document.createElement("p");sub.id="ch3-hdr-sub";sub.textContent=b[5];
 row.insertBefore(badge,h1);row.insertBefore(eyebrow,h1);row.insertBefore(sub,h1.nextSibling);
@@ -174,8 +212,10 @@ if(el&&el.previousElementSibling===card)return;
 if(el)el.remove();
 el=document.createElement("div");el.id="ch3-compose";
 var a=document.createElement(GREENLIGHT_URL?"a":"div");if(GREENLIGHT_URL){a.href=GREENLIGHT_URL;a.target="_blank";a.rel="noopener";}a.innerHTML='<i aria-hidden="true">▲</i>Send your golf data to RC Greenlight';
-var b=document.createElement("button");b.type="button";b.innerHTML='<i aria-hidden="true">?</i>Ask a coach';
-b.addEventListener("click",function(){var c=document.querySelector('[data-circle="app-content"] button[aria-label="Start a post"]');c=c&&c.closest('[role="button"]');if(c)c.click();});
+var b;
+if(ASK_CH3_URL){b=document.createElement("a");b.href=ASK_CH3_URL;b.innerHTML='<i aria-hidden="true">?</i>Ask CH3';}
+else{b=document.createElement("button");b.type="button";b.innerHTML='<i aria-hidden="true">?</i>Ask a coach';
+b.addEventListener("click",function(){var c=document.querySelector('[data-circle="app-content"] button[aria-label="Start a post"]');c=c&&c.closest('[role="button"]');if(c)c.click();});}
 el.appendChild(a);el.appendChild(b);
 card.parentNode.insertBefore(el,card.nextSibling);
 }
@@ -204,8 +244,19 @@ if(!(t.matches('[data-circle="feed-new-post-button"]')||txt==="New post"||txt.in
 e.preventDefault();e.stopPropagation();
 rules(function(){t.click();});
 },true);
+/* Post badges: the prefix before the colon becomes the badge and is removed from the title */
+var BADGES=[["new session","NEW SESSION","session"],["live recording","LIVE RECORDING","live"],["on tour","ON TOUR","tour"],["new episode","NEW EPISODE","episode"],["standings","BASECAMP STANDINGS","standings"]];
+function badges(){
+document.querySelectorAll('[data-circle="post-title"]').forEach(function(t){
+var w=document.createTreeWalker(t,NodeFilter.SHOW_TEXT),n;while((n=w.nextNode())&&!n.data.trim()){}
+if(!n)return;
+var hit=null;BADGES.some(function(B){var re=new RegExp("^\\s*"+B[0]+"\\s*:\\s*","i");if(re.test(n.data)){hit=[B,re];return true;}return false;});
+if(hit){n.data=n.data.replace(hit[1],"");t.setAttribute("data-ch3-badge",hit[0][1]);t.setAttribute("data-ch3-kind",hit[0][2]);t.setAttribute("data-ch3-title",t.textContent);}
+else if(t.hasAttribute("data-ch3-badge")&&t.getAttribute("data-ch3-title")!==t.textContent){["data-ch3-badge","data-ch3-kind","data-ch3-title"].forEach(function(a){t.removeAttribute(a);});}
+});
+}
 /* Circle is a single-page app: re-apply after every render */
-var q=0;function run(){q=0;parentLanding();pills();header();compose();}
+var q=0;function run(){q=0;parentLanding();pills();header();compose();badges();}
 new MutationObserver(function(){if(!q){q=requestAnimationFrame(run);}}).observe(document.documentElement,{childList:true,subtree:true});
 window.addEventListener("resize",function(){if(!q){q=requestAnimationFrame(run);}});
 if(document.readyState!=="loading")run();else document.addEventListener("DOMContentLoaded",run);
