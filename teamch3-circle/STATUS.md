@@ -41,8 +41,15 @@ Updated October 23, 2026. The invite and sign-up flow works end to end, and the 
    - To do: move the three Date of birth dropdowns to the top of the sign-up form, before Age group (Circle AI or by
      hand).
    - To do: re-upload the Ask CH3 guide, since its Premier Sessions line changed.
-3. **Optional junior test** with ryancrysler+junior1@gmail.com through the TeamFLO junior link. Use it to check the
-   new date and city fields, and the Junior Basecamp welcome email.
+3. **Junior and parent tests passed (October 23).**
+   - The junior **Ryan Junior** (ryancrysler+junior1@gmail.com, member 99568272) signed up through the TeamFLO
+     junior link. They got only Junior Basecamp · TeamFLO and the Beta tester tag, and the date of birth dropdowns
+     and the Home city location (Stuart, Florida) saved as real places. They landed in Junior Basecamp, and "Welcome
+     to the Junior Basecamp" arrived (Gmail filed it in Promotions).
+   - The old "Ryan Tester" Pod test account (ryancrysler@gmail.com, member 98567787) was repurposed as **Test
+     Parent**: taken out of Pod Community, put in Parents, with Parent of set to Ryan Junior. Its spaces are only
+     Parents, Junior Events and Community Rules. Ryan saw the Parents welcome email arrive.
+   - The sign-up form order is now day, month, year, Age group, Parent's email, Home city.
 4. **Son Of A Butch Live, Wed Oct 28, 12–2pm Eastern (16:00–18:00 UTC).** See the section below.
 
 ## Son Of A Butch Live (October 28)
@@ -114,7 +121,10 @@ with no filter or delay.
 - **Ask CH3:** re-upload `ask-ch3/Ask CH3 - TeamCH3 community guide.txt` to its knowledge.
 - **Payments:** after the LLC, bank and Stripe are set up, paste Part 2 of the Circle AI brief (8 paywalls). Then make
   the checkout links and point the membership page buttons at them.
-- **Before launch:** delete the test accounts: Test Junior, Test Junior Two, Test Adult, Test Parent, Ryan Tester,
-  and Ryan Tester October if still there.
+- **Before launch:** delete the test accounts: Test Junior, Test Junior Two, Test Adult, the old Test Parent (on
+  rcrysler+…@floridian.cc), Ryan Junior (ryancrysler+junior1@gmail.com) and Test Parent (ryancrysler@gmail.com,
+  formerly Ryan Tester).
+- **Riverside Grow is a free trial**, ending about October 30 (Riverside's email of October 23). Wednesday's show
+  is covered. Start paying for Grow before the trial ends to keep live streaming and custom destinations.
 - **Junior Events:** tick "Hide attendees" on each new one.
 - **When teamch3.com is live:** update the ch3.circle.so references and recheck the tester links.
