@@ -24,11 +24,17 @@ Updated October 23, 2026. The invite and sign-up flow is waiting on one last tes
 
 1. **Confirm the welcome email.** "Welcome to TeamCH3 Premier" should be in Ryan's Gmail, sent to
    ryancrysler+test2@gmail.com. Check the wording.
-2. **Ryan → Circle AI, four small fixes:**
-   - remove "Download the mobile app" from the Get started checklist;
-   - remove "Messages" from the sidebar Links;
-   - explain and hide "Premier + Elite → Join a space" for Premier members;
-   - move the three Date of birth dropdowns to the top of the sign-up form, before Age group.
+2. **Sidebar and form tidy-up.**
+   - Done: Circle AI removed "Download the mobile app" from the checklist, and "Messages" is gone from Links.
+   - Done: Premier Sessions is published, so "Premier + Elite → Join a space" should be gone. Premier members were
+     already members of it through their access group, but it was a draft. It now has a "Start here" module with one
+     published "Premier Sessions: coming soon" session (comments off). The Premier + Elite space group is now hidden
+     from non-members.
+   - To do: Ryan checks where the "Course archive" and "Live recordings" sidebar links point, and probably deletes
+     both.
+   - To do: move the three Date of birth dropdowns to the top of the sign-up form, before Age group (Circle AI or by
+     hand).
+   - To do: re-upload the Ask CH3 guide, since its Premier Sessions line changed.
 3. **Optional junior test** with ryancrysler+junior1@gmail.com through the TeamFLO junior link. Use it to check the
    new date and city fields.
 4. **Delete the test account** Ryan Crysler Tester 2 October.

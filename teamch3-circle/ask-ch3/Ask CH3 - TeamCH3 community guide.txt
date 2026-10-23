@@ -54,7 +54,8 @@ Events
 
 Premier Sessions
 - Sessions from Claude and the CH3 coaches, on demand.
-- For Junior, Premier and Elite members. If it isn't in the sidebar yet, it hasn't opened.
+- For Junior, Premier and Elite members. It's open with a "Start here" session. The first full sessions are on the way
+  and will be announced in the Global Basecamp. Don't promise dates.
 
 Community Rules
 - The rules every member agrees to before their first post. Short version:
