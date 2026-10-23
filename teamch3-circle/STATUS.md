@@ -11,17 +11,28 @@ Updated October 23, 2026. The invite and sign-up flow is waiting on one last tes
 - **Welcome emails have a sender.** They come from "TeamCH3" at rcrysler@email.circle.so, and replies go to
   rcrysler@floridian.cc. They had failed because Email Hub had no sender address.
 - **Test accounts deleted.** Ryan Tester October and the silent test members are gone.
+- **Re-test passed (memberships).** Ryan Crysler Tester 2 October (ryancrysler+test2@gmail.com, member 99557738)
+  got only Premier · TeamFLO and the Beta tester tag, and its sidebar showed no junior spaces or other academies.
+  Its welcome email wasn't confirmed yet: Gmail's search was behind.
+- **Sign-up fields reworked.** Date of birth is now three required dropdowns: Date of birth: day / month / year
+  (ids 7123603, 7123604, 7123605). The year runs from 2013 back to "1964 or earlier", and each January needs a new
+  year added. Home city is now Circle's platform location field (7040786, relabelled), which has place search and
+  so corrects typos. It is required, and shown only at sign-up and in Edit profile. The old free-text Date of birth
+  (7040793) and Home city (7064457) fields are archived.
 
 ## Next steps, in order
 
-1. **Ryan re-tests.** Use a private window, not signed in as admin, with ryancrysler+test2@gmail.com, through the
-   "Beta testers · Premier · TeamFLO" link.
-2. **Claude checks the re-test:**
-   - only Premier · TeamFLO and the Beta tester tag;
-   - it lands in the TeamFLO space;
-   - "Welcome to TeamCH3 Premier" arrives in Ryan's Gmail. The Gmail connector can read it, so check the wording too.
-3. **Optional junior test** with ryancrysler+junior1@gmail.com through the TeamFLO junior link.
-4. **Send the tester invites:** `onboarding/TeamCH3 - beta tester invite.txt`. Remove its ON HOLD line first.
+1. **Confirm the welcome email.** "Welcome to TeamCH3 Premier" should be in Ryan's Gmail, sent to
+   ryancrysler+test2@gmail.com. Check the wording.
+2. **Ryan → Circle AI, four small fixes:**
+   - remove "Download the mobile app" from the Get started checklist;
+   - remove "Messages" from the sidebar Links;
+   - explain and hide "Premier + Elite → Join a space" for Premier members;
+   - move the three Date of birth dropdowns to the top of the sign-up form, before Age group.
+3. **Optional junior test** with ryancrysler+junior1@gmail.com through the TeamFLO junior link. Use it to check the
+   new date and city fields.
+4. **Delete the test account** Ryan Crysler Tester 2 October.
+5. **Send the tester invites:** `onboarding/TeamCH3 - beta tester invite.txt`. Remove its ON HOLD line first.
 
 ## What's in place
 

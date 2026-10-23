@@ -96,11 +96,15 @@ d) After that
  1. They click Accept invitation and land on ch3.circle.so.
  2. They choose a password. Circle may also email them a code to confirm the address (sign-up codes are on).
  3. Sign-up questions, in this order:
-    - Date of birth (required, e.g. 14 March 2010)
+    - Date of birth (required): three dropdowns, day, month and year (2013 back to "1964 or earlier"), so no
+      impossible date can be entered
     - Age group (required): 13 to 19 · Junior, or 20 or over · Adult
     - Parent or guardian's email (juniors). Juniors can also add it later in Edit profile. Other members never
       see it.
-    - Home city (required, kept private)
+    - Home city (required, kept private): they start typing and pick their city from Circle's place search, so
+      typos are corrected (e.g. "Napels FL" finds Naples, Florida). Shown only at sign-up and in Edit profile.
+    Each January, add the new youngest year to the year dropdown (e.g. 2014 in 2027). Dropdowns hold at most 50
+    options, so drop the oldest year and change "1964 or earlier" to "1965 or earlier" at the same time.
  4. They land in the Global Basecamp, on Claude's pinned welcome post.
  5. The first time they post, the community rules pop up and they agree to them first (web and desktop).
  6. Their sidebar shows only their membership's spaces. On the web, the buttons along the top of the feed jump

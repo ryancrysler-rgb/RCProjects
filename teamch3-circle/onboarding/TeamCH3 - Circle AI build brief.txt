@@ -11,7 +11,7 @@ Each access group already grants its spaces. Never add spaces or space groups to
 Home basecamps: CH3 Dubai (Europe, Middle East, Africa), CH3 Thailand (Asia, Pacific), TeamFLO (the Americas).
 How a player picks their basecamp: the link they join through. Beta testers click their academy's "Beta testers · …" invitation link, or an admin invites them into the matching access group. At launch they pick their academy's checkout on the membership page.
 Set already. Don't change:
-- Sign-up questions: Date of birth (required), Age group (required: "13 to 19 · Junior" or "20 or over · Adult"), Parent or guardian's email (juniors), Home city (required, private). Headline and Bio are off.
+- Sign-up questions: Date of birth (required, three dropdowns: day, month, year), Age group (required: "13 to 19 · Junior" or "20 or over · Adult"), Parent or guardian's email (juniors), Home city (required, private location field with place search). Headline and Bio are off.
 - The 6 "Beta testers · …" invitation links. Each adds its access group and the private "Beta tester" tag.
 - The Parents invitation link stays off. Parents are invited by email only.
 - The 16 inactive workflows ("Academy · …", "Cleanup · …", "Elite Basecamp"). Leave them off and untouched.
