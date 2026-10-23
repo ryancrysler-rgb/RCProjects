@@ -1,6 +1,6 @@
 # TeamCH3 · Circle head snippet
 
-`circle-head-snippet-v3.html` (v3.11) is the code pasted into Circle at **Site › Code snippets › head** for
+`circle-head-snippet-v3.html` (v3.12) is the code pasted into Circle at **Site › Code snippets › head** for
 ch3.circle.so. It applies the TeamCH3 brand kit (navy + orange, Anton + Barlow Condensed) to Circle's web
 app and adds the basecamp pills, basecamp header cards, sidebar codes, FEATURED bars, quote cards, the
 row under "Start a post" and the community-rules pop-up before a member's first post.

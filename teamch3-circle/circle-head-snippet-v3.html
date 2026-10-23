@@ -1,4 +1,4 @@
-<!-- TeamCH3 · Circle head code snippet · v3.11 · Oct 22 2026
+<!-- TeamCH3 · Circle head code snippet · v3.12 · Oct 23 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
@@ -18,6 +18,7 @@ navy right-column panels and the Basecamp standings post.
 (v3.9) A space with unread posts no longer shows its code a second time next to the unread count.
 (v3.10) Header cards use the CH3 mark without the small "Performance Golf Academy" line.
 (v3.11) Basecamp codes follow Basecamp naming: GB, JB, DU (CH3 Dubai), TH (CH3 Thailand), FL (TeamFLO), SB (Son Of A Butch).
+(v3.12) The ⋯ edit/delete menu on a sidebar link stays open: the same-window rule from v3.4 now ignores clicks on buttons and menus.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -256,6 +257,8 @@ if(s){e.preventDefault();s.click();}
 /* Sidebar links (Circle opens them in a new tab): pages in this community open in the same window instead */
 document.addEventListener("click",function(e){
 if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+/* the link's own ⋯ edit/delete menu sits inside the link: leave its clicks to Circle */
+if(e.target.closest&&e.target.closest('button,[role="button"],[role="menu"],[role="menuitem"],[aria-haspopup]'))return;
 var a=e.target.closest&&e.target.closest('[data-circle="app-sidebar"] a[target="_blank"]');if(!a)return;
 var u;try{u=new URL(a.getAttribute("href"),location.href);}catch(x){return;}
 if(u.host!==location.host)return;
