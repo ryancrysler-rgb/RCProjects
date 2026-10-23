@@ -36,8 +36,8 @@ Updated October 23, 2026. The invite and sign-up flow works end to end, and the 
      already members of it through their access group, but it was a draft. It now has a "Start here" module with one
      published "Premier Sessions: coming soon" session (comments off). The Premier + Elite space group is now hidden
      from non-members.
-   - To do: Ryan checks where the "Course archive" and "Live recordings" sidebar links point, and probably deletes
-     both.
+   - Done: the "Course archive" and "Live recordings" sidebar links are deleted. The head snippet's same-window rule
+     had been closing their ⋯ menus. v3.12 fixes that and is pasted into Circle.
    - To do: move the three Date of birth dropdowns to the top of the sign-up form, before Age group (Circle AI or by
      hand).
    - To do: re-upload the Ask CH3 guide, since its Premier Sessions line changed.
