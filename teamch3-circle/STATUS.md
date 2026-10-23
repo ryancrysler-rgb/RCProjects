@@ -1,31 +1,27 @@
 # TeamCH3 · where we left off
 
-Paused October 22, 2026, in the middle of testing the invite and sign-up flow.
+Updated October 23, 2026. The invite and sign-up flow is waiting on one last test sign-up.
 
-## Blocker: don't send tester links or invite anyone yet
+## Fixed on October 23
 
-- **Every new member gets all 9 memberships.** Circle's default onboarding access includes every access group, so
-  adults are added to Junior Basecamp, Parents and Elite on top of the group their link or invite gives. Circle AI
-  confirmed the cause from Ryan Tester October's access history ("granted by Onboarding"). It started after 17:01 UTC
-  on October 22. Only test accounts were affected.
-- **Welcome emails fail.** All 9 welcome workflows ran, but every Send email failed because TeamCH3 has no sender
-  address in Circle's Email Hub.
+- **Default onboarding access now grants nothing.** Circle's default onboarding access had included all 9 access
+  groups, so every new member got Junior Basecamp, Parents and Elite on top of their own group. Circle AI removed
+  them. Claude confirmed it: a silent test member got no groups, where before the fix all 9 were added within
+  2 seconds. Only test accounts were ever affected.
+- **Welcome emails have a sender.** They come from "TeamCH3" at rcrysler@email.circle.so, and replies go to
+  rcrysler@floridian.cc. They had failed because Email Hub had no sender address.
+- **Test accounts deleted.** Ryan Tester October and the silent test members are gone.
 
 ## Next steps, in order
 
-1. **Ryan → Circle AI:** "Go ahead with step 1: remove all 9 access groups from the default onboarding access so it
-   grants none. Change nothing else." The default should grant nothing: links, admin invites and (later) checkouts
-   set each member's one membership. Not even Pod Community, which is paid.
-2. **Ryan picks the sender** and tells Circle AI. Recommended: name "TeamCH3", address rcrysler@floridian.cc for the
-   beta (already the reply-to), then a teamch3.com address once the domain is live. Click Circle's confirmation email
-   if it sends one.
-3. **Claude checks step 1:** create a silent test member (skip invitation), confirm it gets no access groups within a
-   few seconds, then delete it.
-4. **Claude deletes Ryan Tester October** (member 99531943, ryancrysler+test1@gmail.com).
-5. **Ryan re-tests** in a private window (not signed in as admin), with ryancrysler+test2@gmail.com, through the
-   "Beta testers · Premier · TeamFLO" link. Claude checks: only Premier · TeamFLO, the Beta tester tag, lands in the
-   TeamFLO space, and "Welcome to TeamCH3 Premier" arrives in Ryan's Gmail (the Gmail connector can read it).
-6. Then send the tester invites: `onboarding/TeamCH3 - beta tester invite.txt`.
+1. **Ryan re-tests.** Use a private window, not signed in as admin, with ryancrysler+test2@gmail.com, through the
+   "Beta testers · Premier · TeamFLO" link.
+2. **Claude checks the re-test:**
+   - only Premier · TeamFLO and the Beta tester tag;
+   - it lands in the TeamFLO space;
+   - "Welcome to TeamCH3 Premier" arrives in Ryan's Gmail. The Gmail connector can read it, so check the wording too.
+3. **Optional junior test** with ryancrysler+junior1@gmail.com through the TeamFLO junior link.
+4. **Send the tester invites:** `onboarding/TeamCH3 - beta tester invite.txt`. Remove its ON HOLD line first.
 
 ## What's in place
 
