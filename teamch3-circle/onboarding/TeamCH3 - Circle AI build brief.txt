@@ -92,3 +92,25 @@ Build 8 paywalls in USD. Each one grants one access group. Every paywall has mon
 - Premier · CH3 Dubai, Premier · CH3 Thailand, Premier · TeamFLO: $99 a month, $990 a year (each)
 - Elite: $999 a month, $9,990 a year. No trial and not public (application only).
 When a member cancels, remove the access group. Then send me the 8 checkout links.
+
+
+=== PART 3: coach welcome workflows (paste now) ===
+Build 3 more welcome workflows, exactly like the 9 you built: one Send email action, no filter or delay, switched on. Start the email with "Hi" and the member's first name. Change nothing else.
+- "Welcome · Coaches · CH3 Dubai": trigger Member added to access group > Coaches · CH3 Dubai
+- "Welcome · Coaches · CH3 Thailand": trigger Member added to access group > Coaches · CH3 Thailand
+- "Welcome · Coaches · TeamFLO": trigger Member added to access group > Coaches · TeamFLO
+All three send Email F. If your workflows can also add a member tag, add a second action: add the member tag "Coach".
+
+EMAIL F
+Subject: Welcome to the TeamCH3 coaching team
+Welcome to TeamCH3. As a CH3 coach you have:
+- Your home basecamp: your academy's members and squad. Post sessions and drills, and reply to their swings.
+- The Junior Basecamp, Junior Events and Parents: where you coach our juniors from every academy and keep their parents in the loop.
+- The Global Basecamp, Events, Premier Sessions, the Son Of A Butch Podcast and Live Recordings.
+Start here:
+1. Add a photo to your profile so members know who's coaching them.
+2. Introduce yourself in your home basecamp: your role and what you coach.
+3. Read the Community Rules. With juniors, keep every conversation in the basecamps: no private messages, phone numbers or social handles, and only share video of a junior with their parent's permission.
+4. To get an email when there's a new post, click ⋯ at the top of a space and turn on notifications.
+Questions? Reply to this email.
+Claude

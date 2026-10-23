@@ -24,6 +24,7 @@ where they live.
  - Premier · CH3 Dubai / Premier · CH3 Thailand / Premier · TeamFLO
  - Elite   (application only. The academy is added by hand)
  - Parents (free, only for the parent or guardian of a junior member)
+ - Coaches · CH3 Dubai / Coaches · CH3 Thailand / Coaches · TeamFLO   (free, coaches only. See section 8)
  CH3 Dubai: UAE and Europe. CH3 Thailand: Thailand and Asia. TeamFLO: Florida and North America.
 
 
@@ -41,6 +42,7 @@ Whoever sends the invite, their name and email appear in Circle's email. Ryan's 
 rcrysler@floridian.cc. If Claude Harmon invites, the player sees claudeharmon3@gmail.com.
 
 Many players at once (beta testers): see "TeamCH3 - beta tester invite.txt".
+Coaches and the academy rollout (Dubai, TeamFLO, Thailand): see section 8.
 
 
 3. THE EMAILS A NEW PLAYER GETS
@@ -257,3 +259,36 @@ Done October 22
 Still open
  - New Junior Events: tick "Hide attendees" when creating each one.
  - Beta testers: see "TeamCH3 - beta tester invite.txt".
+
+
+8. COACHES AND THE ACADEMY ROLLOUT
+Coach roles
+ - Admins: Ryan and Claude Harmon III. Everything.
+ - Head coaches (Mike Bolt for CH3 Dubai, Joe Marshall for CH3 Thailand): members of their academy's Coaches
+   membership, plus space moderator of their academy space and of the Junior Basecamp. A moderator can edit, pin and
+   remove posts and manage members in those spaces only. They have no access to community settings, analytics, plans
+   or billing. Ryan is TeamFLO's head coach and is already an admin.
+ - Other coaches: members of their academy's Coaches membership, with no moderator role.
+ - Every coach gets the public "Coach" member tag, an orange label on their posts, profile and the member list.
+
+What a Coaches membership includes (all three are the same apart from the academy)
+ Their academy space, Junior Basecamp, Junior Events, Parents, Global Basecamp, Events, Community Rules, the Son Of
+ A Butch Podcast, Live Recordings and Premier Sessions. It's free and not on the membership page.
+
+Inviting coaches (Claude does it from a list)
+ 1. Send Claude each coach's name, email and academy, and mark the head coach.
+ 2. Claude invites them through the connector. Circle sends its invitation email, and each coach gets their academy's
+    Coaches membership and the Coach tag.
+ 3. A Circle admin makes the head coach a moderator: open the academy space > Members > the head coach > Moderator,
+    then do the same in Junior Basecamp. (Or ask Circle AI. The connector can't set moderators.)
+ 4. The coach welcome workflow sends "Welcome to the TeamCH3 coaching team" (Email F in the Circle AI brief, Part 3).
+
+The rollout, one academy at a time
+ Wave 1: CH3 Dubai. Coaches first (13, head coach Mike Bolt). Then Mike sends the Junior Basecamp · CH3 Dubai tester
+   link to the academy's families using the parent email in "TeamCH3 - beta tester invite.txt". The families' contact
+   details stay with the academy, which keeps UAE and EU data-protection simple. Juniors sign up with a parent's
+   email, then Ryan tells Claude "invite the parents".
+ Wave 2: TeamFLO. TeamFLO coaches first, then players: adults through the Premier · TeamFLO link, juniors through the
+   Junior Basecamp · TeamFLO link.
+ Wave 3: CH3 Thailand. As Dubai, with head coach Joe Marshall.
+ Before each wave, confirm the academy's coaches have its usual safeguarding checks for working with juniors.

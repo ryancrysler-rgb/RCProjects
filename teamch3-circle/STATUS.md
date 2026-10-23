@@ -51,6 +51,16 @@ Updated October 23, 2026. The invite and sign-up flow works end to end, and the 
      Parents, Junior Events and Community Rules. Ryan saw the Parents welcome email arrive.
    - The sign-up form order is now day, month, year, Age group, Parent's email, Home city.
 4. **Son Of A Butch Live, Wed Oct 28, 12–2pm Eastern (16:00–18:00 UTC).** See the section below.
+5. **Coaches and the academy rollout** (see section 8 of the sign-up doc).
+   - Done: 3 coach access groups created with their spaces: Coaches · CH3 Dubai (167198), Coaches · CH3 Thailand
+     (167199) and Coaches · TeamFLO (167200). The public "Coach" member tag (304513) is created.
+   - To do (Ryan → Circle AI): paste Part 3 of the Circle AI brief to build the 3 "Welcome · Coaches · …" workflows
+     with Email F. Then Claude checks them through the connector.
+   - Wave 1, CH3 Dubai: Ryan sends the 13 coaches' names and emails and marks the head coach (Mike Bolt). Claude
+     invites them with Coaches · CH3 Dubai and the Coach tag. A Circle admin makes Mike a moderator of CH3 Dubai and
+     of Junior Basecamp. Then Mike sends the Junior · CH3 Dubai link to families, and Claude invites the parents
+     afterwards.
+   - Wave 2 is TeamFLO (coaches, then players). Wave 3 is CH3 Thailand (head coach Joe Marshall).
 
 ## Son Of A Butch Live (October 28)
 
