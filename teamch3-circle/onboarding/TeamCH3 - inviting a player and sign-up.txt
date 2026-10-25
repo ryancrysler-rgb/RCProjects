@@ -275,10 +275,12 @@ What a Coaches membership includes (all three are the same apart from the academ
  Their academy space, Junior Basecamp, Junior Events, Parents, Global Basecamp, Events, Community Rules, the Son Of
  A Butch Podcast, Live Recordings and Premier Sessions. It's free and not on the membership page.
 
-Inviting coaches (Claude does it from a list)
- 1. Send Claude each coach's name, email and academy, and mark the head coach.
- 2. Claude invites them through the connector. Circle sends its invitation email, and each coach gets their academy's
-    Coaches membership and the Coach tag.
+Inviting coaches (Ryan in Circle, or Claude from a list)
+ 1. Build the coach welcome workflows first (Circle AI brief, Part 3), so the first coaches get the email too.
+ 2. In Circle, use Audience > add member: one at a time, or a CSV import for the whole academy. Set the defaults to
+    the academy's Coaches membership and the Coach tag. Don't pick space groups, and don't make anyone an admin.
+    Circle sends its invitation email. (Or send Claude the names and emails and Claude does the same through the
+    connector.)
  3. A Circle admin makes the head coach a moderator: open the academy space > Members > the head coach > Moderator,
     then do the same in Junior Basecamp. (Or ask Circle AI. The connector can't set moderators.)
  4. The coach welcome workflow sends "Welcome to the TeamCH3 coaching team" (Email F in the Circle AI brief, Part 3).
