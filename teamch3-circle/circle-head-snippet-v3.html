@@ -1,4 +1,4 @@
-<!-- TeamCH3 · Circle head code snippet · v3.12 · Oct 23 2026
+<!-- TeamCH3 · Circle head code snippet · v3.13 · Oct 26 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
@@ -19,6 +19,7 @@ navy right-column panels and the Basecamp standings post.
 (v3.10) Header cards use the CH3 mark without the small "Performance Golf Academy" line.
 (v3.11) Basecamp codes follow Basecamp naming: GB, JB, DU (CH3 Dubai), TH (CH3 Thailand), FL (TeamFLO), SB (Son Of A Butch).
 (v3.12) The ⋯ edit/delete menu on a sidebar link stays open: the same-window rule from v3.4 now ignores clicks on buttons and menus.
+(v3.13) Coaches' Basecamp (coaches only): CB sidebar code, COACHES basecamp button and header card. Never shown to members.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +47,7 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 [data-testid="circle-ai-shell-dock"]{background:#18242F!important;--color-background-primary:#18242F;--color-background-secondary:#18242F;--color-background-hover:#253746;--color-text-primary:#FFFFFF;--color-icon-primary:#CDD4DA;--color-border-primary:#384B5B;border-color:#384B5B!important}
 [data-circle="app-sidebar"] a[aria-current="page"]{background:#C9432F!important;color:#fff!important}
 [data-circle="app-sidebar"] .text-heading-sm{font:600 12px/1 'Barlow Condensed',sans-serif!important;letter-spacing:.14em;text-transform:uppercase;color:#A6B1BA!important}
-[data-circle="app-sidebar"] a[data-id="2904207"]>div>img,[data-circle="app-sidebar"] a[data-id="2904209"]>div>img,[data-circle="app-sidebar"] a[data-id="2904210"]>div>img,[data-circle="app-sidebar"] a[data-id="2904211"]>div>img,[data-circle="app-sidebar"] a[data-id="2904212"]>div>img,[data-circle="app-sidebar"] a[data-id="2904213"]>div>img,[data-circle="app-sidebar"] a[data-id="2904214"]>div>img,[data-circle="app-sidebar"] a[data-id="2904215"]>div>img,[data-circle="app-sidebar"] a[data-id="2904208"]>div>img,[data-circle="app-sidebar"] a[data-id="2904216"]>div>img,[data-circle="app-sidebar"] a[data-id="2904217"]>div>img,[data-circle="app-sidebar"] a[data-id="2920700"]>div>img,[data-circle="app-sidebar"] a[data-id="2920720"]>div>img,[data-circle="app-sidebar"] a[href$="/feed"]>div>svg{display:none!important}
+[data-circle="app-sidebar"] a[data-id="2904207"]>div>img,[data-circle="app-sidebar"] a[data-id="2904209"]>div>img,[data-circle="app-sidebar"] a[data-id="2904210"]>div>img,[data-circle="app-sidebar"] a[data-id="2904211"]>div>img,[data-circle="app-sidebar"] a[data-id="2904212"]>div>img,[data-circle="app-sidebar"] a[data-id="2904213"]>div>img,[data-circle="app-sidebar"] a[data-id="2904214"]>div>img,[data-circle="app-sidebar"] a[data-id="2904215"]>div>img,[data-circle="app-sidebar"] a[data-id="2904208"]>div>img,[data-circle="app-sidebar"] a[data-id="2904216"]>div>img,[data-circle="app-sidebar"] a[data-id="2904217"]>div>img,[data-circle="app-sidebar"] a[data-id="2920700"]>div>img,[data-circle="app-sidebar"] a[data-id="2920720"]>div>img,[data-circle="app-sidebar"] a[data-id="2925010"]>div>img,[data-circle="app-sidebar"] a[href$="/feed"]>div>svg{display:none!important}
 [data-circle="app-sidebar"] a[data-id]>div:first-child::before,[data-circle="app-sidebar"] a[href$="/feed"]>div:first-child::before{flex:none;width:22px;font:400 15px/1 Anton,Impact,sans-serif;color:#F47C67}
 [data-circle="app-sidebar"] a[aria-current="page"]>div:first-child::before{color:#fff}
 [data-circle="app-sidebar"] a[href$="/feed"]>div:first-child::before{content:"FD"}
@@ -63,6 +64,7 @@ nav[data-circle="app-topbar"]{border-bottom:4px solid #E04E39!important;--color-
 [data-circle="app-sidebar"] a[data-id="2904217"]>div:first-child::before{content:"EB"}
 [data-circle="app-sidebar"] a[data-id="2920700"]>div:first-child::before{content:"JE"}
 [data-circle="app-sidebar"] a[data-id="2920720"]>div:first-child::before{content:"LR"}
+[data-circle="app-sidebar"] a[data-id="2925010"]>div:first-child::before{content:"CB"}
 /* Sidebar links (added in Circle under Links), matched by their exact title */
 [data-circle="app-sidebar"] :is(a[title="Ask CH3"],a[title="Live recordings"],a[title="Course archive"],a[title="Leaderboard"],a[title="Messages"],a[title="RC Greenlight"],a[title="On tour with Claude"])>div>svg{display:none!important}
 [data-circle="app-sidebar"] :is(a[title="Ask CH3"],a[title="Live recordings"],a[title="Course archive"],a[title="Leaderboard"],a[title="Messages"],a[title="RC Greenlight"],a[title="On tour with Claude"])>div:first-child::before{flex:none;width:22px;font:400 15px/1 Anton,Impact,sans-serif;color:#F47C67}
@@ -174,7 +176,8 @@ var BASECAMPS=[
 ["2904214","/c/ch3-thailand","CH3 THAILAND","TH","HOME BASECAMP · THAILAND + ASIA","Your local feed: Thailand coaches, squad and range.","https://assets-v2.circle.so/ivgpm0bzd85mu5xrqougzj7v5s67","wide"],
 ["2904215","/c/teamflo","TEAMFLO","FL","HOME BASECAMP · FLORIDA + NORTH AMERICA","Your local feed with Ryan Crysler and the TeamFLO squad.","https://assets-v2.circle.so/vyw1wxcti53ypjnr5pcyiofi7nn2","wide"],
 ["2904208","/c/son-of-a-butch","SON OF A BUTCH","SB","OPEN TO EVERY MEMBER · THE PODCAST","Every episode lands here first, plus exclusive access to live recordings with CH3 and special guests.","https://assets-v2.circle.so/evwoeph4h28s48vd358enrghytvi","square"],
-["2904217","/c/elite-room","ELITE","EB","ELITE · APPLICATION ONLY · 8 SPOTS","Direct access to Ryan Crysler and Claude Harmon III.","https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5","mark"]
+["2904217","/c/elite-room","ELITE","EB","ELITE · APPLICATION ONLY · 8 SPOTS","Direct access to Ryan Crysler and Claude Harmon III.","https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5","mark"],
+["2925010","/c/coaches","COACHES","CB","COACHES ONLY · EVERY ACADEMY","Best practice, drills and questions from every CH3 academy. One coaching team.","https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5","mark"]
 ];
 /* Same header card, but no basecamp button: [space id, path, label, code, header eyebrow, header subline, header logo, logo shape] */
 var HEADERS=[
@@ -205,7 +208,7 @@ function more(el){var m=el.scrollWidth-el.clientWidth-el.scrollLeft>4;if(m!==el.
 function pills(){
 var host=document.querySelector('[data-circle="app-content"]');if(!host)return;
 var side=document.querySelector('[data-circle="app-sidebar"]');
-var list=parentOnly()?[]:BASECAMPS.filter(function(b){return side?side.querySelector('a[data-id="'+b[0]+'"]'):b[0]!=="2904211"});
+var list=parentOnly()?[]:BASECAMPS.filter(function(b){return side?side.querySelector('a[data-id="'+b[0]+'"]'):["2904211","2925010"].indexOf(b[0])<0});
 var el=document.getElementById("ch3-basecamps");
 if(!list.length){if(el)el.remove();return;}
 if(!el||el.parentNode!==host){if(el)el.remove();el=document.createElement("nav");el.id="ch3-basecamps";el.setAttribute("aria-label","Basecamps");host.insertBefore(el,host.firstChild);}

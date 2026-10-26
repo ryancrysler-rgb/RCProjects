@@ -272,8 +272,16 @@ Coach roles
  - Every coach gets the public "Coach" member tag, an orange label on their posts, profile and the member list.
 
 What a Coaches membership includes (all three are the same apart from the academy)
- Their academy space, Junior Basecamp, Junior Events, Parents, Global Basecamp, Events, Community Rules, the Son Of
- A Butch Podcast, Live Recordings and Premier Sessions. It's free and not on the membership page.
+ Their academy space, the Coaches' Basecamp, Junior Basecamp, Junior Events, Parents, Global Basecamp, Events,
+ Community Rules, the Son Of A Butch Podcast, Live Recordings and Premier Sessions. It's free and not on the
+ membership page.
+
+The Coaches' Basecamp (ch3.circle.so/c/coaches)
+ Coaches only, from every academy, with Ryan and Claude. It's for sharing best practice and tackling questions as
+ one team, and it sits in its own "Coaches" space group, hidden from everyone else. The topics are Ask the team,
+ Best practice, Drills and sessions, and Juniors. Claude's pinned welcome post sets two ground rules: players by
+ first name or initials only, with no juniors' personal details, and what's said there stays there. New posts
+ send an in-app notification. Email notifications are opt-in.
 
 Inviting coaches (Ryan in Circle, or Claude from a list)
  1. Build the coach welcome workflows first (Circle AI brief, Part 3), so the first coaches get the email too.

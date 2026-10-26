@@ -54,8 +54,14 @@ Updated October 23, 2026. The invite and sign-up flow works end to end, and the 
 5. **Coaches and the academy rollout** (see section 8 of the sign-up doc).
    - Done: 3 coach access groups created with their spaces: Coaches · CH3 Dubai (167198), Coaches · CH3 Thailand
      (167199) and Coaches · TeamFLO (167200). The public "Coach" member tag (304513) is created.
+   - Done (October 26): **Coaches' Basecamp** (space 2925010, ch3.circle.so/c/coaches) in a new hidden "Coaches"
+     space group (1236243). It's in all 3 coach access groups, and Claude Harmon III and Ryan are members. Topics:
+     Ask the team, Best practice, Drills and sessions, Juniors. Claude's welcome post with the ground rules is pinned
+     (post 37784681). Head snippet v3.13 adds its CB code, COACHES button and header card.
+   - To do (Ryan): paste head snippet v3.13 into Circle.
    - To do (Ryan → Circle AI): paste Part 3 of the Circle AI brief to build the 3 "Welcome · Coaches · …" workflows
-     with Email F. Then Claude checks them through the connector.
+     with Email F, which now mentions the Coaches' Basecamp. Then Claude checks them through the connector.
+   - Ryan adds the coaches by hand in Circle: Coaches membership, Coach tag, and moderator for head coaches.
    - Wave 1, CH3 Dubai: Ryan sends the 13 coaches' names and emails and marks the head coach (Mike Bolt). Claude
      invites them with Coaches · CH3 Dubai and the Coach tag. A Circle admin makes Mike a moderator of CH3 Dubai and
      of Junior Basecamp. Then Mike sends the Junior · CH3 Dubai link to families, and Claude invites the parents
