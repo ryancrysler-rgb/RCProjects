@@ -55,7 +55,7 @@ Subject: Your TeamCH3 invite
 Hi [first name],
 
 You're in. In the next few minutes you'll get an email from Circle, the platform TeamCH3 runs on. The subject is
-"Ryan has added you to the TeamCH3 community". If you can't find it, check your Promotions or Updates folder.
+"Ryan has invited you to join the TeamCH3 community". If you can't find it, check your Promotions or Updates folder.
 
 1. Click Accept invitation.
 2. Choose a password and answer a few quick questions: your date of birth, your age group and your home city.
@@ -75,12 +75,12 @@ we'll send them an invite to the Parents space.
 
 b) Circle's invitation email (Circle writes this one)
  From: no-reply@notification.circle.so
- Subject: Ryan has added you to the TeamCH3 community
+ Subject: Ryan has invited you to join the TeamCH3 community
  Body: "You've been invited to join the TeamCH3 community. Ryan Crysler (rcrysler@floridian.cc) has invited you
  to join the TeamCH3 community. To get started, accept the invite below: [Accept invitation]. If you think you've
  received this email in error, please ignore this email."
- This is the email Ryan Tester received on October 15, with "CH3" changed to "TeamCH3": the community was
- renamed on October 22, so new invites should say TeamCH3. Claude can't change the wording.
+ Checked word for word on October 26, when Claude invited three test coaches. It arrives within seconds,
+ in Gmail's Updates tab. Claude can't change the wording.
   - The logo at the top was a plain "C". The square TeamCH3 icon uploaded on October 22 should now show instead.
   - It shows the inviter's email address.
 
@@ -284,14 +284,16 @@ The Coaches' Basecamp (ch3.circle.so/c/coaches)
  send an in-app notification. Email notifications are opt-in.
 
 Inviting coaches (Ryan in Circle, or Claude from a list)
- 1. Build the coach welcome workflows first (Circle AI brief, Part 3), so the first coaches get the email too.
+ 1. The coach welcome workflows are built and on (Circle AI brief, Part 3).
  2. In Circle, use Audience > add member: one at a time, or a CSV import for the whole academy. Set the defaults to
-    the academy's Coaches membership and the Coach tag. Don't pick space groups, and don't make anyone an admin.
+    the academy's Coaches membership. Don't pick space groups, and don't make anyone an admin.
     Circle sends its invitation email. (Or send Claude the names and emails and Claude does the same through the
     connector.)
  3. A Circle admin makes the head coach a moderator: open the academy space > Members > the head coach > Moderator,
     then do the same in Junior Basecamp. (Or ask Circle AI. The connector can't set moderators.)
- 4. The coach welcome workflow sends "Welcome to the TeamCH3 coaching team" (Email F in the Circle AI brief, Part 3).
+ 4. The coach welcome workflow sends "Welcome to the TeamCH3 coaching team" (Email F in the Circle AI brief, Part 3)
+    and adds the Coach tag, about a minute after the coach is added and before they accept the invitation.
+    Tested on October 26 with one test coach per academy: both emails arrived and the tag was added.
 
 The rollout, one academy at a time
  Wave 1: CH3 Dubai. Coaches first (13, head coach Mike Bolt). Then Mike sends the Junior Basecamp · CH3 Dubai tester

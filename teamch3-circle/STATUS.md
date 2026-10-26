@@ -63,7 +63,13 @@ Updated October 23, 2026. The invite and sign-up flow works end to end, and the 
      Email F, then adds the Coach tag (304513). Ids: CH3 Dubai 34b24d10-80fc-4c0d-9161-429b3df39b94, CH3 Thailand
      78413f73-2dbc-4b5f-bc01-ff444489212c, TeamFLO 68d130a0-e4e1-4d04-84ed-dee13da7e98f. Circle AI again reported
      things done that weren't (Thailand was a draft with no tag step). Always check through the connector.
-   - Ryan adds the coaches by hand in Circle: Coaches membership, Coach tag, and moderator for head coaches.
+   - Tested (October 26): Claude invited one test coach per academy through the connector: Test Coach Dubai,
+     Test Coach Thailand and Test Coach TeamFLO (ryancrysler+coach1/2/3@gmail.com, members 99802348, 99802357,
+     99802358). Each got only their Coaches membership and its 11 spaces. Circle's invitation arrived within seconds.
+     About a minute later, before anyone accepted, Email F arrived (word for word as in the brief) and the Coach
+     tag was added. All of it landed in Gmail's Updates tab.
+   - Coaches can be added by Ryan in Circle, or by Claude from a list of names, emails and academy. Either way the
+     workflow sends Email F and adds the Coach tag. Moderators are set by hand in Circle (or by Circle AI).
    - Wave 1, CH3 Dubai: Ryan sends the 13 coaches' names and emails and marks the head coach (Mike Bolt). Claude
      invites them with Coaches · CH3 Dubai and the Coach tag. A Circle admin makes Mike a moderator of CH3 Dubai and
      of Junior Basecamp. Then Mike sends the Junior · CH3 Dubai link to families, and Claude invites the parents
@@ -140,8 +146,8 @@ with no filter or delay.
 - **Payments:** after the LLC, bank and Stripe are set up, paste Part 2 of the Circle AI brief (8 paywalls). Then make
   the checkout links and point the membership page buttons at them.
 - **Before launch:** delete the test accounts: Test Junior, Test Junior Two, Test Adult, the old Test Parent (on
-  rcrysler+…@floridian.cc), Ryan Junior (ryancrysler+junior1@gmail.com) and Test Parent (ryancrysler@gmail.com,
-  formerly Ryan Tester).
+  rcrysler+…@floridian.cc), Ryan Junior (ryancrysler+junior1@gmail.com), Test Parent (ryancrysler@gmail.com,
+  formerly Ryan Tester) and the three test coaches (ryancrysler+coach1/2/3@gmail.com).
 - **Riverside Grow is a free trial**, ending about October 30 (Riverside's email of October 23). Wednesday's show
   is covered. Start paying for Grow before the trial ends to keep live streaming and custom destinations.
 - **Junior Events:** tick "Hide attendees" on each new one.
