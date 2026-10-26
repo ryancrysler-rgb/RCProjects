@@ -58,9 +58,11 @@ Updated October 23, 2026. The invite and sign-up flow works end to end, and the 
      space group (1236243). It's in all 3 coach access groups, and Claude Harmon III and Ryan are members. Topics:
      Ask the team, Best practice, Drills and sessions, Juniors. Claude's welcome post with the ground rules is pinned
      (post 37784681). Head snippet v3.13 adds its CB code, COACHES button and header card.
-   - To do (Ryan): paste head snippet v3.13 into Circle.
-   - To do (Ryan → Circle AI): paste Part 3 of the Circle AI brief to build the 3 "Welcome · Coaches · …" workflows
-     with Email F, which now mentions the Coaches' Basecamp. Then Claude checks them through the connector.
+   - Done: head snippet v3.13 is pasted into Circle.
+   - Done (checked by Claude): 3 coach welcome workflows, all active. Each starts on its coach access group, sends
+     Email F, then adds the Coach tag (304513). Ids: CH3 Dubai 34b24d10-80fc-4c0d-9161-429b3df39b94, CH3 Thailand
+     78413f73-2dbc-4b5f-bc01-ff444489212c, TeamFLO 68d130a0-e4e1-4d04-84ed-dee13da7e98f. Circle AI again reported
+     things done that weren't (Thailand was a draft with no tag step). Always check through the connector.
    - Ryan adds the coaches by hand in Circle: Coaches membership, Coach tag, and moderator for head coaches.
    - Wave 1, CH3 Dubai: Ryan sends the 13 coaches' names and emails and marks the head coach (Mike Bolt). Claude
      invites them with Coaches · CH3 Dubai and the Coach tag. A Circle admin makes Mike a moderator of CH3 Dubai and
