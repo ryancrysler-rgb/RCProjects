@@ -14,8 +14,8 @@ SLOT_IMG = {  # empty photo slot in the design -> Circle-hosted photo, alt text
     # tall photo: crop to the tree line and the group walking up the fairway
     'acad-teamflo': (CDN + 'v1yjaub5tpp51xgs9socyx90h3wg', 'TeamFLO players walking up a Florida fairway with their bags',
                      'display:block;width:100%;height:100%;object-fit:cover;object-position:50% 44%', ''),
-    # tall photo: keep the coach in the upper half, above the cue text
-    'session-cam': (CDN + '7j18iax3nfe4yh5w5pa6k9qt4n59', 'A CH3 coach on the putting green, with players behind',
+    # tall photo: keep Claude in the upper half, above the cue text
+    'session-cam': (CDN + '7j18iax3nfe4yh5w5pa6k9qt4n59', 'Claude Harmon III on the putting green, with players behind',
                     'display:block;width:100%;height:100%;object-fit:cover;object-position:50% 62%', ''),
     # Claude stands on the left of this photo, so it fills the right half of the hero, clear of the headline
     'hero-claude': (CDN + 'l3mre63766j0kdqifdxoftjpkw12', 'Claude Harmon III range-side at a tour event',
