@@ -70,10 +70,15 @@ Updated October 23, 2026. The invite and sign-up flow works end to end, and the 
      tag was added. All of it landed in Gmail's Updates tab.
    - Coaches can be added by Ryan in Circle, or by Claude from a list of names, emails and academy. Either way the
      workflow sends Email F and adds the Coach tag. Moderators are set by hand in Circle (or by Circle AI).
+   - Changed (October 27, Ryan's call): coaches see every academy and every coach is a moderator. Claude added
+     CH3 Dubai, CH3 Thailand and TeamFLO to all 3 Coaches access groups (13 spaces each; Elite Basecamp stays out)
+     and checked it on the test coaches. To do (Ryan → Circle AI): paste Part 4 of the Circle AI brief. It makes
+     every coach a space moderator of the 3 academies and Junior Basecamp, adds that to the coach workflows if
+     Circle allows it, and updates Email F's first bullet. Then Claude checks the moderator flags and workflows.
    - Wave 1, CH3 Dubai: Ryan sends the 13 coaches' names and emails and marks the head coach (Mike Bolt). Claude
-     invites them with Coaches · CH3 Dubai and the Coach tag. A Circle admin makes Mike a moderator of CH3 Dubai and
-     of Junior Basecamp. Then Mike sends the Junior · CH3 Dubai link to families, and Claude invites the parents
-     afterwards.
+     invites them with Coaches · CH3 Dubai (the workflow adds the Coach tag), and each coach is made a moderator
+     (Part 4, or by hand if Circle can't automate it). Then Mike sends the Junior · CH3 Dubai link to families, and
+     Claude invites the parents afterwards.
    - Wave 2 is TeamFLO (coaches, then players). Wave 3 is CH3 Thailand (head coach Joe Marshall).
 
 ## Son Of A Butch Live (October 28)

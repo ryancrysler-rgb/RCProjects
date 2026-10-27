@@ -104,7 +104,7 @@ All three send Email F. If your workflows can also add a member tag, add a secon
 EMAIL F
 Subject: Welcome to the TeamCH3 coaching team
 Welcome to TeamCH3. As a CH3 coach you have:
-- Your home basecamp: your academy's members and squad. Post sessions and drills, and reply to their swings.
+- Every academy basecamp: CH3 Dubai, CH3 Thailand and TeamFLO. You're a moderator there and in the Junior Basecamp, so you can pin, edit and remove posts. Post sessions and drills, and reply to members' swings.
 - The Coaches' Basecamp: coaches from every CH3 academy, sharing best practice and tackling questions as one team. Members never see it.
 - The Junior Basecamp, Junior Events and Parents: where you coach our juniors from every academy and keep their parents in the loop.
 - The Global Basecamp, Events, Premier Sessions, the Son Of A Butch Podcast and Live Recordings.
@@ -115,3 +115,12 @@ Start here:
 4. To get an email when there's a new post, click ⋯ at the top of a space and turn on notifications.
 Questions? Reply to this email.
 Claude
+
+
+=== PART 4: coaches see every academy and moderate (paste now) ===
+All three Coaches access groups already include CH3 Dubai, CH3 Thailand and TeamFLO. Don't change any access group.
+1. Make every member of Coaches · CH3 Dubai, Coaches · CH3 Thailand and Coaches · TeamFLO a space moderator of exactly these 4 spaces: CH3 Dubai, CH3 Thailand, TeamFLO, Junior Basecamp. Space moderator only: not admin, not community moderator, no other spaces.
+2. If a workflow action can make a member a space moderator, add it to the 3 "Welcome · Coaches · …" workflows (those 4 spaces), after the existing actions. If no workflow action can, say so and leave the workflows' actions as they are.
+3. In the email of all 3 "Welcome · Coaches · …" workflows, replace the first bullet ("Your home basecamp: …") with:
+Every academy basecamp: CH3 Dubai, CH3 Thailand and TeamFLO. You're a moderator there and in the Junior Basecamp, so you can pin, edit and remove posts. Post sessions and drills, and reply to members' swings.
+Change nothing else. Then list exactly what you changed.

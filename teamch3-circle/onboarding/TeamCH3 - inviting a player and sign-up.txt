@@ -264,16 +264,19 @@ Still open
 8. COACHES AND THE ACADEMY ROLLOUT
 Coach roles
  - Admins: Ryan and Claude Harmon III. Everything.
- - Head coaches (Mike Bolt for CH3 Dubai, Joe Marshall for CH3 Thailand): members of their academy's Coaches
-   membership, plus space moderator of their academy space and of the Junior Basecamp. A moderator can edit, pin and
-   remove posts and manage members in those spaces only. They have no access to community settings, analytics, plans
-   or billing. Ryan is TeamFLO's head coach and is already an admin.
- - Other coaches: members of their academy's Coaches membership, with no moderator role.
+ - Coaches: every coach is in their academy's Coaches membership, sees all three academy basecamps, and is a space
+   moderator of CH3 Dubai, CH3 Thailand, TeamFLO and the Junior Basecamp (decided October 27). A moderator can edit,
+   pin and remove posts and manage members in those spaces only. They have no access to community settings,
+   analytics, plans or billing.
+ - Head coaches: Mike Bolt (CH3 Dubai), Joe Marshall (CH3 Thailand) and Ryan (TeamFLO, already an admin). They have
+   the same access as other coaches. They lead their academy's rollout.
  - Every coach gets the public "Coach" member tag, an orange label on their posts, profile and the member list.
 
-What a Coaches membership includes (all three are the same apart from the academy)
- Their academy space, the Coaches' Basecamp, Junior Basecamp, Junior Events, Parents, Global Basecamp, Events,
- Community Rules, the Son Of A Butch Podcast, Live Recordings and Premier Sessions. It's free and not on the
+What a Coaches membership includes (all three are the same. The academy in the name sets the coach's home academy
+and which welcome workflow runs)
+ All three academy basecamps (CH3 Dubai, CH3 Thailand, TeamFLO), the Coaches' Basecamp, Junior Basecamp, Junior
+ Events, Parents, Global Basecamp, Events, Community Rules, the Son Of A Butch Podcast, Live Recordings and Premier
+ Sessions. Not the Elite Basecamp, which stays private to Elite members, Ryan and Claude. It's free and not on the
  membership page.
 
 The Coaches' Basecamp (ch3.circle.so/c/coaches)
@@ -289,8 +292,9 @@ Inviting coaches (Ryan in Circle, or Claude from a list)
     the academy's Coaches membership. Don't pick space groups, and don't make anyone an admin.
     Circle sends its invitation email. (Or send Claude the names and emails and Claude does the same through the
     connector.)
- 3. A Circle admin makes the head coach a moderator: open the academy space > Members > the head coach > Moderator,
-    then do the same in Junior Basecamp. (Or ask Circle AI. The connector can't set moderators.)
+ 3. Each coach is made a space moderator of CH3 Dubai, CH3 Thailand, TeamFLO and Junior Basecamp, by Circle AI
+    (Circle AI brief, Part 4) or by hand: open the space > Members > the coach > Moderator. The connector can't set
+    moderators, but Claude can check them.
  4. The coach welcome workflow sends "Welcome to the TeamCH3 coaching team" (Email F in the Circle AI brief, Part 3)
     and adds the Coach tag, about a minute after the coach is added and before they accept the invitation.
     Tested on October 26 with one test coach per academy: both emails arrived and the tag was added.
