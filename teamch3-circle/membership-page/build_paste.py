@@ -149,7 +149,7 @@ def ticker():
 
 ELITE_LEFT = 8  # no Elite members yet
 FEATS = ['Son of a Butch community', 'Live podcast recordings', 'Global feed', 'Live webinars + Premier Sessions', 'Academy home basecamp',
-         'On tour with Claude + Coaches’ Room', 'Global Junior Basecamp', 'Direct access to Claude + Ryan']
+         'On tour with Claude + Basecamp Spotlights', 'Global Junior Basecamp', 'Direct access to Claude + Ryan']
 def tier(pos, flag, name, pitch, price, note, cta, yes, primary, key):
     return {'pos': pos, 'flag': flag, 'name': name, 'pitch': pitch, 'price': price, 'note': note, 'cta': cta,
             'primary': primary, 'secondary': not primary, 'key': key,
@@ -170,7 +170,8 @@ ctx = {
         {'n': '02', 'tier': 'PREMIER +', 'title': 'Premier Sessions', 'hook': 'Claude and the coaches, on demand.', 'body': 'Sessions and drills from Claude and the CH3 coaches, filmed for members. The first ones are on the way.', 'cta': 'OPENING SOON'},
         {'n': '03', 'tier': 'ALL TIERS', 'title': 'Live recordings', 'hook': 'Pull up a chair in the studio.', 'body': 'Exclusive access to live Son of a Butch recordings with CH3 and special guests. Watch it happen before it drops.', 'cta': raw('NEXT ONE IN <span data-ch3="cd-hm">--:--</span>')},
         {'n': '04', 'tier': 'PREMIER +', 'title': 'On tour with Claude', 'hook': 'Range-side. Week in, week out.', 'body': 'Behind-the-scenes coaching from tour events and from home. The sessions, the data and the thinking.', 'cta': 'GO INSIDE THE ROPES'},
-        {'n': '05', 'tier': 'PREMIER +', 'title': "The Coaches' Room", 'hook': 'Every CH3 coach. One room.', 'body': 'Behind the scenes with the coaches from Dubai, Thailand and TeamFLO: how they diagnose, plan and run a lesson.', 'cta': 'MEET THE COACHES'},
+        # the coaches' own space (the Coaches' Basecamp) stays coaches-only; members get the head coaches live instead
+        {'n': '05', 'tier': 'PREMIER +', 'title': 'Basecamp Spotlights', 'hook': "Every academy's head coach, live.", 'body': 'Claude and a CH3 head coach take live questions from every basecamp: Mike Bolt from CH3 Dubai, Joe Marshall from CH3 Thailand and Ryan Crysler from TeamFLO.', 'cta': 'SEE THE NEXT ONE'},
     ],
     'shotNum': span('shot-num', CUR + 1), 'shotTotal': str(len(SHOTS)),
     'cur': {'club': span('club', SHOTS[CUR][0]), 'target': span('target', SHOTS[CUR][1]), 'cue': span('cue', SHOTS[CUR][8])},

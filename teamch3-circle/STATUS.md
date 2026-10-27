@@ -143,6 +143,9 @@ with no filter or delay.
   tilted to the seam and blended in, and the white logo on the side of the cap is removed. Circle file
   d85q2vrd3kilwhzo17w9x39764zx, kept on the draft images post. `brand/Claude range-side (CH3 cap).jpg` is the edit;
   `brand/Claude range-side.jpg` is the untouched original. Paste the latest membership page file to put it live.
+- **No "Coaches' Room" for members (October 27).** The coaches' own space (the Coaches' Basecamp) stays coaches-only,
+  so the page no longer sells it. Card 05 is now Basecamp Spotlights (Claude and each academy's head coach, live, in
+  Events), and the tier row reads "On tour with Claude + Basecamp Spotlights" (Junior, Premier, Elite; not Pod).
 - **Free trial is 2 weeks (October 27, Ryan's call), not 4.** The page now says "2 weeks free" and "cancel before day
   14" everywhere, and Part 2 of the Circle AI brief (the paywalls, not built yet) asks for a 14-day trial, still none
   for Elite.
