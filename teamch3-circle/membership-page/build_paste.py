@@ -86,7 +86,7 @@ EDITS = [
     (' The full course archive.', ''),
     # hero line: play better golf first, then Claude live (Ryan, Oct 27)
     ('Claude Harmon III on tour and at home. Exclusive access to live Son of a Butch recordings with special guests. The coaches from Dubai, Thailand and TeamFLO. One membership.',
-     'Play better golf with the CH3 coaches from Dubai, Thailand and TeamFLO, wherever you live. Then go live with Claude Harmon III: Son of a Butch recordings and his updates from tour. One membership.'),
+     'Play better golf with Claude and the CH3 coaches from Dubai, Thailand and TeamFLO, wherever you live. Then go live with Claude: Son of a Butch recordings and his updates from tour. One membership.'),
     ('<a href="#grid" style="color:#A6B1BA">Course archive</a>', '<a href="#grid" style="color:#A6B1BA">Premier Sessions</a>'),
     # No TeamCH3 phone app: TeamCH3 is on the web
     ("Now it's on your phone.", "Now it's yours."),

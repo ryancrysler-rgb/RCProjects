@@ -143,9 +143,9 @@ with no filter or delay.
   tilted to the seam and blended in, and the white logo on the side of the cap is removed. Circle file
   d85q2vrd3kilwhzo17w9x39764zx, kept on the draft images post. `brand/Claude range-side (CH3 cap).jpg` is the edit;
   `brand/Claude range-side.jpg` is the untouched original. Paste the latest membership page file to put it live.
-- **Hero line and basecamp box (October 27).** Hero: "Play better golf with the CH3 coaches from Dubai, Thailand and
-  TeamFLO, wherever you live. Then go live with Claude Harmon III: Son of a Butch recordings and his updates from
-  tour. One membership." The "There's a basecamp near you" box now spans the full width under the Junior banner, with
+- **Hero line and basecamp box (October 27).** Hero: "Play better golf with Claude and the CH3 coaches from Dubai, Thailand
+  and TeamFLO, wherever you live. Then go live with Claude: Son of a Butch recordings and his updates from tour. One
+  membership." The "There's a basecamp near you" box now spans the full width under the Junior banner, with
   the same rounded corners and type sizes as the academy cards (it was squeezed into one column).
 - **What's Inside, reordered (October 27, Ryan's brief).** First the golf, for Junior, Premier and Elite: 01 Live
   webinars (inside the coaches' minds, for Premier members at every academy and the Junior Basecamp), 02 Premier
