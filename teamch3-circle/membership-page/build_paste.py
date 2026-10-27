@@ -32,7 +32,7 @@ IMG = {  # design asset uuid -> Circle-hosted copy
     'fa46084f-77e4-47ae-a937-5dc68a3f796b': CDN + '0ystuo9hiylgxum4vl9qbfyy0t07',  # CH3 Dubai logo
     '00cae2d0-8c2a-4858-93aa-a3c112368ba0': CDN + 'ivgpm0bzd85mu5xrqougzj7v5s67',  # CH3 Thailand logo
     'b539c284-f97e-47c0-84cd-5835b49df570': CDN + 'l8a3ec8pkhpblfiksomztbdim55k',  # Son of a Butch studio
-    'c7b5244b-de71-4c97-92ac-40d0afaf1a74': CDN + 'j9aqy8fmz9qv6ld9yl66z2es3mmn',  # Global Basecamp (live Circle view)
+    'c7b5244b-de71-4c97-92ac-40d0afaf1a74': CDN + '3hy9hkputoabzbwq6hcweyd3sw24',  # a Premier · CH3 Dubai test member's Feed (live Circle view, Oct 27)
 }
 LOGIN = 'https://ch3.circle.so/sign_in'
 
@@ -48,7 +48,7 @@ EDITS = [
     ('PREMIER + ELITE MEMBERS', 'JUNIOR, PREMIER + ELITE'),
     ('Stories from the coaches, swing videos with the Foresight numbers on screen, and the conversation. Switch between the Global Basecamp and your home basecamp in one tap.',
      'Featured posts from Claude and the coaches, the live calendar and the conversation. Switch between the Global Basecamp and your home basecamp in one click.'),
-    ('teamch3.com/basecamp', 'ch3.circle.so/c/global'),
+    ('teamch3.com/basecamp', 'ch3.circle.so/feed'),
     ('Coach stories', 'Featured from the coaches'),
     ('Claude, Ryan and your academy coaches. Live sessions ring orange.', 'The best posts from Claude, Ryan and every academy, at the top of the Global Basecamp.'),
     ('Data on the swing', 'Your data, coached'),
@@ -57,7 +57,7 @@ EDITS = [
      'Every membership except Elite starts with 4 weeks free. Cancel before day 28 and pay nothing.'),
     ('Prices in USD, billed monthly. Not at a CH3 academy? You’re welcomed into the closest home basecamp: North America → TeamFLO, Europe → CH3 Dubai, Asia → CH3 Thailand. Elite is limited and by application.',
      'Prices in USD, billed monthly, or pay for the year and get 12 months for the price of 10. Your home basecamp is the academy closest to where you live: the Americas → TeamFLO, Europe, the Middle East and Africa → CH3 Dubai, Asia and the Pacific → CH3 Thailand. Elite is limited, by application, with no free trial.'),
-    ('alt="TeamCH3 Global Basecamp feed"', 'alt="The TeamCH3 Global Basecamp in Circle"'),
+    ('alt="TeamCH3 Global Basecamp feed"', 'alt="A TeamCH3 member\'s feed in Circle, with the Global, CH3 Dubai and Son Of A Butch basecamps"'),
     # After the Pod is now exclusive access to live podcast recordings with CH3 and special guests
     ('|</span> AFTER THE POD', '|</span> LIVE RECORDING'),
     ('LIVE Q&amp;A WITH CLAUDE <span', 'CH3 + SPECIAL GUEST <span'),

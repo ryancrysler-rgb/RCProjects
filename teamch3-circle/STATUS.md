@@ -143,6 +143,10 @@ with no filter or delay.
   tilted to the seam and blended in, and the white logo on the side of the cap is removed. Circle file
   d85q2vrd3kilwhzo17w9x39764zx, kept on the draft images post. `brand/Claude range-side (CH3 cap).jpg` is the edit;
   `brand/Claude range-side.jpg` is the untouched original. Paste the latest membership page file to put it live.
+- **"Inside TeamCH3" screenshot replaced (October 27).** The old Global Basecamp screenshot (old GP/JP/P1 codes,
+  past events) is now Ryan's screenshot of a Premier · CH3 Dubai test member's Feed: GLOBAL, CH3 DUBAI and SON OF A
+  BUTCH buttons and the current events. Circle file 3hy9hkputoabzbwq6hcweyd3sw24 (on the draft images post); the frame's
+  address now reads ch3.circle.so/feed. Retake it when the feed changes a lot, from a member account, not an admin's.
 - **Done: head snippet v3.14 is pasted** (Ryan, October 27). v3.13 showed the basecamp buttons (GB, DU, TH, FL, SB, EB) above
   the membership page for signed-out visitors. v3.14 hides them on that page and leaves members' pages unchanged
   (tested in a browser against v3.13).
