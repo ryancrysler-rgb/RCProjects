@@ -1,4 +1,4 @@
-<!-- TeamCH3 · Circle head code snippet · v3.13 · Oct 26 2026
+<!-- TeamCH3 · Circle head code snippet · v3.14 · Oct 27 2026
 Paste the whole file into Circle: Site > Code snippets > head. Web and desktop only (the Circle mobile app ignores snippets).
 Hooks: Circle's own data-circle attributes and CSS variables, read from the live ch3.circle.so feed on Oct 12 2026.
 v3: fonts reach all of Circle's text, basecamp pills fixed and restyled to the Paddock Feed design, sidebar codes,
@@ -20,6 +20,7 @@ navy right-column panels and the Basecamp standings post.
 (v3.11) Basecamp codes follow Basecamp naming: GB, JB, DU (CH3 Dubai), TH (CH3 Thailand), FL (TeamFLO), SB (Son Of A Butch).
 (v3.12) The ⋯ edit/delete menu on a sidebar link stays open: the same-window rule from v3.4 now ignores clicks on buttons and menus.
 (v3.13) Coaches' Basecamp (coaches only): CB sidebar code, COACHES basecamp button and header card. Never shown to members.
+(v3.14) No basecamp buttons on the membership page (the signed-out landing page), which has its own navigation.
 Anton + Barlow Condensed: SIL OFL 1.1, served by Google Fonts. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -205,10 +206,12 @@ function current(){var all=BASECAMPS.concat(HEADERS);for(var i=0;i<all.length;i+
 /* Basecamp pills: only shows basecamps this member can see in the sidebar */
 /* Fade the right edge of the basecamp buttons while more of them are off-screen */
 function more(el){var m=el.scrollWidth-el.clientWidth-el.scrollLeft>4;if(m!==el.hasAttribute("data-more")){if(m)el.setAttribute("data-more","");else el.removeAttribute("data-more");}}
+/* The membership page (website builder, the signed-out landing page) has its own navigation: no pills there */
+function sitePage(side){if(document.getElementById("ch3-site")||(!side&&location.pathname==="/"))return true;return [].some.call(document.querySelectorAll("iframe"),function(f){try{return !!(f.contentDocument&&f.contentDocument.getElementById("ch3-site"))}catch(e){return false}});}
 function pills(){
 var host=document.querySelector('[data-circle="app-content"]');if(!host)return;
 var side=document.querySelector('[data-circle="app-sidebar"]');
-var list=parentOnly()?[]:BASECAMPS.filter(function(b){return side?side.querySelector('a[data-id="'+b[0]+'"]'):["2904211","2925010"].indexOf(b[0])<0});
+var list=parentOnly()||sitePage(side)?[]:BASECAMPS.filter(function(b){return side?side.querySelector('a[data-id="'+b[0]+'"]'):["2904211","2925010"].indexOf(b[0])<0});
 var el=document.getElementById("ch3-basecamps");
 if(!list.length){if(el)el.remove();return;}
 if(!el||el.parentNode!==host){if(el)el.remove();el=document.createElement("nav");el.id="ch3-basecamps";el.setAttribute("aria-label","Basecamps");host.insertBefore(el,host.firstChild);}
