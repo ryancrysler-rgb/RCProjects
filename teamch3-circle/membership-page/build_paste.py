@@ -18,7 +18,8 @@ SLOT_IMG = {  # empty photo slot in the design -> Circle-hosted photo, alt text
     'session-cam': (CDN + '7j18iax3nfe4yh5w5pa6k9qt4n59', 'Claude Harmon III on the putting green, with players behind',
                     'display:block;width:100%;height:100%;object-fit:cover;object-position:50% 62%', ''),
     # Claude stands on the left of this photo, so it fills the right half of the hero, clear of the headline
-    'hero-claude': (CDN + 'l3mre63766j0kdqifdxoftjpkw12', 'Claude Harmon III range-side at a tour event',
+    # the cap's P and side logo are replaced by the CH3 mark (brand/Claude range-side (CH3 cap).jpg)
+    'hero-claude': (CDN + 'd85q2vrd3kilwhzo17w9x39764zx', 'Claude Harmon III range-side at a tour event, in a CH3 cap',
                     'position:absolute;top:0;right:0;width:min(908px,64%);height:auto;'
                     '-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 32%),linear-gradient(to bottom,#000 55%,transparent 100%);'
                     '-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent 0%,#000 32%),linear-gradient(to bottom,#000 55%,transparent 100%);'

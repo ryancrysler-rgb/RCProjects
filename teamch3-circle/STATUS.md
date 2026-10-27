@@ -139,7 +139,11 @@ with no filter or delay.
   stays private. Members still land in the Global Basecamp after signing in. The page's LOG IN links go to
   ch3.circle.so/sign_in. Check it in a private window after each paste and Publish. Ryan checked it in incognito:
   the page loads and the top navigation jumps to each section.
-- **To do (Ryan): paste head snippet v3.14.** v3.13 showed the basecamp buttons (GB, DU, TH, FL, SB, EB) above
+- **Hero photo: CH3 cap (October 27).** Claude's cap in the top photo now carries the CH3 mark where the "P" was,
+  tilted to the seam and blended in, and the white logo on the side of the cap is removed. Circle file
+  d85q2vrd3kilwhzo17w9x39764zx, kept on the draft images post. `brand/Claude range-side (CH3 cap).jpg` is the edit;
+  `brand/Claude range-side.jpg` is the untouched original. Paste the latest membership page file to put it live.
+- **Done: head snippet v3.14 is pasted** (Ryan, October 27). v3.13 showed the basecamp buttons (GB, DU, TH, FL, SB, EB) above
   the membership page for signed-out visitors. v3.14 hides them on that page and leaves members' pages unchanged
   (tested in a browser against v3.13).
 - **Paste the latest file.** `membership-page/teamch3-membership-circle.html` has all three academy photos, the head
