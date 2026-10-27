@@ -86,7 +86,7 @@ Claude
 
 
 === PART 2: paste only after Stripe is connected ===
-Build 8 paywalls in USD. Each one grants one access group. Every paywall has monthly and annual billing, and annual is 12 months for the price of 10. Every paywall has a 28-day free trial except Elite.
+Build 8 paywalls in USD. Each one grants one access group. Every paywall has monthly and annual billing, and annual is 12 months for the price of 10. Every paywall has a 14-day free trial except Elite.
 - Pod Community: $49 a month, $490 a year
 - Junior Basecamp · CH3 Dubai, Junior Basecamp · CH3 Thailand, Junior Basecamp · TeamFLO: $69 a month, $690 a year (each)
 - Premier · CH3 Dubai, Premier · CH3 Thailand, Premier · TeamFLO: $99 a month, $990 a year (each)

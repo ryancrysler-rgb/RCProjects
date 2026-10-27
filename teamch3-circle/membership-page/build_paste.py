@@ -41,7 +41,14 @@ t = t[:t.find('<script type="text/x-dc"')]
 
 # ---- copy updates: the decisions made after the design (pricing, tiers, basecamps, feed) ----
 EDITS = [
-    ('Full access for 4 weeks, then from $50/month.', '4 weeks free, then from $49/month.'),
+    ('Full access for 4 weeks, then from $50/month.', '2 weeks free, then from $49/month.'),
+    # the free trial is 2 weeks (14 days), not the design's 4 weeks
+    ('Cancel any time before day 28 and pay nothing.', 'Cancel any time before day 14 and pay nothing.'),
+    ('ALL TIERS · 4 WEEKS FREE', 'ALL TIERS · 2 WEEKS FREE'),
+    ('GET IN THE FEED — 4 WEEKS FREE', 'GET IN THE FEED — 2 WEEKS FREE'),
+    ('JOIN THE POD COMMUNITY — 4 WEEKS FREE', 'JOIN THE POD COMMUNITY — 2 WEEKS FREE'),
+    ('START 4 WEEKS FREE', 'START 2 WEEKS FREE'),
+    ('Your 4 weeks start now.', 'Your 2 weeks start now.'),
     ('Then $50/month. Cancel any time.', 'Then $49/month. Cancel any time.'),
     ('Every player from every CH3 academy is on board, alongside the Son of a Butch community. Everyone shares the Global Basecamp. Each academy also has its own home basecamp: your coaches, your squad, your range. Pick the one that feels like home.',
      'Every player from every CH3 academy is on board, alongside the Son of a Butch community. Everyone shares the Global Basecamp. Each academy also has its own home basecamp: your coaches, your squad, your range. You join the one closest to where you live, and it’s where you train with us in person.'),
@@ -54,7 +61,7 @@ EDITS = [
     ('Data on the swing', 'Your data, coached'),
     ('Foresight numbers sit right on the video. Post your own.', 'Send your golf data to RC Greenlight, or ask a coach, straight from the feed.'),
     ('Every membership starts with 4 weeks of full access. Choose where you land after that.',
-     'Every membership except Elite starts with 4 weeks free. Cancel before day 28 and pay nothing.'),
+     'Every membership except Elite starts with 2 weeks free. Cancel before day 14 and pay nothing.'),
     ('Prices in USD, billed monthly. Not at a CH3 academy? You’re welcomed into the closest home basecamp: North America → TeamFLO, Europe → CH3 Dubai, Asia → CH3 Thailand. Elite is limited and by application.',
      'Prices in USD, billed monthly, or pay for the year and get 12 months for the price of 10. Your home basecamp is the academy closest to where you live: the Americas → TeamFLO, Europe, the Middle East and Africa → CH3 Dubai, Asia and the Pacific → CH3 Thailand. Elite is limited, by application, with no free trial.'),
     ('alt="TeamCH3 Global Basecamp feed"', 'alt="A TeamCH3 member\'s feed in Circle, with the Global, CH3 Dubai and Son Of A Butch basecamps"'),
@@ -135,7 +142,7 @@ def bars():
         out.append('<span class="ch3-bar" style="display:block;height:7px;width:%dpx;background:%s;transform-origin:left;animation-delay:%ss"></span>' % (w, bg, round(i * 0.12, 2)))
     return raw(''.join(out))
 TICKER_ITEMS = ['LIVE PODCAST RECORDINGS · CH3 + SPECIAL GUESTS', 'NEW: CAM SMITH RANGE SESSION ON FORESIGHT', 'WEEKLY LIVE WEBINARS WITH THE CH3 COACHES',
-                'ON TOUR WITH CLAUDE · BEHIND THE ROPES', 'CH3 DUBAI · CH3 THAILAND · TEAMFLO', 'START 4 WEEKS FREE']
+                'ON TOUR WITH CLAUDE · BEHIND THE ROPES', 'CH3 DUBAI · CH3 THAILAND · TEAMFLO', 'START 2 WEEKS FREE']
 def ticker():
     items = ''.join('<span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 \'Barlow Condensed\';letter-spacing:.14em;white-space:nowrap">%s<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span>' % H.escape(s) for s in TICKER_ITEMS * 2)
     return raw('<div class="ch3-marquee" style="display:flex;width:max-content">%s</div>' % items)
@@ -189,8 +196,8 @@ ctx = {
     'eliteLeft': str(ELITE_LEFT),
     'seatBar': raw(''.join('<span style="flex:1;height:10px;background:%s"></span>' % ('rgba(255,255,255,.3)' if i < 8 - ELITE_LEFT else '#fff') for i in range(8))),
     'tiers': [
-        tier('SB', '4 WEEKS FREE', 'Pod Community', 'For Son of a Butch listeners who want the room behind the mic.', '$49',
-             'Free for 4 weeks, then $49/month.', 'START FREE', [1, 1, 1, 0, 0, 0, 0, 0], False, 'pod'),
+        tier('SB', '2 WEEKS FREE', 'Pod Community', 'For Son of a Butch listeners who want the room behind the mic.', '$49',
+             'Free for 2 weeks, then $49/month.', 'START FREE', [1, 1, 1, 0, 0, 0, 0, 0], False, 'pod'),
         tier('JB', 'JUNIORS', 'Junior Basecamp', 'Everything in Premier, plus the Global Junior Basecamp: juniors from every CH3 academy in one place.', '$69',
              'Ages 13–19. Premier access at a junior price.', 'JOIN THE JUNIOR BASECAMP', [1, 1, 1, 1, 1, 1, 1, 0], False, 'junior'),
         tier('PS', 'MOST POPULAR', 'Premier', 'The full basecamp. Your home basecamp, or the one closest to you, plus everything global.', '$99',

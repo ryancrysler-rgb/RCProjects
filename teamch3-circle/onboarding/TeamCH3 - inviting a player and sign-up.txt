@@ -12,7 +12,7 @@ Now (beta, no payments yet):
  5. They land in the Global Basecamp, introduce themselves and see the community rules before their first post.
  6. For a junior, the parent or guardian is invited to the free Parents space by email (section 4).
 At launch (payments on):
- The same, except the invite is a checkout link from the membership page: card details and a 28-day free trial
+ The same, except the invite is a checkout link from the membership page: card details and a 14-day free trial
  (no trial for Elite) come first, then steps 4 to 6.
 
 
@@ -125,7 +125,7 @@ d) After that
 
 5. AT LAUNCH (PAYMENTS ON)
  Once Stripe is connected and the 8 paywalls exist, Claude makes a checkout link for each membership: a Circle
- invitation link with the paywall, the price and the 28-day trial (none for Elite).
+ invitation link with the paywall, the price and the 14-day trial (none for Elite).
  1. The player chooses a membership on the membership page (the buttons already point to these).
  2. Circle checkout: email and card. Nothing is charged until the trial ends.
  3. Circle creates the account and puts them in that membership's access group.

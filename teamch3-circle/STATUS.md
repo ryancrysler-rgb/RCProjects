@@ -143,6 +143,9 @@ with no filter or delay.
   tilted to the seam and blended in, and the white logo on the side of the cap is removed. Circle file
   d85q2vrd3kilwhzo17w9x39764zx, kept on the draft images post. `brand/Claude range-side (CH3 cap).jpg` is the edit;
   `brand/Claude range-side.jpg` is the untouched original. Paste the latest membership page file to put it live.
+- **Free trial is 2 weeks (October 27, Ryan's call), not 4.** The page now says "2 weeks free" and "cancel before day
+  14" everywhere, and Part 2 of the Circle AI brief (the paywalls, not built yet) asks for a 14-day trial, still none
+  for Elite.
 - **No course archive (October 27).** The page no longer promises a course archive: the hero line is gone, the
   What's Inside card 02 is now Premier Sessions ("opening soon"), the tier row reads "Live webinars + Premier
   Sessions" and the footer link is Premier Sessions.
@@ -168,7 +171,7 @@ with no filter or delay.
 ## Later
 
 - **Ask CH3:** re-upload `ask-ch3/Ask CH3 - TeamCH3 community guide.txt` to its knowledge.
-- **Payments:** after the LLC, bank and Stripe are set up, paste Part 2 of the Circle AI brief (8 paywalls). Then make
+- **Payments:** after the LLC, bank and Stripe are set up, paste Part 2 of the Circle AI brief (8 paywalls, 14-day trial). Then make
   the checkout links and point the membership page buttons at them.
 - **Before launch:** delete the test accounts: Test Junior, Test Junior Two, Test Adult, the old Test Parent (on
   rcrysler+…@floridian.cc), Ryan Junior (ryancrysler+junior1@gmail.com), Test Parent (ryancrysler@gmail.com,
