@@ -167,7 +167,9 @@ with no filter or delay.
   and the ticker's "NEW: CAM SMITH RANGE SESSION ON FORESIGHT". Is there a real session, or should it be retitled
   (e.g. "On the range at CH3 Dubai")?
 - **Open: the TeamFLO photo is low resolution** (477 px wide). Ask for the original.
-- **Open: the Live Recordings card says "ALL TIERS"** and some feature cards say "PREMIER +". Relabel?
+- **Done: card tags (October 27).** The What's Inside cards for live webinars, Premier Sessions, On tour with Claude
+  and Basecamp Spotlights are tagged "JUNIOR · PREMIER · ELITE" (was "PREMIER +"), on their own line above the number.
+  Live recordings stays "ALL TIERS", which is true: every membership, Pod included, has it.
 - **Open: photo rights.** The hero is an agency-style photo with a tour player, and the junior group photo needs
   parental consent for a public page.
 

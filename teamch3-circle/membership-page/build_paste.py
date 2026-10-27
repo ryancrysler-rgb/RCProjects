@@ -77,6 +77,11 @@ EDITS = [
     ('AFTER THE POD IN', 'LIVE RECORDING IN'),
     ('>After the Pod<', '>Live recordings<'),
     ('A live Q&amp;A after every Son of a Butch episode.', 'Exclusive access to live Son of a Butch recordings with special guests.'),
+    # What's Inside cards: the tag ("JUNIOR · PREMIER · ELITE") gets its own line above the number, so it never wraps
+    ('<div style="display:flex;justify-content:space-between;align-items:center"><span style="font:400 56px/1 Anton,sans-serif;color:#E04E39">{{ o.n }}</span>'
+     '<span style="font:600 12px/1 \'Barlow Condensed\';letter-spacing:.12em;color:#fff;background:#C9432F;padding:6px 8px;border-radius:2px">{{ o.tier }}</span></div>',
+     '<div style="display:flex;flex-direction:column-reverse;align-items:flex-start;gap:14px"><span style="font:400 56px/1 Anton,sans-serif;color:#E04E39">{{ o.n }}</span>'
+     '<span style="font:600 12px/1 \'Barlow Condensed\';letter-spacing:.12em;color:#fff;background:#C9432F;padding:6px 8px;border-radius:2px;white-space:nowrap">{{ o.tier }}</span></div>'),
     # no course archive in TeamCH3: on-demand sessions live in Premier Sessions
     (' The full course archive.', ''),
     ('<a href="#grid" style="color:#A6B1BA">Course archive</a>', '<a href="#grid" style="color:#A6B1BA">Premier Sessions</a>'),
@@ -166,12 +171,12 @@ ctx = {
     'countdown': [{'v': span('cd-' + k, '--'), 'l': l} for k, l in (('d', 'DAYS'), ('h', 'HRS'), ('m', 'MIN'), ('s', 'SEC'))],
     'liveDot': LIVEDOT, 'ticker': ticker(), 'bars': bars(),
     'offerings': [
-        {'n': '01', 'tier': 'PREMIER +', 'title': 'Live webinars', 'hook': 'On the calendar. On the clock.', 'body': 'Scheduled sessions with Claude and the CH3 coaches every week. Ask live, get answered on air.', 'cta': 'SEE THE SCHEDULE'},
-        {'n': '02', 'tier': 'PREMIER +', 'title': 'Premier Sessions', 'hook': 'Claude and the coaches, on demand.', 'body': 'Sessions and drills from Claude and the CH3 coaches, filmed for members. The first ones are on the way.', 'cta': 'OPENING SOON'},
+        {'n': '01', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'Live webinars', 'hook': 'On the calendar. On the clock.', 'body': 'Scheduled sessions with Claude and the CH3 coaches every week. Ask live, get answered on air.', 'cta': 'SEE THE SCHEDULE'},
+        {'n': '02', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'Premier Sessions', 'hook': 'Claude and the coaches, on demand.', 'body': 'Sessions and drills from Claude and the CH3 coaches, filmed for members. The first ones are on the way.', 'cta': 'OPENING SOON'},
         {'n': '03', 'tier': 'ALL TIERS', 'title': 'Live recordings', 'hook': 'Pull up a chair in the studio.', 'body': 'Exclusive access to live Son of a Butch recordings with CH3 and special guests. Watch it happen before it drops.', 'cta': raw('NEXT ONE IN <span data-ch3="cd-hm">--:--</span>')},
-        {'n': '04', 'tier': 'PREMIER +', 'title': 'On tour with Claude', 'hook': 'Range-side. Week in, week out.', 'body': 'Behind-the-scenes coaching from tour events and from home. The sessions, the data and the thinking.', 'cta': 'GO INSIDE THE ROPES'},
+        {'n': '04', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'On tour with Claude', 'hook': 'Range-side. Week in, week out.', 'body': 'Behind-the-scenes coaching from tour events and from home. The sessions, the data and the thinking.', 'cta': 'GO INSIDE THE ROPES'},
         # the coaches' own space (the Coaches' Basecamp) stays coaches-only; members get the head coaches live instead
-        {'n': '05', 'tier': 'PREMIER +', 'title': 'Basecamp Spotlights', 'hook': "Every academy's head coach, live.", 'body': 'Claude and a CH3 head coach take live questions from every basecamp: Mike Bolt from CH3 Dubai, Joe Marshall from CH3 Thailand and Ryan Crysler from TeamFLO.', 'cta': 'SEE THE NEXT ONE'},
+        {'n': '05', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'Basecamp Spotlights', 'hook': "Every academy's head coach, live.", 'body': 'Claude and a CH3 head coach take live questions from every basecamp: Mike Bolt from CH3 Dubai, Joe Marshall from CH3 Thailand and Ryan Crysler from TeamFLO.', 'cta': 'SEE THE NEXT ONE'},
     ],
     'shotNum': span('shot-num', CUR + 1), 'shotTotal': str(len(SHOTS)),
     'cur': {'club': span('club', SHOTS[CUR][0]), 'target': span('target', SHOTS[CUR][1]), 'cue': span('cue', SHOTS[CUR][8])},
