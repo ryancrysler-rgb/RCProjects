@@ -84,6 +84,9 @@ EDITS = [
      '<span style="font:600 12px/1 \'Barlow Condensed\';letter-spacing:.12em;color:#fff;background:#C9432F;padding:6px 8px;border-radius:2px;white-space:nowrap">{{ o.tier }}</span></div>'),
     # no course archive in TeamCH3: on-demand sessions live in Premier Sessions
     (' The full course archive.', ''),
+    # hero line: play better golf first, then Claude live (Ryan, Oct 27)
+    ('Claude Harmon III on tour and at home. Exclusive access to live Son of a Butch recordings with special guests. The coaches from Dubai, Thailand and TeamFLO. One membership.',
+     'Play better golf with the CH3 coaches from Dubai, Thailand and TeamFLO, wherever you live. Then go live with Claude Harmon III: Son of a Butch recordings and his updates from tour. One membership.'),
     ('<a href="#grid" style="color:#A6B1BA">Course archive</a>', '<a href="#grid" style="color:#A6B1BA">Premier Sessions</a>'),
     # No TeamCH3 phone app: TeamCH3 is on the web
     ("Now it's on your phone.", "Now it's yours."),
@@ -322,16 +325,16 @@ labels = ''.join(
     '<label for="ch3-reg-%s" class="ch3-reg ch3-reg-%s">'
     '<span class="ch3-reg-where" style="font:600 13px/1.2 \'Barlow Condensed\';letter-spacing:.14em">%s</span>'
     '<span class="ch3-reg-arrow" style="font:400 18px/1 Anton,sans-serif">↓</span>'
-    '<span style="font:400 28px/1 Anton,sans-serif;text-transform:uppercase">%s</span>'
+    '<span style="font:400 40px/1 Anton,sans-serif;text-transform:uppercase">%s</span>'
     '<span class="ch3-reg-on" style="font:600 13px/1 \'Barlow Condensed\';letter-spacing:.12em">YOUR HOME BASECAMP ✓</span>'
     '<span class="ch3-reg-off" style="font:600 13px/1 \'Barlow Condensed\';letter-spacing:.12em">SELECT</span>'
     '</label>' % (k, k, H.escape(w), H.escape(a)) for k, w, a in REG)
 new = frag(
-    '<div class="ch3-region-box" style="margin-top:20px;background:#253746;color:#fff;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,2fr);gap:0">'
-    '<div class="ch3-region-intro" style="padding:28px;border-right:1px solid #384B5B">'
+    '<div class="ch3-region-box" style="grid-column:1/-1;border-radius:8px;overflow:hidden;background:#253746;color:#fff;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:0">'
+    '<div class="ch3-region-intro" style="padding:30px 28px;border-right:1px solid #384B5B">'
     '<div style="font:600 13px/1 \'Barlow Condensed\';letter-spacing:.14em;color:#F47C67">WHERE DO YOU LIVE?</div>'
-    '<div style="font:400 32px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">There’s a basecamp near you.</div>'
-    '<div style="font:400 17px/1.35 \'Barlow Condensed\';color:#CDD4DA;margin-top:10px">Junior, Premier and Elite members join the home basecamp closest to where they live.</div>'
+    '<div style="font:400 44px/1 Anton,sans-serif;text-transform:uppercase;margin-top:12px">There’s a basecamp near you.</div>'
+    '<div style="font:400 19px/1.35 \'Barlow Condensed\';color:#CDD4DA;margin-top:14px">Junior, Premier and Elite members join the home basecamp closest to where they live.</div>'
     '</div><div class="ch3-region-pick">%s<div class="ch3-regions" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));height:100%%">%s</div></div></div>' % (radios, labels))
 old.replace_with(*new)
 
@@ -421,7 +424,7 @@ CSS = r'''
 #ch3-site .ch3-shot.is-active span:first-child{color:#fff!important}
 #ch3-site [data-ch3-dot]:last-child{animation:ch3pop .5s cubic-bezier(.2,.8,.2,1)}
 #ch3-site .ch3-radio{position:absolute;opacity:0;pointer-events:none;width:1px;height:1px;margin:0}
-#ch3-site .ch3-reg{display:flex;flex-direction:column;gap:8px;padding:28px 22px;cursor:pointer;color:#fff;background:transparent;border-left:1px solid #384B5B;transition:background-color .18s}
+#ch3-site .ch3-reg{display:flex;flex-direction:column;gap:10px;padding:30px 28px;cursor:pointer;color:#fff;background:transparent;border-left:1px solid #384B5B;transition:background-color .18s}
 #ch3-site .ch3-reg:first-child{border-left:none}
 #ch3-site .ch3-reg:hover{background:#1E2D3A}
 #ch3-site .ch3-reg .ch3-reg-where,#ch3-site .ch3-reg .ch3-reg-off{color:#A6B1BA}
