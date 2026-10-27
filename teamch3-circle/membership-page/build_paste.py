@@ -153,8 +153,8 @@ def ticker():
     return raw('<div class="ch3-marquee" style="display:flex;width:max-content">%s</div>' % items)
 
 ELITE_LEFT = 8  # no Elite members yet
-FEATS = ['Son of a Butch community', 'Live podcast recordings', 'Global feed', 'Live webinars + Premier Sessions', 'Academy home basecamp',
-         'On tour with Claude + Basecamp Spotlights', 'Global Junior Basecamp', 'Direct access to Claude + Ryan']
+FEATS = ['Son of a Butch community', 'Live podcast recordings', 'Global feed + Claude’s tour updates', 'Live webinars + Premier Sessions', 'Academy home basecamp',
+         'Basecamp Spotlights', 'Global Junior Basecamp', 'Direct access to Claude + Ryan']
 def tier(pos, flag, name, pitch, price, note, cta, yes, primary, key):
     return {'pos': pos, 'flag': flag, 'name': name, 'pitch': pitch, 'price': price, 'note': note, 'cta': cta,
             'primary': primary, 'secondary': not primary, 'key': key,
@@ -171,12 +171,14 @@ ctx = {
     'countdown': [{'v': span('cd-' + k, '--'), 'l': l} for k, l in (('d', 'DAYS'), ('h', 'HRS'), ('m', 'MIN'), ('s', 'SEC'))],
     'liveDot': LIVEDOT, 'ticker': ticker(), 'bars': bars(),
     'offerings': [
-        {'n': '01', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'Live webinars', 'hook': 'On the calendar. On the clock.', 'body': 'Scheduled sessions with Claude and the CH3 coaches every week. Ask live, get answered on air.', 'cta': 'SEE THE SCHEDULE'},
-        {'n': '02', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'Premier Sessions', 'hook': 'Claude and the coaches, on demand.', 'body': 'Sessions and drills from Claude and the CH3 coaches, filmed for members. The first ones are on the way.', 'cta': 'OPENING SOON'},
-        {'n': '03', 'tier': 'ALL TIERS', 'title': 'Live recordings', 'hook': 'Pull up a chair in the studio.', 'body': 'Exclusive access to live Son of a Butch recordings with CH3 and special guests. Watch it happen before it drops.', 'cta': raw('NEXT ONE IN <span data-ch3="cd-hm">--:--</span>')},
-        {'n': '04', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'On tour with Claude', 'hook': 'Range-side. Week in, week out.', 'body': 'Behind-the-scenes coaching from tour events and from home. The sessions, the data and the thinking.', 'cta': 'GO INSIDE THE ROPES'},
-        # the coaches' own space (the Coaches' Basecamp) stays coaches-only; members get the head coaches live instead
-        {'n': '05', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'Basecamp Spotlights', 'hook': "Every academy's head coach, live.", 'body': 'Claude and a CH3 head coach take live questions from every basecamp: Mike Bolt from CH3 Dubai, Joe Marshall from CH3 Thailand and Ryan Crysler from TeamFLO.', 'cta': 'SEE THE NEXT ONE'},
+        # first the golf (Junior, Premier, Elite): the coaches' minds, lessons from every academy, a day inside each academy
+        {'n': '01', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'Live webinars', 'hook': "Inside the coaches' minds.", 'body': 'Webinars with the CH3 coaches for Premier members at every academy and the Junior Basecamp: how they think, plan and fix a game.', 'cta': 'SEE THE SCHEDULE'},
+        {'n': '02', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'Premier Sessions', 'hook': 'Lessons from every academy.', 'body': 'Watch the CH3 coaches teach at CH3 Dubai, CH3 Thailand and TeamFLO, live and on demand. The first sessions are on the way.', 'cta': 'OPENING SOON'},
+        # the coaches' own space (the Coaches' Basecamp) stays coaches-only; members get a look inside each academy instead
+        {'n': '03', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'Basecamp Spotlights', 'hook': 'A day inside each academy.', 'body': "The daily practice schedule, the coaching insights and what it's like to train at CH3 Dubai, CH3 Thailand and TeamFLO.", 'cta': 'SEE THE NEXT ONE'},
+        # then the cherry on top, for every membership: Claude live with the podcast, and his updates from tour (posted in the Global Basecamp)
+        {'n': '04', 'tier': 'ALL TIERS', 'title': 'Live with Claude', 'hook': 'On air with CH3.', 'body': 'Watch Son of a Butch record live with Claude and special guests, and get your questions answered on air.', 'cta': raw('NEXT ONE IN <span data-ch3="cd-hm">--:--</span>')},
+        {'n': '05', 'tier': 'ALL TIERS', 'title': 'On tour with Claude', 'hook': 'Updates from tour events.', 'body': "What Claude is seeing range-side at tour events, and what it means for your game.", 'cta': 'GO INSIDE THE ROPES'},
     ],
     'shotNum': span('shot-num', CUR + 1), 'shotTotal': str(len(SHOTS)),
     'cur': {'club': span('club', SHOTS[CUR][0]), 'target': span('target', SHOTS[CUR][1]), 'cue': span('cue', SHOTS[CUR][8])},

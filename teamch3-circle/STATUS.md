@@ -143,6 +143,13 @@ with no filter or delay.
   tilted to the seam and blended in, and the white logo on the side of the cap is removed. Circle file
   d85q2vrd3kilwhzo17w9x39764zx, kept on the draft images post. `brand/Claude range-side (CH3 cap).jpg` is the edit;
   `brand/Claude range-side.jpg` is the untouched original. Paste the latest membership page file to put it live.
+- **What's Inside, reordered (October 27, Ryan's brief).** First the golf, for Junior, Premier and Elite: 01 Live
+  webinars (inside the coaches' minds, for Premier members at every academy and the Junior Basecamp), 02 Premier
+  Sessions (lessons from every academy), 03 Basecamp Spotlights (a day inside each academy: practice schedule,
+  coaching insights, the experience). Then the cherry on top, for every membership: 04 Live with Claude (the live
+  podcast recordings), 05 On tour with Claude (his tour updates, posted in the Global Basecamp). Tier rows now read
+  "Global feed + Claude's tour updates" (all) and "Basecamp Spotlights" (not Pod). The Ask CH3 guide's Events
+  entry matches: re-upload it to Ask CH3's knowledge.
 - **No "Coaches' Room" for members (October 27).** The coaches' own space (the Coaches' Basecamp) stays coaches-only,
   so the page no longer sells it. Card 05 is now Basecamp Spotlights (Claude and each academy's head coach, live, in
   Events), and the tier row reads "On tour with Claude + Basecamp Spotlights" (Junior, Premier, Elite; not Pod).

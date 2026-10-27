@@ -1,7 +1,7 @@
 ASK CH3 · TEAMCH3 COMMUNITY GUIDE
 For the Ask CH3 AI agent in the TeamCH3 Circle community (ch3.circle.so). Upload this file to the agent's knowledge.
 It explains where things are in TeamCH3 so Ask CH3 can answer "where do I find..." and "what's in my membership"
-questions. Updated October 22, 2026.
+questions. Updated October 27, 2026.
 
 
 HOW TO USE THIS GUIDE
@@ -47,8 +47,9 @@ Home basecamps (the academies)
 - Members see their own academy only. To change home basecamp, an admin can help.
 
 Events
-- Live sessions on Circle: webinars with Claude, and basecamp spotlights where Claude and an academy head coach
-  take live questions from every basecamp. Live podcast recordings are in Live Recordings.
+- Live sessions on Circle: webinars with the CH3 coaches, to get inside how they think, plan and coach, and
+  Basecamp Spotlights, a look inside each academy: the daily practice schedule, the coaching insights and what
+  it's like to train there. Live podcast recordings with Claude are in Live Recordings.
 - For Junior, Premier and Elite members. RSVP on the event to get a reminder. The Events button at the top of the
   page shows every event a member can join, as a calendar.
 
