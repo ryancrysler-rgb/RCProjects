@@ -70,6 +70,9 @@ EDITS = [
     ('AFTER THE POD IN', 'LIVE RECORDING IN'),
     ('>After the Pod<', '>Live recordings<'),
     ('A live Q&amp;A after every Son of a Butch episode.', 'Exclusive access to live Son of a Butch recordings with special guests.'),
+    # no course archive in TeamCH3: on-demand sessions live in Premier Sessions
+    (' The full course archive.', ''),
+    ('<a href="#grid" style="color:#A6B1BA">Course archive</a>', '<a href="#grid" style="color:#A6B1BA">Premier Sessions</a>'),
     # No TeamCH3 phone app: TeamCH3 is on the web
     ("Now it's on your phone.", "Now it's yours."),
     ('INSIDE THE APP', 'INSIDE TEAMCH3'),
@@ -138,7 +141,7 @@ def ticker():
     return raw('<div class="ch3-marquee" style="display:flex;width:max-content">%s</div>' % items)
 
 ELITE_LEFT = 8  # no Elite members yet
-FEATS = ['Son of a Butch community', 'Live podcast recordings', 'Global feed', 'Live webinars + course archive', 'Academy home basecamp',
+FEATS = ['Son of a Butch community', 'Live podcast recordings', 'Global feed', 'Live webinars + Premier Sessions', 'Academy home basecamp',
          'On tour with Claude + Coaches’ Room', 'Global Junior Basecamp', 'Direct access to Claude + Ryan']
 def tier(pos, flag, name, pitch, price, note, cta, yes, primary, key):
     return {'pos': pos, 'flag': flag, 'name': name, 'pitch': pitch, 'price': price, 'note': note, 'cta': cta,
@@ -157,7 +160,7 @@ ctx = {
     'liveDot': LIVEDOT, 'ticker': ticker(), 'bars': bars(),
     'offerings': [
         {'n': '01', 'tier': 'PREMIER +', 'title': 'Live webinars', 'hook': 'On the calendar. On the clock.', 'body': 'Scheduled sessions with Claude and the CH3 coaches every week. Ask live, get answered on air.', 'cta': 'SEE THE SCHEDULE'},
-        {'n': '02', 'tier': 'PREMIER +', 'title': 'Course archive', 'hook': 'The whole playbook, on demand.', 'body': 'Every course, drill and breakdown we have filmed. Start anywhere. Pick up where you left off.', 'cta': 'BROWSE COURSES'},
+        {'n': '02', 'tier': 'PREMIER +', 'title': 'Premier Sessions', 'hook': 'Claude and the coaches, on demand.', 'body': 'Sessions and drills from Claude and the CH3 coaches, filmed for members. The first ones are on the way.', 'cta': 'OPENING SOON'},
         {'n': '03', 'tier': 'ALL TIERS', 'title': 'Live recordings', 'hook': 'Pull up a chair in the studio.', 'body': 'Exclusive access to live Son of a Butch recordings with CH3 and special guests. Watch it happen before it drops.', 'cta': raw('NEXT ONE IN <span data-ch3="cd-hm">--:--</span>')},
         {'n': '04', 'tier': 'PREMIER +', 'title': 'On tour with Claude', 'hook': 'Range-side. Week in, week out.', 'body': 'Behind-the-scenes coaching from tour events and from home. The sessions, the data and the thinking.', 'cta': 'GO INSIDE THE ROPES'},
         {'n': '05', 'tier': 'PREMIER +', 'title': "The Coaches' Room", 'hook': 'Every CH3 coach. One room.', 'body': 'Behind the scenes with the coaches from Dubai, Thailand and TeamFLO: how they diagnose, plan and run a lesson.', 'cta': 'MEET THE COACHES'},
