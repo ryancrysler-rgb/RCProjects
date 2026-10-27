@@ -135,13 +135,15 @@ with no filter or delay.
 ## Membership page
 
 - **Paste the latest file.** `membership-page/teamch3-membership-circle.html` has all three academy photos, the head
-  coaches (Mike Bolt, Joe Marshall, Ryan Crysler) and the range photo. Ryan still needs to paste it into
-  Pages → TeamCH3 Preview → Custom HTML and Publish.
+  coaches (Mike Bolt, Joe Marshall, Ryan Crysler) and, since October 27, the "CH3NologoCoaching" photo from Drive in
+  the "On the range" panel (a coach on the putting green; Circle file 7j18iax3nfe4yh5w5pa6k9qt4n59, kept on the
+  draft images post). Ryan still needs to paste it into Pages → TeamCH3 Preview → Custom HTML and Publish.
 - **Open: "On the range" copy is still the mock-up.** That's "Cam Smith × Claude", the shot numbers, "Claude's cue"
   and the ticker's "NEW: CAM SMITH RANGE SESSION ON FORESIGHT". Is there a real session, or should it be retitled
   (e.g. "On the range at CH3 Dubai")?
-- **Open: the TeamFLO and range photos are low resolution** (477 and 399 px wide). Ask for the originals.
-- **Open: who is in the range photo?** The alt text is neutral for now.
+- **Open: the TeamFLO photo is low resolution** (477 px wide). Ask for the original.
+- **Open: who is the coach in the "On the range" photo?** The alt text is neutral for now ("A CH3 coach on the
+  putting green, with players behind").
 - **Open: the Live Recordings card says "ALL TIERS"** and some feature cards say "PREMIER +". Relabel?
 - **Open: photo rights.** The hero is an agency-style photo with a tour player, and the junior group photo needs
   parental consent for a public page.
