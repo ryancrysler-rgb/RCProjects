@@ -72,7 +72,8 @@ Updated October 23, 2026. The invite and sign-up flow works end to end, and the 
      workflow sends Email F and adds the Coach tag. Moderators are set by hand in Circle (or by Circle AI).
    - Changed (October 27, Ryan's call): coaches see every academy and every coach is a moderator. Claude added
      CH3 Dubai, CH3 Thailand and TeamFLO to all 3 Coaches access groups (13 spaces each; Elite Basecamp stays out)
-     and checked it on the test coaches. To do (Ryan → Circle AI): paste Part 4 of the Circle AI brief. It makes
+     and checked it on the test coaches. To do (Ryan → Circle AI, after the Dubai coaches are added, so one pass
+     covers them all): paste Part 4 of the Circle AI brief. It makes
      every coach a space moderator of the 3 academies and Junior Basecamp, adds that to the coach workflows if
      Circle allows it, and updates Email F's first bullet. Then Claude checks the moderator flags and workflows.
    - Wave 1, CH3 Dubai: Ryan sends the 13 coaches' names and emails and marks the head coach (Mike Bolt). Claude
