@@ -134,6 +134,10 @@ with no filter or delay.
 
 ## Membership page
 
+- **Signed-out landing page (October 27).** Claude set Circle's logged-out landing page to the website page
+  "TeamCH3 Preview" (page 76685, ch3.circle.so/settings/pages/edit/76685) through the connector. The community
+  stays private. Members still land in the Global Basecamp after signing in. The page's LOG IN links go to
+  ch3.circle.so/sign_in. Check it in a private window after each paste and Publish.
 - **Paste the latest file.** `membership-page/teamch3-membership-circle.html` has all three academy photos, the head
   coaches (Mike Bolt, Joe Marshall, Ryan Crysler) and, since October 27, the "CH3NologoCoaching" photo from Drive in
   the "On the range" panel (Claude on the putting green; Circle file 7j18iax3nfe4yh5w5pa6k9qt4n59, kept on the
