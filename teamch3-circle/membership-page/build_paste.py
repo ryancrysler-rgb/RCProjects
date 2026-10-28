@@ -474,7 +474,7 @@ final = [s for s in page.find_all('section') if 'Lights out.' in s.get_text()][0
 footer = page.find('footer')
 
 # the coaches, up front
-COACHES = [('CH3', 'Claude Harmon III', 'CH3 · SON OF A BUTCH PODCAST'), ('DU', 'Mike Bolt', 'HEAD COACH · CH3 DUBAI'),
+COACHES = [('CH3', 'Claude Harmon III', 'HEAD COACH · TEAMCH3'), ('DU', 'Mike Bolt', 'HEAD COACH · CH3 DUBAI'),
            ('TH', 'Joe Marshall', 'HEAD COACH · CH3 THAILAND'), ('FL', 'Ryan Crysler', 'HEAD COACH · TEAMFLO + RC GREENLIGHT')]
 coaches = node(
     '<section id="coaches" style="background:#253746;color:#fff;padding:40px 40px 44px">'
