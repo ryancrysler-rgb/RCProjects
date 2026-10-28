@@ -112,6 +112,8 @@ TeamCH3 coaches how players play the game. The membership page (step 03 and the 
 and the Ask CH3 guide say so, and the coaches help players who don't track rounds get set up. To do (Ryan): paste
 the new page, re-upload the Ask CH3 guide, and paste Part 6 of the Circle AI brief (the Premier emails' step 2).
 Part 4's coach email text was updated too, so paste the current version when the coaches are added.
+Done and checked (Oct 28): Circle AI applied Part 6 with no duplicate workflows. A test member added to Premier ·
+TeamFLO got the new step 2 within a minute and the TeamFLO badge; the test member was then deleted.
 
 Welcome workflows. Circle AI built these from `onboarding/TeamCH3 - Circle AI build brief.txt`, and Claude checked
 each one through the connector. All are on. Each has the trigger "added to access group" and one Send email action,
