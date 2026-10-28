@@ -499,8 +499,8 @@ STEPS = [('01', 'Pick your academy', 'Your home basecamp is the CH3 academy clos
          ('02', 'Request your invite', 'TeamCH3 is in beta with the CH3 academies. Tell us your name, home city and membership, '
           'and we’ll send your invite.') if BETA else
          ('02', 'Start 2 weeks free', 'Full access for 14 days. Cancel before day 14 and you pay nothing.'),
-         ('03', 'Train with the coaches', 'Post a swing or your last round for the coaches, join the webinars and Basecamp Spotlights, '
-          'and go live with Claude.')]
+         ('03', 'Train with the coaches', 'Bring your questions, round reports and playing stats to the coaches, join the webinars '
+          'and Basecamp Spotlights, and go live with Claude.')]
 how = node(
     '<section id="how" style="background:#F2F4F6;color:#253746;padding:90px 40px">'
     '<div style="max-width:1280px;margin:0 auto">'
@@ -549,9 +549,9 @@ FAQ = [
     ('What do juniors get, and how are they kept safe?',
      'Juniors aged 13 to 19 get everything in Premier plus the Junior Basecamp, a juniors-only feed with the CH3 coaches from every academy. '
      'Adult members can’t see or join the junior spaces, members can’t send private messages, and a parent or guardian joins the Parents space free.'),
-    ('Do I need a launch monitor or golf data?',
-     'No. Post a swing video or tell the coaches about your last round. If you track your rounds or use a launch monitor, you can send '
-     'that data to RC Greenlight straight from the feed too.'),
+    ('What do I need to bring?',
+     'Your questions, plus any round reports or playing stats you have. We coach how you play the game, so start with your last round. '
+     'Not tracking your rounds yet? The coaches will help you get set up. You don’t need a launch monitor.'),
     ('Where do I watch the live sessions?',
      'Inside TeamCH3, in your web browser. RSVP to a session and you’ll get a reminder before it starts.'),
     ('Can I cancel any time?',

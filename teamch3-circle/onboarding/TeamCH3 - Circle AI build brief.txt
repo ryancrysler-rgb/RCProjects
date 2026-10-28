@@ -65,7 +65,7 @@ Welcome to TeamCH3. Your Premier membership includes:
 - The Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
 Start here:
 1. Introduce yourself in your home basecamp: your handicap and the one thing you want to fix this season.
-2. Post a swing or your last round and the coaches will reply.
+2. Post your questions, a round report or your playing stats, and the coaches will reply. Not tracking your rounds yet? Ask and we'll help you get set up.
 3. RSVP to the next event. To get an email when there's a new post, click ⋯ at the top of a space and turn on notifications.
 Claude
 
@@ -104,7 +104,7 @@ All three send Email F. If your workflows can also add a member tag, add a secon
 EMAIL F
 Subject: Welcome to the TeamCH3 coaching team
 Welcome to TeamCH3. As a CH3 coach you have:
-- Every academy basecamp: CH3 Dubai, CH3 Thailand and TeamFLO. You're a moderator there and in the Junior Basecamp, so you can pin, edit and remove posts. Post sessions and drills, and reply to members' swings.
+- Every academy basecamp: CH3 Dubai, CH3 Thailand and TeamFLO. You're a moderator there and in the Junior Basecamp, so you can pin, edit and remove posts. Post sessions and drills, and reply to members' questions, round reports and playing stats.
 - The Coaches' Basecamp: coaches from every CH3 academy, sharing best practice and tackling questions as one team. Members never see it.
 - The Junior Basecamp, Junior Events and Parents: where you coach our juniors from every academy and keep their parents in the loop.
 - The Global Basecamp, Events, Premier Sessions, the Son Of A Butch Podcast and Live Recordings.
@@ -122,7 +122,7 @@ All three Coaches access groups already include CH3 Dubai, CH3 Thailand and Team
 1. Make every member of Coaches · CH3 Dubai, Coaches · CH3 Thailand and Coaches · TeamFLO a space moderator of exactly these 4 spaces: CH3 Dubai, CH3 Thailand, TeamFLO, Junior Basecamp. Space moderator only: not admin, not community moderator, no other spaces.
 2. If a workflow action can make a member a space moderator, add it to the 3 "Welcome · Coaches · …" workflows (those 4 spaces), after the existing actions. If no workflow action can, say so and leave the workflows' actions as they are.
 3. In the email of all 3 "Welcome · Coaches · …" workflows, replace the first bullet ("Your home basecamp: …") with:
-Every academy basecamp: CH3 Dubai, CH3 Thailand and TeamFLO. You're a moderator there and in the Junior Basecamp, so you can pin, edit and remove posts. Post sessions and drills, and reply to members' swings.
+Every academy basecamp: CH3 Dubai, CH3 Thailand and TeamFLO. You're a moderator there and in the Junior Basecamp, so you can pin, edit and remove posts. Post sessions and drills, and reply to members' questions, round reports and playing stats.
 Change nothing else. Then list exactly what you changed.
 
 
@@ -142,4 +142,9 @@ The member tags already exist: Junior, CH3 Dubai, CH3 Thailand, TeamFLO, Elite, 
 - Welcome · Pod Community: add Son of a Butch
 2. In the email of "Welcome · Elite", replace the sentence "The Elite Basecamp is a private chat with Ryan and me. Use it for anything: your swing, your schedule, a round you want to talk through." with:
 Your membership includes private coaching with Ryan and me, the Elite Basecamp for exclusive conferences with the other Elite members, and RC Greenlight Data Services on your rounds.
+Change nothing else. Then list exactly what you changed.
+
+=== PART 6: Premier emails, no swing videos (paste now) ===
+In the email of all 3 "Welcome · Premier · …" workflows (CH3 Dubai, CH3 Thailand, TeamFLO), replace the line "2. Post a swing or your last round and the coaches will reply." with:
+2. Post your questions, a round report or your playing stats, and the coaches will reply. Not tracking your rounds yet? Ask and we'll help you get set up.
 Change nothing else. Then list exactly what you changed.

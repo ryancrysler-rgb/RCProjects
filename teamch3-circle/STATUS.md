@@ -107,6 +107,12 @@ Updated October 23, 2026. The invite and sign-up flow works end to end, and the 
 
 ## What's in place
 
+No swing videos (Oct 28). For now the coaches take questions, round reports and playing stats, not swing videos:
+TeamCH3 coaches how players play the game. The membership page (step 03 and the FAQ, now "What do I need to bring?")
+and the Ask CH3 guide say so, and the coaches help players who don't track rounds get set up. To do (Ryan): paste
+the new page, re-upload the Ask CH3 guide, and paste Part 6 of the Circle AI brief (the Premier emails' step 2).
+Part 4's coach email text was updated too, so paste the current version when the coaches are added.
+
 Welcome workflows. Circle AI built these from `onboarding/TeamCH3 - Circle AI build brief.txt`, and Claude checked
 each one through the connector. All are on. Each has the trigger "added to access group" and one Send email action,
 with no filter or delay.
