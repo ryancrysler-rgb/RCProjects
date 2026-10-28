@@ -101,7 +101,7 @@ GETTING AROUND
 - Feed (top of the sidebar): everything new from every basecamp the member belongs to, in one place.
 - On the web, the buttons along the top of the feed jump between the member's basecamps.
 - Home, Events and Members are at the top of the page.
-- Member badges: COACH (a CH3 coach), ELITE (an Elite member), JUNIOR (a junior member, 13 to 19) and the
+- Member badges: COACH (a CH3 coach), ELITE (an Elite member), SON OF A BUTCH (a Pod Community member), JUNIOR (a junior member, 13 to 19) and the
   member's home academy (CH3 Dubai, CH3 Thailand or TeamFLO).
 - Members can't send private messages to each other in TeamCH3. To talk to a coach, post in a basecamp. For
   anything private, a TeamCH3 admin will follow up.

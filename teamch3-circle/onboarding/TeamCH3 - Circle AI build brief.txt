@@ -127,7 +127,7 @@ Change nothing else. Then list exactly what you changed.
 
 
 === PART 5: member badges and the Elite email (paste now) ===
-The member tags already exist: Junior, CH3 Dubai, CH3 Thailand, TeamFLO, Elite, Coach. Don't create or change tags.
+The member tags already exist: Junior, CH3 Dubai, CH3 Thailand, TeamFLO, Elite, Coach, Son of a Butch. Don't create or change tags.
 1. Add an "Add member tag" action after the existing actions in these workflows. Change nothing else.
 - Welcome · Junior Basecamp · CH3 Dubai: add Junior, then CH3 Dubai
 - Welcome · Junior Basecamp · CH3 Thailand: add Junior, then CH3 Thailand
@@ -139,6 +139,7 @@ The member tags already exist: Junior, CH3 Dubai, CH3 Thailand, TeamFLO, Elite, 
 - Welcome · Coaches · CH3 Thailand: add CH3 Thailand (keep the Coach tag action)
 - Welcome · Coaches · TeamFLO: add TeamFLO (keep the Coach tag action)
 - Welcome · Elite: add Elite
+- Welcome · Pod Community: add Son of a Butch
 2. In the email of "Welcome · Elite", replace the sentence "The Elite Basecamp is a private chat with Ryan and me. Use it for anything: your swing, your schedule, a round you want to talk through." with:
 Your membership includes private coaching with Ryan and me, the Elite Basecamp for exclusive conferences with the other Elite members, and RC Greenlight Data Services on your rounds.
 Change nothing else. Then list exactly what you changed.
