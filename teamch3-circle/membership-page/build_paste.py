@@ -36,6 +36,52 @@ IMG = {  # design asset uuid -> Circle-hosted copy
 }
 LOGIN = 'https://ch3.circle.so/sign_in'
 
+# ---- beta: membership is by invitation until the paywalls (Stripe) are live ----
+# At launch: BETA = False, and put each paywall's checkout link in CHECKOUT. Every join button then reads
+# "START 2 WEEKS FREE" and goes to its checkout.
+BETA = True
+CTA = 'REQUEST AN INVITE' if BETA else 'START 2 WEEKS FREE'
+INVITE_EMAIL = 'rcrysler@floridian.cc'
+CHECKOUT = {'pod': '#tiers', 'junior': '#tiers', 'premier': '#tiers', 'elite': '#tiers'}
+MEMBERSHIP_NAMES = {'pod': 'Pod Community', 'junior': 'Junior Basecamp', 'premier': 'Premier', 'elite': 'Elite'}
+def invite_url(key=None):
+    from urllib.parse import quote
+    if key == 'elite':
+        subj, body = 'TeamCH3 Elite application', ('Hi TeamCH3,\n\nI would like to apply for Elite.\n\nName:\nHome city:\n'
+                                                   'My game (handicap, recent results):\nMy goals this season:\nMy schedule:\n')
+    else:
+        what = MEMBERSHIP_NAMES.get(key, 'Pod Community, Junior Basecamp or Premier')
+        subj = 'TeamCH3 invite request' + (' · ' + MEMBERSHIP_NAMES[key] if key else '')
+        body = ('Hi TeamCH3,\n\nI would like an invite to TeamCH3.\n\nName:\nHome city:\nMembership: %s\n'
+                'Junior (13 to 19) or adult:\n' % what)
+    return 'mailto:%s?subject=%s&body=%s' % (INVITE_EMAIL, quote(subj), quote(body))
+def join_url(key=None):
+    return invite_url(key) if BETA or key == 'elite' else CHECKOUT[key or 'premier']
+
+# ---- the live calendar (UTC), copied from the Circle events; the countdowns run off it. Refresh before each paste. ----
+# (start, minutes, kind, short title for the strip, card title, card line, is a live podcast recording)
+EVENTS = [
+    ('2026-10-28T16:00:00Z', 120, 'LIVE RECORDING', 'CLAUDE + CAM SMITH', 'Son of a Butch Live',
+     'Claude with Cam Smith and Ryan Crysler, recorded live for members.', True),
+    ('2026-10-28T23:00:00Z', 60, 'BASECAMP SPOTLIGHT', 'INSIDE CH3 DUBAI', 'Inside CH3 Dubai',
+     'Claude and Head Coach Mike Bolt on what the Dubai squad is working on.', False),
+    ('2026-11-05T00:00:00Z', 60, 'BASECAMP SPOTLIGHT', 'INSIDE CH3 THAILAND', 'Inside CH3 Thailand',
+     'Claude and Head Coach Joe Marshall on course strategy and how the squad trains.', False),
+    ('2026-11-12T00:00:00Z', 60, 'BASECAMP SPOTLIGHT', 'INSIDE TEAMFLO', 'Inside TeamFLO',
+     'Claude and Head Coach Ryan Crysler on turning round data into decisions.', False),
+    ('2026-11-19T00:00:00Z', 60, 'JUNIOR NIGHT', 'JUNIORS + PARENTS', 'Junior night with Claude',
+     'Claude on the pre-round routine, with questions from juniors in every basecamp.', False),
+]
+NO_EVENT = ('', 0, 'COMING UP', 'NEW DATES SOON', 'Next live session', 'New dates are announced in the community.', False)
+def next_event(rec=False):
+    from datetime import datetime, timezone, timedelta
+    now = datetime.now(timezone.utc)
+    for e in EVENTS:
+        start = datetime.fromisoformat(e[0].replace('Z', '+00:00'))
+        if start + timedelta(minutes=e[1]) > now and (e[6] or not rec):
+            return e
+    return None
+
 t = open(SRC, encoding='utf-8').read()
 t = t[:t.find('<script type="text/x-dc"')]
 
@@ -100,6 +146,36 @@ EDITS = [
     ('>JR</span>GLOBAL JUNIOR BASECAMP · ALL ACADEMIES', '>JB</span>GLOBAL JUNIOR BASECAMP · ALL ACADEMIES'),
     ('height:96px;width:auto;margin-left:-14px', 'height:96px;width:auto;margin-left:-2px'),  # the new mark has no padding to offset
 ]
+EDITS += [
+    # the live strip, the hero card and the pod card follow the real calendar (EVENTS), not a weekly guess
+    ('EP {{ epNum }} <span style="color:#536676">|</span> LIVE RECORDING</span>', 'NEXT LIVE <span style="color:#536676">|</span> {{ evKind }}</span>'),
+    ('CH3 + SPECIAL GUEST <span', '{{ evShort }} <span'),
+    ('<span>LIVE RECORDING</span>', '<span>{{ evKind }}</span>'),
+    ('In the studio with CH3</div>', '{{ evTitle }}</div>'),
+    ('Exclusive access to the next Son of a Butch recording, live, with CH3 and a special guest.', '{{ evBlurb }}'),
+    ('LIVE RECORDING IN</div><div style="font:400 30px/1 Anton,sans-serif;font-variant-numeric:tabular-nums;margin-top:6px">{{ countShort }}',
+     'NEXT RECORDING</div><div style="font:400 30px/1 Anton,sans-serif;font-variant-numeric:tabular-nums;margin-top:6px">{{ recShort }}'),
+    ('Next live session in {{ countShort }}.', 'Next live session: {{ countShort }}'),
+    # pricing: the annual price on every card, and Elite as a fixed eight seats
+    ('<div style="font:600 15px/1.3 \'Barlow Condensed\';color:#C9432F;margin-top:8px">{{ t.note }}</div>',
+     '<div style="font:600 15px/1.3 \'Barlow Condensed\';color:#C9432F;margin-top:8px">{{ t.note }}</div>'
+     '<div style="font:600 15px/1.3 \'Barlow Condensed\';color:#536676;margin-top:4px">{{ t.annual }}</div>'),
+    ('OF 8<br>SPOTS LEFT', 'SEATS<br>IN TOTAL'),
+    # SEO: the H1 says what this is, in words people search for
+    ('<span style="color:#E04E39">Every week.</span></h1>',
+     '<span style="color:#E04E39">Every week.</span><span class="ch3-h1-sub" style="display:block;margin-top:22px;font:600 20px/1.3 \'Barlow Condensed\';'
+     'letter-spacing:.1em;color:#A6B1BA">Online golf coaching from Claude Harmon III and the CH3 academies in Dubai, Thailand and Florida</span></h1>'),
+]
+if BETA:
+    EDITS += [
+        ('2 weeks free, then from $49/month. Renews automatically. Cancel any time before day 14 and pay nothing.',
+         'Now in beta with the CH3 academies: membership is by invitation. At launch, 2 weeks free, then from $49/month.'),
+        ('Every membership except Elite starts with 2 weeks free. Cancel before day 14 and pay nothing.',
+         'TeamCH3 is in beta with the CH3 academies, so membership is by invitation for now. At launch, every membership except Elite starts with 2 weeks free.'),
+        ('Then $49/month. Cancel any time.', 'In beta, by invitation. From $49/month at launch.'),
+        ('Your 2 weeks start now.', 'Your basecamp is waiting.'),
+        ('ALL TIERS · 2 WEEKS FREE', 'ALL TIERS · NOW IN BETA'),
+    ]
 # Dubai and Thailand cards: swap the "Head Coach · Academy Coach" placeholders for the head coach, laid out like TeamFLO's
 COACH = ('<span style="display:flex;align-items:center;gap:8px;font:400 17px/1 \'Barlow Condensed\'">'
          '<span style="width:22px;height:22px;border-radius:11px;background:%s;flex:none"></span>%s <b style="font-weight:700;text-transform:uppercase">%s</b></span>')
@@ -150,7 +226,7 @@ def bars():
         out.append('<span class="ch3-bar" style="display:block;height:7px;width:%dpx;background:%s;transform-origin:left;animation-delay:%ss"></span>' % (w, bg, round(i * 0.12, 2)))
     return raw(''.join(out))
 TICKER_ITEMS = ['LIVE PODCAST RECORDINGS · CH3 + SPECIAL GUESTS', 'NEW: CAM SMITH RANGE SESSION ON FORESIGHT', 'WEEKLY LIVE WEBINARS WITH THE CH3 COACHES',
-                'ON TOUR WITH CLAUDE · BEHIND THE ROPES', 'CH3 DUBAI · CH3 THAILAND · TEAMFLO', 'START 2 WEEKS FREE']
+                'ON TOUR WITH CLAUDE · BEHIND THE ROPES', 'CH3 DUBAI · CH3 THAILAND · TEAMFLO', 'NOW IN BETA · REQUEST AN INVITE' if BETA else 'START 2 WEEKS FREE']
 def ticker():
     items = ''.join('<span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 \'Barlow Condensed\';letter-spacing:.14em;white-space:nowrap">%s<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span>' % H.escape(s) for s in TICKER_ITEMS * 2)
     return raw('<div class="ch3-marquee" style="display:flex;width:max-content">%s</div>' % items)
@@ -163,7 +239,12 @@ def tier(pos, flag, name, pitch, price, note, cta, yes, primary, key):
             'primary': primary, 'secondary': not primary, 'key': key,
             'feats': [{'t': f, 'yes': bool(y), 'no': not y} for f, y in zip(FEATS, yes)]}
 
+_ev = next_event() or NO_EVENT
+_rec = next_event(rec=True)
+REC_DEFAULT = 'SOON' if not _rec else '--:--:--'
 ctx = {
+    'evKind': span('ev-kind', _ev[2]), 'evShort': span('ev-short', _ev[3]), 'evTitle': span('ev-title', _ev[4]),
+    'evBlurb': span('ev-blurb', _ev[5]), 'recShort': span('rec-short', REC_DEFAULT),
     'epNum': '24',
     'myTime': span('tz', '--:--', ' data-tz="local"'), 'dubaiTime': span('tz', '--:--', ' data-tz="Asia/Dubai"'),
     'thaiTime': span('tz', '--:--', ' data-tz="Asia/Bangkok"'), 'floTime': span('tz', '--:--', ' data-tz="America/New_York"'),
@@ -180,7 +261,7 @@ ctx = {
         # the coaches' own space (the Coaches' Basecamp) stays coaches-only; members get a look inside each academy instead
         {'n': '03', 'tier': 'JUNIOR · PREMIER · ELITE', 'title': 'Basecamp Spotlights', 'hook': 'A day inside each academy.', 'body': "The daily practice schedule, the coaching insights and what it's like to train at CH3 Dubai, CH3 Thailand and TeamFLO.", 'cta': 'SEE THE NEXT ONE'},
         # then the cherry on top, for every membership: Claude live with the podcast, and his updates from tour (posted in the Global Basecamp)
-        {'n': '04', 'tier': 'ALL TIERS', 'title': 'Live with Claude', 'hook': 'On air with CH3.', 'body': 'Watch Son of a Butch record live with Claude and special guests, and get your questions answered on air.', 'cta': raw('NEXT ONE IN <span data-ch3="cd-hm">--:--</span>')},
+        {'n': '04', 'tier': 'ALL TIERS', 'title': 'Live with Claude', 'hook': 'On air with CH3.', 'body': 'Watch Son of a Butch record live with Claude and special guests, and get your questions answered on air.', 'cta': raw('NEXT ONE · ' + span('rec-short', REC_DEFAULT))},
         {'n': '05', 'tier': 'ALL TIERS', 'title': 'On tour with Claude', 'hook': 'Updates from tour events.', 'body': "What Claude is seeing range-side at tour events, and what it means for your game.", 'cta': 'GO INSIDE THE ROPES'},
     ],
     'shotNum': span('shot-num', CUR + 1), 'shotTotal': str(len(SHOTS)),
@@ -214,9 +295,16 @@ ctx = {
         tier('PS', 'MOST POPULAR', 'Premier', 'The full basecamp. Your home basecamp, or the one closest to you, plus everything global.', '$99',
              'Includes your academy’s home basecamp.', 'GO PREMIER', [1, 1, 1, 1, 1, 1, 0, 0], True, 'premier'),
         tier('EB', 'LIMITED · BY APPLICATION', 'Elite', 'A direct line to Claude Harmon III and Ryan Crysler, Head Coach of TeamFLO and RC Greenlight.', '$999',
-             'Limited spots. %d of 8 remaining.' % ELITE_LEFT, 'APPLY FOR ELITE', [1, 1, 1, 1, 1, 1, 0, 1], False, 'elite'),
+             'Limited to 8 members.', 'APPLY FOR ELITE', [1, 1, 1, 1, 1, 1, 0, 1], False, 'elite'),
     ],
 }
+
+# three cards side by side (Pod, Premier, Elite); the Junior Basecamp gets its own bar under them
+JUNIOR_TIER = [tr for tr in ctx['tiers'] if tr['key'] == 'junior'][0]
+ctx['tiers'] = [tr for tr in ctx['tiers'] if tr['key'] != 'junior']
+ANNUAL = {'pod': 'or $490/year · 2 months free', 'premier': 'or $990/year · 2 months free', 'elite': 'or $9,990/year · 2 months free'}
+for tr in ctx['tiers']:
+    tr['annual'] = ANNUAL[tr['key']]
 
 # ---- template renderer ----
 EXPR = re.compile(r'\{\{\s*([\w.]+)\s*\}\}')
@@ -346,12 +434,192 @@ for a in page.find_all('a'):
 for a in page.find_all('a'):
     if a.get_text(strip=True) == 'Log in': a['href'] = LOGIN
 cards = page.find_all('div', style=lambda s: s and s.startswith('position:relative;display:flex;flex-direction:column;background:#fff;color:#253746;overflow:hidden'))
-assert len(cards) == 4
+assert len(cards) == len(ctx['tiers'])
 for card, tr in zip(cards, ctx['tiers']):
     a = card.find_all('a')[-1]
     a['href'] = '#tiers'; a['data-checkout'] = tr['key']
 elite = [a for a in page.find_all('a') if a.get_text(strip=True) == 'APPLY FOR ELITE' and a.get('href') == '#']
 for a in elite: a['href'] = '#tiers'; a['data-checkout'] = 'elite'
+
+# ---- sales pass (Oct 28): one way to join, the coaches up front, how it works, FAQ, and a clearer order ----
+def node(html_str):
+    return frag(html_str)[0]
+BTN = ("font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:20px 30px;border-radius:2px;"
+       "display:inline-block")
+def cta_html(key=None, label=None, extra=''):
+    return '<a class="ch3-join ch3-cta" href="%s" style="%s%s">%s</a>' % (H.escape(join_url(key)), BTN, extra, H.escape(label or CTA))
+
+# every "join" button: one wording, and in beta a pre-filled invite email (Elite: an application)
+JOIN_TEXT = {'START 2 WEEKS FREE': None, 'SAVE MY SEAT — FREE': None, 'GET IN THE FEED — 2 WEEKS FREE': None,
+             'UNLOCK THE FULL SESSION — PREMIER': 'premier', 'JOIN THE POD COMMUNITY — 2 WEEKS FREE': 'pod',
+             'START FREE': 'pod', 'GO PREMIER': 'premier'}
+joined = 0
+for a in page.find_all('a'):
+    label = a.get_text(strip=True)
+    if label in JOIN_TEXT:
+        a.string = CTA
+        a['href'] = join_url(JOIN_TEXT[label]); add_class(a, 'ch3-join'); joined += 1
+    elif label == 'APPLY FOR ELITE':
+        a['href'] = join_url('elite'); add_class(a, 'ch3-join'); joined += 1
+assert joined >= 11, joined
+# the Junior Basecamp banner in the academies section is one big link
+jb = [a for a in page.find_all('a') if 'JOIN THE JUNIOR BASECAMP' in a.get_text(' ', strip=True)]
+assert len(jb) == 1
+jb[0]['href'] = join_url('junior')
+
+# sections by name
+site_sections = {s.get('id'): s for s in page.find_all('section') if s.get('id')}
+hero = [s for s in page.find_all('section') if s.find('h1')][0]; hero['id'] = 'top'
+final = [s for s in page.find_all('section') if 'Lights out.' in s.get_text()][0]; final['id'] = 'join'
+footer = page.find('footer')
+
+# the coaches, up front
+COACHES = [('CH3', 'Claude Harmon III', 'CH3 · SON OF A BUTCH PODCAST'), ('DU', 'Mike Bolt', 'HEAD COACH · CH3 DUBAI'),
+           ('TH', 'Joe Marshall', 'HEAD COACH · CH3 THAILAND'), ('FL', 'Ryan Crysler', 'HEAD COACH · TEAMFLO + RC GREENLIGHT')]
+coaches = node(
+    '<section id="coaches" style="background:#253746;color:#fff;padding:40px 40px 44px">'
+    '<div style="max-width:1280px;margin:0 auto">'
+    '<div style="font:600 13px/1 \'Barlow Condensed\';letter-spacing:.18em;color:#F47C67">YOUR COACHES · THREE ACADEMIES · ONE TEAM</div>'
+    '<div class="ch3-coach-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px;margin-top:18px">%s</div>'
+    '</div></section>' % ''.join(
+        '<div style="display:flex;gap:14px;align-items:center;background:#1E2D3A;padding:18px 20px">'
+        '<span style="flex:none;width:50px;height:50px;border-radius:25px;border:2px solid #E04E39;display:flex;align-items:center;justify-content:center;'
+        'font:400 17px/1 Anton,sans-serif;color:#F47C67">%s</span>'
+        '<div><div style="font:400 24px/1 Anton,sans-serif;text-transform:uppercase">%s</div>'
+        '<div style="font:600 13px/1.25 \'Barlow Condensed\';letter-spacing:.1em;color:#A6B1BA;margin-top:6px">%s</div></div></div>'
+        % (code, H.escape(name), H.escape(role)) for code, name, role in COACHES))
+
+# how it works, in three steps
+STEPS = [('01', 'Pick your academy', 'Your home basecamp is the CH3 academy closest to where you live: TeamFLO for the Americas, '
+          'CH3 Dubai for Europe, the Middle East and Africa, CH3 Thailand for Asia and the Pacific.'),
+         ('02', 'Request your invite', 'TeamCH3 is in beta with the CH3 academies. Tell us your name, home city and membership, '
+          'and we’ll send your invite.') if BETA else
+         ('02', 'Start 2 weeks free', 'Full access for 14 days. Cancel before day 14 and you pay nothing.'),
+         ('03', 'Train with the coaches', 'Post a swing or your last round for the coaches, join the webinars and Basecamp Spotlights, '
+          'and go live with Claude.')]
+how = node(
+    '<section id="how" style="background:#F2F4F6;color:#253746;padding:90px 40px">'
+    '<div style="max-width:1280px;margin:0 auto">'
+    '<div style="font:600 15px/1 \'Barlow Condensed\';letter-spacing:.18em;color:#C9432F">HOW IT WORKS</div>'
+    '<h2 style="margin:14px 0 0;font:400 clamp(44px,5.4vw,76px)/.92 Anton,sans-serif;text-transform:uppercase">Three steps to your basecamp.</h2>'
+    '<div class="ch3-how-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;margin-top:40px">%s</div>'
+    '<div style="display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:32px">%s'
+    '<span style="font:400 17px/1.3 \'Barlow Condensed\';color:#536676">%s</span></div>'
+    '</div></section>' % (
+        ''.join('<div style="background:#fff;padding:28px 24px 32px;border-top:4px solid #E04E39">'
+                '<div style="font:400 56px/1 Anton,sans-serif;color:#E04E39">%s</div>'
+                '<div style="font:400 32px/1 Anton,sans-serif;text-transform:uppercase;margin-top:14px">%s</div>'
+                '<div style="font:400 18px/1.4 \'Barlow Condensed\';color:#536676;margin-top:12px">%s</div></div>'
+                % (n, H.escape(t), H.escape(d)) for n, t, d in STEPS),
+        cta_html(),
+        'No email app? Write to %s.' % INVITE_EMAIL if BETA else '2 weeks free, then from $49/month. Cancel any time before day 14.'))
+
+# Junior Basecamp: its own bar under the three membership cards
+grid = find_style('div', 'grid-template-columns:repeat(auto-fit,minmax(270px,1fr))')
+grid.insert_after(node(
+    '<div class="ch3-junior-bar" style="margin-top:3px;background:#C9432F;color:#fff;display:grid;grid-template-columns:minmax(0,1fr) auto;'
+    'gap:24px;align-items:center;padding:26px 28px">'
+    '<div><div style="font:600 13px/1 \'Barlow Condensed\';letter-spacing:.14em;color:#FFD9D1">JUNIORS 13–19 · PARENTS JOIN FREE</div>'
+    '<div style="font:400 34px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">Junior Basecamp · $69/month</div>'
+    '<div style="font:400 18px/1.35 \'Barlow Condensed\';margin-top:8px;max-width:720px">Everything in Premier, plus the juniors-only '
+    'Junior Basecamp with the CH3 coaches from every academy. Or $690/year, 2 months free.</div></div>'
+    '%s</div>' % cta_html('junior', extra=';background:#253746;white-space:nowrap')))
+
+# FAQ (the same questions go into the page's structured data for search)
+FAQ = [
+    ('Do I need to live near a CH3 academy?',
+     'No. TeamCH3 is online. You join the home basecamp closest to where you live (TeamFLO for the Americas, CH3 Dubai for Europe, '
+     'the Middle East and Africa, CH3 Thailand for Asia and the Pacific) and train with its coaches from wherever you are.'),
+    ('How do I join during the beta?',
+     'TeamCH3 is in beta with the CH3 academies, so membership is by invitation for now. Request an invite, or email %s with your name, '
+     'home city and the membership you want, and we’ll send it.' % INVITE_EMAIL) if BETA else
+    ('How does the free trial work?',
+     'Every membership except Elite starts with 2 weeks free. Cancel before day 14 and you pay nothing. After that it renews monthly, or yearly if you chose annual.'),
+    ('What does it cost?',
+     'Pod Community is $49 a month, Junior Basecamp $69, Premier $99 and Elite $999. Pay for the year and you get 12 months for the price of 10. '
+     'Every membership except Elite starts with 2 weeks free.'),
+    ('What’s the difference between Premier and Elite?',
+     'Premier is the full basecamp: your home academy, the live webinars, Basecamp Spotlights, Premier Sessions and everything global. '
+     'Elite adds a private chat with Claude Harmon III and Ryan Crysler. It’s limited to 8 members, by application, with no free trial.'),
+    ('What do juniors get, and how are they kept safe?',
+     'Juniors aged 13 to 19 get everything in Premier plus the Junior Basecamp, a juniors-only feed with the CH3 coaches from every academy. '
+     'Adult members can’t see or join the junior spaces, members can’t send private messages, and a parent or guardian joins the Parents space free.'),
+    ('Do I need a launch monitor or golf data?',
+     'No. Post a swing video or tell the coaches about your last round. If you track your rounds or use a launch monitor, you can send '
+     'that data to RC Greenlight straight from the feed too.'),
+    ('Where do I watch the live sessions?',
+     'Inside TeamCH3, in your web browser. RSVP to a session and you’ll get a reminder before it starts.'),
+    ('Can I cancel any time?',
+     'Yes. Cancel whenever you like, and if you cancel during your 2 free weeks you pay nothing.'),
+]
+faq = node(
+    '<section id="faq" style="background:#fff;color:#253746;padding:110px 40px">'
+    '<div class="ch3-faq-grid" style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:56px">'
+    '<div><div style="font:600 15px/1 \'Barlow Condensed\';letter-spacing:.18em;color:#C9432F">FAQ</div>'
+    '<h2 style="margin:14px 0 0;font:400 clamp(44px,5.4vw,76px)/.92 Anton,sans-serif;text-transform:uppercase">Questions before you join.</h2>'
+    '<p style="margin:18px 0 28px;font:400 20px/1.35 \'Barlow Condensed\';color:#536676">Still not sure? Email %s and a TeamCH3 admin will help.</p>%s</div>'
+    '<div>%s</div></div></section>' % (
+        INVITE_EMAIL, cta_html(),
+        ''.join('<details class="ch3-faq"><summary>%s</summary><p>%s</p></details>' % (H.escape(q), H.escape(a)) for q, a in FAQ)))
+
+# the order: golf first, then Claude, then the decision
+order = [hero, coaches, how, site_sections['grid'], site_sections['session'], site_sections['basecamp'],
+         site_sections['feed-preview'], site_sections['pod'], site_sections['tiers'], faq, final, footer]
+for el in order:
+    if el.parent is not None: el.extract()
+for el in order:
+    page.append(el)
+
+# nav follows the page, and gets an FAQ link; footer too
+nav = find_style('nav', 'display:flex;gap:26px')
+links = {a['href']: a for a in nav.find_all('a')}
+nav.clear()
+for href in ('#grid', '#session', '#basecamp', '#pod', '#tiers'):
+    nav.append(links[href])
+faq_link = node(str(links['#tiers']).replace('#tiers', '#faq').replace('MEMBERSHIP', 'FAQ'))
+nav.append(faq_link)
+mem_col = [d for d in footer.find_all('div') if d.find('span', string='MEMBERSHIP')][0]
+log_in = [a for a in mem_col.find_all('a') if a.get_text(strip=True) == 'Log in'][0]
+premier = [a for a in mem_col.find_all('a') if a.get_text(strip=True) == 'Premier'][0]
+premier.insert_after(node('<a href="#tiers" style="color:#A6B1BA">Junior Basecamp</a>'))
+log_in.insert_before(node('<a href="#faq" style="color:#A6B1BA">FAQ</a>'))
+log_in.insert_before(node('<a href="%s" style="color:#A6B1BA">%s</a>' % (H.escape(join_url()), 'Request an invite' if BETA else 'Start 2 weeks free')))
+
+# structured data for search: who we are, and the FAQ
+LD = json.dumps({'@context': 'https://schema.org', '@graph': [
+    {'@type': 'Organization', 'name': 'TeamCH3', 'url': 'https://ch3.circle.so/', 'logo': CDN + 'rrxvgyqulo15uln4o8y0t7bqi3f5',
+     'description': 'Online golf coaching from Claude Harmon III and the CH3 academies in Dubai, Thailand and Florida.'},
+    {'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in FAQ]},
+]}, ensure_ascii=False)
+
+SALES_CSS = r'''
+#ch3-site .ch3-faq{border-top:1px solid #CDD4DA}
+#ch3-site .ch3-faq:last-child{border-bottom:1px solid #CDD4DA}
+#ch3-site .ch3-faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font:400 26px/1.05 Anton,sans-serif;text-transform:uppercase;color:#253746}
+#ch3-site .ch3-faq summary::-webkit-details-marker{display:none}
+#ch3-site .ch3-faq summary::after{content:"+";flex:none;font:400 30px/1 Anton,sans-serif;color:#E04E39}
+#ch3-site .ch3-faq[open] summary::after{content:"–"}
+#ch3-site .ch3-faq summary:focus-visible{outline:2px solid #E04E39;outline-offset:4px}
+#ch3-site .ch3-faq p{margin:0 0 22px;font:400 19px/1.45 'Barlow Condensed';color:#536676;max-width:720px}
+#ch3-site a.ch3-cta:hover{background:#C9432F!important;color:#fff!important}
+#ch3-site .ch3-junior-bar a.ch3-cta:hover{background:#111A22!important}
+@media (max-width:1100px){
+#ch3-site .ch3-coach-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+@media (max-width:860px){
+#ch3-site #coaches{padding:32px 16px!important}
+#ch3-site #how{padding:72px 16px!important}
+#ch3-site #faq{padding:72px 16px!important}
+#ch3-site .ch3-how-grid,#ch3-site .ch3-faq-grid{grid-template-columns:minmax(0,1fr)!important;gap:28px!important}
+#ch3-site .ch3-how-grid{gap:3px!important}
+#ch3-site .ch3-junior-bar{grid-template-columns:minmax(0,1fr)!important}
+#ch3-site .ch3-h1-sub{font-size:17px!important}
+}
+@media (max-width:520px){
+#ch3-site .ch3-coach-grid{grid-template-columns:minmax(0,1fr)!important}
+#ch3-site .ch3-faq summary{font-size:22px}
+}
+'''
 
 # ---- responsive hooks (the design is desktop-first) ----
 def hook(tag, needle, cls, nth=None):
@@ -467,7 +735,7 @@ CSS = r'''
 #ch3-site .ch3-hero-photo{width:100%!important;opacity:.35}
 }
 @media (max-width:520px){
-#ch3-site .ch3-nav a[href="#tiers"]{padding:12px 12px!important;font-size:14px!important}
+#ch3-site .ch3-nav a.ch3-join{padding:12px 12px!important;font-size:14px!important}
 #ch3-site .ch3-count>div>div:first-child{font-size:30px!important}
 }
 @media (prefers-reduced-motion:reduce){#ch3-site *{animation:none!important;transition:none!important}#ch3-site .ch3-label-b{display:none}}
@@ -478,11 +746,15 @@ JS = r'''
 var root=document.getElementById('ch3-site');if(!root)return;
 function q(s){return root.querySelectorAll(s)}
 function p(n){return (n<10?'0':'')+n}
-function nextLive(now){var t=new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate(),15,0,0));t.setUTCDate(t.getUTCDate()+((4-t.getUTCDay()+7)%7));if(t<=now)t.setUTCDate(t.getUTCDate()+7);return Math.max(0,Math.floor((t-now)/1000))}
+var EV=EVENTS_JSON;
+function nextEv(now,rec){for(var i=0;i<EV.length;i++){var e=EV[i],a=Date.parse(e[0]),b=a+e[1]*60000;if(b>now&&(e[6]||!rec))return{e:e,s:Math.max(0,Math.floor((a-now)/1000)),live:a<=now}}return null}
+function parts(s){var d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),x=s%60;return{d:p(d),h:p(h),m:p(m),s:p(x),short:(d?d+'D ':'')+p(h)+':'+p(m)+':'+p(x)}}
 function tick(){var now=new Date();
  q('[data-ch3="tz"]').forEach(function(e){var z=e.getAttribute('data-tz');try{e.textContent=now.toLocaleTimeString('en-GB',z==='local'?{hour:'2-digit',minute:'2-digit'}:{timeZone:z,hour:'2-digit',minute:'2-digit'})}catch(err){}});
- var s=nextLive(now),d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),x=s%60;
- var v={'cd-d':p(d),'cd-h':p(h),'cd-m':p(m),'cd-s':p(x),'cd-short':(d?d+'D ':'')+p(h)+':'+p(m)+':'+p(x),'cd-hm':p(h)+':'+p(m)};
+ var n=nextEv(now.getTime(),false),r=nextEv(now.getTime(),true),v,t;
+ if(n){t=parts(n.s);v={'cd-d':t.d,'cd-h':t.h,'cd-m':t.m,'cd-s':t.s,'cd-short':n.live?'LIVE NOW':t.short,'ev-kind':n.e[2],'ev-short':n.e[3],'ev-title':n.e[4],'ev-blurb':n.e[5]}}
+ else v={'cd-d':'--','cd-h':'--','cd-m':'--','cd-s':'--','cd-short':'SOON','ev-kind':'COMING UP','ev-short':'NEW DATES SOON','ev-title':'Next live session','ev-blurb':'New dates are announced in the community.'};
+ v['rec-short']=r?(r.live?'LIVE NOW':parts(r.s).short):'SOON';
  Object.keys(v).forEach(function(k){q('[data-ch3="'+k+'"]').forEach(function(e){e.textContent=v[k]})});}
 tick();setInterval(tick,1000);
 var S=SHOTS_JSON,cur=CUR_JSON,sub=0,playing=true;
@@ -516,13 +788,14 @@ if(bars&&mark){
  place();
 }
 })();
-'''.replace('SHOTS_JSON', json.dumps([list(s) for s in SHOTS])).replace('CUR_JSON', str(CUR))
+'''.replace('EVENTS_JSON', json.dumps([list(e) for e in EVENTS])).replace('SHOTS_JSON', json.dumps([list(s) for s in SHOTS])).replace('CUR_JSON', str(CUR))
 
 head = ('<!-- TeamCH3 membership page · for Circle\'s website builder · built Oct 15 2026 from "TeamCH3_Membership_Site_1.html".\n'
         'Paste everything into one custom HTML / code block. Images are hosted on Circle (assets-v2.circle.so).\n'
         'Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: swap in the checkout links once the paywalls exist. -->\n')
 fonts = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;600;700&display=swap">\n'
-html_out = head + fonts + '<style>' + re.sub(r'\n+', '\n', CSS).strip() + '</style>\n' + str(page) + '\n<script>' + JS.strip() + '</script>\n'
+html_out = (head + fonts + '<style>' + re.sub(r'\n+', '\n', CSS + SALES_CSS).strip() + '</style>\n' + str(page)
+            + '\n<script type="application/ld+json">' + LD + '</script>\n<script>' + JS.strip() + '</script>\n')
 assert '{{' not in html_out, 'unrendered expression left'
 assert 'sc-' not in re.sub(r'data-[\w-]+', '', html_out).replace('desc-', ''), 'directive left'
 open(OUT, 'w', encoding='utf-8').write(html_out)

@@ -81,7 +81,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 #ch3-site .ch3-hero-photo{width:100%!important;opacity:.35}
 }
 @media (max-width:520px){
-#ch3-site .ch3-nav a[href="#tiers"]{padding:12px 12px!important;font-size:14px!important}
+#ch3-site .ch3-nav a.ch3-join{padding:12px 12px!important;font-size:14px!important}
 #ch3-site .ch3-count>div>div:first-child{font-size:30px!important}
 }
 @media (prefers-reduced-motion:reduce){#ch3-site *{animation:none!important;transition:none!important}#ch3-site .ch3-label-b{display:none}}
@@ -92,27 +92,56 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 #ch3-site .ch3-hv5:hover{background:#E04E39 !important}
 #ch3-site .ch3-hv6:hover{background:#253746 !important;color:#fff !important}
 #ch3-site .ch3-hv7:hover{background:#111A22 !important}
-#ch3-site .ch3-hv8:hover{transform:translateY(-4px) !important;box-shadow:0 18px 40px rgba(17,26,34,.28) !important}</style>
+#ch3-site .ch3-hv8:hover{transform:translateY(-4px) !important;box-shadow:0 18px 40px rgba(17,26,34,.28) !important}
+#ch3-site .ch3-faq{border-top:1px solid #CDD4DA}
+#ch3-site .ch3-faq:last-child{border-bottom:1px solid #CDD4DA}
+#ch3-site .ch3-faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font:400 26px/1.05 Anton,sans-serif;text-transform:uppercase;color:#253746}
+#ch3-site .ch3-faq summary::-webkit-details-marker{display:none}
+#ch3-site .ch3-faq summary::after{content:"+";flex:none;font:400 30px/1 Anton,sans-serif;color:#E04E39}
+#ch3-site .ch3-faq[open] summary::after{content:"–"}
+#ch3-site .ch3-faq summary:focus-visible{outline:2px solid #E04E39;outline-offset:4px}
+#ch3-site .ch3-faq p{margin:0 0 22px;font:400 19px/1.45 'Barlow Condensed';color:#536676;max-width:720px}
+#ch3-site a.ch3-cta:hover{background:#C9432F!important;color:#fff!important}
+#ch3-site .ch3-junior-bar a.ch3-cta:hover{background:#111A22!important}
+@media (max-width:1100px){
+#ch3-site .ch3-coach-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+@media (max-width:860px){
+#ch3-site #coaches{padding:32px 16px!important}
+#ch3-site #how{padding:72px 16px!important}
+#ch3-site #faq{padding:72px 16px!important}
+#ch3-site .ch3-how-grid,#ch3-site .ch3-faq-grid{grid-template-columns:minmax(0,1fr)!important;gap:28px!important}
+#ch3-site .ch3-how-grid{gap:3px!important}
+#ch3-site .ch3-junior-bar{grid-template-columns:minmax(0,1fr)!important}
+#ch3-site .ch3-h1-sub{font-size:17px!important}
+}
+@media (max-width:520px){
+#ch3-site .ch3-coach-grid{grid-template-columns:minmax(0,1fr)!important}
+#ch3-site .ch3-faq summary{font-size:22px}
+}</style>
 <div id="ch3-site" style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;color:#253746;background:#fff;min-width:0">
 <div class="ch3-bars-mark"></div><div class="ch3-bars"><header class="ch3-nav" style="position:relative;background:#253746;display:flex;align-items:center;gap:28px;padding:0 40px;height:72px;border-bottom:3px solid #E04E39">
 <a href="#" style="flex:none;display:block"><img alt="CH3 Performance Golf Academy" src="https://assets-v2.circle.so/h51u9b15jxu0kv0zg3a0pmizefyp" style="display:block;height:52px;width:auto"/></a>
-<nav class="ch3-navlinks" style="display:flex;gap:26px;flex:1;min-width:0;overflow:hidden;white-space:nowrap">
-<a href="#grid" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">WHAT'S INSIDE</a>
-<a href="#session" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">ON THE RANGE</a>
-<a href="#pod" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">SON OF A BUTCH</a>
-<a href="#basecamp" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">ACADEMY TEAMS</a>
-<a href="#tiers" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">MEMBERSHIP</a>
-</nav>
+<nav class="ch3-navlinks" style="display:flex;gap:26px;flex:1;min-width:0;overflow:hidden;white-space:nowrap"><a href="#grid" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">WHAT'S INSIDE</a><a href="#session" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">ON THE RANGE</a><a href="#basecamp" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">ACADEMY TEAMS</a><a href="#pod" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">SON OF A BUTCH</a><a href="#tiers" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">MEMBERSHIP</a><a href="#faq" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">FAQ</a></nav>
 <a href="https://ch3.circle.so/sign_in" style="flex:none;font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">LOG IN</a>
-<a class="ch3-hv1" href="#tiers" style="flex:none;font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff;background:#C9432F;padding:15px 18px;border-radius:2px">START 2 WEEKS FREE</a>
+<a class="ch3-hv1 ch3-join" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Pod%20Community%2C%20Junior%20Basecamp%20or%20Premier%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="flex:none;font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff;background:#C9432F;padding:15px 18px;border-radius:2px">REQUEST AN INVITE</a>
 </header><div class="ch3-strip" style="position:relative;background:#111A22;color:#fff;display:flex;align-items:center;gap:24px;padding:10px 40px;border-bottom:1px solid #253746">
-<div style="display:flex;flex-direction:column;gap:4px"><span style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA">EP 24 <span style="color:#536676">|</span> LIVE RECORDING</span><span style="font:400 18px/1 Anton,sans-serif;display:flex;align-items:center;gap:8px"><span style="width:10px;height:10px;border-radius:5px;background:#E04E39;display:inline-block"></span>CH3 + SPECIAL GUEST <span style="color:#F47C67">›</span></span></div>
+<div style="display:flex;flex-direction:column;gap:4px"><span style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA">NEXT LIVE <span style="color:#536676">|</span> <span data-ch3="ev-kind">LIVE RECORDING</span></span><span style="font:400 18px/1 Anton,sans-serif;display:flex;align-items:center;gap:8px"><span style="width:10px;height:10px;border-radius:5px;background:#E04E39;display:inline-block"></span><span data-ch3="ev-short">CLAUDE + CAM SMITH</span> <span style="color:#F47C67">›</span></span></div>
 <div style="flex:1"></div>
 <div class="ch3-clocks" style="display:grid;grid-template-rows:auto auto;grid-auto-flow:column;gap:5px 18px;font:600 12px/1 'Barlow Condensed';letter-spacing:.12em;align-items:center"><span style="display:flex;align-items:center;gap:6px"><span style="width:6px;height:6px;border-radius:3px;background:#E04E39"></span>MY TIME</span><span style="font:400 16px/1 Anton,sans-serif;font-variant-numeric:tabular-nums"><span data-ch3="tz" data-tz="local">--:--</span></span><span style="color:#A6B1BA">DUBAI</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums"><span data-ch3="tz" data-tz="Asia/Dubai">--:--</span></span><span style="color:#A6B1BA">THAILAND</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums"><span data-ch3="tz" data-tz="Asia/Bangkok">--:--</span></span><span style="color:#A6B1BA">FLORIDA</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums"><span data-ch3="tz" data-tz="America/New_York">--:--</span></span></div>
 <div style="font:400 26px/1 Anton,sans-serif;color:#E04E39;font-variant-numeric:tabular-nums;padding-left:20px;border-left:1px solid #384B5B"><span data-ch3="cd-short">--:--:--</span></div>
 </div></div>
 
-<section style="position:relative;min-height:760px;background:#111A22;overflow:hidden;color:#fff">
+
+
+
+
+
+
+
+
+
+<section id="top" style="position:relative;min-height:760px;background:#111A22;overflow:hidden;color:#fff">
 <div style="position:absolute;inset:0"><img alt="Claude Harmon III range-side at a tour event, in a CH3 cap" class="ch3-hero-photo" src="https://assets-v2.circle.so/d85q2vrd3kilwhzo17w9x39764zx" style="position:absolute;top:0;right:0;width:min(908px,64%);height:auto;-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 32%),linear-gradient(to bottom,#000 55%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent 0%,#000 32%),linear-gradient(to bottom,#000 55%,transparent 100%);mask-composite:intersect"/></div>
 <div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(17,26,34,.96) 0%,rgba(17,26,34,.75) 42%,rgba(17,26,34,.1) 78%)"></div>
 <div class="ch3-hero-grid" style="position:relative;max-width:1280px;margin:0 auto;padding:96px 40px 150px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(300px,1fr);gap:48px;align-items:center;pointer-events:none">
@@ -146,19 +175,19 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 
 </div>
 <div style="font:600 16px/1 'Barlow Condensed';letter-spacing:.18em;color:#F47C67"><span style="position:relative;display:inline-block"><span class="ch3-label-a">TEAMCH3 · THE BASECAMP IS OPEN</span><span class="ch3-label-b" style="position:absolute;left:0;top:0;white-space:nowrap">LIGHTS OUT — AND AWAY WE GO</span></span></div>
-<h1 style="margin:14px 0 0;font:400 clamp(60px,8vw,124px)/.88 Anton,sans-serif;text-transform:uppercase">Inside the ropes.<br/><span style="color:#E04E39">Every week.</span></h1>
+<h1 style="margin:14px 0 0;font:400 clamp(60px,8vw,124px)/.88 Anton,sans-serif;text-transform:uppercase">Inside the ropes.<br/><span style="color:#E04E39">Every week.</span><span class="ch3-h1-sub" style="display:block;margin-top:22px;font:600 20px/1.3 'Barlow Condensed';letter-spacing:.1em;color:#A6B1BA">Online golf coaching from Claude Harmon III and the CH3 academies in Dubai, Thailand and Florida</span></h1>
 <p style="margin:28px 0 0;font:400 24px/1.3 'Barlow Condensed';max-width:560px">Play better golf with Claude and the CH3 coaches from Dubai, Thailand and TeamFLO, wherever you live. Then go live with Claude: Son of a Butch recordings and his updates from tour. One membership.</p>
 <div style="display:flex;gap:14px;margin-top:36px;flex-wrap:wrap;pointer-events:auto">
-<a class="ch3-hv2" href="#tiers" style="font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:20px 30px;border-radius:2px">START 2 WEEKS FREE</a>
+<a class="ch3-hv2 ch3-join" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Pod%20Community%2C%20Junior%20Basecamp%20or%20Premier%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:20px 30px;border-radius:2px">REQUEST AN INVITE</a>
 <a class="ch3-hv3" href="#session" style="font:600 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;border:2px solid #fff;padding:18px 28px;border-radius:2px">WATCH THE RANGE SESSION</a>
 </div>
-<div style="margin-top:16px;font:400 16px/1.3 'Barlow Condensed';color:#A6B1BA">2 weeks free, then from $49/month. Renews automatically. Cancel any time before day 14 and pay nothing.</div>
+<div style="margin-top:16px;font:400 16px/1.3 'Barlow Condensed';color:#A6B1BA">Now in beta with the CH3 academies: membership is by invitation. At launch, 2 weeks free, then from $49/month.</div>
 </div>
 <div style="background:#fff;color:#253746;pointer-events:auto;box-shadow:0 18px 48px rgba(0,0,0,.35)">
-<div style="background:#C9432F;color:#fff;padding:12px 18px;display:flex;justify-content:space-between;align-items:center;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em"><span style="display:flex;align-items:center;gap:8px"><span class="ch3-pulse" style="width:10px;height:10px;border-radius:5px;background:#fff;box-shadow:0 0 0 3px rgba(255,255,255,.3);display:inline-block;flex:none"></span>NEXT ON THE GRID</span><span>LIVE RECORDING</span></div>
+<div style="background:#C9432F;color:#fff;padding:12px 18px;display:flex;justify-content:space-between;align-items:center;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em"><span style="display:flex;align-items:center;gap:8px"><span class="ch3-pulse" style="width:10px;height:10px;border-radius:5px;background:#fff;box-shadow:0 0 0 3px rgba(255,255,255,.3);display:inline-block;flex:none"></span>NEXT ON THE GRID</span><span><span data-ch3="ev-kind">LIVE RECORDING</span></span></div>
 <div style="padding:22px 20px 8px">
-<div style="font:400 30px/1 Anton,sans-serif;text-transform:uppercase">In the studio with CH3</div>
-<div style="font:400 17px/1.3 'Barlow Condensed';color:#536676;margin-top:8px">Exclusive access to the next Son of a Butch recording, live, with CH3 and a special guest.</div>
+<div style="font:400 30px/1 Anton,sans-serif;text-transform:uppercase"><span data-ch3="ev-title">Son of a Butch Live</span></div>
+<div style="font:400 17px/1.3 'Barlow Condensed';color:#536676;margin-top:8px"><span data-ch3="ev-blurb">Claude with Cam Smith and Ryan Crysler, recorded live for members.</span></div>
 </div>
 <div class="ch3-count" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;padding:12px 20px 20px">
 
@@ -171,12 +200,11 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="background:#253746;color:#fff;padding:12px 6px;text-align:center"><div style="font:400 40px/1 Anton,sans-serif;font-variant-numeric:tabular-nums"><span data-ch3="cd-s">--</span></div><div style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA;margin-top:6px">SEC</div></div>
 
 </div>
-<a class="ch3-hv4" href="#tiers" style="display:block;text-align:center;font:600 16px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff;background:#253746;padding:16px;border-top:2px solid #E04E39">SAVE MY SEAT — FREE</a>
+<a class="ch3-hv4 ch3-join" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Pod%20Community%2C%20Junior%20Basecamp%20or%20Premier%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="display:block;text-align:center;font:600 16px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff;background:#253746;padding:16px;border-top:2px solid #E04E39">REQUEST AN INVITE</a>
 </div>
 </div>
-<div style="position:absolute;left:0;right:0;bottom:0;background:#C9432F;color:#fff;height:52px;overflow:hidden;display:flex;align-items:center"><div class="ch3-marquee" style="display:flex;width:max-content"><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">LIVE PODCAST RECORDINGS · CH3 + SPECIAL GUESTS<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">NEW: CAM SMITH RANGE SESSION ON FORESIGHT<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">WEEKLY LIVE WEBINARS WITH THE CH3 COACHES<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">ON TOUR WITH CLAUDE · BEHIND THE ROPES<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">CH3 DUBAI · CH3 THAILAND · TEAMFLO<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">START 2 WEEKS FREE<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">LIVE PODCAST RECORDINGS · CH3 + SPECIAL GUESTS<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">NEW: CAM SMITH RANGE SESSION ON FORESIGHT<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">WEEKLY LIVE WEBINARS WITH THE CH3 COACHES<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">ON TOUR WITH CLAUDE · BEHIND THE ROPES<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">CH3 DUBAI · CH3 THAILAND · TEAMFLO<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">START 2 WEEKS FREE<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span></div></div>
-</section>
-<section class="ch3-sec" id="grid" style="background:#fff;padding:110px 40px">
+<div style="position:absolute;left:0;right:0;bottom:0;background:#C9432F;color:#fff;height:52px;overflow:hidden;display:flex;align-items:center"><div class="ch3-marquee" style="display:flex;width:max-content"><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">LIVE PODCAST RECORDINGS · CH3 + SPECIAL GUESTS<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">NEW: CAM SMITH RANGE SESSION ON FORESIGHT<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">WEEKLY LIVE WEBINARS WITH THE CH3 COACHES<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">ON TOUR WITH CLAUDE · BEHIND THE ROPES<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">CH3 DUBAI · CH3 THAILAND · TEAMFLO<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">NOW IN BETA · REQUEST AN INVITE<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">LIVE PODCAST RECORDINGS · CH3 + SPECIAL GUESTS<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">NEW: CAM SMITH RANGE SESSION ON FORESIGHT<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">WEEKLY LIVE WEBINARS WITH THE CH3 COACHES<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">ON TOUR WITH CLAUDE · BEHIND THE ROPES<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">CH3 DUBAI · CH3 THAILAND · TEAMFLO<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span><span style="display:inline-flex;align-items:center;gap:28px;padding-right:28px;font:600 17px/1 'Barlow Condensed';letter-spacing:.14em;white-space:nowrap">NOW IN BETA · REQUEST AN INVITE<span style="width:8px;height:8px;background:#253746;display:inline-block;transform:rotate(45deg)"></span></span></div></div>
+</section><section id="coaches" style="background:#253746;color:#fff;padding:40px 40px 44px"><div style="max-width:1280px;margin:0 auto"><div style="font:600 13px/1 'Barlow Condensed';letter-spacing:.18em;color:#F47C67">YOUR COACHES · THREE ACADEMIES · ONE TEAM</div><div class="ch3-coach-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px;margin-top:18px"><div style="display:flex;gap:14px;align-items:center;background:#1E2D3A;padding:18px 20px"><span style="flex:none;width:50px;height:50px;border-radius:25px;border:2px solid #E04E39;display:flex;align-items:center;justify-content:center;font:400 17px/1 Anton,sans-serif;color:#F47C67">CH3</span><div><div style="font:400 24px/1 Anton,sans-serif;text-transform:uppercase">Claude Harmon III</div><div style="font:600 13px/1.25 'Barlow Condensed';letter-spacing:.1em;color:#A6B1BA;margin-top:6px">CH3 · SON OF A BUTCH PODCAST</div></div></div><div style="display:flex;gap:14px;align-items:center;background:#1E2D3A;padding:18px 20px"><span style="flex:none;width:50px;height:50px;border-radius:25px;border:2px solid #E04E39;display:flex;align-items:center;justify-content:center;font:400 17px/1 Anton,sans-serif;color:#F47C67">DU</span><div><div style="font:400 24px/1 Anton,sans-serif;text-transform:uppercase">Mike Bolt</div><div style="font:600 13px/1.25 'Barlow Condensed';letter-spacing:.1em;color:#A6B1BA;margin-top:6px">HEAD COACH · CH3 DUBAI</div></div></div><div style="display:flex;gap:14px;align-items:center;background:#1E2D3A;padding:18px 20px"><span style="flex:none;width:50px;height:50px;border-radius:25px;border:2px solid #E04E39;display:flex;align-items:center;justify-content:center;font:400 17px/1 Anton,sans-serif;color:#F47C67">TH</span><div><div style="font:400 24px/1 Anton,sans-serif;text-transform:uppercase">Joe Marshall</div><div style="font:600 13px/1.25 'Barlow Condensed';letter-spacing:.1em;color:#A6B1BA;margin-top:6px">HEAD COACH · CH3 THAILAND</div></div></div><div style="display:flex;gap:14px;align-items:center;background:#1E2D3A;padding:18px 20px"><span style="flex:none;width:50px;height:50px;border-radius:25px;border:2px solid #E04E39;display:flex;align-items:center;justify-content:center;font:400 17px/1 Anton,sans-serif;color:#F47C67">FL</span><div><div style="font:400 24px/1 Anton,sans-serif;text-transform:uppercase">Ryan Crysler</div><div style="font:600 13px/1.25 'Barlow Condensed';letter-spacing:.1em;color:#A6B1BA;margin-top:6px">HEAD COACH · TEAMFLO + RC GREENLIGHT</div></div></div></div></div></section><section id="how" style="background:#F2F4F6;color:#253746;padding:90px 40px"><div style="max-width:1280px;margin:0 auto"><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#C9432F">HOW IT WORKS</div><h2 style="margin:14px 0 0;font:400 clamp(44px,5.4vw,76px)/.92 Anton,sans-serif;text-transform:uppercase">Three steps to your basecamp.</h2><div class="ch3-how-grid" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;margin-top:40px"><div style="background:#fff;padding:28px 24px 32px;border-top:4px solid #E04E39"><div style="font:400 56px/1 Anton,sans-serif;color:#E04E39">01</div><div style="font:400 32px/1 Anton,sans-serif;text-transform:uppercase;margin-top:14px">Pick your academy</div><div style="font:400 18px/1.4 'Barlow Condensed';color:#536676;margin-top:12px">Your home basecamp is the CH3 academy closest to where you live: TeamFLO for the Americas, CH3 Dubai for Europe, the Middle East and Africa, CH3 Thailand for Asia and the Pacific.</div></div><div style="background:#fff;padding:28px 24px 32px;border-top:4px solid #E04E39"><div style="font:400 56px/1 Anton,sans-serif;color:#E04E39">02</div><div style="font:400 32px/1 Anton,sans-serif;text-transform:uppercase;margin-top:14px">Request your invite</div><div style="font:400 18px/1.4 'Barlow Condensed';color:#536676;margin-top:12px">TeamCH3 is in beta with the CH3 academies. Tell us your name, home city and membership, and we’ll send your invite.</div></div><div style="background:#fff;padding:28px 24px 32px;border-top:4px solid #E04E39"><div style="font:400 56px/1 Anton,sans-serif;color:#E04E39">03</div><div style="font:400 32px/1 Anton,sans-serif;text-transform:uppercase;margin-top:14px">Train with the coaches</div><div style="font:400 18px/1.4 'Barlow Condensed';color:#536676;margin-top:12px">Post a swing or your last round for the coaches, join the webinars and Basecamp Spotlights, and go live with Claude.</div></div></div><div style="display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:32px"><a class="ch3-join ch3-cta" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Pod%20Community%2C%20Junior%20Basecamp%20or%20Premier%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:20px 30px;border-radius:2px;display:inline-block">REQUEST AN INVITE</a><span style="font:400 17px/1.3 'Barlow Condensed';color:#536676">No email app? Write to rcrysler@floridian.cc.</span></div></div></section><section class="ch3-sec" id="grid" style="background:#fff;padding:110px 40px">
 <div style="max-width:1280px;margin:0 auto">
 <div style="display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap">
 <div><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#C9432F">WHAT'S INSIDE · FIVE WAYS IN</div>
@@ -219,7 +247,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <span style="font:400 32px/1 Anton,sans-serif;text-transform:uppercase">Live with Claude</span>
 <span style="font:600 20px/1.2 'Barlow Condensed'">On air with CH3.</span>
 <span style="font:400 17px/1.35 'Barlow Condensed';opacity:.8">Watch Son of a Butch record live with Claude and special guests, and get your questions answered on air.</span>
-<span style="margin-top:auto;font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#C9432F">NEXT ONE IN <span data-ch3="cd-hm">--:--</span> →</span>
+<span style="margin-top:auto;font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#C9432F">NEXT ONE · <span data-ch3="rec-short">--:--:--</span> →</span>
 </a>
 
 <a class="ch3-hv6 ch3-offer" href="#tiers" style="position:relative;display:flex;flex-direction:column;gap:14px;min-height:420px;padding:28px 24px;background:#fff;color:#253746;overflow:hidden">
@@ -233,8 +261,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 
 </div>
 </div>
-</section>
-<section class="ch3-sec" id="session" style="background:#111A22;color:#fff;padding:110px 40px">
+</section><section class="ch3-sec" id="session" style="background:#111A22;color:#fff;padding:110px 40px">
 <div style="max-width:1280px;margin:0 auto">
 <div style="display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap">
 <div><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#F47C67;display:flex;align-items:center;gap:10px"><span class="ch3-pulse" style="width:10px;height:10px;border-radius:5px;background:#fff;box-shadow:0 0 0 3px rgba(255,255,255,.3);display:inline-block;flex:none"></span>ON THE RANGE · SESSION 014 · FORESIGHT</div>
@@ -303,45 +330,12 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <button class="ch3-hv4 ch3-shot" data-ch3-shot="7" style="display:grid;grid-template-columns:30px 1fr 60px 60px;gap:8px;align-items:center;padding:9px 10px;background:transparent;color:#CDD4DA;border:none;border-bottom:1px solid #384B5B;cursor:pointer;text-align:left;font:400 15px/1 'Barlow Condensed';font-variant-numeric:tabular-nums" type="button"><span style="color:#F47C67">8</span><span>WEDGE</span><span style="text-align:right">96Y</span><span style="text-align:right">0</span></button>
 
 </div>
-<a class="ch3-hv1" href="#tiers" style="margin-top:auto;display:block;text-align:center;font:600 16px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff;background:#C9432F;padding:18px">UNLOCK THE FULL SESSION — PREMIER</a>
+<a class="ch3-hv1 ch3-join" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request%20%C2%B7%20Premier&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Premier%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="margin-top:auto;display:block;text-align:center;font:600 16px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff;background:#C9432F;padding:18px">REQUEST AN INVITE</a>
 </div>
 </div>
 <div style="margin-top:14px;font:400 14px/1.3 'Barlow Condensed';color:#A6B1BA">Sample data for layout. Replace with the real Foresight export and session video.</div>
 </div>
-</section>
-<section class="ch3-sec" id="pod" style="position:relative;background:#C9432F;color:#fff;padding:110px 40px;overflow:hidden">
-<div style="position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(115deg,rgba(255,255,255,0) 0 44px,rgba(255,255,255,.07) 44px 88px)"></div>
-<div class="ch3-pod-grid" style="position:relative;max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:64px;align-items:center">
-<div>
-<div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#fff">FOR THE SON OF A BUTCH COMMUNITY</div>
-<h2 style="margin:14px 0 0;font:400 clamp(52px,6.4vw,96px)/.9 Anton,sans-serif;text-transform:uppercase">Heard it on the pod?<br/><span style="color:#111A22">Let's talk about how it applies to you.</span></h2>
-<p style="margin:26px 0 0;font:400 22px/1.35 'Barlow Condensed';max-width:520px">Pull up a chair in the studio. Every member gets exclusive access to live Son of a Butch recordings with CH3 and special guests.</p>
-<div style="display:flex;flex-direction:column;gap:12px;margin-top:28px">
-
-<div style="display:flex;gap:14px;align-items:baseline;font:400 20px/1.3 'Barlow Condensed'"><span style="font:400 20px/1 Anton,sans-serif;color:#fff">1</span><span><b style="font-weight:600">Live recordings.</b> Watch CH3 and the guest record the episode, before it drops.</span></div>
-
-<div style="display:flex;gap:14px;align-items:baseline;font:400 20px/1.3 'Barlow Condensed'"><span style="font:400 20px/1 Anton,sans-serif;color:#fff">2</span><span><b style="font-weight:600">Episode threads.</b> Talk it through with the rest of the community.</span></div>
-
-<div style="display:flex;gap:14px;align-items:baseline;font:400 20px/1.3 'Barlow Condensed'"><span style="font:400 20px/1 Anton,sans-serif;color:#fff">3</span><span><b style="font-weight:600">The global feed.</b> What Claude, the coaches and the academies are posting, in one place.</span></div>
-
-<div style="display:flex;gap:14px;align-items:baseline;font:400 20px/1.3 'Barlow Condensed'"><span style="font:400 20px/1 Anton,sans-serif;color:#fff">4</span><span><b style="font-weight:600">Ask the next guest.</b> Submit questions before we record.</span></div>
-
-</div>
-<div style="display:flex;gap:14px;margin-top:36px;flex-wrap:wrap">
-<a class="ch3-hv7" href="#tiers" style="font:600 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#253746;padding:20px 30px;border-radius:2px">JOIN THE POD COMMUNITY — 2 WEEKS FREE</a>
-</div>
-<div style="margin-top:14px;font:600 16px/1.3 'Barlow Condensed';color:#fff">Then $49/month. Cancel any time.</div>
-</div>
-<div style="background:#253746;box-shadow:0 18px 48px rgba(17,26,34,.35)">
-<div style="position:relative;aspect-ratio:670/395"><img alt="" src="https://assets-v2.circle.so/l8a3ec8pkhpblfiksomztbdim55k" style="display:block;width:100%;height:100%;object-fit:cover"/><div style="position:absolute;left:16px;top:16px;display:flex;align-items:center;gap:8px;background:#C9432F;color:#fff;padding:8px 12px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;pointer-events:none"><span class="ch3-pulse" style="width:10px;height:10px;border-radius:5px;background:#fff;box-shadow:0 0 0 3px rgba(255,255,255,.3);display:inline-block;flex:none"></span>ON AIR</div></div>
-<div style="padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;border-top:4px solid #fff">
-<div><div style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA">LATEST EPISODE</div><div style="font:400 26px/1.05 Anton,sans-serif;text-transform:uppercase;margin-top:6px">Episode title goes here</div></div>
-<div style="text-align:right;flex:none"><div style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#F47C67">LIVE RECORDING IN</div><div style="font:400 30px/1 Anton,sans-serif;font-variant-numeric:tabular-nums;margin-top:6px"><span data-ch3="cd-short">--:--:--</span></div></div>
-</div>
-</div>
-</div>
-</section>
-<section class="ch3-sec" id="basecamp" style="background:#fff;padding:110px 40px">
+</section><section class="ch3-sec" id="basecamp" style="background:#fff;padding:110px 40px">
 <div style="max-width:1280px;margin:0 auto">
 <div style="display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap">
 <div><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#C9432F">THE BASECAMP · 2026 GRID</div>
@@ -400,9 +394,9 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="flex:none;width:72px;height:72px;border-radius:36px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 0 0 4px rgba(224,78,57,.6)"><img alt="" src="https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5" style="width:62px;height:auto;display:block;object-fit:contain;"/></div>
 </div>
 <div style="position:relative;height:220px;margin:22px 28px 0"><img alt="" src="https://assets-v2.circle.so/l8a3ec8pkhpblfiksomztbdim55k" style="display:block;width:100%;height:100%;object-fit:cover"/></div>
-<div style="position:relative;display:flex;justify-content:space-between;align-items:center;padding:16px 28px;border-top:1px solid rgba(255,255,255,.15);font:600 14px/1 'Barlow Condensed';letter-spacing:.12em"><span>ALL TIERS · 2 WEEKS FREE</span><span style="color:#F47C67">JOIN THE POD →</span></div>
+<div style="position:relative;display:flex;justify-content:space-between;align-items:center;padding:16px 28px;border-top:1px solid rgba(255,255,255,.15);font:600 14px/1 'Barlow Condensed';letter-spacing:.12em"><span>ALL TIERS · NOW IN BETA</span><span style="color:#F47C67">JOIN THE POD →</span></div>
 </a>
-<a class="ch3-hv8" href="#tiers" style="grid-column:1/-1;position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));overflow:hidden;border-radius:8px;color:#fff;background:linear-gradient(120deg,#A3321F 0%,#C9432F 100%)">
+<a class="ch3-hv8" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request%20%C2%B7%20Junior%20Basecamp&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Junior%20Basecamp%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="grid-column:1/-1;position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));overflow:hidden;border-radius:8px;color:#fff;background:linear-gradient(120deg,#A3321F 0%,#C9432F 100%)">
 <div style="position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(255,255,255,.12) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,transparent 30%,#000 100%);mask-image:linear-gradient(90deg,transparent 30%,#000 100%)"></div>
 <div style="position:relative;padding:30px 28px;display:flex;flex-direction:column;gap:14px">
 <div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff"><span style="font:400 18px/1 Anton,sans-serif;color:#fff">JB</span>GLOBAL JUNIOR BASECAMP · ALL ACADEMIES</div>
@@ -417,8 +411,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div class="ch3-region-box" style="grid-column:1/-1;border-radius:8px;overflow:hidden;background:#253746;color:#fff;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:0"><div class="ch3-region-intro" style="padding:30px 28px;border-right:1px solid #384B5B"><div style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#F47C67">WHERE DO YOU LIVE?</div><div style="font:400 44px/1 Anton,sans-serif;text-transform:uppercase;margin-top:12px">There’s a basecamp near you.</div><div style="font:400 19px/1.35 'Barlow Condensed';color:#CDD4DA;margin-top:14px">Junior, Premier and Elite members join the home basecamp closest to where they live.</div></div><div class="ch3-region-pick"><input checked="" class="ch3-radio" id="ch3-reg-am" name="ch3-region" type="radio"/><input class="ch3-radio" id="ch3-reg-eu" name="ch3-region" type="radio"/><input class="ch3-radio" id="ch3-reg-as" name="ch3-region" type="radio"/><div class="ch3-regions" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));height:100%"><label class="ch3-reg ch3-reg-am" for="ch3-reg-am"><span class="ch3-reg-where" style="font:600 13px/1.2 'Barlow Condensed';letter-spacing:.14em">THE AMERICAS</span><span class="ch3-reg-arrow" style="font:400 18px/1 Anton,sans-serif">↓</span><span style="font:400 40px/1 Anton,sans-serif;text-transform:uppercase">TeamFLO</span><span class="ch3-reg-on" style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em">YOUR HOME BASECAMP ✓</span><span class="ch3-reg-off" style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em">SELECT</span></label><label class="ch3-reg ch3-reg-eu" for="ch3-reg-eu"><span class="ch3-reg-where" style="font:600 13px/1.2 'Barlow Condensed';letter-spacing:.14em">EUROPE · MIDDLE EAST · AFRICA</span><span class="ch3-reg-arrow" style="font:400 18px/1 Anton,sans-serif">↓</span><span style="font:400 40px/1 Anton,sans-serif;text-transform:uppercase">CH3 Dubai</span><span class="ch3-reg-on" style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em">YOUR HOME BASECAMP ✓</span><span class="ch3-reg-off" style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em">SELECT</span></label><label class="ch3-reg ch3-reg-as" for="ch3-reg-as"><span class="ch3-reg-where" style="font:600 13px/1.2 'Barlow Condensed';letter-spacing:.14em">ASIA · PACIFIC</span><span class="ch3-reg-arrow" style="font:400 18px/1 Anton,sans-serif">↓</span><span style="font:400 40px/1 Anton,sans-serif;text-transform:uppercase">CH3 Thailand</span><span class="ch3-reg-on" style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em">YOUR HOME BASECAMP ✓</span><span class="ch3-reg-off" style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em">SELECT</span></label></div></div></div>
 </div>
 </div>
-</section>
-<section class="ch3-sec" id="feed-preview" style="position:relative;background:#253746;color:#fff;padding:110px 40px;overflow:hidden">
+</section><section class="ch3-sec" id="feed-preview" style="position:relative;background:#253746;color:#fff;padding:110px 40px;overflow:hidden">
 <div style="position:absolute;left:0;right:0;bottom:0;height:45%;pointer-events:none;background:#111A22"></div>
 <div style="position:relative;max-width:1280px;margin:0 auto">
 <div style="display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap">
@@ -435,17 +428,47 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="background:#1E2D3A;border-left:5px solid #E04E39;padding:18px"><div style="font:400 22px/1 Anton,sans-serif;color:#F47C67">01</div><div style="font:400 22px/1.05 Anton,sans-serif;text-transform:uppercase;margin-top:8px">Featured from the coaches</div><div style="font:400 16px/1.35 'Barlow Condensed';color:#CDD4DA;margin-top:6px">The best posts from Claude, Ryan and every academy, at the top of the Global Basecamp.</div></div>
 <div style="background:#1E2D3A;border-left:5px solid #E04E39;padding:18px"><div style="font:400 22px/1 Anton,sans-serif;color:#F47C67">02</div><div style="font:400 22px/1.05 Anton,sans-serif;text-transform:uppercase;margin-top:8px">One click, two feeds</div><div style="font:400 16px/1.35 'Barlow Condensed';color:#CDD4DA;margin-top:6px">Global Basecamp for everyone. Your home basecamp for your squad.</div></div>
 <div style="background:#1E2D3A;border-left:5px solid #E04E39;padding:18px"><div style="font:400 22px/1 Anton,sans-serif;color:#F47C67">03</div><div style="font:400 22px/1.05 Anton,sans-serif;text-transform:uppercase;margin-top:8px">Your data, coached</div><div style="font:400 16px/1.35 'Barlow Condensed';color:#CDD4DA;margin-top:6px">Send your golf data to RC Greenlight, or ask a coach, straight from the feed.</div></div>
-<a class="ch3-hv2" href="#tiers" style="display:block;text-align:center;margin-top:12px;font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:18px;border-radius:2px">GET IN THE FEED — 2 WEEKS FREE</a>
+<a class="ch3-hv2 ch3-join" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Pod%20Community%2C%20Junior%20Basecamp%20or%20Premier%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="display:block;text-align:center;margin-top:12px;font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:18px;border-radius:2px">REQUEST AN INVITE</a>
 </div>
 </div>
 </div>
-</section>
-<section class="ch3-sec" id="tiers" style="background:#253746;color:#fff;padding:110px 40px">
+</section><section class="ch3-sec" id="pod" style="position:relative;background:#C9432F;color:#fff;padding:110px 40px;overflow:hidden">
+<div style="position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(115deg,rgba(255,255,255,0) 0 44px,rgba(255,255,255,.07) 44px 88px)"></div>
+<div class="ch3-pod-grid" style="position:relative;max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:64px;align-items:center">
+<div>
+<div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#fff">FOR THE SON OF A BUTCH COMMUNITY</div>
+<h2 style="margin:14px 0 0;font:400 clamp(52px,6.4vw,96px)/.9 Anton,sans-serif;text-transform:uppercase">Heard it on the pod?<br/><span style="color:#111A22">Let's talk about how it applies to you.</span></h2>
+<p style="margin:26px 0 0;font:400 22px/1.35 'Barlow Condensed';max-width:520px">Pull up a chair in the studio. Every member gets exclusive access to live Son of a Butch recordings with CH3 and special guests.</p>
+<div style="display:flex;flex-direction:column;gap:12px;margin-top:28px">
+
+<div style="display:flex;gap:14px;align-items:baseline;font:400 20px/1.3 'Barlow Condensed'"><span style="font:400 20px/1 Anton,sans-serif;color:#fff">1</span><span><b style="font-weight:600">Live recordings.</b> Watch CH3 and the guest record the episode, before it drops.</span></div>
+
+<div style="display:flex;gap:14px;align-items:baseline;font:400 20px/1.3 'Barlow Condensed'"><span style="font:400 20px/1 Anton,sans-serif;color:#fff">2</span><span><b style="font-weight:600">Episode threads.</b> Talk it through with the rest of the community.</span></div>
+
+<div style="display:flex;gap:14px;align-items:baseline;font:400 20px/1.3 'Barlow Condensed'"><span style="font:400 20px/1 Anton,sans-serif;color:#fff">3</span><span><b style="font-weight:600">The global feed.</b> What Claude, the coaches and the academies are posting, in one place.</span></div>
+
+<div style="display:flex;gap:14px;align-items:baseline;font:400 20px/1.3 'Barlow Condensed'"><span style="font:400 20px/1 Anton,sans-serif;color:#fff">4</span><span><b style="font-weight:600">Ask the next guest.</b> Submit questions before we record.</span></div>
+
+</div>
+<div style="display:flex;gap:14px;margin-top:36px;flex-wrap:wrap">
+<a class="ch3-hv7 ch3-join" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request%20%C2%B7%20Pod%20Community&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Pod%20Community%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="font:600 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#253746;padding:20px 30px;border-radius:2px">REQUEST AN INVITE</a>
+</div>
+<div style="margin-top:14px;font:600 16px/1.3 'Barlow Condensed';color:#fff">In beta, by invitation. From $49/month at launch.</div>
+</div>
+<div style="background:#253746;box-shadow:0 18px 48px rgba(17,26,34,.35)">
+<div style="position:relative;aspect-ratio:670/395"><img alt="" src="https://assets-v2.circle.so/l8a3ec8pkhpblfiksomztbdim55k" style="display:block;width:100%;height:100%;object-fit:cover"/><div style="position:absolute;left:16px;top:16px;display:flex;align-items:center;gap:8px;background:#C9432F;color:#fff;padding:8px 12px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;pointer-events:none"><span class="ch3-pulse" style="width:10px;height:10px;border-radius:5px;background:#fff;box-shadow:0 0 0 3px rgba(255,255,255,.3);display:inline-block;flex:none"></span>ON AIR</div></div>
+<div style="padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;border-top:4px solid #fff">
+<div><div style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA">LATEST EPISODE</div><div style="font:400 26px/1.05 Anton,sans-serif;text-transform:uppercase;margin-top:6px">Episode title goes here</div></div>
+<div style="text-align:right;flex:none"><div style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#F47C67">NEXT RECORDING</div><div style="font:400 30px/1 Anton,sans-serif;font-variant-numeric:tabular-nums;margin-top:6px"><span data-ch3="rec-short">--:--:--</span></div></div>
+</div>
+</div>
+</div>
+</section><section class="ch3-sec" id="tiers" style="background:#253746;color:#fff;padding:110px 40px">
 <div style="max-width:1280px;margin:0 auto">
 <div style="text-align:center"><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#F47C67">MEMBERSHIP</div>
 <div style="display:flex;gap:6px;justify-content:center;margin:14px 0 18px"><span class="ch3-bar" style="display:block;height:7px;width:150px;background:#E04E39;transform-origin:left;animation-delay:0.0s"></span><span class="ch3-bar" style="display:block;height:7px;width:96px;background:rgba(224,78,57,0.55);transform-origin:left;animation-delay:0.12s"></span><span class="ch3-bar" style="display:block;height:7px;width:52px;background:rgba(224,78,57,0.35);transform-origin:left;animation-delay:0.24s"></span><span class="ch3-bar" style="display:block;height:7px;width:24px;background:rgba(224,78,57,0.15);transform-origin:left;animation-delay:0.36s"></span></div>
 <h2 style="margin:0;font:400 clamp(52px,6.4vw,96px)/.9 Anton,sans-serif;text-transform:uppercase">Pick your grid slot.</h2>
-<p style="margin:18px auto 0;font:400 21px/1.35 'Barlow Condensed';color:#CDD4DA;max-width:620px">Every membership except Elite starts with 2 weeks free. Cancel before day 14 and pay nothing.</p></div>
+<p style="margin:18px auto 0;font:400 21px/1.35 'Barlow Condensed';color:#CDD4DA;max-width:620px">TeamCH3 is in beta with the CH3 academies, so membership is by invitation for now. At launch, every membership except Elite starts with 2 weeks free.</p></div>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:3px;margin-top:56px;align-items:stretch">
 
 <div style="position:relative;display:flex;flex-direction:column;background:#fff;color:#253746;overflow:hidden">
@@ -454,7 +477,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="font:400 36px/1 Anton,sans-serif;text-transform:uppercase">Pod Community</div>
 <div style="font:400 18px/1.3 'Barlow Condensed';color:#536676;margin-top:8px;min-height:48px">For Son of a Butch listeners who want the room behind the mic.</div>
 <div style="display:flex;align-items:baseline;gap:6px;margin-top:20px"><span style="font:400 72px/1 Anton,sans-serif;font-variant-numeric:tabular-nums">$49</span><span style="font:600 18px/1 'Barlow Condensed';color:#536676">/MONTH</span></div>
-<div style="font:600 15px/1.3 'Barlow Condensed';color:#C9432F;margin-top:8px">Free for 2 weeks, then $49/month.</div>
+<div style="font:600 15px/1.3 'Barlow Condensed';color:#C9432F;margin-top:8px">Free for 2 weeks, then $49/month.</div><div style="font:600 15px/1.3 'Barlow Condensed';color:#536676;margin-top:4px">or $490/year · 2 months free</div>
 </div>
 <div style="padding:22px 24px;display:flex;flex-direction:column;gap:10px;flex:1">
 
@@ -484,46 +507,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 
 </div>
 
-<a class="ch3-hv5" data-checkout="pod" href="#tiers" style="display:block;text-align:center;font:600 18px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#253746;padding:22px">START FREE</a>
-</div>
-
-<div style="position:relative;display:flex;flex-direction:column;background:#fff;color:#253746;overflow:hidden">
-<div style="background:#1E2D3A;color:#fff;padding:14px 24px;display:flex;justify-content:space-between;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em"><span style="color:#F47C67">JB</span><span>JUNIORS</span></div>
-<div style="padding:28px 24px 0">
-<div style="font:400 36px/1 Anton,sans-serif;text-transform:uppercase">Junior Basecamp</div>
-<div style="font:400 18px/1.3 'Barlow Condensed';color:#536676;margin-top:8px;min-height:48px">Everything in Premier, plus the Global Junior Basecamp: juniors from every CH3 academy in one place.</div>
-<div style="display:flex;align-items:baseline;gap:6px;margin-top:20px"><span style="font:400 72px/1 Anton,sans-serif;font-variant-numeric:tabular-nums">$69</span><span style="font:600 18px/1 'Barlow Condensed';color:#536676">/MONTH</span></div>
-<div style="font:600 15px/1.3 'Barlow Condensed';color:#C9432F;margin-top:8px">Ages 13–19. Premier access at a junior price.</div>
-</div>
-<div style="padding:22px 24px;display:flex;flex-direction:column;gap:10px;flex:1">
-
-<div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed'"><span style="flex:none;width:16px;height:16px;background:#E04E39;color:#fff;font:700 12px/16px 'Barlow Condensed';text-align:center">✓</span><span>Son of a Butch community</span></div>
-
-
-<div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed'"><span style="flex:none;width:16px;height:16px;background:#E04E39;color:#fff;font:700 12px/16px 'Barlow Condensed';text-align:center">✓</span><span>Live podcast recordings</span></div>
-
-
-<div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed'"><span style="flex:none;width:16px;height:16px;background:#E04E39;color:#fff;font:700 12px/16px 'Barlow Condensed';text-align:center">✓</span><span>Global feed + Claude’s tour updates</span></div>
-
-
-<div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed'"><span style="flex:none;width:16px;height:16px;background:#E04E39;color:#fff;font:700 12px/16px 'Barlow Condensed';text-align:center">✓</span><span>Live webinars + Premier Sessions</span></div>
-
-
-<div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed'"><span style="flex:none;width:16px;height:16px;background:#E04E39;color:#fff;font:700 12px/16px 'Barlow Condensed';text-align:center">✓</span><span>Academy home basecamp</span></div>
-
-
-<div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed'"><span style="flex:none;width:16px;height:16px;background:#E04E39;color:#fff;font:700 12px/16px 'Barlow Condensed';text-align:center">✓</span><span>Basecamp Spotlights</span></div>
-
-
-<div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed'"><span style="flex:none;width:16px;height:16px;background:#E04E39;color:#fff;font:700 12px/16px 'Barlow Condensed';text-align:center">✓</span><span>Global Junior Basecamp</span></div>
-
-
-
-<div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed';color:#536676"><span style="flex:none;width:16px;height:16px;border:2px solid #A6B1BA;box-sizing:border-box"></span><span style="text-decoration:line-through">Direct access to Claude + Ryan</span></div>
-
-</div>
-
-<a class="ch3-hv5" data-checkout="junior" href="#tiers" style="display:block;text-align:center;font:600 18px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#253746;padding:22px">JOIN THE JUNIOR BASECAMP</a>
+<a class="ch3-hv5 ch3-join" data-checkout="pod" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request%20%C2%B7%20Pod%20Community&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Pod%20Community%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="display:block;text-align:center;font:600 18px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#253746;padding:22px">REQUEST AN INVITE</a>
 </div>
 
 <div style="position:relative;display:flex;flex-direction:column;background:#fff;color:#253746;overflow:hidden">
@@ -532,7 +516,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="font:400 36px/1 Anton,sans-serif;text-transform:uppercase">Premier</div>
 <div style="font:400 18px/1.3 'Barlow Condensed';color:#536676;margin-top:8px;min-height:48px">The full basecamp. Your home basecamp, or the one closest to you, plus everything global.</div>
 <div style="display:flex;align-items:baseline;gap:6px;margin-top:20px"><span style="font:400 72px/1 Anton,sans-serif;font-variant-numeric:tabular-nums">$99</span><span style="font:600 18px/1 'Barlow Condensed';color:#536676">/MONTH</span></div>
-<div style="font:600 15px/1.3 'Barlow Condensed';color:#C9432F;margin-top:8px">Includes your academy’s home basecamp.</div>
+<div style="font:600 15px/1.3 'Barlow Condensed';color:#C9432F;margin-top:8px">Includes your academy’s home basecamp.</div><div style="font:600 15px/1.3 'Barlow Condensed';color:#536676;margin-top:4px">or $990/year · 2 months free</div>
 </div>
 <div style="padding:22px 24px;display:flex;flex-direction:column;gap:10px;flex:1">
 
@@ -561,7 +545,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed';color:#536676"><span style="flex:none;width:16px;height:16px;border:2px solid #A6B1BA;box-sizing:border-box"></span><span style="text-decoration:line-through">Direct access to Claude + Ryan</span></div>
 
 </div>
-<a class="ch3-hv2" data-checkout="premier" href="#tiers" style="display:block;text-align:center;font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:22px">GO PREMIER</a>
+<a class="ch3-hv2 ch3-join" data-checkout="premier" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request%20%C2%B7%20Premier&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Premier%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="display:block;text-align:center;font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:22px">REQUEST AN INVITE</a>
 
 </div>
 
@@ -571,7 +555,7 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <div style="font:400 36px/1 Anton,sans-serif;text-transform:uppercase">Elite</div>
 <div style="font:400 18px/1.3 'Barlow Condensed';color:#536676;margin-top:8px;min-height:48px">A direct line to Claude Harmon III and Ryan Crysler, Head Coach of TeamFLO and RC Greenlight.</div>
 <div style="display:flex;align-items:baseline;gap:6px;margin-top:20px"><span style="font:400 72px/1 Anton,sans-serif;font-variant-numeric:tabular-nums">$999</span><span style="font:600 18px/1 'Barlow Condensed';color:#536676">/MONTH</span></div>
-<div style="font:600 15px/1.3 'Barlow Condensed';color:#C9432F;margin-top:8px">Limited spots. 8 of 8 remaining.</div>
+<div style="font:600 15px/1.3 'Barlow Condensed';color:#C9432F;margin-top:8px">Limited to 8 members.</div><div style="font:600 15px/1.3 'Barlow Condensed';color:#536676;margin-top:4px">or $9,990/year · 2 months free</div>
 </div>
 <div style="padding:22px 24px;display:flex;flex-direction:column;gap:10px;flex:1">
 
@@ -601,22 +585,21 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 
 </div>
 
-<a class="ch3-hv5" data-checkout="elite" href="#tiers" style="display:block;text-align:center;font:600 18px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#253746;padding:22px">APPLY FOR ELITE</a>
+<a class="ch3-hv5 ch3-join" data-checkout="elite" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20Elite%20application&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20to%20apply%20for%20Elite.%0A%0AName%3A%0AHome%20city%3A%0AMy%20game%20%28handicap%2C%20recent%20results%29%3A%0AMy%20goals%20this%20season%3A%0AMy%20schedule%3A%0A" style="display:block;text-align:center;font:600 18px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#253746;padding:22px">APPLY FOR ELITE</a>
 </div>
 
-</div>
+</div><div class="ch3-junior-bar" style="margin-top:3px;background:#C9432F;color:#fff;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;padding:26px 28px"><div><div style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#FFD9D1">JUNIORS 13–19 · PARENTS JOIN FREE</div><div style="font:400 34px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">Junior Basecamp · $69/month</div><div style="font:400 18px/1.35 'Barlow Condensed';margin-top:8px;max-width:720px">Everything in Premier, plus the juniors-only Junior Basecamp with the CH3 coaches from every academy. Or $690/year, 2 months free.</div></div><a class="ch3-join ch3-cta" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request%20%C2%B7%20Junior%20Basecamp&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Junior%20Basecamp%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:20px 30px;border-radius:2px;display:inline-block;background:#253746;white-space:nowrap">REQUEST AN INVITE</a></div>
 <div style="text-align:center;margin-top:24px;font:400 16px/1.3 'Barlow Condensed';color:#A6B1BA">Prices in USD, billed monthly, or pay for the year and get 12 months for the price of 10. Your home basecamp is the academy closest to where you live: the Americas → TeamFLO, Europe, the Middle East and Africa → CH3 Dubai, Asia and the Pacific → CH3 Thailand. Elite is limited, by application, with no free trial.</div>
 <div class="ch3-elite" style="margin-top:40px;border:2px solid #E04E39;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);align-items:stretch">
 <div style="padding:32px"><div style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#F47C67">ELITE · LIMITED SPOTS · BY APPLICATION</div><div style="font:400 44px/.95 Anton,sans-serif;text-transform:uppercase;margin-top:10px">Eight seats on the pit wall.</div><p style="margin:14px 0 0;font:400 19px/1.35 'Barlow Condensed';color:#CDD4DA;max-width:560px">Direct access to Claude Harmon III and Ryan Crysler, Head Coach of TeamFLO and RC Greenlight. Applications are reviewed by the coaching team. Tell us about your game, your goals and your schedule.</p></div>
 <div style="background:#C9432F;color:#fff;padding:32px;display:flex;flex-direction:column;justify-content:center;gap:14px">
-<div style="display:flex;align-items:baseline;gap:10px"><span style="font:400 88px/.9 Anton,sans-serif;font-variant-numeric:tabular-nums">8</span><span style="font:600 16px/1.1 'Barlow Condensed';letter-spacing:.12em">OF 8<br/>SPOTS LEFT</span></div>
+<div style="display:flex;align-items:baseline;gap:10px"><span style="font:400 88px/.9 Anton,sans-serif;font-variant-numeric:tabular-nums">8</span><span style="font:600 16px/1.1 'Barlow Condensed';letter-spacing:.12em">SEATS<br/>IN TOTAL</span></div>
 <div style="display:flex;gap:3px"><span style="flex:1;height:10px;background:#fff"></span><span style="flex:1;height:10px;background:#fff"></span><span style="flex:1;height:10px;background:#fff"></span><span style="flex:1;height:10px;background:#fff"></span><span style="flex:1;height:10px;background:#fff"></span><span style="flex:1;height:10px;background:#fff"></span><span style="flex:1;height:10px;background:#fff"></span><span style="flex:1;height:10px;background:#fff"></span></div>
-<a class="ch3-hv6" data-checkout="elite" href="#tiers" style="text-align:center;font:600 18px/1 'Barlow Condensed';letter-spacing:.08em;color:#C9432F;background:#fff;padding:18px;border-radius:2px">APPLY FOR ELITE</a>
+<a class="ch3-hv6 ch3-join" data-checkout="elite" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20Elite%20application&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20to%20apply%20for%20Elite.%0A%0AName%3A%0AHome%20city%3A%0AMy%20game%20%28handicap%2C%20recent%20results%29%3A%0AMy%20goals%20this%20season%3A%0AMy%20schedule%3A%0A" style="text-align:center;font:600 18px/1 'Barlow Condensed';letter-spacing:.08em;color:#C9432F;background:#fff;padding:18px;border-radius:2px">APPLY FOR ELITE</a>
 </div>
 </div>
 </div>
-</section>
-<section class="ch3-sec" style="position:relative;background:#fff;padding:120px 40px;overflow:hidden;border-top:6px solid #E04E39">
+</section><section class="ch3-sec" id="faq" style="background:#fff;color:#253746;padding:110px 40px"><div class="ch3-faq-grid" style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:56px"><div><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#C9432F">FAQ</div><h2 style="margin:14px 0 0;font:400 clamp(44px,5.4vw,76px)/.92 Anton,sans-serif;text-transform:uppercase">Questions before you join.</h2><p style="margin:18px 0 28px;font:400 20px/1.35 'Barlow Condensed';color:#536676">Still not sure? Email rcrysler@floridian.cc and a TeamCH3 admin will help.</p><a class="ch3-join ch3-cta" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Pod%20Community%2C%20Junior%20Basecamp%20or%20Premier%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:20px 30px;border-radius:2px;display:inline-block">REQUEST AN INVITE</a></div><div><details class="ch3-faq"><summary>Do I need to live near a CH3 academy?</summary><p>No. TeamCH3 is online. You join the home basecamp closest to where you live (TeamFLO for the Americas, CH3 Dubai for Europe, the Middle East and Africa, CH3 Thailand for Asia and the Pacific) and train with its coaches from wherever you are.</p></details><details class="ch3-faq"><summary>How do I join during the beta?</summary><p>TeamCH3 is in beta with the CH3 academies, so membership is by invitation for now. Request an invite, or email rcrysler@floridian.cc with your name, home city and the membership you want, and we’ll send it.</p></details><details class="ch3-faq"><summary>What does it cost?</summary><p>Pod Community is $49 a month, Junior Basecamp $69, Premier $99 and Elite $999. Pay for the year and you get 12 months for the price of 10. Every membership except Elite starts with 2 weeks free.</p></details><details class="ch3-faq"><summary>What’s the difference between Premier and Elite?</summary><p>Premier is the full basecamp: your home academy, the live webinars, Basecamp Spotlights, Premier Sessions and everything global. Elite adds a private chat with Claude Harmon III and Ryan Crysler. It’s limited to 8 members, by application, with no free trial.</p></details><details class="ch3-faq"><summary>What do juniors get, and how are they kept safe?</summary><p>Juniors aged 13 to 19 get everything in Premier plus the Junior Basecamp, a juniors-only feed with the CH3 coaches from every academy. Adult members can’t see or join the junior spaces, members can’t send private messages, and a parent or guardian joins the Parents space free.</p></details><details class="ch3-faq"><summary>Do I need a launch monitor or golf data?</summary><p>No. Post a swing video or tell the coaches about your last round. If you track your rounds or use a launch monitor, you can send that data to RC Greenlight straight from the feed too.</p></details><details class="ch3-faq"><summary>Where do I watch the live sessions?</summary><p>Inside TeamCH3, in your web browser. RSVP to a session and you’ll get a reminder before it starts.</p></details><details class="ch3-faq"><summary>Can I cancel any time?</summary><p>Yes. Cancel whenever you like, and if you cancel during your 2 free weeks you pay nothing.</p></details></div></div></section><section class="ch3-sec" id="join" style="position:relative;background:#fff;padding:120px 40px;overflow:hidden;border-top:6px solid #E04E39">
 <div style="max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;align-items:end;gap:40px;flex-wrap:wrap">
 <div>
 <div style="display:flex;gap:8px;margin-bottom:24px">
@@ -637,33 +620,36 @@ Buttons marked data-checkout="pod|junior|premier|elite" still point to #tiers: s
 <span class="ch3-lamp ch3-lamp-light ch3-lamp4" style="width:30px;height:30px;border-radius:15px;background:#E8ECEF"></span>
 
 </div>
-<h2 style="margin:0;font:400 clamp(64px,9vw,140px)/.86 Anton,sans-serif;text-transform:uppercase">Lights out.<br/><span style="color:#E04E39">Your 2 weeks start now.</span></h2>
+<h2 style="margin:0;font:400 clamp(64px,9vw,140px)/.86 Anton,sans-serif;text-transform:uppercase">Lights out.<br/><span style="color:#E04E39">Your basecamp is waiting.</span></h2>
 </div>
 <div style="display:flex;flex-direction:column;gap:12px;align-items:flex-start">
-<a class="ch3-hv2" href="#tiers" style="font:700 20px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:22px 34px;border-radius:2px">START 2 WEEKS FREE</a>
-<span style="font:400 17px/1.3 'Barlow Condensed';color:#536676">Next live session in <span data-ch3="cd-short">--:--:--</span>.</span>
+<a class="ch3-hv2 ch3-join" href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Pod%20Community%2C%20Junior%20Basecamp%20or%20Premier%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="font:700 20px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:22px 34px;border-radius:2px">REQUEST AN INVITE</a>
+<span style="font:400 17px/1.3 'Barlow Condensed';color:#536676">Next live session: <span data-ch3="cd-short">--:--:--</span></span>
 </div>
 </div>
-</section>
-<footer class="ch3-foot" style="background:#111A22;color:#A6B1BA;padding:56px 40px 40px">
+</section><footer class="ch3-foot" style="background:#111A22;color:#A6B1BA;padding:56px 40px 40px">
 <div class="ch3-footer-grid" style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:minmax(0,2fr) repeat(3,minmax(0,1fr));gap:32px">
 <div><img alt="CH3 Performance Golf Academy" src="https://assets-v2.circle.so/h51u9b15jxu0kv0zg3a0pmizefyp" style="display:block;height:96px;width:auto;margin-left:-2px"/><p style="margin:12px 0 0;font:400 17px/1.4 'Barlow Condensed';max-width:320px">The digital Basecamp for Claude Harmon III, the CH3 academies and the Son of a Butch community.</p></div>
 <div style="display:flex;flex-direction:column;gap:10px;font:400 17px/1 'Barlow Condensed'"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff">INSIDE</span><a href="#grid" style="color:#A6B1BA">Live webinars</a><a href="#grid" style="color:#A6B1BA">Premier Sessions</a><a href="#pod" style="color:#A6B1BA">Live recordings</a><a href="#grid" style="color:#A6B1BA">On tour with Claude</a></div>
 <div style="display:flex;flex-direction:column;gap:10px;font:400 17px/1 'Barlow Condensed'"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff">ACADEMIES</span><a href="#basecamp" style="color:#A6B1BA">CH3 Dubai</a><a href="#basecamp" style="color:#A6B1BA">CH3 Thailand</a><a href="#basecamp" style="color:#A6B1BA">TeamFLO</a></div>
-<div style="display:flex;flex-direction:column;gap:10px;font:400 17px/1 'Barlow Condensed'"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff">MEMBERSHIP</span><a href="#tiers" style="color:#A6B1BA">Pod Community</a><a href="#tiers" style="color:#A6B1BA">Premier</a><a href="#tiers" style="color:#A6B1BA">Elite</a><a href="https://ch3.circle.so/sign_in" style="color:#A6B1BA">Log in</a></div>
+<div style="display:flex;flex-direction:column;gap:10px;font:400 17px/1 'Barlow Condensed'"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff">MEMBERSHIP</span><a href="#tiers" style="color:#A6B1BA">Pod Community</a><a href="#tiers" style="color:#A6B1BA">Premier</a><a href="#tiers" style="color:#A6B1BA">Junior Basecamp</a><a href="#tiers" style="color:#A6B1BA">Elite</a><a href="#faq" style="color:#A6B1BA">FAQ</a><a href="mailto:rcrysler@floridian.cc?subject=TeamCH3%20invite%20request&amp;body=Hi%20TeamCH3%2C%0A%0AI%20would%20like%20an%20invite%20to%20TeamCH3.%0A%0AName%3A%0AHome%20city%3A%0AMembership%3A%20Pod%20Community%2C%20Junior%20Basecamp%20or%20Premier%0AJunior%20%2813%20to%2019%29%20or%20adult%3A%0A" style="color:#A6B1BA">Request an invite</a><a href="https://ch3.circle.so/sign_in" style="color:#A6B1BA">Log in</a></div>
 </div>
 <div style="max-width:1280px;margin:40px auto 0;padding-top:20px;border-top:1px solid #384B5B;font:600 13px/1 'Barlow Condensed';letter-spacing:.1em">© 2026 CH3 PERFORMANCE GOLF</div>
-</footer>
-</div>
+</footer></div>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "name": "TeamCH3", "url": "https://ch3.circle.so/", "logo": "https://assets-v2.circle.so/rrxvgyqulo15uln4o8y0t7bqi3f5", "description": "Online golf coaching from Claude Harmon III and the CH3 academies in Dubai, Thailand and Florida."}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need to live near a CH3 academy?", "acceptedAnswer": {"@type": "Answer", "text": "No. TeamCH3 is online. You join the home basecamp closest to where you live (TeamFLO for the Americas, CH3 Dubai for Europe, the Middle East and Africa, CH3 Thailand for Asia and the Pacific) and train with its coaches from wherever you are."}}, {"@type": "Question", "name": "How do I join during the beta?", "acceptedAnswer": {"@type": "Answer", "text": "TeamCH3 is in beta with the CH3 academies, so membership is by invitation for now. Request an invite, or email rcrysler@floridian.cc with your name, home city and the membership you want, and we’ll send it."}}, {"@type": "Question", "name": "What does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "Pod Community is $49 a month, Junior Basecamp $69, Premier $99 and Elite $999. Pay for the year and you get 12 months for the price of 10. Every membership except Elite starts with 2 weeks free."}}, {"@type": "Question", "name": "What’s the difference between Premier and Elite?", "acceptedAnswer": {"@type": "Answer", "text": "Premier is the full basecamp: your home academy, the live webinars, Basecamp Spotlights, Premier Sessions and everything global. Elite adds a private chat with Claude Harmon III and Ryan Crysler. It’s limited to 8 members, by application, with no free trial."}}, {"@type": "Question", "name": "What do juniors get, and how are they kept safe?", "acceptedAnswer": {"@type": "Answer", "text": "Juniors aged 13 to 19 get everything in Premier plus the Junior Basecamp, a juniors-only feed with the CH3 coaches from every academy. Adult members can’t see or join the junior spaces, members can’t send private messages, and a parent or guardian joins the Parents space free."}}, {"@type": "Question", "name": "Do I need a launch monitor or golf data?", "acceptedAnswer": {"@type": "Answer", "text": "No. Post a swing video or tell the coaches about your last round. If you track your rounds or use a launch monitor, you can send that data to RC Greenlight straight from the feed too."}}, {"@type": "Question", "name": "Where do I watch the live sessions?", "acceptedAnswer": {"@type": "Answer", "text": "Inside TeamCH3, in your web browser. RSVP to a session and you’ll get a reminder before it starts."}}, {"@type": "Question", "name": "Can I cancel any time?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Cancel whenever you like, and if you cancel during your 2 free weeks you pay nothing."}}]}]}</script>
 <script>(function(){
 var root=document.getElementById('ch3-site');if(!root)return;
 function q(s){return root.querySelectorAll(s)}
 function p(n){return (n<10?'0':'')+n}
-function nextLive(now){var t=new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate(),15,0,0));t.setUTCDate(t.getUTCDate()+((4-t.getUTCDay()+7)%7));if(t<=now)t.setUTCDate(t.getUTCDate()+7);return Math.max(0,Math.floor((t-now)/1000))}
+var EV=[["2026-10-28T16:00:00Z", 120, "LIVE RECORDING", "CLAUDE + CAM SMITH", "Son of a Butch Live", "Claude with Cam Smith and Ryan Crysler, recorded live for members.", true], ["2026-10-28T23:00:00Z", 60, "BASECAMP SPOTLIGHT", "INSIDE CH3 DUBAI", "Inside CH3 Dubai", "Claude and Head Coach Mike Bolt on what the Dubai squad is working on.", false], ["2026-11-05T00:00:00Z", 60, "BASECAMP SPOTLIGHT", "INSIDE CH3 THAILAND", "Inside CH3 Thailand", "Claude and Head Coach Joe Marshall on course strategy and how the squad trains.", false], ["2026-11-12T00:00:00Z", 60, "BASECAMP SPOTLIGHT", "INSIDE TEAMFLO", "Inside TeamFLO", "Claude and Head Coach Ryan Crysler on turning round data into decisions.", false], ["2026-11-19T00:00:00Z", 60, "JUNIOR NIGHT", "JUNIORS + PARENTS", "Junior night with Claude", "Claude on the pre-round routine, with questions from juniors in every basecamp.", false]];
+function nextEv(now,rec){for(var i=0;i<EV.length;i++){var e=EV[i],a=Date.parse(e[0]),b=a+e[1]*60000;if(b>now&&(e[6]||!rec))return{e:e,s:Math.max(0,Math.floor((a-now)/1000)),live:a<=now}}return null}
+function parts(s){var d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),x=s%60;return{d:p(d),h:p(h),m:p(m),s:p(x),short:(d?d+'D ':'')+p(h)+':'+p(m)+':'+p(x)}}
 function tick(){var now=new Date();
  q('[data-ch3="tz"]').forEach(function(e){var z=e.getAttribute('data-tz');try{e.textContent=now.toLocaleTimeString('en-GB',z==='local'?{hour:'2-digit',minute:'2-digit'}:{timeZone:z,hour:'2-digit',minute:'2-digit'})}catch(err){}});
- var s=nextLive(now),d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),x=s%60;
- var v={'cd-d':p(d),'cd-h':p(h),'cd-m':p(m),'cd-s':p(x),'cd-short':(d?d+'D ':'')+p(h)+':'+p(m)+':'+p(x),'cd-hm':p(h)+':'+p(m)};
+ var n=nextEv(now.getTime(),false),r=nextEv(now.getTime(),true),v,t;
+ if(n){t=parts(n.s);v={'cd-d':t.d,'cd-h':t.h,'cd-m':t.m,'cd-s':t.s,'cd-short':n.live?'LIVE NOW':t.short,'ev-kind':n.e[2],'ev-short':n.e[3],'ev-title':n.e[4],'ev-blurb':n.e[5]}}
+ else v={'cd-d':'--','cd-h':'--','cd-m':'--','cd-s':'--','cd-short':'SOON','ev-kind':'COMING UP','ev-short':'NEW DATES SOON','ev-title':'Next live session','ev-blurb':'New dates are announced in the community.'};
+ v['rec-short']=r?(r.live?'LIVE NOW':parts(r.s).short):'SOON';
  Object.keys(v).forEach(function(k){q('[data-ch3="'+k+'"]').forEach(function(e){e.textContent=v[k]})});}
 tick();setInterval(tick,1000);
 var S=[["7-IRON", "175", 89.6, 123.4, 16.8, 7020, 178, -2, "Hold the finish. Let the ball tell you."], ["7-IRON", "175", 89.9, 124.1, 16.4, 6890, 179, 1, "Same again. Pick a smaller target."], ["7-IRON", "165", 86.2, 118.0, 17.9, 7410, 166, -1, "Three-quarter. Flight it under the wind."], ["7-IRON", "165", 86.5, 118.6, 17.2, 7280, 167, 3, "Start line first. Curve second."], ["DRIVER", "FWY", 117.8, 173.9, 11.6, 2480, 289, -6, "Tee it higher. Hit up on it."], ["DRIVER", "FWY", 118.4, 175.2, 12.4, 2310, 294, 4, "That one plays. Full routine on the next."], ["DRIVER", "FWY", 118.1, 174.6, 12.1, 2390, 292, -2, "Commit. Pick the line and go."], ["WEDGE", "95", 76.3, 94.8, 29.4, 9850, 96, 0, "Last ball like it is the 72nd hole."]],cur=2,sub=0,playing=true;

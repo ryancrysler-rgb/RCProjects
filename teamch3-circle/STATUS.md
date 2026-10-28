@@ -134,23 +134,24 @@ with no filter or delay.
 
 ## Membership page
 
-- **Paused October 28: conversion and SEO review, waiting for Ryan's go-ahead.** Pick up here.
-  - Must fix first: (1) every button only scrolls to #tiers, so no one can sign up. Until the paywalls exist, point
-    them all at one Circle early-access form (name and email; Ryan creates the form, Claude wires the buttons).
-    (2) Remove mock content: the "Cam Smith × Claude" range section and its "Sample data for layout" line, "Episode
-    title goes here" and the ticker's "NEW: Cam Smith range session". (3) The countdowns are hard-coded to Thursdays
-    15:00 UTC; tie them to the real schedule or remove them. (4) "Save my seat — free" → "Watch live: start 2 weeks free".
-  - Re-order: hero → proof strip (Claude and the head coaches) → how it works (pick your academy → 2 weeks free →
-    train) → What's Inside → academies → feed screenshot → pricing → FAQ → final call to action; the pod section moves
-    down; the range session comes out until it's real.
-  - Pricing: three cards (Pod, Premier "most popular", Elite) with Junior as its own link; show the annual price on
-    each card; "Limited to 8 members" instead of "8 of 8 remaining"; one button wording, "Start 2 weeks free".
-  - Trust: 2–3 real testimonials (when there are some) and a short FAQ.
-  - SEO: rename the page from "TeamCH3 Preview" and fill in its SEO title, description and social image in Circle;
-    add a searchable line under the H1; FAQ and organization markup; teamch3.com.
-  - Needs from Ryan: Claude's and the coaches' credentials as he wants them stated, testimonials, and whether the
-    form says "join the waitlist" or "request an invite".
-- **Open: "Hello, world!" text under the footer.** It comes from Circle code boxes saved with Circle's sample code
+- **Sales and SEO pass (October 28, Ryan: "do everything you recommend", paywalls not possible yet, mock data stays).**
+  - Beta sign-up: 12 "REQUEST AN INVITE" buttons and 2 "APPLY FOR ELITE", each opening a pre-filled email to
+    rcrysler@floridian.cc (the membership is in the subject). One switch (BETA in build_paste.py) flips them to
+    "START 2 WEEKS FREE" and the checkout links at launch. A Circle form can replace the email: send Claude its link.
+  - Countdowns run off the real Circle calendar (EVENTS in build_paste.py): Son of a Butch Live today, the three
+    Basecamp Spotlights and the Junior night; "LIVE NOW" during a session; "new dates soon" after Nov 19. Refresh
+    EVENTS before each paste.
+  - New order: hero → coaches strip (Claude, Mike Bolt, Joe Marshall, Ryan) → How it works (3 steps) → What's Inside →
+    On the range → academies → feed → Son of a Butch → pricing → FAQ (8 questions) → final call to action. Nav and
+    footer match, with an FAQ link.
+  - Pricing: three cards (Pod, Premier "most popular", Elite) with annual prices, a Junior Basecamp bar under them,
+    Elite "Limited to 8 members" and "8 seats in total". Beta copy says membership is by invitation for now.
+  - SEO: the H1 now carries "Online golf coaching from Claude Harmon III and the CH3 academies in Dubai, Thailand and
+    Florida"; Organization + FAQ structured data; a 1200x630 share image (Circle file 80hq8wshxgnbb7izhorxgb9ynu37).
+  - To do (Ryan): paste the page and Publish; set the page settings from "TeamCH3 page settings - SEO.txt" (rename
+    from "TeamCH3 Preview", SEO title, description, share image); send Claude's and the coaches' credentials and
+    headshots for the coaches strip, and testimonials when there are some.
+- **Fixed (October 28): "Hello, world!" text under the footer.** It comes from Circle code boxes saved with Circle's sample code
   (not from our files). Delete them in Site → Code snippets and check the page's own custom code settings.
 - **Signed-out landing page (October 27).** Claude set Circle's logged-out landing page to the website page
   "TeamCH3 Preview" (page 76685, ch3.circle.so/settings/pages/edit/76685) through the connector. The community

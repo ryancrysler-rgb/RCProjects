@@ -35,7 +35,14 @@ optional script for the clocks, the countdowns and the range-session player; eve
   `EDITS` list and the data block at the top of `build_paste.py`.
 - Images are hosted on Circle (assets-v2.circle.so) and attached to the Global Basecamp draft post
   "Membership page images (keep as a draft)" so Circle keeps them.
-- Buttons marked `data-checkout="pod|junior|premier|elite"` point to `#tiers` until the paywalls exist.
+- **Beta switch** (`BETA` at the top of `build_paste.py`): in beta every join button reads "REQUEST AN INVITE" and opens a
+  pre-filled invite email to `INVITE_EMAIL` (Elite: an application email). At launch set `BETA = False` and put each
+  paywall's checkout link in `CHECKOUT`; the buttons then read "START 2 WEEKS FREE" and go straight to checkout.
+- **Live calendar** (`EVENTS` in `build_paste.py`): the strip, the hero card, the pod card and the final countdown run off
+  this list (UTC), with "LIVE NOW" during a session and "new dates soon" when the list runs out. Refresh it from the
+  Circle events before each paste.
+- The page adds structured data for search (Organization + the FAQ). The SEO title, description and share image are set
+  in Circle's page settings (`brand/TeamCH3 share image 1200x630.jpg`).
 
 ## Ask CH3 (Circle AI agent)
 
