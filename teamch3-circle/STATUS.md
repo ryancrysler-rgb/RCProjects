@@ -134,6 +134,13 @@ with no filter or delay.
 
 ## Membership page
 
+- **Member badges and Elite (October 28).** Public badges: Coach (304513, orange), Elite (305717, navy), Junior (305721,
+  light orange) and one per academy: CH3 Dubai (305718), CH3 Thailand (305719), TeamFLO (305720). No Premier or Pod badge
+  (Ryan's call). Tagged so far: Ryan (TeamFLO), Ryan Junior (Junior, TeamFLO), the test coaches (their academy). To do
+  (Ryan → Circle AI): paste Part 5 of the Circle AI brief so the welcome workflows add the badges and Email D matches.
+  Elite is now defined as: application only; private coaching with Claude and Ryan; the Elite Basecamp for exclusive
+  conferences with the 8 members; RC Greenlight Data Services; plus Son of a Butch and the home academy basecamp. The
+  page, FAQ and Ask CH3 guide say so.
 - **Sales and SEO pass (October 28, Ryan: "do everything you recommend", paywalls not possible yet, mock data stays).**
   - Beta sign-up: 12 "REQUEST AN INVITE" buttons and 2 "APPLY FOR ELITE", each opening a pre-filled email to
     rcrysler@floridian.cc (the membership is in the subject). One switch (BETA in build_paste.py) flips them to

@@ -161,6 +161,9 @@ EDITS += [
      '<div style="font:600 15px/1.3 \'Barlow Condensed\';color:#C9432F;margin-top:8px">{{ t.note }}</div>'
      '<div style="font:600 15px/1.3 \'Barlow Condensed\';color:#536676;margin-top:4px">{{ t.annual }}</div>'),
     ('OF 8<br>SPOTS LEFT', 'SEATS<br>IN TOTAL'),
+    # Elite: private coaching, not just a chat (Ryan, Oct 28)
+    ('Direct access to Claude Harmon III and Ryan Crysler, Head Coach of TeamFLO and RC Greenlight. Applications are reviewed by the coaching team.',
+     'Private coaching with Claude Harmon III and Ryan Crysler. The Elite Basecamp for exclusive conferences with the 8 members. RC Greenlight Data Services on your rounds. Plus the Son of a Butch Podcast and your home academy basecamp. Applications are reviewed by the coaching team.'),
     # SEO: the H1 says what this is, in words people search for
     ('<span style="color:#E04E39">Every week.</span></h1>',
      '<span style="color:#E04E39">Every week.</span><span class="ch3-h1-sub" style="display:block;margin-top:22px;font:600 20px/1.3 \'Barlow Condensed\';'
@@ -233,7 +236,8 @@ def ticker():
 
 ELITE_LEFT = 8  # no Elite members yet
 FEATS = ['Son of a Butch community', 'Live podcast recordings', 'Global feed + Claude’s tour updates', 'Live webinars + Premier Sessions', 'Academy home basecamp',
-         'Basecamp Spotlights', 'Global Junior Basecamp', 'Direct access to Claude + Ryan']
+         'Basecamp Spotlights', 'Global Junior Basecamp', 'Private coaching with Claude + Ryan',
+         'Elite Basecamp: conferences with the 8 members', 'RC Greenlight Data Services']
 def tier(pos, flag, name, pitch, price, note, cta, yes, primary, key):
     return {'pos': pos, 'flag': flag, 'name': name, 'pitch': pitch, 'price': price, 'note': note, 'cta': cta,
             'primary': primary, 'secondary': not primary, 'key': key,
@@ -289,13 +293,13 @@ ctx = {
     'seatBar': raw(''.join('<span style="flex:1;height:10px;background:%s"></span>' % ('rgba(255,255,255,.3)' if i < 8 - ELITE_LEFT else '#fff') for i in range(8))),
     'tiers': [
         tier('SB', '2 WEEKS FREE', 'Pod Community', 'For Son of a Butch listeners who want the room behind the mic.', '$49',
-             'Free for 2 weeks, then $49/month.', 'START FREE', [1, 1, 1, 0, 0, 0, 0, 0], False, 'pod'),
+             'Free for 2 weeks, then $49/month.', 'START FREE', [1, 1, 1, 0, 0, 0, 0, 0, 0, 0], False, 'pod'),
         tier('JB', 'JUNIORS', 'Junior Basecamp', 'Everything in Premier, plus the Global Junior Basecamp: juniors from every CH3 academy in one place.', '$69',
-             'Ages 13–19. Premier access at a junior price.', 'JOIN THE JUNIOR BASECAMP', [1, 1, 1, 1, 1, 1, 1, 0], False, 'junior'),
+             'Ages 13–19. Premier access at a junior price.', 'JOIN THE JUNIOR BASECAMP', [1, 1, 1, 1, 1, 1, 1, 0, 0, 0], False, 'junior'),
         tier('PS', 'MOST POPULAR', 'Premier', 'The full basecamp. Your home basecamp, or the one closest to you, plus everything global.', '$99',
-             'Includes your academy’s home basecamp.', 'GO PREMIER', [1, 1, 1, 1, 1, 1, 0, 0], True, 'premier'),
-        tier('EB', 'LIMITED · BY APPLICATION', 'Elite', 'A direct line to Claude Harmon III and Ryan Crysler, Head Coach of TeamFLO and RC Greenlight.', '$999',
-             'Limited to 8 members.', 'APPLY FOR ELITE', [1, 1, 1, 1, 1, 1, 0, 1], False, 'elite'),
+             'Includes your academy’s home basecamp.', 'GO PREMIER', [1, 1, 1, 1, 1, 1, 0, 0, 0, 0], True, 'premier'),
+        tier('EB', 'LIMITED · BY APPLICATION', 'Elite', 'Private coaching with Claude Harmon III and Ryan Crysler, plus RC Greenlight Data Services. Eight members, by application.', '$999',
+             'Limited to 8 members.', 'APPLY FOR ELITE', [1, 1, 1, 1, 1, 1, 0, 1, 1, 1], False, 'elite'),
     ],
 }
 
@@ -540,7 +544,8 @@ FAQ = [
      'Every membership except Elite starts with 2 weeks free.'),
     ('What’s the difference between Premier and Elite?',
      'Premier is the full basecamp: your home academy, the live webinars, Basecamp Spotlights, Premier Sessions and everything global. '
-     'Elite adds a private chat with Claude Harmon III and Ryan Crysler. It’s limited to 8 members, by application, with no free trial.'),
+     'Elite adds private coaching with Claude Harmon III and Ryan Crysler, the Elite Basecamp for exclusive conferences with the 8 members, '
+     'and RC Greenlight Data Services. It’s by application, with no free trial.'),
     ('What do juniors get, and how are they kept safe?',
      'Juniors aged 13 to 19 get everything in Premier plus the Junior Basecamp, a juniors-only feed with the CH3 coaches from every academy. '
      'Adult members can’t see or join the junior spaces, members can’t send private messages, and a parent or guardian joins the Parents space free.'),

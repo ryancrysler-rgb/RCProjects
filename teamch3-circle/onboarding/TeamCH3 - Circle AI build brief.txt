@@ -72,7 +72,7 @@ Claude
 EMAIL D
 Subject: Welcome to TeamCH3 Elite
 Welcome to TeamCH3 Elite. You're one of eight.
-The Elite Basecamp is a private chat with Ryan and me. Use it for anything: your swing, your schedule, a round you want to talk through. You also have everything in Premier: your home basecamp, Events, Premier Sessions, the Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
+Your membership includes private coaching with Ryan and me, the Elite Basecamp for exclusive conferences with the other Elite members, and RC Greenlight Data Services on your rounds. You also have everything in Premier: your home basecamp, Events, Premier Sessions, the Global Basecamp, the Son Of A Butch Podcast and Live Recordings.
 Start by saying hello in the Elite Basecamp and telling us what you're working towards this season.
 Claude
 
@@ -123,4 +123,22 @@ All three Coaches access groups already include CH3 Dubai, CH3 Thailand and Team
 2. If a workflow action can make a member a space moderator, add it to the 3 "Welcome · Coaches · …" workflows (those 4 spaces), after the existing actions. If no workflow action can, say so and leave the workflows' actions as they are.
 3. In the email of all 3 "Welcome · Coaches · …" workflows, replace the first bullet ("Your home basecamp: …") with:
 Every academy basecamp: CH3 Dubai, CH3 Thailand and TeamFLO. You're a moderator there and in the Junior Basecamp, so you can pin, edit and remove posts. Post sessions and drills, and reply to members' swings.
+Change nothing else. Then list exactly what you changed.
+
+
+=== PART 5: member badges and the Elite email (paste now) ===
+The member tags already exist: Junior, CH3 Dubai, CH3 Thailand, TeamFLO, Elite, Coach. Don't create or change tags.
+1. Add an "Add member tag" action after the existing actions in these workflows. Change nothing else.
+- Welcome · Junior Basecamp · CH3 Dubai: add Junior, then CH3 Dubai
+- Welcome · Junior Basecamp · CH3 Thailand: add Junior, then CH3 Thailand
+- Welcome · Junior Basecamp · TeamFLO: add Junior, then TeamFLO
+- Welcome · Premier · CH3 Dubai: add CH3 Dubai
+- Welcome · Premier · CH3 Thailand: add CH3 Thailand
+- Welcome · Premier · TeamFLO: add TeamFLO
+- Welcome · Coaches · CH3 Dubai: add CH3 Dubai (keep the Coach tag action)
+- Welcome · Coaches · CH3 Thailand: add CH3 Thailand (keep the Coach tag action)
+- Welcome · Coaches · TeamFLO: add TeamFLO (keep the Coach tag action)
+- Welcome · Elite: add Elite
+2. In the email of "Welcome · Elite", replace the sentence "The Elite Basecamp is a private chat with Ryan and me. Use it for anything: your swing, your schedule, a round you want to talk through." with:
+Your membership includes private coaching with Ryan and me, the Elite Basecamp for exclusive conferences with the other Elite members, and RC Greenlight Data Services on your rounds.
 Change nothing else. Then list exactly what you changed.
