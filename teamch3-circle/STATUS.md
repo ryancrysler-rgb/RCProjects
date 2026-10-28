@@ -137,7 +137,9 @@ with no filter or delay.
 - **Member badges and Elite (October 28).** Public badges: Coach (304513, orange), Elite (305717, navy), Junior (305721,
   light orange), Son of a Butch (305723, dark, for Pod Community members) and one per academy: CH3 Dubai (305718), CH3 Thailand (305719), TeamFLO (305720). No Premier or Pod badge
   (Ryan's call). Tagged so far: Ryan (TeamFLO), Ryan Junior (Junior, TeamFLO), the test coaches (their academy). To do
-  (Ryan → Circle AI): paste Part 5 of the Circle AI brief so the welcome workflows add the badges and Email D matches.
+  Done (checked by Claude, Oct 28): all 11 welcome workflows add their badges after the email (Junior + academy,
+  Premier academy, Coaches Coach + academy, Elite, Pod Son of a Butch). Email D's new line can't be read through the
+  connector: check it on the first Elite welcome.
   Elite is now defined as: application only; private coaching with Claude and Ryan; the Elite Basecamp for exclusive
   conferences with the 8 members; RC Greenlight Data Services; plus Son of a Butch and the home academy basecamp. The
   page, FAQ and Ask CH3 guide say so.
