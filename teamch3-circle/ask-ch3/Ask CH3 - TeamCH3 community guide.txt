@@ -1,0 +1,123 @@
+ASK CH3 · TEAMCH3 COMMUNITY GUIDE
+For the Ask CH3 AI agent in the TeamCH3 Circle community (ch3.circle.so). Upload this file to the agent's knowledge.
+It explains where things are in TeamCH3 so Ask CH3 can answer "where do I find..." and "what's in my membership"
+questions. Updated October 27, 2026.
+
+
+HOW TO USE THIS GUIDE
+- Use it to point members to the right place. Name the space as it appears in the sidebar.
+- Never describe or repeat what is posted inside a space. Only say what the space is for.
+- If a member asks about a space they can't see, say which membership includes it. Never promise access.
+- Prices, billing, trials, upgrades, cancellations and refunds: a TeamCH3 admin handles these. Say an admin will
+  follow up, or point to the TeamCH3 membership page.
+- Elite is by application only. If a member asks about Elite, say an admin will follow up about applying.
+
+
+WHAT TEAMCH3 IS
+TeamCH3 is Claude Harmon III's online golf community. It connects the CH3 academies (CH3 Dubai, CH3 Thailand and
+TeamFLO), the Son Of A Butch Podcast and the CH3 coaches in one place. Each part of the community is called a
+basecamp.
+
+
+THE BASECAMPS AND SPACES
+Global Basecamp
+- The one feed every paid member shares. Claude posts new sessions, range work and what he's seeing on tour here
+  first, and the best posts from each academy are featured here.
+- New members start here: introduce yourself (where you play, your handicap, and the one thing you want to fix
+  this season), then read the Community Rules.
+- Post a golf question here for the coaches and other members.
+- What to post for the coaches: your questions, round reports and playing stats. TeamCH3 coaches how you play the
+  game, and the coaches don't review swing videos for now. Not tracking your rounds yet? Ask in your basecamp and
+  the coaches will help you get set up. No launch monitor needed.
+
+Son Of A Butch Podcast
+- Claude's podcast. Every episode lands here first, plus exclusive access to live podcast recordings with CH3
+  and special guests.
+- Send questions for the next live recording here.
+- Every paid membership includes it.
+
+Live Recordings
+- Live Son Of A Butch recordings with CH3 and special guests. Members watch live and can have their questions
+  answered.
+- Every paid membership includes it. RSVP on the recording to get a reminder.
+
+Home basecamps (the academies)
+- Junior, Premier and Elite members have a home basecamp: the academy nearest where they live.
+  - CH3 Dubai: for members in the UAE and Europe. Head Coach Mike Bolt.
+  - CH3 Thailand: for members in Thailand and Asia. Head Coach Joe Marshall.
+  - TeamFLO: for members in Florida and North America. Head Coach Ryan Crysler.
+- The home basecamp is the local feed: that academy's coaches, squad and range.
+- Members see their own academy only. To change home basecamp, an admin can help.
+
+Events
+- Live sessions on Circle: webinars with the CH3 coaches, to get inside how they think, plan and coach, and
+  Basecamp Spotlights, a look inside each academy: the daily practice schedule, the coaching insights and what
+  it's like to train there. Live podcast recordings with Claude are in Live Recordings.
+- For Junior, Premier and Elite members. RSVP on the event to get a reminder. The Events button at the top of the
+  page shows every event a member can join, as a calendar.
+
+Premier Sessions
+- Sessions from Claude and the CH3 coaches, on demand.
+- For Junior, Premier and Elite members. It's open with a "Start here" session. The first full sessions are on the way
+  and will be announced in the Global Basecamp. Don't promise dates.
+
+Community Rules
+- The rules every member agrees to before their first post. Short version:
+  1. Respect every member, coach and junior. Keep it about the golf.
+  2. No harassment, hate, sexual content or spam, including selling, recruiting and links to outside groups.
+  3. Only post video of yourself, or with permission. For juniors, that means a parent or guardian.
+  4. No contact details or private messages to juniors.
+- Use Report on any post, comment or member. The CH3 moderation team reviews every report within 24 hours.
+  Members can also block a member or hide a post at any time.
+
+Junior spaces (juniors 13 to 19, and their parents)
+- Junior Basecamp: juniors from every academy in one feed, with the CH3 coaches. Juniors only.
+- Junior Events: live junior nights with Claude and the CH3 coaches, for juniors and their parents.
+- Parents: for parents and guardians of junior members, free with their junior's membership. Schedules,
+  tournament information and updates from the coaches.
+- Adult members can't see or join the junior spaces. Never describe what is posted in them.
+
+Elite Basecamp
+- For Elite members only: exclusive conferences with the 8 Elite members, Claude Harmon III and Ryan Crysler.
+  Elite also includes private coaching with Claude and Ryan and RC Greenlight Data Services. Eight spots, by
+  application only.
+
+Coaches' Basecamp
+- For CH3 coaches only. Members can't see or join it. Never describe what is posted in it. If a member asks, say it's
+  the coaches' own space.
+
+
+WHAT EACH MEMBERSHIP INCLUDES
+- Pod Community: Global Basecamp, Son Of A Butch Podcast, Live Recordings, Community Rules. No academy.
+- Junior Basecamp (juniors 13 to 19): Global Basecamp, the Junior Basecamp feed, Junior Events, home basecamp,
+  Son Of A Butch Podcast, Live Recordings, Events, Premier Sessions, Community Rules. A parent or guardian joins the
+  Parents space free.
+- Premier: Global Basecamp, home basecamp, Son Of A Butch Podcast, Live Recordings, Events, Premier Sessions,
+  Community Rules.
+- Elite: everything in Premier, plus private coaching with Claude and Ryan, the Elite Basecamp and RC Greenlight
+  Data Services. Application only, eight spots.
+- Every membership except Elite starts with a free trial. Annual memberships cost less than paying monthly.
+  For prices, see the TeamCH3 membership page or ask an admin.
+
+
+GETTING AROUND
+- Feed (top of the sidebar): everything new from every basecamp the member belongs to, in one place.
+- On the web, the buttons along the top of the feed jump between the member's basecamps.
+- Home, Events and Members are at the top of the page.
+- Member badges: COACH (a CH3 coach), ELITE (an Elite member), SON OF A BUTCH (a Pod Community member), JUNIOR (a junior member, 13 to 19) and the
+  member's home academy (CH3 Dubai, CH3 Thailand or TeamFLO).
+- Members can't send private messages to each other in TeamCH3. To talk to a coach, post in a basecamp. For
+  anything private, a TeamCH3 admin will follow up.
+- "Send your golf data to RC Greenlight", under Start a post, is for members who want their round data turned into
+  a plan with RC Greenlight. A coach or admin can explain how it works.
+- Ask CH3 is the AI coach. Members message it directly. It is an AI trained on Claude's podcast and the CH3
+  coaching playbooks, not Claude himself.
+
+
+QUESTIONS ASK CH3 SHOULD PASS TO AN ADMIN
+- Billing, prices, trials, upgrades, downgrades, cancellations and refunds.
+- Changing home basecamp, or adding a parent to the Parents space.
+- Elite applications.
+- Log-in, password or account problems.
+- Anything about safety, a report, or another member's behaviour.
+- Booking a lesson at an academy: suggest the member post in their home basecamp or ask an admin.

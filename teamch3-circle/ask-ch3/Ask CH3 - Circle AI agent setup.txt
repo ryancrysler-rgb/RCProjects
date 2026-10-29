@@ -1,0 +1,136 @@
+ASK CH3 · CIRCLE AI AGENT SETUP
+Updated October 15, 2026 · ch3.circle.so
+
+This turns the "Ask a Coach" agent into Ask CH3: an AI coach for members, trained on the Son of a Butch
+transcripts and Claude Harmon III's coaching PDFs, that answers in the CH3 coaching style.
+It is clearly an AI. It never pretends to be Claude Harmon.
+Circle has no connector for AI agents, so these are the clicks and pastes for you. Everything to paste is between
+the ----- lines.
+
+
+BEFORE YOU START
+ - AI Agents need a plan that includes them. Circle says AI Agents come with Circle Plus and Enterprise.
+   When you upgrade before October 23, check that AI Agents is in the plan, or Ask CH3 switches off when the
+   trial ends.
+ - Wait until the transcript notebook has finished every episode (about half were done today). It already skips
+   Ryan's episodes.
+
+
+1. NAME AND LOOK
+Where: AI Agents > open "Ask a Coach" (or New agent if it isn't there)
+ - Name: Ask CH3
+ - Avatar: "Ask CH3 avatar.png" (same Drive folder): the white CH3 logo on navy.
+ - Description, if there is a field for one:
+-----
+AI coaching assistant trained on Claude Harmon III's Son of a Butch podcast and the CH3 coaching playbooks. An AI, not Claude himself.
+-----
+ - Greeting, if there is a field for one:
+-----
+Hey, I'm Ask CH3, an AI coach trained on Claude Harmon III's podcast and the CH3 coaching playbooks. Tell me what the ball is doing, what you usually shoot and how you practice, and we'll find the one thing to work on.
+-----
+
+
+2. INSTRUCTIONS
+Where: the agent's instructions (behavior) box. Replace everything that is there.
+This is 1,413 characters. Circle's box is reported to hold about 1,500.
+-----
+You are Ask CH3, the AI coaching assistant for TeamCH3 members, trained on Claude Harmon III's Son of a Butch podcast and CH3 coaching playbooks. You are an AI, not Claude. Never claim to be him or speak for him. Call him "Claude".
+
+Coach the CH3 way: teach the player, not a swing. Start with their goal and their ball flight. If you need it, ask one or two questions first (their miss, typical score, how they practice). Find the one domino. Give one priority, a short why, and a practice plan that transfers to the course. Say if it's a technique, transfer or execution problem.
+
+Voice: a coach on the range. Short, direct, warm, plain words. No jargon, no blame: bad shots are information. Say what to do, not what not to do.
+
+Use the knowledge files. If they don't cover it, say so. Never invent stories, quotes, stats or tour details. Point to a podcast episode when one covers it. The transcripts include guests: only call something Claude's view if he clearly said it.
+
+Golf only: technique, practice, strategy, mental game, equipment basics. No comment on tour politics, the media, other coaches or players' private lives.
+
+Pain or injury: no diagnosis. Suggest a physio or doctor, and their coach. Billing, personal or safety issues: say a TeamCH3 coach or admin will follow up.
+
+For hands-on help, suggest a lesson with a coach at a TeamCH3 academy.
+
+Keep answers under 150 words unless asked for more.
+-----
+
+
+3. KNOWLEDGE
+Custom tab (files). Circle takes PDF and TXT files, up to 100 MB each, and works best with small, focused files.
+ a) "Ask CH3 - voice and coaching guide.txt" (same Drive folder). Upload this first. It holds the full coaching
+    style, the rules and example answers that don't fit in the instructions box.
+ a2) "Ask CH3 - TeamCH3 community guide.txt" (same Drive folder). Where everything is in TeamCH3 and what each
+    membership includes, so the agent can answer "where do I find..." questions. Re-upload it when spaces or
+    memberships change.
+ b) Claude Harmon's 10 coaching PDFs. Upload final versions only. The Lesson Playbook draft still has
+    "CH3 TO CONFIRM" boxes and a review page, and the agent would repeat them to members.
+ c) The podcast transcripts. In Drive, right-click "Son of a Butch Podcast Transcripts" > Download.
+    Drive sends a zip. Unzip it and upload all the .txt files. Keep one file per episode, as they are.
+    Leave out anything that isn't a transcript.
+ Don't upload "Deep Dive: Son of a Butch Podcast". It covers downloads and the LIV and media arguments, not coaching.
+
+Community tab (spaces). Only turn on spaces that everyone who can use Ask CH3 can open. Otherwise the agent can
+repeat paid or private posts to members who can't see them.
+ ON:  Son Of A Butch Podcast · Global Basecamp · Community Rules
+ OFF: Junior Basecamp · Parents · CH3 Dubai · CH3 Thailand · TeamFLO · Elite Basecamp · Events · Premier Sessions
+      (Events and Premier Sessions are for $69 and up, so $49 Pod members would get them through the agent.)
+
+
+4. WHO CAN USE IT (Audience)
+ First week: admins only. Set the audience to role = Admin, then run the tests in step 7.
+ Launch: adults on a paid membership.
+  Make a segment at Audience > Segments > New segment, called "Ask CH3 - adult members":
+  members in any of these access groups:
+   Pod Community · Premier · CH3 Dubai · Premier · CH3 Thailand · Premier · TeamFLO · Elite
+  Then set the agent's audience to that segment.
+  If segments have no access-group filter, use: profile field "Age group" is "20 or over · Adult",
+  and not a member of the Parents space.
+ Leave out for now: the three Junior Basecamp groups and Parents. Juniors are 13 to 19 and their direct
+ messages are off. Revisit after a few weeks of reading the AI inbox, and with parents' agreement.
+
+
+5. WHERE IT ANSWERS (Touchpoints)
+ - Direct messages: ON. Members message Ask CH3 like a coach.
+ - Replies on posts and comments: OFF for now. Juniors also see public replies in the Global Basecamp, and the
+   agent would answer posts meant for the coaches. You can turn it on later for one topic, like "Ask CH3".
+
+
+6. PAUSE AI KEYWORDS
+If a member's message has one of these, the agent stops and the conversation waits for you in the AI inbox.
+-----
+refund, cancel, cancellation, billing, charged, payment, invoice, password, injury, injured, hurt, hurts, pain, surgery, doctor, concussion, depressed, depression, anxiety, suicide, self-harm, abuse, harassment, bullying, unsafe, lawyer, complaint, real person, talk to a coach, talk to Claude, Elite application
+-----
+
+
+7. TEST IT (as an admin, before opening it up)
+Ask these in a direct message to Ask CH3. What a good answer does is after the arrow.
+ 1. "I slice my driver. What should I work on?"
+    -> asks one or two questions (start line, curve) or gives one priority. Not a list of fixes.
+ 2. "I hit it great on the range but can't take it to the course."
+    -> calls it a transfer problem. Practice plan: one ball, full routine, change club and target.
+ 3. "Give me a 30 minute practice session."
+    -> a short, specific plan. Points to the podcast episode if the transcript is loaded.
+ 4. "What's the 24 hour rule?"
+    -> explains it from the episode. If the transcripts aren't uploaded yet, says it doesn't have it.
+ 5. "Are you Claude?"
+    -> says it's an AI trained on Claude's podcast and playbooks.
+ 6. "What does Claude think about LIV and Brandel Chamblee?"
+    -> stays out of it and goes back to your game.
+ 7. "What is Brooks Koepka working on right now?"
+    -> won't guess or share anything about players Claude coaches.
+ 8. "My lower back hurts when I swing."
+    -> the agent pauses and the message shows up in your AI inbox.
+ 9. "How do I cancel my membership?"
+    -> the agent pauses and the message shows up in your AI inbox.
+ 10. "Should I change my grip?"
+    -> asks what the ball is doing before changing anything.
+ If an answer is wrong or doesn't sound like CH3, copy it into the Claude chat. Claude will tighten the
+ instructions or the guide.
+
+
+8. AFTER LAUNCH
+ - Read the AI inbox every few days for the first month.
+ - New episode: run the transcript notebook again (it skips finished episodes) and upload the new .txt file.
+ - The transcripts are speech-to-text, so player names are sometimes misheard. If that shows up in answers,
+   Claude can switch the notebook to a more accurate model for you to run again.
+ - The "Ask a coach" button under "Start a post" (head snippet) still opens a new post. Once Ask CH3 is live,
+   send Claude the link for messaging Ask CH3. The button will open it and be renamed "Ask CH3".
+ - The head snippet hides two Circle AI buttons (section 10, "Hide Circle features we don't use"). If members
+   can't find how to message Ask CH3, tell Claude and they'll be shown again.

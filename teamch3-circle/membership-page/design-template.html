@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="de0ed466-37ec-40c0-9473-f64bb0dcc238"></script>
+</head>
+<body>
+
+<x-dc>
+<!-- @template name="Membership Site" description="TeamCH3 membership launch site — tiers, offerings, Son of a Butch community, academy home basecamps, live Foresight range session. White / navy / orange only." -->
+<helmet><script src="4b585e29-2e5c-42a5-a22f-995e98e1892f"></script><script src="cb46ff6d-5b0e-47eb-8144-650178feb7cc"></script><style>body{margin:0;background:#fff}a{color:#C9432F;text-decoration:none}a:hover{color:#B33826}@keyframes ch3bar{0%{transform:scaleX(0);opacity:0}25%{transform:scaleX(1);opacity:1}80%{opacity:1}100%{transform:scaleX(1);opacity:0}}@keyframes ch3marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}@keyframes ch3pulse{0%,100%{opacity:1}50%{opacity:.25}}@keyframes ch3pop{0%{transform:translate(-50%,-50%) scale(0)}70%{transform:translate(-50%,-50%) scale(1.5)}100%{transform:translate(-50%,-50%) scale(1)}}@keyframes ch3sweep{from{transform:translateX(-100%)}to{transform:translateX(100%)}}</style></helmet>
+<div style="font-family:'Barlow Condensed','Arial Narrow',sans-serif;color:#253746;background:#fff;min-width:0">
+<header data-screen-label="Nav" style="position:sticky;top:0;z-index:30;background:#253746;display:flex;align-items:center;gap:28px;padding:0 40px;height:72px;border-bottom:3px solid #E04E39">
+<a href="#" style="flex:none;display:block"><img src="724528f7-5b9d-45d3-b948-7dd4cceefc0c" alt="CH3 Performance Golf Academy" style="display:block;height:52px;width:auto"></a>
+<nav style="display:flex;gap:26px;flex:1;min-width:0;overflow:hidden;white-space:nowrap">
+<a href="#grid" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">WHAT'S INSIDE</a>
+<a href="#session" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">ON THE RANGE</a>
+<a href="#pod" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">SON OF A BUTCH</a>
+<a href="#basecamp" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">ACADEMY TEAMS</a>
+<a href="#tiers" style="font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">MEMBERSHIP</a>
+</nav>
+<a href="#" style="flex:none;font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff">LOG IN</a>
+<a href="#tiers" style="flex:none;font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff;background:#C9432F;padding:15px 18px;border-radius:2px" style-hover="background:#B33826">START 4 WEEKS FREE</a>
+</header>
+<div data-screen-label="Race strip" style="position:sticky;top:72px;z-index:29;background:#111A22;color:#fff;display:flex;align-items:center;gap:24px;padding:10px 40px;border-bottom:1px solid #253746">
+<div style="display:flex;flex-direction:column;gap:4px"><span style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA">EP {{ epNum }} <span style="color:#536676">|</span> AFTER THE POD</span><span style="font:400 18px/1 Anton,sans-serif;display:flex;align-items:center;gap:8px"><span style="width:10px;height:10px;border-radius:5px;background:#E04E39;display:inline-block"></span>LIVE Q&amp;A WITH CLAUDE <span style="color:#F47C67">›</span></span></div>
+<div style="flex:1"></div>
+<div style="display:grid;grid-template-rows:auto auto;grid-auto-flow:column;gap:5px 18px;font:600 12px/1 'Barlow Condensed';letter-spacing:.12em;align-items:center"><span style="display:flex;align-items:center;gap:6px"><span style="width:6px;height:6px;border-radius:3px;background:#E04E39"></span>MY TIME</span><span style="font:400 16px/1 Anton,sans-serif;font-variant-numeric:tabular-nums">{{ myTime }}</span><span style="color:#A6B1BA">DUBAI</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums">{{ dubaiTime }}</span><span style="color:#A6B1BA">THAILAND</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums">{{ thaiTime }}</span><span style="color:#A6B1BA">FLORIDA</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums">{{ floTime }}</span></div>
+<div style="font:400 26px/1 Anton,sans-serif;color:#E04E39;font-variant-numeric:tabular-nums;padding-left:20px;border-left:1px solid #384B5B">{{ countShort }}</div>
+</div>
+<section data-screen-label="Hero" style="position:relative;min-height:760px;background:#111A22;overflow:hidden;color:#fff">
+<div style="position:absolute;inset:0"><image-slot id="hero-claude" shape="rect" placeholder="Full-bleed: Claude Harmon III range-side at a tour event"></image-slot></div>
+<div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(17,26,34,.96) 0%,rgba(17,26,34,.75) 42%,rgba(17,26,34,.1) 78%)"></div>
+<div style="position:relative;max-width:1280px;margin:0 auto;padding:96px 40px 150px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(300px,1fr);gap:48px;align-items:center;pointer-events:none">
+<div>
+<div style="display:flex;gap:10px;margin-bottom:28px">
+<sc-for list="{{ lights }}" as="l" hint-placeholder-count="5">
+<div style="width:44px;height:96px;background:#111A22;border:3px solid #384B5B;border-radius:6px;display:flex;flex-direction:column;justify-content:space-around;align-items:center;padding:6px 0;box-sizing:border-box">
+<sc-if value="{{ l.on }}" hint-placeholder-val="{{ false }}"><span style="width:26px;height:26px;border-radius:13px;background:#E04E39;box-shadow:0 0 18px #E04E39"></span><span style="width:26px;height:26px;border-radius:13px;background:#E04E39;box-shadow:0 0 18px #E04E39"></span></sc-if>
+<sc-if value="{{ l.off }}" hint-placeholder-val="{{ true }}"><span style="width:26px;height:26px;border-radius:13px;background:#1E2D3A"></span><span style="width:26px;height:26px;border-radius:13px;background:#1E2D3A"></span></sc-if>
+</div>
+</sc-for>
+</div>
+<div style="font:600 16px/1 'Barlow Condensed';letter-spacing:.18em;color:#F47C67">{{ lightsLabel }}</div>
+<h1 style="margin:14px 0 0;font:400 clamp(60px,8vw,124px)/.88 Anton,sans-serif;text-transform:uppercase">Inside the ropes.<br><span style="color:#E04E39">Every week.</span></h1>
+<p style="margin:28px 0 0;font:400 24px/1.3 'Barlow Condensed';max-width:560px">Claude Harmon III on tour and at home. A live Q&amp;A after every Son of a Butch episode. The full course archive. The coaches from Dubai, Thailand and TeamFLO. One membership.</p>
+<div style="display:flex;gap:14px;margin-top:36px;flex-wrap:wrap;pointer-events:auto">
+<a href="#tiers" style="font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:20px 30px;border-radius:2px" style-hover="background:#C9432F">START 4 WEEKS FREE</a>
+<a href="#session" style="font:600 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;border:2px solid #fff;padding:18px 28px;border-radius:2px" style-hover="background:#fff;color:#253746">WATCH THE RANGE SESSION</a>
+</div>
+<div style="margin-top:16px;font:400 16px/1.3 'Barlow Condensed';color:#A6B1BA">Full access for 4 weeks, then from $50/month. Renews automatically. Cancel any time before day 28 and pay nothing.</div>
+</div>
+<div style="background:#fff;color:#253746;pointer-events:auto;box-shadow:0 18px 48px rgba(0,0,0,.35)">
+<div style="background:#C9432F;color:#fff;padding:12px 18px;display:flex;justify-content:space-between;align-items:center;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em"><span style="display:flex;align-items:center;gap:8px">{{ liveDot }}NEXT ON THE GRID</span><span>AFTER THE POD</span></div>
+<div style="padding:22px 20px 8px">
+<div style="font:400 30px/1 Anton,sans-serif;text-transform:uppercase">Live Q&amp;A with Claude</div>
+<div style="font:400 17px/1.3 'Barlow Condensed';color:#536676;margin-top:8px">Straight after the next Son of a Butch drop. Bring a question. Get it answered on air.</div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2px;padding:12px 20px 20px">
+<sc-for list="{{ countdown }}" as="c" hint-placeholder-count="4">
+<div style="background:#253746;color:#fff;padding:12px 6px;text-align:center"><div style="font:400 40px/1 Anton,sans-serif;font-variant-numeric:tabular-nums">{{ c.v }}</div><div style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA;margin-top:6px">{{ c.l }}</div></div>
+</sc-for>
+</div>
+<a href="#tiers" style="display:block;text-align:center;font:600 16px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff;background:#253746;padding:16px;border-top:2px solid #E04E39" style-hover="background:#1E2D3A">SAVE MY SEAT — FREE</a>
+</div>
+</div>
+<div style="position:absolute;left:0;right:0;bottom:0;background:#C9432F;color:#fff;height:52px;overflow:hidden;display:flex;align-items:center">{{ ticker }}</div>
+</section>
+<section id="grid" data-screen-label="Offerings" style="background:#fff;padding:110px 40px">
+<div style="max-width:1280px;margin:0 auto">
+<div style="display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap">
+<div><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#C9432F">WHAT'S INSIDE · FIVE WAYS IN</div>
+<div style="display:flex;gap:6px;margin:14px 0 18px">{{ bars }}</div>
+<h2 style="margin:0;font:400 clamp(48px,6vw,84px)/.92 Anton,sans-serif;text-transform:uppercase;max-width:900px">The access tour players pay for.<br><span style="color:#E04E39">Now it's on your phone.</span></h2></div>
+<a href="#tiers" style="font:600 17px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#253746;padding:18px 26px;border-radius:2px" style-hover="background:#E04E39">COMPARE TIERS →</a>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:3px;margin-top:56px;background:#253746;padding:3px">
+<sc-for list="{{ offerings }}" as="o" hint-placeholder-count="5">
+<a href="#tiers" style="position:relative;display:flex;flex-direction:column;gap:14px;min-height:420px;padding:28px 24px;background:#fff;color:#253746;overflow:hidden" style-hover="background:#253746;color:#fff">
+<div style="display:flex;justify-content:space-between;align-items:center"><span style="font:400 56px/1 Anton,sans-serif;color:#E04E39">{{ o.n }}</span><span style="font:600 12px/1 'Barlow Condensed';letter-spacing:.12em;color:#fff;background:#C9432F;padding:6px 8px;border-radius:2px">{{ o.tier }}</span></div>
+<span style="width:86px;height:7px;background:#E04E39"></span>
+<span style="font:400 32px/1 Anton,sans-serif;text-transform:uppercase">{{ o.title }}</span>
+<span style="font:600 20px/1.2 'Barlow Condensed'">{{ o.hook }}</span>
+<span style="font:400 17px/1.35 'Barlow Condensed';opacity:.8">{{ o.body }}</span>
+<span style="margin-top:auto;font:600 15px/1 'Barlow Condensed';letter-spacing:.1em;color:#C9432F">{{ o.cta }} →</span>
+</a>
+</sc-for>
+</div>
+</div>
+</section>
+<section id="session" data-screen-label="Range session" style="background:#111A22;color:#fff;padding:110px 40px">
+<div style="max-width:1280px;margin:0 auto">
+<div style="display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap">
+<div><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#F47C67;display:flex;align-items:center;gap:10px">{{ liveDot }}ON THE RANGE · SESSION 014 · FORESIGHT</div>
+<h2 style="margin:14px 0 0;font:400 clamp(48px,6vw,84px)/.92 Anton,sans-serif;text-transform:uppercase">Cam Smith × Claude.<br><span style="color:#E04E39">Every shot. Every number.</span></h2></div>
+<p style="margin:0;font:400 20px/1.35 'Barlow Condensed';color:#A6B1BA;max-width:400px">This is a preview. Premier members get the full 60 minutes: the video, the Foresight data and every cue Claude gives.</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:3px;margin-top:48px;background:#384B5B;padding:3px">
+<div style="position:relative;min-height:560px;background:#1E2D3A">
+<div style="position:absolute;inset:0"><image-slot id="session-cam" shape="rect" placeholder="Range-session still: Cam Smith hitting, Claude watching"></image-slot></div>
+<div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(17,26,34,0) 45%,rgba(17,26,34,.92) 100%)"></div>
+<div style="position:absolute;left:20px;top:20px;display:flex;gap:8px;pointer-events:none"><span style="background:#C9432F;color:#fff;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;padding:8px 10px">SHOT {{ shotNum }} / {{ shotTotal }}</span><span style="background:#253746;color:#fff;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;padding:8px 10px">{{ cur.club }} · TARGET {{ cur.target }}</span></div>
+<div style="position:absolute;left:20px;right:20px;bottom:20px;pointer-events:none">
+<div style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#F47C67">CLAUDE'S CUE</div>
+<div style="font:400 34px/1.05 Anton,sans-serif;text-transform:uppercase;margin-top:8px;max-width:640px">{{ cur.cue }}</div>
+<div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:2px;margin-top:18px">
+<sc-for list="{{ readouts }}" as="r" hint-placeholder-count="5">
+<div style="background:rgba(37,55,70,.92);border-top:3px solid #E04E39;padding:12px"><div style="font:600 12px/1 'Barlow Condensed';letter-spacing:.12em;color:#A6B1BA">{{ r.l }}</div><div style="font:400 30px/1 Anton,sans-serif;margin-top:8px;font-variant-numeric:tabular-nums">{{ r.v }}<span style="font:600 12px/1 'Barlow Condensed';color:#A6B1BA;margin-left:4px">{{ r.u }}</span></div></div>
+</sc-for>
+</div>
+<div style="height:4px;background:#384B5B;margin-top:14px">{{ progressEl }}</div>
+</div>
+</div>
+<div style="background:#253746;display:flex;flex-direction:column">
+<div style="padding:18px 20px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #384B5B"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA">DISPERSION · CARRY VS OFFLINE</span>
+<button sc-camel-on-click="{{ togglePlay }}" style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em;color:#fff;background:#C9432F;border:none;padding:8px 12px;border-radius:2px;cursor:pointer">{{ playLabel }}</button></div>
+<div style="position:relative;height:260px;margin:16px 20px;background:#1E2D3A;overflow:hidden">
+<div style="position:absolute;left:50%;top:0;bottom:0;width:1px;background:#536676"></div>
+<div style="position:absolute;left:0;right:0;top:33%;height:1px;background:#384B5B"></div>
+<div style="position:absolute;left:0;right:0;top:66%;height:1px;background:#384B5B"></div>
+<div style="position:absolute;left:50%;top:50%;width:120px;height:120px;margin:-60px 0 0 -60px;border:2px solid #E04E39;border-radius:60px;opacity:.5"></div>
+<span style="position:absolute;right:8px;top:6px;font:600 12px/1 'Barlow Condensed';letter-spacing:.1em;color:#A6B1BA">LONG</span><span style="position:absolute;right:8px;bottom:6px;font:600 12px/1 'Barlow Condensed';letter-spacing:.1em;color:#A6B1BA">SHORT</span>
+{{ dotEls }}
+</div>
+<div style="display:flex;flex-direction:column;padding:0 20px 8px">
+<sc-for list="{{ shots }}" as="s" hint-placeholder-count="8">
+<sc-if value="{{ s.active }}" hint-placeholder-val="{{ false }}"><button sc-camel-on-click="{{ s.go }}" style="display:grid;grid-template-columns:30px 1fr 60px 60px;gap:8px;align-items:center;padding:9px 10px;background:#C9432F;color:#fff;border:none;cursor:pointer;text-align:left;font:600 15px/1 'Barlow Condensed';font-variant-numeric:tabular-nums"><span>{{ s.n }}</span><span>{{ s.club }}</span><span style="text-align:right">{{ s.carry }}</span><span style="text-align:right">{{ s.off }}</span></button></sc-if>
+<sc-if value="{{ s.inactive }}" hint-placeholder-val="{{ true }}"><button sc-camel-on-click="{{ s.go }}" style="display:grid;grid-template-columns:30px 1fr 60px 60px;gap:8px;align-items:center;padding:9px 10px;background:transparent;color:#CDD4DA;border:none;border-bottom:1px solid #384B5B;cursor:pointer;text-align:left;font:400 15px/1 'Barlow Condensed';font-variant-numeric:tabular-nums" style-hover="background:#1E2D3A"><span style="color:#F47C67">{{ s.n }}</span><span>{{ s.club }}</span><span style="text-align:right">{{ s.carry }}</span><span style="text-align:right">{{ s.off }}</span></button></sc-if>
+</sc-for>
+</div>
+<a href="#tiers" style="margin-top:auto;display:block;text-align:center;font:600 16px/1 'Barlow Condensed';letter-spacing:.1em;color:#fff;background:#C9432F;padding:18px" style-hover="background:#B33826">UNLOCK THE FULL SESSION — PREMIER</a>
+</div>
+</div>
+<div style="margin-top:14px;font:400 14px/1.3 'Barlow Condensed';color:#A6B1BA">Sample data for layout. Replace with the real Foresight export and session video.</div>
+</div>
+</section>
+<section id="pod" data-screen-label="Son of a Butch" style="position:relative;background:#C9432F;color:#fff;padding:110px 40px;overflow:hidden">
+<div style="position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(115deg,rgba(255,255,255,0) 0 44px,rgba(255,255,255,.07) 44px 88px)"></div>
+<div style="position:relative;max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:64px;align-items:center">
+<div>
+<div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#fff">FOR THE SON OF A BUTCH COMMUNITY</div>
+<h2 style="margin:14px 0 0;font:400 clamp(52px,6.4vw,96px)/.9 Anton,sans-serif;text-transform:uppercase">Heard it on the pod?<br><span style="color:#111A22">Let's talk about how it applies to you.</span></h2>
+<p style="margin:26px 0 0;font:400 22px/1.35 'Barlow Condensed';max-width:520px">The episode ends. The mic stays on. Every drop is followed by a live behind-the-scenes Q&amp;A with Claude, open to the whole podcast community.</p>
+<div style="display:flex;flex-direction:column;gap:12px;margin-top:28px">
+<sc-for list="{{ podPerks }}" as="p" hint-placeholder-count="4">
+<div style="display:flex;gap:14px;align-items:baseline;font:400 20px/1.3 'Barlow Condensed'"><span style="font:400 20px/1 Anton,sans-serif;color:#fff">{{ p.n }}</span><span><b style="font-weight:600">{{ p.t }}</b> {{ p.d }}</span></div>
+</sc-for>
+</div>
+<div style="display:flex;gap:14px;margin-top:36px;flex-wrap:wrap">
+<a href="#tiers" style="font:600 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#253746;padding:20px 30px;border-radius:2px" style-hover="background:#111A22">JOIN THE POD COMMUNITY — 4 WEEKS FREE</a>
+</div>
+<div style="margin-top:14px;font:600 16px/1.3 'Barlow Condensed';color:#fff">Then $50/month. Cancel any time.</div>
+</div>
+<div style="background:#253746;box-shadow:0 18px 48px rgba(17,26,34,.35)">
+<div style="position:relative;aspect-ratio:670/395"><image-slot id="pod-cover" shape="rect" src="b539c284-f97e-47c0-84cd-5835b49df570" placeholder="Son of a Butch podcast artwork or studio shot"></image-slot><div style="position:absolute;left:16px;top:16px;display:flex;align-items:center;gap:8px;background:#C9432F;color:#fff;padding:8px 12px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;pointer-events:none">{{ liveDot }}ON AIR</div></div>
+<div style="padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px;border-top:4px solid #fff">
+<div><div style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA">LATEST EPISODE</div><div style="font:400 26px/1.05 Anton,sans-serif;text-transform:uppercase;margin-top:6px">Episode title goes here</div></div>
+<div style="text-align:right;flex:none"><div style="font:600 12px/1 'Barlow Condensed';letter-spacing:.14em;color:#F47C67">AFTER THE POD IN</div><div style="font:400 30px/1 Anton,sans-serif;font-variant-numeric:tabular-nums;margin-top:6px">{{ countShort }}</div></div>
+</div>
+</div>
+</div>
+</section>
+<section id="basecamp" data-screen-label="The Basecamp" style="background:#fff;padding:110px 40px">
+<div style="max-width:1280px;margin:0 auto">
+<div style="display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap">
+<div><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#C9432F">THE BASECAMP · 2026 GRID</div>
+<h2 style="margin:14px 0 0;font:400 clamp(48px,6vw,84px)/.92 Anton,sans-serif;text-transform:uppercase">One global basecamp.<br>A home basecamp for every academy.</h2>
+<p style="margin:20px 0 0;font:400 21px/1.35 'Barlow Condensed';max-width:640px;color:#384B5B">Every player from every CH3 academy is on board, alongside the Son of a Butch community. Everyone shares the Global Basecamp. Each academy also has its own home basecamp: your coaches, your squad, your range. Pick the one that feels like home.</p></div>
+<div style="display:flex;align-items:center;gap:10px;background:#253746;color:#fff;padding:14px 18px;font:600 14px/1 'Barlow Condensed';letter-spacing:.12em">{{ liveDot }}GLOBAL BASECAMP · LIVE TO ALL MEMBERS</div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:20px;margin-top:48px">
+<a href="#tiers" style="position:relative;display:flex;flex-direction:column;min-height:400px;overflow:hidden;border-radius:8px;color:#fff;background:linear-gradient(120deg,#A3321F 0%,#C9432F 100%)" style-hover="transform:translateY(-4px);box-shadow:0 18px 40px rgba(17,26,34,.28)">
+<div style="position:absolute;left:0;right:0;top:120px;bottom:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(255,255,255,.14) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%);mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%)"></div>
+<div style="position:relative;padding:26px 28px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
+<div style="min-width:0">
+<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff"><span style="font:400 18px/1 Anton,sans-serif;color:#fff">P1</span>HOME BASECAMP · UAE + EUROPE</div>
+<div style="font:400 44px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">CH3 Dubai</div>
+<div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px"><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#253746;flex:none"></span>Head <b style="font-weight:700;text-transform:uppercase">Coach</b></span><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#253746;flex:none"></span>Academy <b style="font-weight:700;text-transform:uppercase">Coach</b></span></div>
+</div>
+<div style="flex:none;width:72px;height:72px;border-radius:36px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 0 0 4px rgba(255,255,255,.35)"><img src="fa46084f-77e4-47ae-a937-5dc68a3f796b" alt="" style="width:62px;height:auto;display:block;object-fit:contain;"></div>
+</div>
+<div style="position:relative;height:220px;margin:22px 28px 0"><image-slot id="acad-dubai" shape="rect" placeholder="CH3 Dubai range or player cut-out"></image-slot></div>
+<div style="position:relative;display:flex;justify-content:space-between;align-items:center;padding:16px 28px;border-top:1px solid rgba(255,255,255,.3);font:600 14px/1 'Barlow Condensed';letter-spacing:.12em"><span>PREMIER + ELITE MEMBERS</span><span style="color:#fff">COME ON IN →</span></div>
+</a>
+<a href="#tiers" style="position:relative;display:flex;flex-direction:column;min-height:400px;overflow:hidden;border-radius:8px;color:#fff;background:linear-gradient(120deg,#111A22 0%,#253746 55%,#384B5B 100%)" style-hover="transform:translateY(-4px);box-shadow:0 18px 40px rgba(17,26,34,.28)">
+<div style="position:absolute;left:0;right:0;top:120px;bottom:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(255,255,255,.08) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%);mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%)"></div>
+<div style="position:relative;padding:26px 28px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
+<div style="min-width:0">
+<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA"><span style="font:400 18px/1 Anton,sans-serif;color:#F47C67">P2</span>HOME BASECAMP · THAILAND + ASIA</div>
+<div style="font:400 44px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">CH3 Thailand</div>
+<div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px"><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#E04E39;flex:none"></span>Head <b style="font-weight:700;text-transform:uppercase">Coach</b></span><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#E04E39;flex:none"></span>Academy <b style="font-weight:700;text-transform:uppercase">Coach</b></span></div>
+</div>
+<div style="flex:none;width:72px;height:72px;border-radius:36px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 0 0 4px rgba(224,78,57,.6)"><img src="00cae2d0-8c2a-4858-93aa-a3c112368ba0" alt="" style="width:62px;height:auto;display:block;object-fit:contain;"></div>
+</div>
+<div style="position:relative;height:220px;margin:22px 28px 0"><image-slot id="acad-thailand" shape="rect" placeholder="CH3 Thailand range or player cut-out"></image-slot></div>
+<div style="position:relative;display:flex;justify-content:space-between;align-items:center;padding:16px 28px;border-top:1px solid rgba(255,255,255,.15);font:600 14px/1 'Barlow Condensed';letter-spacing:.12em"><span>PREMIER + ELITE MEMBERS</span><span style="color:#F47C67">COME ON IN →</span></div>
+</a>
+<a href="#tiers" style="position:relative;display:flex;flex-direction:column;min-height:400px;overflow:hidden;border-radius:8px;color:#253746;background:linear-gradient(120deg,#FFFFFF 0%,#E8ECEF 100%)" style-hover="transform:translateY(-4px);box-shadow:0 18px 40px rgba(17,26,34,.28)">
+<div style="position:absolute;left:0;right:0;top:120px;bottom:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(37,55,70,.09) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%);mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%)"></div>
+<div style="position:relative;padding:26px 28px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
+<div style="min-width:0">
+<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#536676"><span style="font:400 18px/1 Anton,sans-serif;color:#C9432F">P3</span>HOME BASECAMP · FLORIDA + NORTH AMERICA</div>
+<div style="font:400 44px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">TeamFLO</div>
+<div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px"><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#253746;flex:none"></span>Ryan <b style="font-weight:700;text-transform:uppercase">Crysler</b></span><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.1em;color:#536676;align-self:center">HEAD COACH · TEAMFLO + RC GREENLIGHT</span></div>
+</div>
+<div style="flex:none;width:72px;height:72px;border-radius:36px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 0 0 4px rgba(37,55,70,.12)"><img src="fa1e6f77-8a0a-4443-887e-3b9e06bba26d" alt="" style="width:62px;height:auto;display:block;object-fit:contain;"></div>
+</div>
+<div style="position:relative;height:220px;margin:22px 28px 0"><image-slot id="acad-teamflo" shape="rect" placeholder="TeamFLO range or player cut-out"></image-slot></div>
+<div style="position:relative;display:flex;justify-content:space-between;align-items:center;padding:16px 28px;border-top:1px solid #CDD4DA;font:600 14px/1 'Barlow Condensed';letter-spacing:.12em"><span>PREMIER + ELITE MEMBERS</span><span style="color:#C9432F">COME ON IN →</span></div>
+</a>
+<a href="#tiers" style="position:relative;display:flex;flex-direction:column;min-height:400px;overflow:hidden;border-radius:8px;color:#fff;background:linear-gradient(120deg,#253746 0%,#253746 40%,#E04E39 140%)" style-hover="transform:translateY(-4px);box-shadow:0 18px 40px rgba(17,26,34,.28)">
+<div style="position:absolute;left:0;right:0;top:120px;bottom:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(224,78,57,.18) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%);mask-image:linear-gradient(90deg,#000 0%,rgba(0,0,0,.6) 45%,transparent 80%)"></div>
+<div style="position:relative;padding:26px 28px 0;display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
+<div style="min-width:0">
+<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#CDD4DA"><span style="font:400 18px/1 Anton,sans-serif;color:#F47C67">POD</span>OPEN COMMUNITY · GLOBAL</div>
+<div style="font:400 44px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">Son of a Butch</div>
+<div style="display:flex;gap:18px;flex-wrap:wrap;margin-top:12px"><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#E04E39;flex:none"></span>Claude <b style="font-weight:700;text-transform:uppercase">Harmon III</b></span><span style="display:flex;align-items:center;gap:8px;font:400 17px/1 'Barlow Condensed'"><span style="width:22px;height:22px;border-radius:11px;background:#E04E39;flex:none"></span>+ Guests <b style="font-weight:700;text-transform:uppercase"></b></span></div>
+</div>
+<div style="flex:none;width:72px;height:72px;border-radius:36px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;box-shadow:0 0 0 4px rgba(224,78,57,.6)"><img src="530230c8-ce0d-4e54-9948-c5e0ce21f727" alt="" style="width:62px;height:auto;display:block;object-fit:contain;"></div>
+</div>
+<div style="position:relative;height:220px;margin:22px 28px 0"><image-slot id="acad-pod" shape="rect" src="b539c284-f97e-47c0-84cd-5835b49df570" placeholder="Podcast studio shot or artwork"></image-slot></div>
+<div style="position:relative;display:flex;justify-content:space-between;align-items:center;padding:16px 28px;border-top:1px solid rgba(255,255,255,.15);font:600 14px/1 'Barlow Condensed';letter-spacing:.12em"><span>ALL TIERS · 4 WEEKS FREE</span><span style="color:#F47C67">JOIN THE POD →</span></div>
+</a>
+<a href="#tiers" data-screen-label="Global Junior Basecamp" style="grid-column:1/-1;position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));overflow:hidden;border-radius:8px;color:#fff;background:linear-gradient(120deg,#A3321F 0%,#C9432F 100%)" style-hover="transform:translateY(-4px);box-shadow:0 18px 40px rgba(17,26,34,.28)">
+<div style="position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,rgba(255,255,255,.12) 0 2px,transparent 2px 9px);-webkit-mask-image:linear-gradient(90deg,transparent 30%,#000 100%);mask-image:linear-gradient(90deg,transparent 30%,#000 100%)"></div>
+<div style="position:relative;padding:30px 28px;display:flex;flex-direction:column;gap:14px">
+<div style="display:flex;align-items:center;gap:10px;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff"><span style="font:400 18px/1 Anton,sans-serif;color:#fff">JR</span>GLOBAL JUNIOR BASECAMP · ALL ACADEMIES</div>
+<div style="font:400 clamp(36px,4vw,52px)/.95 Anton,sans-serif;text-transform:uppercase">Juniors from every academy.<br>One basecamp.</div>
+<p style="margin:0;font:400 19px/1.35 'Barlow Condensed';max-width:520px">Junior players from CH3 Dubai, CH3 Thailand and TeamFLO train, post and compete together, with everything in Premier included.</p>
+<div style="display:flex;gap:8px;flex-wrap:wrap"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em;background:#fff;color:#253746;padding:8px 12px;border-radius:2px">CH3 DUBAI</span><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em;background:#fff;color:#253746;padding:8px 12px;border-radius:2px">CH3 THAILAND</span><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em;background:#fff;color:#253746;padding:8px 12px;border-radius:2px">TEAMFLO</span></div>
+<div style="display:flex;align-items:baseline;gap:8px;margin-top:auto;padding-top:8px"><span style="font:400 56px/1 Anton,sans-serif">$69</span><span style="font:600 16px/1 'Barlow Condensed';letter-spacing:.1em">/MONTH · PREMIER ACCESS</span></div>
+<div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,.35);padding-top:14px;font:600 14px/1 'Barlow Condensed';letter-spacing:.12em"><span>JUNIORS + PARENTS</span><span style="color:#fff">JOIN THE JUNIOR BASECAMP →</span></div>
+</div>
+<div style="position:relative;min-height:300px;margin:22px 22px 22px 0"><image-slot id="junior-paddock" shape="rect" placeholder="Junior players group shot"></image-slot></div>
+</a>
+
+<div style="margin-top:20px;background:#253746;color:#fff;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,2fr);gap:0">
+<div style="padding:28px;border-right:1px solid #384B5B"><div style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#F47C67">NOT AT A CH3 ACADEMY?</div><div style="font:400 32px/1 Anton,sans-serif;text-transform:uppercase;margin-top:10px">There's a basecamp for you.</div><div style="font:400 17px/1.35 'Barlow Condensed';color:#CDD4DA;margin-top:10px">Premier and Elite members are welcomed into the home basecamp closest to them.</div></div>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr))">
+<sc-for list="{{ regions }}" as="r" hint-placeholder-count="3">
+<sc-if value="{{ r.active }}" hint-placeholder-val="{{ false }}"><button sc-camel-on-click="{{ r.pick }}" style="text-align:left;border:none;cursor:pointer;padding:28px 22px;background:#C9432F;color:#fff;display:flex;flex-direction:column;gap:8px"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em">{{ r.region }}</span><span style="font:400 18px/1 Anton,sans-serif">↓</span><span style="font:400 28px/1 Anton,sans-serif;text-transform:uppercase">{{ r.academy }}</span><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em">YOUR HOME BASECAMP ✓</span></button></sc-if>
+<sc-if value="{{ r.inactive }}" hint-placeholder-val="{{ true }}"><button sc-camel-on-click="{{ r.pick }}" style="text-align:left;border:none;border-left:1px solid #384B5B;cursor:pointer;padding:28px 22px;background:transparent;color:#fff;display:flex;flex-direction:column;gap:8px" style-hover="background:#1E2D3A"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#A6B1BA">{{ r.region }}</span><span style="font:400 18px/1 Anton,sans-serif;color:#F47C67">↓</span><span style="font:400 28px/1 Anton,sans-serif;text-transform:uppercase">{{ r.academy }}</span><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.12em;color:#A6B1BA">SELECT</span></button></sc-if>
+</sc-for>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="feed-preview" data-screen-label="Feed preview" style="position:relative;background:#253746;color:#fff;padding:110px 40px;overflow:hidden">
+<div style="position:absolute;left:0;right:0;bottom:0;height:45%;pointer-events:none;background:#111A22"></div>
+<div style="position:relative;max-width:1280px;margin:0 auto">
+<div style="display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap">
+<div><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#F47C67">INSIDE THE APP</div>
+<h2 style="margin:14px 0 0;font:400 clamp(48px,6vw,84px)/.92 Anton,sans-serif;text-transform:uppercase">Your feed.<br><span style="color:#E04E39">Built like the ones you already know.</span></h2></div>
+<p style="margin:0;font:400 20px/1.35 'Barlow Condensed';color:#CDD4DA;max-width:420px">Stories from the coaches, swing videos with the Foresight numbers on screen, and the conversation. Switch between the Global Basecamp and your home basecamp in one tap.</p>
+</div>
+<div style="margin-top:48px;display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:32px;align-items:center">
+<div style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.45)">
+<div style="height:36px;background:#E8ECEF;display:flex;align-items:center;gap:8px;padding:0 14px;border-bottom:1px solid #CDD4DA"><span style="width:11px;height:11px;border-radius:6px;background:#CDD4DA"></span><span style="width:11px;height:11px;border-radius:6px;background:#CDD4DA"></span><span style="width:11px;height:11px;border-radius:6px;background:#CDD4DA"></span><span style="margin-left:14px;flex:1;max-width:360px;height:22px;border-radius:11px;background:#fff;display:flex;align-items:center;padding:0 12px;font:400 13px/1 'Barlow Condensed';color:#536676">teamch3.com/basecamp</span></div>
+<img src="c7b5244b-de71-4c97-92ac-40d0afaf1a74" alt="TeamCH3 Global Basecamp feed" style="display:block;width:100%;height:auto">
+</div>
+<div style="display:flex;flex-direction:column;gap:3px">
+<div style="background:#1E2D3A;border-left:5px solid #E04E39;padding:18px"><div style="font:400 22px/1 Anton,sans-serif;color:#F47C67">01</div><div style="font:400 22px/1.05 Anton,sans-serif;text-transform:uppercase;margin-top:8px">Coach stories</div><div style="font:400 16px/1.35 'Barlow Condensed';color:#CDD4DA;margin-top:6px">Claude, Ryan and your academy coaches. Live sessions ring orange.</div></div>
+<div style="background:#1E2D3A;border-left:5px solid #E04E39;padding:18px"><div style="font:400 22px/1 Anton,sans-serif;color:#F47C67">02</div><div style="font:400 22px/1.05 Anton,sans-serif;text-transform:uppercase;margin-top:8px">One tap, two feeds</div><div style="font:400 16px/1.35 'Barlow Condensed';color:#CDD4DA;margin-top:6px">Global Basecamp for everyone. Your home basecamp for your squad.</div></div>
+<div style="background:#1E2D3A;border-left:5px solid #E04E39;padding:18px"><div style="font:400 22px/1 Anton,sans-serif;color:#F47C67">03</div><div style="font:400 22px/1.05 Anton,sans-serif;text-transform:uppercase;margin-top:8px">Data on the swing</div><div style="font:400 16px/1.35 'Barlow Condensed';color:#CDD4DA;margin-top:6px">Foresight numbers sit right on the video. Post your own.</div></div>
+<a href="#tiers" style="display:block;text-align:center;margin-top:12px;font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:18px;border-radius:2px" style-hover="background:#C9432F">GET IN THE FEED — 4 WEEKS FREE</a>
+</div>
+</div>
+</div>
+</section>
+<section id="tiers" data-screen-label="Membership tiers" style="background:#253746;color:#fff;padding:110px 40px">
+<div style="max-width:1280px;margin:0 auto">
+<div style="text-align:center"><div style="font:600 15px/1 'Barlow Condensed';letter-spacing:.18em;color:#F47C67">MEMBERSHIP</div>
+<div style="display:flex;gap:6px;justify-content:center;margin:14px 0 18px">{{ bars }}</div>
+<h2 style="margin:0;font:400 clamp(52px,6.4vw,96px)/.9 Anton,sans-serif;text-transform:uppercase">Pick your grid slot.</h2>
+<p style="margin:18px auto 0;font:400 21px/1.35 'Barlow Condensed';color:#CDD4DA;max-width:620px">Every membership starts with 4 weeks of full access. Choose where you land after that.</p></div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:3px;margin-top:56px;align-items:stretch">
+<sc-for list="{{ tiers }}" as="t" hint-placeholder-count="4">
+<div style="position:relative;display:flex;flex-direction:column;background:#fff;color:#253746;overflow:hidden">
+<div style="background:#1E2D3A;color:#fff;padding:14px 24px;display:flex;justify-content:space-between;font:600 13px/1 'Barlow Condensed';letter-spacing:.14em"><span style="color:#F47C67">{{ t.pos }}</span><span>{{ t.flag }}</span></div>
+<div style="padding:28px 24px 0">
+<div style="font:400 36px/1 Anton,sans-serif;text-transform:uppercase">{{ t.name }}</div>
+<div style="font:400 18px/1.3 'Barlow Condensed';color:#536676;margin-top:8px;min-height:48px">{{ t.pitch }}</div>
+<div style="display:flex;align-items:baseline;gap:6px;margin-top:20px"><span style="font:400 72px/1 Anton,sans-serif;font-variant-numeric:tabular-nums">{{ t.price }}</span><span style="font:600 18px/1 'Barlow Condensed';color:#536676">/MONTH</span></div>
+<div style="font:600 15px/1.3 'Barlow Condensed';color:#C9432F;margin-top:8px">{{ t.note }}</div>
+</div>
+<div style="padding:22px 24px;display:flex;flex-direction:column;gap:10px;flex:1">
+<sc-for list="{{ t.feats }}" as="f" hint-placeholder-count="6">
+<sc-if value="{{ f.yes }}" hint-placeholder-val="{{ true }}"><div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed'"><span style="flex:none;width:16px;height:16px;background:#E04E39;color:#fff;font:700 12px/16px 'Barlow Condensed';text-align:center">✓</span><span>{{ f.t }}</span></div></sc-if>
+<sc-if value="{{ f.no }}" hint-placeholder-val="{{ false }}"><div style="display:flex;gap:10px;align-items:baseline;font:400 18px/1.3 'Barlow Condensed';color:#536676"><span style="flex:none;width:16px;height:16px;border:2px solid #A6B1BA;box-sizing:border-box"></span><span style="text-decoration:line-through">{{ f.t }}</span></div></sc-if>
+</sc-for>
+</div>
+<sc-if value="{{ t.primary }}" hint-placeholder-val="{{ false }}"><a href="#" style="display:block;text-align:center;font:700 19px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:22px" style-hover="background:#C9432F">{{ t.cta }}</a></sc-if>
+<sc-if value="{{ t.secondary }}" hint-placeholder-val="{{ true }}"><a href="#" style="display:block;text-align:center;font:600 18px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#253746;padding:22px" style-hover="background:#E04E39">{{ t.cta }}</a></sc-if>
+</div>
+</sc-for>
+</div>
+<div style="text-align:center;margin-top:24px;font:400 16px/1.3 'Barlow Condensed';color:#A6B1BA">Prices in USD, billed monthly. Not at a CH3 academy? You're welcomed into the closest home basecamp: North America → TeamFLO, Europe → CH3 Dubai, Asia → CH3 Thailand. Elite is limited and by application.</div>
+<div style="margin-top:40px;border:2px solid #E04E39;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);align-items:stretch">
+<div style="padding:32px"><div style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#F47C67">ELITE · LIMITED SPOTS · BY APPLICATION</div><div style="font:400 44px/.95 Anton,sans-serif;text-transform:uppercase;margin-top:10px">Eight seats on the pit wall.</div><p style="margin:14px 0 0;font:400 19px/1.35 'Barlow Condensed';color:#CDD4DA;max-width:560px">Direct access to Claude Harmon III and Ryan Crysler, Head Coach of TeamFLO and RC Greenlight. Applications are reviewed by the coaching team. Tell us about your game, your goals and your schedule.</p></div>
+<div style="background:#C9432F;color:#fff;padding:32px;display:flex;flex-direction:column;justify-content:center;gap:14px">
+<div style="display:flex;align-items:baseline;gap:10px"><span style="font:400 88px/.9 Anton,sans-serif;font-variant-numeric:tabular-nums">{{ eliteLeft }}</span><span style="font:600 16px/1.1 'Barlow Condensed';letter-spacing:.12em">OF 8<br>SPOTS LEFT</span></div>
+<div style="display:flex;gap:3px">{{ seatBar }}</div>
+<a href="#" style="text-align:center;font:600 18px/1 'Barlow Condensed';letter-spacing:.08em;color:#C9432F;background:#fff;padding:18px;border-radius:2px" style-hover="background:#253746;color:#fff">APPLY FOR ELITE</a>
+</div>
+</div>
+</div>
+</section>
+<section data-screen-label="Final CTA" style="position:relative;background:#fff;padding:120px 40px;overflow:hidden;border-top:6px solid #E04E39">
+<div style="max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;align-items:end;gap:40px;flex-wrap:wrap">
+<div>
+<div style="display:flex;gap:8px;margin-bottom:24px">
+<sc-for list="{{ lights }}" as="l" hint-placeholder-count="5">
+<sc-if value="{{ l.on }}" hint-placeholder-val="{{ false }}"><span style="width:30px;height:30px;border-radius:15px;background:#E04E39;box-shadow:0 0 14px #E04E39"></span></sc-if>
+<sc-if value="{{ l.off }}" hint-placeholder-val="{{ true }}"><span style="width:30px;height:30px;border-radius:15px;background:#E8ECEF"></span></sc-if>
+</sc-for>
+</div>
+<h2 style="margin:0;font:400 clamp(64px,9vw,140px)/.86 Anton,sans-serif;text-transform:uppercase">Lights out.<br><span style="color:#E04E39">Your 4 weeks start now.</span></h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;align-items:flex-start">
+<a href="#tiers" style="font:700 20px/1 'Barlow Condensed';letter-spacing:.08em;color:#fff;background:#E04E39;padding:22px 34px;border-radius:2px" style-hover="background:#C9432F">START 4 WEEKS FREE</a>
+<span style="font:400 17px/1.3 'Barlow Condensed';color:#536676">Next live session in {{ countShort }}.</span>
+</div>
+</div>
+</section>
+<footer data-screen-label="Footer" style="background:#111A22;color:#A6B1BA;padding:56px 40px 40px">
+<div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:minmax(0,2fr) repeat(3,minmax(0,1fr));gap:32px">
+<div><img src="724528f7-5b9d-45d3-b948-7dd4cceefc0c" alt="CH3 Performance Golf Academy" style="display:block;height:96px;width:auto;margin-left:-14px"><p style="margin:12px 0 0;font:400 17px/1.4 'Barlow Condensed';max-width:320px">The digital Basecamp for Claude Harmon III, the CH3 academies and the Son of a Butch community.</p></div>
+<div style="display:flex;flex-direction:column;gap:10px;font:400 17px/1 'Barlow Condensed'"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff">INSIDE</span><a href="#grid" style="color:#A6B1BA">Live webinars</a><a href="#grid" style="color:#A6B1BA">Course archive</a><a href="#pod" style="color:#A6B1BA">After the Pod</a><a href="#grid" style="color:#A6B1BA">On tour with Claude</a></div>
+<div style="display:flex;flex-direction:column;gap:10px;font:400 17px/1 'Barlow Condensed'"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff">ACADEMIES</span><a href="#basecamp" style="color:#A6B1BA">CH3 Dubai</a><a href="#basecamp" style="color:#A6B1BA">CH3 Thailand</a><a href="#basecamp" style="color:#A6B1BA">TeamFLO</a></div>
+<div style="display:flex;flex-direction:column;gap:10px;font:400 17px/1 'Barlow Condensed'"><span style="font:600 13px/1 'Barlow Condensed';letter-spacing:.14em;color:#fff">MEMBERSHIP</span><a href="#tiers" style="color:#A6B1BA">Pod Community</a><a href="#tiers" style="color:#A6B1BA">Premier</a><a href="#tiers" style="color:#A6B1BA">Elite</a><a href="#" style="color:#A6B1BA">Log in</a></div>
+</div>
+<div style="max-width:1280px;margin:40px auto 0;padding-top:20px;border-top:1px solid #384B5B;font:600 13px/1 'Barlow Condensed';letter-spacing:.1em">© 2026 CH3 PERFORMANCE GOLF</div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;animate&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;F1 motion&quot;}}">
+class Component extends DCLogic {
+  state = { now: Date.now(), phase: 0, shot: 0, playing: true, sub: 0, region: 'na' };
+  eliteLeft = 3;
+  componentDidMount() {
+    this.t1 = setInterval(() => this.setState(s => ({ now: Date.now(), phase: (s.phase + 1) % 12 })), 450);
+    this.t2 = setInterval(() => { if (this.state.playing && (this.props.animate ?? true)) this.setState(s => { const sub = s.sub + 1; return sub >= 6 ? { sub: 0, shot: (s.shot + 1) % this.shotData.length } : { sub }; }); }, 500);
+  }
+  componentWillUnmount() { clearInterval(this.t1); clearInterval(this.t2); }
+  shotData = [
+    { club: '7-IRON', target: '175', cs: 89.6, bs: 123.4, la: 16.8, sp: 7020, carry: 178, off: -2, cue: 'Hold the finish. Let the ball tell you.' },
+    { club: '7-IRON', target: '175', cs: 89.9, bs: 124.1, la: 16.4, sp: 6890, carry: 179, off: 1, cue: 'Same again. Pick a smaller target.' },
+    { club: '7-IRON', target: '165', cs: 86.2, bs: 118.0, la: 17.9, sp: 7410, carry: 166, off: -1, cue: 'Three-quarter. Flight it under the wind.' },
+    { club: '7-IRON', target: '165', cs: 86.5, bs: 118.6, la: 17.2, sp: 7280, carry: 167, off: 3, cue: 'Start line first. Curve second.' },
+    { club: 'DRIVER', target: 'FWY', cs: 117.8, bs: 173.9, la: 11.6, sp: 2480, carry: 289, off: -6, cue: 'Tee it higher. Hit up on it.' },
+    { club: 'DRIVER', target: 'FWY', cs: 118.4, bs: 175.2, la: 12.4, sp: 2310, carry: 294, off: 4, cue: 'That one plays. Full routine on the next.' },
+    { club: 'DRIVER', target: 'FWY', cs: 118.1, bs: 174.6, la: 12.1, sp: 2390, carry: 292, off: -2, cue: 'Commit. Pick the line and go.' },
+    { club: 'WEDGE', target: '95', cs: 76.3, bs: 94.8, la: 29.4, sp: 9850, carry: 96, off: 0, cue: 'Last ball like it is the 72nd hole.' }
+  ];
+  bars(k) {
+    const animate = this.props.animate ?? true;
+    return [150, 96, 52, 24].map((w, i) => React.createElement('span', { key: k + i, style: { display: 'block', height: 7, width: w, background: i === 0 ? '#E04E39' : 'rgba(224,78,57,' + (0.75 - i * 0.2) + ')', transformOrigin: 'left', animation: animate ? 'ch3bar 1.8s ' + (i * 0.12) + 's cubic-bezier(.2,.8,.2,1) infinite' : 'none' } }));
+  }
+  nextLive() {
+    const n = new Date(this.state.now); const t = new Date(Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate(), 15, 0, 0));
+    const add = (4 - t.getUTCDay() + 7) % 7; t.setUTCDate(t.getUTCDate() + add); if (t <= n) t.setUTCDate(t.getUTCDate() + 7);
+    return Math.max(0, Math.floor((t - n) / 1000));
+  }
+  renderVals() {
+    const animate = this.props.animate ?? true;
+    const ph = animate ? this.state.phase : 7;
+    const lit = ph >= 1 && ph <= 5 ? ph : ph >= 6 && ph <= 8 ? 5 : 0;
+    const lights = [0, 1, 2, 3, 4].map(i => ({ on: i < lit, off: i >= lit }));
+    const secs = this.nextLive(); const p = v => String(v).padStart(2, '0');
+    const d = Math.floor(secs / 86400), h = Math.floor(secs % 86400 / 3600), m = Math.floor(secs % 3600 / 60), s = secs % 60;
+    const items = ['AFTER THE POD · LIVE Q&A EVERY EPISODE', 'NEW: CAM SMITH RANGE SESSION ON FORESIGHT', 'WEEKLY LIVE WEBINARS WITH THE CH3 COACHES', 'ON TOUR WITH CLAUDE · BEHIND THE ROPES', 'CH3 DUBAI · CH3 THAILAND · TEAMFLO', 'START 4 WEEKS FREE'];
+    const run = items.concat(items).map((t, i) => React.createElement('span', { key: i, style: { display: 'inline-flex', alignItems: 'center', gap: 28, paddingRight: 28, font: "600 17px/1 'Barlow Condensed'", letterSpacing: '.14em', whiteSpace: 'nowrap' } }, t, React.createElement('span', { style: { width: 8, height: 8, background: '#253746', display: 'inline-block', transform: 'rotate(45deg)' } })));
+    const ticker = React.createElement('div', { style: { display: 'flex', width: 'max-content', animation: animate ? 'ch3marquee 40s linear infinite' : 'none' } }, run);
+    const liveDot = React.createElement('span', { style: { width: 10, height: 10, borderRadius: 5, background: '#fff', boxShadow: '0 0 0 3px rgba(255,255,255,.3)', display: 'inline-block', animation: animate ? 'ch3pulse 1.2s ease-in-out infinite' : 'none' } });
+    const S = this.shotData, cur = S[this.state.shot];
+    const toX = o => (50 + o * 4.5) + '%';
+    const toY = (sh) => { const rel = sh.club === 'DRIVER' ? (sh.carry - 291) : sh.club === 'WEDGE' ? (sh.carry - 95) : (sh.carry - Number(sh.target) - 2); return (50 - rel * 9) + '%'; };
+    return {
+      lights, lightsLabel: lit === 0 && ph >= 9 ? 'LIGHTS OUT — AND AWAY WE GO' : 'TEAMCH3 · THE BASECAMP IS OPEN',
+      countdown: [{ v: p(d), l: 'DAYS' }, { v: p(h), l: 'HRS' }, { v: p(m), l: 'MIN' }, { v: p(s), l: 'SEC' }],
+      countShort: (d ? d + 'D ' : '') + p(h) + ':' + p(m) + ':' + p(s),
+      ticker, liveDot, bars: this.bars('b'),
+      offerings: [
+        { n: '01', tier: 'ALL TIERS', title: 'Live webinars', hook: 'On the calendar. On the clock.', body: 'Scheduled sessions with Claude and the CH3 coaches every week. Ask live, get answered on air.', cta: 'SEE THE SCHEDULE' },
+        { n: '02', tier: 'ALL TIERS', title: 'Course archive', hook: 'The whole playbook, on demand.', body: 'Every course, drill and breakdown we have filmed. Start anywhere. Pick up where you left off.', cta: 'BROWSE COURSES' },
+        { n: '03', tier: 'ALL TIERS', title: 'After the Pod', hook: 'The episode ends. The mic stays on.', body: 'A live behind-the-scenes Q&A after every Son of a Butch drop. The stories that did not make the edit.', cta: 'NEXT ONE IN ' + p(h) + ':' + p(m) },
+        { n: '04', tier: 'PREMIER +', title: 'On tour with Claude', hook: 'Range-side. Week in, week out.', body: 'Behind-the-scenes coaching from tour events and from home. The sessions, the data and the thinking.', cta: 'GO INSIDE THE ROPES' },
+        { n: '05', tier: 'PREMIER +', title: "The Coaches' Room", hook: 'Every CH3 coach. One room.', body: 'Behind the scenes with the coaches from Dubai, Thailand and TeamFLO: how they diagnose, plan and run a lesson.', cta: 'MEET THE COACHES' }
+      ],
+      shotNum: this.state.shot + 1, shotTotal: S.length, cur,
+      readouts: [{ l: 'CLUB SPEED', v: cur.cs.toFixed(1), u: 'MPH' }, { l: 'BALL SPEED', v: cur.bs.toFixed(1), u: 'MPH' }, { l: 'LAUNCH', v: cur.la.toFixed(1), u: '°' }, { l: 'SPIN', v: cur.sp.toLocaleString(), u: 'RPM' }, { l: 'CARRY', v: String(cur.carry), u: 'YDS' }],
+      progress: ((this.state.sub + 1) / 6 * 100) + '%',
+      playLabel: this.state.playing ? 'PAUSE' : 'PLAY',
+      togglePlay: () => this.setState(s => ({ playing: !s.playing })),
+      dotEls: S.slice(0, this.state.shot + 1).map((sh, i) => { const L = i === this.state.shot; return React.createElement('span', { key: i, style: { position: 'absolute', left: toX(sh.off), top: toY(sh), width: L ? 16 : 10, height: L ? 16 : 10, borderRadius: 8, background: L ? '#E04E39' : '#fff', opacity: L ? 1 : .55, border: L ? '2px solid #fff' : 'none', transform: 'translate(-50%,-50%)', animation: L ? 'ch3pop .5s cubic-bezier(.2,.8,.2,1)' : 'none' } }); }),
+      progressEl: React.createElement('div', { style: { height: 4, background: '#E04E39', width: ((this.state.sub + 1) / 6 * 100) + '%', transition: 'width .4s linear' } }),
+      shots: S.map((sh, i) => ({ n: String(i + 1), club: sh.club, carry: sh.carry + 'Y', off: (sh.off > 0 ? 'R' : sh.off < 0 ? 'L' : '') + Math.abs(sh.off), active: i === this.state.shot, inactive: i !== this.state.shot, go: () => this.setState({ shot: i, sub: 0 }) })),
+      podPerks: [
+        { n: '1', t: 'After the Pod, live.', d: 'Behind-the-scenes Q&A with Claude after every episode.' },
+        { n: '2', t: 'Episode threads.', d: 'Talk it through with the rest of the community.' },
+        { n: '3', t: 'The global feed.', d: 'Webinars, the course archive and what the academies are posting.' },
+        { n: '4', t: 'Ask the next guest.', d: 'Submit questions before we record.' }
+      ],
+      epNum: '24', myTime: new Date(this.state.now).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }), thaiTime: new Date(this.state.now).toLocaleTimeString('en-GB', { timeZone: 'Asia/Bangkok', hour: '2-digit', minute: '2-digit' }), floTime: new Date(this.state.now).toLocaleTimeString('en-GB', { timeZone: 'America/New_York', hour: '2-digit', minute: '2-digit' }), dubaiTime: new Date(this.state.now).toLocaleTimeString('en-GB', { timeZone: 'Asia/Dubai', hour: '2-digit', minute: '2-digit' }),
+      garages: [
+        { pos: 'P1', name: 'CH3 Dubai', logo: '../../assets/ch3-logo-dubai.png', body: 'For CH3 Dubai players. Coach notes, lesson recaps and squad threads.' },
+        { pos: 'P2', name: 'CH3 Thailand', logo: '../../assets/ch3-logo-thailand.jpg', body: 'For CH3 Thailand players. Coach notes, lesson recaps and squad threads.' },
+        { pos: 'P3', name: 'TeamFLO', logo: '../../assets/teamflo-logo-dark.png', body: 'For TeamFLO players. Coach notes, lesson recaps and squad threads.' }
+      ],
+      eliteLeft: this.eliteLeft,
+      seatBar: Array.from({ length: 8 }, (_, i) => React.createElement('span', { key: i, style: { flex: 1, height: 10, background: i < 8 - this.eliteLeft ? 'rgba(255,255,255,.3)' : '#fff' } })),
+      regions: [['na', 'NORTH AMERICA', 'TeamFLO'], ['eu', 'EUROPE', 'CH3 Dubai'], ['as', 'ASIA', 'CH3 Thailand']].map(([id, region, academy]) => ({ region, academy, active: this.state.region === id, inactive: this.state.region !== id, pick: () => this.setState({ region: id }) })),
+      tiers: [
+        { pos: 'P4', flag: '4 WEEKS FREE', name: 'Pod Community', pitch: 'For Son of a Butch listeners who want the room behind the mic.', price: '$50', note: 'Full access free for 4 weeks, then $50/month.', cta: 'START FREE', primary: false, secondary: true,
+          feats: [['Son of a Butch community', 1], ['After the Pod live Q&As', 1], ['Global feed', 1], ['Live webinars + course archive', 1], ['Academy home basecamp', 0], ['On tour with Claude + Coaches\u2019 Room', 0], ['Global Junior Basecamp', 0], ['Direct access to Claude + Ryan', 0]] },
+        { pos: 'P3', flag: 'JUNIORS', name: 'Junior Basecamp', pitch: 'Everything in Premier, plus the Global Junior Basecamp: juniors from every CH3 academy in one place.', price: '$69', note: 'Premier access at a junior price.', cta: 'JOIN THE JUNIOR BASECAMP', primary: false, secondary: true,
+          feats: [['Son of a Butch community', 1], ['After the Pod live Q&As', 1], ['Global feed', 1], ['Live webinars + course archive', 1], ['Academy home basecamp', 1], ['On tour with Claude + Coaches\u2019 Room', 1], ['Global Junior Basecamp', 1], ['Direct access to Claude + Ryan', 0]] },
+        { pos: 'P2', flag: 'MOST POPULAR', name: 'Premier', pitch: 'The full basecamp. Your home basecamp, or the one closest to you, plus everything global.', price: '$99', note: 'Includes your academy\u2019s home basecamp.', cta: 'GO PREMIER', primary: true, secondary: false,
+          feats: [['Son of a Butch community', 1], ['After the Pod live Q&As', 1], ['Global feed', 1], ['Live webinars + course archive', 1], ['Academy home basecamp', 1], ['On tour with Claude + Coaches\u2019 Room', 1], ['Global Junior Basecamp', 0], ['Direct access to Claude + Ryan', 0]] },
+        { pos: 'P1', flag: 'LIMITED · BY APPLICATION', name: 'Elite', pitch: 'A direct line to Claude Harmon III and Ryan Crysler, Head Coach of TeamFLO and RC Greenlight.', price: '$999', note: 'Limited spots. ' + this.eliteLeft + ' of 8 remaining.', cta: 'APPLY FOR ELITE', primary: false, secondary: true,
+          feats: [['Son of a Butch community', 1], ['After the Pod live Q&As', 1], ['Global feed', 1], ['Live webinars + course archive', 1], ['Academy home basecamp', 1], ['On tour with Claude + Coaches\u2019 Room', 1], ['Global Junior Basecamp', 0], ['Direct access to Claude + Ryan', 1]] }
+      ].map(t => ({ ...t, feats: t.feats.map(([tx, y]) => ({ t: tx, yes: !!y, no: !y })) }))
+    };
+  }
+}
+</script>
+
+
+</body></html>
