@@ -61,12 +61,10 @@ def join_url(key=None):
 # ---- the live calendar (UTC), copied from the Circle events; the countdowns run off it. Refresh before each paste. ----
 # (start, minutes, kind, short title for the strip, card title, card line, is a live podcast recording)
 EVENTS = [
-    ('2026-10-28T16:00:00Z', 120, 'LIVE RECORDING', 'CLAUDE + CAM SMITH', 'Son of a Butch Live',
-     'Claude with Cam Smith and Ryan Crysler, recorded live for members.', True),
-    ('2026-10-28T23:00:00Z', 60, 'BASECAMP SPOTLIGHT', 'INSIDE CH3 DUBAI', 'Inside CH3 Dubai',
-     'Claude and Head Coach Mike Bolt on what the Dubai squad is working on.', False),
     ('2026-11-05T00:00:00Z', 60, 'BASECAMP SPOTLIGHT', 'INSIDE CH3 THAILAND', 'Inside CH3 Thailand',
      'Claude and Head Coach Joe Marshall on course strategy and how the squad trains.', False),
+    ('2026-11-05T17:00:00Z', 120, 'LIVE RECORDING', 'CLAUDE + CAM SMITH', 'Son of a Butch Live',
+     'Claude with Cameron Smith and Ryan Crysler, recorded live for members.', True),
     ('2026-11-12T00:00:00Z', 60, 'BASECAMP SPOTLIGHT', 'INSIDE TEAMFLO', 'Inside TeamFLO',
      'Claude and Head Coach Ryan Crysler on turning round data into decisions.', False),
     ('2026-11-19T00:00:00Z', 60, 'JUNIOR NIGHT', 'JUNIORS + PARENTS', 'Junior night with Claude',
