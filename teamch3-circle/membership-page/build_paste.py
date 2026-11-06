@@ -41,7 +41,7 @@ LOGIN = 'https://ch3.circle.so/sign_in'
 # "START 2 WEEKS FREE" and goes to its checkout.
 BETA = True
 CTA = 'REQUEST AN INVITE' if BETA else 'START 2 WEEKS FREE'
-INVITE_EMAIL = 'rcrysler@floridian.cc'
+INVITE_EMAIL = 'ryancrysler@gmail.com'
 CHECKOUT = {'pod': '#tiers', 'junior': '#tiers', 'premier': '#tiers', 'elite': '#tiers'}
 MEMBERSHIP_NAMES = {'pod': 'Pod Community', 'junior': 'Junior Basecamp', 'premier': 'Premier', 'elite': 'Elite'}
 def invite_url(key=None):

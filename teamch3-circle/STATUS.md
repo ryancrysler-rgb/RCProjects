@@ -153,7 +153,7 @@ with no filter or delay.
   page, FAQ and Ask CH3 guide say so.
 - **Sales and SEO pass (October 28, Ryan: "do everything you recommend", paywalls not possible yet, mock data stays).**
   - Beta sign-up: 12 "REQUEST AN INVITE" buttons and 2 "APPLY FOR ELITE", each opening a pre-filled email to
-    rcrysler@floridian.cc (the membership is in the subject). One switch (BETA in build_paste.py) flips them to
+    ryancrysler@gmail.com (changed Nov 6 for a Gmail automation; the membership is in the subject). One switch (BETA in build_paste.py) flips them to
     "START 2 WEEKS FREE" and the checkout links at launch. A Circle form can replace the email: send Claude its link.
   - Countdowns run off the real Circle calendar (EVENTS in build_paste.py): Son of a Butch Live today, the three
     Basecamp Spotlights and the Junior night; "LIVE NOW" during a session; "new dates soon" after Nov 19. Refresh
