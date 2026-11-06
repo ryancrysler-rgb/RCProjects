@@ -1,0 +1,118 @@
+TEAMCH3 · BETA TESTER INVITE
+How to bulk-invite player testers so each one picks their own academy and signs up in a couple of minutes.
+Created October 22, 2026. Everything to paste is between the ----- lines.
+
+Ready to send (October 23, 2026). A test sign-up got only its own membership, and the welcome email arrived.
+
+
+HOW IT WORKS
+ 1. Each tester gets one email with a button for each academy. They click the one nearest where they live.
+ 2. The link puts them straight into that academy's membership. It's free, with no card and no trial.
+ 3. They sign up: name, email, password (Circle may email a code), then date of birth, age group and home city.
+    Juniors also give a parent's email.
+ 4. They land in their home basecamp (adults) or the Junior Basecamp (juniors).
+ 5. Every tester gets the private "Beta tester" tag, so at launch we can find them all in one list. Members never
+    see the tag.
+ No workflow is needed. The link sets the membership, the academy and the tag.
+
+
+THE LINKS (live now. Share them only in the tester email)
+Adults · Premier
+ CH3 Dubai (UAE + Europe):
+ https://ch3.circle.so/join?invitation_token=c8026ac30def26b47bf1ba60581f6b9bb4a09ba3-b214500f-020b-45a7-a571-ade0836b1e5b
+ CH3 Thailand (Thailand + Asia):
+ https://ch3.circle.so/join?invitation_token=093c91da358b41c9425731182c93ba4efedeb535-421f2c68-9dba-41af-bc3f-3030fa2a679d
+ TeamFLO (Florida + North America):
+ https://ch3.circle.so/join?invitation_token=99f27973826efcc3226d59d9fbba0e5d452cea37-fecaea7c-acb5-46c1-9e7a-6bd03a1a00e3
+
+Juniors 13 to 19 · Junior Basecamp
+ CH3 Dubai (UAE + Europe):
+ https://ch3.circle.so/join?invitation_token=8fca8217893bcae3dfe14bcd5dcf6a692995d6ae-dee524cd-d0ee-4de4-97e8-630edc470db7
+ CH3 Thailand (Thailand + Asia):
+ https://ch3.circle.so/join?invitation_token=7d981c9b268fa6b0278f6336d903e517192a5d9a-33d0b051-0b58-42a4-8235-9c9397b9da87
+ TeamFLO (Florida + North America):
+ https://ch3.circle.so/join?invitation_token=c78bb4e40f415ccefb78a23cf011281578f6294f-024a514c-d48e-4482-a268-f153e1b89922
+
+ Anyone who has a link can join with it, so send the junior links to parents only, never post a link anywhere,
+ and switch them all off when testing ends (Claude can).
+
+
+SENDING IT FROM CIRCLE
+ 1. Send Claude the testers' names and emails, marked adult or junior. For juniors, send the parent's name and
+    email. Claude adds them to Circle as contacts (not members yet) with the "Beta tester" tag. No email goes out
+    at this step.
+ 2. In Circle's email broadcasts, make two broadcasts: "Adult testers" to the adult contacts, and "Junior testers"
+    to the parents. Paste the copy below and turn each academy line into a button or link.
+ 3. Send a test to yourself first, then send.
+ If Circle's broadcasts can't be sent to contacts who aren't members yet, send the same text from Gmail with the
+ testers in BCC. Claude can make the Gmail draft.
+
+
+ADULT TESTER EMAIL
+-----
+Subject: You're a TeamCH3 beta tester
+
+Hi {first name},
+
+You're one of the first players into TeamCH3, Claude Harmon III's online academy. Before we open the doors, we
+want you to try it and tell us what works and what doesn't. It's free while we test.
+
+Pick the academy nearest where you live:
+
+[CH3 Dubai · UAE + Europe]
+[CH3 Thailand · Thailand + Asia]
+[TeamFLO · Florida + North America]
+
+Then:
+1. Create your account with this email and choose a password.
+2. Answer three quick questions: date of birth, age group and home city.
+3. You'll land in your home basecamp. Introduce yourself: where you play, your handicap and the one thing you
+   want to fix this season.
+
+You'll also find the Global Basecamp, Events, the Son Of A Butch Podcast and Live Recordings.
+Post anything that's confusing or broken in the Global Basecamp, or reply to this email.
+
+On your phone, open ch3.circle.so in your browser and log in with the same email.
+
+Thanks for helping us build it,
+Claude
+-----
+
+JUNIOR TESTER EMAIL (to the parent)
+-----
+Subject: {junior's first name} is invited to test TeamCH3
+
+Hi {parent's first name},
+
+We'd like {junior's first name} to be one of the first juniors in TeamCH3, Claude Harmon III's online academy.
+It's free while we test, and we'd value your family's feedback.
+
+The Junior Basecamp is for juniors and coaches only. Juniors share only video of themselves, and never phone
+numbers, addresses or social handles. Members can't send each other private messages.
+
+Please choose the academy nearest where you live and send {junior's first name} the link, or sign up together:
+
+[CH3 Dubai · UAE + Europe]
+[CH3 Thailand · Thailand + Asia]
+[TeamFLO · Florida + North America]
+
+{junior's first name} creates their account with their own email and answers a few questions: date of birth, age
+group, home city and your email as their parent or guardian. We'll then send you a free invite to the Parents
+space, where the coaches share schedules, tournament information and junior events.
+
+Any questions, just reply to this email.
+
+Claude
+-----
+
+
+WHILE TESTING
+ - Ask Claude "how many testers have joined?" for a count per link and a check that each tester's spaces are right.
+ - Ask Claude "invite the parents" after juniors join. Claude invites each parent and checks each junior's age group
+   and date of birth, and flags anyone who doesn't look like a junior so you can decide.
+
+WHEN TESTING ENDS
+ - Claude switches off the six links. Testers keep their access until you decide.
+ - At launch, every tester can be found by the "Beta tester" tag. Move them to paid plans with a checkout link (a
+   coupon or a longer trial is possible), or remove them.
+ - Delete the test accounts (Test Junior, Test Junior Two, Test Adult, Test Parent, Ryan Tester) before launch.
