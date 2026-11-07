@@ -35,14 +35,18 @@ eb=F('Barlow700.ttf',58); x=x0
 for c in EB: d.text((x,yb),c,font=eb,fill=OR); x+=d.textlength(c,font=eb)+14
 big=F('Anton.ttf',330); d.text((x0-8,yb+80),A,font=big,fill=(255,255,255)); tw=d.textlength(A,font=big)
 d.text((x0-8+tw,yb+80),B,font=big,fill=OR)
+SY=0 if os.environ.get('SUB','x') else -100
 sub=F('Barlow600.ttf',64); d.text((x0,yb+80+445),os.environ.get('SUB','Play better golf with Claude Harmon III and the CH3 coaches.'),font=sub,fill=(205,212,218))
 # orange rule
-d.rectangle([x0,yb+80+445+120,x0+180,yb+80+445+128],fill=OR)
+d.rectangle([x0,yb+80+445+120+SY,x0+180,yb+80+445+128+SY],fill=OR)
 ROW=os.environ.get('ROW')
 if ROW:
-    ac=F('Barlow700.ttf',60); x=x0; y=yb+80+445+190
+    ac=F('Barlow700.ttf',60); x=x0; y=yb+80+445+190+SY
     parts=ROW.split('|')
     for i,n in enumerate(parts):
+        if n=='__FLOR__':
+            lg=Image.open('../flor/floridian_white.png'); lh=int(os.environ.get('FLH','150')); lg=lg.resize((int(lg.width*lh/lg.height),lh),Image.LANCZOS)
+            im.alpha_composite(lg,(int(x),int(y+36-lh*0.55+int(os.environ.get('FLY','0'))))); x+=lg.width; continue
         for c in n: d.text((x,y),c,font=ac,fill=(255,255,255)); x+=d.textlength(c,font=ac)+11
         if i<len(parts)-1:
             x+=40; d.ellipse([x,y+30,x+15,y+45],fill=OR); x+=15+40
