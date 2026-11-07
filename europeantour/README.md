@@ -67,6 +67,19 @@ in for bogey.
 Runs accumulate, so a partial round can be finished later. `decode_ws.py`
 re-decodes saved frames without touching the browser.
 
+### Without clicking: `auto_capture.py`
+
+The shot tracker can be opened directly on any round and hole, because its
+address carries them. `auto_capture.py` finds the player on the leaderboard,
+then opens the tracker once per hole and records the same feeds into the
+same run folders, then builds the spreadsheet:
+
+```
+python auto_capture.py --url https://www.europeantour.com/dpworld-tour/abu-dhabi-aldar-championship-2026/leaderboard?round=1 --player Rahm --rounds 1,2,3
+```
+
+It takes about 13 seconds a hole and runs headless. Add `--show` to watch it.
+
 ---
 
 ## What the tour site actually serves (confirmed live, Sept 2026)
