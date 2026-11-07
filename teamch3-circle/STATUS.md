@@ -234,3 +234,10 @@ with no filter or delay.
   is covered. Start paying for Grow before the trial ends to keep live streaming and custom destinations.
 - **Junior Events:** tick "Hide attendees" on each new one.
 - **When teamch3.com is live:** update the ch3.circle.so references and recheck the tester links.
+
+## Academy newsletters (Nov 7)
+- CH3 Dubai October 2026 newsletter rebranded into the TeamCH3 PDF template (`newsletters/newsletter-template.html`,
+  rendered with Playwright) and posted in Junior Basecamp (post 38177986) and CH3 Dubai (post 38178003).
+- Post format Ryan approved: full newsletter as text (no photos), the TeamCH3 cover banner, PDF link at top and
+  bottom, and "truncation disabled" so the whole post shows in the feed without opening it.
+- Each month: send the new newsletter, Claude rebuilds the PDF and posts it the same way.
