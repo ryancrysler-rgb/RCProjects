@@ -1,0 +1,257 @@
+{
+  "data": {
+    "getGolfTournament": {
+      "l1Event": true,
+      "streamingHoles": [],
+      "tour": "European Tour",
+      "format": "StrokePlay",
+      "mainCourseId": 378,
+      "mainExternalCourseId": "ET-2036",
+      "startDate": "2026-11-05",
+      "startTeeTime": "2026-11-05T07:19:00+04:00",
+      "golfCourses": [
+        {
+          "id": 378,
+          "rounds": [
+            {
+              "roundNo": 1,
+              "holes": [
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 5
+                }
+              ]
+            },
+            {
+              "roundNo": 2,
+              "holes": [
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 5
+                }
+              ]
+            },
+            {
+              "roundNo": 3,
+              "holes": [
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 5
+                }
+              ]
+            },
+            {
+              "roundNo": 4,
+              "holes": [
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 5
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 4
+                },
+                {
+                  "par": 3
+                },
+                {
+                  "par": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
