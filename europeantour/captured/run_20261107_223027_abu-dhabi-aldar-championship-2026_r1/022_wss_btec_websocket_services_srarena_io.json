@@ -1,0 +1,648 @@
+{
+  "id": "3203270926",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfCommentary": {
+        "roundNo": 1,
+        "holes": [
+          {
+            "holeNo": 1,
+            "holeOrder": 1,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T26) finds the fairway with a 246-yard drive on the opening hole, leaving 137 yards to the pin."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-1-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway finds the green, leaving 34 feet for birdie on the opening hole."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-1-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm missed a 34-foot birdie putt on the opening hole, leaving 16 inches for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-1-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a putt from 16 inches on the opening hole for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-1-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 2,
+            "holeOrder": 2,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Rahm (T14) finds the fairway bunker with a 325-yard drive, leaving 235 yards to the hole on the par five second."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-2-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway bunker finds the green, leaving a 52-foot putt, gaining 0.56 strokes *approach*."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-2-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm missed a 52-foot eagle putt, leaving two feet for birdie on the par five second."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-2-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a short putt from two feet for birdie on the par five second."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-2-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 3,
+            "holeOrder": 3,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T9) finds the fairway with a 257-yard drive, leaving 176 yards to the hole on the par four third."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-3-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from 176 yards finds the green, leaving a five-foot birdie putt and gaining 0.89 strokes *approach*."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-3-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm missed a five-footer for birdie, leaving eleven inches for par, losing 0.76 strokes *putting*."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-3-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed the putt for par on the par four third."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-3-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 4,
+            "holeOrder": 4,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T14) finds the green with an approach shot, leaving eighteen feet for birdie on the par three."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-4-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a 17-foot putt for birdie on the par three fourth, gaining 0.81 strokes *putting* with the best putting on the hole today."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-4-2",
+                "shotNo": 2
+              }
+            ]
+          },
+          {
+            "holeNo": 5,
+            "holeOrder": 5,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T6) finds the fairway with a 266-yard drive, leaving 151 yards to the hole on the par four fifth."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-5-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway finds the green, leaving thirty feet for birdie on the par four."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-5-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm missed a 30-foot putt for birdie, leaving 11 inches for par on the fifth."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-5-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a short putt on the par four fifth for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-5-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 6,
+            "holeOrder": 6,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T6) finds the rough with a 313-yard drive, leaving 160 yards to the hole on the par four sixth."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-6-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm plays an approach from the rough to 17 feet on the par four sixth, setting up a birdie putt."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-6-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a 17-foot putt for birdie on the par 4 sixth, gaining 0.78 strokes *putting* \u2014 best putting on the hole today."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-6-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 7,
+            "holeOrder": 7,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Rahm (T6) finds the fairway with a 323-yard drive on the par five seventh, leaving 245 yards to the hole."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-7-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway finds the fairway again, leaving 38 yards to the hole on the par five seventh."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-7-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway finds the green, leaving a two-foot putt for birdie, gaining 0.55 strokes *approach*."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-7-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a short putt for birdie on the par five seventh."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-7-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 8,
+            "holeOrder": 8,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T4) leaves a six-foot birdie opportunity with his approach on the par three, gaining 0.55 strokes *approach*."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-8-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm missed a six-footer for birdie, leaving a two-foot putt for par, losing 0.76 strokes *putting*."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-8-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a two-foot putt for par on the par three eighth."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-8-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 9,
+            "holeOrder": 9,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T5) finds the fairway with a 295-yard drive, leaving 178 yards to the hole on the par four ninth."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-9-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from 179 yards finds the green 3 feet from the hole, gaining 0.87 strokes *approach* and leaving a birdie opportunity."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-9-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a four-foot putt for birdie on the par four ninth."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-9-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 10,
+            "holeOrder": 10,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T3) finds the fairway with a 278-yard drive on the tenth, leaving 120 yards to the hole."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-10-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway finds the fairway again, leaving sixteen feet to the hole on course hole ten."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-10-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm chipped from the fairway to inside three feet for par on the tenth."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-10-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed the putt on the par four tenth for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-10-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 11,
+            "holeOrder": 11,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Rahm (T4) finds the rough with a 331-yard drive on the 11th, leaving 234 yards to the hole."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-11-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway leaves him ninety-three yards to the hole on the par five 11th."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-11-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway finds the green, leaving 23 feet for birdie on the par five 11th."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-11-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm missed a 23-foot putt for birdie on the 11th, leaving two feet for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-11-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a putt from about two feet on the par five 11th for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-11-5",
+                "shotNo": 5
+              }
+            ]
+          },
+          {
+            "holeNo": 12,
+            "holeOrder": 12,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T4) finds the fairway with a 333-yard drive, leaving 139 yards to the hole on the par four."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-12-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway finds the green, leaving sixteen feet for birdie on the par four."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-12-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm missed a 16-footer for birdie on the 12th, leaving eight inches for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-12-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed the putt on the par four 12th for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-12-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 13,
+            "holeOrder": 13,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Rahm (T4) finds the green with an approach shot, leaving a nine-foot putt for birdie on the par three."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-13-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm missed a nine-footer for birdie, leaving nine inches for par, losing 0.48 strokes *putting*."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-13-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a short putt for par on the par three 13th."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-13-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 14,
+            "holeOrder": 14,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Rahm (T4) finds the fairway with a 276-yard drive on the par four, leaving ninety-four yards to the hole."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-14-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway finds the green, leaving a twenty-foot putt for birdie on the 14th."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-14-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm missed a twenty-footer for birdie on the 14th, leaving eight inches for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-14-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a short putt on the par 4 14th for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-14-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 15,
+            "holeOrder": 15,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Rahm (T4) finds the fairway with a 294-yard drive, leaving 197 yards to the hole on the 15th."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-15-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway finds the green, leaving a 25-foot putt for birdie on the par four."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-15-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm missed a 25-foot putt for birdie on the 15th, leaving 14 inches for par."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-15-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a short putt for par on the 15th."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-15-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 16,
+            "holeOrder": 16,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T4) finds the rough with a 278-yard drive, leaving 159 yards to the hole on the 16th."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-16-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the rough finds the intermediate rough, leaving eighteen yards to the hole on course hole 16."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-16-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm chips from the intermediate rough to six feet for par on the 16th."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-16-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a six-foot putt for par on the 16th."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-16-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 17,
+            "holeOrder": 17,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Rahm (T4) finds the green on the par three with an approach shot, leaving 31 feet for birdie."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-17-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a 31-foot putt for birdie, gaining 1.05 strokes *putting* \u2014 the best putting on the hole today."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-17-2",
+                "shotNo": 2
+              }
+            ]
+          },
+          {
+            "holeNo": 18,
+            "holeOrder": 18,
+            "shots": [
+              {
+                "comments": {
+                  "en": "Jon Rahm (T4) finds the fairway with a 333-yard drive on the closing hole, leaving 253 yards to the target."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-18-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway leaves him 36 yards short on the closing hole of his round."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-18-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Rahm's approach from the fairway finds the green, leaving a five-foot putt for birdie on the closing hole."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-18-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Rahm holed a five-footer for birdie on the closing hole to finish round one."
+                },
+                "playerId": 493,
+                "shotId": "1440-45-1-18-4",
+                "shotNo": 4
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1440",
+    "operationName": "GOLF_COMMENTARY___",
+    "subscriptionHash": "3203270926"
+  },
+  "_operation": "ShotTrackerSubscribeToGolfCommentary"
+}
