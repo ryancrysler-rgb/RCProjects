@@ -37,8 +37,11 @@ yr=yb+80+330
 d.rectangle([x0,yr,x0+180,yr+8],fill=OR)
 # academies row
 ac=F('Barlow700.ttf',54); x=x0; y=yr+70
-names=['CH3 DUBAI','CH3 THAILAND','TEAMFLO','THE FLORIDIAN']
+names=['CH3 DUBAI','CH3 THAILAND','TEAMFLO','__FLOR__']
 for i,n in enumerate(names):
+    if n=='__FLOR__':
+        lg=Image.open('../flor/floridian_white.png'); lh=150; lg=lg.resize((int(lg.width*lh/lg.height),lh),Image.LANCZOS)
+        im.alpha_composite(lg,(int(x),int(y+36-lh*0.55))); x+=lg.width; continue
     for c in n: d.text((x,y),c,font=ac,fill=(255,255,255)); x+=d.textlength(c,font=ac)+10
     if i<len(names)-1:
         x+=36; d.ellipse([x,y+28,x+14,y+42],fill=OR); x+=14+36
