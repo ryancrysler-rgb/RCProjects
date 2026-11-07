@@ -1,0 +1,522 @@
+[
+  {
+    "url": "https://static.srarena.io/event-centre-configs/europeantour.json",
+    "kind": "http"
+  },
+  {
+    "url": "https://static.srarena.io/event-centre-configs/master.json",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=843657172",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=4122635036",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=4089703282",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=935024136",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1145632212",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=3676717528",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/",
+    "kind": "http"
+  },
+  {
+    "url": "https://static.srarena.io/golf/3d/courses/ET-2036/all_metadata.json?v=44",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1067006756",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2765956197",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2731208482",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=3015956579",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=11973408",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1710922849",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1606936878",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1891684975",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2212248311",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=3515384406",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=246890037",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2515292564",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1929122419",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=4258731441",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=2784095743",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  }
+]

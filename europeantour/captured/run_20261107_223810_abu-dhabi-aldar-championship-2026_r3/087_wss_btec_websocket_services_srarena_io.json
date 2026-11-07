@@ -1,0 +1,135 @@
+{
+  "id": "1531501007",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfMedia3DShots": [
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 12,
+          "strokeNo": 0,
+          "teamId": 45,
+          "seqNum": 217,
+          "courseId": 378,
+          "x": 256607.82189263197,
+          "y": null,
+          "z": 2708463.229004665,
+          "surfaceTypeCode": "OTB",
+          "provisionalIndex": null,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 436.17,
+          "score": null,
+          "player": {
+            "country": "ESP",
+            "displayName": "Jon Rahm",
+            "firstName": "Jon",
+            "gender": "male",
+            "id": 493,
+            "isAmateur": false,
+            "lastName": "Rahm"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 12,
+          "strokeNo": 1,
+          "teamId": 45,
+          "seqNum": 221,
+          "courseId": 378,
+          "x": 256418.91001995406,
+          "y": null,
+          "z": 2708226.0184673727,
+          "surfaceTypeCode": "OFW",
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 125.48686548389,
+          "shotDistance": 303.95514118629,
+          "score": null,
+          "player": {
+            "country": "ESP",
+            "displayName": "Jon Rahm",
+            "firstName": "Jon",
+            "gender": "male",
+            "id": 493,
+            "isAmateur": false,
+            "lastName": "Rahm"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 12,
+          "strokeNo": 2,
+          "teamId": 45,
+          "seqNum": 225,
+          "courseId": 378,
+          "x": 256383.98623658434,
+          "y": null,
+          "z": 2708104.804115239,
+          "surfaceTypeCode": "OGR",
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 1.1683175357414,
+          "shotDistance": 126.654368111526,
+          "score": null,
+          "player": {
+            "country": "ESP",
+            "displayName": "Jon Rahm",
+            "firstName": "Jon",
+            "gender": "male",
+            "id": 493,
+            "isAmateur": false,
+            "lastName": "Rahm"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": true,
+          "holeNo": 12,
+          "strokeNo": 3,
+          "teamId": 45,
+          "seqNum": 228,
+          "courseId": 378,
+          "x": 256384.3499627266,
+          "y": null,
+          "z": 2708105.909562758,
+          "surfaceTypeCode": null,
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "shotDistance": 1.1683175357414,
+          "score": "Birdie",
+          "player": {
+            "country": "ESP",
+            "displayName": "Jon Rahm",
+            "firstName": "Jon",
+            "gender": "male",
+            "id": 493,
+            "isAmateur": false,
+            "lastName": "Rahm"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1440",
+    "operationName": "GOLF_TOURNAMENT_TEAM_SHOT_BY_SHOT__ROUNDNO__TEAMID__HOLENO__HOLEORDER__MEDIA",
+    "subscriptionHash": "1531501007"
+  },
+  "_operation": "MapVisualisationSubscribeToMedia3DShots"
+}

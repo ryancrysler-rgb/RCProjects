@@ -398,11 +398,15 @@ def merge_corrections(rows: list[dict]) -> list[dict]:
 
         # A provisional ball: two balls off the same stroke, one abandoned.
         # The feed marks the one carried on with isProvisionalSelected; the
-        # other was never played and is not a stroke.
+        # other was never played and is not a stroke. When it marks neither,
+        # the original stands -- a provisional only counts once put in play --
+        # and the original is the first ball hit. provisionalIndex does not
+        # say which that is: Abu Dhabi r1 hole 11 hit index 2 first, and the
+        # commentary confirms it was the ball played.
         balls = [r for r in group if r.get("isProvisional")]
         if len(balls) > 1:
             chosen = [r for r in balls if r.get("isProvisionalSelected")] or \
-                     sorted(balls, key=lambda r: r.get("provisionalIndex") or 0)[:1]
+                     sorted(balls, key=lambda r: r.get("seqNum") or 0)[:1]
             dropped = [r for r in balls if r not in chosen]
             group = [r for r in group if r not in dropped]
             for ball in dropped:
