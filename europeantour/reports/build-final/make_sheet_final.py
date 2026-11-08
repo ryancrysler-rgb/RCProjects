@@ -301,7 +301,7 @@ swot = f'''  <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px;marg
         ("141–160 went 11 of 14 —", " the busiest band on the ladder and the one with the most misses (three)."),
     ])}
     {quad("lime", "g800", "Opportunities", "what to build on", "g600", [
-        ("Leave 75–100, not 40–74.", " 75–100 went 4 of 4; five leaves landed in 40–74 (R2 H14, R3 H10, R3 H18, R4 H10, R4 H18) and all five still found the green."),
+        ("Leave 75–100, not 40–74 — or apply the written exception.", " His 40–74 went 5 of 5 (R2 H14, R3 H10, R3 H18, R4 H10, R4 H18), which qualifies at 90% or better; applying it is the coach’s call. 75–100 went 4 of 4."),
         (f"Par 4s hold the room: {two(F['byPar']['4']['avg'])} across forty, the field {two(F['byPar']['4']['field'])}.", " H14 and H16 went 4-4-4-4 — the field averages under par on both."),
         ("Keep the tee ball: 43 of 56 fairways (77%).", " By round 71%, 71%, 79% and 86% — each at or above the 70% line."),
     ])}

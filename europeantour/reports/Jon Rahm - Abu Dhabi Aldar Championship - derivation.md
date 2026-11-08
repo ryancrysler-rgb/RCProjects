@@ -41,6 +41,13 @@ off the approach ladder by the ladder rule (71 of 72 approaches banded; ladder g
 - Other non-negotiables for the record: Rule 01/02 NOT MEASURED every round; Rule 03 KEPT R1, ATTENTION R2 (H14 67 yd),
   R3 (H10 55, H18 54), R4 (H10 65, H18 48); Rule 04 ATTENTION R2 (H12), KEPT otherwise.
 
+## The dead-zone exception (owner's form answer 2026-11-08: "Note the exception")
+
+Opportunities keeps "Leave 75–100, not 40–74" and adds the written exception: his own 40–74 band went **5 of 5** (R2 H14,
+R3 H10, R3 H18, R4 H10, R4 H18), which meets non-negotiable 3's written exception (`house-rules.js` NN3: a 40–74 leave is
+allowed when the player's own band covering it reads ≥90%). The next band (75–100) is also 4 of 4, so it qualifies on the
+≥90% test, not on "higher than the next band". Applying it is the coach's call, as the policy says; the sheet says so.
+
 ## Deviations from the gold
 
 1. **He is the champion**, so "vs the champion" becomes **Champion · won by 2**, carrying the margin over the field's
