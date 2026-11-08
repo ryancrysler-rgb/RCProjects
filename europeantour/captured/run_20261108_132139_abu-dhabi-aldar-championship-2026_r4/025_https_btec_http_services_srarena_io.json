@@ -1,0 +1,106 @@
+{
+  "data": {
+    "getGolfMedia3DShots": [
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 256052.9165020768,
+        "y": null,
+        "z": 2709994.321181466,
+        "addressing": false,
+        "provisionalIndex": null,
+        "ballHoled": false,
+        "isApproximate": false,
+        "strokeNo": 0,
+        "holeNo": 4,
+        "surfaceTypeCode": "OTB",
+        "teamId": 45,
+        "courseId": 378,
+        "seqNum": 57,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": null,
+        "score": null,
+        "distanceToPin": 167.34,
+        "player": {
+          "id": 493
+        }
+      },
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 256206.19091518002,
+        "y": null,
+        "z": 2710067.039213537,
+        "addressing": false,
+        "provisionalIndex": 0,
+        "ballHoled": false,
+        "isApproximate": false,
+        "strokeNo": 1,
+        "holeNo": 4,
+        "surfaceTypeCode": "OGR",
+        "teamId": 45,
+        "courseId": 378,
+        "seqNum": 61,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": 169.638868919587,
+        "score": null,
+        "distanceToPin": 4.92516689874099,
+        "player": {
+          "id": 493
+        }
+      },
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 256200.38479866754,
+        "y": null,
+        "z": 2710068.979479578,
+        "addressing": false,
+        "provisionalIndex": 0,
+        "ballHoled": false,
+        "isApproximate": false,
+        "strokeNo": 2,
+        "holeNo": 4,
+        "surfaceTypeCode": "OGR",
+        "teamId": 45,
+        "courseId": 378,
+        "seqNum": 65,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": 6.11768677642635,
+        "score": null,
+        "distanceToPin": 1.24873871236011,
+        "player": {
+          "id": 493
+        }
+      },
+      {
+        "__typename": "GolfTeam3DShot",
+        "x": 256201.6331204151,
+        "y": null,
+        "z": 2710068.9112307457,
+        "addressing": false,
+        "provisionalIndex": 0,
+        "ballHoled": true,
+        "isApproximate": false,
+        "strokeNo": 3,
+        "holeNo": 4,
+        "surfaceTypeCode": null,
+        "teamId": 45,
+        "courseId": 378,
+        "seqNum": 68,
+        "isBallDrop": false,
+        "isProvisional": false,
+        "isProvisionalSelected": false,
+        "shotDistance": 1.24873871236011,
+        "score": "Par",
+        "distanceToPin": null,
+        "player": {
+          "id": 493
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "data": {
+    "getGolfTournamentTeamsShotFeed": [
+      {
+        "id": 1794125733100,
+        "teamId": 45,
+        "shotNo": 5,
+        "eventType": "BallHoled",
+        "isProvisional": null,
+        "provisionalIndex": 0,
+        "holeScore": "Bogey",
+        "surfaceTypeCode": null,
+        "prevSurfaceTypeCode": null,
+        "shotDistance": null,
+        "distanceToPin": null
+      },
+      {
+        "id": 1794125724097,
+        "teamId": 45,
+        "shotNo": 4,
+        "eventType": "DetailedLie",
+        "isProvisional": false,
+        "provisionalIndex": 0,
+        "holeScore": null,
+        "surfaceTypeCode": "OGR",
+        "prevSurfaceTypeCode": "OGR",
+        "shotDistance": 4.43906388393399,
+        "distanceToPin": 0.289591617942316
+      },
+      {
+        "id": 1794125555093,
+        "teamId": 45,
+        "shotNo": 3,
+        "eventType": "DetailedLie",
+        "isProvisional": false,
+        "provisionalIndex": 0,
+        "holeScore": null,
+        "surfaceTypeCode": "OGR",
+        "prevSurfaceTypeCode": "OST",
+        "shotDistance": 95.3003344661927,
+        "distanceToPin": 4.27587453592852
+      },
+      {
+        "id": 1794125377089,
+        "teamId": 45,
+        "shotNo": 2,
+        "eventType": "DetailedLie",
+        "isProvisional": false,
+        "provisionalIndex": 0,
+        "holeScore": null,
+        "surfaceTypeCode": "OST",
+        "prevSurfaceTypeCode": null,
+        "shotDistance": 35.7958520831251,
+        "distanceToPin": 98.22622662099
+      },
+      {
+        "id": 1794125124085,
+        "teamId": 45,
+        "shotNo": 1,
+        "eventType": "DetailedLie",
+        "isProvisional": false,
+        "provisionalIndex": 0,
+        "holeScore": null,
+        "surfaceTypeCode": "OST",
+        "prevSurfaceTypeCode": null,
+        "shotDistance": 251.404729155541,
+        "distanceToPin": 133.05171693345
+      }
+    ]
+  }
+}
