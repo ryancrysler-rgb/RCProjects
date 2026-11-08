@@ -1,0 +1,69 @@
+{
+  "id": "1960923778",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfTournamentTeamsShotFeed": [
+        {
+          "id": 1794040337103,
+          "timestamp": "2026-11-07T08:32:17.000Z",
+          "shotNo": 4,
+          "holeScore": "Bogey",
+          "eventType": "BallHoled",
+          "teamId": 34,
+          "playerId": 8366,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1794040303100,
+          "timestamp": "2026-11-07T08:31:43.000Z",
+          "shotNo": 3,
+          "eventType": "DetailedLie",
+          "teamId": 34,
+          "playerId": 8366,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OGR",
+          "shotDistance": 1.15157821726886,
+          "distanceToPin": 0.271552635652918,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1794040251096,
+          "timestamp": "2026-11-07T08:30:51.000Z",
+          "shotNo": 2,
+          "eventType": "DetailedLie",
+          "teamId": 34,
+          "playerId": 8366,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OGR",
+          "shotDistance": 8.34795313564768,
+          "distanceToPin": 0.987808799441207,
+          "provisionalIndex": 0
+        },
+        {
+          "id": 1794039869092,
+          "timestamp": "2026-11-07T08:24:29.000Z",
+          "shotNo": 1,
+          "eventType": "DetailedLie",
+          "teamId": 34,
+          "playerId": 8366,
+          "isProvisional": false,
+          "surfaceTypeCode": "OGR",
+          "prevSurfaceTypeCode": "OBU",
+          "shotDistance": 186.92819446697,
+          "distanceToPin": 7.3607385986489,
+          "provisionalIndex": 0
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1440",
+    "operationName": "GOLF_TOURNAMENT_TEAMS_SHOT_FEED_____MEDIA",
+    "subscriptionHash": "1960923778"
+  },
+  "_operation": "ShotFeedSubscribeToGolfTournamentTeamsShotFeed"
+}

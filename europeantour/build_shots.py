@@ -308,10 +308,12 @@ def load_player_names(captured: Path) -> dict:
 
 
 def load_commentary(captured: Path) -> dict[tuple, str]:
-    """The site's AI commentary line for each shot, keyed by event/round/hole/shot.
+    """The site's AI commentary line for each shot, keyed by event/round/player/hole/shot.
 
     Keyed by event as well as round: hole 1 shot 1 of round 2 exists at every
-    tournament, so a key without the event silently mixes them.
+    tournament, so a key without the event silently mixes them. And by player:
+    with two players captured at one event, a key without the player handed
+    one player's lines to the other (Abu Dhabi, Rahm and Puig).
     """
     lines: dict[tuple, str] = {}
     for run_dir in sorted(captured.glob("run_*")):
@@ -335,7 +337,7 @@ def load_commentary(captured: Path) -> dict[tuple, str]:
                 for shot in hole.get("shots") or []:
                     text = (shot.get("comments") or {}).get("en")
                     if text:
-                        lines[(event, round_no, hole.get("holeNo"), shot.get("shotNo"))] = text
+                        lines[(event, round_no, shot.get("playerId"), hole.get("holeNo"), shot.get("shotNo"))] = text
     return lines
 
 
@@ -562,10 +564,13 @@ def main() -> int:
             "z": record.get("z"),
             "seqNum": record.get("seqNum"),
             "commentary": commentary.get(
-                (record["_event"], record["_round"], record.get("holeNo"), stroke), ""
+                (record["_event"], record["_round"], player.get("id"), record.get("holeNo"), stroke), ""
             ),
         }
-        fingerprint = (row["event"], row["round"], row["hole"], row["shot"], row["seqNum"])
+        # The same shot seen in two payloads is one row -- but only for the same
+        # golfer: seqNum counts each player's own records, so two players share
+        # (hole, shot, seqNum) all the time and one of them must not vanish.
+        fingerprint = (row["event"], row["round"], who(row), row["hole"], row["shot"], row["seqNum"])
         if fingerprint in seen:
             continue
         seen.add(fingerprint)
@@ -635,8 +640,8 @@ def main() -> int:
             in_round = [r for r in in_event if r["round"] == round_no]
             holes = sorted({r["hole"] for r in in_round if r["hole"]})
             missing = [h for h in range(1, 19) if h not in holes]
-            who = sorted({r.get("player") for r in in_round if r.get("player")})
-            names = "" if len(who) <= 1 else "  [" + ", ".join(who) + "]"
+            golfers = sorted({r.get("player") for r in in_round if r.get("player")})
+            names = "" if len(golfers) <= 1 else "  [" + ", ".join(golfers) + "]"
             line = f"    round {round_no}: {len(in_round):3d} shots, {len(holes)} holes{names}"
             print(line + (f"  MISSING {missing}" if missing else ""))
             for player_id in sorted({r.get("playerId") for r in in_round if r.get("playerId")}):

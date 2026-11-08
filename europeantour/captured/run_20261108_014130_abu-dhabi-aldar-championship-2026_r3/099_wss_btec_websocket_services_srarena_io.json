@@ -1,0 +1,135 @@
+{
+  "id": "4108126063",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfMedia3DShots": [
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 14,
+          "strokeNo": 0,
+          "teamId": 34,
+          "seqNum": 228,
+          "courseId": 378,
+          "x": 256240.11632533313,
+          "y": null,
+          "z": 2708044.8671559505,
+          "surfaceTypeCode": "OTB",
+          "provisionalIndex": null,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 322.78,
+          "score": null,
+          "player": {
+            "country": "ESP",
+            "displayName": "David Puig",
+            "firstName": "David",
+            "gender": "male",
+            "id": 8366,
+            "isAmateur": false,
+            "lastName": "Puig"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 14,
+          "strokeNo": 1,
+          "teamId": 34,
+          "seqNum": 232,
+          "courseId": 378,
+          "x": 256183.94476856032,
+          "y": null,
+          "z": 2707815.307516912,
+          "surfaceTypeCode": "OFW",
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 91.339598754622,
+          "shotDistance": 237.310884814971,
+          "score": null,
+          "player": {
+            "country": "ESP",
+            "displayName": "David Puig",
+            "firstName": "David",
+            "gender": "male",
+            "id": 8366,
+            "isAmateur": false,
+            "lastName": "Puig"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": false,
+          "holeNo": 14,
+          "strokeNo": 2,
+          "teamId": 34,
+          "seqNum": 236,
+          "courseId": 378,
+          "x": 256104.34215083878,
+          "y": null,
+          "z": 2707763.0966042867,
+          "surfaceTypeCode": "OGR",
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "distanceToPin": 3.93272756915538,
+          "shotDistance": 95.2551240282588,
+          "score": null,
+          "player": {
+            "country": "ESP",
+            "displayName": "David Puig",
+            "firstName": "David",
+            "gender": "male",
+            "id": 8366,
+            "isAmateur": false,
+            "lastName": "Puig"
+          }
+        },
+        {
+          "isApproximate": false,
+          "addressing": false,
+          "ballHoled": true,
+          "holeNo": 14,
+          "strokeNo": 3,
+          "teamId": 34,
+          "seqNum": 239,
+          "courseId": 378,
+          "x": 256107.41648942232,
+          "y": null,
+          "z": 2707765.5422066823,
+          "surfaceTypeCode": null,
+          "provisionalIndex": 0,
+          "isBallDrop": false,
+          "isProvisional": false,
+          "isProvisionalSelected": false,
+          "shotDistance": 3.93272756915538,
+          "score": "Birdie",
+          "player": {
+            "country": "ESP",
+            "displayName": "David Puig",
+            "firstName": "David",
+            "gender": "male",
+            "id": 8366,
+            "isAmateur": false,
+            "lastName": "Puig"
+          }
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1440",
+    "operationName": "GOLF_TOURNAMENT_TEAM_SHOT_BY_SHOT__ROUNDNO__TEAMID__HOLENO__HOLEORDER__MEDIA",
+    "subscriptionHash": "4108126063"
+  },
+  "_operation": "MapVisualisationSubscribeToMedia3DShots"
+}

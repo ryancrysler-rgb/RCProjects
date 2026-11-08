@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://static.srarena.io/event-centre-configs/europeantour.json",
+    "kind": "http"
+  },
+  {
+    "url": "https://static.srarena.io/event-centre-configs/master.json",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=843657172",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=935024136",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=4122635036",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=4278349526",
+    "kind": "http"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=1145632212",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/?hash=3676717528",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/",
+    "kind": "http"
+  },
+  {
+    "url": "https://static.srarena.io/golf/3d/courses/ET-2036/all_metadata.json?v=44",
+    "kind": "http"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-sent"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "wss://btec-websocket.services.srarena.io/",
+    "kind": "ws-received"
+  },
+  {
+    "url": "https://btec-http.services.srarena.io/",
+    "kind": "http"
+  }
+]

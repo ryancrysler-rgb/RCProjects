@@ -1,0 +1,532 @@
+DAVID PUIG · ABU DHABI ALDAR CHAMPIONSHIP 2026
+Shot by shot, Rounds 1, 2, 3 · 70 · 64 · 68 = 202 (-14)
+Source: DP World Tour shot tracker; par from the official scorecard.
+Each line: where the shot was played from (and how far from the hole) -> where it finished.
+Yards off the green, feet on it. The quoted line under each shot is the site's AI commentary.
+
+========================================================================
+ROUND 1 · 70 (-2)
+========================================================================
+
+Hole 1 · Par 4 · 378 yd · 4 (Par)
+  1. Tee shot (378 yd) -> Fairway, 96 yd left
+       "David Puig (T35) finds the fairway with a 287-yard drive on the opening hole, leaving 96 yards for his approach."
+  2. From fairway (96 yd) -> Green, 9.3 ft left
+       "Puig's approach from the fairway finds the green, leaving a nine-foot putt for birdie on the opening hole."
+  3. Putt from 9.3 ft -> 11 in
+       "Puig missed a nine-footer for birdie on the opening hole, losing 0.42 strokes *putting*."
+  4. Putt from 11 in - HOLED
+       "Puig holed a short putt to make par on the opening hole."
+
+Hole 2 · Par 5 · 561 yd · 4 (Birdie)
+  1. Tee shot (561 yd) -> Fairway Bunker, 255 yd left
+       "David Puig (T27) finds the fairway bunker with a 305-yard drive, leaving 254 yards to the hole on the par five second."
+  2. From fairway bunker (255 yd) -> Rough, 28 yd left
+       "Puig's approach from the fairway bunker finds the rough, leaving 28 yards to the hole on par five."
+  3. From rough (28 yd) -> Green, 7.8 ft left
+       "Puig chips from the rough to eight feet for birdie on the par five second."
+  4. Putt from 7.8 ft - HOLED
+       "Puig holed an eight-foot putt for birdie on the par five second, gaining 0.50 strokes *putting*."
+
+Hole 3 · Par 4 · 442 yd · 4 (Par)
+  1. Tee shot (442 yd) -> Fairway, 156 yd left
+       "David Puig (T22) finds the fairway with a 273-yard drive, leaving 155 yards to the hole on course hole three."
+  2. From fairway (156 yd) -> Intermediate Rough, 10 ft left
+       "Puig's approach from the fairway finds the intermediate rough, leaving three yards to the hole on the par four third."
+  3. From intermediate rough (3 yd) -> Green, 1.8 ft left
+       "Puig chips from the intermediate rough to leave a two-foot putt for par on the third."
+  4. Putt from 1.8 ft - HOLED
+       "Puig holed a putt from two feet for par on the par four third."
+
+Hole 4 · Par 3 · 212 yd · 5 (Double bogey)
+  1. Tee shot (212 yd) -> Green, 48 ft left
+       "David Puig (T21) finds the green with an approach shot, leaving 48 feet for birdie on the par three."
+  2. Putt from 48 ft -> 10 ft
+       "Puig missed a 48-foot putt for birdie, leaving a ten-footer for par, losing 0.55 strokes *putting*."
+  3. Putt from 10 ft -> 3.6 ft
+       "Puig missed a ten-footer for par, leaving four feet for bogey on the par three, losing 0.52 strokes *putting*."
+  4. Putt from 3.6 ft -> 4 in
+       "Puig missed a four-footer for bogey, leaving five inches, losing 0.93 strokes *putting*."
+  5. Putt from 4 in - HOLED
+       "Puig holes his putt on the par 3 fourth for double bogey."
+
+Hole 5 · Par 4 · 405 yd · 4 (Par)
+  1. Tee shot (405 yd) -> Rough, 122 yd left
+       "David Puig (T41) finds the rough with a 296-yard drive on the par four fifth; 122 yards remain to the hole."
+  2. From rough (122 yd) -> Green, 23 ft left
+       "Puig's approach from the rough finds the green, leaving 23 feet for birdie on the par four fifth."
+  3. Putt from 23 ft -> 11 in
+       "Puig missed a 23-foot putt for birdie on the fifth hole, leaving about ten inches for par."
+  4. Putt from 11 in - HOLED
+       "Puig holed a short putt on the par four fifth for par."
+
+Hole 6 · Par 4 · 468 yd · 4 (Par)
+  1. Tee shot (468 yd) -> Fairway, 141 yd left
+       "David Puig (T45) finds the fairway with a 329-yard drive, leaving 141 yards to the hole on the par four sixth."
+  2. From fairway (141 yd) -> Green, 31 ft left
+       "Puig's approach from the fairway finds the green, leaving 31 feet for birdie on the par four."
+  3. Putt from 31 ft -> 1.2 ft
+       "Puig missed a 31-foot putt for birdie on the sixth, leaving 13 inches for par."
+  4. Putt from 1.2 ft - HOLED
+       "Puig holed a short putt on the par four sixth for par."
+
+Hole 7 · Par 5 · 591 yd · 4 (Birdie)
+  1. Tee shot (591 yd) -> Fairway, 266 yd left
+       "David Puig (T47) finds the fairway with a 306-yard drive, leaving 266 yards to the hole on the par five seventh."
+  2. From fairway (266 yd) -> Fairway, 16 yd left
+       "Puig's approach from the fairway finds the fairway again, leaving 16 feet to the hole on the par five seventh."
+  3. From fairway (16 yd) -> Green, 1.5 ft left
+       "Puig chips from the fairway to inside three feet on the par five seventh, leaving a birdie opportunity."
+  4. Putt from 1.5 ft - HOLED
+       "Puig holed a short putt for birdie on the par five seventh."
+
+Hole 8 · Par 3 · 179 yd · 2 (Birdie)
+  1. Tee shot (179 yd) -> Green, 22 ft left
+       "Puig (T34) finds the green with an approach shot, leaving 22 feet for birdie on the par three."
+  2. Putt from 22 ft - HOLED
+       "Puig holed a 22-foot putt for birdie on the par 3 eighth, gaining 0.84 strokes *putting*."
+
+Hole 9 · Par 4 · 476 yd · 4 (Par)
+  1. Tee shot (476 yd) -> Fairway, 165 yd left
+       "David Puig (T26) finds the fairway with a 311-yard drive, leaving 164 yards to the hole on the par four ninth."
+  2. From fairway (165 yd) -> Green, 28 ft left
+       "Puig's approach from the fairway bunker finds the green, leaving 28 feet for birdie and gaining 0.40 strokes *approach*."
+  3. Putt from 28 ft -> 7.2 ft
+       "Puig missed a 28-foot putt for birdie, leaving seven feet, losing 0.50 strokes *putting*."
+  4. Putt from 7.2 ft - HOLED
+       "Puig holed a seven-footer for par on the ninth, gaining 0.44 strokes *putting* — best putt on the hole today."
+
+Hole 10 · Par 4 · 390 yd · 3 (Birdie)
+  1. Tee shot (390 yd) -> Fairway, 135 yd left
+       "David Puig (T25) finds the fairway with a 269-yard drive, leaving 134 yards to the hole on course hole ten."
+  2. From fairway (135 yd) -> Green, 1.2 ft left
+       "Puig's approach from the fairway finds the green inside three feet, gaining 0.80 strokes *approach* for a birdie look."
+  3. Putt from 1.2 ft - HOLED
+       "Puig holed a short putt for birdie on the par 4 tenth."
+
+Hole 11 · Par 5 · 573 yd · 4 (Birdie)
+  1. Tee shot (573 yd) -> Rough, 258 yd left
+       "David Puig (T20) finds the rough with a 306-yard drive on the 11th, leaving 258 yards to the hole."
+  2. From rough (258 yd) -> Green, 69 ft left
+       "Puig's approach from the rough finds the green, leaving a 69-foot putt on the par five 11th."
+  3. Putt from 69 ft -> 2.7 ft
+       "Puig missed a 69-foot putt for eagle on the 11th, leaving about three feet for birdie."
+  4. Putt from 2.7 ft - HOLED
+       "Puig holed a short putt from three feet for birdie on the par five 11th."
+
+Hole 12 · Par 4 · 480 yd · 4 (Par)
+  1. Tee shot (480 yd) -> Fairway, 145 yd left
+       "David Puig (T14) finds the fairway with a 327-yard drive, leaving 144 yards to the hole on the par four 12th."
+  2. From fairway (145 yd) -> Fairway, 19 yd left
+       "Puig's approach from the fairway finds the fairway, leaving 19 yards to the hole, losing 0.46 strokes *approach*."
+  3. From fairway (19 yd) -> Green, 3.6 ft left
+       "Puig chips to four feet on the 12th, gaining 0.50 strokes *around the green* with a birdie opportunity ahead."
+  4. Putt from 3.6 ft - HOLED
+       "Puig holed a four-foot putt for par on the 12th."
+
+Hole 13 · Par 3 · 163 yd · 3 (Par)
+  1. Tee shot (163 yd) -> Green, 13 ft left
+       "David Puig (T15) finds the green on course hole 13 with an approach shot, leaving a thirteen-foot putt for birdie."
+  2. Putt from 13 ft -> 7 in
+       "Puig missed a thirteen-footer for birdie on the par three, leaving seven inches for par."
+  3. Putt from 7 in - HOLED
+       "Puig holed a short putt on the par 3 thirteenth for par."
+
+Hole 14 · Par 4 · 355 yd · 4 (Par)
+  1. Tee shot (355 yd) -> Fairway, 135 yd left
+       "David Puig (T15) finds the fairway with a 242-yard drive on the 14th, leaving 135 yards to the hole."
+  2. From fairway (135 yd) -> Green, 38 ft left
+       "Puig's approach from the fairway finds the green, leaving 38 feet for birdie on the par four."
+  3. Putt from 38 ft -> 11 in
+       "Puig missed a 38-foot birdie putt on the 14th, leaving about 12 inches for par."
+  4. Putt from 11 in - HOLED
+       "Puig holed a short putt on the par four 14th for par."
+
+Hole 15 · Par 4 · 481 yd · 5 (Bogey)
+  1. Tee shot (481 yd) -> Rough, 180 yd left
+       "David Puig (T17) finds the rough with a 328-yard drive, leaving 179 yards to the hole on the par four."
+  2. From rough (180 yd) -> Fairway, 39 yd left
+       "Puig's approach from the rough finds the fairway, leaving 39 yards to the hole on the par four."
+  3. From fairway (39 yd) -> Green, 6.9 ft left
+       "Puig's approach from the fairway finds the green, leaving a seven-foot putt for par on the 15th."
+  4. Putt from 6.9 ft -> 11 in
+       "Puig missed a seven-footer for par, leaving a ten-inch putt for bogey, losing 0.58 strokes *putting*."
+  5. Putt from 11 in - HOLED
+       "Puig holed a short putt on the par four 15th for bogey."
+
+Hole 16 · Par 4 · 420 yd · 5 (Bogey)
+  1. Tee shot (420 yd) -> Fairway, 140 yd left
+       "Puig (T28) finds the fairway with a 287-yard drive, leaving 140 yards to the hole on course hole 16."
+  2. From fairway (140 yd) -> Greenside Bunker, 14 yd left
+       "Puig's approach from the fairway finds the greenside bunker, leaving 14 yards to the hole and losing 0.61 strokes *approach*."
+  3. From greenside bunker (14 yd) -> Green, 8.4 ft left
+       "Puig plays a bunker shot from 14 yards to eight feet, leaving a putt for par on the 16th."
+  4. Putt from 8.4 ft -> 1.2 ft
+       "Puig missed an eight-footer for par on the 16th, leaving fourteen inches, losing 0.47 strokes *putting*."
+  5. Putt from 1.2 ft - HOLED
+       "Puig holed a short putt from 1 foot on the par 4 16th for bogey."
+
+Hole 17 · Par 3 · 190 yd · 3 (Par)
+  1. Tee shot (190 yd) -> Fairway, 18 yd left
+       "David Puig (T35) finds the fairway with his approach shot on the 17th, leaving 18 yards to the hole."
+  2. From fairway (18 yd) -> Green, 4.8 ft left
+       "Puig chips from the fairway to five feet for par on the 17th."
+  3. Putt from 4.8 ft - HOLED
+       "Puig holed a five-foot putt for par on the par three 17th."
+
+Hole 18 · Par 5 · 617 yd · 4 (Birdie)
+  1. Tee shot (617 yd) -> Fairway, 277 yd left
+       "David Puig (T37) finds the fairway with a 315-yard drive on the closing hole, leaving 277 yards to the target."
+       [note: provisional ball also hit (321.7 yds, Fairway); original found and played]
+  2. From fairway (277 yd) -> Rough, 57 yd left
+       "Puig's approach from the fairway finds the rough, leaving 57 yards to the hole on the closing par five."
+  3. From rough (57 yd) -> Green, 40 ft left
+       "Puig's approach from the rough finds the green, leaving forty feet for his birdie attempt on the closing hole."
+  4. Putt from 40 ft - HOLED
+       "Puig holed a 40-foot putt for birdie on the closing hole, gaining 1.05 strokes *putting* — best putt on 18 today."
+
+========================================================================
+ROUND 2 · 64 (-8)
+========================================================================
+
+Hole 1 · Par 4 · 372 yd · 4 (Par)
+  1. Tee shot (372 yd) -> Fairway, 92 yd left
+       "David Puig (T36) finds the fairway with a 302-yard drive, leaving 92 yards to the hole on the opening par four."
+  2. From fairway (92 yd) -> Green, 19 ft left
+       "Puig's approach from the fairway finds the green, leaving a 19-foot putt for birdie on the first hole."
+  3. Putt from 19 ft -> 2.4 ft
+       "Puig missed a nineteen-footer for birdie on the first hole, leaving a two-footer for par."
+  4. Putt from 2.4 ft - HOLED
+       "Puig holed a two-foot putt for par on the first hole."
+
+Hole 2 · Par 5 · 555 yd · 4 (Birdie)
+  1. Tee shot (555 yd) -> Fairway, 197 yd left
+       "David Puig (T38) finds the fairway with a 352-yard drive, gaining 0.44 strokes *off the tee* on the par five second."
+  2. From fairway (197 yd) -> Green, 11 ft left
+       "Puig's approach from the fairway finds the green, leaving an 11-foot putt for eagle, gaining 0.44 strokes *approach*."
+  3. Putt from 11 ft -> 1.5 ft
+       "Puig missed an eleven-footer for eagle on the par five second, leaving a two-footer for birdie."
+  4. Putt from 1.5 ft - HOLED
+       "Puig holed a short putt for birdie on the par five second."
+
+Hole 3 · Par 4 · 436 yd · 4 (Par)
+  1. Tee shot (436 yd) -> Fairway, 172 yd left
+       "David Puig (T24) finds the fairway with a 280-yard drive, leaving 172 yards to the hole on the par four third."
+  2. From fairway (172 yd) -> Green, 11 ft left
+       "Puig's approach from the fairway finds the green, leaving an 11-foot birdie putt on the par four third."
+  3. Putt from 11 ft -> 1.2 ft
+       "Puig missed an eleven-footer for birdie on the third, leaving fifteen inches for par."
+  4. Putt from 1.2 ft - HOLED
+       "Puig holed a short putt from 1 foot to make par on the par 4 third."
+
+Hole 4 · Par 3 · 190 yd · 3 (Par)
+  1. Tee shot (190 yd) -> Greenside Bunker, 12 yd left
+       "David Puig (T31) finds the greenside bunker with his approach, leaving twelve feet to the hole, losing 0.57 strokes *approach*."
+  2. From greenside bunker (12 yd) -> Green, 6.6 ft left
+       "Puig plays a chip from the greenside bunker to seven feet, leaving a putt for par on the par three."
+  3. Putt from 6.6 ft - HOLED
+       "Puig holed a seven-foot putt for par on the fourth, gaining 0.41 strokes *putting*."
+
+Hole 5 · Par 4 · 400 yd · 3 (Birdie)
+  1. Tee shot (400 yd) -> Rough, 112 yd left
+       "David Puig (T32) finds the rough with a 288-yard drive, leaving 111 yards to the hole on the par four fifth."
+  2. From rough (112 yd) -> Green, 6.6 ft left
+       "Puig's approach from the rough finds the green, leaving a seven-foot birdie putt, gaining 0.57 strokes *approach*."
+  3. Putt from 6.6 ft - HOLED
+       "Puig holed a seven-foot putt for birdie on the par four fifth."
+
+Hole 6 · Par 4 · 462 yd · 3 (Birdie)
+  1. Tee shot (462 yd) -> Fairway, 130 yd left
+       "David Puig (T19) finds the fairway with a 320-yard drive, leaving 130 yards to the hole on the par 4 sixth."
+  2. From fairway (130 yd) -> Green, 14 ft left
+       "Puig's approach from the fairway finds the green, leaving a fourteen-foot birdie putt on the par four sixth."
+  3. Putt from 14 ft - HOLED
+       "Puig holed a 14-foot putt for birdie on the par 4 sixth, gaining 0.77 strokes *putting*."
+
+Hole 7 · Par 5 · 585 yd · 5 (Par)
+  1. Tee shot (585 yd) -> Fairway, 243 yd left
+       "David Puig (T12) finds the fairway with a 326-yard drive on the par five seventh, leaving 243 yards to the hole."
+  2. From fairway (243 yd) -> Native Area, 31 yd left
+       "Puig's approach from the fairway leaves him 31 feet short, losing 0.64 strokes *approach*."
+       [note: provisional ball also hit (253.3 yds, Green); original found and played]
+  3. From native area (31 yd) -> Green, 54 ft left
+       "Puig's approach finds the green on the par five seventh, leaving fifty-four feet for his birdie putt."
+  4. Putt from 54 ft -> 1.5 ft
+       "Puig missed a 54-foot birdie putt on the par five seventh, leaving two feet for par."
+  5. Putt from 1.5 ft - HOLED
+       "Puig holed a short putt from two feet for par on the par five seventh."
+
+Hole 8 · Par 3 · 192 yd · 3 (Par)
+  1. Tee shot (192 yd) -> Green, 19 ft left
+       "David Puig (T11) finds the green on the par three eighth with an approach, leaving nineteen feet for birdie."
+  2. Putt from 19 ft -> 2.1 ft
+       "Puig missed a 19-foot putt for birdie on the par 3, leaving two feet for par."
+  3. Putt from 2.1 ft - HOLED
+       "Puig holed a two-foot putt for par on the par three 8th."
+
+Hole 9 · Par 4 · 475 yd · 4 (Par)
+  1. Tee shot (475 yd) -> Fairway, 141 yd left
+       "David Puig (T21) finds the fairway with a 326-yard drive on the ninth, leaving 140 yards to the hole."
+  2. From fairway (141 yd) -> Green, 34 ft left
+       "Puig's approach from the fairway finds the green, leaving 34 feet for birdie on the par four ninth."
+  3. Putt from 34 ft -> 11 in
+       "Puig missed a 34-foot putt for birdie on the ninth, leaving about 12 inches for par."
+  4. Putt from 11 in - HOLED
+       "Puig holed a short putt from one foot for par on the ninth."
+
+Hole 10 · Par 4 · 389 yd · 4 (Par)
+  1. Tee shot (389 yd) -> Fairway, 106 yd left
+       "David Puig (T22) finds the fairway with a 262-yard drive, leaving 105 yards to the hole on the par four tenth."
+  2. From fairway (106 yd) -> Intermediate Rough, 4 yd left
+       "Puig's approach from the fairway finds the intermediate rough, leaving four feet to the hole on the par four tenth."
+  3. From intermediate rough (4 yd) -> Green, 2.4 ft left
+       "Puig chips from the intermediate rough to inside two feet for par on the tenth."
+  4. Putt from 2.4 ft - HOLED
+       "Puig holed a two-footer for par on the tenth."
+
+Hole 11 · Par 5 · 571 yd · 5 (Par)
+  1. Tee shot (571 yd) -> Rough, 262 yd left
+       "David Puig (T20) finds the rough with a 302-yard drive on the 11th, leaving 261 yards to the hole."
+  2. From rough (262 yd) -> Fairway, 39 yd left
+       "Puig's approach from the rough finds the fairway, leaving 39 yards to the hole on the par five 11th."
+  3. From fairway (39 yd) -> Green, 13 ft left
+       "Puig's approach from the fairway finds the green, leaving thirteen feet for birdie on the par five 11th."
+  4. Putt from 13 ft -> 7 in
+       "Puig missed a thirteen-footer for birdie on the 11th, leaving seven inches for par."
+  5. Putt from 7 in - HOLED
+       "Puig holed a short putt on the 11th for par."
+
+Hole 12 · Par 4 · 478 yd · 3 (Birdie)
+  1. Tee shot (478 yd) -> Fairway, 164 yd left
+       "David Puig (T19) finds the fairway with a 329-yard drive on the 12th, leaving 163 yards to the hole."
+  2. From fairway (164 yd) -> Green, 5.7 ft left
+       "Puig's approach from the fairway finds the green, leaving a six-foot birdie opportunity, gaining 0.66 strokes *approach*."
+  3. Putt from 5.7 ft - HOLED
+       "Puig holed a six-foot putt for birdie on the par four 12th."
+
+Hole 13 · Par 3 · 178 yd · 3 (Par)
+  1. Tee shot (178 yd) -> Green, 16 ft left
+       "David Puig (T14) finds the green on the par three with an approach shot, leaving sixteen feet for birdie."
+  2. Putt from 16 ft -> 1.2 ft
+       "Puig missed a 16-foot putt for birdie, leaving about 15 inches for par on the par three."
+  3. Putt from 1.2 ft - HOLED
+       "Puig holed a short putt from 15 inches on the par 3 13th for par."
+
+Hole 14 · Par 4 · 354 yd · 4 (Par)
+  1. Tee shot (354 yd) -> Fairway, 107 yd left
+       "David Puig (T15) finds the fairway with a 265-yard drive, leaving 106 yards to the hole on course hole 14."
+  2. From fairway (107 yd) -> Green, 7.2 ft left
+       "Puig's approach from the fairway finds the green, leaving a seven-foot putt for birdie on the par four."
+  3. Putt from 7.2 ft -> 1.5 ft
+       "Puig missed a seven-footer for birdie on the 14th, leaving sixteen inches, losing 0.53 strokes *putting*."
+  4. Putt from 1.5 ft - HOLED
+       "Puig holed a short putt for par on the 14th."
+
+Hole 15 · Par 4 · 480 yd · 3 (Birdie)
+  1. Tee shot (480 yd) -> Fairway, 132 yd left
+       "David Puig (T15) finds the fairway with a 329-yard drive on the par four 15th, leaving 132 yards to the hole."
+  2. From fairway (132 yd) -> Green, 16 ft left
+       "Puig's approach from the fairway finds the green, leaving a 16-foot putt for birdie on the par four."
+  3. Putt from 16 ft - HOLED
+       "Puig holed a 16-foot putt for birdie on the par four 15th, gaining 0.78 strokes *putting*."
+
+Hole 16 · Par 4 · 414 yd · 3 (Birdie)
+  1. Tee shot (414 yd) -> Fairway, 163 yd left
+       "David Puig (T11) finds the fairway with a 259-yard drive, leaving 163 yards to the hole on the par four 16th."
+  2. From fairway (163 yd) -> Green, 8.1 ft left
+       "Puig's approach from the fairway finds the green, leaving an eight-foot birdie putt on hole 16, gaining 0.42 strokes *approach*."
+  3. Putt from 8.1 ft - HOLED
+       "Puig holed a putt from eight feet for birdie on the par four 16th, gaining 0.54 strokes *putting*."
+
+Hole 17 · Par 3 · 206 yd · 3 (Par)
+  1. Tee shot (206 yd) -> Green, 35 ft left
+       "Puig (T9) finds the green on the par three with an approach shot, leaving 35 feet for birdie."
+  2. Putt from 35 ft -> 2.1 ft
+       "Puig missed a 35-foot putt for birdie on the par three, leaving about two feet for par."
+  3. Putt from 2.1 ft - HOLED
+       "Puig holed a two-foot putt for par on the 17th."
+
+Hole 18 · Par 5 · 622 yd · 3 (Eagle)
+  1. Tee shot (622 yd) -> Rough, 288 yd left
+       "David Puig (T8) finds the rough with a 299-yard drive on course hole 18, leaving 287 yards to the hole."
+  2. From rough (288 yd) -> Green, 21 ft left
+       "Puig's approach from the rough finds the green, leaving 21 feet for eagle, gaining 1.05 strokes *approach*."
+  3. Putt from 21 ft - HOLED
+       "Puig holed a 21-foot putt for eagle on the par five 18th, gaining 0.87 strokes *putting* with the best putting on the hole this week."
+
+========================================================================
+ROUND 3 · 68 (-4)
+========================================================================
+
+Hole 1 · Par 4 · 371 yd · 4 (Par)
+  1. Tee shot (371 yd) -> Fairway Bunker, 114 yd left
+       "David Puig (T8) finds the fairway bunker with a 270-yard drive, leaving 113 yards to the hole on the first."
+  2. From fairway bunker (114 yd) -> Green, 20 ft left
+       "Puig's approach from 113 yards finds the green, leaving a twenty-foot putt for birdie."
+  3. Putt from 20 ft -> 1.8 ft
+       "Puig missed a twenty-footer for birdie, leaving about two feet for par."
+  4. Putt from 1.8 ft - HOLED
+       "Puig holed a short putt from two feet for par on the first."
+
+Hole 2 · Par 5 · 554 yd · 4 (Birdie)
+  1. Tee shot (554 yd) -> Rough, 239 yd left
+       "David Puig (T8) finds the rough with a 333-yard drive, leaving 239 yards to the hole."
+  2. From rough (239 yd) -> Green, 23 ft left
+       "Puig's approach from the rough finds the green, leaving 23 feet for eagle, gaining 0.67 strokes *approach*."
+  3. Putt from 23 ft -> 11 in
+       "Puig missed a 23-foot putt for eagle, leaving about 12 inches for birdie on the second hole."
+  4. Putt from 11 in - HOLED
+       "Puig holed a short putt for birdie on the par five second."
+
+Hole 3 · Par 4 · 435 yd · 4 (Par)
+  1. Tee shot (435 yd) -> Rough, 156 yd left
+       "David Puig (T5) finds the rough with a 257-yard drive, leaving 155 yards to the hole on the third."
+  2. From rough (156 yd) -> Green, 69 ft left
+       "Puig's approach from the rough finds the green, leaving 69 feet for his birdie attempt."
+  3. Putt from 69 ft -> 3.3 ft
+       "Puig missed a 69-foot putt for birdie, leaving three feet for par."
+  4. Putt from 3.3 ft - HOLED
+       "Puig holed a three-foot putt for par on the third."
+
+Hole 4 · Par 3 · 202 yd · 4 (Bogey)
+  1. Tee shot (202 yd) -> Green, 24 ft left
+       "David Puig (T6) finds the green with an approach shot, leaving 24 feet for his birdie putt on the fourth."
+  2. Putt from 24 ft -> 3.3 ft
+       "Puig missed a 24-foot putt for birdie, leaving three feet for par."
+  3. Putt from 3.3 ft -> 11 in
+       "Puig missed a three-footer for par, losing 0.92 strokes *putting*, and leaves an eleven-inch putt for bogey."
+  4. Putt from 11 in - HOLED
+       "Puig holed a short putt on the par three fourth for bogey."
+
+Hole 5 · Par 4 · 399 yd · 4 (Par)
+  1. Tee shot (399 yd) -> Rough, 128 yd left
+       "David Puig (T8) finds the rough with a 274-yard drive, leaving 127 yards to the hole on the fifth."
+  2. From rough (128 yd) -> Green, 32 ft left
+       "Puig's approach from the rough finds the green, leaving 33 feet for his birdie attempt on the fifth."
+  3. Putt from 32 ft -> 3.9 ft
+       "Puig missed a 33-foot putt for birdie, leaving a four-foot putt for par."
+  4. Putt from 3.9 ft - HOLED
+       "Puig holed a four-foot putt for par on the fifth."
+
+Hole 6 · Par 4 · 461 yd · 4 (Par)
+  1. Tee shot (461 yd) -> Rough, 140 yd left
+       "David Puig (T9) finds the rough with a 302-yard drive, leaving 140 yards to the hole on the sixth."
+  2. From rough (140 yd) -> Fairway, 15 yd left
+       "Puig's approach from the rough finds the fairway, leaving fifteen yards to the hole on the sixth."
+  3. From fairway (15 yd) -> Green, 3.3 ft left
+       "Puig chips from the fairway to three feet, leaving a par putt on the sixth hole."
+  4. Putt from 3.3 ft - HOLED
+       "Puig holed a three-foot putt for par on the sixth."
+
+Hole 7 · Par 5 · 584 yd · 5 (Par)
+  1. Tee shot (584 yd) -> Fairway, 261 yd left
+       "David Puig (T9) finds the fairway with a 318-yard drive, leaving 261 yards to the hole."
+  2. From fairway (261 yd) -> Rough, 28 yd left
+       "Puig's approach from the fairway finds the rough, leaving 28 yards to the hole on seven."
+  3. From rough (28 yd) -> Green, 14 ft left
+       "Puig chips from the rough to 14 feet for a birdie opportunity on the seventh."
+  4. Putt from 14 ft -> 4 in
+       "Puig missed a fourteen-footer for birdie, leaving three inches for par."
+  5. Putt from 4 in - HOLED
+       "Puig holed a short putt to make par on the seventh."
+
+Hole 8 · Par 3 · 185 yd · 3 (Par)
+  1. Tee shot (185 yd) -> Green, 11 ft left
+       "David Puig (T12) finds the green with an approach shot, leaving an eleven-foot putt for birdie on the eighth hole."
+  2. Putt from 11 ft -> 11 in
+       "Puig missed an 11-footer for birdie, leaving about 12 inches for par on the eighth."
+  3. Putt from 11 in - HOLED
+       "Puig holed a short putt for par on the eighth."
+
+Hole 9 · Par 4 · 474 yd · 3 (Birdie)
+  1. Tee shot (474 yd) -> Fairway, 144 yd left
+       "David Puig (T13) finds the fairway with a 315-yard drive, leaving 143 yards to the hole."
+  2. From fairway (144 yd) -> Green, 37 ft left
+       "Puig's approach from the fairway finds the green, leaving 36 feet for birdie on the ninth."
+  3. Putt from 37 ft - HOLED
+       "Puig holed a 36-foot putt for birdie, gaining 1.05 strokes *putting* — best putting on the hole this week."
+
+Hole 10 · Par 4 · 387 yd · 3 (Birdie)
+  1. Tee shot (387 yd) -> Fairway, 65 yd left
+       "David Puig (T8) finds the fairway with a 314-yard drive, leaving 65 yards to the hole on the tenth."
+  2. From fairway (65 yd) -> Green, 6.6 ft left
+       "Puig's approach from the fairway finds the green, leaving a seven-foot birdie putt on the tenth."
+  3. Putt from 6.6 ft - HOLED
+       "Puig holed a seven-foot putt for birdie on the tenth, gaining 0.45 strokes *putting*."
+
+Hole 11 · Par 5 · 570 yd · 5 (Par)
+  1. Tee shot (570 yd) -> Rough, 266 yd left
+       "David Puig (T6) finds the rough with a 303-yard drive on the 11th, leaving 265 yards to the hole."
+  2. From rough (266 yd) -> Fairway, 58 yd left
+       "Puig's approach from the rough finds the fairway, leaving fifty-eight yards to the hole on eleven."
+  3. From fairway (58 yd) -> Green, 28 ft left
+       "Puig's approach from the fairway finds the green, leaving 29 feet for birdie on the par five."
+  4. Putt from 28 ft -> 1.8 ft
+       "Puig missed a 29-foot putt for birdie, leaving about two feet for par."
+  5. Putt from 1.8 ft - HOLED
+       "Puig holed a short putt from about two feet for par on the 11th."
+
+Hole 12 · Par 4 · 477 yd · 3 (Birdie)
+  1. Tee shot (477 yd) -> Fairway, 158 yd left
+       "David Puig (T7) finds the fairway with a 308-yard drive, leaving 157 yards to the hole on the 12th."
+  2. From fairway (158 yd) -> Green, 3.3 ft left
+       "Puig's approach from the fairway finds the green, leaving a three-foot birdie putt, gaining 0.81 strokes *approach*."
+  3. Putt from 3.3 ft - HOLED
+       "Puig holed a three-foot putt for birdie on the 12th."
+
+Hole 13 · Par 3 · 165 yd · 4 (Bogey)
+  1. Tee shot (165 yd) -> Intermediate Rough, 6 yd left
+       "David Puig (T7) misses the green with his approach, leaving the ball in the intermediate rough about six feet from the hole."
+  2. From intermediate rough (6 yd) -> Intermediate Rough, 6 yd left
+       "Puig's chip from the intermediate rough leaves him five yards short, losing 0.79 strokes *around the green*."
+  3. From intermediate rough (6 yd) -> Green, 13 ft left
+       "Puig chips from the intermediate rough to thirteen feet, losing 0.48 strokes *around the green*, leaving a bogey look."
+  4. Putt from 13 ft - HOLED
+       "Puig holed a 13-foot putt for bogey on the par three 13th, gaining 0.73 strokes *putting*."
+
+Hole 14 · Par 4 · 353 yd · 3 (Birdie)
+  1. Tee shot (353 yd) -> Fairway, 100 yd left
+       "David Puig (T7) finds the fairway with a 259-yard drive, leaving 99 yards to the hole on the 14th."
+  2. From fairway (100 yd) -> Green, 13 ft left
+       "Puig's approach from the fairway leaves him thirteen feet for birdie on the 14th."
+  3. Putt from 13 ft - HOLED
+       "Puig holed a 13-foot putt for birdie, gaining 0.75 strokes *putting* on the 14th."
+
+Hole 15 · Par 4 · 476 yd · 4 (Par)
+  1. Tee shot (476 yd) -> Fairway, 139 yd left
+       "David Puig (T7) finds the fairway with a 344-yard drive, leaving 139 yards to the hole on the 15th."
+  2. From fairway (139 yd) -> Green, 25 ft left
+       "Puig's approach from the fairway finds the green, leaving 24 feet for birdie on the 15th."
+  3. Putt from 25 ft -> 11 in
+       "Puig missed a 24-foot putt for birdie, leaving about ten inches for par on the 15th."
+  4. Putt from 11 in - HOLED
+       "Puig holed a short putt for par on the 15th."
+
+Hole 16 · Par 4 · 418 yd · 3 (Birdie)
+  1. Tee shot (418 yd) -> Fairway, 146 yd left
+       "David Puig (T7) finds the fairway with a 267-yard drive, leaving 146 yards to the hole on the 16th."
+  2. From fairway (146 yd) -> Green, 18 ft left
+       "Puig's approach from the fairway finds the green, leaving an 18-foot putt for birdie on the 16th."
+  3. Putt from 18 ft - HOLED
+       "Puig holed an 18-foot putt for birdie, gaining 0.84 strokes *putting* on the 16th."
+
+Hole 17 · Par 3 · 204 yd · 3 (Par)
+  1. Tee shot (204 yd) -> Green, 41 ft left
+       "David Puig (T6) finds the green with an approach shot, leaving 41 feet for birdie on the 17th."
+  2. Putt from 41 ft -> 1.5 ft
+       "Puig missed a 41-foot putt for birdie, leaving 18 inches for par on the 17th."
+  3. Putt from 1.5 ft - HOLED
+       "Puig holed a short putt from eighteen inches for par on the 17th."
+
+Hole 18 · Par 5 · 619 yd · 5 (Par)
+  1. Tee shot (619 yd) -> Fairway, 309 yd left
+       "David Puig (T6) finds the fairway with a 313-yard drive on the 18th, leaving 308 yards to the hole."
+  2. From fairway (309 yd) -> Fairway, 40 yd left
+       "Puig plays an approach from the fairway to 39 yards left on the 18th."
+  3. From fairway (40 yd) -> Green, 7.2 ft left
+       "Puig's approach from the fairway finds the green, leaving seven feet for birdie on the 18th."
+  4. Putt from 7.2 ft -> 1.5 ft
+       "Puig missed a seven-footer for birdie, leaving about two feet; losing 0.56 strokes *putting*."
+  5. Putt from 1.5 ft - HOLED
+       "Puig holed a short putt to finish with par on the 18th."
+

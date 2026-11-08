@@ -1,0 +1,672 @@
+{
+  "id": "4213942890",
+  "type": "data",
+  "payload": {
+    "data": {
+      "subscribeToGolfCommentary": {
+        "roundNo": 3,
+        "holes": [
+          {
+            "holeNo": 1,
+            "holeOrder": 1,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T8) finds the fairway bunker with a 270-yard drive, leaving 113 yards to the hole on the first."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-1-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from 113 yards finds the green, leaving a twenty-foot putt for birdie."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-1-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a twenty-footer for birdie, leaving about two feet for par."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-1-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a short putt from two feet for par on the first."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-1-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 2,
+            "holeOrder": 2,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T8) finds the rough with a 333-yard drive, leaving 239 yards to the hole."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-2-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the rough finds the green, leaving 23 feet for eagle, gaining 0.67 strokes *approach*."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-2-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a 23-foot putt for eagle, leaving about 12 inches for birdie on the second hole."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-2-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a short putt for birdie on the par five second."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-2-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 3,
+            "holeOrder": 3,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T5) finds the rough with a 257-yard drive, leaving 155 yards to the hole on the third."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-3-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the rough finds the green, leaving 69 feet for his birdie attempt."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-3-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a 69-foot putt for birdie, leaving three feet for par."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-3-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a three-foot putt for par on the third."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-3-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 4,
+            "holeOrder": 4,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T6) finds the green with an approach shot, leaving 24 feet for his birdie putt on the fourth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-4-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a 24-foot putt for birdie, leaving three feet for par."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-4-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a three-footer for par, losing 0.92 strokes *putting*, and leaves an eleven-inch putt for bogey."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-4-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a short putt on the par three fourth for bogey."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-4-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 5,
+            "holeOrder": 5,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T8) finds the rough with a 274-yard drive, leaving 127 yards to the hole on the fifth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-5-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the rough finds the green, leaving 33 feet for his birdie attempt on the fifth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-5-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a 33-foot putt for birdie, leaving a four-foot putt for par."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-5-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a four-foot putt for par on the fifth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-5-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 6,
+            "holeOrder": 6,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T9) finds the rough with a 302-yard drive, leaving 140 yards to the hole on the sixth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-6-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the rough finds the fairway, leaving fifteen yards to the hole on the sixth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-6-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig chips from the fairway to three feet, leaving a par putt on the sixth hole."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-6-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a three-foot putt for par on the sixth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-6-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 7,
+            "holeOrder": 7,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T9) finds the fairway with a 318-yard drive, leaving 261 yards to the hole."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-7-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the fairway finds the rough, leaving 28 yards to the hole on seven."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-7-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig chips from the rough to 14 feet for a birdie opportunity on the seventh."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-7-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a fourteen-footer for birdie, leaving three inches for par."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-7-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a short putt to make par on the seventh."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-7-5",
+                "shotNo": 5
+              }
+            ]
+          },
+          {
+            "holeNo": 8,
+            "holeOrder": 8,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T12) finds the green with an approach shot, leaving an eleven-foot putt for birdie on the eighth hole."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-8-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig missed an 11-footer for birdie, leaving about 12 inches for par on the eighth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-8-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a short putt for par on the eighth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-8-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 9,
+            "holeOrder": 9,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T13) finds the fairway with a 315-yard drive, leaving 143 yards to the hole."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-9-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the fairway finds the green, leaving 36 feet for birdie on the ninth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-9-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a 36-foot putt for birdie, gaining 1.05 strokes *putting* \u2014 best putting on the hole this week."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-9-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 10,
+            "holeOrder": 10,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T8) finds the fairway with a 314-yard drive, leaving 65 yards to the hole on the tenth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-10-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the fairway finds the green, leaving a seven-foot birdie putt on the tenth."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-10-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a seven-foot putt for birdie on the tenth, gaining 0.45 strokes *putting*."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-10-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 11,
+            "holeOrder": 11,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T6) finds the rough with a 303-yard drive on the 11th, leaving 265 yards to the hole."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-11-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the rough finds the fairway, leaving fifty-eight yards to the hole on eleven."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-11-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the fairway finds the green, leaving 29 feet for birdie on the par five."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-11-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a 29-foot putt for birdie, leaving about two feet for par."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-11-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a short putt from about two feet for par on the 11th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-11-5",
+                "shotNo": 5
+              }
+            ]
+          },
+          {
+            "holeNo": 12,
+            "holeOrder": 12,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T7) finds the fairway with a 308-yard drive, leaving 157 yards to the hole on the 12th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-12-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the fairway finds the green, leaving a three-foot birdie putt, gaining 0.81 strokes *approach*."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-12-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a three-foot putt for birdie on the 12th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-12-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 13,
+            "holeOrder": 13,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T7) misses the green with his approach, leaving the ball in the intermediate rough about six feet from the hole."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-13-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's chip from the intermediate rough leaves him five yards short, losing 0.79 strokes *around the green*."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-13-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig chips from the intermediate rough to thirteen feet, losing 0.48 strokes *around the green*, leaving a bogey look."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-13-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a 13-foot putt for bogey on the par three 13th, gaining 0.73 strokes *putting*."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-13-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 14,
+            "holeOrder": 14,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T7) finds the fairway with a 259-yard drive, leaving 99 yards to the hole on the 14th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-14-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the fairway leaves him thirteen feet for birdie on the 14th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-14-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a 13-foot putt for birdie, gaining 0.75 strokes *putting* on the 14th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-14-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 15,
+            "holeOrder": 15,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T7) finds the fairway with a 344-yard drive, leaving 139 yards to the hole on the 15th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-15-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the fairway finds the green, leaving 24 feet for birdie on the 15th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-15-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a 24-foot putt for birdie, leaving about ten inches for par on the 15th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-15-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a short putt for par on the 15th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-15-4",
+                "shotNo": 4
+              }
+            ]
+          },
+          {
+            "holeNo": 16,
+            "holeOrder": 16,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T7) finds the fairway with a 267-yard drive, leaving 146 yards to the hole on the 16th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-16-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the fairway finds the green, leaving an 18-foot putt for birdie on the 16th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-16-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig holed an 18-foot putt for birdie, gaining 0.84 strokes *putting* on the 16th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-16-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 17,
+            "holeOrder": 17,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T6) finds the green with an approach shot, leaving 41 feet for birdie on the 17th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-17-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a 41-foot putt for birdie, leaving 18 inches for par on the 17th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-17-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a short putt from eighteen inches for par on the 17th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-17-3",
+                "shotNo": 3
+              }
+            ]
+          },
+          {
+            "holeNo": 18,
+            "holeOrder": 18,
+            "shots": [
+              {
+                "comments": {
+                  "en": "David Puig (T6) finds the fairway with a 313-yard drive on the 18th, leaving 308 yards to the hole."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-18-1",
+                "shotNo": 1
+              },
+              {
+                "comments": {
+                  "en": "Puig plays an approach from the fairway to 39 yards left on the 18th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-18-2",
+                "shotNo": 2
+              },
+              {
+                "comments": {
+                  "en": "Puig's approach from the fairway finds the green, leaving seven feet for birdie on the 18th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-18-3",
+                "shotNo": 3
+              },
+              {
+                "comments": {
+                  "en": "Puig missed a seven-footer for birdie, leaving about two feet; losing 0.56 strokes *putting*."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-18-4",
+                "shotNo": 4
+              },
+              {
+                "comments": {
+                  "en": "Puig holed a short putt to finish with par on the 18th."
+                },
+                "playerId": 8366,
+                "shotId": "1440-34-3-18-5",
+                "shotNo": 5
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "sport": "GOLF",
+    "eventId": "1440",
+    "operationName": "GOLF_COMMENTARY___",
+    "subscriptionHash": "4213942890"
+  },
+  "_operation": "ShotTrackerSubscribeToGolfCommentary"
+}
