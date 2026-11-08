@@ -394,7 +394,15 @@ def merge_corrections(rows: list[dict]) -> list[dict]:
     merged = []
     for group in groups.values():
         if len(group) == 1:
-            merged.append(group[0])
+            only = group[0]
+            # The only ball recorded for a stroke is the ball played, whatever its flag says. The feed sometimes
+            # tags it provisional and never marks it selected; readers that drop an unselected provisional would
+            # lose the stroke (the hole's count still matches the card with it in).
+            if only.get("isProvisional") and not only.get("isProvisionalSelected"):
+                only["isProvisionalSelected"] = True
+                only["note"] = ((only.get("note") or "") + "; " if only.get("note") else "") + \
+                    "the only ball recorded for this stroke is flagged provisional; marked played here"
+            merged.append(only)
             continue
         group.sort(key=lambda r: r.get("seqNum") or 0)
 

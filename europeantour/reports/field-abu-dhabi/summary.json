@@ -1,0 +1,1708 @@
+{
+ "houseRules": "house-rules-v18.1 (2026-11-09)",
+ "study": "RC Greenlight tour shot study, 2026 season through 26 October: 35 winners and 313 players from the rest of the field, 1,173 rounds",
+ "complete": 68,
+ "groups": {
+  "winner": {
+   "rounds": 4,
+   "players": 1,
+   "scoring": 66.25,
+   "vsField": 4.02,
+   "in6": [
+    59,
+    63
+   ],
+   "in36": [
+    14,
+    18
+   ],
+   "roundsClean6": [
+    1,
+    4
+   ],
+   "par5": [
+    16,
+    16
+   ],
+   "lv24": [
+    21,
+    24
+   ],
+   "three25": [
+    0,
+    51
+   ],
+   "p40": [
+    0,
+    5
+   ],
+   "app40": [
+    57,
+    71
+   ],
+   "sg6": [
+    8,
+    16
+   ],
+   "bunker6": [
+    1,
+    1
+   ],
+   "chipMissRounds": [
+    0,
+    4
+   ],
+   "chips": [
+    16,
+    16
+   ],
+   "dzPerRound": 1.25,
+   "dz": 5,
+   "rule3": {
+    "kept": 1,
+    "attention": 3
+   },
+   "rule4": {
+    "kept": 3,
+    "attention": 1
+   },
+   "rule2": {
+    "not-measurable": 4
+   },
+   "rule1": {
+    "not-measurable": 4
+   },
+   "noPenaltyRounds": [
+    3,
+    4
+   ],
+   "penHolesPerRound": 0.25,
+   "levels": {
+    "LOW STRESS": 3,
+    "MEDIUM STRESS": 1,
+    "HIGH STRESS": 0
+   },
+   "vsFieldByLevel": {
+    "LOW STRESS": [
+     4.4,
+     3
+    ],
+    "MEDIUM STRESS": [
+     2.86,
+     1
+    ]
+   },
+   "over6": [
+    0,
+    4
+   ],
+   "bc": [
+    27,
+    62
+   ],
+   "gir": [
+    62,
+    72
+   ],
+   "fw": [
+    43,
+    56
+   ],
+   "gFw": [
+    42,
+    43
+   ],
+   "gRough": [
+    5,
+    7
+   ],
+   "b75": [
+    4,
+    4
+   ],
+   "b4074": [
+    5,
+    5
+   ],
+   "resetBad": [
+    0,
+    5
+   ],
+   "bogeysPerRound": 1.25,
+   "doublesPerRound": 0.0,
+   "cfbs": [
+    1,
+    4
+   ],
+   "cfbsDoubles": 0,
+   "cfp": [
+    2,
+    5
+   ],
+   "cfpPerRound": 1.25,
+   "cfrStop": [
+    3,
+    5
+   ],
+   "cfrAnswer": [
+    4,
+    5
+   ],
+   "cfdc": [
+    4,
+    4
+   ],
+   "p5third121": [
+    0,
+    null
+   ],
+   "p5third40": [
+    7,
+    -0.71
+   ],
+   "patched": [
+    [
+     "Jon Rahm",
+     2,
+     "H12 shot 2 ends on lie code OTB, which we have not proven"
+    ]
+   ]
+  },
+  "top10": {
+   "rounds": 48,
+   "players": 12,
+   "scoring": 68.04,
+   "vsField": 2.23,
+   "in6": [
+    685,
+    734
+   ],
+   "in36": [
+    132,
+    172
+   ],
+   "roundsClean6": [
+    19,
+    48
+   ],
+   "par5": [
+    175,
+    192
+   ],
+   "lv24": [
+    221,
+    266
+   ],
+   "three25": [
+    3,
+    606
+   ],
+   "p40": [
+    12,
+    110
+   ],
+   "app40": [
+    629,
+    856
+   ],
+   "sg6": [
+    99,
+    208
+   ],
+   "bunker6": [
+    8,
+    37
+   ],
+   "chipMissRounds": [
+    11,
+    48
+   ],
+   "chips": [
+    190,
+    208
+   ],
+   "dzPerRound": 1.54,
+   "dz": 74,
+   "rule3": {
+    "attention": 39,
+    "kept": 9
+   },
+   "rule4": {
+    "kept": 40,
+    "attention": 8
+   },
+   "rule2": {
+    "not-measurable": 37,
+    "broken": 11
+   },
+   "rule1": {
+    "not-measurable": 48
+   },
+   "noPenaltyRounds": [
+    40,
+    48
+   ],
+   "penHolesPerRound": 0.17,
+   "levels": {
+    "LOW STRESS": 6,
+    "MEDIUM STRESS": 29,
+    "HIGH STRESS": 13
+   },
+   "vsFieldByLevel": {
+    "LOW STRESS": [
+     5.01,
+     6
+    ],
+    "MEDIUM STRESS": [
+     2.43,
+     29
+    ],
+    "HIGH STRESS": [
+     0.49,
+     13
+    ]
+   },
+   "over6": [
+    6,
+    48
+   ],
+   "bc": [
+    281,
+    736
+   ],
+   "gir": [
+    736,
+    864
+   ],
+   "fw": [
+    443,
+    672
+   ],
+   "gFw": [
+    403,
+    438
+   ],
+   "gRough": [
+    133,
+    162
+   ],
+   "b75": [
+    62,
+    73
+   ],
+   "b4074": [
+    49,
+    55
+   ],
+   "resetBad": [
+    9,
+    79
+   ],
+   "bogeysPerRound": 1.69,
+   "doublesPerRound": 0.21,
+   "cfbs": [
+    49,
+    75
+   ],
+   "cfbsDoubles": 7,
+   "cfp": [
+    42,
+    97
+   ],
+   "cfpPerRound": 2.02,
+   "cfrStop": [
+    50,
+    70
+   ],
+   "cfrAnswer": [
+    48,
+    70
+   ],
+   "cfdc": [
+    68,
+    75
+   ],
+   "p5third121": [
+    21,
+    0.0
+   ],
+   "p5third40": [
+    83,
+    -0.51
+   ],
+   "patched": [
+    [
+     "Angel Ayora",
+     1,
+     "H2: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Angel Ayora",
+     2,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "David Puig",
+     1,
+     "H4: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "David Puig",
+     4,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Francesco Laporta",
+     2,
+     "H14: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Francesco Laporta",
+     4,
+     "H13: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Nathan Kimsey",
+     4,
+     "H13: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Rory McIlroy",
+     1,
+     "H12: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Rory McIlroy",
+     3,
+     "H10: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Tyrrell Hatton",
+     1,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ]
+   ]
+  },
+  "rest": {
+   "rounds": 220,
+   "players": 55,
+   "scoring": 70.87,
+   "vsField": -0.61,
+   "in6": [
+    3330,
+    3596
+   ],
+   "in36": [
+    713,
+    940
+   ],
+   "roundsClean6": [
+    63,
+    220
+   ],
+   "par5": [
+    756,
+    880
+   ],
+   "lv24": [
+    1061,
+    1315
+   ],
+   "three25": [
+    22,
+    2693
+   ],
+   "p40": [
+    104,
+    553
+   ],
+   "app40": [
+    2522,
+    3899
+   ],
+   "sg6": [
+    578,
+    1244
+   ],
+   "bunker6": [
+    85,
+    272
+   ],
+   "chipMissRounds": [
+    69,
+    220
+   ],
+   "chips": [
+    1147,
+    1244
+   ],
+   "dzPerRound": 1.33,
+   "dz": 293,
+   "rule3": {
+    "kept": 46,
+    "attention": 174
+   },
+   "rule4": {
+    "kept": 166,
+    "attention": 54
+   },
+   "rule2": {
+    "not-measurable": 152,
+    "broken": 68
+   },
+   "rule1": {
+    "not-measurable": 220
+   },
+   "noPenaltyRounds": [
+    166,
+    220
+   ],
+   "penHolesPerRound": 0.28,
+   "levels": {
+    "LOW STRESS": 32,
+    "MEDIUM STRESS": 81,
+    "HIGH STRESS": 107
+   },
+   "vsFieldByLevel": {
+    "HIGH STRESS": [
+     -2.31,
+     107
+    ],
+    "LOW STRESS": [
+     2.42,
+     32
+    ],
+    "MEDIUM STRESS": [
+     0.44,
+     81
+    ]
+   },
+   "over6": [
+    45,
+    220
+   ],
+   "bc": [
+    928,
+    3043
+   ],
+   "gir": [
+    3043,
+    3960
+   ],
+   "fw": [
+    2036,
+    3080
+   ],
+   "gFw": [
+    1657,
+    1953
+   ],
+   "gRough": [
+    517,
+    719
+   ],
+   "b75": [
+    215,
+    268
+   ],
+   "b4074": [
+    182,
+    228
+   ],
+   "resetBad": [
+    114,
+    571
+   ],
+   "bogeysPerRound": 2.72,
+   "doublesPerRound": 0.39,
+   "cfbs": [
+    188,
+    355
+   ],
+   "cfbsDoubles": 52,
+   "cfp": [
+    254,
+    695
+   ],
+   "cfpPerRound": 3.16,
+   "cfrStop": [
+    275,
+    511
+   ],
+   "cfrAnswer": [
+    281,
+    511
+   ],
+   "cfdc": [
+    303,
+    355
+   ],
+   "p5third121": [
+    99,
+    0.23
+   ],
+   "p5third40": [
+    386,
+    -0.44
+   ],
+   "patched": [
+    [
+     "Aaron Rai",
+     2,
+     "H17 shot 1 ends on lie code ODO, which we have not proven"
+    ],
+    [
+     "Aaron Rai",
+     4,
+     "H14 shot 2 ends on lie code OTB, which we have not proven"
+    ],
+    [
+     "Alejandro Del Rey",
+     1,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Alejandro Del Rey",
+     3,
+     "H10: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown;"
+    ],
+    [
+     "Andy Sullivan",
+     2,
+     "H11 shot 1 ends on lie code OBU, which we have not proven"
+    ],
+    [
+     "Angel Hidalgo",
+     1,
+     "H18 shot 2 ends on lie code OWA, which we have not proven"
+    ],
+    [
+     "Angel Hidalgo",
+     2,
+     "H6 shot 1 ends on lie code ODO, which we have not proven"
+    ],
+    [
+     "Antoine Rozner",
+     2,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Casey Jarvis",
+     3,
+     "H8 shot 2 is a drop row (the feed\u2019s penalty shape is not proven); H8: no row for shot 2 (a"
+    ],
+    [
+     "Dan Bradbury",
+     2,
+     "H16 shot 2 is a drop row (the feed\u2019s penalty shape is not proven); H16: no row for shot 2 "
+    ],
+    [
+     "Daniel Rodrigues",
+     3,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Darius Van Driel",
+     3,
+     "H5: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Davis Bryant",
+     1,
+     "H3: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Davis Bryant",
+     2,
+     "H10: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Davis Bryant",
+     3,
+     "H15: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Eugenio Chacarra",
+     2,
+     "H14: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Eugenio Chacarra",
+     4,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Filippo Celli",
+     1,
+     "H14 shot 2 ends on lie code OWA, which we have not proven"
+    ],
+    [
+     "Filippo Celli",
+     4,
+     "H15: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown;"
+    ],
+    [
+     "Grant Forrest",
+     1,
+     "H7: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Grant Forrest",
+     2,
+     "H8 shot 1 ends on lie code ODO, which we have not proven; H11 shot 2 ends on lie code OTB,"
+    ],
+    [
+     "Gregorio De Leo",
+     3,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Guido Migliozzi",
+     1,
+     "H7: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Guido Migliozzi",
+     2,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Guido Migliozzi",
+     3,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Hennie du Plessis",
+     1,
+     "H18: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Hennie du Plessis",
+     3,
+     "H6 shot 1 ends on lie code OBU, which we have not proven"
+    ],
+    [
+     "Hennie du Plessis",
+     4,
+     "H8 shot 1 ends on lie code OWA, which we have not proven"
+    ],
+    [
+     "JC Ritchie",
+     2,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "JC Ritchie",
+     4,
+     "H13: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown;"
+    ],
+    [
+     "Jacob Skov Olesen",
+     1,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Jacob Skov Olesen",
+     4,
+     "H13: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Jeff Winther",
+     1,
+     "H5: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Jeff Winther",
+     3,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Jeff Winther",
+     4,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Joakim Lagergren",
+     1,
+     "H12: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Joakim Lagergren",
+     3,
+     "H3: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Joakim Lagergren",
+     4,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Joe Dean",
+     3,
+     "H2: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Joost Luiten",
+     2,
+     "H4 shot 1 ends on lie code OBU, which we have not proven"
+    ],
+    [
+     "Joost Luiten",
+     4,
+     "H4: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Jordan Gumberg",
+     2,
+     "H17 shot 2 is a drop row (the feed\u2019s penalty shape is not proven); H17: no row for shot 2 "
+    ],
+    [
+     "Jordan Gumberg",
+     4,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Jorge Campillo",
+     2,
+     "H14: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Julien Guerrier",
+     1,
+     "H18: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Kota Kaneko",
+     4,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Manuel Elvira",
+     1,
+     "H1 shot 1 ends on lie code ODO, which we have not proven"
+    ],
+    [
+     "Manuel Elvira",
+     4,
+     "H11: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Marcus Armitage",
+     3,
+     "H4: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Martin Couvra",
+     4,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Matt Wallace",
+     2,
+     "H18 shot 2 ends on lie code OWA, which we have not proven"
+    ],
+    [
+     "Matt Wallace",
+     3,
+     "H15: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Michael Hollick",
+     1,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Michael Hollick",
+     3,
+     "H10: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown;"
+    ],
+    [
+     "Michael Hollick",
+     4,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Nacho Elvira",
+     3,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Nacho Elvira",
+     4,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Niklas N\u00f8rgaard",
+     1,
+     "H4: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Niklas N\u00f8rgaard",
+     2,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Niklas N\u00f8rgaard",
+     4,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Oliver Lindell",
+     3,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Patrick Reed",
+     1,
+     "H18: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Patrick Reed",
+     2,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Patrick Reed",
+     4,
+     "H11: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Ricardo Gouveia",
+     2,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Ricardo Gouveia",
+     3,
+     "H11 shot 2 ends on lie code OTB, which we have not proven"
+    ],
+    [
+     "Ricardo Gouveia",
+     4,
+     "H18: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Richard Sterne",
+     3,
+     "H12 shot 2 ends on no lie code"
+    ],
+    [
+     "Scott Jamieson",
+     1,
+     "H16: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Scott Jamieson",
+     2,
+     "H2 shot 1 ends on lie code ODO, which we have not proven; H18 shot 2 ends on lie code OUK,"
+    ],
+    [
+     "Scott Jamieson",
+     3,
+     "H12: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Scott Jamieson",
+     4,
+     "H2 shot 2 ends on lie code OTB, which we have not proven; H10: the score word \u201cDoubleBogey"
+    ],
+    [
+     "Shaun Norris",
+     3,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Shaun Norris",
+     4,
+     "H16 shot 1 ends on lie code OWA, which we have not proven; H18 shot 2 ends on lie code OWA"
+    ],
+    [
+     "Thriston Lawrence",
+     4,
+     "H18 shot 3 ends on lie code ODO, which we have not proven"
+    ],
+    [
+     "Tom Vaillant",
+     1,
+     "H3: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Tom Vaillant",
+     2,
+     "H8 shot 2 is a drop row (the feed\u2019s penalty shape is not proven); H8: no row for shot 2 (a"
+    ],
+    [
+     "Tommy Fleetwood",
+     3,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Ugo Coussaud",
+     1,
+     "H12: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Victor Perez",
+     2,
+     "H13: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Victor Perez",
+     4,
+     "H5: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Wenyi Ding",
+     2,
+     "H18: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Wenyi Ding",
+     4,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Yurav Premlall",
+     1,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Yurav Premlall",
+     2,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Yurav Premlall",
+     4,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Yuto Katsuragawa",
+     2,
+     "H17: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ]
+   ]
+  },
+  "field": {
+   "rounds": 268,
+   "players": 67,
+   "scoring": 70.37,
+   "vsField": -0.1,
+   "in6": [
+    4015,
+    4330
+   ],
+   "in36": [
+    845,
+    1112
+   ],
+   "roundsClean6": [
+    82,
+    268
+   ],
+   "par5": [
+    931,
+    1072
+   ],
+   "lv24": [
+    1282,
+    1581
+   ],
+   "three25": [
+    25,
+    3299
+   ],
+   "p40": [
+    116,
+    663
+   ],
+   "app40": [
+    3151,
+    4755
+   ],
+   "sg6": [
+    677,
+    1452
+   ],
+   "bunker6": [
+    93,
+    309
+   ],
+   "chipMissRounds": [
+    80,
+    268
+   ],
+   "chips": [
+    1337,
+    1452
+   ],
+   "dzPerRound": 1.37,
+   "dz": 367,
+   "rule3": {
+    "kept": 55,
+    "attention": 213
+   },
+   "rule4": {
+    "kept": 206,
+    "attention": 62
+   },
+   "rule2": {
+    "not-measurable": 189,
+    "broken": 79
+   },
+   "rule1": {
+    "not-measurable": 268
+   },
+   "noPenaltyRounds": [
+    206,
+    268
+   ],
+   "penHolesPerRound": 0.26,
+   "levels": {
+    "LOW STRESS": 38,
+    "MEDIUM STRESS": 110,
+    "HIGH STRESS": 120
+   },
+   "vsFieldByLevel": {
+    "HIGH STRESS": [
+     -2.0,
+     120
+    ],
+    "LOW STRESS": [
+     2.83,
+     38
+    ],
+    "MEDIUM STRESS": [
+     0.97,
+     110
+    ]
+   },
+   "over6": [
+    51,
+    268
+   ],
+   "bc": [
+    1209,
+    3779
+   ],
+   "gir": [
+    3779,
+    4824
+   ],
+   "fw": [
+    2479,
+    3752
+   ],
+   "gFw": [
+    2060,
+    2391
+   ],
+   "gRough": [
+    650,
+    881
+   ],
+   "b75": [
+    277,
+    341
+   ],
+   "b4074": [
+    231,
+    283
+   ],
+   "resetBad": [
+    123,
+    650
+   ],
+   "bogeysPerRound": 2.53,
+   "doublesPerRound": 0.36,
+   "cfbs": [
+    237,
+    430
+   ],
+   "cfbsDoubles": 59,
+   "cfp": [
+    296,
+    792
+   ],
+   "cfpPerRound": 2.96,
+   "cfrStop": [
+    325,
+    581
+   ],
+   "cfrAnswer": [
+    329,
+    581
+   ],
+   "cfdc": [
+    371,
+    430
+   ],
+   "p5third121": [
+    120,
+    0.19
+   ],
+   "p5third40": [
+    469,
+    -0.45
+   ],
+   "patched": [
+    [
+     "Aaron Rai",
+     2,
+     "H17 shot 1 ends on lie code ODO, which we have not proven"
+    ],
+    [
+     "Aaron Rai",
+     4,
+     "H14 shot 2 ends on lie code OTB, which we have not proven"
+    ],
+    [
+     "Alejandro Del Rey",
+     1,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Alejandro Del Rey",
+     3,
+     "H10: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown;"
+    ],
+    [
+     "Andy Sullivan",
+     2,
+     "H11 shot 1 ends on lie code OBU, which we have not proven"
+    ],
+    [
+     "Angel Ayora",
+     1,
+     "H2: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Angel Ayora",
+     2,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Angel Hidalgo",
+     1,
+     "H18 shot 2 ends on lie code OWA, which we have not proven"
+    ],
+    [
+     "Angel Hidalgo",
+     2,
+     "H6 shot 1 ends on lie code ODO, which we have not proven"
+    ],
+    [
+     "Antoine Rozner",
+     2,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Casey Jarvis",
+     3,
+     "H8 shot 2 is a drop row (the feed\u2019s penalty shape is not proven); H8: no row for shot 2 (a"
+    ],
+    [
+     "Dan Bradbury",
+     2,
+     "H16 shot 2 is a drop row (the feed\u2019s penalty shape is not proven); H16: no row for shot 2 "
+    ],
+    [
+     "Daniel Rodrigues",
+     3,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Darius Van Driel",
+     3,
+     "H5: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "David Puig",
+     1,
+     "H4: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "David Puig",
+     4,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Davis Bryant",
+     1,
+     "H3: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Davis Bryant",
+     2,
+     "H10: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Davis Bryant",
+     3,
+     "H15: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Eugenio Chacarra",
+     2,
+     "H14: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Eugenio Chacarra",
+     4,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Filippo Celli",
+     1,
+     "H14 shot 2 ends on lie code OWA, which we have not proven"
+    ],
+    [
+     "Filippo Celli",
+     4,
+     "H15: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown;"
+    ],
+    [
+     "Francesco Laporta",
+     2,
+     "H14: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Francesco Laporta",
+     4,
+     "H13: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Grant Forrest",
+     1,
+     "H7: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Grant Forrest",
+     2,
+     "H8 shot 1 ends on lie code ODO, which we have not proven; H11 shot 2 ends on lie code OTB,"
+    ],
+    [
+     "Gregorio De Leo",
+     3,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Guido Migliozzi",
+     1,
+     "H7: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Guido Migliozzi",
+     2,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Guido Migliozzi",
+     3,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Hennie du Plessis",
+     1,
+     "H18: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Hennie du Plessis",
+     3,
+     "H6 shot 1 ends on lie code OBU, which we have not proven"
+    ],
+    [
+     "Hennie du Plessis",
+     4,
+     "H8 shot 1 ends on lie code OWA, which we have not proven"
+    ],
+    [
+     "JC Ritchie",
+     2,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "JC Ritchie",
+     4,
+     "H13: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown;"
+    ],
+    [
+     "Jacob Skov Olesen",
+     1,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Jacob Skov Olesen",
+     4,
+     "H13: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Jeff Winther",
+     1,
+     "H5: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Jeff Winther",
+     3,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Jeff Winther",
+     4,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Joakim Lagergren",
+     1,
+     "H12: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Joakim Lagergren",
+     3,
+     "H3: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Joakim Lagergren",
+     4,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Joe Dean",
+     3,
+     "H2: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Joost Luiten",
+     2,
+     "H4 shot 1 ends on lie code OBU, which we have not proven"
+    ],
+    [
+     "Joost Luiten",
+     4,
+     "H4: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Jordan Gumberg",
+     2,
+     "H17 shot 2 is a drop row (the feed\u2019s penalty shape is not proven); H17: no row for shot 2 "
+    ],
+    [
+     "Jordan Gumberg",
+     4,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Jorge Campillo",
+     2,
+     "H14: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Julien Guerrier",
+     1,
+     "H18: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Kota Kaneko",
+     4,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Manuel Elvira",
+     1,
+     "H1 shot 1 ends on lie code ODO, which we have not proven"
+    ],
+    [
+     "Manuel Elvira",
+     4,
+     "H11: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Marcus Armitage",
+     3,
+     "H4: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Martin Couvra",
+     4,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Matt Wallace",
+     2,
+     "H18 shot 2 ends on lie code OWA, which we have not proven"
+    ],
+    [
+     "Matt Wallace",
+     3,
+     "H15: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Michael Hollick",
+     1,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Michael Hollick",
+     3,
+     "H10: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown;"
+    ],
+    [
+     "Michael Hollick",
+     4,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Nacho Elvira",
+     3,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Nacho Elvira",
+     4,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Nathan Kimsey",
+     4,
+     "H13: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Niklas N\u00f8rgaard",
+     1,
+     "H4: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Niklas N\u00f8rgaard",
+     2,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Niklas N\u00f8rgaard",
+     4,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Oliver Lindell",
+     3,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Patrick Reed",
+     1,
+     "H18: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Patrick Reed",
+     2,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Patrick Reed",
+     4,
+     "H11: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Ricardo Gouveia",
+     2,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Ricardo Gouveia",
+     3,
+     "H11 shot 2 ends on lie code OTB, which we have not proven"
+    ],
+    [
+     "Ricardo Gouveia",
+     4,
+     "H18: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Richard Sterne",
+     3,
+     "H12 shot 2 ends on no lie code"
+    ],
+    [
+     "Rory McIlroy",
+     1,
+     "H12: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Rory McIlroy",
+     3,
+     "H10: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Scott Jamieson",
+     1,
+     "H16: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Scott Jamieson",
+     2,
+     "H2 shot 1 ends on lie code ODO, which we have not proven; H18 shot 2 ends on lie code OUK,"
+    ],
+    [
+     "Scott Jamieson",
+     3,
+     "H12: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Scott Jamieson",
+     4,
+     "H2 shot 2 ends on lie code OTB, which we have not proven; H10: the score word \u201cDoubleBogey"
+    ],
+    [
+     "Shaun Norris",
+     3,
+     "H1: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Shaun Norris",
+     4,
+     "H16 shot 1 ends on lie code OWA, which we have not proven; H18 shot 2 ends on lie code OWA"
+    ],
+    [
+     "Thriston Lawrence",
+     4,
+     "H18 shot 3 ends on lie code ODO, which we have not proven"
+    ],
+    [
+     "Tom Vaillant",
+     1,
+     "H3: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Tom Vaillant",
+     2,
+     "H8 shot 2 is a drop row (the feed\u2019s penalty shape is not proven); H8: no row for shot 2 (a"
+    ],
+    [
+     "Tommy Fleetwood",
+     3,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Tyrrell Hatton",
+     1,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Ugo Coussaud",
+     1,
+     "H12: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Victor Perez",
+     2,
+     "H13: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Victor Perez",
+     4,
+     "H5: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Wenyi Ding",
+     2,
+     "H18: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Wenyi Ding",
+     4,
+     "H9: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ],
+    [
+     "Yurav Premlall",
+     1,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Yurav Premlall",
+     2,
+     "H6: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Yurav Premlall",
+     4,
+     "H8: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown; "
+    ],
+    [
+     "Yuto Katsuragawa",
+     2,
+     "H17: the score word \u201cDoubleBogeyOrWorse\u201d is not one we read, so the hole\u2019s par is unknown"
+    ]
+   ]
+  }
+ },
+ "winner": "Jon Rahm",
+ "positions": {
+  "Francesco Molinari": "T33",
+  "Tommy Fleetwood": "T14",
+  "Angel Hidalgo": "T22",
+  "Bernd Wiesberger": "T5",
+  "Daniel Hillier": "T22",
+  "David Puig": "T5",
+  "Ricardo Gouveia": "T51",
+  "Freddy Schott": "T9",
+  "Eugenio Chacarra": "T22",
+  "Niklas N\u00f8rgaard": "T51",
+  "Adrian Otaegui": "T60",
+  "Jordan Gumberg": "T57",
+  "Victor Perez": "T27",
+  "Hennie du Plessis": "T38",
+  "Gregorio De Leo": "T38",
+  "Sam Bairstow": "T14",
+  "Darius Van Driel": "T38",
+  "Casey Jarvis": "T51",
+  "Julien Guerrier": "T14",
+  "Davis Bryant": "T49",
+  "Ewen Ferguson": "T18",
+  "Aaron Rai": "T25",
+  "Andy Sullivan": "T14",
+  "Adrian Meronk": "T18",
+  "Alejandro Del Rey": "T43",
+  "Tom Vaillant": "T51",
+  "Jayden Schaper": "8",
+  "Rory McIlroy": "3",
+  "Jeff Winther": "69",
+  "Thriston Lawrence": "T51",
+  "Matt Wallace": "T27",
+  "Francesco Laporta": "4",
+  "Mikael Lindberg": "T31",
+  "Yuto Katsuragawa": "T62",
+  "Dan Bradbury": "T49",
+  "Yurav Premlall": "70",
+  "JC Ritchie": "T38",
+  "Kota Kaneko": "T43",
+  "Jon Rahm": "1",
+  "Oliver Lindell": "T25",
+  "Angel Ayora": "T5",
+  "Joakim Lagergren": "T33",
+  "Nacho Elvira": "T62",
+  "Stefano Mazzoli": "T46",
+  "Tyrrell Hatton": "2",
+  "Adam Scott": "T9",
+  "Jacob Skov Olesen": "T62",
+  "Grant Forrest": "T46",
+  "Richard Sterne": "T27",
+  "Jorge Campillo": "T60",
+  "Wenyi Ding": "T18",
+  "Frederic Lacroix": "T9",
+  "Daniel Rodrigues": "T51",
+  "Ugo Coussaud": "T57",
+  "Marcus Armitage": "T33",
+  "Patrick Reed": "T43",
+  "Michael Hollick": "T62",
+  "Martin Couvra": "T46",
+  "Joe Dean": "T31",
+  "Joost Luiten": "T38",
+  "Scott Jamieson": "T67",
+  "Nathan Kimsey": "T9",
+  "Shaun Norris": "T57",
+  "Antoine Rozner": "T33",
+  "Manuel Elvira": "T27",
+  "Matthew Jordan": "T9",
+  "Guido Migliozzi": "T67",
+  "Filippo Celli": "T62"
+ }
+}
