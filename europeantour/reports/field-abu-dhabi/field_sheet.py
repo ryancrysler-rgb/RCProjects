@@ -179,7 +179,7 @@ header = f'''  <div style="background:var(--g950);color:#fff;padding:13px 28px 1
 
 read = f'''  <div style="background:var(--g950);color:#fff;border-radius:12px;padding:10px 14px 9px;flex:0 0 auto;position:relative;overflow:hidden;">
     <div class="kick" style="color:var(--lime4);margin-bottom:4px;">The read</div>
-    <div style="font-family:var(--fd);font-weight:800;font-size:15px;line-height:1.12;">The top 10 did not out-drive the field — both hit 66% of fairways. They out-scored it with
+    <div style="font-family:var(--fd);font-weight:800;font-size:15px;line-height:1.12;">The top 10 hit no more fairways than the rest — both 66%. They out-scored them with
       <span style="color:var(--lime4);">greens from the fairway</span> and <span style="color:var(--lime4);">the hole after a bogey</span>.</div>
     <div class="mono" style="font-size:8.6px;color:var(--g200);margin-top:5px;line-height:1.35;">Greens from the fairway {pct_s(T["gFw"])} against {pct_s(R["gFw"])} · bogey or worse after a bogey {pct_s(T["resetBad"])} against {pct_s(R["resetBad"])} ·
       HIGH-stress rounds {pct_s(share(T, "HIGH STRESS"))} against {pct_s(share(R, "HIGH STRESS"))} · holed inside 6 ft {round(100 * T["in6"][0] / T["in6"][1], 1)}% against {round(100 * R["in6"][0] / R["in6"][1], 1)}%: the short putter did not separate them.
@@ -203,7 +203,7 @@ stress = f'''  <div style="display:flex;gap:8px;margin-top:7px;flex:0 0 auto;">
       {stress_bar("Rahm", W)}{stress_bar("Top 10", T)}{stress_bar("11th on", R)}
     </div>
     <div style="flex:1;background:#fff;border:1px solid var(--bs);border-radius:12px;padding:7px 12px;display:flex;flex-direction:column;justify-content:center;gap:4px;">
-      <div class="kick" style="color:var(--ink4);">Strokes against the field's average, by level</div>
+      <div class="kick" style="color:var(--ink4);">Strokes against the field's average, by level · the 67 others</div>
       <div style="display:flex;gap:6px;">
         {"".join(f'<div style="flex:1;text-align:center;background:color-mix(in oklch,var(--lime) 8%,#fff);border-radius:8px;padding:3px;"><div class="kick" style="color:var(--ink5);font-size:7px;">{k.split()[0].capitalize()} · {by[k][1]} rds</div><div style="font-family:var(--fd);font-weight:800;font-size:16px;color:{"var(--g700)" if by[k][0] > 0 else "var(--redT)"};line-height:1;">{signed(by[k][0])}</div></div>' for k in ("LOW STRESS", "MEDIUM STRESS", "HIGH STRESS"))}
       </div>
@@ -216,10 +216,10 @@ foot = (
     "Raw builder’s ladder) · <b>68 players with four graded rounds</b> (Calum Hill R1 and Kristoffer Reitan R4 each have a tee shot with no position, "
     "so neither week is counted) · groups: Rahm · the 12 others who finished T10 or better · the 55 who finished 11th or worse · tint = the top 10 better "
     "(green) or worse (amber) than 11th on by 5 points or more, 0.25 a round on counts · <b>tour column</b> = RC Greenlight tour shot study, 2026 season "
-    "(35 winners, 313 others, PGA TOUR), W = winners · F = field, beside ours, never a standard · <b>read with a patched copy of the reader, disclosed:</b> the score "
-    "word DoubleBogeyOrWorse takes the card’s par; a stroke-and-distance row may end on the tee; a water ball’s drop row is the penalty stroke; a penalty "
-    "with no position leaves the ball where it was; OWA reads Other (owner, 2026-10-31) and OBU (bushes), ODO (dirt), OUK, OTF read Other on the OTH "
-    "ruling · a lone ball the feed flags provisional is the ball played · NOT MEASURED (no clubs, pins or hazard lines in the feed): the lay-back itself, "
+    "(35 winners, 313 others, PGA TOUR), W = winners · F = field, beside ours, never a standard · <b>read by the RC Greenlight reader (Rev 362), no patch:</b> the "
+    "feed’s DoubleBogeyOrWorse takes the card’s par; a stroke-and-distance row ends on the tee; a water ball’s drop row is the penalty stroke; a penalty "
+    "with no position leaves the ball where it lies (McIlroy R1 H12: his two-shot Rule 8.1b penalty, an 8 on the card); OWA, OBU, ODO, OUK and OTF read Other (owner, "
+    "2026-11-08) · a lone ball the feed flags provisional is the ball played · NOT MEASURED (no clubs, pins or hazard lines in the feed): the lay-back itself, "
     "the full-wedge tier of rule 02, rule 04’s margin (penalty-free rounds stand in, as in the tour study), rule 6’s club, front pin (11), the long side / open side (12), The Check, the go line and the short "
     "par 4 (both need clubs) · rule 05 levels are the engine’s, by round, never averaged."
 )

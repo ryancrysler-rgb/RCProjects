@@ -25,17 +25,24 @@ card (par, score per hole, hole lengths) → `shot-csv.parse` → `metrics.summa
 no ball position at all; grading them would mean guessing, so they are left out, and so are those two players' weeks
 (the study counts complete weeks): **68 players, 272 rounds** in the table.
 
-**99 rounds read with a patched copy of the reader** (the RC Greenlight repo is untouched; the patches are listed so the
-owner can decide whether the reader should learn them):
-1. The score word `DoubleBogeyOrWorse` takes the card's par (the reader knows `EagleOrBetter` this way; it refused the
-   double-bogey word) — 97 rounds, the main cause.
-2. A stroke-and-distance penalty row may end on the tee (`OTB`) — 6 rounds (Rahm R2 H12 among them).
-3. A water ball's drop row typed `BallDrop` (not `Penalty`), numbered in sequence with no travel and matching the card, is
-   the penalty stroke — 4 rounds.
-4. A penalty stroke the feed counted with no ball position leaves the ball where it was — 1 round.
-5. Lie codes read as **Other**: `OWA` (water; owner ruling 2026-10-31), and on the `OTH` ruling ("Other can be ruled outside
-   of fairway"): `OBU` (the commentary says "bushes" 3 times in 4), `ODO` ("dirt", 4 of 4), `OUK` and `OTF` (no consistent
-   meaning) — 20 strokes in all.
+**Re-read on the RC Greenlight reader, no patch (2026-11-08, after the hand-off).** The owner handed the reader to the RC
+Greenlight session. Every patch the first build used is now in the house reader (`dpworld-adapter.js`, Rev 362 branch
+`claude/exciting-bardeen-faa85u`, commit 672636a), each on the owner's ruling or proved against the card:
+1. `DoubleBogeyOrWorse` (the feed's only word for +2 or worse) takes a known par: the card, else the player's other round.
+2. A stroke-and-distance penalty row ends on the tee (`OTB`); the next stroke is a tee shot (Rahm R2 H12 among them).
+3. A water ball's drop row typed `BallDrop` is the penalty stroke when the hole's par is confirmed (a free drop is no stroke).
+4. A `Penalty` stroke the feed counts with no ball position is a penalty where the ball lies, when the par is confirmed:
+   **Rory McIlroy R1 H12 is his two-shot penalty under Rule 8.1b** (improving his lie, applied by himself after the round;
+   double-bogey 6 became 8, as reported by Sky Sports, Golf Monthly and GOLF.com); also Sterne R3 H12, du Plessis R1 H18.
+5. `OWA`, `OBU`, `ODO`, `OUK`, `OTF` read **Other** (owner, 2026-11-08 form: "Read as Other"). `OWA` is a ball that finished
+   in the water (its drop row follows), not a stroke out of water.
+Result: the same **278 of 280 rounds** read, and on every one each per-round measure the sheet uses equals the first
+build's. The first build's patched-rounds list (`field-abu-dhabi/patched_rounds.md`) is kept as the record of what changed.
+
+**Sheet wording corrected in the same pass:** THE READ said the top 10 "did not out-drive the field"; the figure is fairways
+hit (443/672 vs 2,036/3,080, both 66%), so it now reads "hit no more fairways than the rest — both 66%". The strokes-by-level
+panel counts the 67 players other than the winner (268 rounds) and is now labelled "the 67 others".
+
 Also in our own spreadsheet build: a lone ball the feed flags provisional (and never marks selected) is the ball played —
 the hole still matches the card with it counted (31 rounds were refused before this).
 
