@@ -55,7 +55,8 @@ def worker(jobs, args, log):
 
     out = Path(args.out) / "captured"
     with sync_playwright() as pw:
-        options = {"headless": True}
+        # No 3D: the map is drawn in software here and costs a round 50 s instead of 16; the feeds do not need it.
+        options = {"headless": True, "args": ["--disable-3d-apis", "--disable-webgl", "--disable-gpu"]}
         if os.environ.get("HTTPS_PROXY"):
             options["proxy"] = {"server": os.environ["HTTPS_PROXY"]}
         try:
@@ -118,6 +119,9 @@ def worker(jobs, args, log):
             ctx = browser.new_context(viewport={"width": 1400, "height": 900}, user_agent=UA,
                                       extra_http_headers={"Referer": "https://www.europeantour.com/"})
             ctx.route(ADS, lambda route: route.abort())
+            # Pictures cost CPU and carry no data; the feeds arrive as fetches and websocket frames.
+            ctx.route("**/*", lambda route: route.abort() if route.request.resource_type in ("image", "media", "font")
+                      else route.continue_())
             page = ctx.new_page()
             page.on("response", on_response)
             page.on("websocket", on_ws)
@@ -133,7 +137,11 @@ def worker(jobs, args, log):
                 else:
                     nxt = page.locator("button").last
                     for hole in range(2, 19):
-                        nxt.click(timeout=10000)
+                        try:
+                            nxt.click(timeout=30000)
+                        except Exception:
+                            page.wait_for_timeout(3000)
+                            nxt.click(timeout=30000)
                         end = time.time() + 10
                         while hole not in state["holed"] and time.time() < end:
                             page.wait_for_timeout(150)
@@ -145,7 +153,8 @@ def worker(jobs, args, log):
                 "event": args.event, "round": str(rnd), "team": team, "player": state["player"],
                 "captured": time.strftime("%Y-%m-%d %H:%M:%S"), "method": "field_capture",
                 "holes_holed": sorted(h for h in state["holed"] if h)}, indent=1), encoding="utf-8")
-            if note == "no player at this number":
+            if note or len(state["holed"]) < 18:
+                # Nothing half-done is kept: an empty number is skipped, a stalled round is pulled again.
                 for f in run_dir.iterdir():
                     f.unlink()
                 run_dir.rmdir()
@@ -169,12 +178,22 @@ def main() -> int:
     (Path(args.out) / "captured").mkdir(parents=True, exist_ok=True)
     log = str(Path(args.out) / "field_capture.log")
     jobs = [(t, r) for r in span(args.rounds) for t in span(args.teams)]
-    chunks = [jobs[i::args.workers] for i in range(args.workers)]
-    procs = [mp.Process(target=worker, args=(c, args, log)) for c in chunks]
-    for p in procs:
-        p.start()
-    for p in procs:
-        p.join()
+    empty = set()
+    for attempt in range(3):
+        if attempt and os.path.exists(log):
+            empty = {(int(m.group(1)), int(m.group(2))) for m in
+                     re.finditer(r"team\s+(\d+) r(\d+): .*no player at this number", open(log).read())}
+        cap = Path(args.out) / "captured"
+        todo = [(t, r) for t, r in jobs if (t, r) not in empty
+                and not any((d / "_manifest.json").exists() for d in cap.glob(f"run_*_{args.event}_r{r}_t{t:03d}"))]
+        if not todo:
+            break
+        chunks = [todo[i::args.workers] for i in range(args.workers)]
+        procs = [mp.Process(target=worker, args=(c, args, log)) for c in chunks if c]
+        for p in procs:
+            p.start()
+        for p in procs:
+            p.join()
     print(open(log).read() if os.path.exists(log) else "no log")
     return 0
 
