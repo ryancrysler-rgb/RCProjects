@@ -1,0 +1,698 @@
+{
+ "rounds": {
+  "1": {
+   "score": 65,
+   "toPar": -7,
+   "putts": 28,
+   "gir": "16/18",
+   "fw": "10/14",
+   "scr": "2/2",
+   "bc": "7/16",
+   "counts": {
+    "eagles": 0,
+    "birdies": 7,
+    "pars": 11,
+    "bogeys": 0,
+    "doubles": 0
+   },
+   "goodDrive": "13/14",
+   "inside6": "15 / 17",
+   "onePutts": "8",
+   "threePutts": "0",
+   "avg1st": "18.5 ft",
+   "cfp": {
+    "made": 1,
+    "att": 1,
+    "pct": 100,
+    "display": "1/1",
+    "def": "Makes for par or worse from 5 ft and out (5.0 ft counts), excluding the birdie-look first putt on a hole where the green was hit in regulation.",
+    "label": "Clutch Factor Putting",
+    "defVersion": "clutch-v3",
+    "holed": [
+     {
+      "hole": 16,
+      "ft": 5.5,
+      "par": 4,
+      "score": 4
+     }
+    ]
+   },
+   "cfbs": {
+    "made": 1,
+    "att": 1,
+    "pct": 100,
+    "display": "1/1",
+    "def": "A recovery shot was played on the hole and par or better was made. Say \"Clutch Factor Ball Striking\" in full — never the bare \"Clutch Factor\", and never confuse it with Clutch Factor Putting.",
+    "label": "Clutch Factor Ball Striking",
+    "nameVersion": "clutch-name-v2 (2026-08-05)",
+    "holes": [
+     {
+      "hole": 2,
+      "par": 5,
+      "score": 4,
+      "toPar": -1,
+      "bucket": "clutch",
+      "cause": "tee sand/waste"
+     }
+    ],
+    "avgToPar": -1,
+    "determinable": true,
+    "clutch": 1,
+    "semiClutch": 0,
+    "flagged": 0
+   },
+   "level": "LOW STRESS",
+   "bogeys": [],
+   "birdies": [
+    "H2",
+    "H4",
+    "H6",
+    "H7",
+    "H9",
+    "H17",
+    "H18"
+   ],
+   "par5": [
+    {
+     "hole": 2,
+     "score": 4
+    },
+    {
+     "hole": 7,
+     "score": 4
+    },
+    {
+     "hole": 11,
+     "score": 5
+    },
+    {
+     "hole": 18,
+     "score": 4
+    }
+   ]
+  },
+  "2": {
+   "score": 67,
+   "toPar": -5,
+   "putts": 28,
+   "gir": "14/18",
+   "fw": "10/14",
+   "scr": "2/4",
+   "bc": "8/14",
+   "counts": {
+    "eagles": 0,
+    "birdies": 8,
+    "pars": 7,
+    "bogeys": 3,
+    "doubles": 0
+   },
+   "goodDrive": "12/14",
+   "inside6": "14 / 15",
+   "onePutts": "9",
+   "threePutts": "1",
+   "avg1st": "20.6 ft",
+   "cfp": {
+    "made": 1,
+    "att": 2,
+    "pct": 50,
+    "display": "1/2",
+    "def": "Makes for par or worse from 5 ft and out (5.0 ft counts), excluding the birdie-look first putt on a hole where the green was hit in regulation.",
+    "label": "Clutch Factor Putting",
+    "defVersion": "clutch-v3",
+    "holed": [
+     {
+      "hole": 4,
+      "ft": 10.5,
+      "par": 3,
+      "score": 3
+     }
+    ]
+   },
+   "cfbs": {
+    "made": 0,
+    "att": 2,
+    "pct": 0,
+    "display": "0/2",
+    "def": "A recovery shot was played on the hole and par or better was made. Say \"Clutch Factor Ball Striking\" in full — never the bare \"Clutch Factor\", and never confuse it with Clutch Factor Putting.",
+    "label": "Clutch Factor Ball Striking",
+    "nameVersion": "clutch-name-v2 (2026-08-05)",
+    "holes": [
+     {
+      "hole": 6,
+      "par": 4,
+      "score": 5,
+      "toPar": 1,
+      "bucket": "semi",
+      "cause": "recovery"
+     },
+     {
+      "hole": 12,
+      "par": 4,
+      "score": 5,
+      "toPar": 1,
+      "bucket": "semi",
+      "cause": "penalty"
+     }
+    ],
+    "avgToPar": 1,
+    "determinable": true,
+    "clutch": 0,
+    "semiClutch": 2,
+    "flagged": 0
+   },
+   "level": "MEDIUM STRESS",
+   "bogeys": [
+    "H6",
+    "H9",
+    "H12"
+   ],
+   "birdies": [
+    "H2",
+    "H3",
+    "H5",
+    "H7",
+    "H8",
+    "H10",
+    "H11",
+    "H18"
+   ],
+   "par5": [
+    {
+     "hole": 2,
+     "score": 4
+    },
+    {
+     "hole": 7,
+     "score": 4
+    },
+    {
+     "hole": 11,
+     "score": 4
+    },
+    {
+     "hole": 18,
+     "score": 4
+    }
+   ]
+  },
+  "3": {
+   "score": 66,
+   "toPar": -6,
+   "putts": 30,
+   "gir": "16/18",
+   "fw": "11/14",
+   "scr": "1/2",
+   "bc": "6/16",
+   "counts": {
+    "eagles": 1,
+    "birdies": 5,
+    "pars": 11,
+    "bogeys": 1,
+    "doubles": 0
+   },
+   "goodDrive": "13/14",
+   "inside6": "14 / 15",
+   "onePutts": "6",
+   "threePutts": "0",
+   "avg1st": "19.7 ft",
+   "cfp": {
+    "made": 0,
+    "att": 1,
+    "pct": 0,
+    "display": "0/1",
+    "def": "Makes for par or worse from 5 ft and out (5.0 ft counts), excluding the birdie-look first putt on a hole where the green was hit in regulation.",
+    "label": "Clutch Factor Putting",
+    "defVersion": "clutch-v3",
+    "holed": []
+   },
+   "cfbs": {
+    "made": 0,
+    "att": 0,
+    "pct": null,
+    "display": null,
+    "def": "A recovery shot was played on the hole and par or better was made. Say \"Clutch Factor Ball Striking\" in full — never the bare \"Clutch Factor\", and never confuse it with Clutch Factor Putting.",
+    "label": "Clutch Factor Ball Striking",
+    "nameVersion": "clutch-name-v2 (2026-08-05)",
+    "holes": [],
+    "avgToPar": null,
+    "determinable": true,
+    "clutch": 0,
+    "semiClutch": 0,
+    "flagged": 0
+   },
+   "level": "LOW STRESS",
+   "bogeys": [
+    "H4"
+   ],
+   "birdies": [
+    "H2",
+    "H7",
+    "H10",
+    "H11(eagle)",
+    "H12",
+    "H15"
+   ],
+   "par5": [
+    {
+     "hole": 2,
+     "score": 4
+    },
+    {
+     "hole": 7,
+     "score": 4
+    },
+    {
+     "hole": 11,
+     "score": 3
+    },
+    {
+     "hole": 18,
+     "score": 5
+    }
+   ]
+  }
+ },
+ "holes": {
+  "1": {
+   "par": 4,
+   "scores": {
+    "1": 4,
+    "2": 4,
+    "3": 4
+   },
+   "yards": {
+    "1": 378,
+    "2": 372,
+    "3": 371
+   },
+   "fieldToPar": [
+    -0.04300000000000015,
+    -0.08599999999999985,
+    -0.129
+   ],
+   "fld": 3.914,
+   "avg": 4,
+   "diff": -0.08599999999999985
+  },
+  "2": {
+   "par": 5,
+   "scores": {
+    "1": 4,
+    "2": 4,
+    "3": 4
+   },
+   "yards": {
+    "1": 561,
+    "2": 555,
+    "3": 554
+   },
+   "fieldToPar": [
+    -0.40000000000000036,
+    -0.5709999999999997,
+    -0.45699999999999985
+   ],
+   "fld": 4.524,
+   "avg": 4,
+   "diff": 0.524
+  },
+  "3": {
+   "par": 4,
+   "scores": {
+    "1": 4,
+    "2": 3,
+    "3": 4
+   },
+   "yards": {
+    "1": 442,
+    "2": 436,
+    "3": 435
+   },
+   "fieldToPar": [
+    0.20000000000000018,
+    -0.05699999999999994,
+    0.014000000000000234
+   ],
+   "fld": 4.052333333333333,
+   "avg": 3.6666666666666665,
+   "diff": 0.3856666666666668
+  },
+  "4": {
+   "par": 3,
+   "scores": {
+    "1": 2,
+    "2": 3,
+    "3": 4
+   },
+   "yards": {
+    "1": 212,
+    "2": 190,
+    "3": 202
+   },
+   "fieldToPar": [
+    0.028999999999999915,
+    -0.08599999999999985,
+    0.11399999999999988
+   ],
+   "fld": 3.019,
+   "avg": 3,
+   "diff": 0.019000000000000128
+  },
+  "5": {
+   "par": 4,
+   "scores": {
+    "1": 4,
+    "2": 3,
+    "3": 4
+   },
+   "yards": {
+    "1": 405,
+    "2": 400,
+    "3": 399
+   },
+   "fieldToPar": [
+    -0.20000000000000018,
+    -0.11399999999999988,
+    -0.11399999999999988
+   ],
+   "fld": 3.8573333333333335,
+   "avg": 3.6666666666666665,
+   "diff": 0.19066666666666698
+  },
+  "6": {
+   "par": 4,
+   "scores": {
+    "1": 3,
+    "2": 5,
+    "3": 4
+   },
+   "yards": {
+    "1": 468,
+    "2": 462,
+    "3": 461
+   },
+   "fieldToPar": [
+    0.09999999999999964,
+    0.057000000000000384,
+    -0.21399999999999997
+   ],
+   "fld": 3.981,
+   "avg": 4,
+   "diff": -0.019000000000000128
+  },
+  "7": {
+   "par": 5,
+   "scores": {
+    "1": 4,
+    "2": 4,
+    "3": 4
+   },
+   "yards": {
+    "1": 591,
+    "2": 585,
+    "3": 584
+   },
+   "fieldToPar": [
+    -0.5289999999999999,
+    -0.4139999999999997,
+    -0.4429999999999996
+   ],
+   "fld": 4.538,
+   "avg": 4,
+   "diff": 0.5380000000000003
+  },
+  "8": {
+   "par": 3,
+   "scores": {
+    "1": 3,
+    "2": 2,
+    "3": 3
+   },
+   "yards": {
+    "1": 186,
+    "2": 192,
+    "3": 185
+   },
+   "fieldToPar": [
+    -0.07100000000000017,
+    -0.01399999999999979,
+    0.07100000000000017
+   ],
+   "fld": 2.9953333333333334,
+   "avg": 2.6666666666666665,
+   "diff": 0.3286666666666669
+  },
+  "9": {
+   "par": 4,
+   "scores": {
+    "1": 3,
+    "2": 5,
+    "3": 4
+   },
+   "yards": {
+    "1": 481,
+    "2": 475,
+    "3": 474
+   },
+   "fieldToPar": [
+    0.07099999999999973,
+    0.1429999999999998,
+    0.07099999999999973
+   ],
+   "fld": 4.095,
+   "avg": 4,
+   "diff": 0.09499999999999975
+  },
+  "10": {
+   "par": 4,
+   "scores": {
+    "1": 4,
+    "2": 3,
+    "3": 3
+   },
+   "yards": {
+    "1": 390,
+    "2": 389,
+    "3": 387
+   },
+   "fieldToPar": [
+    -0.129,
+    -0.129,
+    -0.129
+   ],
+   "fld": 3.871,
+   "avg": 3.3333333333333335,
+   "diff": 0.5376666666666665
+  },
+  "11": {
+   "par": 5,
+   "scores": {
+    "1": 5,
+    "2": 4,
+    "3": 3
+   },
+   "yards": {
+    "1": 573,
+    "2": 571,
+    "3": 570
+   },
+   "fieldToPar": [
+    -0.4710000000000001,
+    -0.5140000000000002,
+    -0.5709999999999997
+   ],
+   "fld": 4.481333333333334,
+   "avg": 4,
+   "diff": 0.4813333333333336
+  },
+  "12": {
+   "par": 4,
+   "scores": {
+    "1": 4,
+    "2": 5,
+    "3": 3
+   },
+   "yards": {
+    "1": 480,
+    "2": 478,
+    "3": 477
+   },
+   "fieldToPar": [
+    0.14499999999999957,
+    -0.028999999999999915,
+    0.028999999999999915
+   ],
+   "fld": 4.048333333333333,
+   "avg": 4,
+   "diff": 0.048333333333332895
+  },
+  "13": {
+   "par": 3,
+   "scores": {
+    "1": 3,
+    "2": 3,
+    "3": 3
+   },
+   "yards": {
+    "1": 163,
+    "2": 178,
+    "3": 165
+   },
+   "fieldToPar": [
+    -0.07100000000000017,
+    0.08599999999999985,
+    -0.05699999999999994
+   ],
+   "fld": 2.9859999999999998,
+   "avg": 3,
+   "diff": -0.014000000000000234
+  },
+  "14": {
+   "par": 4,
+   "scores": {
+    "1": 4,
+    "2": 4,
+    "3": 4
+   },
+   "yards": {
+    "1": 355,
+    "2": 354,
+    "3": 353
+   },
+   "fieldToPar": [
+    0.014000000000000234,
+    -0.01399999999999979,
+    -0.24299999999999988
+   ],
+   "fld": 3.919,
+   "avg": 4,
+   "diff": -0.08099999999999996
+  },
+  "15": {
+   "par": 4,
+   "scores": {
+    "1": 4,
+    "2": 4,
+    "3": 3
+   },
+   "yards": {
+    "1": 481,
+    "2": 480,
+    "3": 476
+   },
+   "fieldToPar": [
+    -0.028999999999999915,
+    0.0860000000000003,
+    0.2709999999999999
+   ],
+   "fld": 4.109333333333334,
+   "avg": 3.6666666666666665,
+   "diff": 0.4426666666666672
+  },
+  "16": {
+   "par": 4,
+   "scores": {
+    "1": 4,
+    "2": 4,
+    "3": 4
+   },
+   "yards": {
+    "1": 420,
+    "2": 414,
+    "3": 418
+   },
+   "fieldToPar": [
+    -0.01399999999999979,
+    -0.05699999999999994,
+    -0.10000000000000009
+   ],
+   "fld": 3.943,
+   "avg": 4,
+   "diff": -0.05699999999999994
+  },
+  "17": {
+   "par": 3,
+   "scores": {
+    "1": 2,
+    "2": 3,
+    "3": 3
+   },
+   "yards": {
+    "1": 190,
+    "2": 206,
+    "3": 204
+   },
+   "fieldToPar": [
+    0.07100000000000017,
+    0.08599999999999985,
+    -0.01399999999999979
+   ],
+   "fld": 3.0476666666666667,
+   "avg": 2.6666666666666665,
+   "diff": 0.3810000000000002
+  },
+  "18": {
+   "par": 5,
+   "scores": {
+    "1": 4,
+    "2": 4,
+    "3": 5
+   },
+   "yards": {
+    "1": 617,
+    "2": 622,
+    "3": 619
+   },
+   "fieldToPar": [
+    -0.2859999999999996,
+    -0.5140000000000002,
+    -0.391
+   ],
+   "fld": 4.603,
+   "avg": 4.333333333333333,
+   "diff": 0.2696666666666667
+  }
+ },
+ "tee": {
+  "n": 42,
+  "avg": 298.7952380952381,
+  "longest": {
+   "r": 2,
+   "h": 2,
+   "yd": 338,
+   "end": "Fairway"
+  },
+  "fairways": 31,
+  "ends": {
+   "Fairway": 31,
+   "Bunker": 1,
+   "Rough": 9,
+   "Native Area": 1
+  }
+ },
+ "byPar": {
+  "3": {
+   "holes": 12,
+   "avg": 2.8333333333333335,
+   "toPar": -2,
+   "field": 3.012
+  },
+  "4": {
+   "holes": 30,
+   "avg": 3.8333333333333335,
+   "toPar": -5,
+   "field": 3.9790333333333328
+  },
+  "5": {
+   "holes": 12,
+   "avg": 4.083333333333333,
+   "toPar": -11,
+   "field": 4.536583333333334
+  }
+ },
+ "fieldTotal": 69.98466666666666,
+ "fieldRound": [
+  70.387,
+  69.85900000000001,
+  69.708
+ ]
+}

@@ -405,14 +405,21 @@ def merge_corrections(rows: list[dict]) -> list[dict]:
         # commentary confirms it was the ball played.
         balls = [r for r in group if r.get("isProvisional")]
         if len(balls) > 1:
-            chosen = [r for r in balls if r.get("isProvisionalSelected")] or \
-                     sorted(balls, key=lambda r: r.get("seqNum") or 0)[:1]
+            flagged = [r for r in balls if r.get("isProvisionalSelected")]
+            chosen = flagged or sorted(balls, key=lambda r: r.get("seqNum") or 0)[:1]
             dropped = [r for r in balls if r not in chosen]
             group = [r for r in group if r not in dropped]
             for ball in dropped:
                 where = ball.get("lieAfterShot") or ball.get("lieAfterShotCode") or "?"
                 chosen[0]["note"] = (f"provisional ball also hit ({ball.get('shotDistance_yds')} yds, "
                                      f"{where}); original found and played")
+            if not flagged:
+                # Readers of this file (RC Greenlight's tour reader among them)
+                # drop a provisional whose isProvisionalSelected is false as a
+                # ball not played on. Mark the one kept, and say it was ours.
+                chosen[0]["isProvisionalSelected"] = True
+                chosen[0]["note"] += ("; the feed flagged neither ball as played, so the first ball "
+                                      "hit is marked played here")
             if len(group) == 1:
                 merged.append(group[0])
                 continue
