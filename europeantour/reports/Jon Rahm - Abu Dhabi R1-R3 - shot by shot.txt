@@ -1,0 +1,523 @@
+JON RAHM · ABU DHABI ALDAR CHAMPIONSHIP 2026 · YAS LINKS · PAR 72
+Shot by shot, Rounds 1-3 · 65 · 67 · 66 = 198 (-18) · leading by 1 after 54 holes
+Source: DP World Tour shot tracker. Every round matches the official scorecard hole by hole.
+Each line: where the shot was played from (and how far from the hole) -> where it finished.
+Yards off the green, feet on it. The quoted line under each shot is the site's AI commentary.
+
+========================================================================
+ROUND 1 · 65 (-7)
+========================================================================
+
+Hole 1 · Par 4 · 378 yd · 4 (Par)
+  1. Tee shot (378 yd) -> Fairway, 138 yd left
+       "Jon Rahm (T26) finds the fairway with a 246-yard drive on the opening hole, leaving 137 yards to the pin."
+  2. From fairway (138 yd) -> Green, 34 ft left
+       "Rahm's approach from the fairway finds the green, leaving 34 feet for birdie on the opening hole."
+  3. Putt from 34 ft -> 1.5 ft
+       "Rahm missed a 34-foot birdie putt on the opening hole, leaving 16 inches for par."
+  4. Putt from 1.5 ft - HOLED
+       "Rahm holed a putt from 16 inches on the opening hole for par."
+
+Hole 2 · Par 5 · 561 yd · 4 (Birdie)
+  1. Tee shot (561 yd) -> Fairway Bunker, 235 yd left
+       "Rahm (T14) finds the fairway bunker with a 325-yard drive, leaving 235 yards to the hole on the par five second."
+  2. From fairway bunker (235 yd) -> Green, 52 ft left
+       "Rahm's approach from the fairway bunker finds the green, leaving a 52-foot putt, gaining 0.56 strokes *approach*."
+  3. Putt from 52 ft -> 1.8 ft
+       "Rahm missed a 52-foot eagle putt, leaving two feet for birdie on the par five second."
+  4. Putt from 1.8 ft - HOLED
+       "Rahm holed a short putt from two feet for birdie on the par five second."
+
+Hole 3 · Par 4 · 442 yd · 4 (Par)
+  1. Tee shot (442 yd) -> Fairway, 176 yd left
+       "Jon Rahm (T9) finds the fairway with a 257-yard drive, leaving 176 yards to the hole on the par four third."
+  2. From fairway (176 yd) -> Green, 5.1 ft left
+       "Rahm's approach from 176 yards finds the green, leaving a five-foot birdie putt and gaining 0.89 strokes *approach*."
+  3. Putt from 5.1 ft -> 11 in
+       "Rahm missed a five-footer for birdie, leaving eleven inches for par, losing 0.76 strokes *putting*."
+  4. Putt from 11 in - HOLED
+       "Rahm holed the putt for par on the par four third."
+
+Hole 4 · Par 3 · 212 yd · 2 (Birdie)
+  1. Tee shot (212 yd) -> Green, 18 ft left
+       "Jon Rahm (T14) finds the green with an approach shot, leaving eighteen feet for birdie on the par three."
+  2. Putt from 18 ft - HOLED
+       "Rahm holed a 17-foot putt for birdie on the par three fourth, gaining 0.81 strokes *putting* with the best putting on the hole today."
+
+Hole 5 · Par 4 · 405 yd · 4 (Par)
+  1. Tee shot (405 yd) -> Fairway, 152 yd left
+       "Jon Rahm (T6) finds the fairway with a 266-yard drive, leaving 151 yards to the hole on the par four fifth."
+  2. From fairway (152 yd) -> Green, 30 ft left
+       "Rahm's approach from the fairway finds the green, leaving thirty feet for birdie on the par four."
+  3. Putt from 30 ft -> 11 in
+       "Rahm missed a 30-foot putt for birdie, leaving 11 inches for par on the fifth."
+  4. Putt from 11 in - HOLED
+       "Rahm holed a short putt on the par four fifth for par."
+
+Hole 6 · Par 4 · 468 yd · 3 (Birdie)
+  1. Tee shot (468 yd) -> Rough, 161 yd left
+       "Jon Rahm (T6) finds the rough with a 313-yard drive, leaving 160 yards to the hole on the par four sixth."
+  2. From rough (161 yd) -> Green, 17 ft left
+       "Rahm plays an approach from the rough to 17 feet on the par four sixth, setting up a birdie putt."
+  3. Putt from 17 ft - HOLED
+       "Rahm holed a 17-foot putt for birdie on the par 4 sixth, gaining 0.78 strokes *putting* — best putting on the hole today."
+
+Hole 7 · Par 5 · 591 yd · 4 (Birdie)
+  1. Tee shot (591 yd) -> Fairway, 246 yd left
+       "Rahm (T6) finds the fairway with a 323-yard drive on the par five seventh, leaving 245 yards to the hole."
+  2. From fairway (246 yd) -> Fairway, 39 yd left
+       "Rahm's approach from the fairway finds the fairway again, leaving 38 yards to the hole on the par five seventh."
+  3. From fairway (39 yd) -> Green, 2.1 ft left
+       "Rahm's approach from the fairway finds the green, leaving a two-foot putt for birdie, gaining 0.55 strokes *approach*."
+  4. Putt from 2.1 ft - HOLED
+       "Rahm holed a short putt for birdie on the par five seventh."
+
+Hole 8 · Par 3 · 186 yd · 3 (Par)
+  1. Tee shot (186 yd) -> Green, 5.7 ft left
+       "Jon Rahm (T4) leaves a six-foot birdie opportunity with his approach on the par three, gaining 0.55 strokes *approach*."
+  2. Putt from 5.7 ft -> 1.8 ft
+       "Rahm missed a six-footer for birdie, leaving a two-foot putt for par, losing 0.76 strokes *putting*."
+  3. Putt from 1.8 ft - HOLED
+       "Rahm holed a two-foot putt for par on the par three eighth."
+
+Hole 9 · Par 4 · 481 yd · 3 (Birdie)
+  1. Tee shot (481 yd) -> Fairway, 178 yd left
+       "Jon Rahm (T5) finds the fairway with a 295-yard drive, leaving 178 yards to the hole on the par four ninth."
+  2. From fairway (178 yd) -> Green, 3.6 ft left
+       "Rahm's approach from 179 yards finds the green 3 feet from the hole, gaining 0.87 strokes *approach* and leaving a birdie opportunity."
+  3. Putt from 3.6 ft - HOLED
+       "Rahm holed a four-foot putt for birdie on the par four ninth."
+
+Hole 10 · Par 4 · 390 yd · 4 (Par)
+  1. Tee shot (390 yd) -> Fairway, 121 yd left
+       "Jon Rahm (T3) finds the fairway with a 278-yard drive on the tenth, leaving 120 yards to the hole."
+  2. From fairway (121 yd) -> Fairway, 5 yd left
+       "Rahm's approach from the fairway finds the fairway again, leaving sixteen feet to the hole on course hole ten."
+  3. From fairway (5 yd) -> Green, 11 in left
+       "Rahm chipped from the fairway to inside three feet for par on the tenth."
+  4. Putt from 11 in - HOLED
+       "Rahm holed the putt on the par four tenth for par."
+
+Hole 11 · Par 5 · 573 yd · 5 (Par)
+  1. Tee shot (573 yd) -> Rough, 235 yd left
+       "Rahm (T4) finds the rough with a 331-yard drive on the 11th, leaving 234 yards to the hole."
+       [note: provisional ball also hit (307.1 yds, Native Area); original found and played; the feed flagged neither ball as played, so the first ball hit is marked played here]
+  2. From rough (235 yd) -> Fairway, 93 yd left
+       "Rahm's approach from the fairway leaves him ninety-three yards to the hole on the par five 11th."
+  3. From fairway (93 yd) -> Green, 23 ft left
+       "Rahm's approach from the fairway finds the green, leaving 23 feet for birdie on the par five 11th."
+  4. Putt from 23 ft -> 1.5 ft
+       "Rahm missed a 23-foot putt for birdie on the 11th, leaving two feet for par."
+  5. Putt from 1.5 ft - HOLED
+       "Rahm holed a putt from about two feet on the par five 11th for par."
+
+Hole 12 · Par 4 · 480 yd · 4 (Par)
+  1. Tee shot (480 yd) -> Fairway, 139 yd left
+       "Jon Rahm (T4) finds the fairway with a 333-yard drive, leaving 139 yards to the hole on the par four."
+  2. From fairway (139 yd) -> Green, 16 ft left
+       "Rahm's approach from the fairway finds the green, leaving sixteen feet for birdie on the par four."
+  3. Putt from 16 ft -> 7 in
+       "Rahm missed a 16-footer for birdie on the 12th, leaving eight inches for par."
+  4. Putt from 7 in - HOLED
+       "Rahm holed the putt on the par four 12th for par."
+
+Hole 13 · Par 3 · 163 yd · 3 (Par)
+  1. Tee shot (163 yd) -> Green, 9.0 ft left
+       "Rahm (T4) finds the green with an approach shot, leaving a nine-foot putt for birdie on the par three."
+  2. Putt from 9.0 ft -> 7 in
+       "Rahm missed a nine-footer for birdie, leaving nine inches for par, losing 0.48 strokes *putting*."
+  3. Putt from 7 in - HOLED
+       "Rahm holed a short putt for par on the par three 13th."
+
+Hole 14 · Par 4 · 355 yd · 4 (Par)
+  1. Tee shot (355 yd) -> Fairway, 95 yd left
+       "Rahm (T4) finds the fairway with a 276-yard drive on the par four, leaving ninety-four yards to the hole."
+  2. From fairway (95 yd) -> Green, 20 ft left
+       "Rahm's approach from the fairway finds the green, leaving a twenty-foot putt for birdie on the 14th."
+  3. Putt from 20 ft -> 7 in
+       "Rahm missed a twenty-footer for birdie on the 14th, leaving eight inches for par."
+  4. Putt from 7 in - HOLED
+       "Rahm holed a short putt on the par 4 14th for par."
+
+Hole 15 · Par 4 · 481 yd · 4 (Par)
+  1. Tee shot (481 yd) -> Fairway, 197 yd left
+       "Rahm (T4) finds the fairway with a 294-yard drive, leaving 197 yards to the hole on the 15th."
+  2. From fairway (197 yd) -> Green, 25 ft left
+       "Rahm's approach from the fairway finds the green, leaving a 25-foot putt for birdie on the par four."
+  3. Putt from 25 ft -> 1.2 ft
+       "Rahm missed a 25-foot putt for birdie on the 15th, leaving 14 inches for par."
+  4. Putt from 1.2 ft - HOLED
+       "Rahm holed a short putt for par on the 15th."
+
+Hole 16 · Par 4 · 420 yd · 4 (Par)
+  1. Tee shot (420 yd) -> Rough, 159 yd left
+       "Jon Rahm (T4) finds the rough with a 278-yard drive, leaving 159 yards to the hole on the 16th."
+  2. From rough (159 yd) -> Intermediate Rough, 19 yd left
+       "Rahm's approach from the rough finds the intermediate rough, leaving eighteen yards to the hole on course hole 16."
+  3. From intermediate rough (19 yd) -> Green, 5.4 ft left
+       "Rahm chips from the intermediate rough to six feet for par on the 16th."
+  4. Putt from 5.4 ft - HOLED
+       "Rahm holed a six-foot putt for par on the 16th."
+
+Hole 17 · Par 3 · 190 yd · 2 (Birdie)
+  1. Tee shot (190 yd) -> Green, 31 ft left
+       "Rahm (T4) finds the green on the par three with an approach shot, leaving 31 feet for birdie."
+  2. Putt from 31 ft - HOLED
+       "Rahm holed a 31-foot putt for birdie, gaining 1.05 strokes *putting* — the best putting on the hole today."
+
+Hole 18 · Par 5 · 617 yd · 4 (Birdie)
+  1. Tee shot (617 yd) -> Fairway, 253 yd left
+       "Jon Rahm (T4) finds the fairway with a 333-yard drive on the closing hole, leaving 253 yards to the target."
+  2. From fairway (253 yd) -> Fairway, 37 yd left
+       "Rahm's approach from the fairway leaves him 36 yards short on the closing hole of his round."
+  3. From fairway (37 yd) -> Green, 5.1 ft left
+       "Rahm's approach from the fairway finds the green, leaving a five-foot putt for birdie on the closing hole."
+  4. Putt from 5.1 ft - HOLED
+       "Rahm holed a five-footer for birdie on the closing hole to finish round one."
+
+========================================================================
+ROUND 2 · 67 (-5)
+========================================================================
+
+Hole 1 · Par 4 · 372 yd · 4 (Par)
+  1. Tee shot (372 yd) -> Fairway, 146 yd left
+       "Jon Rahm (T2) finds the fairway with a 247-yard drive, leaving 146 yards to the hole on the opening par four."
+  2. From fairway (146 yd) -> Green, 15 ft left
+       "Rahm's approach from the fairway leaves a fifteen-foot birdie opportunity on the first hole."
+  3. Putt from 15 ft -> 7 in
+       "Rahm missed a fifteen-footer for birdie on the first hole, leaving eight inches for par."
+  4. Putt from 7 in - HOLED
+       "Rahm holed a short putt to make par on the first hole."
+
+Hole 2 · Par 5 · 555 yd · 4 (Birdie)
+  1. Tee shot (555 yd) -> Fairway, 210 yd left
+       "Rahm (T2) finds the fairway with a 337-yard drive, leaving 209 yards to the hole on the par five second."
+  2. From fairway (210 yd) -> Green, 16 ft left
+       "Rahm's approach from the fairway finds the green, leaving seventeen feet for eagle on the par five."
+  3. Putt from 16 ft -> 7 in
+       "Rahm missed a 17-foot putt for eagle, leaving about eight inches for birdie on the par five second."
+  4. Putt from 7 in - HOLED
+       "Rahm holed the putt for birdie on the par five second."
+
+Hole 3 · Par 4 · 436 yd · 3 (Birdie)
+  1. Tee shot (436 yd) -> Fairway, 157 yd left
+       "Jon Rahm (T2) finds the fairway with a 275-yard drive on hole 3, leaving 157 yards to the hole."
+  2. From fairway (157 yd) -> Green, 6.0 ft left
+       "Rahm's approach from 157 yards finds the green, leaving a six-foot birdie putt, gaining 0.68 strokes *approach*."
+  3. Putt from 6.0 ft - HOLED
+       "Rahm holed a six-foot putt for birdie on the par four third."
+
+Hole 4 · Par 3 · 190 yd · 3 (Par)
+  1. Tee shot (190 yd) -> Fairway, 22 yd left
+       "Jon Rahm (T1) misses the green on the par three, leaving 21 yards in the fairway, losing 0.51 strokes *approach*."
+  2. From fairway (22 yd) -> Green, 10 ft left
+       "Rahm chips from the fairway to ten feet for par on the par three."
+  3. Putt from 10 ft - HOLED
+       "Rahm holed a ten-foot putt for par on the fourth, gaining 0.65 strokes *putting*."
+
+Hole 5 · Par 4 · 400 yd · 3 (Birdie)
+  1. Tee shot (400 yd) -> Fairway, 99 yd left
+       "Rahm (T1) finds the fairway with a 299-yard drive on the par four fifth, leaving 98 yards to the hole."
+  2. From fairway (99 yd) -> Green, 3.9 ft left
+       "Rahm's approach from the fairway finds the green, leaving a four-foot putt for birdie, gaining 0.58 strokes *approach*."
+  3. Putt from 3.9 ft - HOLED
+       "Rahm holed a four-foot putt for birdie on the par four fifth."
+
+Hole 6 · Par 4 · 462 yd · 5 (Bogey)
+  1. Tee shot (462 yd) -> Native Area, 160 yd left
+       "Jon Rahm (T1) finds the native area with a 296-yard drive, leaving 159 yards to the hole on the par four sixth."
+       [note: provisional ball also hit (319.9 yds, Fairway); original found and played]
+  2. From native area (160 yd) -> Rough, 29 yd left
+       "Rahm's approach from the native area finds the rough on the par four sixth, leaving 28 yards for his next shot."
+  3. From rough (29 yd) -> Green, 29 ft left
+       "Rahm chips from the rough to the green, leaving a 29-foot putt for par on the sixth hole."
+  4. Putt from 29 ft -> 0 in
+       "Rahm missed a 29-foot putt for par on the sixth hole, leaving one inch for bogey."
+  5. Putt from 0 in - HOLED
+       "Rahm holed a putt from just over an inch on the par four sixth for bogey."
+
+Hole 7 · Par 5 · 585 yd · 4 (Birdie)
+  1. Tee shot (585 yd) -> Rough, 252 yd left
+       "Rahm (T2) finds the rough with a 311-yard drive on the par five seventh, leaving 252 yards to the hole."
+  2. From rough (252 yd) -> Rough, 21 yd left
+       "Rahm's approach from the rough leaves him 21 yards to the hole on the par five seventh."
+  3. From rough (21 yd) -> Green, 7.2 ft left
+       "Rahm chips from the rough to seven feet for a birdie opportunity on the par five seventh."
+  4. Putt from 7.2 ft - HOLED
+       "Rahm holed a seven-footer for birdie on the par five seventh, gaining 0.48 strokes *putting*."
+
+Hole 8 · Par 3 · 192 yd · 2 (Birdie)
+  1. Tee shot (192 yd) -> Green, 24 ft left
+       "Rahm (T3) finds the green on the par three with an approach, leaving 24 feet for birdie."
+  2. Putt from 24 ft - HOLED
+       "Rahm holed a 24-foot putt for birdie on the par three 8th, gaining 0.91 strokes *putting*."
+
+Hole 9 · Par 4 · 475 yd · 5 (Bogey)
+  1. Tee shot (475 yd) -> Fairway, 150 yd left
+       "Jon Rahm (T1) finds the fairway with a 316-yard drive, leaving 150 yards to the hole on the par four ninth."
+  2. From fairway (150 yd) -> Green, 30 ft left
+       "Rahm's approach from the fairway finds the green, leaving 30 feet for birdie on the ninth."
+  3. Putt from 30 ft -> 3.0 ft
+       "Rahm missed a 30-footer for birdie on the ninth, leaving a three-foot putt for par."
+  4. Putt from 3.0 ft -> 11 in
+       "Rahm missed a three-footer for par on the ninth, losing 0.92 strokes *putting*, leaving an 11-inch putt for bogey."
+  5. Putt from 11 in - HOLED
+       "Rahm holed his putt on the par 4 ninth for bogey."
+
+Hole 10 · Par 4 · 389 yd · 3 (Birdie)
+  1. Tee shot (389 yd) -> Fairway, 30 yd left
+       "Jon Rahm (T5) finds the fairway with a 319-yard drive on the tenth, leaving 30 yards to the hole."
+  2. From fairway (30 yd) -> Green, 9.9 ft left
+       "Rahm's approach from the fairway finds the green, leaving a ten-foot putt for birdie on the par four tenth."
+  3. Putt from 9.9 ft - HOLED
+       "Rahm holed a nine-footer for birdie on the par four tenth, gaining 0.61 strokes *putting*."
+
+Hole 11 · Par 5 · 571 yd · 4 (Birdie)
+  1. Tee shot (571 yd) -> Rough, 275 yd left
+       "Rahm (T2) finds the rough with a 289-yard drive on the 11th, leaving 275 yards to the hole."
+  2. From rough (275 yd) -> Greenside Bunker, 31 yd left
+       "Rahm's approach from the rough finds the greenside bunker, leaving 31 feet to the hole on the par five 11th."
+  3. From greenside bunker (31 yd) -> Green, 5.4 ft left
+       "Rahm plays an approach from the greenside bunker to five feet, leaving a birdie opportunity on the par five 11th."
+  4. Putt from 5.4 ft - HOLED
+       "Rahm holed a five-footer for birdie on the par five 11th, moving to twelve under par."
+
+Hole 12 · Par 4 · 478 yd · 5 (Bogey)
+  1. Tee shot (478 yd) -> Rough, 161 yd left
+       "Jon Rahm (T2) finds the rough with a 331-yard drive, leaving 161 yards to the hole on the par four."
+  2. Penalty stroke - ball back to the tee (478 yd)
+  3. Tee shot (478 yd) -> Fairway, 172 yd left
+       "Rahm finds the fairway with a 324-yard drive, leaving 172 yards to the hole on the par four."
+  4. From fairway (172 yd) -> Green, 2.1 ft left
+       "Rahm's approach from the fairway finds the green inside two feet, gaining 0.91 strokes *approach*."
+  5. Putt from 2.1 ft - HOLED
+       "Rahm holed a two-footer for bogey on the par four 12th."
+
+Hole 13 · Par 3 · 178 yd · 3 (Par)
+  1. Tee shot (178 yd) -> Fairway, 8 yd left
+       "Jon Rahm (T4) misses the green on the par three, leaving his approach in the fairway with seven yards to the hole."
+  2. From fairway (8 yd) -> Green, 11 in left
+       "Rahm chips from the fairway to inside three feet for par on the 13th."
+  3. Putt from 11 in - HOLED
+       "Rahm holed his putt on the par 3 13th for par."
+
+Hole 14 · Par 4 · 354 yd · 4 (Par)
+  1. Tee shot (354 yd) -> Fairway, 67 yd left
+       "Jon Rahm (T4) finds the fairway with a 304-yard drive, leaving 66 yards to the hole on the par four."
+  2. From fairway (67 yd) -> Green, 12 ft left
+       "Rahm's approach from the fairway leaves him about twelve feet for birdie on the par four."
+  3. Putt from 12 ft -> 11 in
+       "Rahm missed a twelve-footer for birdie on the 14th, leaving a ten-inch putt for par."
+  4. Putt from 11 in - HOLED
+       "Rahm holes the putt on the par four 14th for par."
+
+Hole 15 · Par 4 · 480 yd · 4 (Par)
+  1. Tee shot (480 yd) -> Fairway, 156 yd left
+       "Rahm (T3) finds the fairway with a 309-yard drive, leaving 156 yards to the hole on the par 4 15th."
+  2. From fairway (156 yd) -> Green, 30 ft left
+       "Rahm's approach from the fairway finds the green, leaving a 30-foot putt for birdie on the par four."
+  3. Putt from 30 ft -> 1.5 ft
+       "Rahm missed a thirty-footer for birdie on the 15th, leaving about two feet for par."
+  4. Putt from 1.5 ft - HOLED
+       "Rahm holed a short putt from two feet for par on the 15th."
+
+Hole 16 · Par 4 · 414 yd · 4 (Par)
+  1. Tee shot (414 yd) -> Fairway, 165 yd left
+       "Jon Rahm (T3) finds the fairway with a 265-yard drive, leaving 165 yards to the hole on course hole 16."
+  2. From fairway (165 yd) -> Green, 28 ft left
+       "Rahm's approach from the fairway finds the green, leaving 28 feet for birdie on the par four."
+  3. Putt from 28 ft -> 7 in
+       "Rahm missed a 28-foot putt for birdie on the 16th, leaving about six inches for par."
+  4. Putt from 7 in - HOLED
+       "Rahm holed the putt on the par 4 16th for par."
+
+Hole 17 · Par 3 · 206 yd · 3 (Par)
+  1. Tee shot (206 yd) -> Green, 48 ft left
+       "Rahm (T3) finds the green on the par three 17th with an approach shot, leaving 48 feet for birdie."
+  2. Putt from 48 ft -> 7 in
+       "Rahm missed a 48-foot putt for birdie on the par 3 17th, leaving seven inches for par."
+  3. Putt from 7 in - HOLED
+       "Rahm holed a short putt for par on the par 3 17th."
+
+Hole 18 · Par 5 · 622 yd · 4 (Birdie)
+  1. Tee shot (622 yd) -> Fairway, 273 yd left
+       "Rahm (T3) finds the fairway with a 306-yard drive, leaving 272 yards to the hole on the par five 18th."
+  2. From fairway (273 yd) -> Green, 53 ft left
+       "Rahm's approach from the fairway finds the green, leaving 53 feet for eagle, gaining 0.46 strokes *approach*."
+  3. Putt from 53 ft -> 1.8 ft
+       "Rahm missed a 53-foot eagle putt, leaving about two feet for birdie on the 18th."
+  4. Putt from 1.8 ft - HOLED
+       "Rahm holed a two-foot putt for birdie on the par five 18th."
+
+========================================================================
+ROUND 3 · 66 (-6)
+========================================================================
+
+Hole 1 · Par 4 · 371 yd · 4 (Par)
+  1. Tee shot (371 yd) -> Fairway, 136 yd left
+       "Jon Rahm (T1) finds the fairway with a 245-yard drive, leaving 135 yards to the hole on the opening par four."
+  2. From fairway (136 yd) -> Green, 30 ft left
+       "Rahm's approach from the fairway finds the green, leaving a 30-foot putt for birdie."
+  3. Putt from 30 ft -> 4 in
+       "Rahm missed a 30-foot putt for birdie, leaving about five inches for par."
+  4. Putt from 4 in - HOLED
+       "Rahm holed the putt to make par on the first."
+
+Hole 2 · Par 5 · 554 yd · 4 (Birdie)
+  1. Tee shot (554 yd) -> Fairway, 257 yd left
+       "Jon Rahm (T3) finds the fairway with a 313-yard drive, leaving 256 yards to the hole on the second."
+  2. From fairway (257 yd) -> Green, 44 ft left
+       "Rahm's approach from the fairway finds the green, leaving 44 feet for eagle on the par five."
+  3. Putt from 44 ft -> 4.2 ft
+       "Rahm missed a 44-foot putt for eagle, leaving a four-foot putt for birdie on the second hole."
+  4. Putt from 4.2 ft - HOLED
+       "Rahm holed a four-foot putt for birdie on the par five second."
+
+Hole 3 · Par 4 · 435 yd · 4 (Par)
+  1. Tee shot (435 yd) -> Fairway, 169 yd left
+       "Jon Rahm (T2) finds the fairway with a 284-yard drive, leaving 168 yards to the hole on the third."
+  2. From fairway (169 yd) -> Green, 28 ft left
+       "Rahm's approach finds the green, leaving a 28-foot putt for birdie on the third."
+  3. Putt from 28 ft -> 1.2 ft
+       "Rahm missed a 27-foot putt for birdie, leaving 16 inches for par on the third hole."
+  4. Putt from 1.2 ft - HOLED
+       "Rahm holed a short putt from 16 inches for par on the third."
+
+Hole 4 · Par 3 · 202 yd · 4 (Bogey)
+  1. Tee shot (202 yd) -> Intermediate Rough, 15 yd left
+       "Jon Rahm (T3) misses the green with his approach, leaving 15 feet in the intermediate rough on the fourth hole."
+  2. From intermediate rough (15 yd) -> Green, 19 ft left
+       "Rahm chips from the intermediate rough to 19 feet, losing 0.48 strokes *around the green* for a par opportunity."
+  3. Putt from 19 ft -> 7 in
+       "Rahm missed a 19-footer for par, leaving about eight inches for bogey on the fourth hole."
+  4. Putt from 7 in - HOLED
+       "Rahm holed the putt for bogey on the par three fourth."
+
+Hole 5 · Par 4 · 399 yd · 4 (Par)
+  1. Tee shot (399 yd) -> Rough, 134 yd left
+       "Jon Rahm (T4) finds the rough with a 268-yard drive, leaving 134 yards to the hole on the fifth."
+  2. From rough (134 yd) -> Green, 37 ft left
+       "Rahm's approach from the rough finds the green, leaving 37 feet for his birdie attempt on the fifth."
+  3. Putt from 37 ft -> 1.5 ft
+       "Rahm missed a 37-foot putt for birdie, leaving 17 inches for par on the fifth hole."
+  4. Putt from 1.5 ft - HOLED
+       "Rahm holed a short putt from about 17 inches for par on the fifth."
+
+Hole 6 · Par 4 · 461 yd · 4 (Par)
+  1. Tee shot (461 yd) -> Rough, 136 yd left
+       "Jon Rahm (T4) finds the rough with a 306-yard drive, leaving 136 yards to the hole."
+  2. From rough (136 yd) -> Fairway, 14 yd left
+       "Rahm's approach from the rough finds the fairway, leaving fourteen feet to the hole on six."
+  3. From fairway (14 yd) -> Green, 1.8 ft left
+       "Rahm chips from the fairway to inside two feet for par on the sixth."
+  4. Putt from 1.8 ft - HOLED
+       "Rahm holed a short putt from two feet for par on the sixth."
+
+Hole 7 · Par 5 · 584 yd · 4 (Birdie)
+  1. Tee shot (584 yd) -> Rough, 266 yd left
+       "Jon Rahm (T5) finds the rough with a 311-yard drive, leaving 266 yards to the hole on the seventh."
+  2. From rough (266 yd) -> Fairway, 31 yd left
+       "Rahm plays an approach from the rough to the fairway, leaving 31 yards to the hole on the seventh."
+  3. From fairway (31 yd) -> Green, 11 ft left
+       "Rahm's approach from the fairway finds the green, leaving an eleven-foot putt for birdie."
+  4. Putt from 11 ft - HOLED
+       "Rahm holed an 11-foot putt for birdie, gaining 0.67 strokes *putting* on the seventh."
+
+Hole 8 · Par 3 · 185 yd · 3 (Par)
+  1. Tee shot (185 yd) -> Green, 15 ft left
+       "Jon Rahm (T5) finds the green with an approach shot, leaving a fifteen-foot birdie opportunity on the eighth."
+  2. Putt from 15 ft -> 4 in
+       "Rahm missed a 15-foot putt for birdie, leaving four inches for par on the eighth."
+  3. Putt from 4 in - HOLED
+       "Rahm holed the putt for par on the eighth."
+
+Hole 9 · Par 4 · 474 yd · 4 (Par)
+  1. Tee shot (474 yd) -> Fairway, 142 yd left
+       "Jon Rahm (T5) finds the fairway with a 319-yard drive, leaving 141 yards to the hole on the ninth."
+  2. From fairway (142 yd) -> Green, 16 ft left
+       "Rahm's approach from the fairway finds the green, leaving 16 feet for birdie on the ninth."
+  3. Putt from 16 ft -> 1.5 ft
+       "Rahm missed a 16-footer for birdie and left a two-footer for par on the ninth."
+  4. Putt from 1.5 ft - HOLED
+       "Rahm holed a putt from about two feet for par on the ninth."
+
+Hole 10 · Par 4 · 387 yd · 3 (Birdie)
+  1. Tee shot (387 yd) -> Fairway, 55 yd left
+       "Jon Rahm (T4) finds the fairway with a 320-yard drive, leaving 54 yards to the hole on the tenth."
+  2. From fairway (55 yd) -> Green, 9.6 ft left
+       "Rahm's approach from the fairway leaves him about ten feet for birdie on the tenth."
+  3. Putt from 9.6 ft - HOLED
+       "Rahm holed a ten-foot putt for birdie, gaining 0.63 strokes *putting* on the tenth."
+
+Hole 11 · Par 5 · 570 yd · 3 (Eagle)
+  1. Tee shot (570 yd) -> Fairway, 224 yd left
+       "Jon Rahm (T3) finds the fairway with a 333-yard drive on the 11th, leaving 224 yards to the hole."
+  2. From fairway (224 yd) -> Green, 25 ft left
+       "Rahm's approach from the fairway finds the green, leaving 25 feet for eagle on the par five."
+  3. Putt from 25 ft - HOLED
+       "Rahm holed a 24-foot putt for eagle on the 11th, gaining 0.93 strokes *putting* — best putt on the hole this week."
+
+Hole 12 · Par 4 · 477 yd · 3 (Birdie)
+  1. Tee shot (477 yd) -> Fairway, 137 yd left
+       "Jon Rahm (T1) finds the fairway with a 332-yard drive, leaving 137 yards to the hole."
+  2. From fairway (137 yd) -> Green, 3.9 ft left
+       "Rahm's approach from 137 yards finds the green, leaving a four-foot putt for birdie and gaining 0.70 strokes *approach*."
+  3. Putt from 3.9 ft - HOLED
+       "Rahm holed a four-foot putt for birdie on the 12th."
+
+Hole 13 · Par 3 · 165 yd · 3 (Par)
+  1. Tee shot (165 yd) -> Green, 26 ft left
+       "Jon Rahm (T1) finds the green with an approach shot, leaving 26 feet for his birdie putt on the par three."
+  2. Putt from 26 ft -> 3.9 ft
+       "Rahm missed a 26-foot putt for birdie, leaving four feet for par on the 13th."
+  3. Putt from 3.9 ft - HOLED
+       "Rahm holed a four-foot putt for par on the 13th."
+
+Hole 14 · Par 4 · 353 yd · 4 (Par)
+  1. Tee shot (353 yd) -> Fairway, 97 yd left
+       "Jon Rahm (T1) finds the fairway with a 250-yard drive, leaving 96 yards to the hole on the 14th."
+  2. From fairway (97 yd) -> Green, 5.4 ft left
+       "Rahm's approach from the fairway finds the green, leaving a five-foot birdie putt, gaining 0.47 strokes *approach*."
+  3. Putt from 5.4 ft -> 0 in
+       "Rahm missed a five-footer for birdie, leaving two inches for par and losing 0.69 strokes *putting*."
+  4. Putt from 0 in - HOLED
+       "Rahm holed a tap-in putt for par on the 14th."
+
+Hole 15 · Par 4 · 476 yd · 3 (Birdie)
+  1. Tee shot (476 yd) -> Fairway, 166 yd left
+       "Jon Rahm (T1) finds the fairway with a 326-yard drive, leaving 165 yards to the hole on the 15th."
+  2. From fairway (166 yd) -> Green, 20 ft left
+       "Rahm's approach from the fairway finds the green, leaving a twenty-foot putt for birdie."
+  3. Putt from 20 ft - HOLED
+       "Rahm holed a 20-foot putt for birdie, gaining 0.87 strokes *putting* and posting the best putt on the hole today."
+
+Hole 16 · Par 4 · 418 yd · 4 (Par)
+  1. Tee shot (418 yd) -> Fairway, 182 yd left
+       "Jon Rahm (T1) finds the fairway with a 233-yard drive, leaving 182 yards to the hole on the 16th."
+  2. From fairway (182 yd) -> Green, 21 ft left
+       "Rahm's approach from the fairway finds the green, leaving a 21-foot putt for birdie on the 16th."
+  3. Putt from 21 ft -> 4 in
+       "Rahm missed a 21-foot putt for birdie, leaving two inches for par on the 16th."
+  4. Putt from 4 in - HOLED
+       "Rahm holed a tap-in putt to make par on the 16th."
+
+Hole 17 · Par 3 · 204 yd · 3 (Par)
+  1. Tee shot (204 yd) -> Green, 12 ft left
+       "Jon Rahm (T1) finds the green with an approach shot, leaving a twelve-foot putt for birdie on the 17th."
+  2. Putt from 12 ft -> 4 in
+       "Rahm missed a twelve-footer for birdie, leaving about five inches for par."
+  3. Putt from 4 in - HOLED
+       "Rahm holed the putt for par on the 17th."
+
+Hole 18 · Par 5 · 619 yd · 5 (Par)
+  1. Tee shot (619 yd) -> Fairway, 281 yd left
+       "Jon Rahm (T1) finds the fairway with a 336-yard drive on eighteen, leaving 280 yards to the hole."
+  2. From fairway (281 yd) -> Fairway, 54 yd left
+       "Rahm plays his approach from the fairway, leaving 54 yards to the hole on the 18th."
+  3. From fairway (54 yd) -> Green, 11 ft left
+       "Rahm's approach leaves an eleven-foot putt for birdie on the eighteenth."
+  4. Putt from 11 ft -> 11 in
+       "Rahm missed an eleven-footer for birdie, leaving a foot putt for par on the 18th."
+  5. Putt from 11 in - HOLED
+       "Rahm holed the short putt for par on the 18th."
+
