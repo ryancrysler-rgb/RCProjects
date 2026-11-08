@@ -22,6 +22,7 @@ import multiprocessing as mp
 import os
 import re
 import time
+from collections import defaultdict
 from pathlib import Path
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -129,11 +130,13 @@ def worker(jobs, args, log):
             note = ""
             try:
                 page.goto(tracker_url(args.event_id, team, rnd), wait_until="domcontentloaded", timeout=60000)
-                end = time.time() + 15
+                end = time.time() + 25
                 while 1 not in state["holed"] and time.time() < end:
                     page.wait_for_timeout(200)
                 if not state["holes"]:
-                    note = "no player at this number"
+                    # An empty number still answers (tournament, status, scores: several payloads); a page that
+                    # delivered next to nothing simply did not load, and is pulled again.
+                    note = "no player at this number" if len(files) >= 3 else "load failed"
                 else:
                     nxt = page.locator("button").last
                     for hole in range(2, 19):
@@ -181,8 +184,12 @@ def main() -> int:
     empty = set()
     for attempt in range(3):
         if attempt and os.path.exists(log):
-            empty = {(int(m.group(1)), int(m.group(2))) for m in
-                     re.finditer(r"team\s+(\d+) r(\d+): .*no player at this number", open(log).read())}
+            # A number is empty only when it is empty in every round asked for; one empty round is a failed load.
+            seen = defaultdict(set)
+            for m in re.finditer(r"team\s+(\d+) r(\d+): .*no player at this number", open(log).read()):
+                seen[int(m.group(1))].add(int(m.group(2)))
+            wanted = set(span(args.rounds))
+            empty = {(t, r) for t, rs in seen.items() if rs >= wanted for r in wanted}
         cap = Path(args.out) / "captured"
         todo = [(t, r) for t, r in jobs if (t, r) not in empty
                 and not any((d / "_manifest.json").exists() for d in cap.glob(f"run_*_{args.event}_r{r}_t{t:03d}"))]
