@@ -46,26 +46,11 @@ const rounds = ['1', '2', '3', '4'].map((rnd) => {
   return { n: +rnd, holes, source: 'files', order: null };
 });
 const P = SR.page(rounds, { units: 'yd', wedgeMaxYd: 143 });
-P.notes.push('Clubs are not in the tour shot file: each was read from Jon Rahm’s published stock yardages (totals; gap, sand and lob wedge estimated by the source; 5-wood, 2-iron, 4-iron carry only) by how far the shot went or the distance to the hole — the most likely club, so rules 01 and 02 read Attention, never Broken');
+P.notes.push('Clubs are not in the tour shot file: each was read from Jon Rahm’s published stock yardages (totals; gap, sand and lob wedge estimated by the source; 5-wood, 2-iron, 4-iron carry only) by how far the shot went or the distance to the hole the most likely club; rules 01 and 02 graded literally: one miss is Broken');
 P.notes = P.notes.map((n) => /stored files/.test(n) ? 'R1–R4: read from the DP World Tour shot file by the house reader, every hole adding up to the official card (65, 67, 66, 67 = 265)' : n);
-// owner 2026-11-08 ("Lead with the count"): every tee club here is read from the bag, so rule 01 leads as a count and is
-// never the "next to master"; the next is the most-flagged rule whose clubs are not guessed.
-{
-  let lb = 0, lbFw = 0, w = 0, wOn = 0;
-  out.forEach((o) => { o.after.forEach((x) => {
-    let m = /(\d+) of (\d+) lay-backs missed/.exec(x.detail); if (x.n === 1 && m) { lb += +m[2]; lbFw += +m[2] - +m[1]; }
-    m = /Every lay-back \((\d+)\)/.exec(x.detail); if (x.n === 1 && m) { lb += +m[1]; lbFw += +m[1]; }
-    m = /(\d+) of (\d+) wedge shots finished off/.exec(x.detail); if (x.n === 2 && m) { w += +m[2]; wOn += +m[2] - +m[1]; }
-    m = /All (\d+) wedge shots finished on/.exec(x.detail); if (x.n === 2 && m) { w += +m[1]; wOn += +m[1]; }
-  }); });
-  const dz = HR.NON_NEGOTIABLES.find((x) => x.key === 'deadzone');
-  const flagged = P.groups[0].rules[2].rows[0].cells.map((c, i) => (/attention|broken/.test(c) ? 'R' + (i + 1) : null)).filter(Boolean);
-  P.read = { headline: lbFw + ' of ' + lb + ' lay-backs found the fairway and ' + wOn + ' of ' + w + ' wedges the green (clubs read from his bag).',
-    next: { n: 3, name: dz.name || 'Never leave 40\u201374 yards', rounds: flagged }, decision: dz.plain.says };
-  P.notes = P.notes.map((n) => /^Clubs are not in the tour shot file/.test(n) ? 'Jon Rahm alone (no one else in the field has a bag on file, so rules 01\u201302 are not compared with the field): clubs are not in the tour shot file, so each was read from his published stock yardages (ProYardages totals after Golf Monthly, its GW/SW/LW estimated; Golf Monthly carries for 5-wood, 2-iron, 4-iron) \u2014 the most likely club, so rules 01\u201302 read Attention, never Broken' : n);
-  console.log('READ', P.read.headline, '| next', P.read.next.name, P.read.next.rounds.join(','));
-}
-P.groups.forEach((g) => g.rules.forEach((r) => r.rows.forEach((row) => { if (row.label === 'A driver or fairway wood from a bad lie') row.label = 'Bad lies played with a driver or wood'; })));
+const LIT = require('../page2fix.js').fix(P, rounds, 143);
+console.log('literal', JSON.stringify(LIT));
+  P.notes = P.notes.map((n) => /^Clubs are not in the tour shot file/.test(n) ? 'Jon Rahm alone (no one else in the field has a bag on file, so rules 01\u201302 are not compared with the field): clubs are not in the tour shot file, so each was read from his published stock yardages (ProYardages totals after Golf Monthly, its GW/SW/LW estimated; Golf Monthly carries for 5-wood, 2-iron, 4-iron) \u2014 the most likely club, rules 01\u201302 graded literally: one miss is Broken' : n);
 fs.writeFileSync(__dirname + '/rahm-page.json', JSON.stringify(P, null, 1));
 const tpl = fs.readFileSync(E + 'tournament-summary.template.html', 'utf8');
 const sc = [65, 67, 66, 67];

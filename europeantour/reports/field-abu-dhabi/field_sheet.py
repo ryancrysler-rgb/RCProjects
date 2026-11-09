@@ -89,8 +89,10 @@ def head(text):
 head("The five non-negotiables")
 row("01 Lay back and you hit the fairway", "Greens from the fairway", "gFw", "82% · 78%")
 row("", "Greens from the rough", "gRough", "65% · 52%")
-row("02 Wedges always find the green", "Chips and bunker shots on the green", "chips", "")
-row("", "Rounds with one off the green", "chipMissRounds", "26% · 40%", "lo")
+row("02 Wedges always find the green", "Wedge shots on the green (every shot from 150 yd in)", "w150", "")
+row("", "Full shots, 40–150 yd", "w150f", "")
+row("", "Chips, pitches and bunker shots, under 40 yd", "chips", "")
+row("", "Rounds with every one on the green", "w150AllOn", "")
 row("03 Never leave 40–74 yards", "Leaves in 40–74 yd a round", "dzPerRound", "", "lo", "num")
 row("", "Greens from 40–74 yd", "b4074", "")
 row("04 Carry by 15, or lay back by 15", "Rounds with no penalty stroke", "noPenaltyRounds", "91% · 74%")
@@ -107,11 +109,11 @@ row("4 Beyond 24 feet, the target is the leave", "First putts of 24 ft+ left wit
 row("5 Short game finishes inside 6 feet", "Chips and bunker shots finishing inside 6 ft", "sg6", "")
 row("6 Never escape a bad lie with a driver or fairway wood", "Penalty holes a round (stands in: no clubs in the feed)", "penHolesPerRound", "0.1 · 0.4", "lo", "num")
 row("7 Own one band", "Greens from 75–100 yd", "b75", "85% · 79%")
-row("8 Birdie conversion", "Birdie or better ÷ greens hit", "bc", "42% · 33%")
+row("8 Birdie conversion", "Birdie or better, of greens hit", "bc", "42% · 33%")
 row("9 The reset hole", "Bogey or worse after a bogey", "resetBad", "4% · 19%", "lo")
 p121 = lambda g: ("none" if not g["p5third121"][0] else (signed(g["p5third121"][1]) if g["p5third121"][1] else "0.00"))
 row("10 A par-5 lay-up stays in the fairway, as close as it allows",
-    f'Par 5s to par when the third shot is from 121 yd+ ({T["p5third121"][0]} and {R["p5third121"][0]} holes)',
+    f'Par 5s, average to par (+ = over), third shot from 121 yd+ ({T["p5third121"][0]} and {R["p5third121"][0]} holes)',
     ([p121(g) for g in (W, T, R)], (T["p5third121"][1], R["p5third121"][1]), 0.15), "F 0.00 fwy", "lo", "raw")
 head("House stats and mistakes")
 row("Clutch Factor Ball Striking", "Par or better after trouble", "cfbs", "85% · 62%")
@@ -172,7 +174,7 @@ header = f'''  <div style="background:var(--g950);color:#fff;padding:13px 28px 1
       </div>
       <div style="display:flex;gap:7px;flex:0 0 auto;">
         {tile("Winner", "−23", "Rahm · 265", "var(--lime4)", lime=True)}
-        {tile("Top 10", two(T["scoring"]), "a round · 12", "#fff")}
+        {tile("Top 10", two(T["scoring"]), "a round · 12 others", "#fff")}
         {tile("11th on", two(R["scoring"]), "a round · 55", "#fff")}
       </div>
     </div>
@@ -204,7 +206,7 @@ stress = f'''  <div style="display:flex;gap:8px;margin-top:7px;flex:0 0 auto;">
       {stress_bar("Rahm", W)}{stress_bar("Top 10", T)}{stress_bar("11th on", R)}
     </div>
     <div style="flex:1;background:#fff;border:1px solid var(--bs);border-radius:12px;padding:7px 12px;display:flex;flex-direction:column;justify-content:center;gap:4px;">
-      <div class="kick" style="color:var(--ink4);">Strokes against the field's average, by level · the 67 others</div>
+      <div class="kick" style="color:var(--ink4);">Strokes better (+) or worse (−) than the field’s average, by level · the 67 others</div>
       <div style="display:flex;gap:6px;">
         {"".join(f'<div style="flex:1;text-align:center;background:color-mix(in oklch,var(--lime) 8%,#fff);border-radius:8px;padding:3px;"><div class="kick" style="color:var(--ink5);font-size:7px;">{k.split()[0].capitalize()} · {by[k][1]} rds</div><div style="font-family:var(--fd);font-weight:800;font-size:16px;color:{"var(--g700)" if by[k][0] > 0 else "var(--redT)"};line-height:1;">{signed(by[k][0])}</div></div>' for k in ("LOW STRESS", "MEDIUM STRESS", "HIGH STRESS"))}
       </div>
@@ -212,7 +214,7 @@ stress = f'''  <div style="display:flex;gap:8px;margin-top:7px;flex:0 0 auto;">
   </div>'''
 
 foot = (
-    "Data = DP World Tour shot-by-shot feed (Event Centre), every player, every round, every hole: 280 rounds and 19,680 shots, every round reconciled to "
+    "Data = DP World Tour shot-by-shot feed (Event Centre), every player, every round, every hole: 280 rounds and 19,680 shots in the feed (272 counted here, the 68 players with four graded rounds), every round reconciled to "
     "its official card on all 18 holes · graded by the RC Greenlight engine at house rules v18.1 (Rev 362: the DP World reader, metrics.js, nn-grade, the "
     "Raw builder’s ladder) · <b>68 players with four graded rounds</b> (Calum Hill R1 and Kristoffer Reitan R4 each have a tee shot with no position, "
     "so neither week is counted) · groups: Rahm · the 12 others who finished T10 or better · the 55 who finished 11th or worse · tint = the top 10 better "
@@ -220,8 +222,8 @@ foot = (
     "(35 winners, 313 others, PGA TOUR), W = winners · F = field, beside ours, never a standard · <b>read by the RC Greenlight reader (Rev 362), no patch:</b> the "
     "feed’s DoubleBogeyOrWorse takes the card’s par; a stroke-and-distance row ends on the tee; a water ball’s drop row is the penalty stroke; a penalty "
     "with no position leaves the ball where it lies (McIlroy R1 H12: his two-shot Rule 8.1b penalty, an 8 on the card); OWA, OBU, ODO, OUK and OTF read Other (owner, "
-    "2026-11-08) · a lone ball the feed flags provisional is the ball played · NOT MEASURED (no clubs, pins or hazard lines in the feed): the lay-back itself, "
-    "the full-wedge tier of rule 02, rule 04’s margin (penalty-free rounds stand in, as in the tour study), rule 6’s club, front pin (11), the long side / open side (12), The Check, the go line and the short "
+    "2026-11-08) · a lone ball the feed flags provisional is the ball played · <b>rule 02 read literally</b> (owner 2026-11-09): with no clubs in the feed, every shot from 150 yd and in, off the green, is a wedge shot and must finish on the green · NOT MEASURED (no clubs, pins or hazard lines in the feed): the lay-back itself, "
+    "rule 04’s margin (penalty-free rounds stand in, as in the tour study), rule 6’s club, front pin (11), the long side / open side (12), The Check, the go line and the short "
     "par 4 (both need clubs) · rule 05 levels are the engine’s, by round, never averaged."
 )
 footer = f'''  <div style="display:flex;align-items:center;justify-content:space-between;padding:4px 0 5px;gap:10px;flex:0 0 auto;">

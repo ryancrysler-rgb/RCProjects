@@ -58,7 +58,7 @@ for (const [pid, name] of Object.entries(people)) {
       cfdc: [s.clutchFactorDamageControl.made, s.clutchFactorDamageControl.att],
       level: rule(5).level, rules: (nn.rules || []).map((x) => ({ n: x.n, state: x.state, level: x.level || null, evidence: x.evidence || [] })),
       in6: [0, 0], in36: [0, 0], par5: [0, 0], p40: [0, 0], app40: [0, 0], lv24: [0, 0], three25: [0, 0],
-      sg6: [0, 0], bunker6: [0, 0], chipMissRound: 0, chips: [0, 0], dz: 0, dzFaced: [], penHoles: 0,
+      sg6: [0, 0], bunker6: [0, 0], chipMissRound: 0, chips: [0, 0], w150: [0, 0], w150f: [0, 0], w150Miss: 0, dz: 0, dzFaced: [], penHoles: 0,
       gFw: [0, 0], gRough: [0, 0], p5third121: [], p5third40: [], resetBad: [0, 0], first6: null };
     for (const h of holes) {
       const shots = h.shots;
@@ -88,6 +88,16 @@ for (const [pid, name] of Object.entries(people)) {
         m.chips[1]++; if (x.holed || isGreen(x.endLie)) m.chips[0]++; else chipMissed = true;
       });
       if (chipMissed) m.chipMissRound = 1;
+      // RULE 02, LITERAL (owner 2026-11-09: "The rule is on the green all shots" · field form: "Every shot from 150 yd in"):
+      // with no clubs in the feed, every shot from 150 yd and in, off the green (par-3 tee shots included), is a wedge shot,
+      // and it finishes on the green or in the hole. Full (40–150) and greenside (under 40) kept as the split underneath.
+      shots.forEach((x) => {
+        if (x.isPutt || x.penalty || x.startYd == null || x.startYd > 150 || isGreen(x.startLie)) return;
+        const on = x.holed || isGreen(x.endLie);
+        m.w150[1]++; if (on) m.w150[0]++; else m.w150Miss = 1;
+        if (x.startYd >= 40) { m.w150f[1]++; if (on) m.w150f[0]++; }
+      });
+
       // dead zone: a stroke that finished 40–74 yd from the hole, off the green
       shots.forEach((x, i) => { if (x.isPutt || x.holed || x.penalty) return; const lv = leaveOf(h, i); if (lv.yd != null && !isGreen(lv.lie) && lv.yd >= 40 && lv.yd < 75) { m.dz++; m.dzFaced.push('H' + h.hole + ' ' + Math.round(lv.yd)); } });
       // par-5 third shots from 121+ and from inside 40 (lay-up results), scored

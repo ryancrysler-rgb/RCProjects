@@ -56,6 +56,18 @@
     16,
     16
    ],
+   "w150": [
+    38,
+    41
+   ],
+   "w150f": [
+    22,
+    25
+   ],
+   "w150AllOn": [
+    1,
+    4
+   ],
    "dzPerRound": 1.25,
    "dz": 5,
    "rule3": {
@@ -221,6 +233,18 @@
     190,
     208
    ],
+   "w150": [
+    527,
+    594
+   ],
+   "w150f": [
+    337,
+    386
+   ],
+   "w150AllOn": [
+    15,
+    48
+   ],
    "dzPerRound": 1.54,
    "dz": 74,
    "rule3": {
@@ -249,13 +273,13 @@
     "HIGH STRESS": 13
    },
    "vsFieldByLevel": {
-    "LOW STRESS": [
-     5.01,
-     6
-    ],
     "MEDIUM STRESS": [
      2.43,
      29
+    ],
+    "LOW STRESS": [
+     5.01,
+     6
     ],
     "HIGH STRESS": [
      0.49,
@@ -436,11 +460,23 @@
     1147,
     1244
    ],
+   "w150": [
+    2460,
+    2887
+   ],
+   "w150f": [
+    1313,
+    1643
+   ],
+   "w150AllOn": [
+    40,
+    220
+   ],
    "dzPerRound": 1.33,
    "dz": 293,
    "rule3": {
-    "kept": 46,
-    "attention": 174
+    "attention": 174,
+    "kept": 46
    },
    "rule4": {
     "kept": 166,
@@ -464,10 +500,6 @@
     "HIGH STRESS": 107
    },
    "vsFieldByLevel": {
-    "HIGH STRESS": [
-     -2.31,
-     107
-    ],
     "LOW STRESS": [
      2.42,
      32
@@ -475,6 +507,10 @@
     "MEDIUM STRESS": [
      0.44,
      81
+    ],
+    "HIGH STRESS": [
+     -2.31,
+     107
     ]
    },
    "over6": [
@@ -1036,11 +1072,23 @@
     1337,
     1452
    ],
+   "w150": [
+    2987,
+    3481
+   ],
+   "w150f": [
+    1650,
+    2029
+   ],
+   "w150AllOn": [
+    55,
+    268
+   ],
    "dzPerRound": 1.37,
    "dz": 367,
    "rule3": {
-    "kept": 55,
-    "attention": 213
+    "attention": 213,
+    "kept": 55
    },
    "rule4": {
     "kept": 206,
@@ -1064,10 +1112,6 @@
     "HIGH STRESS": 120
    },
    "vsFieldByLevel": {
-    "HIGH STRESS": [
-     -2.0,
-     120
-    ],
     "LOW STRESS": [
      2.83,
      38
@@ -1075,6 +1119,10 @@
     "MEDIUM STRESS": [
      0.97,
      110
+    ],
+    "HIGH STRESS": [
+     -2.0,
+     120
     ]
    },
    "over6": [
@@ -1636,73 +1684,73 @@
  },
  "winner": "Jon Rahm",
  "positions": {
-  "Francesco Molinari": "T33",
-  "Tommy Fleetwood": "T14",
-  "Angel Hidalgo": "T22",
-  "Bernd Wiesberger": "T5",
-  "Daniel Hillier": "T22",
-  "David Puig": "T5",
-  "Ricardo Gouveia": "T51",
-  "Freddy Schott": "T9",
-  "Eugenio Chacarra": "T22",
-  "Niklas N\u00f8rgaard": "T51",
-  "Adrian Otaegui": "T60",
-  "Jordan Gumberg": "T57",
-  "Victor Perez": "T27",
-  "Hennie du Plessis": "T38",
-  "Gregorio De Leo": "T38",
-  "Sam Bairstow": "T14",
-  "Darius Van Driel": "T38",
-  "Casey Jarvis": "T51",
-  "Julien Guerrier": "T14",
-  "Davis Bryant": "T49",
-  "Ewen Ferguson": "T18",
-  "Aaron Rai": "T25",
-  "Andy Sullivan": "T14",
-  "Adrian Meronk": "T18",
-  "Alejandro Del Rey": "T43",
-  "Tom Vaillant": "T51",
-  "Jayden Schaper": "8",
-  "Rory McIlroy": "3",
-  "Jeff Winther": "69",
-  "Thriston Lawrence": "T51",
-  "Matt Wallace": "T27",
-  "Francesco Laporta": "4",
-  "Mikael Lindberg": "T31",
-  "Yuto Katsuragawa": "T62",
-  "Dan Bradbury": "T49",
-  "Yurav Premlall": "70",
-  "JC Ritchie": "T38",
-  "Kota Kaneko": "T43",
-  "Jon Rahm": "1",
-  "Oliver Lindell": "T25",
-  "Angel Ayora": "T5",
-  "Joakim Lagergren": "T33",
-  "Nacho Elvira": "T62",
-  "Stefano Mazzoli": "T46",
-  "Tyrrell Hatton": "2",
-  "Adam Scott": "T9",
-  "Jacob Skov Olesen": "T62",
-  "Grant Forrest": "T46",
-  "Richard Sterne": "T27",
-  "Jorge Campillo": "T60",
-  "Wenyi Ding": "T18",
-  "Frederic Lacroix": "T9",
-  "Daniel Rodrigues": "T51",
-  "Ugo Coussaud": "T57",
-  "Marcus Armitage": "T33",
-  "Patrick Reed": "T43",
-  "Michael Hollick": "T62",
   "Martin Couvra": "T46",
-  "Joe Dean": "T31",
-  "Joost Luiten": "T38",
+  "David Puig": "T5",
+  "Victor Perez": "T27",
+  "Patrick Reed": "T43",
+  "Hennie du Plessis": "T38",
+  "Dan Bradbury": "T49",
+  "Tom Vaillant": "T51",
   "Scott Jamieson": "T67",
-  "Nathan Kimsey": "T9",
   "Shaun Norris": "T57",
+  "Rory McIlroy": "3",
   "Antoine Rozner": "T33",
-  "Manuel Elvira": "T27",
+  "Thriston Lawrence": "T51",
+  "Marcus Armitage": "T33",
+  "Julien Guerrier": "T14",
+  "Joost Luiten": "T38",
+  "Richard Sterne": "T27",
+  "Jacob Skov Olesen": "T62",
   "Matthew Jordan": "T9",
+  "Andy Sullivan": "T14",
+  "Aaron Rai": "T25",
+  "Jon Rahm": "1",
+  "Yurav Premlall": "70",
+  "Freddy Schott": "T9",
+  "Davis Bryant": "T49",
+  "Sam Bairstow": "T14",
+  "Joe Dean": "T31",
+  "Alejandro Del Rey": "T43",
+  "Adrian Otaegui": "T60",
+  "Ricardo Gouveia": "T51",
+  "Grant Forrest": "T46",
+  "Casey Jarvis": "T51",
+  "Frederic Lacroix": "T9",
+  "Tyrrell Hatton": "2",
+  "Nacho Elvira": "T62",
+  "Daniel Rodrigues": "T51",
+  "Stefano Mazzoli": "T46",
+  "Wenyi Ding": "T18",
+  "Matt Wallace": "T27",
+  "Daniel Hillier": "T22",
+  "Bernd Wiesberger": "T5",
+  "Francesco Molinari": "T33",
+  "Mikael Lindberg": "T31",
+  "JC Ritchie": "T38",
+  "Eugenio Chacarra": "T22",
+  "Michael Hollick": "T62",
+  "Filippo Celli": "T62",
+  "Kota Kaneko": "T43",
+  "Ugo Coussaud": "T57",
   "Guido Migliozzi": "T67",
-  "Filippo Celli": "T62"
+  "Adam Scott": "T9",
+  "Manuel Elvira": "T27",
+  "Angel Ayora": "T5",
+  "Jordan Gumberg": "T57",
+  "Niklas N\u00f8rgaard": "T51",
+  "Joakim Lagergren": "T33",
+  "Oliver Lindell": "T25",
+  "Francesco Laporta": "4",
+  "Angel Hidalgo": "T22",
+  "Gregorio De Leo": "T38",
+  "Tommy Fleetwood": "T14",
+  "Jeff Winther": "69",
+  "Jorge Campillo": "T60",
+  "Yuto Katsuragawa": "T62",
+  "Nathan Kimsey": "T9",
+  "Jayden Schaper": "8",
+  "Darius Van Driel": "T38",
+  "Ewen Ferguson": "T18",
+  "Adrian Meronk": "T18"
  }
 }
