@@ -62,7 +62,7 @@ def worker(jobs, args, log):
             browser = pw.chromium.launch(**options)
         except Exception:
             import glob
-            path = sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux/chrome"))[-1]
+            path = sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"))[-1]
             browser = pw.chromium.launch(executable_path=path, **options)
         for team, rnd in jobs:
             done = list(out.glob(f"run_*_{args.event}_r{rnd}_t{team:03d}"))

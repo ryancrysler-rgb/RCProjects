@@ -52,7 +52,7 @@ def launch(playwright, headless: bool):
         return playwright.chromium.launch(**options)
     except Exception:
         # A preinstalled browser that does not match this Playwright version.
-        for path in sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux/chrome"), reverse=True):
+        for path in sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"), reverse=True):
             try:
                 return playwright.chromium.launch(executable_path=path, **options)
             except Exception:
