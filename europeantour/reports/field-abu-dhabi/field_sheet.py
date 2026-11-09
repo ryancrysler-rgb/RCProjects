@@ -105,13 +105,13 @@ row("3 Approach inside 40 feet", "Regulation approaches on the green, under 40 f
 row("", "Three-putts when the first putt is 40 ft+", "p40", "11% · 15%", "lo")
 row("4 Beyond 24 feet, the target is the leave", "First putts of 24 ft+ left within 10%", "lv24", "")
 row("5 Short game finishes inside 6 feet", "Chips and bunker shots finishing inside 6 ft", "sg6", "")
-row("6 Never escape a bad lie with a driver or fairway wood", "Penalty holes a round (no club in the feed)", "penHolesPerRound", "0.1 · 0.4", "lo", "num")
+row("6 Never escape a bad lie with a driver or fairway wood", "Penalty holes a round (stands in: no clubs in the feed)", "penHolesPerRound", "0.1 · 0.4", "lo", "num")
 row("7 Own one band", "Greens from 75–100 yd", "b75", "85% · 79%")
 row("8 Birdie conversion", "Birdie or better ÷ greens hit", "bc", "42% · 33%")
 row("9 The reset hole", "Bogey or worse after a bogey", "resetBad", "4% · 19%", "lo")
 p121 = lambda g: ("none" if not g["p5third121"][0] else (signed(g["p5third121"][1]) if g["p5third121"][1] else "0.00"))
 row("10 A par-5 lay-up stays in the fairway, as close as it allows",
-    f'Par-5 thirds from 121 yd+, to par ({T["p5third121"][0]} and {R["p5third121"][0]} shots)',
+    f'Par 5s to par when the third shot is from 121 yd+ ({T["p5third121"][0]} and {R["p5third121"][0]} holes)',
     ([p121(g) for g in (W, T, R)], (T["p5third121"][1], R["p5third121"][1]), 0.15), "F 0.00 fwy", "lo", "raw")
 head("House stats and mistakes")
 row("Clutch Factor Ball Striking", "Par or better after trouble", "cfbs", "85% · 62%")

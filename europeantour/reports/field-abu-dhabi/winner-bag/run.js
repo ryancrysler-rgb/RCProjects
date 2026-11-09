@@ -65,6 +65,7 @@ P.notes = P.notes.map((n) => /stored files/.test(n) ? 'R1–R4: read from the DP
   P.notes = P.notes.map((n) => /^Clubs are not in the tour shot file/.test(n) ? 'Jon Rahm alone (no one else in the field has a bag on file, so rules 01\u201302 are not compared with the field): clubs are not in the tour shot file, so each was read from his published stock yardages (ProYardages totals after Golf Monthly, its GW/SW/LW estimated; Golf Monthly carries for 5-wood, 2-iron, 4-iron) \u2014 the most likely club, so rules 01\u201302 read Attention, never Broken' : n);
   console.log('READ', P.read.headline, '| next', P.read.next.name, P.read.next.rounds.join(','));
 }
+P.groups.forEach((g) => g.rules.forEach((r) => r.rows.forEach((row) => { if (row.label === 'A driver or fairway wood from a bad lie') row.label = 'Bad lies played with a driver or wood'; })));
 fs.writeFileSync(__dirname + '/rahm-page.json', JSON.stringify(P, null, 1));
 const tpl = fs.readFileSync(E + 'tournament-summary.template.html', 'utf8');
 const sc = [65, 67, 66, 67];
