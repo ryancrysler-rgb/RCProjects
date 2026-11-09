@@ -241,3 +241,16 @@ with no filter or delay.
 - Post format Ryan approved: full newsletter as text (no photos), the TeamCH3 cover banner, PDF link at top and
   bottom, and "truncation disabled" so the whole post shows in the feed without opening it.
 - Each month: send the new newsletter, Claude rebuilds the PDF and posts it the same way.
+
+## Topics (post tags), Nov 9
+Admin-only topics (only coaches/admins can tag), so members filter the coaching library by area of the game.
+- Member basecamps (Global, CH3 Dubai, CH3 Thailand, TeamFLO, Junior Basecamp): Pressure & mental game 610839,
+  Course strategy 610840, Long game 610841, Short game 610842, Putting 610843, Practice plans 610844,
+  Results & news 610845, Tour updates 610846.
+- Son Of A Butch Podcast: the six game topics above plus Swing & technique 610847, With Ryan Crysler 610848,
+  Tour pro guests 610849, Coach & expert guests 610850, Majors & tour talk 610851, Golf world & culture 610852,
+  Live recordings 610853.
+- Tagged: all 160 podcast episodes (most have 1 to 3 topics), the live-recording post, the Ralph Baxley pressure
+  session (Global + TeamFLO: Pressure & mental game, Practice plans) and the October newsletters (Results & news).
+  The mapping is in the session's scratchpad (topics/batch*.json). Welcome posts are left untagged.
+- New posts: pick the topic(s) when posting. Coaches' Basecamp keeps its own 4 topics.
