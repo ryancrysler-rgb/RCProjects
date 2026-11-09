@@ -86,35 +86,30 @@ def head(text):
     ROWS.append((text, None, None, None, None))
 
 
+# STRICT, LITERAL (owner 2026-11-09): each rule's own measure only; what the tour file cannot measure says so
+NM = (["—", "—", "—"], (None, None), 0)
 head("The five non-negotiables")
-row("01 Lay back and you hit the fairway", "Greens from the fairway", "gFw", "82% · 78%")
-row("", "Greens from the rough", "gRough", "65% · 52%")
+row("01 Lay back and you hit the fairway", "Lay-back tee shots in the fairway (winner: clubs from his bag; field not measured, no clubs)", (["80% (20/25)", "—", "—"], (None, None), 0), "", None, "raw")
 row("02 Wedges always find the green", "Wedge shots on the green (every shot from 150 yd in)", "w150", "")
 row("", "Full shots, 40–150 yd", "w150f", "")
 row("", "Chips, pitches and bunker shots, under 40 yd", "chips", "")
 row("", "Rounds with every one on the green", "w150AllOn", "")
 row("03 Never leave 40–74 yards", "Leaves in 40–74 yd a round", "dzPerRound", "", "lo", "num")
-row("", "Greens from 40–74 yd", "b4074", "")
-row("04 Carry by 15, or lay back by 15", "Rounds with no penalty stroke", "noPenaltyRounds", "91% · 74%")
+row("04 Carry by 15, or lay back by 15", "Not measured: no hazard lines in the tour file", NM, "", None, "raw")
 row("05 Choose to play stress free", "Rounds graded HIGH stress", ([pct_s(share(g, "HIGH STRESS")) for g in (W, T, R)],
                                                                    (pct(share(T, "HIGH STRESS")), pct(share(R, "HIGH STRESS"))), 5), "", "lo", "raw")
-row("", "Over par after six holes", "over6", "9% · 27%", "lo")
 head("House rules, ranked (v18.1)")
 row("1 Inside 6 feet is sacred", "Holed inside 6 ft", "in6", "")
 row("", "Holed from 3–6 ft", "in36", "90% · 84%")
-row("2 Every par 5 on the green in three", "Par 5s on the green in 3 or fewer", "par5", "90% · 83%")
+row("2 Every par 5 on the green in three, with the go line", "Par 5s on the green in 3 or fewer", "par5", "90% · 83%")
 row("3 Approach inside 40 feet", "Regulation approaches on the green, under 40 ft", "app40", "")
-row("", "Three-putts when the first putt is 40 ft+", "p40", "11% · 15%", "lo")
-row("4 Beyond 24 feet, the target is the leave", "First putts of 24 ft+ left within 10%", "lv24", "")
+row("4 Beyond 24 feet, the target is the leave", "First putts from 24 ft and out, left within 10%", "lv24", "")
 row("5 Short game finishes inside 6 feet", "Chips and bunker shots finishing inside 6 ft", "sg6", "")
-row("6 Never escape a bad lie with a driver or fairway wood", "Penalty holes a round (stands in: no clubs in the feed)", "penHolesPerRound", "0.1 · 0.4", "lo", "num")
-row("7 Own one band", "Greens from 75–100 yd", "b75", "85% · 79%")
+row("6 Never escape a bad lie with a driver or fairway wood", "Bad lies played with a driver or wood (winner: from his bag; field not measured)", (["0 of 4", "—", "—"], (None, None), 0), "", None, "raw")
+row("7 Own one band", "Not measured: a practice rule (the one band to work on)", NM, "", None, "raw")
 row("8 Birdie conversion", "Birdie or better, of greens hit", "bc", "42% · 33%")
 row("9 The reset hole", "Bogey or worse after a bogey", "resetBad", "4% · 19%", "lo")
-p121 = lambda g: ("none" if not g["p5third121"][0] else (signed(g["p5third121"][1]) if g["p5third121"][1] else "0.00"))
-row("10 A par-5 lay-up stays in the fairway, as close as it allows",
-    f'Par 5s, average to par (+ = over), third shot from 121 yd+ ({T["p5third121"][0]} and {R["p5third121"][0]} holes)',
-    ([p121(g) for g in (W, T, R)], (T["p5third121"][1], R["p5third121"][1]), 0.15), "F 0.00 fwy", "lo", "raw")
+row("10 A par-5 lay-up stays in the fairway, as close as it allows", "Par-5 lay-ups in the fairway", "layFw", "")
 head("House stats and mistakes")
 row("Clutch Factor Ball Striking", "Par or better after trouble", "cfbs", "85% · 62%")
 row("Clutch Factor Putting", "Par-saving putts from 5 ft+ holed", "cfp", "58% · 45%")
@@ -222,9 +217,7 @@ foot = (
     "(35 winners, 313 others, PGA TOUR), W = winners · F = field, beside ours, never a standard · <b>read by the RC Greenlight reader (Rev 362), no patch:</b> the "
     "feed’s DoubleBogeyOrWorse takes the card’s par; a stroke-and-distance row ends on the tee; a water ball’s drop row is the penalty stroke; a penalty "
     "with no position leaves the ball where it lies (McIlroy R1 H12: his two-shot Rule 8.1b penalty, an 8 on the card); OWA, OBU, ODO, OUK and OTF read Other (owner, "
-    "2026-11-08) · a lone ball the feed flags provisional is the ball played · <b>rule 02 read literally</b> (owner 2026-11-09): with no clubs in the feed, every shot from 150 yd and in, off the green, is a wedge shot and must finish on the green · NOT MEASURED (no clubs, pins or hazard lines in the feed): the lay-back itself, "
-    "rule 04’s margin (penalty-free rounds stand in, as in the tour study), rule 6’s club, front pin (11), the long side / open side (12), The Check, the go line and the short "
-    "par 4 (both need clubs) · rule 05 levels are the engine’s, by round, never averaged."
+    "2026-11-08) · a lone ball the feed flags provisional is the ball played · <b>rule 02 read literally</b> (owner 2026-11-09): with no clubs in the feed, every shot from 150 yd and in, off the green, is a wedge shot and must finish on the green · <b>RULES READ LITERALLY</b> (owner 2026-11-09: each rule’s own measure, nothing standing in) · NOT MEASURED, no clubs, pins or hazard lines in the feed: rule 01 and rule 6 for the field (the winner’s come from his published stock yardages), rule 04, front pin (11), the long side / open side (12), The Check, the go line and the short par 4; rule 7 is a practice rule (the one band to work on) · rule 05 levels are the engine’s, by round, never averaged."
 )
 footer = f'''  <div style="display:flex;align-items:center;justify-content:space-between;padding:4px 0 5px;gap:10px;flex:0 0 auto;">
     <div class="mono" style="font-size:6.3px;color:var(--ink4);line-height:1.26;">{foot}</div>

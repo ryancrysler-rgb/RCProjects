@@ -24,13 +24,22 @@ for (const m of R.results) {
     const holes = SC.parse(r.csv).holes;
     const sc = holes.reduce((t, h) => t + h.score, 0);
     if (sc !== m.score) { failed.push(m.name + ' R' + rnd + ' ' + sc + '≠' + m.score); continue; }
-    m.w150 = [0, 0]; m.w150f = [0, 0]; m.w150Miss = 0;
+    m.w150 = [0, 0]; m.w150f = [0, 0]; m.w150Miss = 0; m.layFw = [0, 0];
     holes.forEach((h) => h.shots.forEach((x) => {
       if (x.isPutt || x.penalty || x.startYd == null || x.startYd > 150 || isGreen(x.startLie)) return;
       const on = x.holed || isGreen(x.endLie);
       m.w150[1]++; if (on) m.w150[0]++; else m.w150Miss = 1;
       if (x.startYd >= 40) { m.w150f[1]++; if (on) m.w150f[0]++; }
     }));
+    const isFairway = (l) => /^fairway$/i.test(String(l || ''));
+    holes.forEach((h) => { if (+h.par !== 5) return; const shots = h.shots, s2 = shots[1], s3 = shots[2];
+      if (s2 && s3 && !s2.penalty && !s2.holed && !isGreen(s2.endLie) && !shots.slice(0, 2).some((x) => isGreen(x.endLie)) && !s3.isPutt) { m.layFw[1]++; if (isFairway(s3.startLie)) m.layFw[0]++; } });
+    // rule 4, literal "from 24 feet and out": first putts of 24 ft or more, left within a tenth (or holed)
+    m.lv24 = [0, 0];
+    holes.forEach((h) => { const putts = h.shots.filter((x) => x.isPutt); if (!putts.length) return; const f = putts[0];
+      if (f.startFt != null && f.startFt >= 24) { m.lv24[1]++; const i = h.shots.indexOf(f), nx = h.shots[i + 1];
+        const ft = nx ? (nx.startFt != null ? nx.startFt : (nx.startYd != null ? nx.startYd * 3 : null)) : 0;
+        if (f.holed || (ft != null && ft <= 0.1 * f.startFt)) m.lv24[0]++; } });
     done++;
   } catch (e) { failed.push(m.name + ' R' + rnd + ': ' + ((e.problems || [e.message]).join('; ')).slice(0, 80)); }
 }

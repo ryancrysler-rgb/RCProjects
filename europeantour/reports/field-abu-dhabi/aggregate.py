@@ -67,7 +67,7 @@ def summarize(ms):
         "lv24": frac(ms, "lv24"), "three25": frac(ms, "three25"), "p40": frac(ms, "p40"),
         "app40": frac(ms, "app40"),
         "sg6": frac(ms, "sg6"), "bunker6": frac(ms, "bunker6"),
-        "chipMissRounds": [sum(m["chipMissRound"] for m in ms), n], "chips": frac(ms, "chips"), "w150": frac(ms, "w150"), "w150f": frac(ms, "w150f"), "w150AllOn": [sum(1 - m["w150Miss"] for m in ms), n],
+        "chipMissRounds": [sum(m["chipMissRound"] for m in ms), n], "chips": frac(ms, "chips"), "w150": frac(ms, "w150"), "layFw": frac(ms, "layFw"), "w150f": frac(ms, "w150f"), "w150AllOn": [sum(1 - m["w150Miss"] for m in ms), n],
         "dzPerRound": round(sum(m["dz"] for m in ms) / n, 2), "dz": sum(m["dz"] for m in ms),
         "rule3": dict(rule_state(3)), "rule4": dict(rule_state(4)), "rule2": dict(rule_state(2)), "rule1": dict(rule_state(1)),
         "noPenaltyRounds": [sum(1 for m in ms if m["penHoles"] == 0), n],

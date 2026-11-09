@@ -60,6 +60,10 @@
     38,
     41
    ],
+   "layFw": [
+    5,
+    10
+   ],
    "w150f": [
     22,
     25
@@ -202,8 +206,8 @@
     192
    ],
    "lv24": [
-    221,
-    266
+    222,
+    267
    ],
    "three25": [
     3,
@@ -237,6 +241,10 @@
     527,
     594
    ],
+   "layFw": [
+    76,
+    147
+   ],
    "w150f": [
     337,
     386
@@ -248,8 +256,8 @@
    "dzPerRound": 1.54,
    "dz": 74,
    "rule3": {
-    "attention": 39,
-    "kept": 9
+    "kept": 9,
+    "attention": 39
    },
    "rule4": {
     "kept": 40,
@@ -273,13 +281,13 @@
     "HIGH STRESS": 13
    },
    "vsFieldByLevel": {
-    "MEDIUM STRESS": [
-     2.43,
-     29
-    ],
     "LOW STRESS": [
      5.01,
      6
+    ],
+    "MEDIUM STRESS": [
+     2.43,
+     29
     ],
     "HIGH STRESS": [
      0.49,
@@ -429,8 +437,8 @@
     880
    ],
    "lv24": [
-    1061,
-    1315
+    1071,
+    1328
    ],
    "three25": [
     22,
@@ -463,6 +471,10 @@
    "w150": [
     2460,
     2887
+   ],
+   "layFw": [
+    312,
+    686
    ],
    "w150f": [
     1313,
@@ -500,17 +512,17 @@
     "HIGH STRESS": 107
    },
    "vsFieldByLevel": {
-    "LOW STRESS": [
-     2.42,
-     32
+    "HIGH STRESS": [
+     -2.31,
+     107
     ],
     "MEDIUM STRESS": [
      0.44,
      81
     ],
-    "HIGH STRESS": [
-     -2.31,
-     107
+    "LOW STRESS": [
+     2.42,
+     32
     ]
    },
    "over6": [
@@ -1041,8 +1053,8 @@
     1072
    ],
    "lv24": [
-    1282,
-    1581
+    1293,
+    1595
    ],
    "three25": [
     25,
@@ -1076,6 +1088,10 @@
     2987,
     3481
    ],
+   "layFw": [
+    388,
+    833
+   ],
    "w150f": [
     1650,
     2029
@@ -1087,8 +1103,8 @@
    "dzPerRound": 1.37,
    "dz": 367,
    "rule3": {
-    "attention": 213,
-    "kept": 55
+    "kept": 55,
+    "attention": 213
    },
    "rule4": {
     "kept": 206,
@@ -1684,73 +1700,73 @@
  },
  "winner": "Jon Rahm",
  "positions": {
-  "Martin Couvra": "T46",
+  "Francesco Laporta": "4",
+  "Jordan Gumberg": "T57",
   "David Puig": "T5",
-  "Victor Perez": "T27",
-  "Patrick Reed": "T43",
-  "Hennie du Plessis": "T38",
-  "Dan Bradbury": "T49",
-  "Tom Vaillant": "T51",
-  "Scott Jamieson": "T67",
-  "Shaun Norris": "T57",
-  "Rory McIlroy": "3",
-  "Antoine Rozner": "T33",
-  "Thriston Lawrence": "T51",
-  "Marcus Armitage": "T33",
-  "Julien Guerrier": "T14",
-  "Joost Luiten": "T38",
-  "Richard Sterne": "T27",
-  "Jacob Skov Olesen": "T62",
-  "Matthew Jordan": "T9",
-  "Andy Sullivan": "T14",
-  "Aaron Rai": "T25",
-  "Jon Rahm": "1",
-  "Yurav Premlall": "70",
-  "Freddy Schott": "T9",
-  "Davis Bryant": "T49",
-  "Sam Bairstow": "T14",
-  "Joe Dean": "T31",
-  "Alejandro Del Rey": "T43",
-  "Adrian Otaegui": "T60",
-  "Ricardo Gouveia": "T51",
-  "Grant Forrest": "T46",
-  "Casey Jarvis": "T51",
-  "Frederic Lacroix": "T9",
-  "Tyrrell Hatton": "2",
-  "Nacho Elvira": "T62",
-  "Daniel Rodrigues": "T51",
-  "Stefano Mazzoli": "T46",
-  "Wenyi Ding": "T18",
-  "Matt Wallace": "T27",
-  "Daniel Hillier": "T22",
-  "Bernd Wiesberger": "T5",
-  "Francesco Molinari": "T33",
-  "Mikael Lindberg": "T31",
+  "Jeff Winther": "69",
+  "Adrian Meronk": "T18",
   "JC Ritchie": "T38",
-  "Eugenio Chacarra": "T22",
-  "Michael Hollick": "T62",
+  "Gregorio De Leo": "T38",
+  "Jayden Schaper": "8",
+  "Angel Ayora": "T5",
+  "Manuel Elvira": "T27",
+  "Francesco Molinari": "T33",
+  "Rory McIlroy": "3",
+  "Thriston Lawrence": "T51",
+  "Richard Sterne": "T27",
+  "Mikael Lindberg": "T31",
+  "Oliver Lindell": "T25",
+  "Nathan Kimsey": "T9",
+  "Sam Bairstow": "T14",
+  "Davis Bryant": "T49",
+  "Ricardo Gouveia": "T51",
+  "Adrian Otaegui": "T60",
+  "Alejandro Del Rey": "T43",
+  "Daniel Rodrigues": "T51",
+  "Grant Forrest": "T46",
+  "Matt Wallace": "T27",
+  "Wenyi Ding": "T18",
+  "Scott Jamieson": "T67",
+  "Bernd Wiesberger": "T5",
+  "Yuto Katsuragawa": "T62",
+  "Freddy Schott": "T9",
+  "Daniel Hillier": "T22",
+  "Joe Dean": "T31",
+  "Andy Sullivan": "T14",
+  "Niklas N\u00f8rgaard": "T51",
+  "Nacho Elvira": "T62",
+  "Martin Couvra": "T46",
   "Filippo Celli": "T62",
+  "Joost Luiten": "T38",
+  "Patrick Reed": "T43",
+  "Angel Hidalgo": "T22",
+  "Hennie du Plessis": "T38",
+  "Michael Hollick": "T62",
   "Kota Kaneko": "T43",
   "Ugo Coussaud": "T57",
-  "Guido Migliozzi": "T67",
+  "Dan Bradbury": "T49",
   "Adam Scott": "T9",
-  "Manuel Elvira": "T27",
-  "Angel Ayora": "T5",
-  "Jordan Gumberg": "T57",
-  "Niklas N\u00f8rgaard": "T51",
-  "Joakim Lagergren": "T33",
-  "Oliver Lindell": "T25",
-  "Francesco Laporta": "4",
-  "Angel Hidalgo": "T22",
-  "Gregorio De Leo": "T38",
-  "Tommy Fleetwood": "T14",
-  "Jeff Winther": "69",
-  "Jorge Campillo": "T60",
-  "Yuto Katsuragawa": "T62",
-  "Nathan Kimsey": "T9",
-  "Jayden Schaper": "8",
+  "Stefano Mazzoli": "T46",
+  "Victor Perez": "T27",
   "Darius Van Driel": "T38",
+  "Jon Rahm": "1",
+  "Julien Guerrier": "T14",
+  "Jacob Skov Olesen": "T62",
+  "Matthew Jordan": "T9",
+  "Shaun Norris": "T57",
+  "Aaron Rai": "T25",
+  "Frederic Lacroix": "T9",
+  "Joakim Lagergren": "T33",
+  "Eugenio Chacarra": "T22",
+  "Antoine Rozner": "T33",
+  "Marcus Armitage": "T33",
+  "Casey Jarvis": "T51",
+  "Guido Migliozzi": "T67",
+  "Tom Vaillant": "T51",
+  "Jorge Campillo": "T60",
+  "Yurav Premlall": "70",
   "Ewen Ferguson": "T18",
-  "Adrian Meronk": "T18"
+  "Tommy Fleetwood": "T14",
+  "Tyrrell Hatton": "2"
  }
 }

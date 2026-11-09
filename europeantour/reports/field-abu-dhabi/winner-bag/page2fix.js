@@ -33,6 +33,22 @@ function fix(P, rounds, wedgeMaxYd) {
   r1.rows.splice(1, 0, rate('Lay-back tee shots in the fairway', lay));
   r2.rows = [{ kind: 'state', label: 'The grade', cells: g2 },
     rate('Wedge shots on the green', wAll), rate('Full wedges (40 yd+)', wFull), rate('Chips, pitches and bunker shots', wG)];
+  // STRICT, LITERAL (owner 2026-11-09): only each rule's own measure; a stand-in row comes out; what the file cannot measure says so
+  const NA = (label, why) => ({ kind: 'na', label, why });
+  r1.rows = r1.rows.filter((row) => !/^Greens from the (fairway|rough)$/.test(row.label));
+  const r3 = nn.find((r) => r.n === 3); r3.rows = r3.rows.filter((row) => !/^Greens from 40/.test(row.label));
+  const r4 = nn.find((r) => r.n === 4); r4.rows = [r4.rows[0].kind === 'state' ? NA('Carries and lay-backs by 15 yards', 'not measured \u00b7 no hazard lines in the files') : r4.rows[0]];
+  const r5 = nn.find((r) => r.n === 5); r5.rows = r5.rows.filter((row) => !/after six/.test(row.label));
+  const ranked = P.groups[1].rules;
+  const h3 = ranked.find((r) => /^3 /.test(r.name)); if (h3) h3.rows = h3.rows.filter((row) => !/^Three-putts/.test(row.label));
+  const h7 = ranked.find((r) => /^7 /.test(r.name)); if (h7) h7.rows = [NA('The one band to work on', 'not measured \u00b7 a practice rule')];
+  const h4 = ranked.find((r) => /^4 /.test(r.name));
+  if (h4) { // "From 24 feet and out": first putts of 24 ft or more, left within a tenth (or holed)
+    const per = rounds.map((r) => { let x = [0, 0]; r.holes.forEach((h) => { const p = h.shots.filter((y) => y.isPutt); if (!p.length) return; const f = p[0];
+      if (f.startFt == null || f.startFt < 24) return; x[1]++; const nx = h.shots[h.shots.indexOf(f) + 1]; const ft = nx ? (nx.startFt != null ? nx.startFt : (nx.startYd != null ? nx.startYd * 3 : null)) : 0;
+      if (f.holed || (ft != null && ft <= 0.1 * f.startFt)) x[0]++; }); return x; });
+    h4.rows = [rate('First putts from 24 ft and out, left within 10%', per)];
+  }
   P.groups.forEach((gr) => gr.rules.forEach((r) => r.rows.forEach((row) => {
     if (row.label === 'A driver or fairway wood from a bad lie') row.label = 'Bad lies played with a driver or wood';
     if (/^Birdie or better ÷ greens hit$/.test(row.label)) row.label = 'Birdie or better, of greens hit';
