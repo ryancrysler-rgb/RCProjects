@@ -254,3 +254,6 @@ Admin-only topics (only coaches/admins can tag), so members filter the coaching 
   session (Global + TeamFLO: Pressure & mental game, Practice plans) and the October newsletters (Results & news).
   The mapping is in the session's scratchpad (topics/batch*.json). Welcome posts are left untagged.
 - New posts: pick the topic(s) when posting. Coaches' Basecamp keeps its own 4 topics.
+
+## Pricing change (Nov 11)
+Pod Community is now $19/month ($190/year), down from $49: the value is watching and hearing the podcast first, sometimes live. Page, Circle AI brief (Part 2) and Ask CH3 agent setup updated. Junior $69, Premier $99, Elite $999 unchanged.

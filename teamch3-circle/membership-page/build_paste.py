@@ -85,7 +85,7 @@ t = t[:t.find('<script type="text/x-dc"')]
 
 # ---- copy updates: the decisions made after the design (pricing, tiers, basecamps, feed) ----
 EDITS = [
-    ('Full access for 4 weeks, then from $50/month.', '2 weeks free, then from $49/month.'),
+    ('Full access for 4 weeks, then from $50/month.', '2 weeks free, then from $19/month.'),
     # the free trial is 2 weeks (14 days), not the design's 4 weeks
     ('Cancel any time before day 28 and pay nothing.', 'Cancel any time before day 14 and pay nothing.'),
     ('ALL TIERS · 4 WEEKS FREE', 'ALL TIERS · 2 WEEKS FREE'),
@@ -93,7 +93,7 @@ EDITS = [
     ('JOIN THE POD COMMUNITY — 4 WEEKS FREE', 'JOIN THE POD COMMUNITY — 2 WEEKS FREE'),
     ('START 4 WEEKS FREE', 'START 2 WEEKS FREE'),
     ('Your 4 weeks start now.', 'Your 2 weeks start now.'),
-    ('Then $50/month. Cancel any time.', 'Then $49/month. Cancel any time.'),
+    ('Then $50/month. Cancel any time.', 'Then $19/month. Cancel any time.'),
     ('Every player from every CH3 academy is on board, alongside the Son of a Butch community. Everyone shares the Global Basecamp. Each academy also has its own home basecamp: your coaches, your squad, your range. Pick the one that feels like home.',
      'Every player from every CH3 academy is on board, alongside the Son of a Butch community. Everyone shares the Global Basecamp. Each academy also has its own home basecamp: your coaches, your squad, your range. You join the one closest to where you live, and it’s where you train with us in person.'),
     ('PREMIER + ELITE MEMBERS', 'JUNIOR, PREMIER + ELITE'),
@@ -169,11 +169,11 @@ EDITS += [
 ]
 if BETA:
     EDITS += [
-        ('2 weeks free, then from $49/month. Renews automatically. Cancel any time before day 14 and pay nothing.',
-         'Now in beta with the CH3 academies: membership is by invitation. At launch, 2 weeks free, then from $49/month.'),
+        ('2 weeks free, then from $19/month. Renews automatically. Cancel any time before day 14 and pay nothing.',
+         'Now in beta with the CH3 academies: membership is by invitation. At launch, 2 weeks free, then from $19/month.'),
         ('Every membership except Elite starts with 2 weeks free. Cancel before day 14 and pay nothing.',
          'TeamCH3 is in beta with the CH3 academies, so membership is by invitation for now. At launch, every membership except Elite starts with 2 weeks free.'),
-        ('Then $49/month. Cancel any time.', 'In beta, by invitation. From $49/month at launch.'),
+        ('Then $19/month. Cancel any time.', 'In beta, by invitation. From $19/month at launch.'),
         ('Your 2 weeks start now.', 'Your basecamp is waiting.'),
         ('ALL TIERS · 2 WEEKS FREE', 'ALL TIERS · NOW IN BETA'),
     ]
@@ -290,8 +290,8 @@ ctx = {
     'eliteLeft': str(ELITE_LEFT),
     'seatBar': raw(''.join('<span style="flex:1;height:10px;background:%s"></span>' % ('rgba(255,255,255,.3)' if i < 8 - ELITE_LEFT else '#fff') for i in range(8))),
     'tiers': [
-        tier('SB', '2 WEEKS FREE', 'Pod Community', 'For Son of a Butch listeners who want the room behind the mic.', '$49',
-             'Free for 2 weeks, then $49/month.', 'START FREE', [1, 1, 1, 0, 0, 0, 0, 0, 0, 0], False, 'pod'),
+        tier('SB', '2 WEEKS FREE', 'Pod Community', 'Watch and hear every Son of a Butch episode first, and join the live recordings.', '$19',
+             'Free for 2 weeks, then $19/month.', 'START FREE', [1, 1, 1, 0, 0, 0, 0, 0, 0, 0], False, 'pod'),
         tier('JB', 'JUNIORS', 'Junior Basecamp', 'Everything in Premier, plus the Global Junior Basecamp: juniors from every CH3 academy in one place.', '$69',
              'Ages 13–19. Premier access at a junior price.', 'JOIN THE JUNIOR BASECAMP', [1, 1, 1, 1, 1, 1, 1, 0, 0, 0], False, 'junior'),
         tier('PS', 'MOST POPULAR', 'Premier', 'The full basecamp. Your home basecamp, or the one closest to you, plus everything global.', '$99',
@@ -304,7 +304,7 @@ ctx = {
 # three cards side by side (Pod, Premier, Elite); the Junior Basecamp gets its own bar under them
 JUNIOR_TIER = [tr for tr in ctx['tiers'] if tr['key'] == 'junior'][0]
 ctx['tiers'] = [tr for tr in ctx['tiers'] if tr['key'] != 'junior']
-ANNUAL = {'pod': 'or $490/year · 2 months free', 'premier': 'or $990/year · 2 months free', 'elite': 'or $9,990/year · 2 months free'}
+ANNUAL = {'pod': 'or $190/year · 2 months free', 'premier': 'or $990/year · 2 months free', 'elite': 'or $9,990/year · 2 months free'}
 for tr in ctx['tiers']:
     tr['annual'] = ANNUAL[tr['key']]
 
@@ -514,7 +514,7 @@ how = node(
                 '<div style="font:400 18px/1.4 \'Barlow Condensed\';color:#536676;margin-top:12px">%s</div></div>'
                 % (n, H.escape(t), H.escape(d)) for n, t, d in STEPS),
         cta_html(),
-        'No email app? Write to %s.' % INVITE_EMAIL if BETA else '2 weeks free, then from $49/month. Cancel any time before day 14.'))
+        'No email app? Write to %s.' % INVITE_EMAIL if BETA else '2 weeks free, then from $19/month. Cancel any time before day 14.'))
 
 # Junior Basecamp: its own bar under the three membership cards
 grid = find_style('div', 'grid-template-columns:repeat(auto-fit,minmax(270px,1fr))')
@@ -538,7 +538,7 @@ FAQ = [
     ('How does the free trial work?',
      'Every membership except Elite starts with 2 weeks free. Cancel before day 14 and you pay nothing. After that it renews monthly, or yearly if you chose annual.'),
     ('What does it cost?',
-     'Pod Community is $49 a month, Junior Basecamp $69, Premier $99 and Elite $999. Pay for the year and you get 12 months for the price of 10. '
+     'Pod Community is $19 a month, Junior Basecamp $69, Premier $99 and Elite $999. Pay for the year and you get 12 months for the price of 10. '
      'Every membership except Elite starts with 2 weeks free.'),
     ('What’s the difference between Premier and Elite?',
      'Premier is the full basecamp: your home academy, the live webinars, Basecamp Spotlights, Premier Sessions and everything global. '
