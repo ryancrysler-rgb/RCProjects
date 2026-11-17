@@ -257,3 +257,6 @@ Admin-only topics (only coaches/admins can tag), so members filter the coaching 
 
 ## Pricing change (Nov 11)
 Pod Community is now $19/month ($190/year), down from $49: the value is watching and hearing the podcast first, sometimes live. Page, Circle AI brief (Part 2) and Ask CH3 agent setup updated. Junior $69, Premier $99, Elite $999 unchanged.
+
+## Gift card template (Nov 17)
+Reusable 8.5 x 11 gift card in `gift-cards/` (template, fonts, logos, render script, README). First card: Claude Harmon III, one 90-minute lesson at TeamFLO at the Floridian. For a new card, change the text in the template and re-render.
