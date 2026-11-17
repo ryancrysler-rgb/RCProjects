@@ -1,0 +1,49 @@
+import numpy as np, sys
+from PIL import Image, ImageDraw, ImageFont
+B='/home/user/RCProjects/teamch3-circle/'
+NAVY=np.array([37,55,70.]); DEEP=np.array([18,28,38.]); OR=(224,78,57); WHITE=(255,255,255)
+M=np.array(Image.open(B+'brand/CH3 mark white.png')).astype(float)
+white=(M[...,3]/255.0)*((M[...,1]>180).astype(float))
+L=Image.fromarray((white*255).astype('uint8')).resize((373*8,240*8),Image.BICUBIC)
+la=np.array(L).astype(float)/255; L=Image.fromarray((255/(1+np.exp(-(la-0.5)*14))).astype('uint8'))
+def mark(h):
+    k=h/240; w=int(373*k); lay=Image.new('RGBA',(w,int(h)),(0,0,0,0))
+    ring=Image.new('L',lay.size,0); d=ImageDraw.Draw(ring); cx,cy=252.255*k,119.244*k; ri,ro=98.9*k,113.7*k
+    d.ellipse([cx-ro,cy-ro,cx+ro,cy+ro],fill=255); d.ellipse([cx-ri,cy-ri,cx+ri,cy+ri],fill=0)
+    d.pieslice([cx-ro-4,cy-ro-4,cx+ro+4,cy+ro+4],170.6,190.4,fill=0)
+    lay.paste(Image.new('RGBA',lay.size,OR+(255,)),(0,0),ring)
+    lay.paste(Image.new('RGBA',lay.size,WHITE+(255,)),(0,0),L.resize(lay.size,Image.LANCZOS)); return lay
+def F(n,s): return ImageFont.truetype(B+'gift-cards/'+n,s)
+W,H=1290,2796
+def make(name,eb,l1,l2,seed):
+    yy,xx=np.mgrid[0:H,0:W].astype(np.float32)
+    r=np.hypot((xx-W*0.45)/(W*1.1),(yy-H*0.6)/(H*0.75)); t=np.clip(r,0,1)[...,None]**1.3
+    bg=NAVY*(1-t)+DEEP*t
+    rng=np.random.default_rng(seed); f=np.zeros((H,W),np.float32)
+    for _ in range(9):
+        cx,cy=rng.uniform(0,W),rng.uniform(0,H); s=rng.uniform(350,900); a=rng.uniform(-1,1)
+        f+=a*np.exp(-(((xx-cx)**2+(yy-cy)**2)/(2*s*s)))
+    f+=0.0002*xx+0.0001*yy
+    lv=f*14; frac=np.abs(lv-np.round(lv)); gy,gx=np.gradient(lv); d_=frac/(np.hypot(gx,gy)+1e-6)
+    alpha=np.clip(1.6-d_,0,1)*np.where(np.round(lv).astype(int)%5==0,0.2,0.085)
+    img=bg*(1-alpha[...,None])+np.array([150,175,195.])*alpha[...,None]
+    im=Image.fromarray(img.clip(0,255).astype('uint8')).convert('RGBA'); d=ImageDraw.Draw(im)
+    x0=110; avail=W-2*x0
+    size=300
+    while max(d.textlength(l1,font=F('Anton.ttf',size)),d.textlength(l2,font=F('Anton.ttf',size)))>avail: size-=4
+    big=F('Anton.ttf',size); lh=int(size*1.08)
+    mh=200; block=mh+70+46+50+lh*2+70
+    y=int(H*0.60-block/2)
+    im.alpha_composite(mark(mh),(x0,y)); y+=mh+70
+    eb_f=F('Barlow700.ttf',46); x=x0
+    for c in eb: d.text((x,y),c,font=eb_f,fill=OR); x+=d.textlength(c,font=eb_f)+11
+    y+=46+50
+    d.text((x0-4,y-int(size*0.12)),l1,font=big,fill=WHITE); y+=lh
+    d.text((x0-4,y-int(size*0.12)),l2,font=big,fill=OR); y+=lh+40
+    d.rectangle([x0,y,x0+150,y+8],fill=OR)
+    out=im.convert('RGB'); out.save(f'TeamCH3 {name} iPhone 1290x2796.png',optimize=True); return out
+cards=[('Global Basecamp','TEAMCH3','GLOBAL','BASECAMP',3),('CH3 Dubai','TEAMCH3 · UAE','CH3','DUBAI',11),('CH3 Thailand','TEAMCH3 · THAILAND','CH3','THAILAND',23),('TeamFLO','TEAMCH3 · FLORIDA','TEAM','FLO',7),('Junior Basecamp','TEAMCH3 · JUNIORS','JUNIOR','BASECAMP',29),('Son Of A Butch','TEAMCH3 · THE PODCAST','SON OF A','BUTCH',37),('Elite Basecamp','TEAMCH3 · ELITE','ELITE','BASECAMP',43)]
+sheet=Image.new('RGB',(7*330+10,725),(240,240,240))
+for i,c in enumerate(cards):
+    o=make(*c); sheet.paste(o.resize((322,698),Image.LANCZOS),(10+i*330,13))
+sheet.save('sheet.png')
