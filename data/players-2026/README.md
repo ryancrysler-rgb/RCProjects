@@ -14,3 +14,5 @@
   winner's rounds for every Korn Ferry event he played (H2026…/raw, rounds he played; kft-winners.json names them), Mexico (Novak) and
   Austin (Ramey), and Los Cabos runner-up Ben James (he won). The other PGA TOUR winners' rounds are in ../pga-2026-winners-field.
   98 credits.
+- `cam-smith-2026-sources.tgz` (2026-11-19): Cameron Smith's raw 2026 shot files recovered from Drive — 15 Clippd CSVs (LIV Mexico, Virginia, Korea R1–R3, Andalucía), the DP World feed CSV (France R1–2, Dunhill R3, plus Laurie Canter's India/BMW PGA/Irish Open rounds), the season notes.
+- `cam-smith-2026-metres.tgz` (2026-11-19): 37 Cam rounds converted to the house shot table in metres (yd × 0.9144, owner 2026-11-04; putts ft) by RC-Greenlight `research/season-2026/cam-smith/convert.js`; every round adds up to its official score (`_log.json`). Not here: Masters R1–2 (Clippd CSVs lost with the scratch folder), Korea R4 (PDF only), Indy R1 (no feed).
