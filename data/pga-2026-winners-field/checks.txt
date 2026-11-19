@@ -1,0 +1,11 @@
+Card check, 19 Nov 2026: 1,205 of 1,214 rounds add up to the leaderboard round score.
+Left out of every study (do not add up):
+R2026014/raw/28237-1.json  Masters: no shot data (event has none)
+R2026100/raw/29936-1.json  The Open: no shot data (event has none)
+R2026483/raw/59440-4.json  hole 18 score blank in the feed
+R2026002/raw/57586-1.json  73 vs card 72 (feed repeats a stroke)
+R2026004/raw/47995-2.json  69 vs 68
+R2026522/raw/64442-1.json  67 vs 66
+R2026522/raw/47988-1.json  72 vs 71
+R2026522/raw/59570-1.json  75 vs 74
+R2026522/raw/39335-1.json  71 vs 70
