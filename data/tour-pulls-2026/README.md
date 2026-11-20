@@ -7,3 +7,4 @@ Archived 19 Nov 2026 so nothing lives only in the session's scratch folder (owne
 - clutch.tgz: the Clutch Factor Family study working files (8 PGA events + Abu Dhabi; holes, tests, shots, boards).
 - recov.tgz: pgatour.com season stats through Austin (22 stats, 170 players).
 Images and PDFs left out. Field shot data per event lives in ../pga-2026 and ../dpw-2026.
+- rsm-2026-r1.tgz (pulled 20 Nov 2026 ~10:45 am ET): Sea Island (R2026493), round 1. leaderboard (compact, taken with R2 under way), cs1.json (the field's hole averages, BOTH courses: Seaside par 70 + Plantation par 72), raw/57586-1.json (R1 leader, 64 on Plantation, −8) and raw/57364-1.json (the other 64, Seaside, −6), teetimes-next.json (pgatour.com tee-times page data, R1 + R2 groups), derived/ (our CSVs, a tour-average bag ESTIMATE, the engine grades). Parse.bot build 7f7abae7, 4 credits.
