@@ -1,0 +1,1092 @@
+{
+ "field": {
+  "course": "Sea Island Golf Club - Plantation Course",
+  "par": 72,
+  "avg": 69.877
+ },
+ "vsField": 5.877,
+ "holesVsField": [
+  [
+   1,
+   4,
+   4,
+   "0.028"
+  ],
+  [
+   2,
+   4,
+   3,
+   "0.764"
+  ],
+  [
+   3,
+   3,
+   3,
+   "0.014"
+  ],
+  [
+   4,
+   5,
+   4,
+   "0.694"
+  ],
+  [
+   5,
+   4,
+   6,
+   "-1.722"
+  ],
+  [
+   6,
+   4,
+   4,
+   "-0.014"
+  ],
+  [
+   7,
+   3,
+   3,
+   "-0.361"
+  ],
+  [
+   8,
+   5,
+   4,
+   "0.542"
+  ],
+  [
+   9,
+   4,
+   4,
+   "0.028"
+  ],
+  [
+   10,
+   4,
+   3,
+   "0.917"
+  ],
+  [
+   11,
+   3,
+   2,
+   "1.306"
+  ],
+  [
+   12,
+   4,
+   3,
+   "0.736"
+  ],
+  [
+   13,
+   4,
+   4,
+   "0.153"
+  ],
+  [
+   14,
+   5,
+   5,
+   "-0.125"
+  ],
+  [
+   15,
+   4,
+   3,
+   "0.792"
+  ],
+  [
+   16,
+   3,
+   2,
+   "0.972"
+  ],
+  [
+   17,
+   4,
+   3,
+   "0.75"
+  ],
+  [
+   18,
+   5,
+   4,
+   "0.403"
+  ]
+ ],
+ "par": 72,
+ "score": 64,
+ "fairways": "9/14",
+ "gir": "12/18",
+ "putts": 21,
+ "counts": {
+  "eagles": 0,
+  "birdies": 10,
+  "pars": 7,
+  "bogeys": 0,
+  "doubles": 1
+ },
+ "topBottom": {
+  "by": "field",
+  "nField": 18,
+  "nLeader": 0,
+  "best": [
+   11,
+   16,
+   10
+  ],
+  "worst": [
+   5,
+   7,
+   14
+  ],
+  "gain": 3.2,
+  "loss": -2.21,
+  "leader": null
+ },
+ "rawRules": [
+  [
+   1,
+   "broken",
+   "H5 · Mini Driver → Other"
+  ],
+  [
+   2,
+   "broken",
+   "H1 · PW from 127 yd → Fairway"
+  ],
+  [
+   3,
+   "attention",
+   "H10 · faced 65 yd"
+  ],
+  [
+   4,
+   "kept",
+   "No penalty strokes — the margins held everywhere the round was tested."
+  ],
+  [
+   5,
+   "level",
+   "64%FW · 12GIR · 21P"
+  ]
+ ],
+ "clutch": {
+  "putting": {
+   "label": "Clutch Factor Putting",
+   "made": 2,
+   "att": 2
+  },
+  "ballStriking": {
+   "label": "Clutch Factor Ball Striking",
+   "made": 0,
+   "att": 0,
+   "holes": []
+  },
+  "response": {
+   "label": "Clutch Factor Response",
+   "att": 1,
+   "stopped": 1,
+   "answered": 1
+  },
+  "damageControl": {
+   "label": "Clutch Factor Damage Control",
+   "made": 0,
+   "att": 0
+  },
+  "closing": {
+   "label": "Clutch Factor Closing",
+   "behind": 0,
+   "toPar": -7,
+   "vsField": null,
+   "from": 10,
+   "to": 18
+  },
+  "rating": {
+   "clutchRating": 15,
+   "comebackFactor": 98,
+   "comebacks": 4,
+   "tested": 5,
+   "expected": 4.1,
+   "clean": 13,
+   "lost": 1,
+   "strokesAboveCut": 6.8,
+   "rulePlusMinus": {
+    "kept": 8.1,
+    "broken": -2.2,
+    "total": 5.9,
+    "won": {
+     "kept": {
+      "won": 13,
+      "lost": 0
+     },
+     "notKept": {
+      "won": 1,
+      "lost": 4
+     }
+    }
+   },
+   "tour": {
+    "clutchRating": 14.4,
+    "clutchRatingWinners": 16,
+    "comebackFactor": 100,
+    "comebackFactorWinners": 112,
+    "plusMinusKept": 0.18,
+    "plusMinusBroken": -0.47,
+    "plusMinusWinners": 3.5,
+    "wonKeptPct": 63,
+    "wonNotKeptPct": 25,
+    "strokesAboveCut": 0,
+    "strokesAboveCutTour": 2.2,
+    "strokesAboveCutWinners": 5.1
+   }
+  },
+  "dominance": {
+   "label": "Clutch Factor Dominance",
+   "achieved": false,
+   "tested": {
+    "putting": 2,
+    "ballStriking": 0,
+    "response": 1,
+    "damageControl": 0
+   },
+   "total": 3,
+   "def": "A round with 2 or fewer Clutch Factor Putting attempts and no Clutch Factor Ball Striking, Clutch Factor Response or Clutch Factor Damage Control attempt. Say \"Clutch Factor Dominance\" in full."
+  }
+ },
+ "page2": {
+  "version": "summary-rules-v6 (2026-11-20)",
+  "houseRules": "house-rules-v20.1",
+  "units": "yd",
+  "rounds": [
+   1
+  ],
+  "groups": [
+   {
+    "title": "The purpose: raise the floor",
+    "rules": [
+     {
+      "name": "The house rules exist to raise the floor: to make your worst round of the week better.",
+      "rows": [
+       {
+        "kind": "na",
+        "label": "The worst round against the player’s own average (par is the tour line)",
+        "why": "two rounds with a graded table are needed"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "The five non-negotiables",
+    "rules": [
+     {
+      "n": 1,
+      "name": "Lay back and you hit the fairway",
+      "rows": [
+       {
+        "kind": "state",
+        "label": "The grade",
+        "cells": [
+         "broken"
+        ]
+       },
+       {
+        "kind": "rate",
+        "label": "Lay-back tee shots in the fairway",
+        "good": true,
+        "cells": [
+         "4/5"
+        ],
+        "week": [
+         4,
+         5
+        ],
+        "weekPct": 80
+       }
+      ]
+     },
+     {
+      "n": 2,
+      "name": "Wedges always find the green",
+      "rows": [
+       {
+        "kind": "state",
+        "label": "The grade",
+        "cells": [
+         "broken"
+        ]
+       },
+       {
+        "kind": "rate",
+        "label": "Wedge shots on the green",
+        "good": true,
+        "cells": [
+         "13/18"
+        ],
+        "week": [
+         13,
+         18
+        ],
+        "weekPct": 72
+       },
+       {
+        "kind": "rate",
+        "label": "Full wedges (40 yd+)",
+        "good": true,
+        "cells": [
+         "6/11"
+        ],
+        "week": [
+         6,
+         11
+        ],
+        "weekPct": 55
+       },
+       {
+        "kind": "rate",
+        "label": "Chips, pitches and bunker shots",
+        "good": true,
+        "cells": [
+         "7/7"
+        ],
+        "week": [
+         7,
+         7
+        ],
+        "weekPct": 100
+       }
+      ]
+     },
+     {
+      "n": 3,
+      "name": "Never leave 40–74 yards",
+      "rows": [
+       {
+        "kind": "state",
+        "label": "The grade",
+        "cells": [
+         "attention"
+        ]
+       },
+       {
+        "kind": "count",
+        "label": "Leaves in 40–74 yd",
+        "good": "lo",
+        "cells": [
+         "3"
+        ],
+        "week": 3
+       }
+      ]
+     },
+     {
+      "n": 4,
+      "name": "Carry by 15, or lay back by 15",
+      "rows": [
+       {
+        "kind": "state",
+        "label": "The grade",
+        "cells": [
+         "kept"
+        ]
+       },
+       {
+        "kind": "count",
+        "label": "Penalty strokes (the stand-in: no hazard lines in the files)",
+        "good": "lo",
+        "cells": [
+         "0"
+        ],
+        "week": 0
+       }
+      ]
+     },
+     {
+      "n": 5,
+      "name": "Choose to play stress free",
+      "rows": [
+       {
+        "kind": "level",
+        "label": "Stress level",
+        "cells": [
+         "MEDIUM"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "House rules, ranked (v20.1)",
+    "rules": [
+     {
+      "name": "1 Inside 6 feet is sacred",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Holed inside 6 ft",
+        "good": true,
+        "cells": [
+         "10/10"
+        ],
+        "week": [
+         10,
+         10
+        ],
+        "weekPct": 100
+       },
+       {
+        "kind": "rate",
+        "label": "Holed from 3–6 ft",
+        "good": true,
+        "cells": [
+         "4/4"
+        ],
+        "week": [
+         4,
+         4
+        ],
+        "weekPct": 100
+       }
+      ]
+     },
+     {
+      "name": "2 Every par 5 on the green in three, with the go line",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Par 5s on the green in 3 or fewer",
+        "good": true,
+        "cells": [
+         "3/4"
+        ],
+        "week": [
+         3,
+         4
+        ],
+        "weekPct": 75
+       }
+      ]
+     },
+     {
+      "name": "3 Approach inside 40 feet",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Regulation approaches on the green, under 40 ft",
+        "good": true,
+        "cells": [
+         "10/18"
+        ],
+        "week": [
+         10,
+         18
+        ],
+        "weekPct": 56
+       }
+      ]
+     },
+     {
+      "name": "4 Beyond 24 feet, the target is the leave",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "First putts from 24 ft and out, left within 10%",
+        "good": true,
+        "cells": [
+         "4/4"
+        ],
+        "week": [
+         4,
+         4
+        ],
+        "weekPct": 100
+       }
+      ]
+     },
+     {
+      "name": "5 Take the bogey before the double",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Bad lies played with a driver or wood",
+        "good": false,
+        "cells": [
+         "0/3"
+        ],
+        "week": [
+         0,
+         3
+        ],
+        "weekPct": 0
+       },
+       {
+        "kind": "count",
+        "label": "Doubles or worse",
+        "good": "lo",
+        "cells": [
+         "1"
+        ],
+        "week": 1
+       }
+      ]
+     },
+     {
+      "name": "6 Short game finishes inside 6 feet",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Chips and bunker shots finishing inside 6 ft",
+        "good": true,
+        "cells": [
+         "5/7"
+        ],
+        "week": [
+         5,
+         7
+        ],
+        "weekPct": 71
+       }
+      ]
+     },
+     {
+      "name": "7 Birdie conversion",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Birdie or better, of greens hit",
+        "good": true,
+        "cells": [
+         "10/12"
+        ],
+        "week": [
+         10,
+         12
+        ],
+        "weekPct": 83
+       }
+      ]
+     },
+     {
+      "name": "8 Long par 4s: bogey is the enemy",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Bogey or worse on par 4s of 400 yd+ (a reading)",
+        "good": false,
+        "cells": [
+         "1/5"
+        ],
+        "week": [
+         1,
+         5
+        ],
+        "weekPct": 20
+       }
+      ]
+     },
+     {
+      "name": "9 The reset hole",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Bogey or worse after a bogey",
+        "good": false,
+        "cells": [
+         "0/1"
+        ],
+        "week": [
+         0,
+         1
+        ],
+        "weekPct": 0
+       }
+      ]
+     },
+     {
+      "name": "10 A par-5 lay-up stays in the fairway, as close as it allows",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Par-5 lay-ups in the fairway",
+        "good": true,
+        "cells": [
+         "1/1"
+        ],
+        "week": [
+         1,
+         1
+        ],
+        "weekPct": 100
+       }
+      ]
+     },
+     {
+      "name": "11 Miss on the long side / open side",
+      "rows": [
+       {
+        "kind": "na",
+        "label": "Misses on the long side / open side, front pins included",
+        "why": "no pin positions in the files"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "House stats and mistakes",
+    "rules": [
+     {
+      "name": "Clutch Factor Dominance",
+      "rows": [
+       {
+        "kind": "text",
+        "label": "Times tested. Dominance = 2 or fewer Clutch Factor Putting attempts and no Clutch Factor Ball Striking, Clutch Factor Response or Clutch Factor Damage Control attempt",
+        "good": true,
+        "cells": [
+         "tested 3"
+        ],
+        "weekText": "0 of 1 round"
+       }
+      ]
+     },
+     {
+      "name": "Clutch Factor Ball Striking",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Par or better after trouble",
+        "good": true,
+        "cells": [
+         "Clean"
+        ],
+        "week": [
+         0,
+         0
+        ],
+        "weekText": "Clean",
+        "weekPct": null
+       }
+      ]
+     },
+     {
+      "name": "Clutch Factor Putting",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Par-saving putts from 5 ft+ holed",
+        "good": true,
+        "cells": [
+         "2/2"
+        ],
+        "week": [
+         2,
+         2
+        ],
+        "weekPct": 100
+       }
+      ]
+     },
+     {
+      "name": "Clutch Factor Response",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "No bogey in the 3 holes after one",
+        "good": true,
+        "cells": [
+         "1/1"
+        ],
+        "week": [
+         1,
+         1
+        ],
+        "weekPct": 100
+       }
+      ]
+     },
+     {
+      "name": "Clutch Factor Damage Control",
+      "rows": [
+       {
+        "kind": "rate",
+        "label": "Trouble held to bogey or better",
+        "good": true,
+        "cells": [
+         "Clean"
+        ],
+        "week": [
+         0,
+         0
+        ],
+        "weekText": "Clean",
+        "weekPct": null
+       }
+      ]
+     },
+     {
+      "name": "Clutch Rating",
+      "rows": [
+       {
+        "kind": "text",
+        "label": "Holes kept, of 18 (tour 14.4, winners 16.0)",
+        "good": true,
+        "cells": [
+         "15.0"
+        ],
+        "weekText": "15.0 a round"
+       }
+      ]
+     },
+     {
+      "name": "Comeback Factor",
+      "rows": [
+       {
+        "kind": "text",
+        "label": "Comebacks against the tour’s odds from the same spots (tour 100, winners 112)",
+        "good": true,
+        "cells": [
+         "98"
+        ],
+        "weekText": "98"
+       }
+      ]
+     },
+     {
+      "name": "Rule Plus/Minus",
+      "rows": [
+       {
+        "kind": "text",
+        "label": "Holes won against the field (beat its average on the hole): every rule kept / one not kept (tour 63% / 25%)",
+        "good": true,
+        "cells": [
+         "100% (13–0) / 20% (1–4)"
+        ],
+        "weekText": "100% (13–0) / 20% (1–4) · clean holes 8.1 strokes gained, the rest 2.2 strokes given back (1 round)"
+       }
+      ]
+     },
+     {
+      "name": "Strokes Above The Cut",
+      "rows": [
+       {
+        "kind": "text",
+        "label": "Strokes a round better than the cut-line player (a winner’s week about +5)",
+        "good": true,
+        "cells": [
+         "+6.8"
+        ],
+        "weekText": "+6.8 a round"
+       }
+      ]
+     },
+     {
+      "name": "Mistakes",
+      "rows": [
+       {
+        "kind": "count",
+        "label": "Bogeys or worse",
+        "good": "lo",
+        "cells": [
+         "1"
+        ],
+        "week": 1
+       },
+       {
+        "kind": "count",
+        "label": "Doubles or worse",
+        "good": "lo",
+        "cells": [
+         "1"
+        ],
+        "week": 1
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "read": {
+   "headline": "Lay-backs 4 of 5 in the fairway; wedge shots 13 of 18 on the green (clubs read from the bag). The non-negotiables held 1 of 4 round grades.",
+   "next": {
+    "n": 3,
+    "name": "Never leave 40–74 yards",
+    "rounds": [
+     "R1"
+    ]
+   },
+   "decision": "Don’t plan a shot that leaves 40–74 yards. Leave a distance you hit greens from, full wedge or three-quarter."
+  },
+  "levels": [
+   {
+    "n": 1,
+    "level": "MEDIUM"
+   }
+  ],
+  "notes": [
+   "R1: read again from the round’s own stored files (built before its graded table was saved), its holes adding up to its card",
+   "carry by 15, or lay back by 15: penalty strokes are its stand-in (no hazard lines in the files)",
+   "not measured: the long side / open side, front pins included (no pin positions in the files)",
+   "long par 4s: a reading, never graded (house rules v19)",
+   "clubs the files do not name are read from the player’s bag (the most likely club); rules 01 and 02 are graded literally: one miss is broken"
+  ],
+  "graded": [
+   {
+    "n": 1,
+    "name": "Lay back and you hit the fairway",
+    "graded": 1,
+    "kept": 0,
+    "flagged": [
+     "R1"
+    ]
+   },
+   {
+    "n": 2,
+    "name": "Wedges always find the green",
+    "graded": 1,
+    "kept": 0,
+    "flagged": [
+     "R1"
+    ]
+   },
+   {
+    "n": 3,
+    "name": "Never leave 40–74 yards",
+    "graded": 1,
+    "kept": 0,
+    "flagged": [
+     "R1"
+    ]
+   },
+   {
+    "n": 4,
+    "name": "Carry by 15, or lay back by 15",
+    "graded": 1,
+    "kept": 1,
+    "flagged": []
+   },
+   {
+    "n": 5,
+    "name": "Choose to play stress free",
+    "graded": 0,
+    "kept": 0,
+    "flagged": []
+   }
+  ],
+  "workOrder": {
+   "version": "work-order-v1 (2026-11-20, house rules v20.1)",
+   "houseRules": "house-rules-v20.1",
+   "items": [
+    {
+     "kind": "nn",
+     "n": 1,
+     "key": "fairway",
+     "label": "Non-negotiable 1",
+     "name": "Lay back and you hit the fairway",
+     "says": "If you leave the driver in the bag to play safe, the safer club has to find the fairway. Every time.",
+     "plan": "Every par 4 and par 5 gets one tee club. If your driver finds 70% of fairways or more, hit it: the distance is free. Lay back only when driver would leave the dead zone, or finds fewer fairways than the shorter club.",
+     "number": "0 of 1 round kept",
+     "rounds": [
+      "R1"
+     ],
+     "gate": "If you leave the driver in the bag to play safe, the safer club has to find the fairway. Every time."
+    },
+    {
+     "kind": "nn",
+     "n": 2,
+     "key": "wedges",
+     "label": "Non-negotiable 2",
+     "name": "Wedges always find the green",
+     "says": "Any shot with a wedge finishes on the green: full swing, pitch, chip or bunker shot. The green is the minimum; inside 6 feet is the target.",
+     "plan": "Leave yourself the wedge distance you actually hit greens from. Around the green, pick the lower shot that lands on the green and runs, not the high one that has to land perfectly. A wedge means PW, GW, SW or LW; a 9-iron is not a wedge.",
+     "number": "0 of 1 round kept",
+     "rounds": [
+      "R1"
+     ],
+     "gate": "Any shot with a wedge finishes on the green: full swing, pitch, chip or bunker shot. The green is the minimum; inside 6 feet is the target."
+    },
+    {
+     "kind": "nn",
+     "n": 3,
+     "key": "deadzone",
+     "label": "Non-negotiable 3",
+     "name": "Never leave 40–74 yards",
+     "says": "Don’t plan a shot that leaves 40–74 yards. Leave a distance you hit greens from, full wedge or three-quarter.",
+     "plan": "On a short par 4, lay back to your best number. On a par 5, lay up to your band, not as close as you can get. A lay-up has a second dead zone: never leave 121 yards or more. Two players on the same hole get different numbers, and that is the rule working.",
+     "number": "0 of 1 round kept",
+     "rounds": [
+      "R1"
+     ],
+     "gate": "Don’t plan a shot that leaves 40–74 yards. Leave a distance you hit greens from, full wedge or three-quarter."
+    },
+    {
+     "kind": "house",
+     "rank": 2,
+     "study": "par5",
+     "label": "House rule 2",
+     "name": "Every par 5 on the green in three, with the go line",
+     "says": "Every par 5 is on the green in three or fewer. Going for it in two is your call if either is true: you hit 40% of greens from that distance, or the likely miss finishes within 40 yards of the green. If both are true, the go is the plan. On a par 4 of 360 yards or less, if your tee club finishes inside 40 yards, going is the plan, unless water or out of bounds is in play.",
+     "plan": "Lay up to the distance you hit greens from, not as close as possible. The likely miss is read from your longest club off the deck. Clear both tests and you go; clear one and it is your call; clear neither and the lay-up is the plan, with the go still shown at its real odds.",
+     "gate": "Every par 5 on the green in three: 100%.",
+     "reading": false,
+     "number": "3 of 4 (75%)",
+     "tour": "field 83%"
+    },
+    {
+     "kind": "house",
+     "rank": 3,
+     "study": "inside40",
+     "label": "House rule 3",
+     "name": "Approach inside 40 feet",
+     "says": "Plan every approach to finish inside 40 feet. For most golfers, inside 40 feet is a great shot.",
+     "plan": "Aim at the part of the green that leaves 40 feet or less, not at a tucked flag. When the pin is tight to trouble, the middle of the green is usually inside 40 feet and is the shot.",
+     "gate": "Every approach planned to finish inside 40 feet.",
+     "reading": false,
+     "number": "10 of 18 (56%)"
+    },
+    {
+     "kind": "house",
+     "rank": 8,
+     "study": "longPar4",
+     "label": "House rule 8",
+     "name": "Long par 4s: bogey is the enemy",
+     "says": "On a par 4 of 400 yards or more, bogey is the enemy. Take the tee club that finds a good drive, not the longest one; play the approach to finish inside 40 feet, on the long side / open side; a par is a good score.",
+     "plan": "One tee club that finds a good drive, an approach to the safe part of the green, two putts. Printed as a reading: bogey or worse on par 4s of 400 yards or more.",
+     "gate": "Bogey or worse on long par 4s under the winners’ 8%.",
+     "reading": true,
+     "number": "1 of 5 (20%)",
+     "tour": "field 17%"
+    }
+   ],
+   "leaveAlone": [
+    {
+     "kind": "nn",
+     "n": 4,
+     "key": "margins",
+     "label": "Non-negotiable 4",
+     "name": "Carry by 15, or lay back by 15",
+     "says": "Clear every hazard by at least 15 yards, or stop at least 15 yards short of it. Never play to the edge.",
+     "plan": "There are two clubs: the one that clears by 15 and the one that stops 15 short. The club in between is never the answer. If your misses spread wider than most, take a wider margin.",
+     "number": "1 of 1 round kept",
+     "rounds": [],
+     "gate": "Clear every hazard by at least 15 yards, or stop at least 15 yards short of it. Never play to the edge."
+    },
+    {
+     "kind": "nn",
+     "n": 5,
+     "key": "stress",
+     "label": "Non-negotiable 5",
+     "name": "Choose to play stress free",
+     "says": "Play the shot you know works, not the one that might. When two options are close, take the one you can commit to.",
+     "plan": "The plan picks the option you can commit to without hesitation, and says so, so the choice is made before you get there. Plan every six holes to be level or better: holes 1–6, 7–12 and 13–18. A calm start is the easiest stress to avoid, and it has to last all 18.",
+     "number": "1 of 1 round kept",
+     "rounds": [],
+     "gate": "Play the shot you know works, not the one that might. When two options are close, take the one you can commit to."
+    },
+    {
+     "kind": "house",
+     "rank": 1,
+     "study": "inside6",
+     "label": "House rule 1",
+     "name": "Inside 6 feet is sacred",
+     "says": "Make every putt from 6 feet and in. 100%, every round. One miss is noted.",
+     "plan": "Putting practice starts inside 6 feet and doesn’t move on until it holds. It is repetition, not technique.",
+     "gate": "Every putt from 6 feet and in holed: 100%.",
+     "reading": false,
+     "number": "4 of 4 (100%)",
+     "tour": "field 84%"
+    },
+    {
+     "kind": "house",
+     "rank": 4,
+     "study": "leave24",
+     "label": "House rule 4",
+     "name": "Beyond 24 feet, the target is the leave",
+     "says": "From 24 feet and out, putt to a distance, not the hole. Finish within a tenth of the putt: from 30 feet, inside 3.",
+     "plan": "On a long first putt, commit to the distance, not a line into the cup. That keeps the second putt inside tap-in range.",
+     "gate": "Every first putt from 24 feet and out left within a tenth.",
+     "reading": false,
+     "number": "4 of 4 (100%)"
+    },
+    {
+     "kind": "house",
+     "rank": 5,
+     "study": "recovery",
+     "label": "House rule 5",
+     "name": "Take the bogey before the double",
+     "says": "When a hole goes wrong, the job is a bogey at worst. From a bad lie (waste area, native grass, cart path, a bunker off the tee), take the club that gets you back to a normal lie, never a driver or fairway wood; then the middle of the green and two putts.",
+     "plan": "An iron, hybrid or wedge back to the fairway or a full-swing number, even if it gives up ground; then the middle of the green. The escape is judged on the lie it leaves, not the yards.",
+     "gate": "From a bad lie, never a driver or fairway wood; no double.",
+     "reading": false,
+     "number": "0 of 3 (0%)"
+    },
+    {
+     "kind": "house",
+     "rank": 6,
+     "study": "shortGame",
+     "label": "House rule 6",
+     "name": "Short game finishes inside 6 feet",
+     "says": "Every chip and pitch aims at a 6-foot circle. The green is the minimum; inside 6 feet is the target.",
+     "plan": "Take the lower shot that runs to the hole rather than the high one that has to land perfectly.",
+     "gate": "Every chip and bunker shot on the green, half of them inside 6 feet.",
+     "reading": false,
+     "number": "5 of 7 (71%)",
+     "tour": "field 35%"
+    },
+    {
+     "kind": "house",
+     "rank": 7,
+     "study": "birdieConv",
+     "label": "House rule 7",
+     "name": "Birdie conversion",
+     "says": "Birdies (eagles count) divided by greens hit in regulation. Elite is 35%; a winning week is 41%.",
+     "plan": "Low conversion with long approaches means the irons are the work; low with close approaches means the putter.",
+     "gate": "Birdie conversion at 41%, a winning week.",
+     "reading": false,
+     "number": "10 of 12 (83%)",
+     "tour": "field 33%"
+    },
+    {
+     "kind": "house",
+     "rank": 9,
+     "study": "resetHole",
+     "label": "House rule 9",
+     "name": "The reset hole",
+     "says": "After a bogey or a double, the next hole is about righting the ship: your normal club, fully committed, then the middle of the green. A par is the job.",
+     "plan": "No heroics on the hole after a bogey. A par there is a win; the birdie comes from the putt, not from forcing the approach.",
+     "gate": "After a bogey, par or better on the next hole every time.",
+     "reading": false,
+     "number": "0 of 1 (0%)",
+     "tour": "field 19%"
+    },
+    {
+     "kind": "house",
+     "rank": 10,
+     "study": "par5Third",
+     "label": "House rule 10",
+     "name": "A par-5 lay-up stays in the fairway, as close as it allows",
+     "says": "From the fairway on a par 5, the lay-up has to stay in the fairway, and leave the third shot as close as the fairway allows. Two dead zones: 40–74 yards and 121 yards or more.",
+     "plan": "Take the club that is sure to find the fairway, then the number inside your best band, as close as that band allows. Rough, sand or a penalty area fails it, whatever number it leaves.",
+     "gate": "Every par-5 lay-up in the fairway: 100%.",
+     "reading": false,
+     "number": "1 of 1 (100%)"
+    }
+   ],
+   "notMeasured": [
+    {
+     "kind": "house",
+     "rank": 11,
+     "study": "longSide",
+     "label": "House rule 11",
+     "name": "Miss on the long side / open side",
+     "says": "Your safe miss is the long side or the open side of the green. Never short-side yourself. When the pin is at the front, the long side is past it: play at least 5 yards past, wedges included.",
+     "plan": "On a tucked flag, start the approach at the long side and let the miss be long. Front pin: add 5 yards or more to the number, then pick the club; chipping, land it 5 yards further on and still finish inside 6 feet.",
+     "gate": "Every miss on the long side / open side.",
+     "reading": false
+    }
+   ]
+  }
+ }
+}
