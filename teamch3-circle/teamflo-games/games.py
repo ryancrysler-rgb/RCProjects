@@ -62,7 +62,7 @@ card('intentional-miss', 'Harmon Match', 'Intentional Miss', None,
      "This is a great game of chess and helps you focus on where to put the ball.", [])
 card('green-streak', 'Harmon Match', 'Green Streak', 'Nine greens in a row.',
      ["On the Harmon, play as normal from whatever tees the group decides.",
-      "The game is to hit 9 greens in a row. Miss a green and you start over from zero.",
+      "The game is to hit 9 greens in a row. Miss a green and you start over on #1.",
       "The first player to 9 wins. Pass 9? Keep going and chase the record."],
      None, [("TeamFLO record", "27 greens in a row without a restart."), ("Tees", "The group decides.")], note=SAND)
 card('harmon-rules', 'The Harmon', 'Harmon Course Rules', None,
