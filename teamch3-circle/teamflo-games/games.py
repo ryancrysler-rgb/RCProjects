@@ -64,7 +64,7 @@ card('green-streak', 'Harmon Match', 'Green Streak', 'Nine greens in a row.',
      ["On the Harmon, play as normal from whatever tees the group decides.",
       "The game is to hit 9 greens in a row. Miss a green and you start over on #1.",
       "The first player to 9 wins. Pass 9? Keep going and chase the record."],
-     None, [("TeamFLO record", "27 greens in a row without a restart."), ("Tees", "The group decides.")], note=SAND)
+     "This game simulates the marathon mindset of Qualifying School. Set the record today and Q School will feel like a walk in the park.", [("TeamFLO record", "27 greens in a row without a restart."), ("Tees", "The group decides.")], note=SAND)
 card('harmon-rules', 'The Harmon', 'Harmon Course Rules', None,
      ["Play with another player.", "Walk.", "Repair pitch marks.", "Find a weed and tee it up.", "Sand Patrol Thursdays."],
      None, [FLAGS, ("Tees", "The match decides.")], note=SAND)
