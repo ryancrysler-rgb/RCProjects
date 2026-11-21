@@ -330,7 +330,8 @@ card('bc5-course', 'Bootcamp 5', 'On Course 9 and 9+', None,
 SINGLES = [
  ('Harmon Matches', ['hm-a','hm-b','hm-fade','hm-c','hm-d','hm-e','hm-f','hm-63','hilo','harmon-rules','survivor']),
  ('Putting Studio', ['good-zones','beehives','all22']),
- ('Short Game and Putting', ['trail-mix','sg-100','putting-100']),
+ ('Short Game and Putting', ['trail-mix','sg-100','putting-100','bunker-course']),
+ ('Bootcamp Missions', ['bc4-rescue']),
  ('Ball Striking and Driving', ['4x4','4x4-relay']),
  ('Fitness and Standards', ['the-josh','tourn-std']),
 ]
