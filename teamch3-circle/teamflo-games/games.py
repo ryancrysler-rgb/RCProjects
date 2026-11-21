@@ -60,6 +60,11 @@ card('rights-lefts', 'Harmon Match', 'Rights and Lefts', None,
 card('intentional-miss', 'Harmon Match', 'Intentional Miss', None,
      ["On either the Harmon loop or the short course, decide the match. From there, any shot that hits the green in regulation is a one-stroke penalty. You must miss the green on purpose."],
      "This is a great game of chess and helps you focus on where to put the ball.", [])
+card('green-streak', 'Harmon Match', 'Green Streak', 'Nine greens in a row.',
+     ["On the Harmon, play as normal from whatever tees the group decides.",
+      "The game is to hit 9 greens in a row. Miss a green and you start over from zero.",
+      "The first player to 9 wins. Pass 9? Keep going and chase the record."],
+     None, [("TeamFLO record", "27 greens in a row without a restart."), ("Tees", "The group decides.")], note=SAND)
 card('harmon-rules', 'The Harmon', 'Harmon Course Rules', None,
      ["Play with another player.", "Walk.", "Repair pitch marks.", "Find a weed and tee it up.", "Sand Patrol Thursdays."],
      None, [FLAGS, ("Tees", "The match decides.")], note=SAND)
@@ -328,7 +333,7 @@ card('bc5-course', 'Bootcamp 5', 'On Course 9 and 9+', None,
 
 # ---- Packs (multi-page sessions) and single cards
 SINGLES = [
- ('Harmon Matches', ['hm-a','hm-b','hm-fade','hm-c','hm-d','hm-e','hm-f','hm-63','hilo','harmon-rules','survivor']),
+ ('Harmon Matches', ['hm-a','hm-b','hm-fade','hm-c','hm-d','hm-e','hm-f','hm-63','green-streak','hilo','harmon-rules','survivor']),
  ('Putting Studio', ['good-zones','beehives','all22']),
  ('Short Game and Putting', ['trail-mix','sg-100','putting-100','bunker-course']),
  ('Bootcamp Missions', ['bc4-rescue']),
