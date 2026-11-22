@@ -20,6 +20,7 @@ DAYS = [('Technical & Launch Monitor', 'Bio-feedback, video, face control, path 
         ('Tournament Sim & Conditioning', 'High-pressure simulated scoring with the heart rate up.'),
         ('Benchmark & Analytics', 'Standardized testing: TrackMan Combine, wedge test, Clippd review.'),
         ('Recovery, Mobility & Reset', 'Mobility, soft tissue work, mental audit.')]
+SHORT = ['Technical', 'Speed & wedges', 'Short game', 'On-course', 'Tournament sim', 'Benchmark', 'Recovery']
 PHASE_INFO = {  # from the doc's Program Phase Matrix
     1: ('Biomechanical baseline, launch monitor alignment, core speed mechanics', 'Baseline cardio metrics; post-set putting drills (Zone 1 HR)', 'Face/path delta < 2.0°, smash 1.48+, TrackMan Combine baseline'),
     2: ('Speed gains, stock wedge yardage mapping (4 distances per wedge)', 'Assault bike sprints into 70–110 yd wedge precision (Zone 3 HR)', 'Wedge dispersion radius < 12 ft; +3–5 mph clubhead speed'),
@@ -45,9 +46,9 @@ EXTRA = """
 .obj{background:#253746;color:#fff;border-radius:4px;padding:12px 16px;margin-top:14px;font-size:1.1em;line-height:1.4}
 .obj b{color:#F47C67;font-weight:700;letter-spacing:.16em;font-size:.78em;display:block;margin-bottom:4px}
 .days{margin-top:14px;display:flex;flex-direction:column;gap:8px}
-.day{display:grid;grid-template-columns:1.3in 1fr auto;gap:14px;background:#F4F6F8;border-radius:4px;padding:11px 14px;align-items:start}
+.day{display:grid;grid-template-columns:1.45in 1fr auto;gap:14px;background:#F4F6F8;border-radius:4px;padding:11px 14px;align-items:start}
 .day.r{background:#EEF2F0}
-.dn{font:400 30px/.9 Anton;color:#E04E39}.dn small{display:block;font:700 9.5px/1.25 B;letter-spacing:.12em;color:#536676;text-transform:uppercase;margin-top:6px}
+.dn{font:400 2em/.9 Anton;color:#E04E39}.dn small{display:block;font:700 .62em/1.25 B;letter-spacing:.12em;color:#536676;text-transform:uppercase;margin-top:6px}
 .dt{line-height:1.45;color:#33475A;font-size:1.08em}
 .ck{font:700 .72em/1 B;letter-spacing:.16em;color:#8A99A6;text-transform:uppercase;white-space:nowrap;padding-top:4px}
 .ck:before{content:'';display:inline-block;width:11px;height:11px;border:1.6px solid #8A99A6;border-radius:2px;margin-right:6px;vertical-align:-2px}
@@ -88,7 +89,7 @@ def phase_page(p):
             f'<img class="f" src="{A}flor-white.png"></div>')
 
 def week_page(p, w):
-    ds = ''.join(f'<div class="day{" r" if i == 6 else ""}"><div class="dn">DAY {i + 1}<small>{e(DAYS[i][0])}</small></div><div class="dt">{e(t)}</div><div class="ck">Done</div></div>' for i, t in enumerate(w['days']))
+    ds = ''.join(f'<div class="day{" r" if i == 6 else ""}"><div class="dn">DAY {i + 1}<small>{e(SHORT[i])}</small></div><div class="dt">{e(t)}</div><div class="ck">Done</div></div>' for i, t in enumerate(w['days']))
     badge = f'<div class="major"><b>{e(MAJORS[w["n"]][0])}</b>{e(MAJORS[w["n"]][1])}</div>' if w['n'] in MAJORS else ''
     b = (f'<div class="eb">Phase {p["n"]} · {e(p["title"])} · Week of {fmt(week_date(w["n"]))}</div><div class="wk"><div class="num">{w["n"]:02d}</div><h1>{e(w["title"])}</h1></div>{badge}'
          f'<div class="obj"><b>WEEKLY OBJECTIVE</b>{e(w["obj"])}</div><div class="days">{ds}</div>'
