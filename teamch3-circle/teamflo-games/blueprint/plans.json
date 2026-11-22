@@ -1,0 +1,5309 @@
+{
+ "IntentionalPractice": {
+  "intro": "Remember that intentional practice requires taking chances and making mistakes to grow and improve. Practice is as much about pushing yourself and failing as it is succeeding.",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     ".357 Magnum (Wedges)",
+     "The Worm Burner (Approach)",
+     "The Icarito (Driving)",
+     "Lewis and Clark (Chipping)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "100 Meter Dash (Wedges)",
+     "Aggressively Conservative (Approach)",
+     "Flight 999 (Approach)",
+     "Butter Knives (Driving)",
+     "The Good, The Bad, & The Ugly (Chipping)",
+     "Social Distancing (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Retirement (Wedges)",
+     "Flushing It (Approach)",
+     "MLR (Approach)",
+     "The Ernie (Driving)",
+     "BMW (Driving)",
+     "Vegas Odds (Putting)",
+     "Bump and Run (Chipping)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": ".357 Magnum",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose targets at 30-yards, 50-yards, and 70-yards.",
+     "Using your second most lofted wedge, hit 5 consecutive shots at each target.",
+     "Using your most lofted wedge, hit 5 consecutive shots at each target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Worm Burner",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Using your lowest lofted club, hit the ball as low and as far as you can. If there is a flag stick in the distance, try to hit the flagstick without the ball ever going above the flag stick."
+    ],
+    "advice": [
+     "This shot is so effective for windy days, narrow fairways, long par 5s, and punch outs. Imagine a window to hit the ball through and an area on the ground to land and run the ball through."
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "The Icarito",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 30 yards apart. Start a ball inside the two targets ends between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a hazard to the right of your fairway target. The goal is to see the shape, see the fairway, and hit the shape down the fairway.",
+     "Imagine significant room to the left. You can miss left."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls landing between your targets and right of the right target."
+    ]
+   },
+   {
+    "title": "Lewis and Clark",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose one pin and a spot that you can comfortably hit a bump and run. 3-wood. Hybrid or 4-iron. 8-iron. PW.",
+     "Hit 5 bump and runs with each club.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "We suggest choking down and using a putting-like stroke. The heel of the club might be slightly off the ground.",
+     "Concentrate on delivering a consistent strike to the ball."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many balls were hit inside 2 paces with each club."
+    ]
+   },
+   {
+    "title": "100 Meter Dash",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a target approximately 100-meters away, which is approximately 110 yards. Select the wedge you are most comfortable with at this yardage.",
+     "Hit to the target until the allotted time is complete."
+    ],
+    "advice": [
+     "Reset after each shot, and despite the dash title do not rush through the card.",
+     "We suggest a comfortable range of approximately 20 ft."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the number of balls that land a comfortable range from your target each round."
+    ]
+   },
+   {
+    "title": "Aggressively Conservative",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Use your 5-iron and choose a pin. Choose two targets, one 45- feet left (or right) of the pin and one 15-feet left (or right) of the pin. Start a ball inside the left (or right) target that fades (or draws) toward the right (or left) target. The shot must end left (or right) 10-foot target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a targeting approach card. The goal is to see the shape, see the target, and commit to the target.",
+     "Bay Hill #18, Sunday pin."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Flight 999",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron and an appropriate target. Hit a flighted 9- iron that fades. Hit a flighted 9-iron that draws. Hit a flighted 9- iron that is neutral.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the most number of shots in a row that you hit the appropriate trajectory."
+    ]
+   },
+   {
+    "title": "Butter Knives",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "2-iron (or lowest lofted iron/driving iron). Choose two targets 30-yards apart. Hit a 2-iron tee shot down the runway.",
+     "Hit 5 standard 2-iron tee shots. Hit 5 stinger tee shots.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a block drill. Dial in your 2-iron tee shot.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots hit and the number of shots landing within the 30- yard runway."
+    ]
+   },
+   {
+    "title": "The Good, The Bad, & The Ugly",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "One pin. Three balls. Three lies. A good lie, a bad lie, and a horrendous lie; we suggest stepping on the ball in thickish rough.",
+     "Hit to the pin.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Push yourself on creating bad lies. Then set a goal that you chip the horrendous lie ball closer than either the good or bad lies. Imagine the good lie result was hit by a competitor."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of chips hit and the number of times your horrendous chip was better than the good chip."
+    ]
+   },
+   {
+    "title": "Social Distancing",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Place 4 balls 6’ from a hole at 12, 3, 6, and 9 o’clock. Putt to make.",
+     "After making 4 consecutively, place 1 ball at one of the spots. Putt to make.",
+     "Continue the drill until you make 5 consecutive putts or you are out of your allotted time."
+    ],
+    "advice": [
+     "This is a closing drill. Simulate needing to hole these putts for a win.",
+     "Execute your routine on each putt."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Repeat until you make 5 putts in a row or you are out of time."
+    ]
+   },
+   {
+    "title": "Retirement",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets, one at 50-yards and one at 70-yards.",
+     "Using an appropriate wedge, hit two balls at the first target. Hit two balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage.",
+     "Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Flushing It",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 8-iron and an appropriate target for your stock shot.",
+     "Nothing else to consider."
+    ],
+    "advice": [
+     "This is a contact card. Concentrate on making consistent contact and producing a repeatable trajectory and shape.",
+     "This is a chance to work on technique and a swing feel."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "MLR",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "4-iron. Choose a target. Hit a stock shot at the target. Hit a slinging hook at or left of the target. Hit a banana fade at or right of the target.",
+     "Repeat until the allotted time is complete."
+    ],
+    "advice": [
+     "Do not worry much about the target. Just get the ball moving hard in the right shape. Focus on contact.",
+     "Have fun!"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Ernie",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Hit stock drivers at a target of your choice. Stay loose.",
+     "Choose two targets in the distance 40 yards apart. Send it between the targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a hazard to the left of your fairway target. The goal is to see the shape, see the fairway, and hit it down the fairway or right.",
+     "You can miss right."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "BMW",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Driver, 3-wood (or next driving club), and lowest-lofted iron. Choose two targets 40-yards apart.",
+     "Hit 5 Drivers between the targets. Hit 5 3-woods between the targets. Hit 5 lowest-lofted irons between the targets.",
+     "Repeat the card until the alloted time is complete."
+    ],
+    "advice": [
+     "This is an all-around driving card intended to turn you into BMW, The (Ultimate) Driving Machine.",
+     "Do not rush each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Vegas Odds",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Pace off 3.5 steps (approximately 10) feet on a relatively flat spot. Place a ball down on the putting green and hole it.",
+     "Repeat the putt until you hole 3 putts in a row."
+    ],
+    "advice": [
+     "The PGA Tour make rate from 10 feet is 40%. Making 3 in a row would be incredible - time to buy a flight to Vegas!"
+    ],
+    "tracking": [
+     "10 minutes.",
+     "PASS/FAIL: Did you make 3 putts in a row?"
+    ]
+   },
+   {
+    "title": "Bump and Run",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose two different pins and a spot that you can comfortably hit a bump and run to each pin with a 9-iron.",
+     "Bump and run 5 balls at the first pin. Bump and run 5 balls at the second pin.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "We suggest choking down and using a putting-like stroke. The heel of the club might be slightly off the ground.",
+     "Concentrate on delivering a consistent strike to the ball."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   }
+  ]
+ },
+ "Intentional3": {
+  "intro": "Remember that intentional practice requires taking chances and making mistakes to grow and improve. Practice is as much about pushing yourself and failing as it is succeeding.",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     ".357 Magnum (Wedges)",
+     "Two-Story (Approach)",
+     "The Icarito (Driving)",
+     "Close for Comfort (Chipping)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "Hi Lo (Wedges)",
+     "Butter Cuts (Approach)",
+     "Flight 999 (Approach)",
+     "The Houdini (Driving)",
+     "Short Sided (Chipping)",
+     "Social Distancing (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Starting Pitcher (Wedges)",
+     "Pin Seeker (Approach)",
+     "Missle Lock (Approach)",
+     "The Henrik (Driving)",
+     "The Runway (Driving)",
+     "The Deep End (Putting)",
+     "The Reliever (Chipping)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": ".357 Magnum",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose targets at 30-yards, 50-yards, and 70-yards.",
+     "Using your second most lofted wedge, hit 5 consecutive shots at each target.",
+     "Using your most lofted wedge, hit 5 consecutive shots at each target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Two-Story",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "7-iron. Choose your distance. Hit 5 stock trajectory shots to that distance. Hit 5 lower trajectory shots to that distance.",
+     "Repeat the card until the allocated time is complete."
+    ],
+    "advice": [
+     "This is a blend between a creative and execution card. This is a chance to learn to hit two distance-controlled trajectories."
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "The Icarito",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 30 yards apart. Start a ball inside the two targets ends between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a hazard to the right of your fairway target. The goal is to see the shape, see the fairway, and hit the shape down the fairway.",
+     "Imagine significant room to the left. You can miss left."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls landing between your targets and right of the right target."
+    ]
+   },
+   {
+    "title": "Close for Comfort",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a spot that provides chips to two targets of different length. These chips should be straight-forward and you should expect to get up-and-down from them.",
+     "Alternate each shot from target A to target B until the allotted time is complete."
+    ],
+    "advice": [
+     "We suggest you chip to each target with the same wedge.",
+     "A suggestion for a comfortable putting range is 2 paces."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots and the number of shots you feel comfortable making putts from."
+    ]
+   },
+   {
+    "title": "Hi Lo",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your gap wedge or equivalent and a comfortable yardage for that club. Hit one high shot as if over a tree; hit it as high as you can. Hit one low shot as if under a branch; hit it as low as you can but still to the yardage.",
+     "Alternate between a high shot and a low shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot trajectory and hit the shot trajectory."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Butter Cuts",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose an appropriate target for your 6-iron. Choose a secondary target 10 yards left of the primary target.",
+     "Start a ball inside the secondary target that fades toward the primary target and ends between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a scoring approach card. The goal is to see the shape, see the target, and hit the shape to the target.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots and the total number of shots that landed between the targets."
+    ]
+   },
+   {
+    "title": "Flight 999",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron and an appropriate target. Hit a flighted 9- iron that fades. Hit a flighted 9-iron that draws. Hit a flighted 9- iron that is neutral.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the most number of shots in a row that you hit the appropriate trajectory."
+    ]
+   },
+   {
+    "title": "The Houdini",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a precise target. Stock Driver swing, chocking down several inches to lower the trajectory and improve accuracy.",
+     "Replicate the same shot shape on each shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is your opportunity to work on that Driver stinger. Anthony Kim was an expert at this before he pulled The Houdini.",
+     "What matters most is trajectory and accuracy."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Short Sided",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a short sided chip and the best club for that chip.",
+     "Repeat the card until the allotted time is complete, alternating between a good lie and a bad lie."
+    ],
+    "advice": [
+     "If practicing in a field of dreams where there are no bad lies, step on your ball lightly to produce a bad lie.",
+     "We suggest a comfortable range of 2 paces as the goal."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots and the number of shots that end in a comfortable range."
+    ]
+   },
+   {
+    "title": "Social Distancing",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Place 4 balls 6’ from a hole at 12, 3, 6, and 9 o’clock. Putt to make.",
+     "After making 4 consecutively, place 1 ball at one of the spots. Putt to make.",
+     "Continue the drill until you make 5 consecutive putts or you are out of your allotted time."
+    ],
+    "advice": [
+     "This is a closing drill. Simulate needing to hole these putts for a win.",
+     "Execute your routine on each putt."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Repeat until you make 5 putts in a row or you are out of time."
+    ]
+   },
+   {
+    "title": "Starting Pitcher",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Using your most appropriate wedge, choose two targets. One target at 105. One target at 90. Warm-up for 5-minutes, alternating between each target.",
+     "After your warm-up, hit 3 balls at the 105 target. Hit 3 balls at the 90 target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Your goal is to control your trajectory and distance on every shot.",
+     "Your goal is to hit it on your target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Pin Seeker",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Using your lowest lofted club, hit the ball as low and as far as you can. If there is a flag stick in the distance, hit it off that.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This shot is so effective for windy days, narrow fairways and long par 5's that have a window to run the ball up to the green. It also helps focus on ball striking."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Missle Lock",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a pin over 150-yards away and the appropriate club for that pin. Choose a secondary target 10-yards left of the pin. Hit 10 shots at the secondary target.",
+     "Repeat the card, but choosing a pin over 175-yards."
+    ],
+    "advice": [
+     "This is a chance to work on choosing and committing to targets other than a pin. Focus your eyes on your secondary target.",
+     "Use your routine on every shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Henrik",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Use your 3-wood (or closest club to it). Choose two targets 40- yards apart. Choose a precise target between these two targets.",
+     "See your shot and commit to that target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a fairway between the two targets. Choose a target and fully commit to that target.",
+     "Go through your full routine."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls landing between the targets."
+    ]
+   },
+   {
+    "title": "The Runway",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 40 yards apart. Start a ball inside the targets that ends between the targets. Use your stock shot shape.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a runway between the two targets. The goal is to see the shape, see the target, and hit the shape down the runway.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Deep End",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a cup. Place two ball markers 10 ft. below and above the hole.",
+     "Putt to make, moving to the other marker after a make.",
+     "Attempt to make 10 putts before the time is complete."
+    ],
+    "advice": [
+     "This is a making drill.",
+     "This distance is your chance to cash in and take advantage of a solid wedge shot. Do not rush."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many total putts you took before completing the card. Try to complete the drill in 20 putts or less."
+    ]
+   },
+   {
+    "title": "The Reliever",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose two different chips, ideally each about 20 to 30-yards. One chip you can run to the hole. The other chip has to carry an imaginary or physical bunker.",
+     "Hit 10 shots for the first chip. Hit 10 shots for the second chip.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "You can choose two different pins or two different locations to one pin, as long as you can replicate the two types of chips."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   }
+  ]
+ },
+ "IntentionalFail": {
+  "intro": "Remember that intentional practice requires taking chances and making mistakes to grow and improve. Practice is as much about pushing yourself and failing as it is succeeding.",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     ".357 Magnum (Wedges)",
+     "Medic! (Approach)",
+     "The Icarito (Driving)",
+     "Slam Dunk (Chipping)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "Money Maker (Wedges)",
+     "Flushing It (Approach)",
+     "Flight 999 (Approach)",
+     "The Stinger (Driving)",
+     "Game Winner (Chipping)",
+     "Social Distancing (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Retirement (Wedges)",
+     "Window Painter (Approach)",
+     "Starting 9 (Approach)",
+     "The Azalea (Driving)",
+     "The Apartment Building (Driving)",
+     "The Longboard (Putting)",
+     "Fighting Chance (Chipping)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": ".357 Magnum",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose targets at 30-yards, 50-yards, and 70-yards.",
+     "Using your second most lofted wedge, hit 5 consecutive shots at each target.",
+     "Using your most lofted wedge, hit 5 consecutive shots at each target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Medic!",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 5-iron and an appropriate target for your stock shot.",
+     "If there is no green for a target, choose two targets that are 25- yards apart. Hit the green.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Consistently hitting the ball on the green from a 5-iron distance is a way to ensure improved scoring. Find a way to get it on the green, no matter the technique or shape."
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "The Icarito",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 30 yards apart. Start a ball inside the two targets ends between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a hazard to the right of your fairway target. The goal is to see the shape, see the fairway, and hit the shape down the fairway.",
+     "Imagine significant room to the left. You can miss left."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls landing between your targets and right of the right target."
+    ]
+   },
+   {
+    "title": "Slam Dunk",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Use your highest lofted club and choose a pin 8-12 paces away.",
+     "Try to slam dunk it.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free card designed to be fun and dial in your distance control. You can also experiment with different trajectories, but always trying to carry it the same distance."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the number of slam dunks."
+    ]
+   },
+   {
+    "title": "Money Maker",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a target carry of 90-yards. Choose a second target carry of 110-yards away. Choose the wedge(s) that you are most comfortable with at these yardages.",
+     "Hit a normal trajectory shot to a 90-yard carry. Hit a lower trajectory shot to a 90-yard carry.",
+     "Hit a lower trajectory shot to a 110-yard carry. Hit a normal trajectory shot to 110-yard carry.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots hit and the total number of shots that matched your intended trajectory."
+    ]
+   },
+   {
+    "title": "Flushing It",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 8-iron and an appropriate target for your stock shot.",
+     "Nothing else to consider."
+    ],
+    "advice": [
+     "This is a contact card. Concentrate on making consistent contact and producing a repeatable trajectory and shape.",
+     "This is a chance to work on technique and a swing feel."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Flight 999",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron and an appropriate target. Hit a flighted 9- iron that fades. Hit a flighted 9-iron that draws. Hit a flighted 9- iron that is neutral.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the most number of shots in a row that you hit the appropriate trajectory."
+    ]
+   },
+   {
+    "title": "The Stinger",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your lowest lofted iron and work on hitting the stinger. Imagine a tight tee shot that is 35 yards wide and hit a low, flighted shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "The famed Tiger stinger is a great shot to have in the bag for windy conditions and holes that you need to take less than driver. Concentate mostly on trajectory.",
+     "Here's your inspiration: https://youtu.be/ChGAU_Gu- rU"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Game Winner",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a straight forward chip of no more than 5 paces. Choose the club of your choice (other than a putter).",
+     "Make the chip."
+    ],
+    "advice": [
+     "Concentrate on making consistent contact on each chip. This is a chip to win the match with no consequences."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Repeat the card until you have made three chips or time is up."
+    ]
+   },
+   {
+    "title": "Social Distancing",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Place 4 balls 6’ from a hole at 12, 3, 6, and 9 o’clock. Putt to make.",
+     "After making 4 consecutively, place 1 ball at one of the spots. Putt to make.",
+     "Continue the drill until you make 5 consecutive putts or you are out of your allotted time."
+    ],
+    "advice": [
+     "This is a closing drill. Simulate needing to hole these putts for a win.",
+     "Execute your routine on each putt."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Repeat until you make 5 putts in a row or you are out of time."
+    ]
+   },
+   {
+    "title": "Retirement",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets, one at 50-yards and one at 70-yards.",
+     "Using an appropriate wedge, hit two balls at the first target. Hit two balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage.",
+     "Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Window Painter",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "7-iron. Hit three consecutive shots. The first shot is your stock shot. The second shot must be lower than the first shot. The third shot must be lower than the second shot. All three shots should carry approximately the same distance.",
+     "Repeat the card until the allocated time is complete."
+    ],
+    "advice": [
+     "This is a blend between a creative and execution card. This is a chance to execute controlled trajectories."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total batches of 3 that you completed and the total batches of 3 that you completed perfectly."
+    ]
+   },
+   {
+    "title": "Starting 9",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Using your 9-iron, choose a target at your maximum distance and a target at your 3/4 distance.",
+     "Working the ball on your natural shape, hit 9 balls at the maximum distance. Then hit 9 balls at the 3/4 distance."
+    ],
+    "advice": [
+     "This is not a technique drill. Hit the ball at the target for your minimum and maximum numbers, and accept any “good enough” shot.",
+     "Ensure to reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Azalea",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 40 yards apart. Start a ball inside the right target that moves toward the left target and ends between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a runway between the two targets. The goal is to see the shape, see the target, and hit the shape down the runway."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Apartment Building",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Using your driver, tee the ball up at your normal height and hit 5 balls.",
+     "Put the tee at a lower height and hit 5 balls.",
+     "Then place the tee as low as possible and hit 5 balls.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to change your driver trajectory by adjusting your tee height. Additionally, you might find your accuracy and ball striking improves as you experiment with a lower tee height."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Longboard",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a cup. Choose a slightly uphill or flat straight 10’ putt.",
+     "Putt to make.",
+     "Make 10 putts total.",
+     "After making 10 putts, make 2 in a row to end your session."
+    ],
+    "advice": [
+     "This is a making drill.",
+     "This distance is your chance to cash in and take advantage of a solid wedge shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many total putts you took before completing the card."
+    ]
+   },
+   {
+    "title": "Fighting Chance",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a spot that provides chips to two targets of different length. These chips should be straight-forward and you should expect to get up-and-down from them.",
+     "Using your normal chipping club, chip to target A until you hit one to a comfortable putting range. Then chip to target B until you hit one to a comfortable putting range."
+    ],
+    "advice": [
+     "We suggest you chip to each target with the same wedge.",
+     "A suggestion for a comfortable putting range is 1-2 paces."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Repeat until you’ve completed each target 3- times."
+    ]
+   }
+  ]
+ },
+ "Approach": {
+  "intro": "This month's work dials in your approach game. Approach shots separate the field more than any other skillset. We suggest using your routine during all approach cards. (45 min.)",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     "Lil Jon (Wedges)",
+     "Slingers (Approach)",
+     "Wimbledon (Driving)",
+     "The Gimme (Chipping)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "Starting Pitcher (Wedges)",
+     "Shot Shaper (Approach)",
+     "7 & 7 (Approach)",
+     "The Ernie (Driving)",
+     "Oh Wow, In Your Life (Chipping)",
+     "Leap Frog (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "High 'n Soft (Wedges)",
+     "Flight 999 (Approach)",
+     "Dim Tuncan (Approach)",
+     "Hitting BOMBS (Driving)",
+     "The Caston (Driving)",
+     "Si-Woo (Putting)",
+     "Give it a Chance (Chipping)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": "Lil Jon",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose three targets, one at 30 yards, one at 60 yards, and one at 90 yards.",
+     "Hit 3 balls to the first target. Hit 3 balls to the second target. Hit 3 balls to the third target.",
+     "Repeat the card until the allocated time is complete."
+    ],
+    "advice": [
+     "This is a blend between a creative and execution card. This is a chance to learn to hit three distance controlled trajectories."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Slingers",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "5-iron. Choose a target. Hit two balls to the target with a hard slinging hook. Hit two balls to the target with a banana cut.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Do not worry much about the target. Just get the ball moving hard in the right shape.",
+     "SICK!"
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "Wimbledon",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 40 yards apart. Start a ball inside the left target that fades and ends between the two targets.",
+     "Hit 1 “Best Drive”, hit 4 “Second Serve Drives”. The “Second Serve”goal is to hit the corridor. Send the “Best Drive”.",
+     "Repeat the card until the alloted time is complete"
+    ],
+    "advice": [
+     "This is a corridor card. Start it insidethe corridor, end it inside the corridor. Nothing else matters.",
+     "Use your routine on every shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Gimme",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a spot that provides chips to two targets of different length. These chips should be straight-forward and you should expect to get up-and-down from them.",
+     "Both shots should require your most lofted wedge.",
+     "Alternate each shot from target A to target B until the allotted time is complete."
+    ],
+    "advice": [
+     "We suggest you chip to each target with the same wedge.",
+     "A suggestion for a comfortable gimme range is 1 pace."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots and the number of shots that yielded a gimme."
+    ]
+   },
+   {
+    "title": "Starting Pitcher",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Using your most appropriate wedge, choose two targets. One target at 105. One target at 90. Warm-up for 5-minutes, alternating between each target.",
+     "After your warm-up, hit 3 balls at the 105 target. Hit 3 balls at the 90 target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Your goal is to control your trajectory and distance on every shot.",
+     "Your goal is to hit it on your target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Shot Shaper",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a primary target for your 6-iron. Choose a secondary target 15 yards left or right of the primary target. Start a ball inside the secondary target that moves toward the primary target and ends between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a scoring approach card. The goal is to see the shape, see the target, and hit the shape to the target.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "7 & 7",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "7-iron. Choose two targets. One target at your maximum 7- iron distance. One target at your minimum, 3/4 7-iron distance.",
+     "Hit 7 balls at your maximum target. Hit 7 balls at your minimum target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to practice both your stock 7-iron as well as your creative feel 7- iron.",
+     "Reset after each set of 7 balls"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Ernie",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Hit stock drivers at a target of your choice. Stay loose.",
+     "Choose two targets in the distance 40 yards apart. Send it between the targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a hazard to the left of your fairway target. The goal is to see the shape, see the fairway, and hit it down the fairway or right.",
+     "You can miss right."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Oh Wow, In Your Life",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a spot that provides a creative and challenging chip. Hole it out.",
+     "Change your spot as you see fit, repeating the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Be creative. This could be a bump and run with significant slope, a high-flop with little room for error, or whatever gets your mind going.",
+     "For inspiration, see https:// youtu.be/HGzvqU-T85I? t=13894"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Leap Frog",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "10 putts from the same spot. Place a mark approximately 15’ from your ball. Place another mark 15’ beyond the first mark (30’ from your ball). Your first putt has to reach or go past the first mark.",
+     "Each consecutive putt has to travel past the previous ball but not past the second mark.",
+     "Repeat the card until you have 10 consecutive balls between the two marks."
+    ],
+    "advice": [
+     "We suggest choosing a flat part on the green. This is a pass or fail card. You have 10 min. to pass. No back- stopping."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "PASS",
+     "FAIL"
+    ]
+   },
+   {
+    "title": "High 'n Soft",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your lob wedge and a target 50-60 yards away. Hit a high and soft shot that stops quickly.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine you hit a great drive and left yourself with a 50-60 yards into a green with a tucked pin. Hit the shot that lands as soft as a butterfly."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Flight 999",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron and an appropriate target. Hit a flighted 9- iron that fades. Hit a flighted 9-iron that draws. Hit a flighted 9- iron that is neutral.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the most number of shots in a row that you hit the appropriate trajectory."
+    ]
+   },
+   {
+    "title": "Dim Tuncan",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 6-iron. Choose an appropriate target and hit your stockshot.",
+     "Repeat the card until the allotted time is complete"
+    ],
+    "advice": [
+     "FUNDAMENTALS.This is an opportunity to work on building elements like technique,alignment, and playing a stock shot to a specific target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Hitting BOMBS",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a precise target in the distance such as the top of a tree, abuilding, or a pole. Reach back, and hit a bomb."
+    ],
+    "advice": [
+     "This is a Driver warm-up card. Imagine you are on a downwind par5, no penalty areas. Tee it up. Let it fly. Stretch it out.",
+     "Go through your routine on eachshot"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Caston",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "DoD. Driver. Ball on the ground. Choose a precise target.",
+     "Aim for the target, and send it freely.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a contact card and an excellent drill to improve your driving. Stay loose.",
+     "Impress those around you, especially on IG.",
+     "***Golf Blueprint takes no responsibility for broken driver heads due to DoD-ing too hard."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Si-Woo",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "In contention at the 2021 Masters, Si-Woo Kim slammed his putter down and broke it. We NEVER condone this, but crazy things happen in golf.",
+     "Using clubs other than your putter, attempt to putt from 5 paces, 10 paces and 15 paces. Try to do no worse than two- putting from each spot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "We recommend trying your sand wedge or 3 wood to begin. Use your normal putting stroke and stay athletic. This is a great opportunity to work on your touch."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Give it a Chance",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a pin that is 10-12 paces away and the club of your choice for that shot. Chip until you’ve hit 3 consecutive chips past the hole but by no more than 3 paces.",
+     "Change position or choose a different pin.",
+     "Repeat the card unti the allotted time is complete."
+    ],
+    "advice": [
+     "A majority of golfers leave their chip shots short. This card is designed to get you comfortable with hitting chips that have a chance to go in. This will improve the proximity of your chip shots."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of different targets or different positions you chipped from."
+    ]
+   }
+  ]
+ },
+ "DistanceControl": {
+  "intro": "In this month's work, we focus on ball striking and distance control. Commit to your target on every shot. (45 min.)",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     "Money Maker (Wedges)",
+     "Banks Open (Approach)",
+     "The Kapalua (Driving)",
+     "The Gerald (Putting)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "3 Six Mafia (Wedges)",
+     "Desert Driving (Driving)",
+     "Dim Tuncan (Approach)",
+     "Goldilocks (Wedges)",
+     "Give it a Chance (Chipping)",
+     "The Deep End (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Cold Brew (Driving)",
+     "Call Your Carry (Wedges)",
+     "Chippy Little 8 (Approach)",
+     "The Revolver (Approach)",
+     "The Shortcut (Driving)",
+     "Oh Wow, In Your Life (Chipping)",
+     "On and Around (Putting)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": "Money Maker",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a target carry of 90-yards. Choose a second target carry of 110-yards away. Choose the wedge(s) that you are most comfortable with at these yardages.",
+     "Hit a normal trajectory shot to a 90-yard carry. Hit a lower trajectory shot to a 90-yard carry.",
+     "Hit a lower trajectory shot to a 110-yard carry. Hit a normal trajectory shot to 110-yard carry.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots hit and the total number of shots that matched your intended trajectory."
+    ]
+   },
+   {
+    "title": "Banks Open",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Depending on your driving range, choose a pin from 160-180 yards. Take dead aim at the pin using the appropriate club.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "For inspiration, read: https:// twitter.com/dagolfballguy/ status/1210292059753590784",
+     "Commit to your target on each shot."
+    ],
+    "tracking": [
+     "15 minutes.",
+     "Record the total number of shots and the total number of shots that painted the flag."
+    ]
+   },
+   {
+    "title": "The Kapalua",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Driver. Choose two targets that are 40-yards apart.",
+     "Hit two balls at a lower trajectory than normal. Hit two balls at a higher trajectory than normal. Stick to your stock shot shape.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is an opportunity to experiment with different Driver trajectories. Determine what trajectories you are comfortable with so that you can execute them on the course."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Gerald",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a hole and place 1 ball at 10, 15 and 20 paces (or as close to 20 as possible) away.",
+     "Two-putt each ball.",
+     "Repeat the card until the allotted time is complete. At the end of the allotted time, try to two-putt the last 3 balls."
+    ],
+    "advice": [
+     "Long distance lag putting is an extremely important skill. Take the pressure off of your second putt by focusing on getting the right speed on the first.",
+     "Lag it up, tap it in. Makes are a bonus."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record if you two-putted the last 3 balls."
+    ]
+   },
+   {
+    "title": "3 Six Mafia",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose targets at 30-yards and 60-yards.",
+     "Using your highest lofted wedge, hit 3 balls to the 60-yard target and 6 balls to the 30-yard target.",
+     "Using your second highest lofted wedge, hit 3 balls to the 30- yard target and 6 balls to the 60-yard target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Desert Driving",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "5-iron. Teed up. Hit to a precise target.",
+     "Repeat the card until the allotted time is complete, committ to a new target on each shot."
+    ],
+    "advice": [
+     "Imagine desert target golf. This is the par 4 that is 360 yards but forces you to hit out to a target fairway before attacking the green."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the number of total shots and the number of shots ending within 15-yards right or left of your target."
+    ]
+   },
+   {
+    "title": "Dim Tuncan",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 6-iron. Choose an appropriate target and hit your stockshot.",
+     "Repeat the card until the allotted time is complete"
+    ],
+    "advice": [
+     "FUNDAMENTALS.This is an opportunity to work on building elements like technique,alignment, and playing a stock shot to a specific target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Goldilocks",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your PW and three comfortable yardages for that club, one on the high-end, one on the low-end, and one that is just- right.",
+     "Hit 5 consecutive shots at the low-end yardage. Hit 5 consecutive shots at the high-end yardage. Hit 5 consecutive shots at the just-right yardage.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Give it a Chance",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a pin that is 10-12 paces away and the club of your choice for that shot. Chip until you’ve hit 3 consecutive chips past the hole but by no more than 3 paces.",
+     "Change position or choose a different pin.",
+     "Repeat the card unti the allotted time is complete."
+    ],
+    "advice": [
+     "A majority of golfers leave their chip shots short. This card is designed to get you comfortable with hitting chips that have a chance to go in. This will improve the proximity of your chip shots."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of different targets or different positions you chipped from."
+    ]
+   },
+   {
+    "title": "The Deep End",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a cup. Place two ball markers 10 ft. below and above the hole.",
+     "Putt to make, moving to the other marker after a make.",
+     "Attempt to make 10 putts before the time is complete."
+    ],
+    "advice": [
+     "This is a making drill.",
+     "This distance is your chance to cash in and take advantage of a solid wedge shot. Do not rush."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many total putts you took before completing the card. Try to complete the drill in 20 putts or less."
+    ]
+   },
+   {
+    "title": "Cold Brew",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "For the first half of the card, imagine your opening tee shot. Hit it down the fairway.",
+     "For the last half of the card, choose a new target with each shot. Hit to the target."
+    ],
+    "advice": [
+     "We suggest a “good enough” that is 30-yards right and left of your target (a total of 60-yards from right to left).",
+     "This drill is to be done first today in order to simulate going straight to the first tee. Take a deep breath before each shot. Relax and send it."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls that were good enough."
+    ]
+   },
+   {
+    "title": "Call Your Carry",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a wedge. Chose a target and carry yardage. Try to hit that target and carry yardage for 5 consecutive shots.",
+     "Repeat the card until the allotted time is complete, alternating between wedges every 5 shots."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Chippy Little 8",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 8-iron and a target 10 yards short ofyour stock yardage. Using a controlled swing, hit a flighted 8-iron to the target."
+    ],
+    "advice": [
+     "A go-to shot for windy conditions or when you need to control spin with an approach shot. Experiment with different stance and grip setups to hit that chippy shot under the wind."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Revolver",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "6-iron. If you have a green, hit to that.",
+     "If you don’t have a green, choose a target that is a comfortable distance for your 6-iron. Choose edge targets left and right of that target to simulate a green.",
+     "Hit the green. Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "A majority of PGA Tour Players play par 3s over par.",
+     "You make par on a par 3, you’re gaining shots on your competitors.",
+     "Use your routine on each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Shortcut",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Driver, tee it high. Choose two targets that 40-yards apart. Hit your Driver as high as possible and as far as possible between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine you are taking a shortcut on a dogleg hole. Swing hard, hit it high, and try to carry it as far as you can.",
+     "Think Bryson."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Oh Wow, In Your Life",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a spot that provides a creative and challenging chip. Hole it out.",
+     "Change your spot as you see fit, repeating the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Be creative. This could be a bump and run with significant slope, a high-flop with little room for error, or whatever gets your mind going.",
+     "For inspiration, see https:// youtu.be/HGzvqU-T85I? t=13894"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "On and Around",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a putt greater than 13 paces. Finish out.",
+     "Choose a putt from the fringe greater than 13 paces. Finish out.",
+     "Repeat the card until the allotted time is complete, choosing different putts each round."
+    ],
+    "advice": [
+     "Your goal with an iron is to get the ball on or around the green. This card simulates the putts you are most likely to see."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Count the number of 1-putts, 2-putts, and 3+ putts."
+    ]
+   }
+  ]
+ },
+ "DrivingSpecificBlueprint": {
+  "intro": "This month's work refines your focus on driving, and increases a focus on ball striking. Commit to your target on every shot. (45 min.)",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     "Two-Step (Wedges)",
+     "MLR (Approach)",
+     "Hitting BOMBS (Driving)",
+     "Mirror Mirror (Putting)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "In My Feels (Approach)",
+     "OK Boomer (Wedges)",
+     "Crossfire (Driving)",
+     "The Icarito (Driving)",
+     "The Staircase (Chipping)",
+     "Papa Roach (Chipping)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "The Grid Iron (Wedges)",
+     "Again (Approach)",
+     "The Squeeze Cut (Driving)",
+     "The Azalea (Driving)",
+     "Social Security (Wedges)",
+     "Baskin Robbins (Chipping)",
+     "Leap Frog (Putting)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": "Two-Step",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "One wedge. Twenty-two balls. Two targets, differing by 20 yards. We suggest 80 and 100.",
+     "Alternate between targets on each shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "MLR",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "4-iron. Choose a target. Hit a stock shot at the target. Hit a slinging hook at or left of the target. Hit a banana fade at or right of the target.",
+     "Repeat until the allotted time is complete."
+    ],
+    "advice": [
+     "Do not worry much about the target. Just get the ball moving hard in the right shape. Focus on contact.",
+     "Have fun!"
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "Hitting BOMBS",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a precise target in the distance such as the top of a tree, abuilding, or a pole. Reach back, and hit a bomb."
+    ],
+    "advice": [
+     "This is a Driver speed card. Imagine you are on a downwind par 5, no penalty areas. Tee it up. Let it fly. Stretch it out.",
+     "Go through your routine on eachshot"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Mirror Mirror",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "If you have a putting mirror, put it down at approximately 5 feet from a hole or putting target.",
+     "Hit putts to the hole, focusing on your setup. If you do not have a putting mirror, use other tools like a towel and rods to ensure a consistent setup."
+    ],
+    "advice": [
+     "Use the putting mirror to ensure eyes are over the ball.",
+     "This card is not about making putts. This is about ensuring a consistent setup. Experiment with your setup to find what works consistently."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "None"
+    ]
+   },
+   {
+    "title": "In My Feels",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron. Choose a precise target and work through your swing feel. Whatever sensation you are working on, replicate it on each shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "FEEL THAT FEEL.",
+     "We suggest rehearsing the swing and feel before at a slower tempo, really concentration on that feel you are working on. This is not an outcome card, so do not worry about where the ball goes."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "OK Boomer",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets, one at 70-yards and one at 90-yards. Choose your favorite wedge for that yardage.",
+     "Hit five balls at the first target. Hit five balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage.",
+     "Do not worry about trajectory on this drill. Focus on yardage."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Crossfire",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Position yourself as far right or left on the range as possible. Choose a target as far left or right (opposite of where you are positioned) as you can. Send it to the target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is an opportunity to practice committing to a driving target. Imagine that hard dogleg where you have to ignore the green and committ to the fairway."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Icarito",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 30 yards apart. Start a ball inside the two targets that ends inside the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a hazard to the right of your fairway target. The goal is to see the shape, see the fairway, and hit the shape down the fairway.",
+     "Imagine significant room to the left. You can miss left."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls landing between your targets and right of the right target."
+    ]
+   },
+   {
+    "title": "The Staircase",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose one target and three different chip distances. Get up and down from each.",
+     "Each ball must be holed, so putt everything out. As soon as you miss one up and down, repeat the card."
+    ],
+    "advice": [
+     "We suggest you choose three different levels of chips. Easy, medium, and challenging difficulty.",
+     "Hit all chips first, and then putt out each."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Repeat until you get all three shots up and down in the same turn or time runs out."
+    ]
+   },
+   {
+    "title": "Papa Roach",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Use your 3-wood, fairway wood, or hybrid. Find the tightest lie you can to where you can’t use a wedge, and choose a pin that you can roll the ball to.",
+     "Choke down to the end of the grip, and using a putting motion hole the shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a shot that anybody can and everybody should use. False fronts, tight lies into the grain, smooth fringe, or on your favorite links course, this shot will come in handy.",
+     "Often times, this is your last resort…"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Grid Iron",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a target 120-yards away. Choose a target 5-yards left or right of the target.",
+     "Hit the appropriate shape starting at the left or right target and moving toward the other target. Alternate working it from one target to the other."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Again",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 7-iron and a target at a comfortable yardage.",
+     "Hit 10 balls with a higher trajectory at a target.",
+     "Hit 10 balls with a lower trajectory at a target.",
+     "Repeat the card unti the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots hit and the total number of shots hit at the appropriate trajectory."
+    ]
+   },
+   {
+    "title": "The Squeeze Cut",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Visualize yourself on a tight par 4 with a dog leg right that you must hit a cut into. Choose two targets in the distance roughly 50 yards apart. Tee the ball slightly lower than usual and hit a low cut into the fairway."
+    ],
+    "advice": [
+     "Imagine a hole you could use less than driver, but you want to play aggressivley. We recommend teeing it down slightly for a bit more control. This is one of Nico's favorite shots to try, even if the Professor hates when he does it!"
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many balls land in your 50 yard window and the total number of balls hit."
+    ]
+   },
+   {
+    "title": "The Azalea",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 40 yards apart. Start a ball inside the right target that moves toward the left target and ends between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a runway between the two targets. The goal is to see the shape, see the target, and hit the shape down the runway."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Social Security",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets, one at 65-yards and one at 85-yards. Choose an appropriate wedge.",
+     "Hit two balls at the first target. Hit two balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage. If you cannot use one wedge that works for both distances, use two wedges.",
+     "Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Baskin Robbins",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a spot with a decent-to-good lie in which you can chip to all targets with the same club. Choose the club of your choice.",
+     "Hit one ball at each target. Then hit one ball at each target in the opposite order.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "You should choose a spot that provides a varying degree of challenge to the chips. Ideally, one is make- able and one is very difficult."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Leap Frog",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "10 putts from the same spot. Place a mark approximately 15’ from your ball. Place another mark 15’ beyond the first mark (30’ from your ball). Your first putt has to reach or go past the first mark.",
+     "Each consecutive putt has to travel past the previous ball but not past the second mark.",
+     "Repeat the card until you have 10 consecutive balls between the two marks."
+    ],
+    "advice": [
+     "We suggest choosing a flat part on the green. This is a pass or fail card. You have 10 min. to pass. No back- stopping."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "PASS",
+     "FAIL"
+    ]
+   }
+  ]
+ },
+ "HabitsAndProcess": {
+  "intro": "In this month's work, remember that the key to practice paying off is staying committted to the process. This is the perfect time for habits to settle in and start to pay off. (45 min.)",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     "The Redzone (Wedges)",
+     "7 & 7 (Approach)",
+     "Dim Tuncan (Approach)",
+     "The Extender (Chipping)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "Lil Jon (Wedges)",
+     "Medic! (Approach)",
+     "Shot Shaper (Approach)",
+     "The Stinger (Driving)",
+     "Fighting Chance (Chipping)",
+     "The Horseshoe (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Carl Spackler (Approach)",
+     "Bermuda Triangle (Wedges)",
+     "Slingers (Approach)",
+     "Hitting BOMBS (Driving)",
+     "Slam Dunk (Chipping)",
+     "The Reliever (Chipping)",
+     "The Kaley (Putting)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": "The Redzone",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets, one at 90-yards and one at 110-yards.",
+     "Using an appropriate wedge, hit three balls at the first target. Hit three balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage.",
+     "Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "7 & 7",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "7-iron. Choose two targets. One target at your maximum 7- iron distance. One target at your minimum, 3/4 7-iron distance.",
+     "Hit 7 balls at your maximum target. Hit 7 balls at your minimum target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to practice both your stock 7-iron as well as your creative feel 7- iron.",
+     "Reset after each set of 7 balls"
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "Dim Tuncan",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 6-iron. Choose an appropriate target and hit your stockshot.",
+     "Repeat the card until the allotted time is complete"
+    ],
+    "advice": [
+     "FUNDAMENTALS.This is an opportunity to work on building elements like technique,alignment, and playing a stock shot to a specific target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Extender",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose one spot and two pins that provide straight forward up- and-downs. Play each shot aggressively, but ensuring you end at a comfortable holing range.",
+     "Alternate between the pins.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine you need this up- and-down to extend the match or keep a hot round going.",
+     "Try to predict and repeat the chip trajectory."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of chips, the number of chips holed, and the number ending inside 2 paces."
+    ]
+   },
+   {
+    "title": "Lil Jon",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose three targets, one at 30 yards, one at 60 yards, and one at 90 yards.",
+     "Using the same club, hit 3 balls to the first target. Hit 3 balls to the second target. Hit 3 balls to the third target.",
+     "Repeat the card until the allocated time is complete."
+    ],
+    "advice": [
+     "This is a blend between a creative and execution card. This is a chance to learn to hit three distance controlled trajectories."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Medic!",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 5-iron and an appropriate target for your stock shot.",
+     "If there is no green for a target, choose two targets that are 25- yards apart. Hit the green.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Consistently hitting the ball on the green from a 5-iron distance is a way to ensure improved scoring. Find a way to get it on the green, no matter the technique or shape."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Shot Shaper",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a primary target for your 6-iron. Choose a secondary target 15 yards left or right of the primary target. Start a ball inside the secondary target that moves toward the primary target and ends between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a scoring approach card. The goal is to see the shape, see the target, and hit the shape to the target.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Stinger",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your lowest lofted iron and work on hitting the stinger. Imagine a tight tee shot that is 35 yards wide and hit a low, flighted shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "The famed Tiger stinger is a great shot to have in the bag for windy conditions and holes that you need to take less than driver. Concentate mostly on trajectory.",
+     "Here's your inspiration: https://youtu.be/ChGAU_Gu- rU"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Fighting Chance",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a spot that provides chips to two targets of different length. These chips should be straight-forward and you should expect to get up-and-down from them.",
+     "Using your normal chipping club, chip to target A until you hit one to a comfortable putting range. Then chip to target B until you hit one to a comfortable putting range."
+    ],
+    "advice": [
+     "We suggest you chip to each target with the same wedge.",
+     "A suggestion for a comfortable putting range is 1-2 paces."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Repeat until you’ve completed each target 3- times."
+    ]
+   },
+   {
+    "title": "The Horseshoe",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a (significantly) downhill putt. Place 5 balls at 1.5 paces away, 1 ball at each 10, 11, 12, 1 and 2 o’clock, with 12 o’clock directly above the hole.",
+     "Make 4 in a row (10 o’clock to 1 o’clock). If you miss, return to 10 o'clock.",
+     "After making 4 in a row, putt from the 2 o'clock position until you make two in a row."
+    ],
+    "advice": [
+     "This is a making drill.",
+     "This distance is your chance to cash in and take advantage of a solid wedge shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many total putts you took before completing the card."
+    ]
+   },
+   {
+    "title": "Carl Spackler",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a target 195-yards away and an appropriate club for that target. If you have a green, hit the green. If you do not have a green, choose secondary targets 15-yards on each side of the primary target. Hit between the secondary targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "You can use this as a par 3 card by splitting time with some balls teed up.",
+     "For inspiration, see: https:// youtu.be/UVBv2c0OEpo"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Bermuda Triangle",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your PW and 3 aiming targets from left-to-right on your range. Hit at the left-most aiming target first, and then work left-to-right changing your aiming target each time.",
+     "After hitting at the right-most aiming target, work right-to-left back to the left-most aiming target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a target drill. Commit to the target on each shot, taking dead aim."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots hit and the total number of shots that painted the targets."
+    ]
+   },
+   {
+    "title": "Slingers",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "5-iron. Choose a target. Hit two balls to the target with a hard slinging hook. Hit two balls to the target with a banana cut.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Do not worry much about the target. Just get the ball moving hard in the right shape.",
+     "SICK!"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Hitting BOMBS",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a precise target in the distance such as the top of a tree, abuilding, or a pole. Reach back, and hit a bomb."
+    ],
+    "advice": [
+     "This is a Driver warm-up card. Imagine you are on a downwind par5, no penalty areas. Tee it up. Let it fly. Stretch it out.",
+     "Go through your routine on eachshot"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Slam Dunk",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Use your highest lofted club and choose a pin 8-12 paces away.",
+     "Try to slam dunk it.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free card designed to be fun and dial in your distance control. You can also experiment with different trajectories, but always trying to carry it the same distance."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the number of slam dunks."
+    ]
+   },
+   {
+    "title": "The Reliever",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose two different chips, ideally each about 20 to 30-yards. One chip you can run to the hole. The other chip has to carry an imaginary or physical bunker.",
+     "Hit 10 shots for the first chip. Hit 10 shots for the second chip.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "You can choose two different pins or two different locations to one pin, as long as you can replicate the two types of chips."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Kaley",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose your sand wedge and a pin that is 5 paces away. The chip should be relatively flat and straight. Grip your sandwedge as you would grip your putter and strike the middle of the ball with a putting motion.",
+     "Repeat the card until the allotted time is complete, changing holes or putting spot every few minutes."
+    ],
+    "advice": [
+     "This is a great opportunity to breakaway from technical putting and more into an athletic move, and it is a great shot to have for any ball nearly on a green or against a collar."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   }
+  ]
+ },
+ "Process2": {
+  "intro": "In this month's work, remember that the key to practice paying off is staying committted to the process. This is the perfect time for habits to settle in and start to pay off. (45 min.)",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     "The Redzone (Wedges)",
+     "7 & 7 (Approach)",
+     "Dim Tuncan (Approach)",
+     "XX (Chipping)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "Lil Jon (Wedges)",
+     "The Greenie (Approach)",
+     "Shot Shaper (Approach)",
+     "The Holly (Driving)",
+     "The Wizard (Chipping)",
+     "Si-Woo (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Pin Seeker (Approach)",
+     "No Spin Zone (Wedges)",
+     "The Eurostep (Approach)",
+     "Hitting BOMBS (Driving)",
+     "The Good, The Bad, & The Ugly (Chipping)",
+     "Mega Flop (Chipping)",
+     "On and Around (Putting)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": "The Redzone",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets, one at 90-yards and one at 110-yards.",
+     "Using an appropriate wedge, hit three balls at the first target. Hit three balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage.",
+     "Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "7 & 7",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "7-iron. Choose two targets. One target at your maximum 7- iron distance. One target at your minimum, 3/4 7-iron distance.",
+     "Hit 7 balls at your maximum target. Hit 7 balls at your minimum target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to practice both your stock 7-iron as well as your creative feel 7- iron.",
+     "Reset after each set of 7 balls"
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "Dim Tuncan",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 8-iron. Choose an appropriate target and hit your stockshot.",
+     "Repeat the card until the allotted time is complete"
+    ],
+    "advice": [
+     "FUNDAMENTALS.This is an opportunity to work on building elements like technique,alignment, and playing a stock shot to a specific target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "XX",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a relatively straight-forward chip of no more than 15 paces.",
+     "Chip 30 balls using the same club. Your goal is to chip 20 balls to a comfortable range."
+    ],
+    "advice": [
+     "We suggest a comfortable range of 2-3 paces."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "PASS",
+     "FAIL"
+    ]
+   },
+   {
+    "title": "Lil Jon",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose three targets, one at 30 yards, one at 60 yards, and one at 90 yards.",
+     "Using the same club, hit 3 balls to the first target. Hit 3 balls to the second target. Hit 3 balls to the third target.",
+     "Repeat the card until the allocated time is complete."
+    ],
+    "advice": [
+     "This is a blend between a creative and execution card. This is a chance to learn to hit three distance controlled trajectories."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Greenie",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "5-iron and 6-iron. Choose a target. Hit to the target with the same shot shape (fade or draw) each time. Use each club for half of the time.",
+     "Repeat until the allotted time is complete."
+    ],
+    "advice": [
+     "This is an approach card for long par 3s and long par 4s. Accept “good-enough” shots and focus on having a repeatable shape.",
+     "Hitting the green is a win."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Shot Shaper",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a primary target for your 6-iron. Choose a secondary target 15 yards left or right of the primary target. Start a ball inside the secondary target that moves toward the primary target and ends between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a scoring approach card. The goal is to see the shape, see the target, and hit the shape to the target.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Holly",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 40 yards apart. Start a ball inside the left target that fades toward the right target and ends between the two targets."
+    ],
+    "advice": [
+     "Imagine a runway between the two targets. The goal is to see the shape, see the target, and hit the shape down the runway."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Wizard",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a pin that is short sided and roughly 5-7 paces away.",
+     "Using your highest lofted wedge, hit a bump and run, then a stock shot, and then a high flop.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This card is meant to be difficult. By putting yourself in challenging positions in practice and attempting different shots, you will be prepared to face them on the course with ease. Develop confidence as you succeed."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Si-Woo",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "In contention at the 2021 Masters, Si-Woo Kim slammed his putter down and broke it. We NEVER condone this, but crazy things happen in golf.",
+     "Using clubs other than your putter, attempt to putt from 5 paces, 10 paces and 15 paces. Try to do no worse than two- putting from each spot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "We recommend trying your sand wedge or 3 wood to begin. Use your normal putting stroke and stay athletic. This is a great opportunity to work on your touch."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Pin Seeker",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Using your lowest lofted club, hit the ball as low and as far as you can. If there is a flag stick in the distance, hit it off that.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This shot is so effective for windy days, narrow fairways and long par 5's that have a window to run the ball up to the green. It also helps focus on ball striking."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "No Spin Zone",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your gap wedge and targets at 20 and 40 yards short of your stock gap wedge yardage. Hit your gap wedge to flight it down and minimize the spin, alternating between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is one of Nico's favorite shots, and a necessary shot in the wind or to the back pin. For reference he hits his gap wedge 142, but uses this shot into back pins around 100 yards to hit it close and minimize spin."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots hit and the total number of shots that were at the correct trajectory and with minimal spin."
+    ]
+   },
+   {
+    "title": "The Eurostep",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "8-iron. Two targets differing by 10-yards in distance.",
+     "Alternate between targets on each shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Reset and use your pre-shot routine on each shot.",
+     "We suggest a comfortable range of approximately 8 paces."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the number of balls that land a comfortable range from your target each round."
+    ]
+   },
+   {
+    "title": "Hitting BOMBS",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a precise target in the distance such as the top of a tree, abuilding, or a pole. Reach back, and hit a bomb."
+    ],
+    "advice": [
+     "This is a Driver warm-up card. Imagine you are on a downwind par5, no penalty areas. Tee it up. Let it fly. Stretch it out.",
+     "Go through your routine on eachshot"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Good, The Bad, & The Ugly",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "One pin. Three balls. Three lies. A good lie, a bad lie, and a horrendous lie; we suggest stepping on the ball in thickish rough.",
+     "Hit to the pin.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Push yourself on creating bad lies. Then set a goal that you chip the horrendous lie ball closer than either the good or bad lies. Imagine the good lie result was hit by a competitor."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of chips hit and the number of times your horrendous chip was better than the good chip."
+    ]
+   },
+   {
+    "title": "Mega Flop",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose 4 spots and a target for each spot. Hit 5 mega-flops from each spot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Choose multiple lies both in stance and in grass. Take note of those you are comfortable with and those that you are not.",
+     "Enjoy the challenge of this card and celebrate each success."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "On and Around",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a putt greater than 13 paces. Finish out.",
+     "Choose a putt from the fringe greater than 13 paces. Finish out.",
+     "Repeat the card until the allotted time is complete, choosing different putts each round."
+    ],
+    "advice": [
+     "Your goal with an iron is to get the ball on or around the green. This card simulates the putts you are most likely to see."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Count the number of 1-putts, 2-putts, and 3+ putts."
+    ]
+   }
+  ]
+ },
+ "ProcessAllAreasBlueprint": {
+  "intro": "In this month's work, remember that the key to practice paying off is staying committted to the process. This is the perfect time for habits to settle in and start to pay off. Give attention to the details.",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     "No Spin Zone (Wedges)",
+     "Better and Better (Approach)",
+     "The Apartment Building (Driving)",
+     "Better than Most (Putting)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "Mid Life (Wedges)",
+     "Pin Huting (Wedges)",
+     "Aggressively Conservative (Approach)",
+     "The Henrik (Driving)",
+     "The Ken Miles (Driving)",
+     "Bump and Run (Chipping)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Windy City (Wedges)",
+     "Target Tracing (Approach)",
+     "The Houdini (Driving)",
+     "Canadian Football (Approach)",
+     "Butter Knives (Driving)",
+     "Short Game Magic (Chipping)",
+     "The Half Moon (Putting)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": "No Spin Zone",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your gap wedge and targets at 20 and 40 yards short of your stock gap wedge yardage. Hit your gap wedge to flight it down and minimize the spin, alternating between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is one of Nico's favorite shots, and a necessary shot in the wind or to the back pin. For reference he hits his gap wedge 142, but uses this shot into back pins around 100 yards to hit it close and minimize spin."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots hit and the total number of shots that were at the correct trajectory and with minimal spin."
+    ]
+   },
+   {
+    "title": "Better and Better",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "Yes",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron and a target that is within your comfortable range. If there is a physical green, hit to that. If there is not, imagine a small, par 3 green with bunkers short right and a tucked pin.",
+     "Hit the first shot safely on the green. Hit the second shot taking on more risk to hit it close. Hit the final shot trying to make a hole in one.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Par 3's often average over par for tournaments. Hitting the first shot to a safe place and two putting for par is a very solid strategy. Learning to hit to a scoring distance in putting is an even better strategy."
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "The Apartment Building",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Using your driver, tee the ball up at your normal height and hit 5 balls.",
+     "Put the tee at a lower height and hit 5 balls.",
+     "Then place the tee as low as possible and hit 5 balls.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to change your driver trajectory by adjusting your tee height. Additionally, you might find your accuracy and ball striking improves as you experiment with a lower tee height."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Better than Most",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "1 ball. Choose a challenging putt that is 15+ paces with moderate to significant break.",
+     "Repeat the card until the allotted time is complete, choosing a new putt each time if possible."
+    ],
+    "advice": [
+     "This putt is to win, with a 2- putt to tie. You want to give yourself a chance at holing this putt.",
+     "It is easy on long putting practice to get lazy. Read the putt in full to begin with. Go through your routine on each try."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record your number of 1- putts, 2-putts, and total attempts."
+    ]
+   },
+   {
+    "title": "Mid Life",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Use your most lofted wedge. Choose two targets, one at 30- yards and one at 50-yards.",
+     "Hit three balls at the first target. Hit three balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage. Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Pin Huting",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose any wedge you prefer. Choose a pin or marker at an appropriate distance for the wedge.",
+     "Hit to the pin or marker until you strike it on the fly or bounce. Then, choose a different wedge and try for the same pin or marker.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Use your routine on every shot. The main goal is to concentrate on taking dead aim and playing aggressively to the pin. If you hit the pin, it's a bonus!"
+    ],
+    "tracking": [
+     "10 minutes.",
+     "None"
+    ]
+   },
+   {
+    "title": "Aggressively Conservative",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Use your 5-iron and choose a pin. If you play a fade, choose two targets, one 45-feet left of the pin and one 15-feet left of the pin. Start a ball inside the left target that fades toward the right target. The shot must end 10-foot left of the pin or farther. If you play a draw, choose two targets, one 45-feet right of the pin and one 15-feet right of the pin. Start a ball inside the right target that draws toward the left target. The shot must end 10- foot right of the pin or farther.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a targeting approach card. The goal is to see the shape, see the target, and commit to the target.",
+     "Bay Hill #18, Sunday pin. Feel free to experiment with both fades and draws."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Henrik",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Use your 3-wood (or closest club to it). Choose two targets 40- yards apart. Choose a precise target between these two targets.",
+     "See your shot and commit to that target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a fairway between the two targets. Choose a target and fully commit to that target.",
+     "Go through your full routine."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls landing between the targets."
+    ]
+   },
+   {
+    "title": "The Ken Miles",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Driver and 3-wood (or next driving club). Choose two targets 50-yards apart.",
+     "Hit 5 Drivers between the targets. Hit 5 3-woods between the targets.",
+     "Repeat the card until you’ve hit 10 shots with each club."
+    ],
+    "advice": [
+     "This is a “versus” drill to track your Driver versus 3- wood dispersion tendencies off the tee.",
+     "Reset after each shot, using your routine."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots landing between the targets with each club."
+    ]
+   },
+   {
+    "title": "Bump and Run",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose two different pins and a spot that you can comfortably hit a bump and run to each pin with a 9-iron.",
+     "Bump and run 5 balls at the first pin. Bump and run 5 balls at the second pin.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "We suggest choking down and using a putting-like stroke. The heel of the club might be slightly off the ground.",
+     "Concentrate on delivering a consistent strike to the ball."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Windy City",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Using your pitching wedge, select two targets that are significantly closer than your stock yardage. Hit low, flighted pitching wedges to your desired targets, alternating targets every two balls."
+    ],
+    "advice": [
+     "Learning to flight your wedge will help you hit shots into the wind and control spin on the green. For reference of yardages, Nico hits his pitching wedge 160 yards, but would do this card at 110 & 125 yards. Kevin hits his pitching wedge 135 but would do this card at 90 and 110 yards."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "None"
+    ]
+   },
+   {
+    "title": "Target Tracing",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 5-iron. Choose a pin target, and then choose a second target 25 ft. from that pin.",
+     "Commit to that second target on every shot."
+    ],
+    "advice": [
+     "This is a chance to work on choosing and committing targets other than a pin.",
+     "We suggest an edge of a bunker, a tree in the distance, or an edge of a target green for your second target."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots hit and the total number of acceptable (e.g., 25 ft) shots to the second target."
+    ]
+   },
+   {
+    "title": "The Houdini",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a precise target. Stock Driver swing, chocking down several inches to lower the trajectory and improve accuracy.",
+     "Replicate the same shot shape on each shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is your opportunity to work on that Driver stinger. Anthony Kim was an expert at this before he pulled The Houdini.",
+     "What matters most is trajectory and accuracy."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Canadian Football",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a target approximately 150-yards away, which is the length of a Canadian Football field. Select the club you are most comfortable with at this yardage.",
+     "Hit to the target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "We suggest a comfortable range of approximately 12 yards."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots and the total number of shot that land a comfortable range from your target each round."
+    ]
+   },
+   {
+    "title": "Butter Knives",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "2-iron (or lowest lofted iron/driving iron). Choose two targets 30-yards apart. Hit a 2-iron tee shot down the runway.",
+     "Hit 5 standard 2-iron tee shots. Hit 5 stinger tee shots.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a block drill. Dial in your 2-iron tee shot.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots hit and the number of shots landing within the 30- yard runway."
+    ]
+   },
+   {
+    "title": "Short Game Magic",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a spot that provides chips to two targets of different length. These chips should be straight-forward and you should expect to get up-and-down from them.",
+     "Chip to target A until you hit three to a comfortable putting range. Then chip to target B until you hit three to a comfortable putting range."
+    ],
+    "advice": [
+     "We suggest you chip to each target with the same wedge.",
+     "A suggestion for a comfortable putting range is 1-2 paces."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Repeat until you’ve completed each target 2- times or time has completed.",
+     "Record the total time it takes to complete and the total number of chips."
+    ]
+   },
+   {
+    "title": "The Half Moon",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a (significantly) downhill putt. Place 7 balls at 3 paces away, 1 at each 9, 10, 11, 12, 1, 2 and 3 o’clock forming a half moon with 12 o’clock directly above the hole.",
+     "Putt to make, moving to the other marker after a make. The card is done after you’ve made each putt once and the last putt twice in a row."
+    ],
+    "advice": [
+     "This is a making drill.",
+     "This distance is your chance to cash in and take advantage of a solid wedge shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many total putts you took before completing the card."
+    ]
+   }
+  ]
+ },
+ "ProcessAllAspects": {
+  "intro": "Take a moment to reflect on all you've accomplished at this point. You're putting in the work and sticking to the process, and that alone is something to celebrate. (45 min.)",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     "Retirement (Wedges)",
+     "Going 4 It (Approach)",
+     "Hitting BOMBS (Driving)",
+     "The Deep End (Putting)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "Lil Jon (Wedges)",
+     "Hawaii Cuts (Driving)",
+     "Dim Tuncan (Approach)",
+     "Social Security (Wedges)",
+     "Papa Roach (Chipping)",
+     "The Steve (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Cold Brew (Driving)",
+     "The Wilt (Wedges)",
+     "Flight 999 (Approach)",
+     "Two-Story (Approach)",
+     "The Squeeze Cut (Driving)",
+     "Short Sided (Chipping)",
+     "The Longboard (Putting)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": "Retirement",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets, one at 50-yards and one at 70-yards.",
+     "Using an appropriate wedge, hit two balls at the first target. Hit two balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage.",
+     "Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Going 4 It",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "3-wood (or driving iron/hybrid) and 4-iron/hybrid. Choose a target. Hit to the target with the same shot shape (fade or draw) each time. Use each club for 5-minutes.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a long-approach card for reachable par 5s. Accept “good-enough” shots and focus on having a repeatable shape.",
+     "We suggest a “good- enough” that is on the green."
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "Hitting BOMBS",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a precise target in the distance such as the top of a tree, abuilding, or a pole. Reach back, and hit a bomb."
+    ],
+    "advice": [
+     "This is a Driver warm-up card. Imagine you are on a downwind par5, no penalty areas. Tee it up. Let it fly. Stretch it out.",
+     "Go through your routine on eachshot"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Deep End",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a cup. Place two ball markers 10 ft. below and above the hole.",
+     "Putt to make, moving to the other marker after a make.",
+     "Attempt to make 10 putts before the time is complete."
+    ],
+    "advice": [
+     "This is a making drill.",
+     "This distance is your chance to cash in and take advantage of a solid wedge shot. Do not rush."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many total putts you took before completing the card. Try to complete the drill in 20 putts or less."
+    ]
+   },
+   {
+    "title": "Lil Jon",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose three targets, one at 30 yards, one at 60 yards, and one at 90 yards.",
+     "Using the same club, hit 3 balls to the first target. Hit 3 balls to the second target. Hit 3 balls to the third target.",
+     "Repeat the card until the allocated time is complete."
+    ],
+    "advice": [
+     "This is a blend between a creative and execution card. This is a chance to learn to hit three distance controlled trajectories."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Hawaii Cuts",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets 40 yards apart. Visualize a fairway with no significant hazards.",
+     "Try to hit a low-bullet cut attempting to keep the ball beneath wind.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Ideally this is a windy day in which you can hit into it. If not, try to imagine you’re playing in Hawaii with a significant head wind.",
+     "Keep your tempo."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls staying beneath a tree line."
+    ]
+   },
+   {
+    "title": "Dim Tuncan",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 8-iron. Choose an appropriate target and hit your stockshot.",
+     "Repeat the card until the allotted time is complete"
+    ],
+    "advice": [
+     "FUNDAMENTALS.This is an opportunity to work on building elements like technique,alignment, and playing a stock shot to a specific target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Social Security",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets, one at 65-yards and one at 85-yards. Choose an appropriate wedge.",
+     "Hit two balls at the first target. Hit two balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage. If you cannot use one wedge that works for both distances, use two wedges.",
+     "Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Papa Roach",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Use your 3-wood, fairway wood, or hybrid. Find the tightest lie you can to where you can’t use a wedge, and choose a pin that you can roll the ball to.",
+     "Choke down to the end of the grip, and using a putting motion hole the shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a shot that anybody can and everybody should use. False fronts, tight lies into the grain, smooth fringe, or on your favorite links course, this shot will come in handy.",
+     "Often times, this is your last resort…"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Steve",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Place 2 balls each at 5 paces, 10 paces, and 15 paces.",
+     "Putt to make, but every ball must go past the hole. If at any point your putt comes up short, go back to 5 paces and restart.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "90% of putts left short don't go in the hole. Give yourself a chance to make putts by hitting the ball past the hole consistently."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of times you complete a full round of 5, 10, and 15."
+    ]
+   },
+   {
+    "title": "Cold Brew",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "For the first half of the card, imagine your opening tee shot. Hit it down the fairway.",
+     "For the last half of the card, choose a new target with each shot. Hit to the target."
+    ],
+    "advice": [
+     "We suggest a “good enough” that is 30-yards right and left of your target (a total of 60-yards from right to left).",
+     "This drill is to be done first today in order to simulate going straight to the first tee. Take a deep breath before each shot. Relax and send it."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls that were good enough."
+    ]
+   },
+   {
+    "title": "The Wilt",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a target carry of 100-yards. Select the three wedges that you are most comfortable with at that carry yardage.",
+     "Hit to the target carry for 5 minutes with each club."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to feel the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Flight 999",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron and an appropriate target. Hit a flighted 9- iron that fades. Hit a flighted 9-iron that draws. Hit a flighted 9- iron that is neutral.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the most number of shots in a row that you hit the appropriate trajectory."
+    ]
+   },
+   {
+    "title": "Two-Story",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "7-iron. Choose your distance. Hit 5 stock trajectory shots to that distance. Hit 5 lower trajectory shots to that distance.",
+     "Repeat the card until the allocated time is complete."
+    ],
+    "advice": [
+     "This is a blend between a creative and execution card. This is a chance to learn to hit two distance-controlled trajectories."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Squeeze Cut",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Visualize yourself on a tight par 4 with a dog leg right that you must hit a cut into. Choose two targets in the distance roughly 50 yards apart. Tee the ball slightly lower than usual and hit a low cut into the fairway."
+    ],
+    "advice": [
+     "Imagine a hole you could use less than driver, but you want to play aggressivley. We recommend teeing it down slightly for a bit more control. This is one of Nico's favorite shots to try, even if the Professor hates when he does it!"
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many balls land in your 50 yard window and the total number of balls hit."
+    ]
+   },
+   {
+    "title": "Short Sided",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a short sided chip and the best club for that chip.",
+     "Repeat the card until the allotted time is complete, alternating between a good lie and a bad lie."
+    ],
+    "advice": [
+     "If practicing in a field of dreams where there are no bad lies, step on your ball lightly to produce a bad lie.",
+     "We suggest a comfortable range of 2 paces as the goal."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots and the number of shots that end in a comfortable range."
+    ]
+   },
+   {
+    "title": "The Longboard",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a cup. Choose a slightly uphill or flat straight 10’ putt.",
+     "Putt to make.",
+     "Make 10 putts total.",
+     "After making 10 putts, make 2 in a row to end your session."
+    ],
+    "advice": [
+     "This is a making drill.",
+     "This distance is your chance to cash in and take advantage of a solid wedge shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many total putts you took before completing the card."
+    ]
+   }
+  ]
+ },
+ "Reflection": {
+  "intro": "Take a moment to reflect on all you've accomplished at this point. You're putting in the work and sticking to the process, and that alone is something to celebrate. (45 min.)",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     "No Spin Zone (Wedges)",
+     "Flushing It (Approach)",
+     "Hitting BOMBS (Driving)",
+     "Si-Woo (Putting)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "Lil Jon (Wedges)",
+     "The Alternator (Driving)",
+     "Dim Tuncan (Approach)",
+     "Starting Pitcher (Wedges)",
+     "Must Make (Putting)",
+     "Leap Frog (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Cold Brew (Driving)",
+     "The Redzone (Wedges)",
+     "Flight 999 (Approach)",
+     "Fleetwood Mac (Approach)",
+     "The Stinger (Driving)",
+     "High 'n Soft (Wedges)",
+     "Social Distancing (Putting)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": "No Spin Zone",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your gap wedge and targets at 20 and 40 yards short of your stock gap wedge yardage. Hit your gap wedge to flight it down and minimize the spin, alternating between the two targets.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is one of Nico's favorite shots, and a necessary shot in the wind or to the back pin. For reference he hits his gap wedge 142, but uses this shot into back pins around 100 yards to hit it close and minimize spin."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots hit and the total number of shots that were at the correct trajectory and with minimal spin."
+    ]
+   },
+   {
+    "title": "Flushing It",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 8-iron and an appropriate target for your stock shot.",
+     "Nothing else to consider."
+    ],
+    "advice": [
+     "This is a contact card. Concentrate on making consistent contact and producing a repeatable trajectory and shape.",
+     "This is a chance to work on technique and a swing feel."
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "Hitting BOMBS",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a precise target in the distance such as the top of a tree, abuilding, or a pole. Reach back, and hit a bomb."
+    ],
+    "advice": [
+     "This is a Driver speed card. Imagine you are on a downwind par 5, no penalty areas. Tee it up. Let it fly. Stretch it out.",
+     "Go through your routine on eachshot"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Si-Woo",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "In contention at the 2021 Masters, Si-Woo Kim slammed his putter down and broke it. We NEVER condone this, but crazy things happen in golf.",
+     "Using clubs other than your putter, attempt to putt from 5 paces, 10 paces and 15 paces. Try to do no worse than two- putting from each spot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "We recommend trying your sand wedge or 3 wood to begin. Use your normal putting stroke and stay athletic. This is a great opportunity to work on your touch."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Lil Jon",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose three targets, one at 30 yards, one at 60 yards, and one at 90 yards.",
+     "Using the same club, hit 3 balls to the first target. Hit 3 balls to the second target. Hit 3 balls to the third target.",
+     "Repeat the card until the allocated time is complete."
+    ],
+    "advice": [
+     "This is a blend between a creative and execution card. This is a chance to learn to hit three distance controlled trajectories."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Alternator",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 40 yards apart. On the first 3 balls, imagine a hazard down the left-side of the runway. On the second 3 balls, imagine a hazard down the right-side of the runway.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "On each shot, the goal is to see the fairway and hit it down the fairway. Imagine significant room on the opposite side of the hazard. You can miss there.",
+     "Use your routine on every shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Dim Tuncan",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 8-iron. Choose an appropriate target and hit your stock shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "FUNDAMENTALS.This is an opportunity to work on building elements like technique,alignment, and playing a stock shot to a specific target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Starting Pitcher",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Using your most appropriate wedge, choose two targets. One target at 105. One target at 90. For the first 5-minutes, alternate between each target.",
+     "Then, hit 3 balls at the 105 target. Hit 3 balls at the 90 target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Your goal is to control your trajectory and distance on every shot.",
+     "Your goal is to hit it on your target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Must Make",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Place a ball at three and a half paces (10 feet) from the hole. Hole the putt.",
+     "Continuing at three and a half paces, move to a different spot or hole at each putt. Aim to have different breaks with some putts being uphill, downhill, left to right, right to left, etc."
+    ],
+    "advice": [
+     "This card is meant to simulate a situation where you HAVE to make the putt. You hit a great shot to 10 feet and need to make the putt to win the match. Read each putt and use your routine.",
+     "The PGA tour make rate from 10 feet is around 40% so practice good expectation managament."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record your total number of attempts and the number of putts made."
+    ]
+   },
+   {
+    "title": "Leap Frog",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "10 putts from the same spot. Place a mark approximately 15’ from your ball. Place another mark 15’ beyond the first mark (30’ from your ball). Your first putt has to reach or go past the first mark.",
+     "Each consecutive putt has to travel past the previous ball but not past the second mark.",
+     "Repeat the card until you have 10 consecutive balls between the two marks."
+    ],
+    "advice": [
+     "We suggest choosing a flat part on the green. This is a pass or fail card. You have 10 min. to pass. No back- stopping."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "PASS",
+     "FAIL"
+    ]
+   },
+   {
+    "title": "Cold Brew",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "For the first half of the card, imagine your opening tee shot. Hit it down the fairway.",
+     "For the last half of the card, choose a new target with each shot. Hit to the target."
+    ],
+    "advice": [
+     "Take a deep breath before each shot. Relax and send it."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls that were good enough."
+    ]
+   },
+   {
+    "title": "The Redzone",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets, one at 90-yards and one at 110-yards.",
+     "Using an appropriate wedge, hit three balls at the first target. Hit three balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage.",
+     "Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Flight 999",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron and an appropriate target. Hit a flighted 9- iron that fades. Hit a flighted 9-iron that draws. Hit a flighted 9- iron that is neutral.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the most number of shots in a row that you hit the appropriate shape."
+    ]
+   },
+   {
+    "title": "Fleetwood Mac",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 6-iron and two targets, each being at least 40-60 yards shorter than your stock number.",
+     "Hit a low flighted shot that lands at those targets, alternating between each.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine you are playing in the British Open and need to hit a low, flighted shot into the green. Nico's 6-iron carries 213, but he does this drill between varying targets of 140-170. Kevin's 6-iron carries 185, but he does this drill between varrying targets of 130-150."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Stinger",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your lowest lofted iron and work on hitting the stinger. Imagine a tight tee shot that is 35 yards wide and hit a low, flighted shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "The famed Tiger stinger is a great shot to have in the bag for windy conditions and holes that you need to take less than driver. Concentate mostly on trajectory.",
+     "Here's your inspiration: https://youtu.be/ChGAU_Gu- rU"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "High 'n Soft",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your lob wedge and a target 50-60 yards away. Hit a high and soft shot that stops quickly.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine you hit a great drive and left yourself with a 50-60 yards into a green with a tucked pin. Hit the shot that lands as soft as a butterfly."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Social Distancing",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Place 4 balls 6’ from a hole at 12, 3, 6, and 9 o’clock. Putt to make.",
+     "After making 4 consecutively, place 1 ball at one of the spots. Putt to make.",
+     "Continue the drill until you make 5 consecutive putts or you are out of your allotted time."
+    ],
+    "advice": [
+     "This is a closing drill. Simulate needing to hole these putts for a win.",
+     "Execute your routine on each putt."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Repeat until you make 5 putts in a row or you are out of time."
+    ]
+   }
+  ]
+ },
+ "Reflection2": {
+  "intro": "Take a moment to reflect on all you've accomplished at this point. You're putting in the work and sticking to the process, and that alone is something to celebrate. (45 min.)",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     "The Redzone (Wedges)",
+     "Nukey Boy 9 (Approach)",
+     "Hitting BOMBS (Driving)",
+     "Vegas Odds (Putting)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "Lil Jon (Wedges)",
+     "The Holly (Driving)",
+     "Dim Tuncan (Approach)",
+     "Goldilocks (Wedges)",
+     "Mega Flop (Chipping)",
+     "The Deep End (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Cold Brew (Driving)",
+     "Long is Dead (Wedges)",
+     "Flight 999 (Approach)",
+     "The Pavin (Approach)",
+     "The Runway (Driving)",
+     "Second Team All American (Chipping)",
+     "The Waterfall (Putting)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": "The Redzone",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets, one at 90-yards and one at 110-yards.",
+     "Using an appropriate wedge, hit three balls at the first target. Hit three balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage.",
+     "Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Nukey Boy 9",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron and a target at your 100% max yardage. Hit to the target with your standard 9-iron. Then hit to the target with 100% swing speed trying to hit it past the target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This card is meant to simulate the \"in between\" shot where you could hit a soft 8 or hard 9. NLU Icarito is famous for hitting the \"Nukey Boy 9\" when in between clubs."
+    ],
+    "tracking": [
+     "15 minutes."
+    ]
+   },
+   {
+    "title": "Hitting BOMBS",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a precise target in the distance such as the top of a tree, abuilding, or a pole. Reach back, and hit a bomb."
+    ],
+    "advice": [
+     "This is a Driver warm-up card. Imagine you are on a downwind par5, no penalty areas. Tee it up. Let it fly. Stretch it out.",
+     "Go through your routine on eachshot"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Vegas Odds",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Pace off 3.5 steps (approximately 10) feet on a relatively flat spot. Place a ball down on the putting green and hole it.",
+     "Repeat the putt until you hole 3 putts in a row."
+    ],
+    "advice": [
+     "The PGA Tour make rate from 10 feet is 40%. Making 3 in a row would be incredible - time to buy a flight to Vegas!"
+    ],
+    "tracking": [
+     "10 minutes.",
+     "PASS/FAIL: Did you make 3 putts in a row?"
+    ]
+   },
+   {
+    "title": "Lil Jon",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose three targets, one at 30 yards, one at 60 yards, and one at 90 yards.",
+     "Using the same club, hit 3 balls to the first target. Hit 3 balls to the second target. Hit 3 balls to the third target.",
+     "Repeat the card until the allocated time is complete."
+    ],
+    "advice": [
+     "This is a blend between a creative and execution card. This is a chance to learn to hit three distance controlled trajectories."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Holly",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 40 yards apart. Start a ball inside the left target that fades toward the right target and ends between the two targets."
+    ],
+    "advice": [
+     "Imagine a runway between the two targets. The goal is to see the shape, see the target, and hit the shape down the runway."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Dim Tuncan",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 8-iron. Choose an appropriate target and hit your stockshot.",
+     "Repeat the card until the allotted time is complete"
+    ],
+    "advice": [
+     "FUNDAMENTALS.This is an opportunity to work on building elements like technique,alignment, and playing a stock shot to a specific target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Goldilocks",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your PW and three comfortable yardages for that club, one on the high-end, one on the low-end, and one that is just- right.",
+     "Hit 5 consecutive shots at the low-end yardage. Hit 5 consecutive shots at the high-end yardage. Hit 5 consecutive shots at the just-right yardage.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Mega Flop",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose 4 spots and a target for each spot. Hit 5 mega-flops from each spot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Choose multiple lies both in stance and in grass. Take note of those you are comfortable with and those that you are not.",
+     "Enjoy the challenge of this card and celebrate each success."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Deep End",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a cup. Place two ball markers 10 ft. below and above the hole.",
+     "Putt to make, moving to the other marker after a make.",
+     "Attempt to make 10 putts before the time is complete."
+    ],
+    "advice": [
+     "This is a making drill.",
+     "This distance is your chance to cash in and take advantage of a solid wedge shot. Do not rush."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record how many total putts you took before completing the card. Try to complete the drill in 20 putts or less."
+    ]
+   },
+   {
+    "title": "Cold Brew",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "For the first half of the card, imagine your opening tee shot. Hit it down the fairway.",
+     "For the last half of the card, choose a new target with each shot. Hit to the target."
+    ],
+    "advice": [
+     "We suggest a “good enough” that is 30-yards right and left of your target (a total of 60-yards from right to left).",
+     "This drill is to be done first today in order to simulate going straight to the first tee. Take a deep breath before each shot. Relax and send it."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls that were good enough."
+    ]
+   },
+   {
+    "title": "Long is Dead",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "Yes",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your sand wedge and a comfortable target. If there is a green, hit to that. If not imagine you are hitting into a back pin. You can miss short, but long is dead.",
+     "Hit to the green and pin without going over.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a time to learn your risk tolerance and wedge discipline. Going after the back pin could lead to an easy birdie, or bogey if you go long. Get comfortable playing aggressively smart to a back pin.",
+     "We suggest a \"good enough\" of 6 paces."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hits, the total number of balls long, and the total number of balls \"good enough\"."
+    ]
+   },
+   {
+    "title": "Flight 999",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron and an appropriate target. Hit a flighted 9- iron that fades. Hit a flighted 9-iron that draws. Hit a flighted 9- iron that is neutral.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the most number of shots in a row that you hit the appropriate trajectory."
+    ]
+   },
+   {
+    "title": "The Pavin",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "3-iron (or hybrid) and 4-iron (or higher-lofted hybrid). Choose a target for each club.",
+     "Hit to the target with the same shot shape each time. Use each club for 5-minutes.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a long-approach card for long par 4s and reachable par 5s. We suggest a “good enough” that is 10-yards within your carry yardage. Corey Pavin won 15-times on the PGA Tour hitting these shots."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total numberof shots and the total number of shots that were good enough."
+    ]
+   },
+   {
+    "title": "The Runway",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 40 yards apart. Start a ball inside the targets that ends between the targets. Use your stock shot shape.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Imagine a runway between the two targets. The goal is to see the shape, see the target, and hit the shape down the runway.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Second Team All American",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "Yes",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Wedge of your choice and pin of your choice.",
+     "Chip one ball to the pin. Then, chip another ball to the pin trying to beat the first ball.",
+     "Repeat the card until the allotted time is complete, choosing a new pin after each pair of shots."
+    ],
+    "advice": [
+     "Do a range of straight forward to difficult chips.",
+     "This is you against you. Your goal is that it becomes difficult to win with your second chip."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots and the number of second shots that beat the first."
+    ]
+   },
+   {
+    "title": "The Waterfall",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Identify a spot 15 feet from a hole that is downhill as much as possible.",
+     "Hit putts to the hole from this spot, attempting to die the ball over the front-edge of the hole."
+    ],
+    "advice": [
+     "This is a speed drill. Before each putt, imagine the ball barely falling over the front- edge of the hole. Then attempt to hit it with that speed."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of putts hit and the number of putts that got to the hole but did not end more than 1 pace beyond the hole."
+    ]
+   }
+  ]
+ },
+ "Session1": {
+  "intro": "Take a moment to reflect on all you've accomplished at this point. You're putting in the work and sticking to the process, and that alone is something to celebrate. (45 min.)",
+  "sessions": [
+   {
+    "n": "1",
+    "mins": "(45 min.)",
+    "cards": [
+     "Middle Infielder (Wedges)",
+     "The Pavin (Approach)",
+     "Hitting BOMBS (Driving)",
+     "The Chastain (Putting)"
+    ]
+   },
+   {
+    "n": "2",
+    "mins": "(60 min.)",
+    "cards": [
+     "Lil Jon (Wedges)",
+     "Fairway Finder (Driving)",
+     "Dim Tuncan (Approach)",
+     "Mid Life (Wedges)",
+     "Mega Flop (Chipping)",
+     "The Pacer (Putting)"
+    ]
+   },
+   {
+    "n": "3",
+    "mins": "(70 min.)",
+    "cards": [
+     "Cold Brew (Driving)",
+     "The Wilt (Wedges)",
+     "Flight 999 (Approach)",
+     "Stairway to Heaven (Approach)",
+     "The Holly (Driving)",
+     "Close for Comfort (Chipping)",
+     "Must Make (Putting)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "title": "Middle Infielder",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Use your most-lofted wedge. Choose two targets, one at 40- yards and one at 60-yards. Hit three balls at the first target. Hit three balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage.",
+     "Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Pavin",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "3-iron (or hybrid) and 4-iron (or higher-lofted hybrid). Choose a target for each club.",
+     "Hit to the target with the same shot shape each time. Use each club for 5-minutes.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a long-approach card for long par 4s and reachable par 5s. We suggest a “good enough” that is 10-yards within your carry yardage. Corey Pavin won 15-times on the PGA Tour hitting these shots."
+    ],
+    "tracking": [
+     "15 minutes.",
+     "Record the total numberof shots and the total number of shots that were good enough."
+    ]
+   },
+   {
+    "title": "Hitting BOMBS",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a precise target in the distance such as the top of a tree, abuilding, or a pole. Reach back, and hit a bomb."
+    ],
+    "advice": [
+     "This is a Driver warm-up card. Imagine you are on a downwind par5, no penalty areas. Tee it up. Let it fly. Stretch it out.",
+     "Go through your routine on eachshot"
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Chastain",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Block",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Choose a cup that allows a slightly uphill 24’ putt and a slightly downhill 24’ putt. Place markers at each spot.",
+     "Hit three downhill putts to the cup, ensuring none of them end short. Hit three uphill putts to the cup, ensuring none of them end short.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a speed drill. Concentrate on finding the speed that gets you past the cup, but still in a comfortable range.",
+     "The width of a soccer goal is 24’."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Lil Jon",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose three targets, one at 30 yards, one at 60 yards, and one at 90 yards.",
+     "Using the same club, hit 3 balls to the first target. Hit 3 balls to the second target. Hit 3 balls to the third target.",
+     "Repeat the card until the allocated time is complete."
+    ],
+    "advice": [
+     "This is a blend between a creative and execution card. This is a chance to learn to hit three distance controlled trajectories."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Fairway Finder",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "Yes",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets 40 yards apart. Visualize a significant penalty area on both sides of your runway.",
+     "Hit driver down the runway until the allotted time is complete."
+    ],
+    "advice": [
+     "Practice concentrating on a precise landing target and ensuring proper alignment.",
+     "We suggest visualizing the penalty that gives you the most anxiety like white stakes.",
+     "Go through your routine on each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots and the number of shots that landed in the runway."
+    ]
+   },
+   {
+    "title": "Dim Tuncan",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 8-iron. Choose an appropriate target and hit your stockshot.",
+     "Repeat the card until the allotted time is complete"
+    ],
+    "advice": [
+     "FUNDAMENTALS.This is an opportunity to work on building elements like technique,alignment, and playing a stock shot to a specific target."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Mid Life",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Use your most lofted wedge. Choose two targets, one at 30- yards and one at 50-yards.",
+     "Hit three balls at the first target. Hit three balls at the second target.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a chance to work on feels and hitting to a yardage. Attempt to hit a similar trajectory on all shots."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Mega Flop",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose 4 spots and a target for each spot. Hit 5 mega-flops from each spot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "Choose multiple lies both in stance and in grass. Take note of those you are comfortable with and those that you are not.",
+     "Enjoy the challenge of this card and celebrate each success."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Pacer",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Drop 3 golf balls. Choose 1 target 20-25 ft. away. Putt to the target. Finish out your worst ball.",
+     "Repeat the card until the allotted time is complete. Choose a different target each round."
+    ],
+    "advice": [
+     "This is a speed drill. Each putt should end in a comfortable range to finish out.",
+     "Monitor the ending position of your balls to identify trends and adjust to those trends."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls putted and the total number of balls finishing between 1 ft. short and 3 ft. long or holed."
+    ]
+   },
+   {
+    "title": "Cold Brew",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "For the first half of the card, imagine your opening tee shot. Hit it down the fairway.",
+     "For the last half of the card, choose a new target with each shot. Hit to the target."
+    ],
+    "advice": [
+     "We suggest a “good enough” that is 30-yards right and left of your target (a total of 60-yards from right to left).",
+     "This drill is to be done first today in order to simulate going straight to the first tee. Take a deep breath before each shot. Relax and send it."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of balls hit and the number of balls that were good enough."
+    ]
+   },
+   {
+    "title": "The Wilt",
+    "fields": {
+     "Skillset": "Wedges",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose a target carry of 100-yards. Select the three wedges that you are most comfortable with at that carry yardage.",
+     "Hit to the target carry for 5 minutes with each club."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to feel the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Flight 999",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 9-iron and an appropriate target. Hit a flighted 9- iron that fades. Hit a flighted 9-iron that draws. Hit a flighted 9- iron that is neutral.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is a judgement free practice card. The goal is to see the shot and hit the yardage. No single shot is important. Find your feels.",
+     "Reset after each shot."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the most number of shots in a row that you hit the appropriate trajectory."
+    ]
+   },
+   {
+    "title": "Stairway to Heaven",
+    "fields": {
+     "Skillset": "Approach",
+     "Type": "Random",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose your 7-iron. Hit a flighted shot. Hit a stock shot. Hit a 100% effort shot.",
+     "Repeat the card until the allotted time is complete."
+    ],
+    "advice": [
+     "This is an creative card, meant to find the tempo and effort level you prefer to swing with. At some point, you will need to hit all of these shots on course, so give yourself the freedom to push your limits and find what works for you."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "The Holly",
+    "fields": {
+     "Skillset": "Driving",
+     "Type": "Block",
+     "Launch monitor": "Optional",
+     "Simulate pressure": "No",
+     "Location": "Range"
+    },
+    "description": [
+     "Choose two targets in the distance 40 yards apart. Start a ball inside the left target that fades toward the right target and ends between the two targets."
+    ],
+    "advice": [
+     "Imagine a runway between the two targets. The goal is to see the shape, see the target, and hit the shape down the runway."
+    ],
+    "tracking": [
+     "10 minutes."
+    ]
+   },
+   {
+    "title": "Close for Comfort",
+    "fields": {
+     "Skillset": "Chipping",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Chipping Green"
+    },
+    "description": [
+     "Choose a spot that provides chips to two targets of different length. These chips should be straight-forward and you should expect to get up-and-down from them.",
+     "Alternate each shot from target A to target B until the allotted time is complete."
+    ],
+    "advice": [
+     "We suggest you chip to each target with the same wedge.",
+     "A suggestion for a comfortable putting range is 2 paces."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record the total number of shots and the number of shots you feel comfortable making putts from."
+    ]
+   },
+   {
+    "title": "Must Make",
+    "fields": {
+     "Skillset": "Putting",
+     "Type": "Random",
+     "Launch monitor": "No",
+     "Simulate pressure": "No",
+     "Location": "Putting Green"
+    },
+    "description": [
+     "Place a ball at three and a half paces (10 feet) from the hole. Hole the putt.",
+     "Continuing at three and a half paces, move to a different spot or hole at each putt. Aim to have different breaks with some putts being uphill, downhill, left to right, right to left, etc."
+    ],
+    "advice": [
+     "This card is meant to simulate a situation where you HAVE to make the putt. You hit a great shot to 10 feet and need to make the putt to win the match. Read each putt and use your routine.",
+     "The PGA tour make rate from 10 feet is around 40% so practice good expectation managament."
+    ],
+    "tracking": [
+     "10 minutes.",
+     "Record your total number of attempts and the number of putts made."
+    ]
+   }
+  ]
+ }
+}
