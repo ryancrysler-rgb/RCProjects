@@ -1,12 +1,20 @@
 # Builds "TeamCH3 TeamFLO - The Crucible 37-Week Practice Plan.pdf" from weeks.json (parse.py) + content.py.
 import html, json, os, re, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
-sys.path.insert(0, HERE); from content import MONTHS, FRONT, COMPOSED
+sys.path.insert(0, HERE); from content import MONTHS, FRONT, COMPOSED, CAL, MAJORS, week_date
 TMP = os.path.join(ROOT, '.build', 'crucible'); os.makedirs(TMP, exist_ok=True)
 OUT = os.path.join(ROOT, 'pdf', 'Practice Plans', 'TeamCH3 TeamFLO - The Crucible 37-Week Practice Plan.pdf')
 A = '../../assets/'
 data = json.load(open(os.path.join(HERE, 'weeks.json')))
 W = dict(data['weeks']); W.update(COMPOSED)
+# weeks that moved for the 2027 major calendar: point their missions at the right block
+W['24'] = dict(W['24'], mission=W['24']['mission'].replace("the entire month's training", "everything from Competitive Sharpening"))
+W['36'] = dict(W['36'], mission=W['36']['mission'].replace("the entire month's training", "the strokes gained block"))
+def cn(k): return CAL[k]
+def fmt(d): return d.strftime('%b %-d, %Y')
+def remap_from(t):  # last season's week numbers -> this season's calendar weeks
+    if t == 'New': return 'New drill'
+    return 'From ' + re.sub(r'\b(\d+B?)\b', lambda m: str(CAL.get(m.group(1), m.group(1))) if m.group(1) != '1B' else '1B', t)
 e = html.escape
 
 def lab(l):
@@ -30,7 +38,7 @@ body{margin:0;font-family:B;font-weight:600;color:#253746;-webkit-print-color-ad
 .bd{flex:1;padding:.3in .5in .18in;display:flex;flex-direction:column;min-height:0;font-size:var(--fs,12.5px)}
 .eb{font:700 12px/1.2 B;letter-spacing:.2em;color:#C9432F;text-transform:uppercase}
 h1{font:400 44px/.98 Anton;text-transform:uppercase;margin:6px 0 0;color:#253746}
-.wk{display:flex;align-items:flex-end;gap:18px}
+.wk{display:flex;align-items:flex-end;gap:18px;margin-top:10px}
 .wk .num{font:400 76px/.8 Anton;color:#E04E39;flex:none}
 .mis{font-size:1.12em;line-height:1.4;color:#33475A;margin-top:10px;border-left:4px solid #253746;padding:2px 0 2px 12px}
 .mis b{font-weight:700;color:#253746;letter-spacing:.14em;font-size:.8em;margin-right:6px}
@@ -83,6 +91,9 @@ h1{font:400 44px/.98 Anton;text-transform:uppercase;margin:6px 0 0;color:#253746
 .safe b{color:#C9432F;letter-spacing:.16em;font-size:.85em;margin-right:6px}
 table.map{width:100%%;border-collapse:collapse;margin-top:10px}
 .map td{padding:4px 6px;border-bottom:1px solid #E1E6EA;vertical-align:top;line-height:1.25}
+.map tr.mj td{background:#FCEDEA}.map td span{display:block;font:700 9.5px/1.3 B;letter-spacing:.14em;color:#C9432F;text-transform:uppercase}.map td.dt{white-space:nowrap;color:#7A8A98;font-size:11px;text-align:right}
+.major{display:inline-flex;gap:10px;align-items:baseline;background:#E04E39;color:#fff;border-radius:3px;padding:7px 12px;margin-top:10px;font-size:1em;align-self:flex-start}.major b{font:400 17px/1 Anton;text-transform:uppercase;letter-spacing:.02em}
+.mo li em{font-style:normal;margin-left:auto;font:700 12px/1 B;letter-spacing:.16em;color:#fff;background:#E04E39;border-radius:2px;padding:6px 8px;align-self:center}
 .map td.w{font:400 15px/1.2 Anton;color:#E04E39;width:.55in}
 .map tr.mh td{background:#253746;color:#fff;font:700 10.5px/1.2 B;letter-spacing:.16em;text-transform:uppercase;padding:6px 8px;border:0}
 .map tr.mh td span{color:#F47C67}
@@ -101,7 +112,7 @@ def page(body, label): return f'<div class="pg">{header()}<div class="bd">{body}
 
 def card(i, it, wide=False):
     o = [f'<div class="card{" wide" if wide else ""}"><div class="ct"><div class="cc"><i>{i:02d}</i>{e(it["cat"])}</div>']
-    if it.get('from'): o.append(f'<div class="cf">{"New drill" if it["from"] == "New" else "From " + e(it["from"])}</div>')
+    if it.get('from'): o.append(f'<div class="cf">{e(remap_from(it["from"]))}</div>')
     o.append(f'</div><div class="cn">{e(it["name"])}</div>')
     for l, t in it['rows']:
         if not l: o.append(f'<div class="x">{e(t)}</div>'); continue
@@ -118,10 +129,12 @@ def month_of(k):
         if k in m['weeks']: return m
 
 def week_pages(k):
-    w = W[k]; m = month_of(k); label = f'Week {k}'
-    num = '1B' if k == '1B' else f'{int(k):02d}'
-    head = (f'<div class="eb">Month {m["n"]} · {e(m["title"])}</div><div class="wk"><div class="num">{num}</div>'
-            f'<h1>{e(w["title"])}</h1></div><div class="mis"><b>MISSION</b>{e(w["mission"] or "")}</div>')
+    w = W[k]; m = month_of(k); c = cn(k); label = f'Week {c}' + (' (B)' if k == '1B' else '')
+    num = '1B' if k == '1B' else f'{c:02d}'
+    eb = f'<div class="eb">Month {m["n"]} · {e(m["title"])} · Week of {fmt(week_date(c))}</div>'
+    badge = f'<div class="major"><b>{e(MAJORS[c][0])}</b>{e(MAJORS[c][1])}</div>' if c in MAJORS and k != '1B' else ''
+    head = (f'{eb}<div class="wk"><div class="num">{num}</div>'
+            f'<h1>{e(w["title"])}</h1></div>{badge}<div class="mis"><b>MISSION</b>{e(w["mission"] or "")}</div>')
     # flatten into blocks; max 6 cards per page
     blocks = []
     for s in w['sections']:
@@ -141,13 +154,13 @@ def week_pages(k):
         for kind, v, i in pc:
             if kind == 'h': g.append(f'<div class="sec">{e(v)}</div>')
             else: g.append(card(i, v, wide=(len(cards) == 1)))
-        top = head if pi == 0 else f'<div class="eb">Month {m["n"]} · {e(m["title"])}</div><div class="wk"><div class="num">{num}</div><h1>{e(w["title"])} <span style="color:#7A8A98">(cont.)</span></h1></div>'
+        top = head if pi == 0 else f'{eb}<div class="wk"><div class="num">{num}</div><h1>{e(w["title"])} <span style="color:#7A8A98">(cont.)</span></h1></div>'
         html_pages.append(page(top + f'<div class="grid">{"".join(g)}</div>', label))
     return html_pages
 
 def cover():
     return (f'<div class="pg cv"><img class="m" src="{A}mark.png"><div class="eb">TEAMCH3 · TEAMFLO PRACTICE PLAN</div>'
-            '<h1>The Crucible</h1><div class="sub">37-Week Practice Plan · 2025–26 Season</div>'
+            '<h1>The Crucible</h1><div class="sub">37-Week Practice Plan · 2026–27 Season</div><div class="ln" style="margin-top:10px;color:#F47C67">October 5, 2026 to U.S. Open week, June 2027. Built around the 2027 Masters, PGA Championship and U.S. Open.</div>'
             f'<div class="ln">{e(FRONT["premise"])}</div><div class="rule"></div>'
             '<div class="stats"><div>37<span>WEEKS</span></div><div>9<span>MONTHS</span></div><div>3<span>PHASES</span></div><div>6+6<span>HIIT + DO OR DIE</span></div></div>'
             f'<img class="f" src="{A}flor-white.png"></div>')
@@ -167,9 +180,9 @@ def season_map():
     for grp in (MONTHS[:5], MONTHS[5:]):
       rows = []
       for m in grp:
-        rows.append(f'<tr class="mh"><td colspan="2">Month {m["n"]} · {e(m["title"])}</td></tr>')
+        rows.append(f'<tr class="mh"><td colspan="3">Month {m["n"]} · {e(m["title"])}</td></tr>')
         for k in m['weeks']:
-            rows.append(f'<tr><td class="w">{k if k == "1B" else int(k)}</td><td>{e(W[k]["title"])}</td></tr>')
+            rows.append(f'<tr{" class=mj" if cn(k) in MAJORS and k != "1B" else ""}><td class="w">{k if k == "1B" else cn(k)}</td><td>{e(W[k]["title"])}{"<span>" + e(MAJORS[cn(k)][0]) + "</span>" if cn(k) in MAJORS and k != "1B" else ""}</td><td class="dt">{"" if k == "1B" else week_date(cn(k)).strftime("%b %-d")}</td></tr>')
       cols.append('<table class="map">' + ''.join(rows) + '</table>')
     ph = '<div class="kv" style="margin-top:12px"><b>Phase 1</b><div>The Foundation of Performance · Months 1–3</div><b>Phase 2</b><div>The Strategist &amp; the Shot Maker · Months 4–6</div><b>Phase 3</b><div>The Championship Run · Months 7–9</div></div>'
     return page('<div class="eb">The season</div><h1>37 weeks at a glance</h1>' + ph + '<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px">' + ''.join(cols) + '</div>', 'Season map')
@@ -177,7 +190,7 @@ def season_map():
 def month_page(m):
     intro = m.get('intro') or data['intros'][m['intro_key']]
     intro = re.sub(r'^We (are now|now) enter(ing)? Month \d+: [^.]*\.\s*', '', intro)
-    lis = ''.join(f'<li><span>Week {k}</span>{e(W[k]["title"])}</li>' for k in m['weeks'])
+    lis = ''.join(f'<li><span>{"Week 1B" if k == "1B" else "Week " + str(cn(k)) + " · " + week_date(cn(k)).strftime("%b %-d")}</span>{e(W[k]["title"])}{"<em>" + e(MAJORS[cn(k)][0]) + "</em>" if cn(k) in MAJORS and k != "1B" else ""}</li>' for k in m['weeks'])
     return (f'<div class="pg mo"><img class="m" src="{A}mark.png"><div class="ph">{e(m["phase"])}</div><div class="big">{m["n"]:02d}</div>'
             f'<div class="eb">Month {m["n"]}</div><h1>{e(m["title"])}</h1><div class="ln">{e(intro)}</div><ol>{lis}</ol>'
             f'<img class="f" src="{A}flor-white.png"></div>')

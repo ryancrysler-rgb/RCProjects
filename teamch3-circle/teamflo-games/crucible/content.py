@@ -15,11 +15,12 @@ MONTHS = [
      'intro': 'Replace hope with data. Learn your real carry numbers and dispersion, then play the percentages like a course manager: aggressive swings to conservative targets.'},
     {'n': 5, 'phase': 'Phase 2 · The Strategist & the Shot Maker', 'title': 'Adversity Acclimation & Shot Shaping', 'weeks': ['17', '18', '19', '20'],
      'intro': 'Become an all-weather player. Control trajectory and spin, flight it down in the wind, and curve the ball both ways on command.'},
-    {'n': 6, 'phase': 'Phase 2 · The Strategist & the Shot Maker', 'title': 'Competitive Sharpening & Mental Fortitude', 'weeks': ['21', '22', '23', '24'], 'intro_key': '6'},
-    {'n': 7, 'phase': 'Phase 3 · The Championship Run', 'title': 'Major Prep: The Masters', 'weeks': ['25', '26', '27', '28'], 'intro_key': '7'},
-    {'n': 8, 'phase': 'Phase 3 · The Championship Run', 'title': 'Road Warrior: PGA Championship & U.S. Open', 'weeks': ['29', '30', '31', '32'],
-     'intro': 'May and June. The majors move on the road: long irons and heat at the PGA Championship, narrow fairways and thick rough at the U.S. Open, and tournament weeks that mean travel and limited practice. This month uses drills from the whole season, themed to the championships. Pars are sacred and nothing gets a second chance.'},
-    {'n': 9, 'phase': 'Phase 3 · The Championship Run', 'title': 'Scoring Optimization & Performance Analytics', 'weeks': ['33', '34', '35', '36', '37'], 'intro_key': '9'},
+    {'n': 6, 'phase': 'Phase 2 · The Strategist & the Shot Maker', 'title': 'Competitive Sharpening & Mental Fortitude', 'weeks': ['21', '22', '23'], 'intro_key': '6'},
+    {'n': 7, 'phase': 'Phase 3 · The Championship Run', 'title': 'Road to the Masters', 'weeks': ['25', '26', '27', '28'], 'intro_key': '7'},
+    {'n': 8, 'phase': 'Phase 3 · The Championship Run', 'title': 'Road to the PGA Championship', 'weeks': ['29', '24', '33', '34', '35', '30'],
+     'intro': 'Six weeks from Augusta to PGA Frisco. Reset after the Masters with one-shot qualifier pressure and a full tournament simulation, then turn to scoring: a strokes gained audit, wedge gapping and par 5 math. The block peaks in PGA Championship week with long irons, heat and endurance.'},
+    {'n': 9, 'phase': 'Phase 3 · The Championship Run', 'title': 'Road to the U.S. Open', 'weeks': ['36', '32', '37', '31'],
+     'intro': 'Four weeks from the PGA Championship to Pebble Beach. Prove the numbers with the Strokes Gained exam, prove your preparation travels with the Road Warrior exam, pass the Crucible Culmination, and finish the season in U.S. Open week, where par is sacred.'},
 ]
 
 FRONT = {
@@ -45,7 +46,7 @@ FRONT = {
 }
 
 W29 = {'n': 29, 'title': "The Qualifier's Mindset", 'src': 'Month 8',
-       'mission': 'Road to the PGA Championship. A qualifier gives you one ball on every shot. This week every drill is scored on the first attempt only: no mulligans, no second chances.',
+       'mission': 'The week after the Masters starts the road to the PGA Championship. A qualifier gives you one ball on every shot. This week every drill is scored on the first attempt only: no mulligans, no second chances.',
        'sections': [{'h': None, 'items': [
            d('Full Swing', 'The "One Shot" Qualifier', 'Explosive Broad Jumps (60s).',
              'Place a single ball on the tee and define a 30-yard fairway. This is the 18th hole of a qualifier. You get one shot to find the fairway.',
@@ -68,7 +69,7 @@ W29 = {'n': 29, 'title': "The Qualifier's Mindset", 'src': 'Month 8',
        ]}]}
 
 W30 = {'n': 30, 'title': 'The PGA Championship Test', 'src': 'Month 8',
-       'mission': 'The PGA Championship is a long, hot ball-striker\'s major. This week trains long irons into firm greens, endurance through 18 holes, and aggressive scoring when the window opens.',
+       'mission': 'PGA Championship week. The PGA Championship is a long, hot ball-striker\'s major. This week trains long irons into firm greens, endurance through 18 holes, and aggressive scoring when the window opens.',
        'sections': [{'h': None, 'items': [
            d('Full Swing', 'The Long Iron Gate', 'Kettlebell Swings (60s) (safe weight).',
              'With a 4-iron (or your longest iron or hybrid), hit to a green 190 to 210 yards away. The ball must land on the green.',
@@ -91,7 +92,7 @@ W30 = {'n': 30, 'title': 'The PGA Championship Test', 'src': 'Month 8',
        ]}]}
 
 W31 = {'n': 31, 'title': 'The U.S. Open Grind', 'src': 'Month 8',
-       'mission': 'At the U.S. Open, par is a great score. Narrow fairways, thick rough and firm greens test your patience. Your job is to protect par, avoid hero shots and never make a double.',
+       'mission': 'The final week of the Crucible, played during U.S. Open week at Pebble Beach. At the U.S. Open, par is a great score. Narrow fairways, thick rough and firm greens test your patience. Your job is to protect par, avoid hero shots and never make a double.',
        'sections': [{'h': None, 'items': [
            d('Full Swing', 'The Narrow Fairway', 'Lateral Skater Jumps (60s).',
              'Define a 25-yard fairway. With driver or 3-wood, you must find it.',
@@ -157,7 +158,20 @@ W37 = {'n': 37, 'title': 'The Crucible Culmination', 'src': 'master.txt',
                {'cat': 'Final test', 'name': '18-Hole Simulated Match or 6-Hole Live Course Test', 'extra': [], 'rows': [
                    ['Rules', 'No double bogeys on the scorecard. 100% pre-shot routine compliance on every shot: breath, visual, target callout, commitment.'],
                    ['Consequence', 'A double bogey or a broken routine fails the Culmination. Take 3 days to recover, then re-test before your next tournament.'],
-                   ['Graduation', 'Completing Week 37 means you have graduated from the Crucible: fully conditioned, mentally inoculated and tournament ready.']]},
+                   ['Graduation', 'Pass this exam and you have graduated from the Crucible: fully conditioned, mentally inoculated and tournament ready. Your reward is the final week: U.S. Open week.']]},
            ]}]}
 
 COMPOSED = {'29': W29, '30': W30, '31': W31, '32': W32, '37': W37}
+
+import datetime as _dt
+START = _dt.date(2026, 10, 5)  # Week 1 (Monday). Week 37 = U.S. Open week.
+MAJORS = {27: ('Masters week', 'Augusta National · April 8–11, 2027'),
+          33: ('PGA Championship week', 'PGA Frisco · May 20–23, 2027'),
+          37: ('U.S. Open week', 'Pebble Beach · June 17–20, 2027')}
+CAL = {}
+_i = 0
+for _m in MONTHS:
+    for _k in _m['weeks']:
+        if _k == '1B': CAL[_k] = 1; continue
+        _i += 1; CAL[_k] = _i
+def week_date(c): return START + _dt.timedelta(days=7 * (c - 1))
