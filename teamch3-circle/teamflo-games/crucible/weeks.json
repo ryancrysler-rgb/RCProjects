@@ -1,0 +1,4080 @@
+{
+ "weeks": {
+  "1": {
+   "n": 1,
+   "title": "Foundational Control",
+   "mission": "Master the fundamentals of control. Establish a baseline of precision in putting, chipping, and iron play before earning the right to hit for power.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "Putting Start Line",
+       "rows": [
+        [
+         "HIIT",
+         "High Knees in Place (60s)"
+        ],
+        [
+         "Do or Die",
+         "The Putt Gate. Set up a 4-foot putt. Place two tees just wider than your putter head to form a gate. You must make 10 consecutive putts without the putter touching the gate."
+        ],
+        [
+         "Consequence",
+         "Hitting a tee or missing a putt resets your count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Iron Strike",
+       "rows": [
+        [
+         "HIIT",
+         "Squat Jumps (45s)"
+        ],
+        [
+         "Do or Die",
+         "Center-Face Purity. Spray your 7-iron face. You must produce 5 consecutive centered strikes (a clean circle in the middle)."
+        ],
+        [
+         "Consequence",
+         "An off-center strike (heel or toe) resets your count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Opening Tee Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Fast Feet / Ickey Shuffle (60s)"
+        ],
+        [
+         "Do or Die",
+         "Stand behind your \"practice\" tee. Close your eyes and execute a full, vivid pre-shot routine in your mind. See the target, feel the swing, and visualize the perfect ball flight finding the fairway."
+        ],
+        [
+         "Consequence",
+         "If your mind wanders or you lose focus, you must restart the visualization. Perform this 3 consecutive times with perfect mental clarity."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "Chipping Landing Zone",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Lunges (60s)"
+        ],
+        [
+         "Do or Die",
+         "The Towel Drop. Place a towel 10-15 yards away. You have 5 balls to land 3 of them on the towel."
+        ],
+        [
+         "Consequence",
+         "Failure to land 3/5 on the towel means you perform a 30-second plank before restarting the drill."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Fairway Finder",
+       "rows": [
+        [
+         "HIIT",
+         "Burpees (45s)"
+        ],
+        [
+         "Do or Die",
+         "The 30-Yard Channel. With your longest iron, hit to a target. Your shot must stop within a 3 finger channel. You must hit 3 consecutive shots in the channel."
+        ],
+        [
+         "Consequence",
+         "One shot outside the channel resets your count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Pressure Putt",
+       "rows": [
+        [
+         "HIIT",
+         "Mountain Climbers (60s)"
+        ],
+        [
+         "Do or Die",
+         "Stand over a 10-foot putt. Close your eyes. Visualize making the putt to win your Club Championship. See the line, feel the stroke, hear the ball drop in the cup."
+        ],
+        [
+         "Consequence",
+         "You must hold this positive visualization for 30 uninterrupted seconds. If negative thoughts intrude, restart. Perform 3 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w01.txt"
+  },
+  "2": {
+   "n": 2,
+   "title": "Earning Speed",
+   "mission": "Build and control explosive power. Focus on generating speed while maintaining the control established in Week 1.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "Lag Putting Control",
+       "rows": [
+        [
+         "HIIT",
+         "Kettlebell or Dumbbell Swings (60s)"
+        ],
+        [
+         "Do or Die",
+         "The 3-Foot Circle. From 40 feet away, you have 5 putts. All 5 must come to rest within a 3-foot radius of the cup."
+        ],
+        [
+         "Consequence",
+         "Any ball outside the circle is a failure. Perform 5 push-ups per failure, then restart the drill."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Speed with Control",
+       "rows": [
+        [
+         "HIIT",
+         "Rotational Medicine Ball Slams (45s)"
+        ],
+        [
+         "Do or Die",
+         "The 80/100 Hybrid. With a 7-iron, hit one shot at a controlled 80% effort. Hit the next at 100% max speed. To pass, both shots must land within your 30-yard \"fairway channel.\" You must execute 3 successful pairs."
+        ],
+        [
+         "Consequence",
+         "If either shot in the pair misses the fairway, the pair is a failure. Restart the pair."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Hero Shot Layup",
+       "rows": [
+        [
+         "HIIT",
+         "Box Jumps (60s)"
+        ],
+        [
+         "Do or Die",
+         "Visualize a 230-yard carry over water to a tight pin. Feel the adrenaline. Now, visualize making the disciplined choice: selecting an iron, aiming at a safe lay-up zone, and executing the smart shot."
+        ],
+        [
+         "Consequence",
+         "Hold the feeling of \"smart satisfaction\" over \"risky temptation\" for 30 seconds. Repeat 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "High & Soft Pitch",
+       "rows": [
+        [
+         "HIIT",
+         "Broad Jumps (45s)"
+        ],
+        [
+         "Do or Die",
+         "The Parachute Drop. From 30 yards, place an obstacle (e.g., headcover) between you and the hole on the green. Your pitch shot must carry the obstacle and stop within one flagstick of the hole. You must succeed 4 out of 5 times."
+        ],
+        [
+         "Consequence",
+         "Failure means a 30-second wall sit, then restart the 5 shots."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Driver Power",
+       "rows": [
+        [
+         "HIIT",
+         "Sprint 50 yards, jog back (repeat for 60s)"
+        ],
+        [
+         "Do or Die",
+         "The Launch Code. You get 3 drives. All 3 must carry a predetermined distance (e.g., 250 yards) AND stay within a 40-yard wide fairway."
+        ],
+        [
+         "Consequence",
+         "A single failure (either short of the distance or outside the fairway) means you restart the HIIT sprint before re-attempting the 3 drives."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "Recovering from a Bad Drive",
+       "rows": [
+        [
+         "HIIT",
+         "Battle Ropes or Fast Punches (45s)"
+        ],
+        [
+         "Do or Die",
+         "Visualize hitting your opening tee shot out of bounds. Feel the anger and frustration. Now, mentally execute your post-shot recovery routine: take a deep breath, re-focus, and calmly prepare for your next shot with 100% commitment. Hit it."
+        ],
+        [
+         "Consequence",
+         "You must successfully transition from the \"frustration\" state to a \"calm and committed\" state within 20 seconds. Repeat 3 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w02.txt"
+  },
+  "3": {
+   "n": 3,
+   "title": "Pressure Inoculation",
+   "mission": "To intentionally seek out uncomfortable situations and perform. Train your mind to be calm and your process to be reliable when it matters most.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The Unmakable Putt",
+       "rows": [
+        [
+         "HIIT",
+         "Plank Jacks (60s)"
+        ],
+        [
+         "Do or Die",
+         "Find a nasty double-breaking 30-foot putt. You get 5 attempts. The goal is NOT to make it. The goal is to have 5 putts where the speed is perfect, leaving a simple tap-in if you miss."
+        ],
+        [
+         "Consequence",
+         "A single putt that is hit too hard (leaving more than 3 feet) or too soft (more than 3 feet short) is a failure. 10 squat jumps per failure."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Uncomfortable Lie",
+       "rows": [
+        [
+         "HIIT",
+         "Dumbbell Farmer's Carry (45s, heavy weight or most you can safely do)"
+        ],
+        [
+         "Do or Die",
+         "Take 5 balls and throw them into bad lies: a divot, thick rough, sidehill lie. Your only goal is to execute your full routine and make solid contact, advancing the ball to a playable target."
+        ],
+        [
+         "Consequence",
+         "A chunked or thinned shot is a failure. You must achieve 4 out of 5 \"successful advances.\" Failure to do so restarts the drill."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The First Tee Jitters",
+       "rows": [
+        [
+         "HIIT",
+         "Jump Rope (60s, fast pace)"
+        ],
+        [
+         "Do or Die",
+         "Mentally place yourself on the first tee of a tournament with people watching. Feel the nerves. Your drill is to mentally execute your tactical breathing (e.g., box breathing) until you feel your mental state calm down. Then, execute your visualized pre-shot routine. Then hit a good tee shot."
+        ],
+        [
+         "Consequence",
+         "You must achieve a state of \"calm readiness\" 3 consecutive times…or more until you’ve hit three good ones."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Must-Make Up & Down",
+       "rows": [
+        [
+         "HIIT",
+         "Wall Sit (hold for 60s)"
+        ],
+        [
+         "Do or Die",
+         "The Scrambler's Test. Place your ball in the worst possible spot to a tough pin (e.g., short-sided in a bunker). You have one ball. You must get up and down."
+        ],
+        [
+         "Consequence",
+         "You must go 3 for 5 from 5 different impossible locations. Failure to get 3 successful up-and-downs requires you to restart the drill from 5 new spots."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Shot Shaping on Demand",
+       "rows": [
+        [
+         "HIIT",
+         "Lateral Bounds / Skater Jumps (45s)"
+        ],
+        [
+         "Do or Die",
+         "Pick a central tee shot target. You must hit a draw, then a fade, then a straight shot. All 3 must land within a 40-yard wide fairway or three fingers wide placing your arm out front of your field of vision."
+        ],
+        [
+         "Consequence",
+         "Any shot that does not curve as intended or misses the fairway is a failure. You must restart the 3-shot sequence."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Closing Stretch",
+       "rows": [
+        [
+         "HIIT",
+         "Squats (60s)"
+        ],
+        [
+         "Do or Die",
+         "Visualize playing the 16th, 17th, and 18th holes of a tournament where you hold a one-shot lead. See the trouble, acknowledge the pressure, but focus intensely on executing your game plan for each specific hole and target. Play the holes."
+        ]
+       ],
+       "extra": [
+        "Consequence: Your visualization must be strategic and process-focused, not outcome-focused. Perform the full 3-hole stretch mentally without losing focus. Judge yourself. Failure = repeat."
+       ]
+      }
+     ]
+    }
+   ],
+   "src": "w03.txt"
+  },
+  "4": {
+   "n": 4,
+   "title": "Solidifying Control",
+   "mission": "To challenge the consistency of your fundamentals. This week, we introduce drills that require you to maintain precision over longer sequences and varied conditions, cementing the control you built in weeks 1-3.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "Putting Gates & Speed",
+       "rows": [
+        [
+         "OPTIONAL HIIT",
+         "Jump Rope with High Knees (60s)"
+        ],
+        [
+         "Do or Die",
+         "The Gauntlet. Place a \"gate\" 2 feet in front of your ball on a 15-foot putt. You must send the ball through the gate and have it finish within a 1-foot circle around the hole."
+        ],
+        [
+         "Consequence",
+         "You must succeed 5 times in a row. A single failure (hitting the gate or finishing outside the circle) resets your count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Shot Trajectory Control",
+       "rows": [
+        [
+         "OPTIONAL HIIT",
+         "Kettlebell Goblet Squats (45s) (Safe weight)"
+        ],
+        [
+         "Do or Die",
+         "High-Low Challenge. With a 6-iron, you must hit two consecutive shots to a target window. The first must be a high shot that lands softly; the second must be a low, piercing \"stinger\" shot. Both must land within a 20-yard wide fairway."
+        ],
+        [
+         "Consequence",
+         "You must execute 3 successful high-low pairs. If either shot in a pair misses the target window, the pair is a failure. Perform 5 broad jumps and restart the pair."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "Course Management Under Pressure",
+       "rows": [
+        [
+         "OPTIONAL HIIT",
+         "Plank with alternating shoulder taps (60s)"
+        ],
+        [
+         "Do or Die",
+         "Visualize a 420-yard par 4 with water down the right side. Verbally (or mentally) walk through your entire strategic process: identify the ideal leave yardage, select a conservative target on the opposite side of the trouble, and choose a club off the tee that maximizes your chance of hitting that target. Choose a club for the second shot and repeat."
+        ],
+        [
+         "Consequence",
+         "Your visualized plan must be decisive and logical. You must perform this visualization process 3 times, each time for a different challenging hole, without wavering or second-guessing your smart decision."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Scrambler's Test",
+       "rows": [
+        [
+         "OPTIONAL HIIT",
+         "Alternating Step-Ups onto a bench (60s)"
+        ],
+        [
+         "Do or Die",
+         "The Up, Down, and In. From 25 yards off the green, you must get up and down in exactly two shots (chip and putt)."
+        ],
+        [
+         "Consequence",
+         "You must succeed 3 times in a row from 3 different locations. A failure to get up and down in two shots resets your count to zero and you must move to a new location."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Variable Distance Irons",
+       "rows": [
+        [
+         "OPTIONAL HIIT",
+         "Dumbbell Push Press (45s) (Safe Weight or standing band press)"
+        ],
+        [
+         "Do or Die",
+         "The Randomizer. Have a partner call out a random number or use the Google Random Number Generator for yardages between 120 and 170 yards. You have 15 seconds (set alarm) to select your club, take one practice swing, and hit the shot. The ball must land within 10% of the distance to the hole (e.g., within 15 yards on a 150-yard shot)."
+        ],
+        [
+         "Consequence",
+         "You must execute 4 out of 5 successful shots. Failure requires a 30-second wall sit before restarting the 5-shot sequence."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The \"Bad Round\" Reset",
+       "rows": [
+        [
+         "OPTIONAL HIIT",
+         "Bicycle Crunches (60s) (Lying on back doing crunches and pedaling your feet)"
+        ],
+        [
+         "Do or Die",
+         "Visualize being 4-over-par through 3 holes. Feel the frustration. Now, engage your \"24-second rule\" mental process. Take a deep breath, \"throw away\" the past holes, and re-focus on the process for the 4th tee shot—your stance, your target, your swing thought—not the score. Send it."
+        ],
+        [
+         "Consequence",
+         "You must achieve a mental state of neutral, process-focused commitment within 30 seconds. Repeat this visualization 3 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w04.txt"
+  },
+  "5": {
+   "n": 5,
+   "title": "Unlocking Latent Power",
+   "mission": "To awaken your fast-twitch muscle fibers and begin sequencing the body to generate effortless speed. This week is about introducing speed into the system you've built.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "Aggressive Lag Putting",
+       "rows": [
+        [
+         "HIIT",
+         "Broad Jumps (60s). Focus on maximum distance with each jump, building explosive horizontal force."
+        ],
+        [
+         "Do or Die",
+         "The Three-Putt Poison. From 50 feet, you get two putts. Your first putt must get to the hole. Leaving a putt short is an automatic failure. Your second putt must be holed."
+        ],
+        [
+         "Consequence",
+         "You must succeed (no 3-putts, no short first putts) on 4 out of 5 attempts. Failure resets the count."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Building Effortless Speed",
+       "rows": [
+        [
+         "HIIT",
+         "Rotational Medicine Ball Throws (45s each side). Focus on generating speed from the ground up through your core. This is a direct power source for your swing."
+        ],
+        [
+         "Do or Die",
+         "The Speed Ladder. With a 7-iron, hit three consecutive shots. The first at 70% effort, the second at 85%, and the third at 100% max speed. All three shots must land within a 40-yard wide fairway."
+        ],
+        [
+         "Consequence",
+         "A single shot outside the fairway fails the sequence. Perform 10 Kettlebell Swings and restart the 3-shot ladder."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Aggressive Target",
+       "rows": [
+        [
+         "HIIT",
+         "A-Skips for height (60s). Focus on explosive upward drive."
+        ],
+        [
+         "Do or Die",
+         "Visualize a reachable Par 5. In the past, you may have laid up. Today, visualize the aggressive play. See the small, safe target zone near the green, commit to the fairway wood or hybrid, and visualize a perfectly executed, powerful shot."
+        ],
+        [
+         "Consequence",
+         "You must feel confident and committed, not hopeful or anxious. Hold this feeling of \"aggressive commitment\" for 30 seconds. Repeat 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Power Pitch",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Split Squat Jumps (45s)."
+        ],
+        [
+         "Do or Die",
+         "The Long Pitch Stop. From 50 yards, you must hit a high, powerful pitch shot that stops within one flagstick of the hole. This requires generating speed to create spin."
+        ],
+        [
+         "Consequence",
+         "You must succeed on 3 out of 5 attempts. Failure means a 30-second plank before restarting the 5-shot sequence."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Driver - Push the Limits",
+       "rows": [
+        [
+         "HIIT",
+         "Max Repetition Box Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "The Carry Challenge. Using a launch monitor or range markers, determine a \"carry distance\" that is 5 yards past your comfortable average. You get 5 drives to fly the ball past that number."
+        ],
+        [
+         "Consequence",
+         "Failure to achieve the carry distance in 5 attempts results in re-doing the HIIT workout before trying again."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Confident Walk",
+       "rows": [
+        [
+         "HIIT",
+         "Butt Kicks in place (60s). Focus on fast leg turnover."
+        ],
+        [
+         "Do or Die",
+         "Visualize striping a drive down the middle. Now, focus on the walk that follows. Visualize walking with confidence and swagger, like you expected the good result because you did the work."
+        ],
+        [
+         "Consequence",
+         "This is not about arrogance, but earned confidence. Maintain that feeling of a \"confident walk\" mentally for the entire time it would take to get to your ball. Repeat 3 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w05.txt"
+  },
+  "6": {
+   "n": 6,
+   "title": "Sequencing & Coordination",
+   "mission": "To translate raw power into coordinated, efficient speed. Power is useless if it's not delivered in the correct sequence.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The Bunker Blast",
+       "rows": [
+        [
+         "HIIT",
+         "Sledgehammer Tire Slams (60s) or Medicine Ball Slams. Build explosive downward force."
+        ],
+        [
+         "Do or Die",
+         "The One-Shot Escape. From a plugged or buried lie in a bunker, you get one shot to get the ball out and onto the green."
+        ],
+        [
+         "Consequence",
+         "You must go 1 for 3 from 3 different buried lies. Fail after 3, and you must perform 10 squat jumps before your next attempt."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Ground Force Reaction",
+       "rows": [
+        [
+         "HIIT",
+         "Vertical Jumps (Max height, 45s). Train your body to use the ground to create vertical force."
+        ],
+        [
+         "Do or Die",
+         "The \"Feel the Ground\" Driver. Hit 5 drives focusing solely on the feeling of pushing into the ground on your downswing to initiate your rotation. To pass, 4 out of 5 drives must be struck solidly, regardless of direction."
+        ],
+        [
+         "Consequence",
+         "For each poorly struck shot, perform 5 Kettlebell Swings."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The \"Attack the Par 5\" Strategy",
+       "rows": [
+        [
+         "HIIT",
+         "High-Knee Skips with arm swing (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize a Par 5 from tee to green. Your drive is perfect. Your second shot is 240 yards to the green. Verbally walk through the risk assessment: What's the reward for going for it vs. the penalty for missing? Decide on an aggressive but smart second shot (e.g., aim for the fat side of the green)."
+        ],
+        [
+         "Consequence",
+         "The visualization must be strategic, not just a fantasy. Perform this 3 times with a clear, logical plan for the second shot."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Long Chip",
+       "rows": [
+        [
+         "HIIT",
+         "Lateral Skater Jumps (60s). Build side-to-side power and stability."
+        ],
+        [
+         "Do or Die",
+         "The Two-Putt Zone. From 30 yards off the green, chip the ball into a 6-foot circle around the hole to guarantee a two-putt. You are not trying to hole it; you are trying to control a long, powerful chip."
+        ],
+        [
+         "Consequence",
+         "Succeed on 4 out of 5 attempts. A ball outside the circle requires a 30-second wall sit before the next attempt."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"X-Factor\" Separation",
+       "rows": [
+        [
+         "HIIT",
+         "\"Thoracic Opener\" Rotations on the ground (30s each side)."
+        ],
+        [
+         "Do or Die",
+         "The Separation Feel. With a 5-iron, take slow-motion backswings, feeling your lower body stay stable while your upper body rotates to its maximum. Then, feel the lower body initiating the downswing while the upper body stays coiled. Hit 5 shots focusing only on this feeling of separation."
+        ],
+        [
+         "Consequence",
+         "This is a feel-based drill. To pass, you must honestly feel a powerful stretch and proper sequencing on 4 out of 5 swings."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Intimidating Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Bear Crawl (45s). Build total body stability and strength."
+        ],
+        [
+         "Do or Die",
+         "Visualize the most intimidating tee shot on your home course (long carry, tight fairway). Instead of fearing it, reframe it as an opportunity. Visualize executing a powerful, confident swing that flies right over the heart of the trouble."
+        ],
+        [
+         "Consequence",
+         "Replace the feeling of fear with a feeling of aggressive intent. Hold this reframed mindset for 30 seconds. Repeat 3 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w06.txt"
+  },
+  "7": {
+   "n": 7,
+   "title": "Managing Speed & Misses",
+   "mission": "To understand that with greater speed comes the potential for bigger misses. This week is about learning to control your top-end speed and manage the consequences.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The Delicate Flop",
+       "rows": [
+        [
+         "HIIT",
+         "Rapid-fire Bodyweight Squats (60s)."
+        ],
+        [
+         "Do or Die",
+         "The Short-Side Stop. Place a ball on a tight lie, short-sided to a pin. You have to hit a high, soft flop shot that lands and stops within one flagstick of the hole. This requires speed, but with ultimate control."
+        ],
+        [
+         "Consequence",
+         "You must succeed 3 times in a row. A single failure (chunk, thin, or long) resets the count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Big Miss\" Elimination",
+       "rows": [
+        [
+         "HIIT",
+         "Plank with alternating leg lifts (60s). Maintain core stability."
+        ],
+        [
+         "Do or Die",
+         "The \"One-Side\" Range. With your driver, the entire left side of the range is out of bounds (or right side if you hook). Hit 10 drives. Your only goal is to eliminate the big miss into the OB zone."
+        ],
+        [
+         "Consequence",
+         "A single ball in the \"OB\" zone is a failure. For each failure, perform 5 burpees. Your goal is to get through 10 balls with 2 or fewer failures."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Bad Shot Recovery Plan",
+       "rows": [
+        [
+         "HIIT",
+         "Jump Rope (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize hitting a perfect drive, but it takes an awful kick into the trees. Instantly engage your strategic mind. Instead of panicking, visualize assessing your options and choosing the high-percentage punch-out shot that guarantees you get back in play."
+        ],
+        [
+         "Consequence",
+         "The visualization must be about making the smart, disciplined recovery shot, not the low-percentage hero shot through the trees. Perform this scenario 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "Controlling Spin",
+       "rows": [
+        [
+         "HIIT",
+         "Medicine Ball Rainbow Slams (30s each side)."
+        ],
+        [
+         "Do or Die",
+         "The \"Two-Hop-and-Stop\" Pitch. From 30 yards, hit a pitch shot that takes two bounces and stops quickly. This requires a crisp, accelerating strike. The ball must stop within 10 feet of the hole."
+        ],
+        [
+         "Consequence",
+         "You must execute 4 out of 6 successful \"two-hop-and-stop\" shots. Failure requires 10 alternating lunges before restarting."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Bomber's\" Fairway",
+       "rows": [
+        [
+         "HIIT",
+         "Sprint 50 yards, walk back (repeat for 60s)."
+        ],
+        [
+         "Do or Die",
+         "Find the two most distant targets on the range and define them as your fairway goalposts. You get 5 drives. You must hit 3 drives that both carry over 250 yards AND finish between the goalposts."
+        ],
+        [
+         "Consequence",
+         "This is a pass/fail test of distance and control. If you fail, you must re-do the HIIT sprint before starting the 5-drive test again."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "Committing to the Line",
+       "rows": [
+        [
+         "HIIT",
+         "Wall Sit with arm raises (45s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize a tee shot with trouble on both sides of the fairway. Pick your precise, conservative starting line. Your entire visualization is about committing 100% to that line and making an aggressive swing to that safe target."
+        ],
+        [
+         "Consequence",
+         "Any mental wavering or second-guessing during the visualized swing is a failure. You must execute 3 \"fully committed\" visualizations in a row."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w07.txt"
+  },
+  "9": {
+   "n": 9,
+   "title": "Embracing Awkward Lies",
+   "mission": "To become comfortable with the uncomfortable. This week, we eliminate the perfect lie. Every full-swing drill is designed to be executed from an imperfect position, training you to adapt and commit.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The \"One Club\" Challenge",
+       "rows": [
+        [
+         "HIIT",
+         "Kettlebell Figure-8s (60s). This builds core strength and coordination."
+        ],
+        [
+         "Do or Die",
+         "Go to the chipping green with only one club (e.g., your 8-iron). Find 5 different lies (tight, fluffy, uphill, downhill, sidehill). You must get 3 out of the 5 shots onto the putting surface."
+        ],
+        [
+         "Consequence",
+         "Failure means a 30-second plank, and then you must restart the drill with a different single club."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Ball Above/Below Feet",
+       "rows": [
+        [
+         "HIIT",
+         "Dumbbell Renegade Rows (45s). This develops extreme core stability and anti-rotation strength."
+        ],
+        [
+         "Do or Die",
+         "Find a sidehill slope. Place 3 balls above your feet and 3 balls below your feet. Your goal is to make solid contact and hit a designated \"safe zone\" (e.g., a 40-yard wide fairway) on 4 out of the 6 total shots."
+        ],
+        [
+         "Consequence",
+         "Failure to achieve 4 successful shots means you must re-do the HIIT workout before trying the drill again."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Unfair Bounce",
+       "rows": [
+        [
+         "HIIT",
+         "Fast Feet in an agility ladder or marked squares (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize hitting a perfect iron shot, only to see it catch a sprinkler head and bounce into a deep greenside bunker. Immediately engage your \"24-second rule\". Mentally, you must take a deep breath, accept the outcome without anger, and immediately start planning your recovery shot."
+        ],
+        [
+         "Consequence",
+         "You must achieve a calm, strategic mindset within 20 seconds of the visualized \"bad break.\" Perform this 3 consecutive times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Buried Bunker Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Explosive Medicine Ball Chest Passes against a wall (45s)."
+        ],
+        [
+         "Do or Die",
+         "Go to a practice bunker and step on your ball until it's severely buried (a \"fried egg\"). You have one shot to get it out and onto the green."
+        ],
+        [
+         "Consequence",
+         "You must succeed 3 times in a row. A failure to extricate the ball from the sand resets your count to zero and you perform 5 burpees."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Recovery Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Kettlebell Snatches (60s). This builds explosive, full-body power."
+        ],
+        [
+         "Do or Die",
+         "Find a position behind a tree or obstacle that requires you to hit a low hook or a high slice to get back into play. You have one ball. The only goal is a successful recovery that puts the ball back on the fairway."
+        ],
+        [
+         "Consequence",
+         "You must find 3 different \"jail\" positions and successfully escape all 3. A single failure on any attempt requires you to restart the entire 3-shot sequence."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "Playing in Bad Weather",
+       "rows": [
+        [
+         "HIIT",
+         "Bear Crawl (45s). Build grit and total-body stability."
+        ],
+        [
+         "Do or Die",
+         "Close your eyes. Visualize it's cold, windy, and starting to rain. See yourself adjusting your club selection, widening your stance for stability, and making a smooth, controlled swing. The goal is to accept the conditions, not just tolerate them."
+        ],
+        [
+         "Consequence",
+         "Your mental state must remain positive and strategic, focusing on adaptation. Hold this visualization for a full 2 minutes without letting negative thoughts about the weather creep in."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w09.txt"
+  },
+  "10": {
+   "n": 10,
+   "title": "Mastering the Score Saver",
+   "mission": "To develop an elite short game under pressure. This week is dedicated to the shots inside 100 yards that save pars and turn bad rounds into good ones.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The 30-Foot Putt Race",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Step-Up Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "You have two balls and are 45 feet from the hole. You must two-putt with both balls."
+        ],
+        [
+         "Consequence",
+         "If you three-putt with either ball, you fail. The consequence is to immediately re-do"
+        ],
+        [
+         "",
+         "* the HIIT workout, then restart the drill. You must succeed 3 consecutive times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The 100-Yard Wedge",
+       "rows": [
+        [
+         "HIIT",
+         "Dumbbell Thrusters (45s). A full-body explosive movement."
+        ],
+        [
+         "Do or Die",
+         "From exactly 100 yards, you must hit 3 consecutive shots that finish within a 20-foot circle of the pin."
+        ],
+        [
+         "Consequence",
+         "A single shot landing outside the circle resets your count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Bogey as a \"Win\"",
+       "rows": [
+        [
+         "HIIT",
+         "Jump Rope (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize hitting your tee shot into the trees. Your only option is to punch out sideways to the fairway, leaving 150 yards to the green. Mentally, you must reframe your goal for the hole from \"par\" to \"bogey.\" Visualize hitting the green and two-putting for a \"good bogey\" that keeps the round from getting worse."
+        ],
+        [
+         "Consequence",
+         "You must feel a sense of satisfaction and discipline in making a strategic bogey. Hold this reframed mindset for 30 seconds. Repeat 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Up-and-Down Gauntlet",
+       "rows": [
+        [
+         "HIIT",
+         "Burpees (60s). The ultimate gut check."
+        ],
+        [
+         "Do or Die",
+         "You must successfully get up-and-down from 5 different locations around the green: a tight lie, thick rough, short-sided, a bunker, and a downhill chip."
+        ],
+        [
+         "Consequence",
+         "You must succeed on 4 out of the 5. If you fail 2 of them, you must perform a 60-second plank before restarting the entire 5-location gauntlet."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Half-Swing\" Punch",
+       "rows": [
+        [
+         "HIIT",
+         "Farmer's Carry (as far as possible in 60s)."
+        ],
+        [
+         "Do or Die",
+         "From 120 yards, you can only take a half-swing (9 o'clock to 3 o'clock). You must control the trajectory and distance to land the ball on the green."
+        ],
+        [
+         "Consequence",
+         "You must land 3 out of 5 shots on the green. Failure requires re-doing the Farmer's Carry before attempting the drill again."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Post-Round Analysis",
+       "rows": [
+        [
+         "HIIT",
+         "Deep Breathing / Box Breathing (60s). Lower the heart rate."
+        ],
+        [
+         "Do or Die",
+         "Visualize finishing a frustrating round where you scored 5 shots higher than your goal. Instead of anger, mentally walk through a disciplined post-round analysis. Identify 2 things you did well strategically and 2 poor decisions that cost you strokes."
+        ],
+        [
+         "Consequence",
+         "The visualization must be objective and analytical, not emotional. You must successfully complete this honest self-assessment 3 times without judgment."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w10.txt"
+  },
+  "11": {
+   "n": 11,
+   "title": "Competitive Chaos",
+   "mission": "To simulate the chaos and random nature of a real competition. Drills are designed to be unpredictable, forcing you to adapt and execute on command.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "Random Putt Challenge",
+       "rows": [
+        [
+         "HIIT",
+         "Plank Jacks (60s)."
+        ],
+        [
+         "Do or Die",
+         "Have a partner call out a random distance and break (e.g., \"8 feet, left-to-right\"). You get one look and one stroke. You must two-putt or better."
+        ],
+        [
+         "Consequence",
+         "You must succeed on 5 out of 7 random putts. Failure to do so means you perform 10 burpees and restart the 7-putt sequence."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Play Nine\" Simulation",
+       "rows": [
+        [
+         "HIIT",
+         "Max repetition bodyweight squats (60s)."
+        ],
+        [
+         "Do or Die",
+         "Play 9 \"holes\" on the range. You must change clubs on every shot (Driver, then 7i, then Wedge, etc.). You must also change your target on every shot."
+        ],
+        [
+         "Consequence",
+         "Create a scorecard. Your goal is to hit 5 out of 9 \"greens\" (a designated safe zone). Failure to hit 5 greens means you must perform a 60-second wall sit."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "Adapting to a Different Swing Feel",
+       "rows": [
+        [
+         "HIIT",
+         "Kettlebell Halos (30s each direction)."
+        ],
+        [
+         "Do or Die",
+         "Visualize arriving at the course with a swing that feels completely \"off.\" Your go-to shot is a fade, but today you are hitting a hard hook. Your drill is to mentally adapt your strategy for the first few holes: aim differently to account for the miss, choose more conservative clubs, and focus on rhythm instead of mechanics."
+        ],
+        [
+         "Consequence",
+         "The visualization must be about adapting and surviving, not fixing the swing on the course. You must create a clear 3-hole \"survival\" game plan. Perform this 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The \"Worst Lie\" Scramble",
+       "rows": [
+        [
+         "HIIT",
+         "Mountain Climbers (60s)."
+        ],
+        [
+         "Do or Die",
+         "Hit 3 chip shots. Have a partner choose the worst of the 3 results. You must get up-and-down from that spot."
+        ],
+        [
+         "Consequence",
+         "You must succeed 3 out of 4 times. A single failure to get up-and-down requires 10 alternating lunges before the next attempt."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The On-Demand Shot Shape",
+       "rows": [
+        [
+         "HIIT",
+         "Lateral Box Jumps (30s each side)."
+        ],
+        [
+         "Do or Die",
+         "A partner calls out \"draw\" or \"fade\" just before you take your final look at the target. You must execute the correct shot shape and have it land in a 30-yard or three finger wide fairway."
+        ],
+        [
+         "Consequence",
+         "You must successfully execute 4 out of 6 on-demand shots. Failure to do so means re-doing the HIIT workout."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Mid-Round Reset",
+       "rows": [
+        [
+         "HIIT",
+         "Bicycle Crunches (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize making a double-bogey on the 9th hole to ruin a great front nine. Feel the momentum shift. Your drill is to mentally walk from the 9th green to the 10th tee, using that time to execute a full mental reset. Let go of the last hole, drink water, have a snack, and create a firm, positive game plan for the 10th tee shot."
+        ],
+        [
+         "Consequence",
+         "You must achieve a fresh, positive mindset by the time you \"arrive\" at the 10th tee in your visualization. Perform this 3 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w11.txt"
+  },
+  "12": {
+   "n": 12,
+   "title": "Final Exam: The Grinder",
+   "mission": "To combine all elements of Month 3 into a final test of resilience. This is a non-stop gauntlet designed to simulate the final, grueling holes of a tournament.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The 18th Hole Bunker",
+       "rows": [
+        [
+         "HIIT",
+         "Prowler Sled Push or Car Push (45s)."
+        ],
+        [
+         "Do or Die",
+         "You are short-sided in a bunker on the final hole. You must get up-and-down to win. You get one ball."
+        ],
+        [
+         "Consequence",
+         "Pass or Fail. Failure means you have \"lost the tournament.\" Your consequence is to re-do the HIIT push, then come back and successfully get up-and-down 2 times in a row from the"
+        ],
+        [
+         "",
+         "same spot."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Approach Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Dumbbell Man-Makers (60s)."
+        ],
+        [
+         "Do or Die",
+         "Following your \"successful\" bunker shot, you now have 160 yards from the fairway. The pin is tucked. You must hit the green."
+        ],
+        [
+         "Consequence",
+         "Hitting the green is a pass. Missing the green is a fail. The consequence for failure is 10 burpees. You must succeed before moving on."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Winning Putt",
+       "rows": [
+        [
+         "HIIT",
+         "Controlled Breathing / Heart Rate Lowering (60s)."
+        ],
+        [
+         "Do or Die",
+         "You've hit the green, leaving an 8-foot putt to win. Visualize the entire scene: the pressure, your opponent watching, the line of the putt. Mentally execute your full pre-shot routine and feel yourself stroke the putt into the center of the cup. Make the putt."
+        ],
+        [
+         "Consequence",
+         "You must hold the feeling of confidence and commitment, not hope. Perform this 3 times with unwavering focus."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Par Saver",
+       "rows": [
+        [
+         "HIIT",
+         "Wall Sit (hold until failure)."
+        ],
+        [
+         "Do or Die",
+         "Your approach shot missed the green. You must now chip to within 3 feet of the hole to save par."
+        ],
+        [
+         "Consequence",
+         "You must execute 3 successful \"par saver\" chips in a row. A single chip finishing outside 3 feet resets the count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Final Tee Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Max height Vertical Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "It's the final hole. You need a fairway hit. This is a repeat of the \"Must-Hit\" fairway drill. You get one ball. You must find the fairway."
+        ],
+        [
+         "Consequence",
+         "Pass or Fail. Failure means you have not successfully completed the final exam. You must re-do the entire Week 12 blueprint on your next practice day."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Champion's Mindset",
+       "rows": [
+        [
+         "HIIT",
+         "Rest."
+        ],
+        [
+         "Do or Die",
+         "You have successfully completed the gauntlet. Close your eyes and visualize the feeling of deep satisfaction that comes not from winning, but from knowing your discipline held up under extreme pressure. Acknowledge that the hard work and adherence to the process is the true victory."
+        ],
+        [
+         "Consequence",
+         "This is your reward. Hold this feeling of earned satisfaction. This solidifies the \"why\" behind the entire month of grueling work."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w12.txt"
+  },
+  "13": {
+   "n": 13,
+   "title": "Know Thy Numbers",
+   "mission": "To achieve radical clarity on your actual capabilities. We will replace hope with data. This week is about being brutally honest with yourself about your distances and dispersion to build a foundation for smart strategy. You will be paired with a teammate for the week.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "Wedge Distance Dial-In",
+       "rows": [
+        [
+         "HIIT",
+         "Kettlebell Goblet Squats (60s). Build lower body stability for precise distance control."
+        ],
+        [
+         "Do or Die",
+         "From a flat lie, 10 minutes with your three main wedges (e.g., PW, GW, SW). Use a rangefinder to record the carry distance of each solid shot. This is not a test, it's a data collection mission."
+        ],
+        [
+         "Consequence",
+         "You must create a \"cheat sheet\" with your average carry distances for each wedge. Failure to record this data makes the rest of the month useless."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Iron Dispersion Test",
+       "rows": [
+        [
+         "HIIT",
+         "Burpees (60s)."
+        ],
+        [
+         "Do or Die",
+         "With a 7-iron, hit 10 shots to a target. Your goal is not to hit it close, but to honestly assess your shot pattern. Note where every shot lands (short, long, left, right)."
+        ],
+        [
+         "Consequence",
+         "You must identify your today’s \"typical miss\". Is it a fade? A pull? Acknowledge this \"brutal fact\". This self-awareness is non-negotiable for future planning."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "Worst Ball Chipping",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Lunges (60s)."
+        ],
+        [
+         "Do or Die",
+         "On The Harmon Chipping course at the designated quadrant, you and your partner will hit two chips. The worst chip will be played out by the other teammate."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Driver Dispersion Test",
+       "rows": [
+        [
+         "HIIT",
+         "Rotational Medicine Ball Slams (45s each side)."
+        ],
+        [
+         "Do or Die",
+         "Hit 10 drivers. Imagine the fairway is three fingers wide. Your goal is not to hit the center, but to record how many you keep \"in play.\""
+        ],
+        [
+         "Consequence",
+         "Be honest about your miss patterns. If you have a fade, how many yards is it? If you have a hook, how severe? You must record your findings to build your strategy around them."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w13.txt"
+  },
+  "14": {
+   "n": 14,
+   "title": "Playing the Percentages",
+   "mission": "To apply your data. This week, every drill is a strategic choice based on the numbers you established. You will learn to swing aggressively to conservative targets.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The \"Middle of the Green\" Putt",
+       "rows": [
+        [
+         "HIIT",
+         "High-Knee Sprints in Place (60s)."
+        ],
+        [
+         "Do or Die",
+         "Find a long, breaking putt (30+ feet). Your goal is NOT to make it. Your goal is to die the ball in a 3-foot \"hoop\" around the hole. This trains you to prioritize speed on long putts, eliminating three-putts."
+        ],
+        [
+         "Consequence",
+         "You must get 4 out of 5 putts to stop inside the hoop. Failure means 10 burpees and restarting the drill."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Away from the Trouble\" Iron",
+       "rows": [
+        [
+         "HIIT",
+         "Box Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "Pick a target green. Imagine there is deep water on the right side. Your target is now the left-center of the green, no matter where the pin is."
+        ],
+        [
+         "Consequence",
+         "You must hit 5 consecutive iron shots that start left of the pin and land on the green. A single shot that flirts with the \"trouble\" side resets the count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "Laying Up with Purpose",
+       "rows": [
+        [
+         "HIIT",
+         "Dumbbell Farmer's Carry (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize a Par 5. You have 220 yards to the green over water. Instead of seeing the green, visualize your favorite full wedge yardage (e.g., 95 yards). Now, visualize hitting a perfect 125-yard iron shot to that exact number, leaving yourself a full swing."
+        ],
+        [
+         "Consequence",
+         "You must feel that the layup is a strategic, offensive play, not a timid one. Hold this feeling of \"strategic confidence\" for 60 seconds. Repeat 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The \"Can't Short-Side It\" Pitch",
+       "rows": [
+        [
+         "HIIT",
+         "Lateral Skater Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 40 yards, aim at a pin on one side of the green. Your mission is to land the ball on the opposite side of the pin, using the entire green as your target."
+        ],
+        [
+         "Consequence",
+         "You must succeed on 5 consecutive shots. A single shot that lands on the \"short side\" of the pin is a failure and resets the count."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Driver - The Fairway is Not the Middle",
+       "rows": [
+        [
+         "HIIT",
+         "Kettlebell Swings (60s)."
+        ],
+        [
+         "Do or Die",
+         "Based on your dispersion data from last week (e.g., a 15-yard fade), your new \"fairway\" is the left half of the actual fairway. Aim down the left rough line to allow your fade to drift into the short grass."
+        ],
+        [
+         "Consequence",
+         "You must hit 4 out of 5 drives that land in the designated half of the fairway. This is a pass/fail test of applying your data. Failure requires restarting the drill."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The \"Good Bogey\" Game Plan",
+       "rows": [
+        [
+         "HIIT",
+         "Wall Sit (hold until failure)."
+        ],
+        [
+         "Do or Die",
+         "Visualize hitting a tee shot into a fairway bunker. Your ball is 180 yards from the green. Instead of trying the \"hero\" shot from the sand, visualize taking a wedge, safely hitting it 100 yards down the fairway, and leaving a comfortable 80-yard wedge to the green."
+        ],
+        [
+         "Consequence",
+         "You must mentally accept that the goal is now to make a bogey at worst. The visualization must be calm and strategic. Perform this 3 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w14.txt"
+  },
+  "15": {
+   "n": 15,
+   "title": "Adapting to Conditions",
+   "mission": "To learn how to adapt your game plan when the course or your swing changes. A rigid plan breaks; a disciplined strategist adapts.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The Downhill/Uphill Putt",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Split Squat Jumps (45s)."
+        ],
+        [
+         "Do or Die",
+         "Find a severe slope. You have one ball. You must lag a 30 foot downhill putt to within 2 feet, then turn around and lag an uphill 30 ft putt to within 2 feet."
+        ],
+        [
+         "Consequence",
+         "You must successfully execute both putts in the pair. If either putt finishes outside 2 feet, the pair is a failure. You must complete 3 successful pairs."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Wind Cheater",
+       "rows": [
+        [
+         "HIIT",
+         "Medicine Ball Rainbow Slams (45s)."
+        ],
+        [
+         "Do or Die",
+         "Even if there is no wind, you will manufacture it. You must hit three 150-yard shots. The first is a normal trajectory. The second is a low \"stinger\" into a headwind. The third is a high shot to ride a tailwind."
+        ],
+        [
+         "Consequence",
+         "A judge (or your honest assessment) must clearly see a difference in the trajectory of all three shots. You must complete 2 successful sets of 3."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The \"Swing of the Day\"",
+       "rows": [
+        [
+         "HIIT",
+         "Max Reps Push-ups (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize being on the range and your normal shot shape is gone. You are hitting a 10-yard push-fade today. Mentally go to the first tee. You must adapt your entire game plan for that shot. Visualize aiming down the left side and confidently playing the fade."
+        ],
+        [
+         "Consequence",
+         "The visualization must be about accepting and planning for your \"swing of the day,\" not fighting it. You must create a clear, adapted plan. Perform 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Wet/Dry Bunker",
+       "rows": [
+        [
+         "HIIT",
+         "Burpees (60s)."
+        ],
+        [
+         "Do or Die",
+         "Play two shots from a bunker. For the first, imagine the sand is wet and compact. For the second, imagine it's fluffy (use more bounce and speed). Your goal is to land both on the green."
+        ],
+        [
+         "Consequence",
+         "You must succeed on 3 consecutive pairs. Failing to get either ball on the green means the pair is a failure and you restart."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Uneven Lie",
+       "rows": [
+        [
+         "HIIT",
+         "Single-Leg Romanian Deadlifts (30s each side). Build balance and stability."
+        ],
+        [
+         "Do or Die",
+         "Find a hill. You must hit two solid shots with a 6-iron: one with the ball above your feet, one with the ball below your feet. Both must land in a 40-yard wide safe zone."
+        ],
+        [
+         "Consequence",
+         "You must complete 3 successful pairs. A chunked, thinned, or wild miss on either shot fails the pair."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w15.txt"
+  },
+  "16": {
+   "n": 16,
+   "title": "Final Exam: The Course Manager",
+   "mission": "To synthesize all the strategic principles of the month into a comprehensive decision-making test.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The Risk/Reward Chip",
+       "rows": [
+        [
+         "HIIT",
+         "Man-Makers (60s). The ultimate test of endurance."
+        ],
+        [
+         "Do or Die",
+         "Find a chip to a pin tucked behind a bunker. You have two balls. With the first, you must play the safe shot away from the pin to the fat part of the green. With the second, you can attempt the high-risk \"hero shot.\""
+        ],
+        [
+         "Consequence",
+         "To pass, your \"safe\" shot MUST be on the green. The \"hero\" shot is a bonus. If your safe shot misses the green, you have failed the test. You must succeed 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Par 5 Decision",
+       "rows": [
+        [
+         "HIIT",
+         "Prowler Sled Push or Car Push (45s)."
+        ],
+        [
+         "Do or Die",
+         "You've hit a 280-yard drive on a Par 5. You have 240 yards left. You get one shot. You must choose the correct strategic play (go for it or lay up) based on an honest assessment of your skills."
+        ],
+        [
+         "Consequence",
+         "You pass if you commit to your choice and execute it well (a good lay-up is a pass; a well-struck attempt at the green is a pass). A poorly executed shot because of indecision is a fail. You must pass before moving on."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Full Hole Strategy",
+       "rows": [
+        [
+         "HIIT",
+         "Controlled Breathing / Heart Rate Lowering (60s)."
+        ],
+        [
+         "Do or Die",
+         "Mentally play the hardest Par 4 on your course from start to finish. Verbalize your entire thought process: What's the plan off the tee based on my miss? What's the ideal yardage for my approach? Where is the safe miss on the approach? Where is the pin?"
+        ],
+        [
+         "Consequence",
+         "You must have a clear, logical, and disciplined plan for every shot on the hole. You must complete the visualization without a single \"hopeful\" or undisciplined thought."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The \"Worst Case\" Putt",
+       "rows": [
+        [
+         "HIIT",
+         "Wall Sit (hold until failure)."
+        ],
+        [
+         "Do or Die",
+         "Your approach shot was awful. You now have a 75-foot, triple-breaking putt. Your only goal is to get down in two putts."
+        ],
+        [
+         "Consequence",
+         "You must successfully two-putt 3 times in a row from 3 different \"impossible\" locations. A single three-putt resets the count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Protect the Ball Patrick Reed\" Tee Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Max Reps Pull-ups or Bodyweight Rows (60s)."
+        ],
+        [
+         "Do or Die",
+         "It's the 18th hole and you have a 4-shot lead. The hole has water on the left. A driver brings the water into play. A 4-iron leaves a longer approach but eliminates the water. You MUST choose the 4-iron."
+        ],
+        [
+         "Consequence",
+         "This is a test of ego suppression. You must hit the 4-iron into the designated safe zone two fingers wide. Failure to choose and execute with the smart club requires you to restart the entire week's final exam."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w16.txt"
+  },
+  "17": {
+   "n": 17,
+   "title": "Building Stability & Low Trajectory",
+   "mission": "To create a stable base that can withstand the wind and to master the low, piercing ball flight that neutralizes a headwind.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The \"Stinger\" Chip",
+       "rows": [
+        [
+         "HIIT",
+         "Heavy Farmer's Carry (60s). Builds grip strength and total-body stability, anchoring you in the wind."
+        ],
+        [
+         "Do or Die",
+         "From 20 yards, you must hit a low, running chip shot that lands short and releases to the hole. No high, floating shots are allowed. The ball must stay below your waist in flight."
+        ],
+        [
+         "Consequence",
+         "You must get 4 out of 5 chips to finish within a 6-foot circle. A single high-trajectory shot is an automatic failure for that attempt. Failure to meet the 4/5 goal means restarting the drill."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Wind-Cheater Iron",
+       "rows": [
+        [
+         "HIIT",
+         "Kettlebell Goblet Squats (60s). This develops a powerful, stable lower body, your anchor against the wind."
+        ],
+        [
+         "Do or Die",
+         "With a 6-iron, you must hit 3 consecutive low, \"stinger\" shots that fly under a designated visual target (e.g., the top of a yardage pole or tree branch). All 3 must land in a 30-yard wide fairway."
+        ],
+        [
+         "Consequence",
+         "A single shot that flies too high or misses the fairway resets your count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "Putting on Imperfect Greens (Chipping Green)",
+       "rows": [
+        [
+         "HIIT",
+         "Plank with alternating leg/arm raises (60s). Builds a rock-solid core."
+        ],
+        [
+         "Do or Die",
+         "Find the bumpiest, grainiest part of the practice green. You must make 10 consecutive 4-foot putts on this imperfect surface."
+        ],
+        [
+         "Consequence",
+         "This is a test of a pure, decisive stroke. A single miss resets your count to zero and you perform 5 push-ups."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The 3/4 Knockdown",
+       "rows": [
+        [
+         "HIIT",
+         "Prowler Sled Push (45s). Develops the leg drive and grit needed to power through tough conditions."
+        ],
+        [
+         "Do or Die",
+         "From 150 yards, you must hit a 3/4 swing \"knockdown\" shot. The goal is to control trajectory and have it land on the green."
+        ],
+        [
+         "Consequence",
+         "You must hit 5 out of 5 greens. Failure requires re-doing the HIIT workout before attempting the drill again."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Layering Routine",
+       "rows": [
+        [
+         "HIIT",
+         "Jump Rope (90s). Build warmth and endurance for cold rounds."
+        ],
+        [
+         "Do or Die",
+         "Visualize playing in 45°F (7°C) weather. Mentally walk through your preparation: putting on layers, keeping your hands warm between shots, and adjusting your club selection for the denser air and restricted swing."
+        ],
+        [
+         "Consequence",
+         "The visualization must be a proactive plan for managing the cold, not a fantasy of a warm day. You must create a clear 3-step plan for how you'll manage your body and equipment."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w17.txt"
+  },
+  "18": {
+   "n": 18,
+   "title": "Mastering the Curves: Part 1",
+   "mission": "To learn how to intentionally curve the ball on command. This is a crucial tool for specific pin locations and for holding the ball against the wind.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The Fade Pitch",
+       "rows": [
+        [
+         "HIIT",
+         "Rotational Medicine Ball Throws (60s). Ingrains the feeling of rotating through the shot."
+        ],
+        [
+         "Do or Die",
+         "Set up an alignment stick a few feet in front of you, to the left of the hole. You must hit a low chip that starts left of the stick and spins back towards the hole."
+        ],
+        [
+         "Consequence",
+         "You must get 3 out of 5 shots to start left and curve right, finishing within 6 feet of the hole. Failure means a 30-second plank before restarting."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Draw Gate",
+       "rows": [
+        [
+         "HIIT",
+         "Dumbbell Single-Arm Rows (45s each side). Builds back strength to control the club path from the inside."
+        ],
+        [
+         "Do or Die",
+         "Set up a \"gate\" with two alignment sticks or headcovers about 4 feet in front of you and slightly to the right of your target line. With a 7-iron, you must swing the club \"in-to-out,\" sending the ball through the gate and drawing it back to the target."
+        ],
+        [
+         "Consequence",
+         "You must hit 3 consecutive shots through the gate that draw back into a 20-yard wide green. A single push or straight shot resets the count."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Right-Tucked Pin",
+       "rows": [
+        [
+         "HIIT",
+         "Kettlebell Halos (60s). Improves shoulder mobility for a better turn and inside path."
+        ],
+        [
+         "Do or Die",
+         "Visualize an approach shot to a green with a pin tucked on the right side, guarded by a bunker. Visualize aiming for the center of the green and hitting a controlled fade that curves toward the flag, using the entire green as your margin for error."
+        ],
+        [
+         "Consequence",
+         "The visualization must be of an aggressive swing to a conservative target line. You must feel in control of the shot shape. Perform this 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Slingshot Pitch",
+       "rows": [
+        [
+         "HIIT",
+         "Lateral Skater Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 40 yards, your goal is to hit a low pitch shot that hits the green and releases toward a back pin location."
+        ],
+        [
+         "Consequence",
+         "You must execute 4 out of 5 shots that successfully land and release and finish within 6 feet. Shots that spin too much are failures. Failure requires 10 squat jumps."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Hold-Up\" Tee Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Banded Pull-Aparts (60s). Strengthens the upper back to control the clubface."
+        ],
+        [
+         "Do or Die",
+         "Imagine a strong left-to-right wind. You must hit a drawing tee shot that starts down the right side of the fairway and curves back against the wind, holding its line. Opposite if different wind, or lefty."
+        ],
+        [
+         "Consequence",
+         "You must hit 4 out of 5 drives that start right and curve back into the fairway. A slice or a straight push is a failure."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w18.txt"
+  },
+  "19": {
+   "n": 19,
+   "title": "Mastering the Curves: Part 2",
+   "mission": "To learn how to intentionally curve the ball on command.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The Cut Chip",
+       "rows": [
+        [
+         "HIIT",
+         "Explosive Medicine Ball Chest Passes (60s)."
+        ],
+        [
+         "Do or Die",
+         "Set up an alignment stick a few feet in front of you, to the left of the hole. You must hit a chip that starts left of the stick and curves (cuts) back towards the hole. This is a high-spin shot."
+        ],
+        [
+         "Consequence",
+         "You must get 4 out of 5 shots to start left, curve right, and finish within 6 feet of the hole. Failure means 10 mountain climbers before restarting."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Fade Gate",
+       "rows": [
+        [
+         "HIIT",
+         "Dumbbell Push Press (60s). Build shoulder stability to control the \"out-to-in\" path."
+        ],
+        [
+         "Do or Die",
+         "Set up a \"gate\" with two alignment sticks or headcovers about 4 feet in front of you and slightly to the left of your target line. With a 7-iron, your ball must start through the gate and fade back to the target."
+        ],
+        [
+         "Consequence",
+         "You must hit 3 consecutive shots through the gate that fade back into a 30-yard wide fairway. A single pull or straight shot resets the count."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Left-Tucked Pin (DRAW)",
+       "rows": [
+        [
+         "HIIT",
+         "Plank with alternating shoulder taps (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize an approach shot to a green with a pin tucked on the left side, guarded by water. Visualize aiming for the center of the green and hitting a high, soft draw that drifts towards the flag, landing with control."
+        ],
+        [
+         "Consequence",
+         "This is a precision shot. Your visualization must feel controlled and deliberate. You must feel confident in the shot shape. Perform this 10 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The High-Spinning Pitch",
+       "rows": [
+        [
+         "HIIT",
+         "Broad Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 40 yards to a tight pin, you must hit a high, spinning pitch shot that lands and stops quickly. The fade is the natural shot for this."
+        ],
+        [
+         "Consequence",
+         "You must execute 4 out of 5 shots that stop within 6 feet of the hole. Shots that release too far are failures. Failure requires a 30-second wall sit."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Fairway Finder\" Fade",
+       "rows": [
+        [
+         "HIIT",
+         "Burpees (60s)."
+        ],
+        [
+         "Do or Die",
+         "The fade is often called the most controllable driver shot. You must hit 4 out of 5 drives that start down the left side of the fairway and gently curve back into the fairway."
+        ],
+        [
+         "Consequence",
+         "This is a test of control, not power. A hook or a slice that misses the fairway is a failure. Failure to hit 4/5 requires re-doing the HIIT workout."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Crosswind Tamer",
+       "rows": [
+        [
+         "HIIT",
+         "Bicycle Crunches (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize a crosswind. Instead of fighting it, visualize using it. Aim down the corresponding side of the fairway and hit a controlled curve that lets the wind keep it straight to the center."
+        ],
+        [
+         "Consequence",
+         "The visualization must be about working with the elements, not against them. You must feel a sense of strategic mastery. Perform this 10 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w19.txt"
+  },
+  "20": {
+   "n": 20,
+   "title": "Final Exam: The Shot Maker",
+   "mission": "To synthesize all shot-shaping and adversity skills into a final test. You must be able to call your shot and execute under pressure and in simulated bad conditions.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The On-Demand Chip",
+       "rows": [
+        [
+         "HIIT",
+         "Man-Makers (60s). A total-body test of grit."
+        ],
+        [
+         "Do or Die",
+         "Have a partner call out the shot: \"low runner,\" \"high spinner,\" \"hook chip,\" \"cut chip.\" You must execute the correct shot on command."
+        ],
+        [
+         "Consequence",
+         "You must successfully execute 4 out of 5 called shots. A single failure to produce the correct trajectory or shape is a miss. Failure to reach 4/5 means restarting the drill."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Call Your Curve",
+       "rows": [
+        [
+         "HIIT",
+         "Max reps Bodyweight Squats (60s)."
+        ],
+        [
+         "Do or Die",
+         "You must hit a 3-shot sequence with a 5-iron: a Draw, a Fade, and a Straight shot. All three must land in a 30-yard wide fairway."
+        ],
+        [
+         "Consequence",
+         "The sequence must be perfect. A single failure on any of the three shots (wrong shape or missed fairway) requires you to perform 10 burpees and restart the entire 3-shot sequence."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The \"Worst-Case\" Weather",
+       "rows": [
+        [
+         "HIIT",
+         "Controlled Breathing / Heart Rate Lowering (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize a worst-case scenario: 25-mph winds, driving rain, and cold. Mentally, you must accept the challenge with a positive mindset. Your visualization is to simply complete one hole, focusing on a smooth tempo, smart clubbing, and keeping a good attitude."
+        ],
+        [
+         "Consequence",
+         "Your goal is to visualize surviving the hole with a \"good bogey\" and feeling proud of your resilience. You must complete the visualization without letting the \"weather\" break you mentally."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The \"Impossible Lie\" Escape",
+       "rows": [
+        [
+         "HIIT",
+         "Wall Sit (hold until failure)."
+        ],
+        [
+         "Do or Die",
+         "Find a terrible lie near the green (in a divot, on hardpan, ball against the collar). You must get the ball on the green."
+        ],
+        [
+         "Consequence",
+         "This is not about getting it close; it's about a successful escape. You must succeed 3 times in a row from 3 different \"impossible\" lies. Failure to get the ball on the green resets your count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Wind Gauntlet",
+       "rows": [
+        [
+         "HIIT",
+         "Sprint 50 yards, jog back (repeat for 90s)."
+        ],
+        [
+         "Do or Die",
+         "Hit a 3-shot sequence with your driver: a low stinger into a \"headwind,\" a high shot with a \"tailwind,\" and a controlled fade to \"hold up\" against a crosswind."
+        ],
+        [
+         "Consequence",
+         "You must successfully produce three visibly different trajectories that all find the fairway. A single failure means you have failed the exam. Your consequence is to re-do the entire Week 20 blueprint on your next practice day."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w20.txt"
+  },
+  "21": {
+   "n": 21,
+   "title": "First Tee to Final Putt",
+   "mission": "To simulate the pressure of a full competitive round, from the anxiety of the first tee to the focus required on the final putt.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The Lag Putt Gauntlet",
+       "rows": [
+        [
+         "HIIT",
+         "Max Repetition Burpees (60s). This spikes your heart rate to simulate the nerves of a critical long putt."
+        ],
+        [
+         "Do or Die",
+         "From 50 feet, you must two-putt. Immediately after, you must make an additional 4-foot \"comebacker.\""
+        ],
+        [
+         "Consequence",
+         "You must succeed 3 consecutive times. A single three-putt or a missed comebacker resets the count to zero and requires a 30-second plank."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Opening Tee Shot\" Fairway",
+       "rows": [
+        [
+         "HIIT",
+         "Explosive Box Jumps or high knee jumps (60s). This builds explosive power and activates your nervous system for the first big swing of the day."
+        ],
+        [
+         "Do or Die",
+         "Take your driver. You get one ball. You must hit a two finger wide fairway. This simulates the one-and-done nature of the first tee shot."
+        ],
+        [
+         "Consequence",
+         "Pass or Fail. If you miss the fairway, you \"fail\" the opening shot. The consequence is to re-do the HIIT workout before trying again. You must succeed before moving on."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Par Saver Challenge",
+       "rows": [
+        [
+         "HIIT",
+         "Squats (60s)."
+        ],
+        [
+         "Do or Die",
+         "Miss a practice green on purpose, leaving yourself a 25-yard pitch from the rough. You must get up and down."
+        ],
+        [
+         "Consequence",
+         "You must succeed 5 out of 5 times. Failure to reach 5 successful up-and-downs means you perform 10 squats and restart the 5-ball sequence."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Clutch\" Iron Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Burpees (20s). This is a gut check for when you're fatigued late in a round."
+        ],
+        [
+         "Do or Die",
+         "From 155 yards, you must hit the green. This simulates the approach shot on the 18th hole when you need a par to win."
+        ],
+        [
+         "Consequence",
+         "You must hit 4 out of 4 greens. Failure requires a 30 second plank."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The \"Winning Putt\" Routine",
+       "rows": [
+        [
+         "HIIT",
+         "Box Breathing (60s). Lower your heart rate and bring focus."
+        ],
+        [
+         "Do or Die",
+         "Visualize having an 8-foot putt on the 18th green to win. The drill is not to see the ball go in, but to visualize executing your pre-putt routine perfectly—reading the green, taking your practice strokes, and committing to your line—without any thought of the outcome. Then make the putt."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w21.txt"
+  },
+  "22": {
+   "n": 22,
+   "title": "The Scorer's Mindset For Q School",
+   "mission": "To train your focus on scoring, not just ball-striking. This week is about minimizing mistakes, eliminating big numbers, and developing a relentless \"next shot\" mentality.",
+   "sections": [
+    {
+     "h": "Morning Round",
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The \"No Three-Putt\" Zone",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Split Squat Jumps (45s)."
+        ],
+        [
+         "Do or Die",
+         "From 40 feet, your only goal is to get your first putt to finish within a 3-foot circle of the hole. You are not trying to make it."
+        ],
+        [
+         "Consequence",
+         "You must succeed 5 times in a row. A single putt finishing outside the 3-foot circle resets the count to zero and requires 10 squat jumps."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Big Miss\" Elimination",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Split Squat Jumps (45s)."
+        ],
+        [
+         "Do or Die",
+         "From the east side teebox, with your driver, the entire right side of the range is out-of-bounds (or left if you are LH). You must hit 5 consecutive drives into a two finger wide zone that avoids the OB zone."
+        ],
+        [
+         "Consequence",
+         "A single shot in the \"OB\" zone resets your count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The \"Bad Start\" Recovery",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Split Squat Jumps (45s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize starting a tournament with a double-bogey. Feel the frustration and the urge to press. Your drill is to mentally engage your post-shot routine, accept the score, and create a calm, conservative game plan for the next tee shot."
+        ],
+        [
+         "Consequence",
+         "You must shift from an emotional state to a strategic state within 30 visualized seconds. Perform hitting the recovery shot 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The \"Worst Ball\" Chipping Game",
+       "rows": [
+        [
+         "HIIT",
+         "Lateral Skater Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 20 yards, hit two chips. Identify the worse of the two. You must get up-and-down from that spot."
+        ],
+        [
+         "Consequence",
+         "You must succeed 4 out of 4 times. A single failure to get up-and-down requires a 30-second wall sit before the next attempt."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Safe Side\" Approach",
+       "rows": [
+        [
+         "HIIT",
+         "Lateral Skater Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "Pick a target green and imagine the pin is tucked behind a bunker. Your mission is to hit the fat part of the green, away from the pin."
+        ],
+        [
+         "Consequence",
+         "You must hit 5 consecutive iron shots that land on the \"safe side\" of the green. A single shot that challenges the pin is a failure and resets the count."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The \"Next Shot\" Focus",
+       "rows": [
+        [
+         "HIIT",
+         "Lateral Skater Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize hitting a perfect drive into the middle of the fairway. Feel the elation. Now, your drill is to immediately neutralize that emotion and focus with 100% intensity on the process for the next shot: the yardage, the wind, the target."
+        ],
+        [
+         "Consequence",
+         "You must not dwell on the good shot. Your mind must move on just as quickly as it does from a bad shot. Perform this \"emotional reset\" 3 times and hit a shot."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    },
+    {
+     "h": "Afternoon Round",
+     "items": [
+      {
+       "cat": "Visualization",
+       "name": "Rehearse Q School Course Tee Shots",
+       "rows": [
+        [
+         "Do or Die",
+         "Visualize hitting a perfect drive into the middle of the fairway. Feel the elation. Now, your drill is to immediately neutralize that emotion and focus with 100% intensity on the process for the next shot: the yardage, the wind, the target."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "",
+       "name": "Harmon 72 Hole Challenge",
+       "rows": [
+        [
+         "",
+         "Perform the Harmon Putting Course challenge from a slightly different set of recommended putting distances."
+        ],
+        [
+         "",
+         "On #7, hit a chip or pitch from a long sided position. Then make that up and down."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w22.txt"
+  },
+  "23": {
+   "n": 23,
+   "title": "Match Play Mentality",
+   "mission": "To develop the aggressive and resilient mindset required for head-to-head competition. Every drill is a direct match against an opponent.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The \"Knock-Out\" Putt",
+       "rows": [
+        [
+         "HIIT",
+         "Medicine Ball Slams (60s)."
+        ],
+        [
+         "Do or Die",
+         "Place one ball 6 feet from the hole. You are 1-down with 1 to play. You must make the putt to tie the match."
+        ],
+        [
+         "Consequence",
+         "You must make 3 \"match-tying\" putts in a row. A single miss means you \"lose the match\" and must re-do the HIIT workout."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Pressure\" Iron",
+       "rows": [
+        [
+         "HIIT",
+         "Rotational Medicine Ball Throws (45s each side)."
+        ],
+        [
+         "Do or Die",
+         "Your opponent just hit their approach to 15 feet. You are 160 yards out. You must hit the green to stay in the hole."
+        ],
+        [
+         "Consequence",
+         "You must hit 4 out of 4 greens. Failure to do so means you \"lose the hole.\" The consequence is 10 burpees."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Opponent's Mistake",
+       "rows": [
+        [
+         "HIIT",
+         "High-Knee Sprints in Place (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize your opponent hitting their tee shot out-of-bounds. Feel the surge of opportunity. Your drill is to immediately temper that emotion and focus on executing your own conservative game plan: a simple iron or fairway wood to the middle of the fairway."
+        ],
+        [
+         "Consequence",
+         "You must visualize playing the smart, high-percentage shot, not getting overly aggressive. You must complete this strategic visualization 3 times. Then hit each shot."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The \"Get Up & Down to Win\"",
+       "rows": [
+        [
+         "HIIT",
+         "Kettlebell Snatches (45s each side)."
+        ],
+        [
+         "Do or Die",
+         "You've missed the green on the final hole of a tied match. Your opponent is in for par. You must get up-and-down to win."
+        ],
+        [
+         "Consequence",
+         "You get one ball. Pass or Fail. If you fail, you \"lose the match.\" The consequence is to re-do the HIIT workout, then come back and succeed 2 times in a row."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Aggressive Line\" Driver",
+       "rows": [
+        [
+         "HIIT",
+         "Broad Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "You're on a short Par 4 and need to make a birdie on the last hole. The safe play is an iron, but the aggressive play is a driver over a bunker to leave a short wedge. You must take the aggressive line."
+        ],
+        [
+         "Consequence",
+         "You must execute the aggressive play and have it finish in a playable position (fairway or light rough) on 3 out of 3 attempts."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w23.txt"
+  },
+  "1B": {
+   "n": "1B",
+   "title": "The Gauntlet",
+   "mission": "A high-intensity circuit designed to expose weaknesses in your physical readiness, technical execution, and mental discipline. Complete each station in order. Your answers to the questions are as important as the results of the drills.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "The Routine",
+       "name": "Your Anchor in Chaos",
+       "rows": [
+        [
+         "The Exercise",
+         "Plank (Hold for 90 seconds). If you drop, you fail. This builds the core stability and mental endurance to stay disciplined when you are tired."
+        ],
+        [
+         "The Task (Routine)",
+         "Take one golf ball. Go through your full pre-shot routine for an imaginary 150-yard shot. Time it. It should take between 15-30 seconds. Repeat this 5 times. Your time for each routine must be within a 3-second window of the others (e.g., all routines between 20-23 seconds)."
+        ],
+        [
+         "The Question",
+         "Did you commit 100% to your decision before you swung, or were you second-guessing over the ball, allowing doubt to poison your process?"
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "The Putt",
+       "name": "Where Scores Are Finalized",
+       "rows": [
+        [
+         "The Exercise",
+         "Max Repetition Burpees (60 seconds). This elevates your heart rate and simulates the adrenaline of a must-make putt to win a match."
+        ],
+        [
+         "The Task (Putting)",
+         "The Circle of Trust. Place 6 balls in a circle, each 5 feet from the hole. You must make all 6 consecutively."
+        ],
+        [
+         "The Question",
+         "After a miss, does your frustration contaminate the next stroke, or do you have a disciplined process to immediately let it go and focus on the \"next shot\" mentality?"
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "The Chip",
+       "name": "The Scramble for Survival",
+       "rows": [
+        [
+         "The Exercise",
+         "Max Repetition Bodyweight Squat Jumps (60 seconds). This builds the explosive leg power and stability needed to execute touch shots from imperfect lies."
+        ],
+        [
+         "The Task (Chipping)",
+         "The Up & Down Gauntlet. From a challenging lie in the rough 20 yards from the pin, you get one chip and one putt to get up and down. You must succeed 4 out of 6 times."
+        ],
+        [
+         "The Question",
+         "Do you see a tough chip as a problem to be feared or as an opportunity to display your skill and resilience?"
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "The Iron",
+       "name": "The Engine of Consistency",
+       "rows": [
+        [
+         "The Exercise",
+         "Wall Sit (Hold until failure). This is a pure test of grit and your ability to tolerate sustained discomfort—a key attribute for grinding out a good score."
+        ],
+        [
+         "The Task (Irons)",
+         "The Greenlight Gauntlet. Pick a target 150 yards away and define a 15-yard wide \"greenlight\" zone. You must hit 3 consecutive shots that finish inside that zone. One miss resets the count to zero."
+        ],
+        [
+         "The Question",
+         "Are you judging your performance by the quality of your process—the routine, the balance, the strike—or are you emotionally attached to the unpredictable outcome of the ball flight?"
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "The Drive",
+       "name": "The Foundation of the Hole",
+       "rows": [
+        [
+         "The Exercise",
+         "Explosive Broad Jumps (60 seconds). This builds the raw, horizontal power needed for the driver."
+        ],
+        [
+         "The Task (Driving)",
+         "The \"One Shot\" Qualifier. Place a single ball on the tee. Define a 30-yard wide fairway. This is the 18th hole of a U.S. Open qualifier. You get one shot. You must find the fairway. You must succeed 3 times in a row (resetting after each attempt)."
+        ],
+        [
+         "The Question",
+         "Do you take Extreme Ownership for a bad drive by analyzing your own failure in planning or execution, or do you immediately look for an external excuse?"
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "w01b.txt"
+  },
+  "8": {
+   "n": 8,
+   "title": "Competitive Simulation",
+   "mission": "To bring all the elements of power and control together in a competitive, high-pressure simulation. This is the final exam for Month 2.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The 9-Hole Putting Match",
+       "rows": [
+        [
+         "HIIT",
+         "Max reps Push-ups (60s)."
+        ],
+        [
+         "Do or Die",
+         "Play a 9-hole putting match against an imaginary opponent (\"Par\"). Find 9 different putts of varying lengths. Two-putts are a push, one-putts are a win, three-putts are a loss."
+        ],
+        [
+         "Consequence",
+         "You must finish the match at \"Even\" or better. If you are \"1 down\" or worse after 9 holes, your consequence is to find a 50-foot putt and two-putt it 5 times in a row."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Worst Ball\" Challenge",
+       "rows": [
+        [
+         "HIIT",
+         "Man-Makers or Renegade Rows (60s). A total-body gut check."
+        ],
+        [
+         "Do or Die",
+         "Play a 3-hole stretch on the range. On each hole (tee shot & approach), hit two balls. You must play your next shot from the position of the worse of the two."
+        ],
+        [
+         "Consequence",
+         "Your goal is to play the 3 holes in +2 or better. If you are +3 or worse, you must re-do the HIIT workout and play the 3-hole stretch again."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Opponent's Good Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Agility Ladder drills or fast feet in place (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize you are tied for the lead on the 18th hole. Your opponent just hit their approach shot to 2 feet from the cup. Feel that pressure. Your drill is to mentally execute your pre-shot routine with zero change, focusing only on your target and your process, completely unaffected by their shot."
+        ],
+        [
+         "Consequence",
+         "You must successfully block out the opponent's shot and execute your own mental process flawlessly 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Up-and-Down Title",
+       "rows": [
+        [
+         "HIIT",
+         "Heavy Farmer's Carry (as far as possible in 60s)."
+        ],
+        [
+         "Do or Die",
+         "The \"Last Hole Scramble.\" Set up the hardest possible up-and-down scenario you can find. You get one attempt to get up-and-down to \"win\" the tournament."
+        ],
+        [
+         "Consequence",
+         "You must succeed. If you fail, you lose the \"tournament.\" Your consequence is to re-do the Farmer's Carry HIIT, then successfully complete the same up-and-down 2 times in a row."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Must-Hit\" Fairway",
+       "rows": [
+        [
+         "HIIT",
+         "Prowler Sled Push or Car Push (45s). Maximum effort push."
+        ],
+        [
+         "Do or Die",
+         "This is the 18th hole. Tight fairway. You must find the fairway to have a chance. You get one ball."
+        ],
+        [
+         "Consequence",
+         "Pass or Fail. If you miss the fairway, you \"lose.\" The consequence is re-doing the HIIT push, then trying the \"Must-Hit\" fairway drill again until you succeed."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Winner's Speech",
+       "rows": [
+        [
+         "HIIT",
+         "Rest. Your heart rate should be calming down. Deep, controlled breathing for 60s."
+        ],
+        [
+         "Do or Die",
+         "Visualize that you just won. You executed the final drills successfully. Mentally, what are the first three things you would think? Focus on the satisfaction of the process paying off, not just the trophy. (e.g., \"My discipline held up,\" \"I trusted my process on the last hole,\" \"The hard work was worth it\")."
+        ],
+        [
+         "Consequence",
+         "The visualization must be about acknowledging the disciplined effort that led to the win. Perform this once, with clarity and satisfaction, to end the month's training."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "m2.txt"
+  },
+  "24": {
+   "n": 24,
+   "title": "Final Exam: The Tournament Simulation",
+   "mission": "To synthesize the entire month's training into a grueling 6-hole simulation. You will play against a \"scratch\" golfer's score (Par) and must beat it.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Hole 1",
+       "name": "The Opening Par 4",
+       "rows": [
+        [
+         "HIIT",
+         "Burpees (60s)."
+        ],
+        [
+         "Do or Die",
+         "You must play the hole (Driver, Iron, Chip/Putt) in 4 shots or less. A tee shot into a 40-yard fairway, an approach to a 30-foot circle green, and then two-putt."
+        ],
+        [
+         "Consequence",
+         "A score of 5 or more is a \"bogey.\" Your goal is to finish the 6-hole exam at +2 or better."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 2",
+       "name": "The Long Par 3",
+       "rows": [
+        [
+         "HIIT",
+         "Dumbbell Thrusters (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 180 yards, you must hit the green. A miss requires an up-and-down to save \"par\" (3 shots total)."
+        ],
+        [
+         "Consequence",
+         "Track your score. A missed green and a failed up-and-down results in a \"bogey.\""
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 3",
+       "name": "The Risk/Reward Par 5",
+       "rows": [
+        [
+         "HIIT",
+         "Sprint 50 yards, jog back (repeat for 90s)."
+        ],
+        [
+         "Do or Die",
+         "After a successful tee shot, you have 230 yards to the green. You must make a strategic choice: go for it or lay up."
+        ],
+        [
+         "Consequence",
+         "Execute your choice. A birdie (4 shots) or par (5 shots) is your goal. A bogey (6) or worse hurts your score against \"Par.\""
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 4",
+       "name": "The Tight Par 4",
+       "rows": [
+        [
+         "HIIT",
+         "Prowler Sled Push (45s)."
+        ],
+        [
+         "Do or Die",
+         "You must take less than driver. Your tee shot must find a 30-yard wide fairway. Your approach must find the green."
+        ],
+        [
+         "Consequence",
+         "A missed fairway or green puts you in a scramble for \"par\" (4 shots). Track your score."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 5",
+       "name": "The Short Par 3",
+       "rows": [
+        [
+         "HIIT",
+         "Wall Sit (hold until failure)."
+        ],
+        [
+         "Do or Die",
+         "From 130 yards, you must hit your shot within a 20-foot circle of the pin to secure a \"birdie\" (2 shots). A shot outside the circle requires a two-putt for \"par.\""
+        ],
+        [
+         "Consequence",
+         "This is a scoring opportunity. Track your score."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 6",
+       "name": "The Finishing Par 4",
+       "rows": [
+        [
+         "HIIT",
+         "Man-Makers (90s). Final gut check."
+        ],
+        [
+         "Do or Die",
+         "You must execute your pre-shot routine perfectly on both the tee shot and approach shot. Your only goal is to make a par or better (4 shots)."
+        ],
+        [
+         "Consequence",
+         "Tally your 6-hole score. Did you beat the target of +2? If not, you have failed the final exam. Your consequence is to re-do this entire simulation on your next practice day. You do not pass the month until you pass this test."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "m6_w21-24.txt"
+  },
+  "25": {
+   "n": 25,
+   "title": "Amen Corner Readiness",
+   "mission": "To prepare for golf's most daunting stretch. This week focuses on precision with scoring clubs and developing the mental discipline to commit to a shot over trouble.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The Downhill \"Slider\"",
+       "rows": [
+        [
+         "HIIT",
+         "Single-Leg Box Jumps (30s each side). Builds the stability needed to stay grounded on severe slopes."
+        ],
+        [
+         "Do or Die",
+         "Find a severely downhill, sidehill putt (simulating Augusta's greens). Your only goal is to lag the putt so it finishes below the hole, leaving an uphill tap-in."
+        ],
+        [
+         "Consequence",
+         "A single putt that finishes above the hole is a failure. You must succeed 4 out of 5 times. Failure means a 30-second wall sit before restarting."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The High Draw Iron",
+       "rows": [
+        [
+         "HIIT",
+         "Rotational Medicine Ball Throws (for height) (60s). Focus on an upward, explosive release."
+        ],
+        [
+         "Do or Die",
+         "With a 5-iron, you must hit a high, soft-landing draw. This is the signature shot required to attack pins at Augusta. The shot must curve right-to-left and land softly."
+        ],
+        [
+         "Consequence",
+         "You must execute 3 successful high draws in a row. A straight shot or a fade resets the count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The 12th Tee at Augusta",
+       "rows": [
+        [
+         "HIIT",
+         "Jump Rope (90s). Elevates the heart rate to simulate the nerves of this iconic shot."
+        ],
+        [
+         "Do or Die",
+         "Visualize standing on the 12th tee. See the swirling winds, Rae's Creek, and the narrow green. Your drill is to pick a decisive club and a conservative target (the middle of the green), and make a committed, balanced swing, ignoring the pin."
+        ],
+        [
+         "Consequence",
+         "You must feel 100% commitment to the safe target, free of doubt. If your mind wavers to the pin or the water, the visualization is a failure. Repeat 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The \"No-Bounce\" Pitch",
+       "rows": [
+        [
+         "HIIT",
+         "Broad Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 30 yards to a pin just over a bunker, you must hit a high, soft pitch that lands and stops almost immediately. This is the high-spin shot needed on fast greens."
+        ],
+        [
+         "Consequence",
+         "You must land 3 out of 5 shots within a 10-foot circle of the pin. Failure requires 10 squat jumps before restarting."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Uneven Lie Approach",
+       "rows": [
+        [
+         "HIIT",
+         "Dumbbell Goblet Squats (60s). Builds a stable base for awkward stances."
+        ],
+        [
+         "Do or Die",
+         "Find a severe slope. You must hit one shot with the ball above your feet and one with the ball below your feet. Both must land on a designated \"green.\""
+        ],
+        [
+         "Consequence",
+         "You must succeed on 3 consecutive pairs. A single chunked, thinned, or wild miss on either shot fails the pair."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "Handling the \"Roars\"",
+       "rows": [
+        [
+         "HIIT",
+         "Burpees (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize standing over a crucial approach shot. Suddenly, you hear a huge roar from a nearby green. Your drill is to step away, reset your routine, and then re-address the ball with the same level of focus as before, completely unphased."
+        ],
+        [
+         "Consequence",
+         "You must successfully reset your routine without rushing. Perform this visualization 3 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "m7_w25-28.txt"
+  },
+  "26": {
+   "n": 26,
+   "title": "The Par 5 Attack",
+   "mission": "To develop the strategic aggression required to score on the Par 5s, just as players do at The Masters. This is about power, precision, and smart decision-making.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The \"Eagle\" Chip-in",
+       "rows": [
+        [
+         "HIIT",
+         "Kettlebell Swings (60s)."
+        ],
+        [
+         "Do or Die",
+         "From just off the green, your goal is to hole the chip shot."
+        ],
+        [
+         "Consequence",
+         "You get 10 balls. You must hole one. Failure to do so means you must re-do the HIIT workout. This drill trains you to have a \"make it\" mentality."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Second Shot at 13\"",
+       "rows": [
+        [
+         "HIIT",
+         "Lateral Bounds / Skater Jumps (60s). Develops the power and balance to hit from a sidehill lie."
+        ],
+        [
+         "Do or Die",
+         "Hit your 3-wood or hybrid from a ball-above-your-feet lie (simulating the 13th fairway at Augusta). The shot must be a draw."
+        ],
+        [
+         "Consequence",
+         "You must execute 3 successful draws that find a designated \"fairway\" or \"green.\" A slice or push-fade is a failure and resets your count."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Lay-up Decision",
+       "rows": [
+        [
+         "HIIT",
+         "Man-Makers (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize being on the 15th hole at Augusta with 230 yards over water. It's a \"go\" situation, but the shot doesn't feel right. Your drill is to visualize making the disciplined, strategic lay-up to a perfect wedge number, feeling confident and smart in your decision."
+        ],
+        [
+         "Consequence",
+         "You must feel that the lay-up is a strategic weapon, not a failure. Perform this visualization 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Tight-Lie Pitch",
+       "rows": [
+        [
+         "HIIT",
+         "Medicine Ball Slams (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 40 yards on a very tight, firm lie (simulating Augusta's fairways), you must pitch the ball to a 15-foot circle. Clean contact is paramount."
+        ],
+        [
+         "Consequence",
+         "You must succeed on 4 out of 5 pitches. A single chunked or bladed shot is a failure. Failure to meet the goal requires a 30-second plank before restarting."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Power Fade\" Driver",
+       "rows": [
+        [
+         "HIIT",
+         "Prowler Sled Push (45s)."
+        ],
+        [
+         "Do or Die",
+         "Many holes at Augusta favor a left-to-right ball flight. You must hit 3 consecutive drives that are both powerful (over 90% speed) and fade into a 40-yard wide fairway."
+        ],
+        [
+         "Consequence",
+         "A hook, pull, or slice that misses the fairway resets the count to zero and requires 5 burpees."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "Embracing \"Tradition\"",
+       "rows": [
+        [
+         "HIIT",
+         "Controlled Breathing / Box Breathing (90s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize the tradition of The Masters. The white jumpsuits, the reverence for the course. Your drill is to create a set of \"personal course rules\" for yourself, as Ryan Crysler advises. For example: \"I will always leave the ball below the hole,\" or \"I will never get aggressive after a bad shot.\""
+        ],
+        [
+         "Consequence",
+         "You must create and mentally commit to a list of 3 personal rules that you will follow."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "m7_w25-28.txt"
+  },
+  "27": {
+   "n": 27,
+   "title": "The \"Back Nine on Sunday\"",
+   "mission": "To simulate the immense pressure of the final nine holes of a major. Every drill is a gut-check designed to test your discipline when it matters most.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The \"Must Make\" Par Putt",
+       "rows": [
+        [
+         "HIIT",
+         "Wall Sit (hold until failure). This builds the grit to withstand pressure."
+        ],
+        [
+         "Do or Die",
+         "Place a ball 6 feet from the hole. You've just hit a poor chip. You must make this putt to \"save par\" and stay in the tournament."
+        ],
+        [
+         "Consequence",
+         "You must make 5 consecutive \"par saver\" putts. A single miss resets the count to zero."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Protect the Lead\" Iron",
+       "rows": [
+        [
+         "HIIT",
+         "Heavy Farmer's Carry (as far as possible in 60s)."
+        ],
+        [
+         "Do or Die",
+         "You have a one-shot lead on the 16th hole at Augusta. The pin is tucked on the left. You must hit the fat, safe part of the green to the right."
+        ],
+        [
+         "Consequence",
+         "You get one ball. You must execute the smart shot. Failure to hit the safe zone means you \"hit it in the water.\" The consequence is re-doing the HIIT workout."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Champion's Focus",
+       "rows": [
+        [
+         "HIIT",
+         "Plank (hold for 90s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize walking down the 18th fairway with a lead. Feel the emotions, the crowd, the history. Your drill is to quiet all of that noise and bring your focus down to the single next shot. What is the yardage? What is the wind?"
+        ],
+        [
+         "Consequence",
+         "You must successfully shift from the \"big picture\" emotion to the \"small picture\" process. Perform this mental shift 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Delicate Downhill Chip",
+       "rows": [
+        [
+         "HIIT",
+         "Max reps Bodyweight Squats (60s)."
+        ],
+        [
+         "Do or Die",
+         "Find a steep downhill chip to a fast green. You must chip the ball so that it finishes inside a 6-foot circle. Speed and touch are everything."
+        ],
+        [
+         "Consequence",
+         "You must succeed 3 out of 5 times. A single chip hit too hard is an automatic failure for that attempt."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The Final Tee Shot",
+       "rows": [
+        [
+         "HIIT",
+         "Sprint 50 yards, jog back (repeat for 90s)."
+        ],
+        [
+         "Do or Die",
+         "You have a one-shot lead on the final hole. You get one driver. You must find the fairway."
+        ],
+        [
+         "Consequence",
+         "Pass or Fail. A miss means you must re-do the HIIT sprint, then come back and hit the fairway before you can finish."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Green Jacket Ceremony",
+       "rows": [
+        [
+         "HIIT",
+         "Rest."
+        ],
+        [
+         "Do or Die",
+         "Visualize winning. Feel the emotion. Now, your drill is to visualize the champion's mindset: humility and respect. See yourself shaking your competitor's hand and thanking your team."
+        ],
+        [
+         "Consequence",
+         "The visualization must be about the respect for the game and the discipline it took to win, not just the glory."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "m7_w25-28.txt"
+  },
+  "28": {
+   "n": 28,
+   "title": "Final Exam: The \"Masters Champion\"",
+   "mission": "A final simulation to bring together all the skills of the month. You will play a 6-hole \"Masters\" gauntlet.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Hole 1 (like #10)",
+       "name": "Downhill Draw",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Dumbbell Snatches (60s)."
+        ],
+        [
+         "Do or Die",
+         "You must hit a drawing tee shot (driver or 3-wood) to a designated fairway, simulating the downhill, right-to-left 10th at Augusta. Par is 4."
+        ],
+        [
+         "Consequence",
+         "Keep score against par. A bogey or worse puts you behind early."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 2 (like #11)",
+       "name": "The Long Approach",
+       "rows": [
+        [
+         "HIIT",
+         "Burpees (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 190 yards, you must hit a fade into a \"green\" with \"water\" on the left. The smart miss is to the right. Par is 4."
+        ],
+        [
+         "Consequence",
+         "Hitting into the \"water\" is a penalty stroke. Track your score."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 3 (like #12)",
+       "name": "The Golden Bell",
+       "rows": [
+        [
+         "HIIT",
+         "Wall Sit (90s)."
+        ],
+        [
+         "Do or Die",
+         "From 155 yards, you get one shot. You must hit the \"green.\" A miss short, left, or right is a failure. Par is 3."
+        ],
+        [
+         "Consequence",
+         "A miss results in a \"double bogey\" (5). This is a test of nerve."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 4 (like #13)",
+       "name": "The Par 5 Gamble",
+       "rows": [
+        [
+         "HIIT",
+         "Kettlebell Swings (90s)."
+        ],
+        [
+         "Do or Die",
+         "After a drawing tee shot, you have a second shot from a ball-above-your-feet lie. You must hit the green to have a look at \"eagle.\" Par is 5."
+        ],
+        [
+         "Consequence",
+         "Track your score. This is a scoring opportunity."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 5 (like #16)",
+       "name": "The Sunday Pin",
+       "rows": [
+        [
+         "HIIT",
+         "Rotational Medicine Ball Slams (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 170 yards, you must hit a draw to a back-left \"pin.\" Par is 3."
+        ],
+        [
+         "Consequence",
+         "A miss to the right leaves a treacherous downhill chip. Track your score."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 6 (like #18)",
+       "name": "The Finishing Climb",
+       "rows": [
+        [
+         "HIIT",
+         "Prowler Sled Push (60s). The final, grueling test."
+        ],
+        [
+         "Do or Die",
+         "You must hit a driver into a tight, uphill \"fairway.\" Your approach shot must find the green. Par is 4."
+        ],
+        [
+         "Consequence",
+         "Tally your 6-hole score. The goal is to finish at Even Par or better. If you are over par, you have failed the exam. Your consequence is to re-do this entire simulation on your next practice day. You do not pass the month until you pass this test."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "m7_w25-28.txt"
+  },
+  "33": {
+   "n": 33,
+   "title": "The Strokes Gained Audit",
+   "mission": "To conduct a ruthless, data-driven audit of your game. You must identify where you are losing strokes against your target score. This week is about confronting the brutal facts of your performance.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The \"No Wasted Shots\" Zone",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Max Repetition Bodyweight Squats (60s)."
+        ],
+        [
+         "Do or Die",
+         "The Makeable Range. Place balls at 3, 5, and 7 feet. You must hole all three in sequence. This trains you to convert the putts you are statistically expected to make."
+        ],
+        [
+         "Consequence",
+         "A single miss at any distance resets the 3-putt sequence to the beginning. You must complete the sequence 3 times in a row."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Approach Shot Proximity",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Alternating Lunges (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 140 yards, you must hit 5 shots. Your goal is not just to hit the green, but to get the average proximity of the 5 shots to within 30 feet of the hole. Use a rangefinder to measure each one."
+        ],
+        [
+         "Consequence",
+         "If your 5-shot average is greater than 30 feet, you fail. The consequence is 15 burpees, then you must restart the 5-shot test."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Post-Round Data Review",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "High Knees in Place (90s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize your last round's scorecard or Arccos data. Your drill is to \"defend your round\". Mentally, you must analyze two poor shots. Was the outcome a result of a bad decision or bad execution? Be brutally honest."
+        ],
+        [
+         "Consequence",
+         "You must identify the root cause (plan vs. execution) for both shots. This builds the self-awareness required for real improvement. Repeat 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Up-and-Down Percentage",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Mountain Climbers (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 20 yards in the rough, you must get up and down. This directly tests your Strokes Gained: Around the Green."
+        ],
+        [
+         "Consequence",
+         "You must succeed on 6 out of 10 attempts. Failure to do so means you perform a 60-second plank before restarting the 10-ball sequence."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Off-the-Tee Strategy",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Plank with Alternating Shoulder Taps (60s)."
+        ],
+        [
+         "Do or Die",
+         "You get 5 drives. The goal is not just to hit the fairway, but to hit the strategically correct side of the fairway to open up the angle to a theoretical pin position."
+        ],
+        [
+         "Consequence",
+         "You must hit 3 out of 5 drives into the correct half of the fairway. This is a pass/fail test of strategic execution, not just accuracy."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "Owning Your Round",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Deep Breathing / Box Breathing (90s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize your Arccos dashboard. See your Strokes Gained numbers. Your drill is to accept the data without emotion. If you lost 2 strokes putting, you must mentally accept it and formulate a plan to address it, rather than making excuses."
+        ],
+        [
+         "Consequence",
+         "This drill trains Extreme Ownership of your performance data. You must achieve a state of analytical acceptance. Perform this 3 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "m9_w33-37.txt"
+  },
+  "34": {
+   "n": 34,
+   "title": "Wedge Gapping & Distance Control",
+   "mission": "To turn your wedge game into a lethal scoring weapon. This week is about eliminating guesswork and knowing your exact yardages for every shot inside 120 yards.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The 30-50 Yard Zone",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Wall Sit (hold for as long as possible)."
+        ],
+        [
+         "Do or Die",
+         "You must hit shots to targets at 30, 40, and 50 yards. Your ball must stop within 10% of the total distance to the pin (e.g., within 9 feet on a 30-yard shot)."
+        ],
+        [
+         "Consequence",
+         "You must hit 2 out of 3 shots successfully at each distance before moving to the next. Failure at any distance sends you back to the beginning."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Half-Wedge\" Dial-In",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Broad Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "With your sand wedge, you must hit a ball to a 75-yard target using only a 9-o'clock backswing. Then, hit one to a 90-yard target with a 10-o'clock swing."
+        ],
+        [
+         "Consequence",
+         "You must land one ball from each swing within a 20-foot circle. You must succeed on 3 consecutive pairs."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The \"Perfect Number\"",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Bear Crawl (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize your favorite wedge yardage (e.g., 85 yards). Your drill is to visualize a tee shot on a Par 4 where you intentionally lay back to leave yourself that exact number. Feel the confidence that comes from planning to hit your strengths."
+        ],
+        [
+         "Consequence",
+         "You must feel that the strategic lay-up is an offensive move. Hold this feeling of \"planned confidence\" for 60 seconds. Repeat 3 times."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The \"Flighted\" Wedge",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Bodyweight Squat Jumps (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 60 yards, you must hit two shots. The first must be a low, flighted wedge that stays under the wind. The second must be a high, soft-landing shot."
+        ],
+        [
+         "Consequence",
+         "Both shots must land on the designated \"green.\" You must execute 3 successful pairs in a row. A miss on either shot fails the pair."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "Wedge Gap Test",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Push-ups (max reps in 60s)."
+        ],
+        [
+         "Do or Die",
+         "Hit 5 full shots with your Pitching Wedge, Gap Wedge, and Sand Wedge. Use a launch monitor or rangefinder to determine your exact carry yardage for each."
+        ],
+        [
+         "Consequence",
+         "This is a data-gathering mission. You must record these numbers. There should be a consistent 10-15 yard gap between each club. If not, you have identified a critical flaw in your equipment setup."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "Trusting Your Arccos Caddie",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Restorative Stretching (90s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize being between clubs. Your Arccos Caddie recommends the shorter of the two clubs. Your \"feel\" tells you otherwise. Your drill is to mentally commit to the data-driven recommendation, take the shorter club, and make an aggressive, confident swing."
+        ],
+        [
+         "Consequence",
+         "This trains you to trust your data over fickle emotion. You must perform this visualization 3 times with unwavering commitment to the data."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "m9_w33-37.txt"
+  },
+  "35": {
+   "n": 35,
+   "title": "The Par 5 Leverage",
+   "mission": "To turn every Par 5 into a legitimate scoring opportunity. This is achieved through data-driven strategy and precise execution of long shots and wedges.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Short Game",
+       "name": "The \"Third Shot\" Pitch",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Burpees (max reps in 60s)."
+        ],
+        [
+         "Do or Die",
+         "You've laid up to 70 yards on a Par 5. You must hit your pitch shot to within an 8-foot \"birdie circle.\""
+        ],
+        [
+         "Consequence",
+         "You must succeed on 4 out of 6 attempts. Failure to do so requires re-doing the HIIT workout."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Go for It\" Fairway Wood",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Plank (hold until failure)."
+        ],
+        [
+         "Do or Die",
+         "You have 230 yards to the green. This is your second shot on a Par 5. You must hit your 3-wood or hybrid into a 40-yard wide target zone."
+        ],
+        [
+         "Consequence",
+         "You must hit 3 out of 5 shots successfully into the zone. This is a pass/fail test of a critical scoring club."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The Risk/Reward Calculation",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Jump Rope (2 minutes)."
+        ],
+        [
+         "Do or Die",
+         "Visualize your Arccos data for a Par 58888. Your probability of making birdie by going for it is 25%, but your probability of making bogey or worse is 40%. Your probability of birdie by laying up is 35%. Your drill is to mentally choose the higher percentage lay-up."
+        ],
+        [
+         "Consequence",
+         "This trains you to make decisions based on analytics, not ego. You must successfully choose the \"smart\" play 3 times in a row."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Short Game",
+       "name": "The Delicate Greenside Bunker",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Resistance Band Pull-Aparts (60s)."
+        ],
+        [
+         "Do or Die",
+         "You've gone for the green and missed, leaving a delicate bunker shot. You must get up and down."
+        ],
+        [
+         "Consequence",
+         "You must succeed 3 out of 4 times. A single failure to get up and down means you restart the 4-ball sequence."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Full Swing",
+       "name": "The \"Lay-Up to a Number\" Iron",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Pistol Squat practice or Single-Leg Squats to a chair (45s each side)."
+        ],
+        [
+         "Do or Die",
+         "You are 250 yards out. Your favorite full wedge is 90 yards. You must hit an iron 160 yards, leaving you with your perfect number."
+        ],
+        [
+         "Consequence",
+         "You must hit 3 consecutive lay-up shots that finish within a 10-yard bubble of your target (e.g., between 155-165 yards)."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Visualization",
+       "name": "The \"Birdie Opportunity\" Mindset",
+       "rows": [
+        [
+         "HIIT (Travel Ready)",
+         "Shadow Boxing (60s)."
+        ],
+        [
+         "Do or Die",
+         "Visualize standing on a Par 5 tee box. Your drill is to immediately see it as a \"green light\" scoring opportunity. Mentally plan the hole backwards: identify the ideal third shot yardage, the lay-up spot to get there, and the tee shot to set that up."
+        ],
+        [
+         "Consequence",
+         "The visualization must be an aggressive and confident strategic plan. Perform this 3 times."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "m9_w33-37.txt"
+  },
+  "36": {
+   "n": 36,
+   "title": "Final Exam: The Strokes Gained Champion",
+   "mission": "To synthesize the entire month's training into a final data-driven test. You will play a 6-hole simulation, and your score will be measured in Strokes Gained against a scratch golfer.",
+   "sections": [
+    {
+     "h": null,
+     "items": [
+      {
+       "cat": "Hole 1",
+       "name": "Off-the-Tee (+/-)",
+       "rows": [
+        [
+         "HIIT",
+         "Max Repetition Push-ups (60s)."
+        ],
+        [
+         "Do or Die",
+         "On a Par 4, a fairway hit is 0.0 Strokes Gained. A 20-yard miss into the rough is -0.2 strokes. A miss into a fairway bunker is -0.4 strokes. You get one drive."
+        ],
+        [
+         "Consequence",
+         "Record your strokes gained/lost. Your goal is to finish the 6-hole exam with a total Strokes Gained of 0.0 or better."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 2",
+       "name": "Approach (+/-)",
+       "rows": [
+        [
+         "HIIT",
+         "Max Repetition Bodyweight Squats (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 150 yards, hitting the green to 20 feet is 0.0 Strokes Gained. Hitting it to 8 feet is +0.25 strokes. Missing the green is -0.3 strokes. You get one shot."
+        ],
+        [
+         "Consequence",
+         "Record your strokes gained/lost and add it to your total."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 3",
+       "name": "Around the Green (+/-)",
+       "rows": [
+        [
+         "HIIT",
+         "Wall Sit (hold until failure)."
+        ],
+        [
+         "Do or Die",
+         "From 15 yards in the rough, chipping to 4 feet is 0.0 Strokes Gained. Holing it is +0.9 strokes. Chipping to 15 feet is -0.2 strokes. You get one chip."
+        ],
+        [
+         "Consequence",
+         "Record your strokes gained/lost and add it to your total."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 4",
+       "name": "Putting (+/-)",
+       "rows": [
+        [
+         "HIIT",
+         "Alternating Lunges (60s)."
+        ],
+        [
+         "Do or Die",
+         "From 8 feet, making the putt is +0.5 Strokes Gained. Missing it is -0.5 strokes. You get one putt."
+        ],
+        [
+         "Consequence",
+         "Record your strokes gained/lost. This is a full 1-stroke swing, demonstrating the importance of makeable putts."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 5",
+       "name": "Recovery (+/-)",
+       "rows": [
+        [
+         "HIIT",
+         "Burpees (90s). Final gut check."
+        ],
+        [
+         "Do or Die",
+         "You are in a fairway bunker 170 yards out. Hitting the green is +0.3 strokes. Advancing it safely to the fairway is 0.0 strokes. Leaving it in the bunker is -0.8 strokes."
+        ],
+        [
+         "Consequence",
+         "Record your strokes gained/lost. This tests your strategic decision to play the high-percentage shot."
+        ]
+       ],
+       "extra": []
+      },
+      {
+       "cat": "Hole 6",
+       "name": "Final Tally",
+       "rows": [
+        [
+         "HIIT",
+         "Rest. Controlled breathing for 2 minutes."
+        ],
+        [
+         "Do or Die",
+         "Tally your total Strokes Gained for the 5 \"shots.\""
+        ],
+        [
+         "Consequence",
+         "Is your total positive or negative? If you are negative, you have failed the final exam. Your consequence is to re-do this entire simulation on your next practice day. You do not pass the month until you can prove, with data, that you can gain strokes on a scratch player."
+        ]
+       ],
+       "extra": []
+      }
+     ]
+    }
+   ],
+   "src": "m9_w33-37.txt"
+  }
+ },
+ "intros": {
+  "2": "We are now entering Month 2: Power Generation & Speed. The mission shifts from control to developing and managing explosive athletic power. The work you did in Month 1 was the prerequisite. Now, we earn the right to hit it farther. Execute.",
+  "3": "We are now entering Month 3: Pressure Inoculation & Scrambling. The mission is to intentionally seek out uncomfortable situations and perform. We will train your mind to be calm and your process to be reliable when it matters most, making you an expert in damage control and recovery.",
+  "6": "We now enter Month 6: Competitive Sharpening & Mental Fortitude. The focus shifts from skill acquisition to performance execution. You've built the tools; now you will sharpen them to a razor's edge. The mission is to bridge the gap between your practice-range game and your on-course score, ensuring your discipline holds up under the pressure of competition.",
+  "7": "We now enter Month 7: Major Championship Preparation & The Augusta Mindset. This month is inspired by The Masters. The mission is to prepare as if you are playing for a green jacket. Every drill is designed to handle the unique pressures and shot requirements of championship golf. We will train creativity, touch, and unwavering mental fortitude.",
+  "9": "We now enter Month 9: Scoring Optimization & Performance Analytics. The mission is to transition from a good ball-striker to an elite scorer. We will be guided by data, not by feel. This month is about leveraging analytics to identify the precise areas where strokes are lost and executing a surgical plan to reclaim them. You will learn to think like a performance analyst and play like a champion."
+ },
+ "kpi": {
+  "1": "10 consecutive 4-ft putts through 2.25\" gate",
+  "2": "5 consecutive lag putts inside 3-ft circle from 40 ft",
+  "3": "Up & Down success >= 4 out of 5 from varied lies",
+  "4": "5 high/low trajectory pairs executed on command",
+  "5": "Zero short putts on 50-ft lags (10 consecutive)",
+  "6": "4 out of 5 plugged bunker shots within 10 ft",
+  "7": "10 consecutive drivers inside 30-yd corridor",
+  "8": "Score Par or better on 6-hole worst-ball sim",
+  "9": "5 out of 5 successful slope contacts to target",
+  "10": "8 out of 10 wedges inside 20-ft circle at 100 yds",
+  "11": "100% target callout execution on random shots",
+  "12": "Complete 6-station pressure circuit without reset",
+  "13": "Map complete wedge matrix (3 distances per wedge)",
+  "14": "100% adherence to safe-side targets (15 shots)",
+  "15": "6 out of 6 wind stingers below dynamic line",
+  "16": "Execute 4-shot lead strategy on simulated 18th",
+  "17": "5 consecutive stingers under 10-ft apex line",
+  "18": "5 consecutive draw shapes through gate",
+  "19": "5 consecutive fade shapes through gate",
+  "20": "Successfully hit Draw/Fade/Straight on demand",
+  "21": "Make 5 out of 5 comebacker putts under HR stress",
+  "22": "10 consecutive lag putts inside 3-ft ring",
+  "23": "4 out of 4 high-pressure 6-ft putts converted",
+  "24": "Finish 6 simulated holes at Level Par or lower",
+  "25": "4 out of 5 downhill sliders inside 2-ft circle",
+  "26": "3-Wood Draw starting right of center, curving in",
+  "27": "8 out of 8 pressure putts made (4–8 ft range)",
+  "28": "Pass all 6 Augusta-specific shot shape gates",
+  "29": "100% execution score on first-attempt shots",
+  "30": "5 consecutive 4-irons landed inside green target",
+  "31": "5 out of 6 rough recoveries to within 12 feet",
+  "32": "Complete full protocol without facility dependencies",
+  "33": "SG Approach > +0.5 relative to scratch",
+  "34": "80% wedge proximity inside 10% of total distance",
+  "35": "3 out of 4 greenside bunker shots saved",
+  "36": "Cumulative Strokes Gained >= +0.0 across 6 holes",
+  "37": "Zero double bogeys, 100% drill gate compliance"
+ }
+}
