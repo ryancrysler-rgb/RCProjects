@@ -12,7 +12,7 @@ EVENT = {
     'blocks': [
         ('9:00', '9:45', 'We Focus On Playing', 'Presentation',
          'How TeamCH3 coaches the game: the Non-Negotiables and the House Rules you will play by today.'),
-        ('10:30', '12:30', 'Warmup & Playing Assessment', 'On course',
+        ('9:45', '12:30', 'Warmup & Playing Assessment', 'On course',
          'Warm up, then head to the course. The coaches walk with you and assess how you play: decisions, routine, scoring and stats.'),
         ('12:30', '1:30', 'Lunch', 'The Floridian',
          'Return from the course and break for lunch.', 'lunch'),
