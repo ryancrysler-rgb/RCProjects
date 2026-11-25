@@ -185,6 +185,22 @@ for dot, first, last, label, color in [('#253746', 'Mike', 'Bolt', 'HEAD COACH �
                                        ('#E04E39', 'Joe', 'Marshall', 'HEAD COACH · CH3 THAILAND', '#A6B1BA')]:
     EDITS.append((COACH % (dot, 'Head', 'Coach') + COACH % (dot, 'Academy', 'Coach'),
                   COACH % (dot, first, last) + COACH_LABEL % (color, label)))
+# ---- this week on tour: Sydney clock + banner below the header (hides itself after the event) ----
+ONTOUR = {'until': '2026-11-30T13:00:00Z',  # Mon Nov 30, 12am Sydney
+          'eyebrow': 'ON TOUR THIS WEEK · SYDNEY',
+          'title': 'CH3 + Cameron Smith at the BMW Australian PGA Championship',
+          'body': 'The Lakes Golf Club, Sydney · November 26–29. Claude is in Sydney with Cam as he chases a fourth Joe Kirkwood Cup.'}
+EDITS.append(('<span style="color:#A6B1BA">FLORIDA</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums">{{ floTime }}</span>',
+              '<span style="color:#A6B1BA">FLORIDA</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums">{{ floTime }}</span>'
+              '<span style="color:#F47C67">SYDNEY</span><span style="font:400 16px/1 Anton,sans-serif;color:#F47C67;font-variant-numeric:tabular-nums">{{ sydTime }}</span>'))
+EDITS.append(('<section data-screen-label="Hero"',
+              '<div data-screen-label="On tour" class="ch3-ontour" data-ch3-until="%s" style="background:#E04E39;color:#fff">'
+              '<div style="max-width:1280px;margin:0 auto;padding:12px 40px;display:flex;align-items:center;gap:18px;flex-wrap:wrap">'
+              '<span style="font:600 12px/1 \'Barlow Condensed\';letter-spacing:.16em;background:#111A22;padding:6px 9px;white-space:nowrap">%s</span>'
+              '<span style="font:400 19px/1.1 Anton,sans-serif;text-transform:uppercase;letter-spacing:.01em">%s</span>'
+              '<span style="font:600 16px/1.3 \'Barlow Condensed\';flex:1;min-width:240px">%s</span>'
+              '<span style="font:600 12px/1 \'Barlow Condensed\';letter-spacing:.14em;white-space:nowrap">SYDNEY <span style="font:400 18px/1 Anton,sans-serif;letter-spacing:0;margin-left:4px" data-ch3="tz" data-tz="Australia/Sydney">--:--</span></span>'
+              '</div></div><section data-screen-label="Hero"' % (ONTOUR['until'], H.escape(ONTOUR['eyebrow']), H.escape(ONTOUR['title']), H.escape(ONTOUR['body']))))
 for a, b in EDITS:
     a2 = a.replace('’', "'") if a.replace('’', "'") in t else a
     n = t.count(a2)
@@ -249,7 +265,7 @@ ctx = {
     'evBlurb': span('ev-blurb', _ev[5]), 'recShort': span('rec-short', REC_DEFAULT),
     'epNum': '24',
     'myTime': span('tz', '--:--', ' data-tz="local"'), 'dubaiTime': span('tz', '--:--', ' data-tz="Asia/Dubai"'),
-    'thaiTime': span('tz', '--:--', ' data-tz="Asia/Bangkok"'), 'floTime': span('tz', '--:--', ' data-tz="America/New_York"'),
+    'thaiTime': span('tz', '--:--', ' data-tz="Asia/Bangkok"'), 'floTime': span('tz', '--:--', ' data-tz="America/New_York"'), 'sydTime': span('tz', '--:--', ' data-tz="Australia/Sydney"'),
     'countShort': span('cd-short', '--:--:--'),
     'lightsLabel': raw('<span style="position:relative;display:inline-block"><span class="ch3-label-a">TEAMCH3 · THE BASECAMP IS OPEN</span>'
                        '<span class="ch3-label-b" style="position:absolute;left:0;top:0;white-space:nowrap">LIGHTS OUT — AND AWAY WE GO</span></span>'),
@@ -717,6 +733,7 @@ CSS = r'''
 #ch3-site .ch3-nav{padding:0 16px!important;gap:12px!important}
 #ch3-site .ch3-nav img{height:40px!important}
 #ch3-site .ch3-strip{padding:10px 16px!important}
+#ch3-site .ch3-ontour>div{padding:12px 16px!important;gap:10px!important}
 #ch3-site .ch3-sec{padding:72px 16px!important}
 #ch3-site .ch3-hero-grid{grid-template-columns:minmax(0,1fr)!important;padding:56px 16px 120px!important;gap:36px!important}
 #ch3-site .ch3-pod-grid,#ch3-site .ch3-feed-grid,#ch3-site .ch3-elite,#ch3-site .ch3-region-box{grid-template-columns:minmax(0,1fr)!important;gap:28px!important}
@@ -759,6 +776,7 @@ function tick(){var now=new Date();
  else v={'cd-d':'--','cd-h':'--','cd-m':'--','cd-s':'--','cd-short':'SOON','ev-kind':'COMING UP','ev-short':'NEW DATES SOON','ev-title':'Next live session','ev-blurb':'New dates are announced in the community.'};
  v['rec-short']=r?(r.live?'LIVE NOW':parts(r.s).short):'SOON';
  Object.keys(v).forEach(function(k){q('[data-ch3="'+k+'"]').forEach(function(e){e.textContent=v[k]})});}
+q('[data-ch3-until]').forEach(function(e){if(Date.now()>Date.parse(e.getAttribute('data-ch3-until')))e.style.display='none'});
 tick();setInterval(tick,1000);
 var S=SHOTS_JSON,cur=CUR_JSON,sub=0,playing=true;
 function pos(sh){var rel=sh[0]==='DRIVER'?sh[6]-291:sh[0]==='WEDGE'?sh[6]-95:sh[6]-Number(sh[1])-2;return[(50+sh[7]*4.5)+'%',(50-rel*9)+'%']}

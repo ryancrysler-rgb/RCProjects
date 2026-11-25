@@ -260,3 +260,7 @@ Pod Community is now $19/month ($190/year), down from $49: the value is watching
 
 ## Gift card template (Nov 17)
 Reusable 8.5 x 11 gift card in `gift-cards/` (template, fonts, logos, render script, README). First card: Claude Harmon III, one 90-minute lesson at TeamFLO at the Floridian. For a new card, change the text in the template and re-render.
+
+## On-tour banner + Sydney clock (Nov 25, 2026)
+- Membership page: SYDNEY added to the header clocks; orange "On tour this week" banner under the header for the BMW Australian PGA Championship (The Lakes, Sydney, Nov 26–29) with Claude + Cameron Smith.
+- Banner hides itself after Nov 30 12am Sydney (`ONTOUR['until']` in build_paste.py). Edit ONTOUR for the next event; delete the Sydney clock EDIT when no longer wanted.
