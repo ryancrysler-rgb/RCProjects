@@ -49,7 +49,9 @@ if bad: raise SystemExit("%d holes disagree with the par row" % bad)
 field = {pid: holes(pid) for pid in cards if pid != CID}
 field = {pid: s for pid, s in field.items() if s}
 N = len(field)
-assert N >= 10, "only %d finished players" % N
+# R2: his group is first off, so only his playing partners may be in when he finishes (owner: "compare to as many players as possible
+# that are finished when he finishes"); the note names how many.
+assert N >= 2, "only %d finished players" % N
 avg = [sum(s[i] for s in field.values()) / N for i in range(18)]
 first_tee = bool(cam.get("FirstTee", True))
 # the leader among the finished players (lowest round), first by the leaderboard's order on a tie; none when Cam leads
