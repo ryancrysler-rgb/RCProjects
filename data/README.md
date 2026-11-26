@@ -1,0 +1,1 @@
+- aus-pga-2027/: Australian PGA 2027 (DP World 2027100) leaderboard + finished scorecards at the moment Cam Smith finished each round (no shot tracker that week), and the round report PDFs.
