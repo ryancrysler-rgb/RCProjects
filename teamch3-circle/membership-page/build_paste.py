@@ -187,9 +187,9 @@ for dot, first, last, label, color in [('#253746', 'Mike', 'Bolt', 'HEAD COACH �
                   COACH % (dot, first, last) + COACH_LABEL % (color, label)))
 # ---- this week on tour: Sydney clock + banner below the header (hides itself after the event) ----
 ONTOUR = {'until': '2026-11-30T13:00:00Z',  # Mon Nov 30, 12am Sydney
-          'eyebrow': 'ON TOUR THIS WEEK · SYDNEY',
-          'title': 'CH3 + Cameron Smith at the BMW Australian PGA Championship',
-          'body': 'The Lakes Golf Club, Sydney · November 26–29. Claude is in Sydney with Cam as he chases a fourth Joe Kirkwood Cup.'}
+          'eyebrow': 'AUSTRALIAN PGA · ROUND 3 · SATURDAY',
+          'title': 'Cam Smith 3rd at -9 · tees off 8:35am Sydney',
+          'body': 'Off the 1st with leader Nicolai von Dellingshausen (-13) and Tom McKibbin (-10) at The Lakes. That\u2019s 4:35pm Friday in Florida. Claude is in Sydney with Cam.'}
 EDITS.append(('<span style="color:#A6B1BA">FLORIDA</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums">{{ floTime }}</span>',
               '<span style="color:#A6B1BA">FLORIDA</span><span style="font:400 16px/1 Anton,sans-serif;color:#A6B1BA;font-variant-numeric:tabular-nums">{{ floTime }}</span>'
               '<span style="color:#F47C67">SYDNEY</span><span style="font:400 16px/1 Anton,sans-serif;color:#F47C67;font-variant-numeric:tabular-nums">{{ sydTime }}</span>'))
