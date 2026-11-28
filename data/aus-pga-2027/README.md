@@ -1,0 +1,1 @@
+- r3-20261127-2228.tgz + Cam Smith Aussie PGA R3 Report.pdf — R3 leaderboard + 154 cards, Cam 74 (+2), −7, T11; built 10:28 pm ET Fri 27 Nov 2026
